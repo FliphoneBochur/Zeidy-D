@@ -1,11 +1,38 @@
 async function loadJSON(path) {
-  const res = await fetch(path, { cache: "no-store" });
-  if (!res.ok) throw new Error(`Failed to load ${path}: ${res.status}`);
-  return res.json();
+  try {
+    console.log(`Attempting to fetch: ${path}`);
+    const res = await fetch(path, {
+      cache: "no-store",
+      headers: {
+        Accept: "application/json",
+      },
+    });
+    console.log(`Fetch response for ${path}:`, res.status, res.statusText);
+
+    if (!res.ok) {
+      throw new Error(
+        `Failed to load ${path}: ${res.status} ${res.statusText}`
+      );
+    }
+
+    const data = await res.json();
+    console.log(`Successfully loaded ${path}:`, data);
+    return data;
+  } catch (error) {
+    console.error(`Error loading ${path}:`, error);
+    throw error;
+  }
 }
 
 async function loadManifest() {
-  return loadJSON("manifest.json");
+  // Try relative path first, fallback to absolute if needed
+  try {
+    return await loadJSON("./manifest.json");
+  } catch (error) {
+    console.warn("Relative path failed, trying absolute path...");
+    const repoName = window.location.pathname.split("/")[1]; // Get repo name from URL
+    return loadJSON(`/${repoName}/manifest.json`);
+  }
 }
 
 async function loadMeta(relativePath) {
