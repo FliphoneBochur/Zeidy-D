@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Zeidy D's Parsha Sheets</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="top-header">
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <h1>Zeidy D's Parsha Sheets</h1>
+    </header>
+    <div class="content-wrapper">
+      <div class="nav-overlay" id="nav-overlay"></div>
+      <nav id="nav" aria-label="Navigation"></nav>
+      <main>
+        <header>
+          <h1 id="title">Select a Parsha</h1>
+          <div id="crumbs" class="crumbs"></div>
+        </header>
+        <div id="content" class="media" role="region" aria-live="polite"></div>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
