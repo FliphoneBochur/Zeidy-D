@@ -25,14 +25,8 @@ async function loadJSON(path) {
 }
 
 async function loadManifest() {
-  // Try relative path first, fallback to absolute if needed
-  try {
-    return await loadJSON("./manifest.json");
-  } catch (error) {
-    console.warn("Relative path failed, trying absolute path...");
-    const repoName = window.location.pathname.split("/")[1]; // Get repo name from URL
-    return loadJSON(`/${repoName}/manifest.json`);
-  }
+  // Since we know the file exists at the root, try simple relative path
+  return loadJSON("manifest.json");
 }
 
 async function loadMeta(relativePath) {
@@ -148,8 +142,13 @@ function renderNav(manifest) {
 }
 
 function cap(s) {
+  if (!s || typeof s !== "string") {
+    console.warn("cap() received invalid input:", s);
+    return String(s || "");
+  }
+
   return s.replace(
-    /(^|[-_\\s])(\w)/g,
+    /(^|[-_\s])(\w)/g,
     (_, p, c) => (p ? " " : "") + c.toUpperCase()
   );
 }
