@@ -41,8 +41,8 @@ function renderNav(manifest) {
       const value = data[key];
       const currentPath = [...pathPrefix, key];
 
-      if (typeof value === "object" && Object.keys(value).length === 0) {
-        // This is a leaf node (empty object = actual content)
+      if (typeof value === "string") {
+        // This is a leaf node (string = PDF filename)
         const li = el("li", {}, key);
         li.addEventListener("click", (e) => {
           e.stopPropagation();
@@ -51,7 +51,7 @@ function renderNav(manifest) {
 
           // Reconstruct path from JSON structure
           const fullPath = currentPath.join("/");
-          showContent(fullPath);
+          showContent(fullPath, value);
 
           // Close mobile nav when item is selected
           if (window.innerWidth <= 1024) {
@@ -103,7 +103,7 @@ function cap(s) {
   );
 }
 
-async function showContent(relativePath) {
+async function showContent(relativePath, pdfFilename) {
   const pathParts = relativePath.split("/");
   const displayName = pathParts[pathParts.length - 1];
 
@@ -119,7 +119,6 @@ async function showContent(relativePath) {
   // Meta (YouTube + Spotify)
   try {
     const meta = await loadMeta(relativePath);
-    console.log(meta);
 
     if (meta.youtube) {
       let embedUrl = `https://www.youtube.com/embed/${meta.youtube}`;
@@ -153,14 +152,19 @@ async function showContent(relativePath) {
     content.appendChild(warn);
   }
 
-  // PDF - Find the PDF file in the directory
-  const pdfPath = `Files/${relativePath}/${displayName}.pdf#navpanes=0&scrollbar=1&toolbar=1&view=FitH`;
-  const pdfWrap = el(
-    "div",
-    { class: "pdf-wrap" },
-    el("embed", { class: "pdf", src: pdfPath, type: "application/pdf" })
-  );
-  content.appendChild(pdfWrap);
+  // PDF - Use the exact filename from manifest
+  if (pdfFilename) {
+    const pdfPath = `Files/${relativePath}/${pdfFilename}#navpanes=0&scrollbar=1&toolbar=1&view=FitH`;
+    const pdfWrap = el(
+      "div",
+      { class: "pdf-wrap" },
+      el("embed", { class: "pdf", src: pdfPath, type: "application/pdf" })
+    );
+    content.appendChild(pdfWrap);
+  } else {
+    const warn = el("div", {}, "No PDF file found for this entry.");
+    content.appendChild(warn);
+  }
 }
 
 // Mobile navigation toggle functionality

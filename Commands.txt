@@ -1,0 +1,2 @@
+Run local server: npx http-server -c-1
+Run build manifest: node build-manifest.js

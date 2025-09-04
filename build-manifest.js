@@ -39,10 +39,6 @@ function buildManifest() {
 
       if (hasContent) {
         // This is a leaf node with actual content
-        result[entry] = {};
-        totalEntries++;
-
-        // Validate content
         const metaJsonPath = path.join(entryPath, "meta.json");
         const pdfFiles = fs
           .readdirSync(entryPath)
@@ -59,7 +55,18 @@ function buildManifest() {
         if (pdfFiles.length === 0) {
           warnings.push("no PDF files");
           status = "⚠️";
+          result[entry] = null;
+        } else if (pdfFiles.length === 1) {
+          // Single PDF file - store its name directly
+          result[entry] = pdfFiles[0];
+        } else {
+          // Multiple PDFs - use the first one and warn
+          warnings.push(`multiple PDFs (${pdfFiles.length}), using first`);
+          status = "⚠️";
+          result[entry] = pdfFiles[0];
         }
+
+        totalEntries++;
 
         const warningText =
           warnings.length > 0 ? ` (${warnings.join(", ")})` : "";
