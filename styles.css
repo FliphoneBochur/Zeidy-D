@@ -223,6 +223,16 @@ nav li.active {
   font-weight: 600;
 }
 
+nav li.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  font-style: italic;
+}
+
+nav li.disabled:hover {
+  background: none;
+}
+
 main {
   flex: 1;
   padding: 16px;

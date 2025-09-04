@@ -62,13 +62,23 @@ function renderNav(manifest) {
   const listItems = [];
 
   function renderLevel(data, container, depth = 0, pathPrefix = []) {
+    // Safety check to prevent infinite recursion
+    if (!data || typeof data !== "object" || depth > 10) {
+      console.error("Invalid data or max depth reached:", {
+        data,
+        depth,
+        pathPrefix,
+      });
+      return;
+    }
+
     const keys = Object.keys(data).sort();
 
     for (const key of keys) {
       const value = data[key];
       const currentPath = [...pathPrefix, key];
 
-      if (typeof value === "string") {
+      if (typeof value === "string" && value !== null) {
         // This is a leaf node (string = PDF filename)
         const li = el("li", {}, key);
         li.addEventListener("click", (e) => {
@@ -97,7 +107,7 @@ function renderNav(manifest) {
         const ul = el("ul");
         ul.appendChild(li);
         container.appendChild(ul);
-      } else {
+      } else if (value && typeof value === "object" && !Array.isArray(value)) {
         // This is a branch node, create header and recurse
         const headerTag = depth === 0 ? "h2" : "h3";
         const header = el(headerTag, {}, cap(key));
@@ -116,6 +126,20 @@ function renderNav(manifest) {
         container.appendChild(header);
         renderLevel(value, section, depth + 1, currentPath);
         container.appendChild(section);
+      } else if (value === null) {
+        // Handle null values (missing PDFs) - show as disabled item
+        const li = el("li", { class: "disabled" }, `${key} (No PDF)`);
+        listItems.push(li);
+
+        const ul = el("ul");
+        ul.appendChild(li);
+        container.appendChild(ul);
+      } else {
+        console.warn("Unexpected value type:", {
+          key,
+          value,
+          type: typeof value,
+        });
       }
     }
   }
