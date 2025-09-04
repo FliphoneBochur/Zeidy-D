@@ -166,13 +166,18 @@ async function showContent(relativePath, pdfFilename) {
   const content = document.getElementById("content");
   content.innerHTML = "";
 
+  // Create embeds container for YouTube + Spotify
+  const embedsContainer = el("div", { class: "embeds-container" });
+
   // Meta (YouTube + Spotify)
   try {
     const meta = await loadMeta(relativePath);
+    let hasEmbeds = false;
 
     if (meta.youtube) {
       let embedUrl = `https://www.youtube.com/embed/${meta.youtube}`;
 
+      const ytWrapper = el("div", { class: "youtube-wrapper" });
       const yt = el("iframe", {
         src: embedUrl,
         title: "YouTube player",
@@ -180,13 +185,16 @@ async function showContent(relativePath, pdfFilename) {
           "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
         allowfullscreen: "",
       });
-      content.appendChild(yt);
+      ytWrapper.appendChild(yt);
+      embedsContainer.appendChild(ytWrapper);
+      hasEmbeds = true;
     }
 
     if (meta.spotify) {
       // Convert regular Spotify URL to embed URL if needed
-      let embedUrl = meta.spotify;
+      let embedUrl = `https://open.spotify.com/embed/episode/${meta.spotify}`;
 
+      const spWrapper = el("div", { class: "spotify-wrapper" });
       const sp = el("iframe", {
         src: embedUrl,
         title: "Spotify player",
@@ -194,7 +202,13 @@ async function showContent(relativePath, pdfFilename) {
         allow:
           "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture",
       });
-      content.appendChild(sp);
+      spWrapper.appendChild(sp);
+      embedsContainer.appendChild(spWrapper);
+      hasEmbeds = true;
+    }
+
+    if (hasEmbeds) {
+      content.appendChild(embedsContainer);
     }
   } catch (e) {
     console.error(e);
