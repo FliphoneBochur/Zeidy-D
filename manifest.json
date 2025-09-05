@@ -52,216 +52,200 @@
     }
   },
   "02 - Shemos": {
-    "01 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "01 - Shemos": {
+      "5783": "Shemos 5783.pdf",
+      "5784": "Shemos 5784.pdf",
+      "5785": "Shemos 5785.pdf"
     },
-    "02 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "02 - Vaeira": {
+      "5783": "Vaeira 5783.pdf",
+      "5784": "Vaeira 5784.pdf",
+      "5785": "Vaeira 5785.pdf"
     },
-    "03 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "03 - Bo": {
+      "5783": "Bo 5783.pdf",
+      "5784": "Bo 5784.pdf",
+      "5785": "Bo 5785.pdf"
     },
-    "04 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "04 - Beshalach": {
+      "5783": {
+        "Beshalach 5783 (1)": "Beshalach 5783(1).pdf",
+        "Beshalach 5783 (2)": "Beshalach 5783 (2).pdf"
+      },
+      "5784": "Beshalach 5784.pdf",
+      "5785": "Beshalach 5785.pdf"
     },
-    "05 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "05 - Yisro": {
+      "5783": "Yisro 5783.pdf",
+      "5784": "Yisro 5784.pdf",
+      "5785": "Yisro 5785.pdf"
     },
-    "06 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "06 - Mishpatim": {
+      "5783": "Mishpatim 5783.pdf",
+      "5784": {
+        "Mishpatim 5784 (1)": "Mishpatim (1)  5784.pdf",
+        "Mishpatim 5784 (2)": "Mishpatim (2)  5784.pdf"
+      },
+      "5785": "Mishpatim 5785.pdf"
     },
-    "07 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "07 - Teruma": {
+      "5783": "Teruma 5783.pdf",
+      "5784": "Teruma 5784.pdf",
+      "5785": "Teruma 5785.pdf"
     },
-    "08 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "08 - Tetzaveh": {
+      "5783": "Tetzaveh 5783.pdf",
+      "5784": {
+        "Tetzaveh 5784 (1)": "Tetzaveh (1) 5784.pdf",
+        "Tetzaveh 5784 (2)": "Tetzaveh (2) 5784.pdf"
+      },
+      "5785": "Tetzaveh 5785.pdf"
     },
-    "09 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "09 - Ki Sisa": {
+      "5783": "Ki Sisa 5783.pdf",
+      "5784": "Ki Sisa 5784.pdf",
+      "5785": "Ki Sisa 5785.pdf"
     },
-    "10 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "10 - Vayakel": {
+      "5784": "Vayakel 5784.pdf",
+      "5785": "Vayakel 5785.pdf"
     },
-    "11 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "11 - Pekudei": {
+      "5784": "Pekudei 5784.pdf",
+      "5785": "Pekudei 5785.pdf"
     },
-    "12 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "12 - Vayakel-Pekudei": {
+      "5783": "Vayakel-Pekudei 5783.pdf"
     }
   },
   "03 - Vayikra": {
-    "01 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "01 - Vayikra": {
+      "5783": "Vayikra 5783.pdf",
+      "5784": "Vayikrah 5784.pdf",
+      "5785": "Vayikra 5785.pdf"
     },
-    "02 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "02 - Tzav": {
+      "5783": "Tzav 5783.pdf",
+      "5784": "Tzav 5784.pdf",
+      "5785": "Tzav 5785.pdf"
     },
-    "03 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "03 - Shmini": {
+      "5783": "Shmini 5783.pdf",
+      "5784": "Shmini 5784.pdf",
+      "5785": "Shmini 5785.pdf"
     },
-    "04 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "04 - Tazria": {
+      "5784": "Tazria 5784.pdf"
     },
-    "05 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "05 - Metzora": {
+      "5784": "Metzora 5784.pdf"
     },
-    "06 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "06 - Tazria-Metzora": {
+      "5783": "Tazria-Metzora 5783.pdf",
+      "5785": "Tazria-Metzora 5785.pdf"
     },
-    "07 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "07 - Achrei Mos": {
+      "5784": "Achrei Mos 5784.pdf"
     },
-    "08 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "08 - Kedoshim": {
+      "5784": "Kedoshim 5784.pdf"
     },
-    "09 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "09 -  Achrei Mos-Kedoshim": {
+      "5783": "Achrei Mos-Kedoshim 5783.pdf",
+      "5785": "Achrei Mos-Kedoshim 5785.pdf"
     },
-    "10 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "10 - Emor": {
+      "5783": "Emor 5783.pdf",
+      "5784": "Emor 5784.pdf",
+      "5785": "Emor 5785.pdf"
     },
-    "11 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "11 - Behar": {
+      "5784": "Behar 5784.pdf"
     },
-    "12 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "12 - Bechukosai": {
+      "5784": "Bechukosai 5784.pdf"
+    },
+    "13 - Behar-Bechukosai": {
+      "5783": "Behar-Bechukosai 5783.pdf",
+      "5785": "Behar-Bechukosai 5785.pdf"
     }
   },
   "04 - Bamidbar": {
-    "01 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "01 - Bamidbar": {
+      "5783": "Bamidbar 5783.pdf",
+      "5784": "Bamidbar 5784.pdf",
+      "5785": "Bamidbar 5785.pdf"
     },
-    "02 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "02 - Naso": {
+      "5783": "Naso 5783.pdf",
+      "5784": "Naso 5784.pdf",
+      "5785": "Naso 5785.pdf"
     },
-    "03 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "03 - Behaloscha": {
+      "5783": "Behaloscha 5783.pdf",
+      "5784": "Behaloscha 5784.pdf",
+      "5785": "Behaloscha 5785.pdf"
     },
-    "04 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "04 - Shlach": {
+      "5783": "Shlach 5783.pdf",
+      "5784": "Shlach 5784.pdf",
+      "5785": "Shlach 5785.pdf"
     },
-    "05 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "05 - Korach": {
+      "5783": "Korach 5783.pdf",
+      "5784": "Korach 5784.pdf",
+      "5785": "Korach 5785.pdf"
     },
-    "06 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "06 - Chukas": {
+      "5784": {
+        "Chukas (1)": "Chukas 5784 (1).pdf",
+        "Chukas (2)": "Chukas 5784 (2).pdf"
+      },
+      "5785": "Chukas 5785.pdf"
     },
-    "07 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "07 - Balak": {
+      "5784": "Balak 5784.pdf",
+      "5785": "Balak 5785.pdf"
     },
-    "08 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "08 - Chukas-Balak": {
+      "5783": "Chukas-Balak 5783.pdf"
     },
-    "09 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "09 - Pinchas": {
+      "5783": "Pinchas 5783.pdf",
+      "5784": "Pinchas 5784.pdf",
+      "5785": "Pinchas 5785.pdf"
     },
-    "10 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
-    },
-    "11 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
-    },
-    "12 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "10 - Matos-Maasei": {
+      "5783": "Matos-Maasei 5783.pdf",
+      "5784": "Matos-Maasei 5784.pdf",
+      "5785": "Matos Massei 5785.pdf"
     }
   },
   "05 - Devarim": {
-    "01 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "01 - Devarim": {
+      "5783": "Devarim 5783.pdf",
+      "5784": "Devarim 5784.pdf",
+      "5785": "Devarim 5785.pdf"
     },
-    "02 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "02 - Vaeschanan": {
+      "5783": "Vaeschanan 5783.pdf",
+      "5784": "Vaeschanan 5784.pdf",
+      "5785": "Vaeschanan 5785.pdf"
     },
-    "03 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "03 - Eikev": {
+      "5783": "Eikev 5783.pdf",
+      "5784": "Eikev 5784.pdf",
+      "5785": "Eikev 5785.pdf"
     },
-    "04 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "04 - Re'eh": {
+      "5783": "Re'eh 5783.pdf",
+      "5784": "Re'eh 5784.pdf",
+      "5785": "Re'eh 5785.pdf"
     },
-    "05 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "05 - Shoftim": {
+      "5783": "Shoftim 5783.pdf",
+      "5784": "Shoftim 5784.pdf",
+      "5785": "Shoftim 5785.pdf"
     },
     "06 - Ki Seitzei": {
       "5783": "Ki Seitzei 5783.pdf",
@@ -271,97 +255,109 @@
       },
       "5785": "Ki Seitzei 5785.pdf"
     },
-    "07 -": {
+    "07 - Ki Savo": {
       "5783": null,
       "5784": null,
       "5785": null
     },
-    "08 -": {
-      "5783": null,
-      "5784": null,
+    "08 -  Nitzavim": {
       "5785": null
     },
-    "09 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "09 - Vayailech": {
+      "5786": null
     },
-    "10 -": {
+    "10 - Nitzavim-Vayailech": {
       "5783": null,
-      "5784": null,
-      "5785": null
+      "5784": null
     },
-    "11 -": {
-      "5783": null,
+    "11 - Ha'azinu": {
       "5784": null,
-      "5785": null
+      "5785": null,
+      "5786": null
     },
-    "12 -": {
-      "5783": null,
+    "12 - V'zos Habracha": {
       "5784": null,
-      "5785": null
+      "5785": null,
+      "5786": null
     }
   },
   "06 - Yom Tov": {
-    "01 -": {
-      "5783": null,
+    "01 - Pesach": {
+      "5783": {
+        "Dvar Torah": "Dvar Torah Pesach 5783.pdf",
+        "Mussaf": "Mussaf Yom Tov 5783.pdf",
+        "Story": "Story Pesach 5783.pdf"
+      },
+      "5784": "Pesach 5784.pdf",
+      "5785": {
+        "Dvar Torah": "Dvar Torah Pesach 5785.pdf",
+        "Story 1": "Story Pesach 5785.pdf",
+        "Story 2": "Story 2 Pesach 5785.pdf"
+      }
+    },
+    "02 - Pesach Sheini": {
+      "5784": "Pesach Sheini 5784.pdf",
+      "5785": "Pesach Sheini 5785.pdf"
+    },
+    "03 - Lag Baomer": {
+      "5784": "Lag Baomer 5784.pdf",
+      "5785": "Lag Baomer 5785.pdf"
+    },
+    "04 - Shavuos": {
+      "5783": "Shavuos 5783.pdf",
+      "5784": "Shavuos 5784.pdf",
+      "5785": "Shavuos 5785.pdf"
+    },
+    "05 - 17 Tamuz": {
+      "5784": "17 Tamuz 5784.pdf",
+      "5785": "17 Tamuz 5785.pdf"
+    },
+    "06 - 9 Av": {
+      "5783": "9 Av 5783.pdf",
+      "5784": "9 Av 5784.pdf",
+      "5785": "9 Av 5785.pdf"
+    },
+    "07 - 15 Av": {
+      "5784": "15 Av 5784.pdf",
+      "5785": "15 Av 5785.pdf"
+    },
+    "08 - Elul": {
+      "5784": "Elul 5784.pdf",
+      "5785": "Elul 5785.pdf"
+    },
+    "09 - Rosh Hashana": {
       "5784": null,
       "5785": null
     },
-    "02 -": {
-      "5783": null,
+    "10 - Yom Kipper": {
       "5784": null,
       "5785": null
     },
-    "03 -": {
-      "5783": null,
+    "11 - Sukkos": {
       "5784": null,
       "5785": null
     },
-    "04 -": {
-      "5783": null,
+    "12 - Hoshana Raba": {
       "5784": null,
       "5785": null
     },
-    "05 -": {
-      "5783": null,
+    "13 - Shmini Atzeres": {
       "5784": null,
-      "5785": null
+      "5785": null,
+      "5786": null
     },
-    "06 -": {
-      "5783": null,
+    "14 - Simchas Torah": {
       "5784": null,
-      "5785": null
+      "5785": null,
+      "5786": null
     },
-    "07 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
-    },
-    "08 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
-    },
-    "09 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
-    },
-    "10 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
-    },
-    "11 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
-    },
-    "12 -": {
-      "5783": null,
-      "5784": null,
-      "5785": null
+    "15 - Chanukah": {
+      "5783": "Chanukah 5783.pdf",
+      "5784": "Chanukah 5784.pdf",
+      "5785": "Chanukah 5785.pdf"
     }
+  },
+  "07 - Misc": {
+    "Bris": null
   }
 }

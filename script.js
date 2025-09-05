@@ -104,9 +104,12 @@ function renderNav(manifest) {
       } else if (value && typeof value === "object" && !Array.isArray(value)) {
         // This is a branch node, create header and recurse
         const headerTag = depth === 0 ? "h2" : "h3";
-        const header = el(headerTag, {}, cap(key));
+        const header = el(headerTag, { class: "collapsed" }, cap(key));
         const section = el("div", {
-          class: depth === 0 ? "sefer-section" : "section-level-" + depth,
+          class:
+            depth === 0
+              ? "sefer-section collapsed"
+              : "section-level-" + depth + " collapsed",
         });
 
         // Add accordion functionality

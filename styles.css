@@ -195,6 +195,8 @@ nav ul.collapsed {
 .section-level-5 {
   transition: max-height 0.3s ease, opacity 0.2s ease;
   overflow: hidden;
+  max-height: 1000px; /* Default open state - large enough for content */
+  opacity: 1;
 }
 
 .sefer-section.collapsed,
