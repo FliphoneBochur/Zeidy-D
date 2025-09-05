@@ -40,9 +40,13 @@ function buildManifest() {
       if (hasContent) {
         // This is a leaf node with actual content
         const metaJsonPath = path.join(entryPath, "meta.json");
-        const pdfFiles = fs
-          .readdirSync(entryPath)
-          .filter((file) => file.toLowerCase().endsWith(".pdf"));
+        const allFiles = fs.readdirSync(entryPath);
+        const pdfFiles = allFiles.filter((file) =>
+          file.toLowerCase().endsWith(".pdf")
+        );
+        const mp3Files = allFiles.filter((file) =>
+          file.toLowerCase().endsWith(".mp3")
+        );
 
         let status = "✅";
         const warnings = [];
@@ -57,13 +61,48 @@ function buildManifest() {
           status = "⚠️";
           result[entry] = null;
         } else if (pdfFiles.length === 1) {
+          const pdfFile = pdfFiles[0];
+
+          // Handle MP3 renaming to match PDF
+          if (mp3Files.length === 1) {
+            const mp3File = mp3Files[0];
+            const expectedMp3Name = pdfFile.replace(".pdf", ".mp3");
+
+            if (mp3File !== expectedMp3Name) {
+              // Rename MP3 to match PDF
+              const oldMp3Path = path.join(entryPath, mp3File);
+              const newMp3Path = path.join(entryPath, expectedMp3Name);
+
+              try {
+                fs.renameSync(oldMp3Path, newMp3Path);
+                console.log(
+                  `      📝 Renamed MP3: "${mp3File}" → "${expectedMp3Name}"`
+                );
+              } catch (error) {
+                warnings.push(`failed to rename MP3: ${error.message}`);
+                status = "⚠️";
+              }
+            }
+          } else if (mp3Files.length > 1) {
+            warnings.push(
+              `multiple MP3 files (${mp3Files.length}), manual rename needed`
+            );
+            status = "⚠️";
+          }
+          // No warning if no MP3 files - that's optional
+
           // Single PDF file - store its name directly
-          result[entry] = pdfFiles[0];
+          result[entry] = pdfFile;
         } else {
           // Multiple PDFs - use the first one and warn
           warnings.push(`multiple PDFs (${pdfFiles.length}), using first`);
           status = "⚠️";
           result[entry] = pdfFiles[0];
+
+          // Don't try to rename MP3s if multiple PDFs
+          if (mp3Files.length > 0) {
+            warnings.push("MP3 renaming skipped due to multiple PDFs");
+          }
         }
 
         totalEntries++;

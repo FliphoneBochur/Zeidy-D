@@ -196,20 +196,75 @@ async function showContent(relativePath, pdfFilename) {
       hasEmbeds = true;
     }
 
-    if (meta.spotify) {
-      // Convert regular Spotify URL to embed URL if needed
-      let embedUrl = `https://open.spotify.com/embed/episode/${meta.spotify}`;
+    // Check for MP3 file with same name as PDF
+    if (pdfFilename) {
+      const mp3Filename = pdfFilename.replace(".pdf", ".mp3");
+      const mp3Path = `Files/${relativePath}/${mp3Filename}`;
 
-      const spWrapper = el("div", { class: "spotify-wrapper" });
-      const sp = el("iframe", {
-        src: embedUrl,
-        title: "Spotify player",
-        loading: "lazy",
-        allow:
-          "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture",
+      // Create modern audio player
+      const audioWrapper = el("div", { class: "audio-wrapper" });
+
+      // Audio title
+      const audioTitle = el("h4", { class: "audio-title" }, "Audio");
+
+      // Hidden audio element
+      const audio = el("audio", {
+        preload: "metadata",
+        id: `audio-${Date.now()}`, // Unique ID
       });
-      spWrapper.appendChild(sp);
-      embedsContainer.appendChild(spWrapper);
+
+      const source = el("source", {
+        src: mp3Path,
+        type: "audio/mpeg",
+      });
+      audio.appendChild(source);
+
+      // Player controls container
+      const controlsContainer = el("div", { class: "audio-controls" });
+
+      // Play/Pause button
+      const playBtn = el("button", { class: "audio-btn play-btn" }, "▶️");
+
+      // Progress container
+      const progressContainer = el("div", { class: "progress-container" });
+      const progressBar = el("div", { class: "progress-bar" });
+      const progressFill = el("div", { class: "progress-fill" });
+      progressBar.appendChild(progressFill);
+
+      const timeDisplay = el("span", { class: "time-display" }, "0:00 / 0:00");
+      progressContainer.appendChild(progressBar);
+      progressContainer.appendChild(timeDisplay);
+
+      // Speed control
+      const speedBtn = el("button", { class: "audio-btn speed-btn" }, "1x");
+
+      // Download button
+      const downloadBtn = el(
+        "a",
+        {
+          class: "audio-btn download-btn",
+          href: mp3Path,
+          download: mp3Filename,
+          title: "Download audio file",
+        },
+        "⬇️"
+      );
+
+      // Assemble controls
+      controlsContainer.appendChild(playBtn);
+      controlsContainer.appendChild(progressContainer);
+      controlsContainer.appendChild(speedBtn);
+      controlsContainer.appendChild(downloadBtn);
+
+      // Assemble player
+      audioWrapper.appendChild(audioTitle);
+      audioWrapper.appendChild(audio);
+      audioWrapper.appendChild(controlsContainer);
+
+      // Add event listeners
+      setupAudioPlayer(audio, playBtn, progressFill, timeDisplay, speedBtn);
+
+      embedsContainer.appendChild(audioWrapper);
       hasEmbeds = true;
     }
 
@@ -288,6 +343,64 @@ function initMobileNav() {
       closeNav();
     }
   });
+}
+
+// Audio player functionality
+function setupAudioPlayer(audio, playBtn, progressFill, timeDisplay, speedBtn) {
+  let isPlaying = false;
+  const speeds = [0.5, 0.75, 1, 1.25, 1.5, 2];
+  let currentSpeedIndex = 2; // Start at 1x
+
+  // Play/Pause functionality
+  playBtn.addEventListener("click", () => {
+    if (isPlaying) {
+      audio.pause();
+      playBtn.textContent = "▶️";
+      isPlaying = false;
+    } else {
+      audio.play();
+      playBtn.textContent = "⏸️";
+      isPlaying = true;
+    }
+  });
+
+  // Speed control
+  speedBtn.addEventListener("click", () => {
+    currentSpeedIndex = (currentSpeedIndex + 1) % speeds.length;
+    const speed = speeds[currentSpeedIndex];
+    audio.playbackRate = speed;
+    speedBtn.textContent = `${speed}x`;
+  });
+
+  // Progress tracking
+  audio.addEventListener("timeupdate", () => {
+    const progress = (audio.currentTime / audio.duration) * 100;
+    progressFill.style.width = `${progress || 0}%`;
+
+    const current = formatTime(audio.currentTime || 0);
+    const duration = formatTime(audio.duration || 0);
+    timeDisplay.textContent = `${current} / ${duration}`;
+  });
+
+  // Progress bar click
+  progressFill.parentElement.addEventListener("click", (e) => {
+    const rect = progressFill.parentElement.getBoundingClientRect();
+    const pos = (e.clientX - rect.left) / rect.width;
+    audio.currentTime = pos * audio.duration;
+  });
+
+  // Reset when ended
+  audio.addEventListener("ended", () => {
+    playBtn.textContent = "▶️";
+    isPlaying = false;
+    progressFill.style.width = "0%";
+  });
+}
+
+function formatTime(seconds) {
+  const mins = Math.floor(seconds / 60);
+  const secs = Math.floor(seconds % 60);
+  return `${mins}:${secs.toString().padStart(2, "0")}`;
 }
 
 // Initialize the application
