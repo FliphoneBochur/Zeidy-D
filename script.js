@@ -74,7 +74,7 @@ function renderNav(manifest) {
 
       if (typeof value === "string" && value !== null) {
         // This is a leaf node (string = PDF filename)
-        const li = el("li", {}, key);
+        const li = el("li", {}, cap(key));
         li.addEventListener("click", (e) => {
           e.stopPropagation();
           listItems.forEach((x) => x.classList.remove("active"));
@@ -122,7 +122,7 @@ function renderNav(manifest) {
         container.appendChild(section);
       } else if (value === null) {
         // Handle null values (missing PDFs) - show as disabled item
-        const li = el("li", { class: "disabled" }, `${key} (No PDF)`);
+        const li = el("li", { class: "disabled" }, `${cap(key)} (No PDF)`);
         listItems.push(li);
 
         const ul = el("ul");
@@ -147,7 +147,10 @@ function cap(s) {
     return String(s || "");
   }
 
-  return s.replace(
+  // Strip number prefixes like "1-", "01 - ", "10-", etc. for display
+  const withoutPrefix = s.replace(/^\d+\s*-\s*/, "");
+
+  return withoutPrefix.replace(
     /(^|[-_\s])(\w)/g,
     (_, p, c) => (p ? " " : "") + c.toUpperCase()
   );
