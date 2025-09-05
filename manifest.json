@@ -249,7 +249,40 @@
     "05 - Shoftim": {
       "5783": "Shoftim 5783.pdf",
       "5784": "Shoftim 5784.pdf",
+      "5785": "Shoftim 5785.pdf"
+    },
+    "06 - Ki Seitzei": {
+      "5783": "Ki Seitzei 5783.pdf",
+      "5784": {
+        "Ki Seitzei 5784 (1)": "Ki Seitzei 5784 (1).pdf",
+        "Ki Seitzei 5784 (2)": "Ki Seitzei 5784 (2).pdf"
+      },
+      "5785": "Ki Seitzei 5785.pdf"
+    },
+    "07 - Ki Savo": {
+      "5783": null,
+      "5784": null,
       "5785": null
+    },
+    "08 -  Nitzavim": {
+      "5785": null
+    },
+    "09 - Vayailech": {
+      "5786": null
+    },
+    "10 - Nitzavim-Vayailech": {
+      "5783": null,
+      "5784": null
+    },
+    "11 - Ha'azinu": {
+      "5784": null,
+      "5785": null,
+      "5786": null
+    },
+    "12 - V'zos Habracha": {
+      "5784": null,
+      "5785": null,
+      "5786": null
     }
   },
   "06 - Yom Tov": {
@@ -298,7 +331,8 @@
     },
     "09 - Rosh Hashana": {
       "5784": null,
-      "5785": null
+      "5785": null,
+      "Rosh Hashana in Berditchev": null
     },
     "10 - Yom Kipper": {
       "5784": null,
@@ -326,6 +360,22 @@
       "5783": "Chanukah 5783.pdf",
       "5784": "Chanukah 5784.pdf",
       "5785": "Chanukah 5785.pdf"
+    },
+    "16 - Tu Beshvat": {
+      "5784": "Tu Beshvat 5784.pdf",
+      "5785": "Tu Beshvat 5785.pdf"
+    },
+    "17 - Purim Katon": {
+      "5784": "Purim Katon 5784.pdf"
+    },
+    "18 - Purim": {
+      "5783": {
+        "Krovitz": "Krovitz.pdf",
+        "Purim Dvar Torah 5783": "Purim Dvar Torah 5783.pdf",
+        "Story Purim 5783": "Story Purim 5783.pdf"
+      },
+      "5784": "Purim 5784.pdf",
+      "5785": "Purim 5785.pdf"
     }
   },
   "07 - Misc": {
