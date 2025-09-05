@@ -30,15 +30,8 @@ async function loadManifest() {
 }
 
 async function loadMeta(relativePath) {
-  // Construct proper path including repo name for GitHub Pages
-  const basePath =
-    window.location.pathname === "/"
-      ? ""
-      : window.location.pathname.split("/")[1];
-  const fullPath = basePath
-    ? `${basePath}/Files/${relativePath}/meta.json`
-    : `Files/${relativePath}/meta.json`;
-  return loadJSON(fullPath);
+  const path = `Files/${relativePath}/meta.json`;
+  return loadJSON(path);
 }
 
 function el(tag, props = {}, ...children) {
