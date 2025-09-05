@@ -91,11 +91,11 @@ body {
   transform: translateY(-7px) rotate(-45deg);
 }
 
+/* Desktop layout by default */
 .main-wrapper {
   display: flex;
   flex: 1;
   overflow: hidden;
-  position: relative;
 }
 
 nav {
@@ -112,7 +112,7 @@ main {
   flex: 1;
   padding: 16px;
   overflow-y: auto;
-  z-index: 1;
+  width: 100%;
 }
 
 /* Nav overlay - completely hidden on desktop */
