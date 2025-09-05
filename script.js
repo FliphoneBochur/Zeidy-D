@@ -277,14 +277,53 @@ async function showContent(relativePath, pdfFilename) {
     content.appendChild(warn);
   }
 
-  // PDF - Use the exact filename from manifest
+  // PDF - Use different approach for mobile vs desktop
   if (pdfFilename) {
-    const pdfPath = `Files/${relativePath}/${pdfFilename}#navpanes=0&scrollbar=1&toolbar=1&view=FitH`;
-    const pdfWrap = el(
-      "div",
-      { class: "pdf-wrap" },
-      el("embed", { class: "pdf", src: pdfPath, type: "application/pdf" })
-    );
+    const pdfPath = `Files/${relativePath}/${pdfFilename}`;
+    const isMobile = window.innerWidth <= 768;
+
+    const pdfWrap = el("div", { class: "pdf-wrap" });
+
+    if (isMobile) {
+      // Mobile: Use PDF.js for better experience
+      const pdfUrl = encodeURIComponent(window.location.origin + "/" + pdfPath);
+      const pdfViewerUrl = `https://mozilla.github.io/pdf.js/web/viewer.html?file=${pdfUrl}`;
+
+      // Create mobile PDF container with iframe and download option
+      const mobileContainer = el("div", { class: "mobile-pdf-container" });
+
+      // PDF.js iframe
+      const pdfViewer = el("iframe", {
+        src: pdfViewerUrl,
+        class: "mobile-pdf-viewer",
+        title: "PDF Viewer",
+      });
+
+      // Download button for backup
+      const downloadBtn = el(
+        "a",
+        {
+          href: pdfPath,
+          download: pdfFilename,
+          class: "pdf-download-btn",
+        },
+        "📄 Download PDF"
+      );
+
+      mobileContainer.appendChild(downloadBtn);
+      mobileContainer.appendChild(pdfViewer);
+      pdfWrap.appendChild(mobileContainer);
+    } else {
+      // Desktop: Current embed approach with parameters
+      const pdfPathWithParams = `${pdfPath}#navpanes=0&scrollbar=1&toolbar=1&view=FitH`;
+      const pdfEmbed = el("embed", {
+        class: "pdf",
+        src: pdfPathWithParams,
+        type: "application/pdf",
+      });
+      pdfWrap.appendChild(pdfEmbed);
+    }
+
     content.appendChild(pdfWrap);
   } else {
     const warn = el("div", {}, "No PDF file found for this entry.");
@@ -384,6 +423,15 @@ function initMobileNav() {
       closeNav();
     } else {
       checkAutoOpen();
+    }
+
+    // Refresh PDF display if switching between mobile/desktop
+    const activeItem = document.querySelector("nav li.active");
+    if (activeItem) {
+      // Small delay to ensure layout has updated
+      setTimeout(() => {
+        activeItem.click();
+      }, 100);
     }
   });
 

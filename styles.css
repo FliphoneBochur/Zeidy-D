@@ -309,6 +309,39 @@ main header h1 {
   border: 1px solid var(--border);
 }
 
+/* Mobile PDF container */
+.mobile-pdf-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-pdf-viewer {
+  flex: 1;
+  width: 100%;
+  min-height: 60vh;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+.pdf-download-btn {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 12px;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+.pdf-download-btn:hover {
+  background: #0056b3;
+}
+
 /* YouTube aspect ratio container */
 .youtube-wrapper {
   position: relative;
@@ -414,8 +447,12 @@ iframe {
   
   /* Better spacing for mobile */
   .pdf-wrap {
-    aspect-ratio: 8.5 / 11;
-    max-height: 60vh;
+    aspect-ratio: auto; /* Let mobile PDF viewer control its own aspect ratio */
+    max-height: 70vh;
+  }
+  
+  .mobile-pdf-viewer {
+    min-height: 50vh; /* Smaller on mobile */
   }
   
   iframe {
