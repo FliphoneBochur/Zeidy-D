@@ -300,6 +300,20 @@ function initMobileNav() {
 
   if (!navToggle) return; // Desktop mode
 
+  // Check if we should auto-open on mobile
+  function checkAutoOpen() {
+    if (window.innerWidth <= 1024) {
+      // Check if any content is selected (no active nav items)
+      const hasActiveItem = document.querySelector("nav li.active");
+      const isCurrentlyOpen = nav.classList.contains("open");
+
+      if (!hasActiveItem && !isCurrentlyOpen) {
+        // No content selected and nav not already open - open it
+        setTimeout(openNav, 100); // Small delay to ensure DOM is ready
+      }
+    }
+  }
+
   function toggleNav() {
     const isOpen = nav.classList.contains("open");
 
@@ -337,12 +351,44 @@ function initMobileNav() {
     }
   });
 
-  // Close nav when window is resized to desktop size
+  // Auto-open on initial load if mobile and no content selected
+  checkAutoOpen();
+
+  // Update nav position based on header height
+  function updateNavPosition() {
+    if (window.innerWidth <= 1024) {
+      const header = document.querySelector(".top-header");
+      const nav = document.getElementById("nav");
+      if (header && nav) {
+        const headerRect = header.getBoundingClientRect();
+        const headerBottom = headerRect.bottom;
+        nav.style.top = `${headerBottom}px`;
+        nav.style.height = `calc(100vh - ${headerBottom}px)`;
+        nav.style.marginTop = "0";
+      }
+    } else {
+      // Reset inline styles on desktop
+      const nav = document.getElementById("nav");
+      if (nav) {
+        nav.style.top = "";
+        nav.style.height = "";
+        nav.style.marginTop = "";
+      }
+    }
+  }
+
+  // Update position on resize
   window.addEventListener("resize", () => {
+    updateNavPosition();
     if (window.innerWidth > 1024) {
       closeNav();
+    } else {
+      checkAutoOpen();
     }
   });
+
+  // Initial position update
+  updateNavPosition();
 }
 
 // Audio player functionality
