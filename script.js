@@ -30,8 +30,15 @@ async function loadManifest() {
 }
 
 async function loadMeta(relativePath) {
-  const path = `Files/${relativePath}/meta.json`;
-  return loadJSON(path);
+  // Construct proper path including repo name for GitHub Pages
+  const basePath =
+    window.location.pathname === "/"
+      ? ""
+      : window.location.pathname.split("/")[1];
+  const fullPath = basePath
+    ? `${basePath}/Files/${relativePath}/meta.json`
+    : `Files/${relativePath}/meta.json`;
+  return loadJSON(fullPath);
 }
 
 function el(tag, props = {}, ...children) {
@@ -279,14 +286,23 @@ async function showContent(relativePath, pdfFilename) {
 
   // PDF - Use different approach for mobile vs desktop
   if (pdfFilename) {
-    const pdfPath = `Files/${relativePath}/${pdfFilename}`;
-    const isMobile = window.innerWidth <= 768;
+    // Construct proper path including repo name for GitHub Pages
+    const basePath =
+      window.location.pathname === "/"
+        ? ""
+        : window.location.pathname.split("/")[1];
+    const fullPdfPath = basePath
+      ? `${basePath}/Files/${relativePath}/${pdfFilename}`
+      : `Files/${relativePath}/${pdfFilename}`;
 
+    const isMobile = window.innerWidth <= 768;
     const pdfWrap = el("div", { class: "pdf-wrap" });
 
     if (isMobile) {
       // Mobile: Use PDF.js for better experience
-      const pdfUrl = encodeURIComponent(window.location.origin + "/" + pdfPath);
+      const pdfUrl = encodeURIComponent(
+        window.location.origin + "/" + fullPdfPath
+      );
       const pdfViewerUrl = `https://mozilla.github.io/pdf.js/web/viewer.html?file=${pdfUrl}`;
 
       // Create mobile PDF container with iframe and download option
@@ -303,7 +319,7 @@ async function showContent(relativePath, pdfFilename) {
       const downloadBtn = el(
         "a",
         {
-          href: pdfPath,
+          href: fullPdfPath,
           download: pdfFilename,
           class: "pdf-download-btn",
         },
@@ -315,7 +331,7 @@ async function showContent(relativePath, pdfFilename) {
       pdfWrap.appendChild(mobileContainer);
     } else {
       // Desktop: Current embed approach with parameters
-      const pdfPathWithParams = `${pdfPath}#navpanes=0&scrollbar=1&toolbar=1&view=FitH`;
+      const pdfPathWithParams = `${fullPdfPath}#navpanes=0&scrollbar=1&toolbar=1&view=FitH`;
       const pdfEmbed = el("embed", {
         class: "pdf",
         src: pdfPathWithParams,
