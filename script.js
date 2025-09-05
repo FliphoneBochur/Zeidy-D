@@ -279,22 +279,14 @@ async function showContent(relativePath, pdfFilename) {
 
   // PDF - Use different approach for mobile vs desktop
   if (pdfFilename) {
-    // Construct proper path including repo name for GitHub Pages
-    const basePath =
-      window.location.pathname === "/"
-        ? ""
-        : window.location.pathname.split("/")[1];
-    const fullPdfPath = basePath
-      ? `${basePath}/Files/${relativePath}/${pdfFilename}`
-      : `Files/${relativePath}/${pdfFilename}`;
-
     const isMobile = window.innerWidth <= 768;
     const pdfWrap = el("div", { class: "pdf-wrap" });
 
     if (isMobile) {
-      // Mobile: Use PDF.js for better experience
+      // Mobile: Use simple relative path (same origin)
+      const mobilePdfPath = `Files/${relativePath}/${pdfFilename}`;
       const pdfUrl = encodeURIComponent(
-        window.location.origin + "/" + fullPdfPath
+        window.location.origin + "/" + mobilePdfPath
       );
       const pdfViewerUrl = `https://mozilla.github.io/pdf.js/web/viewer.html?file=${pdfUrl}`;
 
@@ -312,7 +304,7 @@ async function showContent(relativePath, pdfFilename) {
       const downloadBtn = el(
         "a",
         {
-          href: fullPdfPath,
+          href: mobilePdfPath,
           download: pdfFilename,
           class: "pdf-download-btn",
         },
@@ -323,8 +315,16 @@ async function showContent(relativePath, pdfFilename) {
       mobileContainer.appendChild(pdfViewer);
       pdfWrap.appendChild(mobileContainer);
     } else {
-      // Desktop: Current embed approach with parameters
-      const pdfPathWithParams = `${fullPdfPath}#navpanes=0&scrollbar=1&toolbar=1&view=FitH`;
+      // Desktop: Include repo name for direct embed
+      const basePath =
+        window.location.pathname === "/"
+          ? ""
+          : window.location.pathname.split("/")[1];
+      const desktopPdfPath = basePath
+        ? `${basePath}/Files/${relativePath}/${pdfFilename}`
+        : `Files/${relativePath}/${pdfFilename}`;
+
+      const pdfPathWithParams = `${desktopPdfPath}#navpanes=0&scrollbar=1&toolbar=1&view=FitH`;
       const pdfEmbed = el("embed", {
         class: "pdf",
         src: pdfPathWithParams,
