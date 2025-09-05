@@ -2,11 +2,27 @@
 
 const fs = require("fs");
 const path = require("path");
+const readline = require("readline");
 
 const FILES_DIR = "./Files";
 const MANIFEST_FILE = "./manifest.json";
 
-function buildManifest() {
+// Helper function to prompt user for confirmation
+function promptUser(question) {
+  return new Promise((resolve) => {
+    const rl = readline.createInterface({
+      input: process.stdin,
+      output: process.stdout,
+    });
+
+    rl.question(question, (answer) => {
+      rl.close();
+      resolve(answer.toLowerCase().trim());
+    });
+  });
+}
+
+async function buildManifest() {
   console.log("🔍 Scanning Files directory...");
 
   if (!fs.existsSync(FILES_DIR)) {
@@ -17,7 +33,7 @@ function buildManifest() {
   const manifest = {};
   let totalEntries = 0;
 
-  function scanDirectory(dirPath, relativePath = "", depth = 0) {
+  async function scanDirectory(dirPath, relativePath = "", depth = 0) {
     const entries = fs
       .readdirSync(dirPath, { withFileTypes: true })
       .filter((dirent) => dirent.isDirectory())
@@ -60,49 +76,72 @@ function buildManifest() {
           warnings.push("no PDF files");
           status = "⚠️";
           result[entry] = null;
+        } else if (pdfFiles.length > 1) {
+          // Multiple PDFs - exit with error
+          console.error(
+            `\n❌ Multiple PDF files found in ${relativePath}/${entry}:`
+          );
+          pdfFiles.forEach((pdf) => console.error(`   - ${pdf}`));
+          console.error(
+            "Please ensure each directory has exactly one PDF file."
+          );
+          process.exit(1);
         } else if (pdfFiles.length === 1) {
           const pdfFile = pdfFiles[0];
 
           // Handle MP3 renaming to match PDF
-          if (mp3Files.length === 1) {
+          if (mp3Files.length > 1) {
+            // Multiple MP3s - exit with error
+            console.error(
+              `\n❌ Multiple MP3 files found in ${relativePath}/${entry}:`
+            );
+            mp3Files.forEach((mp3) => console.error(`   - ${mp3}`));
+            console.error(
+              "Please ensure each directory has at most one MP3 file."
+            );
+            process.exit(1);
+          } else if (mp3Files.length === 1) {
             const mp3File = mp3Files[0];
             const expectedMp3Name = pdfFile.replace(".pdf", ".mp3");
 
             if (mp3File !== expectedMp3Name) {
-              // Rename MP3 to match PDF
-              const oldMp3Path = path.join(entryPath, mp3File);
-              const newMp3Path = path.join(entryPath, expectedMp3Name);
+              // Prompt user before renaming
+              console.log(
+                `\n📝 Found MP3 that needs renaming in ${relativePath}/${entry}:`
+              );
+              console.log(`   Current: ${mp3File}`);
+              console.log(`   Expected: ${expectedMp3Name}`);
 
-              try {
-                fs.renameSync(oldMp3Path, newMp3Path);
-                console.log(
-                  `      📝 Renamed MP3: "${mp3File}" → "${expectedMp3Name}"`
-                );
-              } catch (error) {
-                warnings.push(`failed to rename MP3: ${error.message}`);
+              const response = await promptUser(
+                "Rename this MP3 file? (y/n/q): "
+              );
+
+              if (response === "q" || response === "quit") {
+                console.log("❌ Build cancelled by user.");
+                process.exit(0);
+              } else if (response === "y" || response === "yes") {
+                // Rename MP3 to match PDF
+                const oldMp3Path = path.join(entryPath, mp3File);
+                const newMp3Path = path.join(entryPath, expectedMp3Name);
+
+                try {
+                  fs.renameSync(oldMp3Path, newMp3Path);
+                  console.log(`   ✅ Renamed successfully!`);
+                } catch (error) {
+                  console.error(`   ❌ Failed to rename: ${error.message}`);
+                  process.exit(1);
+                }
+              } else {
+                console.log(`   ⏭️  Skipped renaming.`);
+                warnings.push("MP3 file not renamed");
                 status = "⚠️";
               }
             }
-          } else if (mp3Files.length > 1) {
-            warnings.push(
-              `multiple MP3 files (${mp3Files.length}), manual rename needed`
-            );
-            status = "⚠️";
           }
           // No warning if no MP3 files - that's optional
 
           // Single PDF file - store its name directly
           result[entry] = pdfFile;
-        } else {
-          // Multiple PDFs - use the first one and warn
-          warnings.push(`multiple PDFs (${pdfFiles.length}), using first`);
-          status = "⚠️";
-          result[entry] = pdfFiles[0];
-
-          // Don't try to rename MP3s if multiple PDFs
-          if (mp3Files.length > 0) {
-            warnings.push("MP3 renaming skipped due to multiple PDFs");
-          }
         }
 
         totalEntries++;
@@ -113,7 +152,7 @@ function buildManifest() {
       } else {
         // This is a branch node, scan deeper
         console.log(`${indent}${icon} Processing: ${entry}`);
-        result[entry] = scanDirectory(
+        result[entry] = await scanDirectory(
           entryPath,
           currentRelativePath,
           depth + 1
@@ -152,7 +191,7 @@ function buildManifest() {
   }
 
   // Start scanning from the Files directory
-  Object.assign(manifest, scanDirectory(FILES_DIR));
+  Object.assign(manifest, await scanDirectory(FILES_DIR));
 
   // Write the manifest file
   const manifestJson = JSON.stringify(manifest, null, 2);
@@ -167,12 +206,14 @@ function buildManifest() {
 
 // Allow running as a script or importing as a module
 if (require.main === module) {
-  try {
-    buildManifest();
-  } catch (error) {
-    console.error("❌ Error building manifest:", error.message);
-    process.exit(1);
-  }
+  (async () => {
+    try {
+      await buildManifest();
+    } catch (error) {
+      console.error("❌ Error building manifest:", error.message);
+      process.exit(1);
+    }
+  })();
 }
 
 module.exports = { buildManifest };
