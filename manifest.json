@@ -164,7 +164,14 @@
       "5785": "Emor 5785.pdf"
     },
     "11 - Behar": {
-      "5784": null
+      "5784": "Behar 5784.pdf"
+    },
+    "12 - Bechukosai": {
+      "5784": "Bechukosai 5784.pdf"
+    },
+    "13 - Behar-Bechukosai": {
+      "5783": "Behar-Bechukosai 5783.pdf",
+      "5785": "Behar-Bechukosai 5785.pdf"
     }
   },
   "04 - Bamidbar": {
@@ -242,40 +249,7 @@
     "05 - Shoftim": {
       "5783": "Shoftim 5783.pdf",
       "5784": "Shoftim 5784.pdf",
-      "5785": "Shoftim 5785.pdf"
-    },
-    "06 - Ki Seitzei": {
-      "5783": "Ki Seitzei 5783.pdf",
-      "5784": {
-        "Ki Seitzei 5784 (1)": "Ki Seitzei 5784 (1).pdf",
-        "Ki Seitzei 5784 (2)": "Ki Seitzei 5784 (2).pdf"
-      },
-      "5785": "Ki Seitzei 5785.pdf"
-    },
-    "07 - Ki Savo": {
-      "5783": null,
-      "5784": null,
       "5785": null
-    },
-    "08 -  Nitzavim": {
-      "5785": null
-    },
-    "09 - Vayailech": {
-      "5786": null
-    },
-    "10 - Nitzavim-Vayailech": {
-      "5783": null,
-      "5784": null
-    },
-    "11 - Ha'azinu": {
-      "5784": null,
-      "5785": null,
-      "5786": null
-    },
-    "12 - V'zos Habracha": {
-      "5784": null,
-      "5785": null,
-      "5786": null
     }
   },
   "06 - Yom Tov": {
