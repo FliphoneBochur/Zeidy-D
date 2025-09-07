@@ -237,24 +237,17 @@ async function showContent(relativePath, baseFilename) {
     const meta = await loadMeta(relativePath);
     let hasEmbeds = false;
 
-    if (meta.youtube) {
+    if (!meta.youtube || meta.youtube === "") {
+      const youtubeError = el(
+        "div",
+        { class: "media-error" },
+        "📺 YouTube video not found"
+      );
+      statusContainer.appendChild(youtubeError);
+    } else {
       const youtubeVideos = Array.isArray(meta.youtube)
         ? meta.youtube
         : [meta.youtube];
-
-      // Check for empty video IDs and show error
-      const emptyVideos = youtubeVideos.filter(
-        (videoId) => !videoId || videoId.trim() === ""
-      );
-
-      if (emptyVideos.length > 0) {
-        const youtubeError = el(
-          "div",
-          { class: "media-error" },
-          "📺 YouTube video not found"
-        );
-        statusContainer.appendChild(youtubeError);
-      }
 
       // Filter out empty video IDs
       const validVideos = youtubeVideos.filter(
