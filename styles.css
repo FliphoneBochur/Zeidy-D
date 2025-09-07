@@ -145,9 +145,6 @@ main {
 nav h2 {
   margin: 12px 0 6px;
   font-size: 18px;
-  position: sticky;
-  top: 0;
-  background: var(--muted);
   padding: 6px 8px 6px 6px;
   cursor: pointer;
   border-radius: 6px;
