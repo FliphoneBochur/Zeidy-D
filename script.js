@@ -177,17 +177,12 @@ async function showContent(relativePath, baseFilename) {
   content.appendChild(statusContainer);
 
   // Always check for PDF and audio files regardless of manifest value
-  const urlParts = window.location.pathname.split("/").filter((part) => part);
-  const repoName = urlParts.length > 0 ? urlParts[0] : "";
-
   // Determine base filename - use manifest value or directory name
   const actualBaseFilename = baseFilename || relativePath.split("/").pop();
 
-  // Check for PDF file
+  // Check for PDF file (simple relative paths work on GitHub Pages)
   const pdfFilename = `${actualBaseFilename}.pdf`;
-  const pdfPath = repoName
-    ? `${repoName}/Files/${relativePath}/${pdfFilename}`
-    : `Files/${relativePath}/${pdfFilename}`;
+  const pdfPath = `Files/${relativePath}/${pdfFilename}`;
 
   // Check for MP3 file
   const mp3Filename = `${actualBaseFilename}.mp3`;
