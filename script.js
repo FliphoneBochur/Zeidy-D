@@ -241,7 +241,7 @@ async function showContent(relativePath, baseFilename) {
       const youtubeError = el(
         "div",
         { class: "media-error" },
-        "📺 YouTube video not found"
+        "📺 No YouTube video found"
       );
       statusContainer.appendChild(youtubeError);
     } else {
