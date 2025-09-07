@@ -365,10 +365,8 @@ async function showContent(relativePath, baseFilename) {
     const pdfWrap = el("div", { class: "pdf-wrap" });
 
     if (isMobile) {
-      // Mobile: Include repo name for same-origin request
-      const mobilePdfPath = repoName
-        ? `${repoName}/Files/${relativePath}/${pdfFilename}`
-        : `Files/${relativePath}/${pdfFilename}`;
+      // Mobile: Use simple relative path
+      const mobilePdfPath = `Files/${relativePath}/${pdfFilename}`;
       const pdfUrl = encodeURIComponent(
         window.location.origin + "/" + mobilePdfPath
       );
@@ -412,11 +410,8 @@ async function showContent(relativePath, baseFilename) {
           pdfWrap.style.display = "none";
         });
     } else {
-      // Desktop: Include repo name for direct embed
-      const desktopPdfPath = repoName
-        ? `${repoName}/Files/${relativePath}/${pdfFilename}`
-        : `Files/${relativePath}/${pdfFilename}`;
-
+      // Desktop: Use simple relative path
+      const desktopPdfPath = `Files/${relativePath}/${pdfFilename}`;
       const pdfPathWithParams = `${desktopPdfPath}#navpanes=0&scrollbar=1&toolbar=1&view=FitH`;
       const pdfEmbed = el("embed", {
         class: "pdf",
