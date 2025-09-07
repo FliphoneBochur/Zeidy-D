@@ -357,76 +357,71 @@ async function showContent(relativePath, baseFilename) {
     content.appendChild(warn);
   }
 
-  // PDF - Try to show PDF (only if manifest indicates files exist)
+  // PDF - Only create viewer if PDF actually exists
   if (baseFilename && baseFilename !== null) {
-    console.log("Creating PDF viewer for baseFilename:", baseFilename);
+    console.log("Checking for PDF:", pdfPath);
 
-    const isMobile = window.innerWidth <= 768;
-    const pdfWrap = el("div", { class: "pdf-wrap" });
+    // Check if PDF exists before creating any viewer
+    fetch(pdfPath, { method: "HEAD" })
+      .then((response) => {
+        if (response.ok) {
+          console.log("PDF found, creating viewer");
+          createPdfViewer();
+        } else {
+          console.log("PDF not found, skipping viewer creation");
+        }
+      })
+      .catch(() => {
+        console.log("PDF check failed, skipping viewer creation");
+      });
 
-    if (isMobile) {
-      const mobilePdfPath = encodeURIComponent(
-        `https://aribennett1.github.io/Zeidy-D/Files/${relativePath}/${pdfFilename}`
-      );
-      const pdfViewerUrl = `https://mozilla.github.io/pdf.js/web/viewer.html?file=${mobilePdfPath}`;
+    function createPdfViewer() {
+      const isMobile = window.innerWidth <= 768;
+      const pdfWrap = el("div", { class: "pdf-wrap" });
 
-      // Create mobile PDF container with iframe and download option
-      const mobileContainer = el("div", { class: "mobile-pdf-container" });
+      if (isMobile) {
+        const mobilePdfPath = encodeURIComponent(
+          `https://aribennett1.github.io/Zeidy-D/Files/${relativePath}/${pdfFilename}`
+        );
+        const pdfViewerUrl = `https://mozilla.github.io/pdf.js/web/viewer.html?file=${mobilePdfPath}`;
 
-      // Check if PDF exists before creating mobile viewer
-      fetch(mobilePdfPath, { method: "HEAD" })
-        .then((response) => {
-          if (response.ok) {
-            // PDF exists, create viewer
-            const pdfViewer = el("iframe", {
-              src: pdfViewerUrl,
-              class: "mobile-pdf-viewer",
-              title: "PDF Viewer",
-            });
+        // Create mobile PDF container with iframe and download option
+        const mobileContainer = el("div", { class: "mobile-pdf-container" });
 
-            const downloadBtn = el(
-              "a",
-              {
-                href: mobilePdfPath,
-                download: pdfFilename,
-                class: "pdf-download-btn",
-              },
-              "📄 Download PDF"
-            );
-
-            mobileContainer.appendChild(downloadBtn);
-            mobileContainer.appendChild(pdfViewer);
-            pdfWrap.appendChild(mobileContainer);
-          } else {
-            // PDF doesn't exist, hide container
-            console.log("Mobile PDF not found:", mobilePdfPath);
-            pdfWrap.style.display = "none";
-          }
-        })
-        .catch(() => {
-          console.log("Mobile PDF fetch failed:", mobilePdfPath);
-          pdfWrap.style.display = "none";
+        const pdfViewer = el("iframe", {
+          src: pdfViewerUrl,
+          class: "mobile-pdf-viewer",
+          title: "PDF Viewer",
         });
-    } else {
-      // Desktop: Use simple relative path
-      const desktopPdfPath = `Files/${relativePath}/${pdfFilename}`;
-      const pdfPathWithParams = `${desktopPdfPath}#navpanes=0&scrollbar=1&toolbar=1&view=FitH`;
-      const pdfEmbed = el("embed", {
-        class: "pdf",
-        src: pdfPathWithParams,
-        type: "application/pdf",
-      });
 
-      // Hide PDF viewer if file doesn't load (error already shown at top)
-      pdfEmbed.addEventListener("error", () => {
-        console.log("PDF failed to load:", pdfPath);
-        pdfWrap.style.display = "none";
-      });
+        const downloadBtn = el(
+          "a",
+          {
+            href: `Files/${relativePath}/${pdfFilename}`,
+            download: pdfFilename,
+            class: "pdf-download-btn",
+          },
+          "📄 Download PDF"
+        );
 
-      pdfWrap.appendChild(pdfEmbed);
+        mobileContainer.appendChild(downloadBtn);
+        mobileContainer.appendChild(pdfViewer);
+        pdfWrap.appendChild(mobileContainer);
+      } else {
+        // Desktop: Use simple relative path
+        const desktopPdfPath = `Files/${relativePath}/${pdfFilename}`;
+        const pdfPathWithParams = `${desktopPdfPath}#navpanes=0&scrollbar=1&toolbar=1&view=FitH`;
+        const pdfEmbed = el("embed", {
+          class: "pdf",
+          src: pdfPathWithParams,
+          type: "application/pdf",
+        });
+
+        pdfWrap.appendChild(pdfEmbed);
+      }
+
+      content.appendChild(pdfWrap);
     }
-
-    content.appendChild(pdfWrap);
   }
 }
 
