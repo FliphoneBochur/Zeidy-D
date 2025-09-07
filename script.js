@@ -365,12 +365,10 @@ async function showContent(relativePath, baseFilename) {
     const pdfWrap = el("div", { class: "pdf-wrap" });
 
     if (isMobile) {
-      // Mobile: Use simple relative path
-      const mobilePdfPath = `Files/${relativePath}/${pdfFilename}`;
-      const pdfUrl = encodeURIComponent(
-        window.location.origin + "/" + mobilePdfPath
+      const mobilePdfPath = encodeURIComponent(
+        `https://aribennett1.github.io/Zeidy-D/Files/${relativePath}/${pdfFilename}`
       );
-      const pdfViewerUrl = `https://mozilla.github.io/pdf.js/web/viewer.html?file=${pdfUrl}`;
+      const pdfViewerUrl = `https://mozilla.github.io/pdf.js/web/viewer.html?file=${mobilePdfPath}`;
 
       // Create mobile PDF container with iframe and download option
       const mobileContainer = el("div", { class: "mobile-pdf-container" });
