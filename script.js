@@ -72,8 +72,8 @@ function renderNav(manifest) {
       const value = data[key];
       const currentPath = [...pathPrefix, key];
 
-      if (typeof value === "string" && value !== null) {
-        // This is a leaf node (string = PDF filename)
+      if (typeof value === "string" || value === null) {
+        // This is a leaf node (string = base filename, or null = YouTube/media only)
         const li = el("li", {}, cap(key));
         li.addEventListener("click", (e) => {
           e.stopPropagation();
@@ -159,7 +159,7 @@ function cap(s) {
   );
 }
 
-async function showContent(relativePath, pdfFilename) {
+async function showContent(relativePath, baseFilename) {
   const pathParts = relativePath.split("/");
   const displayName = pathParts[pathParts.length - 1];
 
@@ -172,45 +172,131 @@ async function showContent(relativePath, pdfFilename) {
   const content = document.getElementById("content");
   content.innerHTML = "";
 
-  // Create embeds container for YouTube + Spotify
+  // Create status container for error messages at top
+  const statusContainer = el("div", { class: "status-messages" });
+  content.appendChild(statusContainer);
+
+  // Always check for PDF and audio files regardless of manifest value
+  const urlParts = window.location.pathname.split("/").filter((part) => part);
+  const repoName = urlParts.length > 0 ? urlParts[0] : "";
+
+  // Determine base filename - use manifest value or directory name
+  const actualBaseFilename = baseFilename || relativePath.split("/").pop();
+
+  // Check for PDF file
+  const pdfFilename = `${actualBaseFilename}.pdf`;
+  const pdfPath = repoName
+    ? `${repoName}/Files/${relativePath}/${pdfFilename}`
+    : `Files/${relativePath}/${pdfFilename}`;
+
+  // Check for MP3 file
+  const mp3Filename = `${actualBaseFilename}.mp3`;
+  const mp3Path = `Files/${relativePath}/${mp3Filename}`;
+
+  console.log("Checking for files:", { pdfPath, mp3Path, actualBaseFilename });
+
+  // Check PDF existence
+  fetch(pdfPath, { method: "HEAD" })
+    .then((response) => {
+      if (!response.ok) {
+        const pdfError = el("div", { class: "media-error" }, "📄 No PDF found");
+        statusContainer.appendChild(pdfError);
+      }
+    })
+    .catch(() => {
+      const pdfError = el("div", { class: "media-error" }, "📄 No PDF found");
+      statusContainer.appendChild(pdfError);
+    });
+
+  // Check MP3 existence
+  fetch(mp3Path, { method: "HEAD" })
+    .then((response) => {
+      if (!response.ok) {
+        const audioError = el(
+          "div",
+          { class: "media-error" },
+          "🎵 No audio found"
+        );
+        statusContainer.appendChild(audioError);
+      }
+    })
+    .catch(() => {
+      const audioError = el(
+        "div",
+        { class: "media-error" },
+        "🎵 No audio found"
+      );
+      statusContainer.appendChild(audioError);
+    });
+
+  // Create embeds container for YouTube + Audio
   const embedsContainer = el("div", { class: "embeds-container" });
 
-  // Meta (YouTube + Spotify)
+  // Meta (YouTube)
   try {
     const meta = await loadMeta(relativePath);
     let hasEmbeds = false;
 
     if (meta.youtube) {
-      let embedUrl = `https://www.youtube.com/embed/${meta.youtube}`;
+      const youtubeVideos = Array.isArray(meta.youtube)
+        ? meta.youtube
+        : [meta.youtube];
 
-      const ytWrapper = el("div", { class: "youtube-wrapper" });
-      const yt = el("iframe", {
-        src: embedUrl,
-        title: "YouTube player",
-        allow:
-          "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
-        allowfullscreen: "",
-      });
-      ytWrapper.appendChild(yt);
-      embedsContainer.appendChild(ytWrapper);
-      hasEmbeds = true;
+      // Check for empty video IDs and show error
+      const emptyVideos = youtubeVideos.filter(
+        (videoId) => !videoId || videoId.trim() === ""
+      );
+
+      if (emptyVideos.length > 0) {
+        const youtubeError = el(
+          "div",
+          { class: "media-error" },
+          "📺 YouTube video not found"
+        );
+        statusContainer.appendChild(youtubeError);
+      }
+
+      // Filter out empty video IDs
+      const validVideos = youtubeVideos.filter(
+        (videoId) => videoId && videoId.trim() !== ""
+      );
+
+      if (validVideos.length > 0) {
+        // Create container for all videos
+        const videosContainer = el("div", { class: "videos-container" });
+
+        validVideos.forEach((videoId, index) => {
+          let embedUrl = `https://www.youtube.com/embed/${videoId}`;
+
+          const ytWrapper = el("div", { class: "youtube-wrapper" });
+          const yt = el("iframe", {
+            src: embedUrl,
+            title: `YouTube player ${index + 1}`,
+            allow:
+              "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
+            allowfullscreen: "",
+          });
+          ytWrapper.appendChild(yt);
+          videosContainer.appendChild(ytWrapper);
+        });
+
+        embedsContainer.appendChild(videosContainer);
+        hasEmbeds = true;
+      }
     }
 
-    // Check for MP3 file with same name as PDF
-    if (pdfFilename) {
-      const mp3Filename = pdfFilename.replace(".pdf", ".mp3");
+    // Try to show audio player using base filename
+    if (baseFilename && baseFilename !== null) {
+      const mp3Filename = `${baseFilename}.mp3`;
       const mp3Path = `Files/${relativePath}/${mp3Filename}`;
 
-      // Create modern audio player
+      console.log("Trying to load audio:", mp3Path);
+
       const audioWrapper = el("div", { class: "audio-wrapper" });
-
-      // Audio title
       const audioTitle = el("h4", { class: "audio-title" }, "Audio");
-
-      // Hidden audio element
       const audio = el("audio", {
         preload: "metadata",
-        id: `audio-${Date.now()}`, // Unique ID
+        id: `audio-${Date.now()}`,
       });
 
       const source = el("source", {
@@ -219,13 +305,26 @@ async function showContent(relativePath, pdfFilename) {
       });
       audio.appendChild(source);
 
+      // Add error handling
+      audio.addEventListener("error", () => {
+        console.log("Audio not found:", mp3Path);
+        const audioError = el(
+          "div",
+          { class: "media-error" },
+          "🎵 No audio found"
+        );
+        statusContainer.appendChild(audioError);
+        audioWrapper.style.display = "none";
+      });
+
+      audio.addEventListener("loadedmetadata", () => {
+        console.log("Audio loaded successfully:", mp3Path);
+      });
+
       // Player controls container
       const controlsContainer = el("div", { class: "audio-controls" });
-
-      // Play/Pause button
       const playBtn = el("button", { class: "audio-btn play-btn" }, "▶️");
 
-      // Progress container
       const progressContainer = el("div", { class: "progress-container" });
       const progressBar = el("div", { class: "progress-bar" });
       const progressFill = el("div", { class: "progress-fill" });
@@ -235,10 +334,7 @@ async function showContent(relativePath, pdfFilename) {
       progressContainer.appendChild(progressBar);
       progressContainer.appendChild(timeDisplay);
 
-      // Speed control
       const speedBtn = el("button", { class: "audio-btn speed-btn" }, "1x");
-
-      // Download button
       const downloadBtn = el(
         "a",
         {
@@ -250,20 +346,16 @@ async function showContent(relativePath, pdfFilename) {
         "⬇️"
       );
 
-      // Assemble controls
       controlsContainer.appendChild(playBtn);
       controlsContainer.appendChild(progressContainer);
       controlsContainer.appendChild(speedBtn);
       controlsContainer.appendChild(downloadBtn);
 
-      // Assemble player
       audioWrapper.appendChild(audioTitle);
       audioWrapper.appendChild(audio);
       audioWrapper.appendChild(controlsContainer);
 
-      // Add event listeners
       setupAudioPlayer(audio, playBtn, progressFill, timeDisplay, speedBtn);
-
       embedsContainer.appendChild(audioWrapper);
       hasEmbeds = true;
     }
@@ -277,14 +369,18 @@ async function showContent(relativePath, pdfFilename) {
     content.appendChild(warn);
   }
 
-  // PDF - Use different approach for mobile vs desktop
-  if (pdfFilename) {
+  // PDF - Try to show PDF (only if manifest indicates files exist)
+  if (baseFilename && baseFilename !== null) {
+    console.log("Creating PDF viewer for baseFilename:", baseFilename);
+
     const isMobile = window.innerWidth <= 768;
     const pdfWrap = el("div", { class: "pdf-wrap" });
 
     if (isMobile) {
-      // Mobile: Use simple relative path (same origin)
-      const mobilePdfPath = `Files/${relativePath}/${pdfFilename}`;
+      // Mobile: Include repo name for same-origin request
+      const mobilePdfPath = repoName
+        ? `${repoName}/Files/${relativePath}/${pdfFilename}`
+        : `Files/${relativePath}/${pdfFilename}`;
       const pdfUrl = encodeURIComponent(
         window.location.origin + "/" + mobilePdfPath
       );
@@ -293,35 +389,44 @@ async function showContent(relativePath, pdfFilename) {
       // Create mobile PDF container with iframe and download option
       const mobileContainer = el("div", { class: "mobile-pdf-container" });
 
-      // PDF.js iframe
-      const pdfViewer = el("iframe", {
-        src: pdfViewerUrl,
-        class: "mobile-pdf-viewer",
-        title: "PDF Viewer",
-      });
+      // Check if PDF exists before creating mobile viewer
+      fetch(mobilePdfPath, { method: "HEAD" })
+        .then((response) => {
+          if (response.ok) {
+            // PDF exists, create viewer
+            const pdfViewer = el("iframe", {
+              src: pdfViewerUrl,
+              class: "mobile-pdf-viewer",
+              title: "PDF Viewer",
+            });
 
-      // Download button for backup
-      const downloadBtn = el(
-        "a",
-        {
-          href: mobilePdfPath,
-          download: pdfFilename,
-          class: "pdf-download-btn",
-        },
-        "📄 Download PDF"
-      );
+            const downloadBtn = el(
+              "a",
+              {
+                href: mobilePdfPath,
+                download: pdfFilename,
+                class: "pdf-download-btn",
+              },
+              "📄 Download PDF"
+            );
 
-      mobileContainer.appendChild(downloadBtn);
-      mobileContainer.appendChild(pdfViewer);
-      pdfWrap.appendChild(mobileContainer);
+            mobileContainer.appendChild(downloadBtn);
+            mobileContainer.appendChild(pdfViewer);
+            pdfWrap.appendChild(mobileContainer);
+          } else {
+            // PDF doesn't exist, hide container
+            console.log("Mobile PDF not found:", mobilePdfPath);
+            pdfWrap.style.display = "none";
+          }
+        })
+        .catch(() => {
+          console.log("Mobile PDF fetch failed:", mobilePdfPath);
+          pdfWrap.style.display = "none";
+        });
     } else {
       // Desktop: Include repo name for direct embed
-      const basePath =
-        window.location.pathname === "/"
-          ? ""
-          : window.location.pathname.split("/")[1];
-      const desktopPdfPath = basePath
-        ? `${basePath}/Files/${relativePath}/${pdfFilename}`
+      const desktopPdfPath = repoName
+        ? `${repoName}/Files/${relativePath}/${pdfFilename}`
         : `Files/${relativePath}/${pdfFilename}`;
 
       const pdfPathWithParams = `${desktopPdfPath}#navpanes=0&scrollbar=1&toolbar=1&view=FitH`;
@@ -330,13 +435,17 @@ async function showContent(relativePath, pdfFilename) {
         src: pdfPathWithParams,
         type: "application/pdf",
       });
+
+      // Hide PDF viewer if file doesn't load (error already shown at top)
+      pdfEmbed.addEventListener("error", () => {
+        console.log("PDF failed to load:", pdfPath);
+        pdfWrap.style.display = "none";
+      });
+
       pdfWrap.appendChild(pdfEmbed);
     }
 
     content.appendChild(pdfWrap);
-  } else {
-    const warn = el("div", {}, "No PDF file found for this entry.");
-    content.appendChild(warn);
   }
 }
 

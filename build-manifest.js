@@ -73,9 +73,57 @@ async function buildManifest() {
         }
 
         if (pdfFiles.length === 0) {
-          warnings.push("no PDF files");
-          status = "⚠️";
-          result[entry] = null;
+          // No PDF - check if there's an MP3 file to use for base name
+          if (mp3Files.length === 1) {
+            // Use MP3 file as base name (without extension)
+            const baseFilename = mp3Files[0].replace(".mp3", "");
+            result[entry] = baseFilename;
+            console.log(
+              `${indent}${icon} ✅ ${entry} (MP3 only: ${baseFilename})`
+            );
+          } else if (mp3Files.length > 1) {
+            // Multiple MP3s - exit with error
+            console.error(
+              `\n❌ Multiple MP3 files found in ${relativePath}/${entry}:`
+            );
+            mp3Files.forEach((mp3) => console.error(`   - ${mp3}`));
+            console.error(
+              "Please ensure each directory has at most one MP3 file."
+            );
+            process.exit(1);
+          } else {
+            // No PDF or MP3 - check if there's other media content
+            if (fs.existsSync(metaJsonPath)) {
+              try {
+                const metaContent = JSON.parse(
+                  fs.readFileSync(metaJsonPath, "utf8")
+                );
+                const hasYoutube =
+                  metaContent.youtube &&
+                  (Array.isArray(metaContent.youtube)
+                    ? metaContent.youtube.some((id) => id && id.trim() !== "")
+                    : metaContent.youtube.trim() !== "");
+
+                if (hasYoutube) {
+                  // Has YouTube content, no file-based content
+                  result[entry] = null;
+                  console.log(`${indent}${icon} ✅ ${entry} (YouTube only)`);
+                } else {
+                  warnings.push("no content files");
+                  status = "⚠️";
+                  result[entry] = null;
+                }
+              } catch (error) {
+                warnings.push("invalid meta.json");
+                status = "⚠️";
+                result[entry] = null;
+              }
+            } else {
+              warnings.push("no content files");
+              status = "⚠️";
+              result[entry] = null;
+            }
+          }
         } else if (pdfFiles.length > 1) {
           // Multiple PDFs - exit with error
           console.error(
@@ -140,15 +188,21 @@ async function buildManifest() {
           }
           // No warning if no MP3 files - that's optional
 
-          // Single PDF file - store its name directly
-          result[entry] = pdfFile;
+          // Single PDF file - store base name without extension
+          const baseFilename = pdfFile.replace(".pdf", "");
+          result[entry] = baseFilename;
+
+          totalEntries++;
+
+          const warningText =
+            warnings.length > 0 ? ` (${warnings.join(", ")})` : "";
+          console.log(`${indent}${icon} ${status} ${entry}${warningText}`);
         }
 
-        totalEntries++;
-
-        const warningText =
-          warnings.length > 0 ? ` (${warnings.join(", ")})` : "";
-        console.log(`${indent}${icon} ${status} ${entry}${warningText}`);
+        // Only increment totalEntries here if we didn't already do it above
+        if (pdfFiles.length !== 1 && status === "✅") {
+          totalEntries++;
+        }
       } else {
         // This is a branch node, scan deeper
         console.log(`${indent}${icon} Processing: ${entry}`);

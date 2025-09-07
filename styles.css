@@ -295,6 +295,13 @@ main header h1 {
   order: 1;
 }
 
+/* Videos container for multiple YouTube videos */
+.videos-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
 /* PDF styling - always below embeds */
 .pdf-wrap {
   width: 100%;
@@ -503,19 +510,23 @@ iframe {
   
 }
 
-/* Desktop layout - YouTube | Audio side by side, PDF below */
+/* Desktop layout - Videos | Audio side by side, PDF below */
 @media (min-width: 1024px) {
-  /* Sidebar is already fixed on desktop - no additional styling needed */
-  
   .embeds-container {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     margin-bottom: 8px;
-    align-items: center; /* Center align both containers */
+    align-items: start; /* Align to top for multiple videos */
   }
+  
   
   .youtube-wrapper {
     min-height: 250px;
+    margin-bottom: 16px;
+  }
+  
+  .youtube-wrapper:last-child {
+    margin-bottom: 0;
   }
   
   .audio-wrapper {
@@ -637,4 +648,23 @@ iframe {
   color: #666;
   text-align: center;
   font-family: monospace;
+}
+
+/* Status messages at top of content */
+.status-messages {
+  margin-bottom: 16px;
+}
+
+.media-error {
+  background: #fff3cd;
+  color: #856404;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 1px solid #ffeaa7;
+  margin-bottom: 8px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
 }
