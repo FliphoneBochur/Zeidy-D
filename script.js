@@ -650,9 +650,12 @@ function navigateToPath(targetPath, manifest) {
       fullPath.push(matchingKey);
       current = current[matchingKey];
 
-      // Expand this level in the accordion
+      // Expand this level in the accordion (level-specific)
       setTimeout(() => {
-        const headers = document.querySelectorAll("nav h2, nav h3");
+        const currentDepth = i; // 0 = sefer level, 1 = parsha level, etc.
+        const headerTag = currentDepth === 0 ? "h2" : "h3";
+        const headers = document.querySelectorAll(`nav ${headerTag}`);
+
         headers.forEach((header) => {
           if (header.textContent.trim() === cap(matchingKey)) {
             header.classList.remove("collapsed");
