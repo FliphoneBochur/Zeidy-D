@@ -84,6 +84,12 @@ function renderNav(manifest) {
           const fullPath = currentPath.join("/");
           showContent(fullPath, value);
 
+          // Update nav parameter with clean path (remove prefixes)
+          const cleanPath = currentPath
+            .map((part) => part.replace(/^\d+\s*-\s*/, ""))
+            .join("/");
+          updateUrlParameter("nav", "/" + cleanPath);
+
           // Close mobile nav when item is selected
           if (window.innerWidth <= 1024) {
             const nav = document.getElementById("nav");
@@ -117,6 +123,14 @@ function renderNav(manifest) {
           e.preventDefault();
           header.classList.toggle("collapsed");
           section.classList.toggle("collapsed");
+
+          // Update nav parameter when expanding sections
+          if (!header.classList.contains("collapsed")) {
+            const cleanPath = currentPath
+              .map((part) => part.replace(/^\d+\s*-\s*/, ""))
+              .join("/");
+            updateUrlParameter("nav", "/" + cleanPath);
+          }
         });
 
         // Add accordion functionality consistently
@@ -591,12 +605,116 @@ function formatTime(seconds) {
   return `${mins}:${secs.toString().padStart(2, "0")}`;
 }
 
+// URL parameter navigation support
+function getUrlParameter(name) {
+  const urlParams = new URLSearchParams(window.location.search);
+  return urlParams.get(name);
+}
+
+function updateUrlParameter(name, value) {
+  const url = new URL(window.location);
+  if (value) {
+    url.searchParams.set(name, value);
+  } else {
+    url.searchParams.delete(name);
+  }
+  window.history.replaceState({}, "", url);
+}
+
+function navigateToPath(targetPath, manifest) {
+  console.log("Navigating to path:", targetPath);
+
+  // Remove leading slash and split path
+  const cleanPath = targetPath.replace(/^\//, "");
+  if (!cleanPath) return false;
+
+  const pathParts = cleanPath.split("/").map((part) => part.trim());
+  let current = manifest;
+  let fullPath = [];
+
+  // Traverse the manifest structure and expand accordions along the way
+  for (let i = 0; i < pathParts.length; i++) {
+    const part = pathParts[i];
+
+    // Find matching key (handle prefixes and capitalization)
+    const matchingKey = Object.keys(current).find((key) => {
+      const cleanKey = key.replace(/^\d+\s*-\s*/, "").toLowerCase();
+      const cleanPart = part.toLowerCase();
+      return (
+        cleanKey === cleanPart ||
+        cleanKey.replace(/[-\s]/g, "") === cleanPart.replace(/[-\s]/g, "")
+      );
+    });
+
+    if (matchingKey) {
+      fullPath.push(matchingKey);
+      current = current[matchingKey];
+
+      // Expand this level in the accordion
+      setTimeout(() => {
+        const headers = document.querySelectorAll("nav h2, nav h3");
+        headers.forEach((header) => {
+          if (header.textContent.trim() === cap(matchingKey)) {
+            header.classList.remove("collapsed");
+            const nextElement = header.nextElementSibling;
+            if (nextElement) {
+              nextElement.classList.remove("collapsed");
+            }
+          }
+        });
+      }, 50);
+
+      // If this is the last part, try to show content or just expand
+      if (i === pathParts.length - 1) {
+        if (typeof current === "string" || current === null) {
+          // This is actual content, show it
+          const contentPath = fullPath.join("/");
+          setTimeout(() => {
+            showContent(contentPath, current);
+
+            // Mark the navigation item as active
+            const navItems = document.querySelectorAll("nav li");
+            navItems.forEach((item) => {
+              if (item.textContent.trim() === cap(matchingKey)) {
+                item.classList.add("active");
+              } else {
+                item.classList.remove("active");
+              }
+            });
+          }, 100);
+        }
+        return true; // Successfully navigated to this level
+      }
+    } else {
+      console.warn("Path part not found:", part, "in", Object.keys(current));
+      return false; // Navigation failed
+    }
+  }
+
+  return true; // Successfully expanded all found levels
+}
+
 // Initialize the application
 (async () => {
   try {
     const manifest = await loadManifest();
     renderNav(manifest);
     initMobileNav();
+
+    // Check for URL parameter navigation
+    const navParam = getUrlParameter("nav");
+    if (navParam) {
+      console.log("Nav parameter found:", navParam);
+      // Small delay to ensure navigation is rendered
+      setTimeout(() => {
+        const success = navigateToPath(navParam, manifest);
+        if (!success) {
+          console.warn("Failed to navigate to nav path:", navParam);
+          // Clear invalid parameter
+          updateUrlParameter("nav", null);
+        }
+      }, 200);
+    }
   } catch (e) {
     console.error(e);
     alert(
