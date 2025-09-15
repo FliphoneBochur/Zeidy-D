@@ -265,13 +265,13 @@
       "5785": "Ki Savo 5785"
     },
     "08 -  Nitzavim": {
-      "5785": null
+      "5785": "Nitzavim 5785"
     },
     "09 - Vayailech": {
       "5786": null
     },
     "10 - Nitzavim-Vayailech": {
-      "5783": "Nitzavim-Vayeilech 5783",
+      "5783": "Nitzavim-Vayailech 5783",
       "5784": "Nitzavim-Vayailech 5784"
     },
     "11 - Ha'azinu": {
@@ -332,29 +332,36 @@
     "09 - Rosh Hashana": {
       "5784": "Rosh Hashana 5784",
       "5785": "Rosh Hashana 5785",
+      "5786": "Rosh Hashana 5786",
       "Rosh Hashana in Berditchev": "Rosh Hashana in Berditchev"
     },
     "10 - Yom Kipper": {
       "5784": "Yom Kipper 5784",
-      "5785": "Yom Kipper 5785"
+      "5785": "Yom Kipper 5785",
+      "5786": "Yom Kipper 5786"
     },
     "11 - Sukkos": {
       "5784": "Sukkos 5784",
-      "5785": "Sukkos 5785"
+      "5785": "Sukkos 5785",
+      "5786": "Sukkos 5786"
     },
     "12 - Hoshana Raba": {
       "5784": "Hoshana Raba 5784",
-      "5785": "Hoshana Raba 5785"
+      "5785": "Hoshana Raba 5785",
+      "5786": "Hoshana Raba 5786"
     },
     "13 - Shmini Atzeres": {
       "5784": "Shmini Atzeres 5784",
       "5785": "Shmini Atzeres 5785",
-      "5786": null
+      "5786": "Shmini Atzeres 5786"
     },
     "14 - Simchas Torah": {
       "5784": "Simchas Torah 5784",
       "5785": "Simchas Torah 5785",
-      "5786": null
+      "5786": {
+        "Simchas Torah (1)": "Simchas Torah (1) 5786",
+        "Simchas Torah (2)": null
+      }
     },
     "15 - Chanukah": {
       "5783": "Chanukah 5783",
