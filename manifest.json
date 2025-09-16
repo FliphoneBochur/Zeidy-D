@@ -277,12 +277,12 @@
     "11 - Ha'azinu": {
       "5784": "Ha'azinu 5784",
       "5785": "Ha'azinu 5785",
-      "5786": null
+      "5786": "Ha'azinu 5786"
     },
     "12 - V'zos Habracha": {
       "5784": "V'zos Habracha 5784",
       "5785": "V'zos Habracha 5785",
-      "5786": null
+      "5786": "V'zos Habracha 5786"
     }
   },
   "06 - Yom Tov": {
@@ -333,6 +333,7 @@
       "5784": "Rosh Hashana 5784",
       "5785": "Rosh Hashana 5785",
       "5786": "Rosh Hashana 5786",
+      "How to do Teshuva": "How to do Teshuva",
       "Rosh Hashana in Berditchev": "Rosh Hashana in Berditchev"
     },
     "10 - Yom Kipper": {
@@ -360,7 +361,7 @@
       "5785": "Simchas Torah 5785",
       "5786": {
         "Simchas Torah (1)": "Simchas Torah (1) 5786",
-        "Simchas Torah (2)": null
+        "Simchas Torah (2)": "Simchas Torah (2) 5786"
       }
     },
     "15 - Chanukah": {
