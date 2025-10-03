@@ -1,3 +1,3 @@
-Run local server: npx http-server -c-1
+Run local server: npx http-server -p 3000 -c-1
 Run build manifest: node build-manifest.js
 Run collect-pdfs: ./collect-pdfs.sh
