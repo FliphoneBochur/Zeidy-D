@@ -354,7 +354,10 @@
     "13 - Shmini Atzeres": {
       "5784": "Shmini Atzeres 5784",
       "5785": "Shmini Atzeres 5785",
-      "5786": "Shmini Atzeres 5786"
+      "5786": {
+        "Shmini Atzeres (1)": "Shmini Atzeres 5786",
+        "Shmini Atzeres (2)": "Shmini Atzeres 5786 (2)"
+      }
     },
     "14 - Simchas Torah": {
       "5784": "Simchas Torah 5784",
