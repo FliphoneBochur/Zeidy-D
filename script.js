@@ -394,9 +394,9 @@ async function showContent(relativePath, baseFilename) {
       const pdfWrap = el("div", { class: "pdf-wrap" });
 
       if (isMobile) {
-        let path = `${window.location.origin}/Files/${relativePath}/${pdfFilename}`;
-        path = path.replace("/Zeidy-D", "");
-        const mobilePdfPath = encodeURIComponent(path);
+        const mobilePdfPath = encodeURIComponent(
+          `${window.location.origin}/Files/${relativePath}/${pdfFilename}`
+        );
         const pdfViewerUrl = `https://mozilla.github.io/pdf.js/web/viewer.html?file=${mobilePdfPath}`;
 
         // Create mobile PDF container with iframe and download option
