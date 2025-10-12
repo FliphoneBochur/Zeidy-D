@@ -394,8 +394,8 @@ async function showContent(relativePath, baseFilename) {
       const pdfWrap = el("div", { class: "pdf-wrap" });
 
       if (isMobile) {
-        let path = `${window.location.origin}/Zeidy-D/Files/${relativePath}/${pdfFilename}`;
-        path = path.replace("/Zeidy-D/Zeidy-D", "/Zeidy-D");
+        let path = `${window.location.origin}/Files/${relativePath}/${pdfFilename}`;
+        path = path.replace("/Zeidy-D", "");
         const mobilePdfPath = encodeURIComponent(path);
         const pdfViewerUrl = `https://mozilla.github.io/pdf.js/web/viewer.html?file=${mobilePdfPath}`;
 
