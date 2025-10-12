@@ -395,7 +395,7 @@ async function showContent(relativePath, baseFilename) {
 
       if (isMobile) {
         const mobilePdfPath = encodeURIComponent(
-          `https://aribennett1.github.io/Zeidy-D/Files/${relativePath}/${pdfFilename}`
+          `https://zeidyd.com/Zeidy-D/Files/${relativePath}/${pdfFilename}`
         );
         const pdfViewerUrl = `https://mozilla.github.io/pdf.js/web/viewer.html?file=${mobilePdfPath}`;
 
