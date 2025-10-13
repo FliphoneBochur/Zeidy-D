@@ -2,7 +2,11 @@
   "01 - Bereshis": {
     "01 - Bereshis": {
       "5784": "Bereshis 5784",
-      "5785": "Bereshis 5785"
+      "5785": "Bereshis 5785",
+      "5786": {
+        "Bereshis (1)": "Bereshis 5786 (1)",
+        "Bereshis (2)": "Bereshis 5786 (2)"
+      }
     },
     "02 - Noach": {
       "5784": "Noach 5784",
