@@ -387,14 +387,17 @@
       "5784": "Chanukah 5784",
       "5785": "Chanukah 5785"
     },
-    "16 - Tu Beshvat": {
+    "16 - 10 Teves": {
+      "5785": null
+    },
+    "17 - Tu Beshvat": {
       "5784": "Tu Beshvat 5784",
       "5785": "Tu Beshvat 5785"
     },
-    "17 - Purim Katon": {
+    "18 - Purim Katon": {
       "5784": "Purim Katon 5784"
     },
-    "18 - Purim": {
+    "19 - Purim": {
       "5783": {
         "Krovitz": "Krovitz",
         "Purim Dvar Torah 5783": "Purim Dvar Torah 5783",
