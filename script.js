@@ -437,6 +437,18 @@ async function showContent(relativePath, baseFilename) {
       content.appendChild(pdfWrap);
     }
   }
+
+  // Load and inject PDF text for search indexing
+  if (baseFilename && baseFilename !== null) {
+    try {
+      const pdfText = await loadPdfText(relativePath, baseFilename);
+      if (pdfText) {
+        injectPdfText(pdfText, content);
+      }
+    } catch (error) {
+      console.log('Failed to load PDF text for search:', error);
+    }
+  }
 }
 
 // Mobile navigation toggle functionality
@@ -697,12 +709,72 @@ function navigateToPath(targetPath, manifest) {
   return true; // Successfully expanded all found levels
 }
 
+// Initialize search functionality
+function initSearch() {
+  // Google Custom Search will initialize automatically
+  // Just add the Google Custom Search script to head
+  const script = document.createElement('script');
+  script.async = true;
+  script.src = 'https://cse.google.com/cse.js?cx=a29cebdb5806f4a2b';
+  document.head.appendChild(script);
+  
+  console.log("Google Custom Search initialized");
+}
+
+// Load extracted PDF text for search indexing
+async function loadPdfText(relativePath, baseFilename) {
+  if (!baseFilename || baseFilename === null) {
+    return null;
+  }
+  
+  try {
+    const textPath = `extracted-text/${relativePath}/${baseFilename}.txt`;
+    const response = await fetch(textPath);
+    
+    if (!response.ok) {
+      console.log('No extracted text found for:', baseFilename);
+      return null;
+    }
+    
+    const text = await response.text();
+    console.log(`Loaded text for ${baseFilename}: ${text.length} characters`);
+    return text;
+  } catch (error) {
+    console.log('Error loading extracted text for', baseFilename, ':', error);
+    return null;
+  }
+}
+
+// Inject PDF text as screen reader only content
+function injectPdfText(text, container) {
+  if (!text || !text.trim()) {
+    return;
+  }
+  
+  // Remove existing PDF text if any
+  const existingSrText = container.querySelector('.sr-only.pdf-text');
+  if (existingSrText) {
+    existingSrText.remove();
+  }
+  
+  // Create screen reader only div with PDF text
+  const srDiv = el("div", { 
+    class: "sr-only pdf-text" 
+  }, text);
+  
+  // Insert at the beginning of content for better crawling
+  container.insertBefore(srDiv, container.firstChild);
+  
+  console.log('Injected PDF text for search indexing');
+}
+
 // Initialize the application
 (async () => {
   try {
     const manifest = await loadManifest();
     renderNav(manifest);
     initMobileNav();
+    initSearch();
 
     // Check for URL parameter navigation
     const navParam = getUrlParameter("nav");
