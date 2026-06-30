@@ -708,6 +708,16 @@ function showNotFound(pathname) {
     )
   );
 
+  video.addEventListener("ended", () => {
+    if (video.dataset.playedBye) return;
+
+    video.dataset.playedBye = "true";
+    video.src = "/Bye.mp4";
+    video.play().catch((error) => {
+      console.warn("Follow-up video playback was blocked:", error);
+    });
+  });
+
   video.play().catch((error) => {
     console.warn("Autoplay was blocked:", error);
   });
