@@ -9,6 +9,7 @@ const MANIFEST_FILE = "./manifest.json";
 const ROUTES_FILE = "./routes.json";
 const ROOT_INDEX_FILE = "./index.html";
 const GENERATED_ROUTE_MARKER = "<!-- Generated route page: do not edit directly. -->";
+const CONTENT_KEY = "__content";
 
 // Helper function to prompt user for confirmation
 function promptUser(question) {
@@ -52,11 +53,15 @@ async function buildManifest() {
       const currentRelativePath = relativePath
         ? `${relativePath}/${entry}`
         : entry;
+      const hasChildDirectories = fs
+        .readdirSync(entryPath, { withFileTypes: true })
+        .some((dirent) => dirent.isDirectory());
 
       // Check if this directory contains content (PDF files or meta.json)
       const hasContent = checkForContent(entryPath);
 
       if (hasContent) {
+        let contentValue = null;
         // This is a leaf node with actual content
         const metaJsonPath = path.join(entryPath, "meta.json");
         const allFiles = fs.readdirSync(entryPath);
@@ -80,7 +85,7 @@ async function buildManifest() {
           if (mp3Files.length === 1) {
             // Use MP3 file as base name (without extension)
             const baseFilename = mp3Files[0].replace(".mp3", "");
-            result[entry] = baseFilename;
+            contentValue = baseFilename;
             console.log(
               `${indent}${icon} ✅ ${entry} (MP3 only: ${baseFilename})`
             );
@@ -109,22 +114,22 @@ async function buildManifest() {
 
                 if (hasYoutube) {
                   // Has YouTube content, no file-based content
-                  result[entry] = null;
+                  contentValue = null;
                   console.log(`${indent}${icon} ✅ ${entry} (YouTube only)`);
                 } else {
                   warnings.push("no content files");
                   status = "⚠️";
-                  result[entry] = null;
+                  contentValue = null;
                 }
               } catch (error) {
                 warnings.push("invalid meta.json");
                 status = "⚠️";
-                result[entry] = null;
+                contentValue = null;
               }
             } else {
               warnings.push("no content files");
               status = "⚠️";
-              result[entry] = null;
+              contentValue = null;
             }
           }
         } else if (pdfFiles.length > 1) {
@@ -193,7 +198,7 @@ async function buildManifest() {
 
           // Single PDF file - store base name without extension
           const baseFilename = pdfFile.replace(".pdf", "");
-          result[entry] = baseFilename;
+          contentValue = baseFilename;
 
           totalEntries++;
 
@@ -205,6 +210,17 @@ async function buildManifest() {
         // Only increment totalEntries here if we didn't already do it above
         if (pdfFiles.length !== 1 && status === "✅") {
           totalEntries++;
+        }
+
+        if (hasChildDirectories) {
+          result[entry] = await scanDirectory(
+            entryPath,
+            currentRelativePath,
+            depth + 1
+          );
+          result[entry][CONTENT_KEY] = contentValue;
+        } else {
+          result[entry] = contentValue;
         }
       } else {
         // This is a branch node, scan deeper
@@ -291,9 +307,25 @@ function buildRoutes(manifest) {
     for (const [key, value] of Object.entries(node)) {
       const currentPath = [...pathParts, key];
 
-      if (typeof value === "string" || value === null) {
+      if (key === CONTENT_KEY) {
+        const contentPath = pathParts.join("/");
+        const route = routePath(pathParts.slice(1));
+        const entry = {
+          contentPath,
+          baseFilename: value,
+        };
+
+        if (routes.byRoute[route]) {
+          throw new Error(
+            `Route collision for ${route}: ${routes.byRoute[route].contentPath} and ${contentPath}`
+          );
+        }
+
+        routes.byRoute[route] = entry;
+        routes.byContentPath[contentPath] = route;
+      } else if (typeof value === "string" || value === null) {
         const contentPath = currentPath.join("/");
-        const route = routePath(currentPath);
+        const route = routePath(currentPath.slice(1));
         const entry = {
           contentPath,
           baseFilename: value,
@@ -322,6 +354,8 @@ function generateRoutePages(routes) {
     throw new Error(`${ROOT_INDEX_FILE} not found`);
   }
 
+  cleanGeneratedRoutePages();
+
   const rootIndex = fs.readFileSync(ROOT_INDEX_FILE, "utf8");
   const routeIndex = rootIndex.includes(GENERATED_ROUTE_MARKER)
     ? rootIndex
@@ -331,6 +365,27 @@ function generateRoutePages(routes) {
     const routeDir = path.join(".", ...route.split("/").filter(Boolean));
     fs.mkdirSync(routeDir, { recursive: true });
     fs.writeFileSync(path.join(routeDir, "index.html"), routeIndex);
+  }
+}
+
+function cleanGeneratedRoutePages(dir = ".") {
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    if (entry.name === ".git" || entry.name === "Files") continue;
+
+    const entryPath = path.join(dir, entry.name);
+
+    if (entry.isDirectory()) {
+      cleanGeneratedRoutePages(entryPath);
+
+      if (fs.readdirSync(entryPath).length === 0) {
+        fs.rmdirSync(entryPath);
+      }
+    } else if (entry.name === "index.html" && entryPath !== ROOT_INDEX_FILE) {
+      const content = fs.readFileSync(entryPath, "utf8");
+      if (content.includes(GENERATED_ROUTE_MARKER)) {
+        fs.unlinkSync(entryPath);
+      }
+    }
   }
 }
 

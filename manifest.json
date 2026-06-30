@@ -4,8 +4,8 @@
       "5784": "Bereshis 5784",
       "5785": "Bereshis 5785",
       "5786": {
-        "Bereshis (1)": "Bereshis 5786 (1)",
-        "Bereshis (2)": "Bereshis 5786 (2)"
+        "(1)": "Bereshis 5786 (1)",
+        "(2)": "Bereshis 5786 (2)"
       }
     },
     "02 - Noach": {
@@ -17,16 +17,16 @@
       "5784": "Lech Lecha 5784",
       "5785": "Lech Lecha 5785",
       "5786": {
-        " Lech Lecha (1)": "Lech Lecha 5786 (1)",
-        " Lech Lecha (2)": "Lech Lecha 5786 (2)"
+        "(1)": "Lech Lecha 5786 (1)",
+        "(2)": "Lech Lecha 5786 (2)"
       }
     },
     "04 - Vayairah": {
       "5784": "Vayairah 5784",
       "5785": "Vayairah 5785",
       "5786": {
-        "Vayairah (1)": "Vayairah 5786 (1)",
-        "Vayairah (2)": "Vayairah 5786 (2)"
+        "(1)": "Vayairah 5786 (1)",
+        "(2)": "Vayairah 5786 (2)"
       }
     },
     "05 - Chayai Sara": {
@@ -89,8 +89,8 @@
     },
     "04 - Beshalach": {
       "5783": {
-        "Beshalach 5783 (1)": "Beshalach 5783(1)",
-        "Beshalach 5783 (2)": "Beshalach 5783 (2)"
+        "(1)": "Beshalach 5783(1)",
+        "(2)": "Beshalach 5783 (2)"
       },
       "5784": "Beshalach 5784",
       "5785": "Beshalach 5785"
@@ -103,8 +103,8 @@
     "06 - Mishpatim": {
       "5783": "Mishpatim 5783",
       "5784": {
-        "Mishpatim 5784 (1)": "Mishpatim (1)  5784",
-        "Mishpatim 5784 (2)": "Mishpatim (2)  5784"
+        "(1)": "Mishpatim (1)  5784",
+        "(2)": "Mishpatim (2)  5784"
       },
       "5785": "Mishpatim 5785"
     },
@@ -116,8 +116,8 @@
     "08 - Tetzaveh": {
       "5783": "Tetzaveh 5783",
       "5784": {
-        "Tetzaveh 5784 (1)": "Tetzaveh (1) 5784",
-        "Tetzaveh 5784 (2)": "Tetzaveh (2) 5784"
+        "(1)": "Tetzaveh (1) 5784",
+        "(2)": "Tetzaveh (2) 5784"
       },
       "5785": "Tetzaveh 5785"
     },
@@ -199,8 +199,10 @@
     "02 - Naso": {
       "5783": "Naso 5783",
       "5784": "Naso 5784",
-      "5785": "Naso 5785",
-      "Story 5785": "Story 5785"
+      "5785": {
+        "Story": "Story 5785",
+        "__content": "Naso 5785"
+      }
     },
     "03 - Behaloscha": {
       "5783": "Behaloscha 5783",
@@ -219,8 +221,8 @@
     },
     "06 - Chukas": {
       "5784": {
-        "Chukas (1)": "Chukas 5784 (1)",
-        "Chukas (2)": "Chukas 5784 (2)"
+        "(1)": "Chukas 5784 (1)",
+        "(2)": "Chukas 5784 (2)"
       },
       "5785": "Chukas 5785"
     },
@@ -271,8 +273,8 @@
     "06 - Ki Seitzei": {
       "5783": "Ki Seitzei 5783",
       "5784": {
-        "Ki Seitzei 5784 (1)": "Ki Seitzei 5784 (1)",
-        "Ki Seitzei 5784 (2)": "Ki Seitzei 5784 (2)"
+        "(1)": "Ki Seitzei 5784 (1)",
+        "(2)": "Ki Seitzei 5784 (2)"
       },
       "5785": "Ki Seitzei 5785"
     },
@@ -372,16 +374,16 @@
       "5784": "Shmini Atzeres 5784",
       "5785": "Shmini Atzeres 5785",
       "5786": {
-        "Shmini Atzeres (1)": "Shmini Atzeres (1) 5786",
-        "Shmini Atzeres (2)": "Shmini Atzeres (2) 5786"
+        "(1)": "Shmini Atzeres (1) 5786",
+        "(2)": "Shmini Atzeres (2) 5786"
       }
     },
     "14 - Simchas Torah": {
       "5784": "Simchas Torah 5784",
       "5785": "Simchas Torah 5785",
       "5786": {
-        "Simchas Torah (1)": "Simchas Torah 5786 (1)",
-        "Simchas Torah (2)": "Simchas Torah 5786 (2)"
+        "(1)": "Simchas Torah 5786 (1)",
+        "(2)": "Simchas Torah 5786 (2)"
       }
     },
     "15 - Chanukah": {
@@ -401,9 +403,9 @@
     },
     "19 - Purim": {
       "5783": {
+        "Dvar Torah": "Purim Dvar Torah 5783",
         "Krovitz": "Krovitz",
-        "Purim Dvar Torah 5783": "Purim Dvar Torah 5783",
-        "Story Purim 5783": "Story Purim 5783"
+        "Story": "Story Purim 5783"
       },
       "5784": "Purim 5784",
       "5785": "Purim 5785"

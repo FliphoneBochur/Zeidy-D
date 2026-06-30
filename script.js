@@ -37,6 +37,8 @@ async function loadMeta(relativePath) {
   return loadJSON(path);
 }
 
+const CONTENT_KEY = "__content";
+
 function el(tag, props = {}, ...children) {
   const node = document.createElement(tag);
   Object.entries(props).forEach(([k, v]) => {
@@ -72,6 +74,8 @@ function renderNav(manifest, routes) {
     const keys = Object.keys(data).sort();
 
     for (const key of keys) {
+      if (key === CONTENT_KEY) continue;
+
       const value = data[key];
       const currentPath = [...pathPrefix, key];
 
@@ -133,6 +137,39 @@ function renderNav(manifest, routes) {
 
         // Add accordion functionality consistently
         container.appendChild(header);
+
+        if (Object.prototype.hasOwnProperty.call(value, CONTENT_KEY)) {
+          const fullPath = currentPath.join("/");
+          const contentValue = value[CONTENT_KEY];
+          const selfItem = el("li", { "data-content-path": fullPath }, cap(key));
+
+          selfItem.addEventListener("click", (e) => {
+            e.stopPropagation();
+            listItems.forEach((x) => x.classList.remove("active"));
+            selfItem.classList.add("active");
+            showContent(fullPath, contentValue);
+
+            const route = routes.byContentPath[fullPath];
+          if (route) {
+            window.history.pushState({}, "", route);
+          }
+
+          if (window.innerWidth <= 1024) {
+            const nav = document.getElementById("nav");
+            const navOverlay = document.getElementById("nav-overlay");
+            const navToggle = document.getElementById("nav-toggle");
+
+            nav.classList.remove("open");
+            navOverlay.classList.remove("active");
+            navToggle.classList.remove("active");
+            document.body.style.overflow = "";
+          }
+        });
+
+          listItems.push(selfItem);
+          section.appendChild(el("ul", {}, selfItem));
+        }
+
         renderLevel(value, section, depth + 1, currentPath);
         container.appendChild(section);
       } else if (value === null) {
