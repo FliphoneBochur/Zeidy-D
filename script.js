@@ -696,7 +696,6 @@ function showNotFound(pathname) {
     class: "not-found-video",
     src: "/The trick is not having stuff, it's knowing where it is.mp4",
     autoplay: "",
-    loop: "",
     playsinline: "",
     controls: "",
   });
