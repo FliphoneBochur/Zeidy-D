@@ -6,6 +6,9 @@ const readline = require("readline");
 
 const FILES_DIR = "./Files";
 const MANIFEST_FILE = "./manifest.json";
+const ROUTES_FILE = "./routes.json";
+const ROOT_INDEX_FILE = "./index.html";
+const GENERATED_ROUTE_MARKER = "<!-- Generated route page: do not edit directly. -->";
 
 // Helper function to prompt user for confirmation
 function promptUser(question) {
@@ -251,11 +254,84 @@ async function buildManifest() {
   const manifestJson = JSON.stringify(manifest, null, 2);
   fs.writeFileSync(MANIFEST_FILE, manifestJson);
 
+  const routes = buildRoutes(manifest);
+  fs.writeFileSync(ROUTES_FILE, JSON.stringify(routes, null, 2));
+  generateRoutePages(routes);
+
   console.log("\n✅ Manifest built successfully!");
   console.log(`📊 Total entries: ${totalEntries}`);
   console.log(`📄 Manifest saved to: ${MANIFEST_FILE}`);
+  console.log(`🧭 Routes saved to: ${ROUTES_FILE}`);
+  console.log(`📄 Generated route pages: ${Object.keys(routes.byRoute).length}`);
 
   return manifest;
+}
+
+function routeSegment(part) {
+  return part
+    .replace(/^\d+\s*-\s*/, "")
+    .trim()
+    .toLowerCase()
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9'()]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+function routePath(pathParts) {
+  return `/${pathParts.map(routeSegment).filter(Boolean).join("/")}/`;
+}
+
+function buildRoutes(manifest) {
+  const routes = {
+    byRoute: {},
+    byContentPath: {},
+  };
+
+  function walk(node, pathParts = []) {
+    for (const [key, value] of Object.entries(node)) {
+      const currentPath = [...pathParts, key];
+
+      if (typeof value === "string" || value === null) {
+        const contentPath = currentPath.join("/");
+        const route = routePath(currentPath);
+        const entry = {
+          contentPath,
+          baseFilename: value,
+        };
+
+        if (routes.byRoute[route]) {
+          throw new Error(
+            `Route collision for ${route}: ${routes.byRoute[route].contentPath} and ${contentPath}`
+          );
+        }
+
+        routes.byRoute[route] = entry;
+        routes.byContentPath[contentPath] = route;
+      } else if (value && typeof value === "object" && !Array.isArray(value)) {
+        walk(value, currentPath);
+      }
+    }
+  }
+
+  walk(manifest);
+  return routes;
+}
+
+function generateRoutePages(routes) {
+  if (!fs.existsSync(ROOT_INDEX_FILE)) {
+    throw new Error(`${ROOT_INDEX_FILE} not found`);
+  }
+
+  const rootIndex = fs.readFileSync(ROOT_INDEX_FILE, "utf8");
+  const routeIndex = rootIndex.includes(GENERATED_ROUTE_MARKER)
+    ? rootIndex
+    : rootIndex.replace("<!DOCTYPE html>", `<!DOCTYPE html>\n${GENERATED_ROUTE_MARKER}`);
+
+  for (const route of Object.keys(routes.byRoute)) {
+    const routeDir = path.join(".", ...route.split("/").filter(Boolean));
+    fs.mkdirSync(routeDir, { recursive: true });
+    fs.writeFileSync(path.join(routeDir, "index.html"), routeIndex);
+  }
 }
 
 // Allow running as a script or importing as a module

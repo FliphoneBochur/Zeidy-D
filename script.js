@@ -25,12 +25,15 @@ async function loadJSON(path) {
 }
 
 async function loadManifest() {
-  // Since we know the file exists at the root, try simple relative path
-  return loadJSON("manifest.json");
+  return loadJSON("/manifest.json");
+}
+
+async function loadRoutes() {
+  return loadJSON("/routes.json");
 }
 
 async function loadMeta(relativePath) {
-  const path = `Files/${relativePath}/meta.json`;
+  const path = `/Files/${relativePath}/meta.json`;
   return loadJSON(path);
 }
 
@@ -50,7 +53,7 @@ function el(tag, props = {}, ...children) {
   return node;
 }
 
-function renderNav(manifest) {
+function renderNav(manifest, routes) {
   const nav = document.getElementById("nav");
   nav.innerHTML = "";
   const listItems = [];
@@ -74,21 +77,19 @@ function renderNav(manifest) {
 
       if (typeof value === "string" || value === null) {
         // This is a leaf node (string = base filename, or null = YouTube/media only)
-        const li = el("li", {}, cap(key));
+        const fullPath = currentPath.join("/");
+        const li = el("li", { "data-content-path": fullPath }, cap(key));
         li.addEventListener("click", (e) => {
           e.stopPropagation();
           listItems.forEach((x) => x.classList.remove("active"));
           li.classList.add("active");
 
-          // Reconstruct path from JSON structure
-          const fullPath = currentPath.join("/");
           showContent(fullPath, value);
 
-          // Update nav parameter with clean path (remove prefixes)
-          const cleanPath = currentPath
-            .map((part) => part.replace(/^\d+\s*-\s*/, ""))
-            .join("/");
-          updateUrlParameter("nav", "/" + cleanPath);
+          const route = routes.byContentPath[fullPath];
+          if (route) {
+            window.history.pushState({}, "", route);
+          }
 
           // Close mobile nav when item is selected
           if (window.innerWidth <= 1024) {
@@ -110,7 +111,11 @@ function renderNav(manifest) {
       } else if (value && typeof value === "object" && !Array.isArray(value)) {
         // This is a branch node, create header and recurse
         const headerTag = depth === 0 ? "h2" : "h3";
-        const header = el(headerTag, { class: "collapsed" }, cap(key));
+        const header = el(
+          headerTag,
+          { class: "collapsed", "data-branch-path": currentPath.join("/") },
+          cap(key)
+        );
         const section = el("div", {
           class:
             depth === 0
@@ -124,13 +129,6 @@ function renderNav(manifest) {
           header.classList.toggle("collapsed");
           section.classList.toggle("collapsed");
 
-          // Update nav parameter when expanding sections
-          if (!header.classList.contains("collapsed")) {
-            const cleanPath = currentPath
-              .map((part) => part.replace(/^\d+\s*-\s*/, ""))
-              .join("/");
-            updateUrlParameter("nav", "/" + cleanPath);
-          }
         });
 
         // Add accordion functionality consistently
@@ -194,13 +192,13 @@ async function showContent(relativePath, baseFilename) {
   // Determine base filename - use manifest value or directory name
   const actualBaseFilename = baseFilename || relativePath.split("/").pop();
 
-  // Check for PDF file (simple relative paths work on GitHub Pages)
+  // Check for PDF file
   const pdfFilename = `${actualBaseFilename}.pdf`;
-  const pdfPath = `Files/${relativePath}/${pdfFilename}`;
+  const pdfPath = `/Files/${relativePath}/${pdfFilename}`;
 
   // Check for MP3 file
   const mp3Filename = `${actualBaseFilename}.mp3`;
-  const mp3Path = `Files/${relativePath}/${mp3Filename}`;
+  const mp3Path = `/Files/${relativePath}/${mp3Filename}`;
 
   console.log("Checking for files:", { pdfPath, mp3Path, actualBaseFilename });
 
@@ -290,7 +288,7 @@ async function showContent(relativePath, baseFilename) {
     // Try to show audio player using base filename
     if (baseFilename && baseFilename !== null) {
       const mp3Filename = `${baseFilename}.mp3`;
-      const mp3Path = `Files/${relativePath}/${mp3Filename}`;
+      const mp3Path = `/Files/${relativePath}/${mp3Filename}`;
 
       console.log("Trying to load audio:", mp3Path);
 
@@ -411,7 +409,7 @@ async function showContent(relativePath, baseFilename) {
         const downloadBtn = el(
           "a",
           {
-            href: `Files/${relativePath}/${pdfFilename}`,
+            href: `/Files/${relativePath}/${pdfFilename}`,
             download: pdfFilename,
             class: "pdf-download-btn",
           },
@@ -422,8 +420,8 @@ async function showContent(relativePath, baseFilename) {
         mobileContainer.appendChild(pdfViewer);
         pdfWrap.appendChild(mobileContainer);
       } else {
-        // Desktop: Use simple relative path
-        const desktopPdfPath = `Files/${relativePath}/${pdfFilename}`;
+        // Desktop: Use root-relative path
+        const desktopPdfPath = `/Files/${relativePath}/${pdfFilename}`;
         const pdfPathWithParams = `${desktopPdfPath}#navpanes=0&scrollbar=1&toolbar=1&view=FitH`;
         const pdfEmbed = el("embed", {
           class: "pdf",
@@ -605,119 +603,70 @@ function formatTime(seconds) {
   return `${mins}:${secs.toString().padStart(2, "0")}`;
 }
 
-// URL parameter navigation support
-function getUrlParameter(name) {
-  const urlParams = new URLSearchParams(window.location.search);
-  return urlParams.get(name);
+function normalizeRoute(pathname) {
+  const decodedPath = decodeURIComponent(pathname);
+  if (decodedPath === "/") return "/";
+  return decodedPath.endsWith("/") ? decodedPath : `${decodedPath}/`;
 }
 
-function updateUrlParameter(name, value) {
-  const url = new URL(window.location);
-  if (value) {
-    url.searchParams.set(name, value);
-  } else {
-    url.searchParams.delete(name);
-  }
-  window.history.replaceState({}, "", url);
-}
+function selectContent(contentPath, baseFilename) {
+  const pathParts = contentPath.split("/");
 
-function navigateToPath(targetPath, manifest) {
-  console.log("Navigating to path:", targetPath);
+  for (let i = 1; i <= pathParts.length; i++) {
+    const branchPath = pathParts.slice(0, i).join("/");
+    const header = document.querySelector(
+      `nav [data-branch-path="${CSS.escape(branchPath)}"]`
+    );
 
-  // Remove leading slash and split path
-  const cleanPath = targetPath.replace(/^\//, "");
-  if (!cleanPath) return false;
-
-  const pathParts = cleanPath.split("/").map((part) => part.trim());
-  let current = manifest;
-  let fullPath = [];
-
-  // Traverse the manifest structure and expand accordions along the way
-  for (let i = 0; i < pathParts.length; i++) {
-    const part = pathParts[i];
-
-    // Find matching key (handle prefixes and capitalization)
-    const matchingKey = Object.keys(current).find((key) => {
-      const cleanKey = key.replace(/^\d+\s*-\s*/, "").toLowerCase();
-      const cleanPart = part.toLowerCase();
-      return (
-        cleanKey === cleanPart ||
-        cleanKey.replace(/[-\s]/g, "") === cleanPart.replace(/[-\s]/g, "")
-      );
-    });
-
-    if (matchingKey) {
-      fullPath.push(matchingKey);
-      current = current[matchingKey];
-
-      // Expand this level in the accordion (level-specific)
-      setTimeout(() => {
-        const currentDepth = i; // 0 = sefer level, 1 = parsha level, etc.
-        const headerTag = currentDepth === 0 ? "h2" : "h3";
-        const headers = document.querySelectorAll(`nav ${headerTag}`);
-
-        headers.forEach((header) => {
-          if (header.textContent.trim() === cap(matchingKey)) {
-            header.classList.remove("collapsed");
-            const nextElement = header.nextElementSibling;
-            if (nextElement) {
-              nextElement.classList.remove("collapsed");
-            }
-          }
-        });
-      }, 50);
-
-      // If this is the last part, try to show content or just expand
-      if (i === pathParts.length - 1) {
-        if (typeof current === "string" || current === null) {
-          // This is actual content, show it
-          const contentPath = fullPath.join("/");
-          setTimeout(() => {
-            showContent(contentPath, current);
-
-            // Mark the navigation item as active
-            const navItems = document.querySelectorAll("nav li");
-            navItems.forEach((item) => {
-              if (item.textContent.trim() === cap(matchingKey)) {
-                item.classList.add("active");
-              } else {
-                item.classList.remove("active");
-              }
-            });
-          }, 100);
-        }
-        return true; // Successfully navigated to this level
+    if (header) {
+      header.classList.remove("collapsed");
+      const section = header.nextElementSibling;
+      if (section) {
+        section.classList.remove("collapsed");
       }
-    } else {
-      console.warn("Path part not found:", part, "in", Object.keys(current));
-      return false; // Navigation failed
     }
   }
 
-  return true; // Successfully expanded all found levels
+  document.querySelectorAll("nav li").forEach((item) => {
+    item.classList.toggle("active", item.dataset.contentPath === contentPath);
+  });
+
+  showContent(contentPath, baseFilename);
+}
+
+function navigateToRoute(pathname, routes) {
+  const route = normalizeRoute(pathname);
+  if (route === "/") return true;
+
+  const entry = routes.byRoute[route];
+  if (!entry) {
+    console.warn("Route not found:", route);
+    return false;
+  }
+
+  selectContent(entry.contentPath, entry.baseFilename);
+  return true;
 }
 
 // Initialize the application
 (async () => {
   try {
-    const manifest = await loadManifest();
-    renderNav(manifest);
+    const [manifest, routes] = await Promise.all([loadManifest(), loadRoutes()]);
+    renderNav(manifest, routes);
     initMobileNav();
 
-    // Check for URL parameter navigation
-    const navParam = getUrlParameter("nav");
-    if (navParam) {
-      console.log("Nav parameter found:", navParam);
-      // Small delay to ensure navigation is rendered
-      setTimeout(() => {
-        const success = navigateToPath(navParam, manifest);
-        if (!success) {
-          console.warn("Failed to navigate to nav path:", navParam);
-          // Clear invalid parameter
-          updateUrlParameter("nav", null);
-        }
-      }, 200);
+    function loadCurrentRoute() {
+      const success = navigateToRoute(window.location.pathname, routes);
+      if (!success) {
+        console.warn("Failed to navigate to path route:", window.location.pathname);
+      }
     }
+
+    window.addEventListener("popstate", () => {
+      loadCurrentRoute();
+    });
+
+    loadCurrentRoute();
   } catch (e) {
     console.error(e);
     alert(
