@@ -9,11 +9,11 @@
       "baseFilename": "Bereshis 5785"
     },
     "/bereshis/5786/(1)/": {
-      "contentPath": "01 - Bereshis/01 - Bereshis/5786/(1)",
+      "contentPath": "01 - Bereshis/01 - Bereshis/5786/Bereshis (1)",
       "baseFilename": "Bereshis 5786 (1)"
     },
     "/bereshis/5786/(2)/": {
-      "contentPath": "01 - Bereshis/01 - Bereshis/5786/(2)",
+      "contentPath": "01 - Bereshis/01 - Bereshis/5786/Bereshis (2)",
       "baseFilename": "Bereshis 5786 (2)"
     },
     "/noach/5784/": {
@@ -37,11 +37,11 @@
       "baseFilename": "Lech Lecha 5785"
     },
     "/lech-lecha/5786/(1)/": {
-      "contentPath": "01 - Bereshis/03 - Lech Lecha/5786/(1)",
+      "contentPath": "01 - Bereshis/03 - Lech Lecha/5786/ Lech Lecha (1)",
       "baseFilename": "Lech Lecha 5786 (1)"
     },
     "/lech-lecha/5786/(2)/": {
-      "contentPath": "01 - Bereshis/03 - Lech Lecha/5786/(2)",
+      "contentPath": "01 - Bereshis/03 - Lech Lecha/5786/ Lech Lecha (2)",
       "baseFilename": "Lech Lecha 5786 (2)"
     },
     "/vayairah/5784/": {
@@ -53,11 +53,11 @@
       "baseFilename": "Vayairah 5785"
     },
     "/vayairah/5786/(1)/": {
-      "contentPath": "01 - Bereshis/04 - Vayairah/5786/(1)",
+      "contentPath": "01 - Bereshis/04 - Vayairah/5786/Vayairah (1)",
       "baseFilename": "Vayairah 5786 (1)"
     },
     "/vayairah/5786/(2)/": {
-      "contentPath": "01 - Bereshis/04 - Vayairah/5786/(2)",
+      "contentPath": "01 - Bereshis/04 - Vayairah/5786/Vayairah (2)",
       "baseFilename": "Vayairah 5786 (2)"
     },
     "/chayai-sara/5784/": {
@@ -197,11 +197,11 @@
       "baseFilename": "Bo 5785"
     },
     "/beshalach/5783/(1)/": {
-      "contentPath": "02 - Shemos/04 - Beshalach/5783/(1)",
+      "contentPath": "02 - Shemos/04 - Beshalach/5783/Beshalach 5783 (1)",
       "baseFilename": "Beshalach 5783(1)"
     },
     "/beshalach/5783/(2)/": {
-      "contentPath": "02 - Shemos/04 - Beshalach/5783/(2)",
+      "contentPath": "02 - Shemos/04 - Beshalach/5783/Beshalach 5783 (2)",
       "baseFilename": "Beshalach 5783 (2)"
     },
     "/beshalach/5784/": {
@@ -229,11 +229,11 @@
       "baseFilename": "Mishpatim 5783"
     },
     "/mishpatim/5784/(1)/": {
-      "contentPath": "02 - Shemos/06 - Mishpatim/5784/(1)",
+      "contentPath": "02 - Shemos/06 - Mishpatim/5784/Mishpatim 5784 (1)",
       "baseFilename": "Mishpatim (1)  5784"
     },
     "/mishpatim/5784/(2)/": {
-      "contentPath": "02 - Shemos/06 - Mishpatim/5784/(2)",
+      "contentPath": "02 - Shemos/06 - Mishpatim/5784/Mishpatim 5784 (2)",
       "baseFilename": "Mishpatim (2)  5784"
     },
     "/mishpatim/5785/": {
@@ -257,11 +257,11 @@
       "baseFilename": "Tetzaveh 5783"
     },
     "/tetzaveh/5784/(1)/": {
-      "contentPath": "02 - Shemos/08 - Tetzaveh/5784/(1)",
+      "contentPath": "02 - Shemos/08 - Tetzaveh/5784/Tetzaveh 5784 (1)",
       "baseFilename": "Tetzaveh (1) 5784"
     },
     "/tetzaveh/5784/(2)/": {
-      "contentPath": "02 - Shemos/08 - Tetzaveh/5784/(2)",
+      "contentPath": "02 - Shemos/08 - Tetzaveh/5784/Tetzaveh 5784 (2)",
       "baseFilename": "Tetzaveh (2) 5784"
     },
     "/tetzaveh/5785/": {
@@ -416,13 +416,13 @@
       "contentPath": "04 - Bamidbar/02 - Naso/5784",
       "baseFilename": "Naso 5784"
     },
-    "/naso/5785/story/": {
-      "contentPath": "04 - Bamidbar/02 - Naso/5785/Story",
-      "baseFilename": "Story 5785"
-    },
     "/naso/5785/": {
       "contentPath": "04 - Bamidbar/02 - Naso/5785",
       "baseFilename": "Naso 5785"
+    },
+    "/naso/5785/story/": {
+      "contentPath": "04 - Bamidbar/02 - Naso/Story 5785",
+      "baseFilename": "Story 5785"
     },
     "/behaloscha/5783/": {
       "contentPath": "04 - Bamidbar/03 - Behaloscha/5783",
@@ -461,11 +461,11 @@
       "baseFilename": "Korach 5785"
     },
     "/chukas/5784/(1)/": {
-      "contentPath": "04 - Bamidbar/06 - Chukas/5784/(1)",
+      "contentPath": "04 - Bamidbar/06 - Chukas/5784/Chukas (1)",
       "baseFilename": "Chukas 5784 (1)"
     },
     "/chukas/5784/(2)/": {
-      "contentPath": "04 - Bamidbar/06 - Chukas/5784/(2)",
+      "contentPath": "04 - Bamidbar/06 - Chukas/5784/Chukas (2)",
       "baseFilename": "Chukas 5784 (2)"
     },
     "/chukas/5785/": {
@@ -573,11 +573,11 @@
       "baseFilename": "Ki Seitzei 5783"
     },
     "/ki-seitzei/5784/(1)/": {
-      "contentPath": "05 - Devarim/06 - Ki Seitzei/5784/(1)",
+      "contentPath": "05 - Devarim/06 - Ki Seitzei/5784/Ki Seitzei 5784 (1)",
       "baseFilename": "Ki Seitzei 5784 (1)"
     },
     "/ki-seitzei/5784/(2)/": {
-      "contentPath": "05 - Devarim/06 - Ki Seitzei/5784/(2)",
+      "contentPath": "05 - Devarim/06 - Ki Seitzei/5784/Ki Seitzei 5784 (2)",
       "baseFilename": "Ki Seitzei 5784 (2)"
     },
     "/ki-seitzei/5785/": {
@@ -793,11 +793,11 @@
       "baseFilename": "Shmini Atzeres 5785"
     },
     "/shmini-atzeres/5786/(1)/": {
-      "contentPath": "06 - Yom Tov/13 - Shmini Atzeres/5786/(1)",
+      "contentPath": "06 - Yom Tov/13 - Shmini Atzeres/5786/Shmini Atzeres (1)",
       "baseFilename": "Shmini Atzeres (1) 5786"
     },
     "/shmini-atzeres/5786/(2)/": {
-      "contentPath": "06 - Yom Tov/13 - Shmini Atzeres/5786/(2)",
+      "contentPath": "06 - Yom Tov/13 - Shmini Atzeres/5786/Shmini Atzeres (2)",
       "baseFilename": "Shmini Atzeres (2) 5786"
     },
     "/simchas-torah/5784/": {
@@ -809,11 +809,11 @@
       "baseFilename": "Simchas Torah 5785"
     },
     "/simchas-torah/5786/(1)/": {
-      "contentPath": "06 - Yom Tov/14 - Simchas Torah/5786/(1)",
+      "contentPath": "06 - Yom Tov/14 - Simchas Torah/5786/Simchas Torah (1)",
       "baseFilename": "Simchas Torah 5786 (1)"
     },
     "/simchas-torah/5786/(2)/": {
-      "contentPath": "06 - Yom Tov/14 - Simchas Torah/5786/(2)",
+      "contentPath": "06 - Yom Tov/14 - Simchas Torah/5786/Simchas Torah (2)",
       "baseFilename": "Simchas Torah 5786 (2)"
     },
     "/chanukah/5783/": {
@@ -844,16 +844,16 @@
       "contentPath": "06 - Yom Tov/18 - Purim Katon/5784",
       "baseFilename": "Purim Katon 5784"
     },
-    "/purim/5783/dvar-torah/": {
-      "contentPath": "06 - Yom Tov/19 - Purim/5783/Dvar Torah",
-      "baseFilename": "Purim Dvar Torah 5783"
-    },
     "/purim/5783/krovitz/": {
       "contentPath": "06 - Yom Tov/19 - Purim/5783/Krovitz",
       "baseFilename": "Krovitz"
     },
+    "/purim/5783/dvar-torah/": {
+      "contentPath": "06 - Yom Tov/19 - Purim/5783/Purim Dvar Torah 5783",
+      "baseFilename": "Purim Dvar Torah 5783"
+    },
     "/purim/5783/story/": {
-      "contentPath": "06 - Yom Tov/19 - Purim/5783/Story",
+      "contentPath": "06 - Yom Tov/19 - Purim/5783/Story Purim 5783",
       "baseFilename": "Story Purim 5783"
     },
     "/purim/5784/": {
@@ -884,19 +884,19 @@
   "byContentPath": {
     "01 - Bereshis/01 - Bereshis/5784": "/bereshis/5784/",
     "01 - Bereshis/01 - Bereshis/5785": "/bereshis/5785/",
-    "01 - Bereshis/01 - Bereshis/5786/(1)": "/bereshis/5786/(1)/",
-    "01 - Bereshis/01 - Bereshis/5786/(2)": "/bereshis/5786/(2)/",
+    "01 - Bereshis/01 - Bereshis/5786/Bereshis (1)": "/bereshis/5786/(1)/",
+    "01 - Bereshis/01 - Bereshis/5786/Bereshis (2)": "/bereshis/5786/(2)/",
     "01 - Bereshis/02 - Noach/5784": "/noach/5784/",
     "01 - Bereshis/02 - Noach/5785": "/noach/5785/",
     "01 - Bereshis/02 - Noach/5786": "/noach/5786/",
     "01 - Bereshis/03 - Lech Lecha/5784": "/lech-lecha/5784/",
     "01 - Bereshis/03 - Lech Lecha/5785": "/lech-lecha/5785/",
-    "01 - Bereshis/03 - Lech Lecha/5786/(1)": "/lech-lecha/5786/(1)/",
-    "01 - Bereshis/03 - Lech Lecha/5786/(2)": "/lech-lecha/5786/(2)/",
+    "01 - Bereshis/03 - Lech Lecha/5786/ Lech Lecha (1)": "/lech-lecha/5786/(1)/",
+    "01 - Bereshis/03 - Lech Lecha/5786/ Lech Lecha (2)": "/lech-lecha/5786/(2)/",
     "01 - Bereshis/04 - Vayairah/5784": "/vayairah/5784/",
     "01 - Bereshis/04 - Vayairah/5785": "/vayairah/5785/",
-    "01 - Bereshis/04 - Vayairah/5786/(1)": "/vayairah/5786/(1)/",
-    "01 - Bereshis/04 - Vayairah/5786/(2)": "/vayairah/5786/(2)/",
+    "01 - Bereshis/04 - Vayairah/5786/Vayairah (1)": "/vayairah/5786/(1)/",
+    "01 - Bereshis/04 - Vayairah/5786/Vayairah (2)": "/vayairah/5786/(2)/",
     "01 - Bereshis/05 - Chayai Sara/5784": "/chayai-sara/5784/",
     "01 - Bereshis/05 - Chayai Sara/5785": "/chayai-sara/5785/",
     "01 - Bereshis/05 - Chayai Sara/5786": "/chayai-sara/5786/",
@@ -931,23 +931,23 @@
     "02 - Shemos/03 - Bo/5783": "/bo/5783/",
     "02 - Shemos/03 - Bo/5784": "/bo/5784/",
     "02 - Shemos/03 - Bo/5785": "/bo/5785/",
-    "02 - Shemos/04 - Beshalach/5783/(1)": "/beshalach/5783/(1)/",
-    "02 - Shemos/04 - Beshalach/5783/(2)": "/beshalach/5783/(2)/",
+    "02 - Shemos/04 - Beshalach/5783/Beshalach 5783 (1)": "/beshalach/5783/(1)/",
+    "02 - Shemos/04 - Beshalach/5783/Beshalach 5783 (2)": "/beshalach/5783/(2)/",
     "02 - Shemos/04 - Beshalach/5784": "/beshalach/5784/",
     "02 - Shemos/04 - Beshalach/5785": "/beshalach/5785/",
     "02 - Shemos/05 - Yisro/5783": "/yisro/5783/",
     "02 - Shemos/05 - Yisro/5784": "/yisro/5784/",
     "02 - Shemos/05 - Yisro/5785": "/yisro/5785/",
     "02 - Shemos/06 - Mishpatim/5783": "/mishpatim/5783/",
-    "02 - Shemos/06 - Mishpatim/5784/(1)": "/mishpatim/5784/(1)/",
-    "02 - Shemos/06 - Mishpatim/5784/(2)": "/mishpatim/5784/(2)/",
+    "02 - Shemos/06 - Mishpatim/5784/Mishpatim 5784 (1)": "/mishpatim/5784/(1)/",
+    "02 - Shemos/06 - Mishpatim/5784/Mishpatim 5784 (2)": "/mishpatim/5784/(2)/",
     "02 - Shemos/06 - Mishpatim/5785": "/mishpatim/5785/",
     "02 - Shemos/07 - Teruma/5783": "/teruma/5783/",
     "02 - Shemos/07 - Teruma/5784": "/teruma/5784/",
     "02 - Shemos/07 - Teruma/5785": "/teruma/5785/",
     "02 - Shemos/08 - Tetzaveh/5783": "/tetzaveh/5783/",
-    "02 - Shemos/08 - Tetzaveh/5784/(1)": "/tetzaveh/5784/(1)/",
-    "02 - Shemos/08 - Tetzaveh/5784/(2)": "/tetzaveh/5784/(2)/",
+    "02 - Shemos/08 - Tetzaveh/5784/Tetzaveh 5784 (1)": "/tetzaveh/5784/(1)/",
+    "02 - Shemos/08 - Tetzaveh/5784/Tetzaveh 5784 (2)": "/tetzaveh/5784/(2)/",
     "02 - Shemos/08 - Tetzaveh/5785": "/tetzaveh/5785/",
     "02 - Shemos/09 - Ki Sisa/5783": "/ki-sisa/5783/",
     "02 - Shemos/09 - Ki Sisa/5784": "/ki-sisa/5784/",
@@ -986,8 +986,8 @@
     "04 - Bamidbar/01 - Bamidbar/5785": "/bamidbar/5785/",
     "04 - Bamidbar/02 - Naso/5783": "/naso/5783/",
     "04 - Bamidbar/02 - Naso/5784": "/naso/5784/",
-    "04 - Bamidbar/02 - Naso/5785/Story": "/naso/5785/story/",
     "04 - Bamidbar/02 - Naso/5785": "/naso/5785/",
+    "04 - Bamidbar/02 - Naso/Story 5785": "/naso/5785/story/",
     "04 - Bamidbar/03 - Behaloscha/5783": "/behaloscha/5783/",
     "04 - Bamidbar/03 - Behaloscha/5784": "/behaloscha/5784/",
     "04 - Bamidbar/03 - Behaloscha/5785": "/behaloscha/5785/",
@@ -997,8 +997,8 @@
     "04 - Bamidbar/05 - Korach/5783": "/korach/5783/",
     "04 - Bamidbar/05 - Korach/5784": "/korach/5784/",
     "04 - Bamidbar/05 - Korach/5785": "/korach/5785/",
-    "04 - Bamidbar/06 - Chukas/5784/(1)": "/chukas/5784/(1)/",
-    "04 - Bamidbar/06 - Chukas/5784/(2)": "/chukas/5784/(2)/",
+    "04 - Bamidbar/06 - Chukas/5784/Chukas (1)": "/chukas/5784/(1)/",
+    "04 - Bamidbar/06 - Chukas/5784/Chukas (2)": "/chukas/5784/(2)/",
     "04 - Bamidbar/06 - Chukas/5785": "/chukas/5785/",
     "04 - Bamidbar/07 - Balak/5784": "/balak/5784/",
     "04 - Bamidbar/07 - Balak/5785": "/balak/5785/",
@@ -1025,8 +1025,8 @@
     "05 - Devarim/05 - Shoftim/5784": "/shoftim/5784/",
     "05 - Devarim/05 - Shoftim/5785": "/shoftim/5785/",
     "05 - Devarim/06 - Ki Seitzei/5783": "/ki-seitzei/5783/",
-    "05 - Devarim/06 - Ki Seitzei/5784/(1)": "/ki-seitzei/5784/(1)/",
-    "05 - Devarim/06 - Ki Seitzei/5784/(2)": "/ki-seitzei/5784/(2)/",
+    "05 - Devarim/06 - Ki Seitzei/5784/Ki Seitzei 5784 (1)": "/ki-seitzei/5784/(1)/",
+    "05 - Devarim/06 - Ki Seitzei/5784/Ki Seitzei 5784 (2)": "/ki-seitzei/5784/(2)/",
     "05 - Devarim/06 - Ki Seitzei/5785": "/ki-seitzei/5785/",
     "05 - Devarim/07 - Ki Savo/5783": "/ki-savo/5783/",
     "05 - Devarim/07 - Ki Savo/5784": "/ki-savo/5784/",
@@ -1080,12 +1080,12 @@
     "06 - Yom Tov/12 - Hoshana Raba/5786": "/hoshana-raba/5786/",
     "06 - Yom Tov/13 - Shmini Atzeres/5784": "/shmini-atzeres/5784/",
     "06 - Yom Tov/13 - Shmini Atzeres/5785": "/shmini-atzeres/5785/",
-    "06 - Yom Tov/13 - Shmini Atzeres/5786/(1)": "/shmini-atzeres/5786/(1)/",
-    "06 - Yom Tov/13 - Shmini Atzeres/5786/(2)": "/shmini-atzeres/5786/(2)/",
+    "06 - Yom Tov/13 - Shmini Atzeres/5786/Shmini Atzeres (1)": "/shmini-atzeres/5786/(1)/",
+    "06 - Yom Tov/13 - Shmini Atzeres/5786/Shmini Atzeres (2)": "/shmini-atzeres/5786/(2)/",
     "06 - Yom Tov/14 - Simchas Torah/5784": "/simchas-torah/5784/",
     "06 - Yom Tov/14 - Simchas Torah/5785": "/simchas-torah/5785/",
-    "06 - Yom Tov/14 - Simchas Torah/5786/(1)": "/simchas-torah/5786/(1)/",
-    "06 - Yom Tov/14 - Simchas Torah/5786/(2)": "/simchas-torah/5786/(2)/",
+    "06 - Yom Tov/14 - Simchas Torah/5786/Simchas Torah (1)": "/simchas-torah/5786/(1)/",
+    "06 - Yom Tov/14 - Simchas Torah/5786/Simchas Torah (2)": "/simchas-torah/5786/(2)/",
     "06 - Yom Tov/15 - Chanukah/5783": "/chanukah/5783/",
     "06 - Yom Tov/15 - Chanukah/5784": "/chanukah/5784/",
     "06 - Yom Tov/15 - Chanukah/5785": "/chanukah/5785/",
@@ -1093,9 +1093,9 @@
     "06 - Yom Tov/17 - Tu Beshvat/5784": "/tu-beshvat/5784/",
     "06 - Yom Tov/17 - Tu Beshvat/5785": "/tu-beshvat/5785/",
     "06 - Yom Tov/18 - Purim Katon/5784": "/purim-katon/5784/",
-    "06 - Yom Tov/19 - Purim/5783/Dvar Torah": "/purim/5783/dvar-torah/",
     "06 - Yom Tov/19 - Purim/5783/Krovitz": "/purim/5783/krovitz/",
-    "06 - Yom Tov/19 - Purim/5783/Story": "/purim/5783/story/",
+    "06 - Yom Tov/19 - Purim/5783/Purim Dvar Torah 5783": "/purim/5783/dvar-torah/",
+    "06 - Yom Tov/19 - Purim/5783/Story Purim 5783": "/purim/5783/story/",
     "06 - Yom Tov/19 - Purim/5784": "/purim/5784/",
     "06 - Yom Tov/19 - Purim/5785": "/purim/5785/",
     "07 - Misc/Bloopers": "/bloopers/",

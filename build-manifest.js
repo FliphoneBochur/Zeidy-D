@@ -297,6 +297,79 @@ function routePath(pathParts) {
   return `/${pathParts.map(routeSegment).filter(Boolean).join("/")}/`;
 }
 
+function isYear(part) {
+  return /^\d{4}$/.test(String(part).trim());
+}
+
+function stripNumberPrefix(part) {
+  return part.replace(/^\d+\s*-\s*/, "").trim();
+}
+
+function escapeRegex(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function normalizeSpaces(value) {
+  return value.replace(/\s+/g, " ").trim();
+}
+
+function nearestTopic(parts) {
+  for (let i = parts.length - 1; i >= 0; i--) {
+    if (!isYear(parts[i])) {
+      return stripNumberPrefix(parts[i]);
+    }
+  }
+  return null;
+}
+
+function simplifyLeafName(leaf, topic, year) {
+  let next = stripNumberPrefix(leaf);
+
+  if (topic) {
+    next = next.replace(new RegExp(`\\b${escapeRegex(topic)}\\b`, "i"), " ");
+  }
+
+  if (year) {
+    next = next.replace(new RegExp(`\\b${escapeRegex(year)}\\b`, "g"), " ");
+  }
+
+  return normalizeSpaces(next) || stripNumberPrefix(leaf);
+}
+
+function routePartsForContent(pathParts) {
+  const withoutSefer = pathParts.slice(1);
+  const leaf = withoutSefer[withoutSefer.length - 1];
+  const parent = withoutSefer[withoutSefer.length - 2];
+
+  if (!leaf || !parent) {
+    return withoutSefer;
+  }
+
+  if (isYear(parent)) {
+    const topic = nearestTopic(withoutSefer.slice(0, -2));
+    const simplified = simplifyLeafName(leaf, topic, parent);
+
+    if (routeSegment(simplified) !== routeSegment(leaf)) {
+      return [...withoutSefer.slice(0, -1), simplified];
+    }
+
+    return withoutSefer;
+  }
+
+  const leafYearMatch = stripNumberPrefix(leaf).match(/\b(5\d{3})\b/);
+  if (leafYearMatch) {
+    const year = leafYearMatch[1];
+    const topic = nearestTopic(withoutSefer.slice(0, -1));
+    const simplified = simplifyLeafName(leaf, topic, year);
+
+    if (routeSegment(simplified) !== routeSegment(leaf)) {
+      return [...withoutSefer.slice(0, -1), year, simplified];
+    }
+  }
+
+  return withoutSefer;
+}
+
 function buildRoutes(manifest) {
   const routes = {
     byRoute: {},
@@ -309,7 +382,7 @@ function buildRoutes(manifest) {
 
       if (key === CONTENT_KEY) {
         const contentPath = pathParts.join("/");
-        const route = routePath(pathParts.slice(1));
+        const route = routePath(routePartsForContent(pathParts));
         const entry = {
           contentPath,
           baseFilename: value,
@@ -325,7 +398,7 @@ function buildRoutes(manifest) {
         routes.byContentPath[contentPath] = route;
       } else if (typeof value === "string" || value === null) {
         const contentPath = currentPath.join("/");
-        const route = routePath(currentPath.slice(1));
+        const route = routePath(routePartsForContent(currentPath));
         const entry = {
           contentPath,
           baseFilename: value,
