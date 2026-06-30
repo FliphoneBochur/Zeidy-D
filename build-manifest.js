@@ -8,7 +8,8 @@ const FILES_DIR = "./Files";
 const MANIFEST_FILE = "./manifest.json";
 const ROUTES_FILE = "./routes.json";
 const ROOT_INDEX_FILE = "./index.html";
-const GENERATED_ROUTE_MARKER = "<!-- Generated route page: do not edit directly. -->";
+const FALLBACK_FILE = "./404.html";
+const GENERATED_FALLBACK_MARKER = "<!-- Generated fallback page: do not edit directly. -->";
 const CONTENT_KEY = "__content";
 
 // Helper function to prompt user for confirmation
@@ -272,13 +273,13 @@ async function buildManifest() {
 
   const routes = buildRoutes(manifest);
   fs.writeFileSync(ROUTES_FILE, JSON.stringify(routes, null, 2));
-  generateRoutePages(routes);
+  generateFallbackPage();
 
   console.log("\n✅ Manifest built successfully!");
   console.log(`📊 Total entries: ${totalEntries}`);
   console.log(`📄 Manifest saved to: ${MANIFEST_FILE}`);
   console.log(`🧭 Routes saved to: ${ROUTES_FILE}`);
-  console.log(`📄 Generated route pages: ${Object.keys(routes.byRoute).length}`);
+  console.log(`📄 Fallback page saved to: ${FALLBACK_FILE}`);
 
   return manifest;
 }
@@ -422,44 +423,20 @@ function buildRoutes(manifest) {
   return routes;
 }
 
-function generateRoutePages(routes) {
+function generateFallbackPage() {
   if (!fs.existsSync(ROOT_INDEX_FILE)) {
     throw new Error(`${ROOT_INDEX_FILE} not found`);
   }
 
-  cleanGeneratedRoutePages();
-
   const rootIndex = fs.readFileSync(ROOT_INDEX_FILE, "utf8");
-  const routeIndex = rootIndex.includes(GENERATED_ROUTE_MARKER)
+  const fallbackIndex = rootIndex.includes(GENERATED_FALLBACK_MARKER)
     ? rootIndex
-    : rootIndex.replace("<!DOCTYPE html>", `<!DOCTYPE html>\n${GENERATED_ROUTE_MARKER}`);
+    : rootIndex.replace(
+        "<!DOCTYPE html>",
+        `<!DOCTYPE html>\n${GENERATED_FALLBACK_MARKER}`
+      );
 
-  for (const route of Object.keys(routes.byRoute)) {
-    const routeDir = path.join(".", ...route.split("/").filter(Boolean));
-    fs.mkdirSync(routeDir, { recursive: true });
-    fs.writeFileSync(path.join(routeDir, "index.html"), routeIndex);
-  }
-}
-
-function cleanGeneratedRoutePages(dir = ".") {
-  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
-    if (entry.name === ".git" || entry.name === "Files") continue;
-
-    const entryPath = path.join(dir, entry.name);
-
-    if (entry.isDirectory()) {
-      cleanGeneratedRoutePages(entryPath);
-
-      if (fs.readdirSync(entryPath).length === 0) {
-        fs.rmdirSync(entryPath);
-      }
-    } else if (entry.name === "index.html" && entryPath !== ROOT_INDEX_FILE) {
-      const content = fs.readFileSync(entryPath, "utf8");
-      if (content.includes(GENERATED_ROUTE_MARKER)) {
-        fs.unlinkSync(entryPath);
-      }
-    }
-  }
+  fs.writeFileSync(FALLBACK_FILE, fallbackIndex);
 }
 
 // Allow running as a script or importing as a module

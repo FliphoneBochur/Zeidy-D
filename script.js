@@ -685,6 +685,35 @@ function navigateToRoute(pathname, routes) {
   return true;
 }
 
+function showNotFound(pathname) {
+  document.getElementById("title").textContent = "";
+  document.getElementById("crumbs").textContent = "";
+
+  const content = document.getElementById("content");
+  content.innerHTML = "";
+
+  const video = el("video", {
+    class: "not-found-video",
+    src: "/The trick is not having stuff, it's knowing where it is.mp4",
+    autoplay: "",
+    loop: "",
+    playsinline: "",
+    controls: "",
+  });
+
+  content.appendChild(
+    el("div", { class: "not-found" },
+      video,
+      el("h2", {}, "404 Not Found"),
+      el("a", { href: "/", class: "home-link" }, "Go Home")
+    )
+  );
+
+  video.play().catch((error) => {
+    console.warn("Autoplay was blocked:", error);
+  });
+}
+
 // Initialize the application
 (async () => {
   try {
@@ -696,6 +725,7 @@ function navigateToRoute(pathname, routes) {
       const success = navigateToRoute(window.location.pathname, routes);
       if (!success) {
         console.warn("Failed to navigate to path route:", window.location.pathname);
+        showNotFound(window.location.pathname);
       }
     }
 
