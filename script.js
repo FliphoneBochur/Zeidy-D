@@ -70,20 +70,34 @@ function createIframeEmbeds(
   const embeds = el("div", { class: "videos-container" });
 
   ids.forEach((id, index) => {
-    const wrapper = el("div", { class: wrapperClass });
-    const iframe = el("iframe", {
-      src: getSrc(id),
-      title: `${title} ${index + 1}`,
-      allow:
-        "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
-      allowfullscreen: "",
-    });
-
-    wrapper.appendChild(iframe);
-    embeds.appendChild(wrapper);
+    embeds.appendChild(
+      createIframeEmbed(id, index, {
+        getSrc,
+        title,
+        wrapperClass,
+      })
+    );
   });
 
   return embeds;
+}
+
+function createIframeEmbed(
+  id,
+  index,
+  { getSrc, title, wrapperClass = "embed-wrapper" }
+) {
+  const wrapper = el("div", { class: wrapperClass });
+  const iframe = el("iframe", {
+    src: getSrc(id),
+    title: `${title} ${index + 1}`,
+    allow:
+      "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
+    allowfullscreen: "",
+  });
+
+  wrapper.appendChild(iframe);
+  return wrapper;
 }
 
 const VIDEO_EMBED_PROVIDERS = {
@@ -101,9 +115,54 @@ const VIDEO_EMBED_PROVIDERS = {
   },
 };
 
-function setVideoEmbeds(container, ids, provider) {
+function setVideoEmbed(container, id, index, provider) {
   container.innerHTML = "";
-  container.appendChild(createIframeEmbeds(ids, provider));
+  container.appendChild(createIframeEmbed(id, index, provider));
+}
+
+function createSwitchableVideoEmbeds(
+  primaryIds,
+  primaryProvider,
+  alternateIds,
+  alternateProvider
+) {
+  const embeds = el("div", { class: "videos-container" });
+
+  primaryIds.forEach((primaryId, index) => {
+    const alternateId = alternateIds[index];
+    const item = el("div", { class: "video-embed-item" });
+    const videoSlot = el("div", { class: "video-embed-slot" });
+    let showingAlternate = false;
+
+    setVideoEmbed(videoSlot, primaryId, index, primaryProvider);
+    item.appendChild(videoSlot);
+
+    if (alternateId) {
+      const sourceToggle = el(
+        "button",
+        { class: "video-source-toggle", type: "button" },
+        alternateProvider.buttonText
+      );
+
+      sourceToggle.addEventListener("click", () => {
+        showingAlternate = !showingAlternate;
+
+        if (showingAlternate) {
+          setVideoEmbed(videoSlot, alternateId, index, alternateProvider);
+          sourceToggle.textContent = primaryProvider.buttonText;
+        } else {
+          setVideoEmbed(videoSlot, primaryId, index, primaryProvider);
+          sourceToggle.textContent = alternateProvider.buttonText;
+        }
+      });
+
+      item.appendChild(sourceToggle);
+    }
+
+    embeds.appendChild(item);
+  });
+
+  return embeds;
 }
 
 function renderNav(manifest, routes) {
@@ -335,43 +394,23 @@ async function showContent(relativePath, baseFilename) {
     const googleDriveIds = normalizeEmbedIds(meta["google-drive"]);
     const youtubeIds = normalizeEmbedIds(meta.youtube);
 
-    if (youtubeIds.length > 0 || googleDriveIds.length > 0) {
-      const videoContainer = el("div", { class: "video-embed-container" });
-      const videoSlot = el("div", { class: "video-embed-slot" });
-      const defaultProvider =
-        youtubeIds.length > 0
-          ? VIDEO_EMBED_PROVIDERS.youtube
-          : VIDEO_EMBED_PROVIDERS.googleDrive;
-      const defaultIds = youtubeIds.length > 0 ? youtubeIds : googleDriveIds;
+    if (youtubeIds.length > 0) {
+      const youtubeEmbeds =
+        googleDriveIds.length > 0
+          ? createSwitchableVideoEmbeds(
+              youtubeIds,
+              VIDEO_EMBED_PROVIDERS.youtube,
+              googleDriveIds,
+              VIDEO_EMBED_PROVIDERS.googleDrive
+            )
+          : createIframeEmbeds(youtubeIds, VIDEO_EMBED_PROVIDERS.youtube);
 
-      setVideoEmbeds(videoSlot, defaultIds, defaultProvider);
-      videoContainer.appendChild(videoSlot);
-
-      if (youtubeIds.length > 0 && googleDriveIds.length > 0) {
-        let showingGoogleDrive = false;
-        const sourceToggle = el(
-          "button",
-          { class: "video-source-toggle", type: "button" },
-          VIDEO_EMBED_PROVIDERS.googleDrive.buttonText
-        );
-
-        sourceToggle.addEventListener("click", () => {
-          showingGoogleDrive = !showingGoogleDrive;
-          const nextProvider = showingGoogleDrive
-            ? VIDEO_EMBED_PROVIDERS.googleDrive
-            : VIDEO_EMBED_PROVIDERS.youtube;
-          const nextIds = showingGoogleDrive ? googleDriveIds : youtubeIds;
-
-          setVideoEmbeds(videoSlot, nextIds, nextProvider);
-          sourceToggle.textContent = showingGoogleDrive
-            ? VIDEO_EMBED_PROVIDERS.youtube.buttonText
-            : VIDEO_EMBED_PROVIDERS.googleDrive.buttonText;
-        });
-
-        videoContainer.appendChild(sourceToggle);
-      }
-
-      embedsContainer.appendChild(videoContainer);
+      embedsContainer.appendChild(youtubeEmbeds);
+      hasEmbeds = true;
+    } else if (googleDriveIds.length > 0) {
+      embedsContainer.appendChild(
+        createIframeEmbeds(googleDriveIds, VIDEO_EMBED_PROVIDERS.googleDrive)
+      );
       hasEmbeds = true;
     } else {
       const videoError = el(

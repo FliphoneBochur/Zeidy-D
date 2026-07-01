@@ -299,7 +299,7 @@ main header h1 {
   gap: 16px;
 }
 
-.video-embed-container {
+.video-embed-item {
   display: flex;
   flex-direction: column;
   gap: 10px;
