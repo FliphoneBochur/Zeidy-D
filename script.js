@@ -120,6 +120,35 @@ function setVideoEmbed(container, id, index, provider) {
   container.appendChild(createIframeEmbed(id, index, provider));
 }
 
+function createGoogleDriveDownloadLink(id) {
+  return el(
+    "a",
+    {
+      class: "video-download-btn",
+      href: `https://drive.google.com/uc?export=download&id=${id}`,
+      download: "",
+    },
+    "⤓"
+  );
+}
+
+function createDownloadableGoogleDriveEmbeds(ids) {
+  const embeds = el("div", { class: "videos-container" });
+
+  ids.forEach((id, index) => {
+    const item = el("div", { class: "video-embed-item" });
+    item.appendChild(
+      createIframeEmbed(id, index, VIDEO_EMBED_PROVIDERS.googleDrive)
+    );
+    item.appendChild(
+      el("div", { class: "video-actions" }, createGoogleDriveDownloadLink(id))
+    );
+    embeds.appendChild(item);
+  });
+
+  return embeds;
+}
+
 function createSwitchableVideoEmbeds(
   primaryIds,
   primaryProvider,
@@ -138,6 +167,7 @@ function createSwitchableVideoEmbeds(
     item.appendChild(videoSlot);
 
     if (alternateId) {
+      const actions = el("div", { class: "video-actions" });
       const sourceToggle = el(
         "button",
         { class: "video-source-toggle", type: "button" },
@@ -156,7 +186,9 @@ function createSwitchableVideoEmbeds(
         }
       });
 
-      item.appendChild(sourceToggle);
+      actions.appendChild(sourceToggle);
+      actions.appendChild(createGoogleDriveDownloadLink(alternateId));
+      item.appendChild(actions);
     }
 
     embeds.appendChild(item);
@@ -409,7 +441,7 @@ async function showContent(relativePath, baseFilename) {
       hasEmbeds = true;
     } else if (googleDriveIds.length > 0) {
       embedsContainer.appendChild(
-        createIframeEmbeds(googleDriveIds, VIDEO_EMBED_PROVIDERS.googleDrive)
+        createDownloadableGoogleDriveEmbeds(googleDriveIds)
       );
       hasEmbeds = true;
     } else {
