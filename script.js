@@ -63,7 +63,10 @@ function normalizeEmbedIds(value) {
     .filter(Boolean);
 }
 
-function createIframeEmbeds(ids, { getSrc, title, wrapperClass = "embed-wrapper" }) {
+function createIframeEmbeds(
+  ids,
+  { getSrc, title, wrapperClass = "embed-wrapper" }
+) {
   const embeds = el("div", { class: "videos-container" });
 
   ids.forEach((id, index) => {
@@ -81,6 +84,26 @@ function createIframeEmbeds(ids, { getSrc, title, wrapperClass = "embed-wrapper"
   });
 
   return embeds;
+}
+
+const VIDEO_EMBED_PROVIDERS = {
+  googleDrive: {
+    buttonText: "Play From Google Drive",
+    getSrc: (id) => `https://drive.google.com/file/d/${id}/preview`,
+    title: "Google Drive preview",
+    wrapperClass: "embed-wrapper google-drive-wrapper",
+  },
+  youtube: {
+    buttonText: "Play From YouTube",
+    getSrc: (id) => `https://www.youtube.com/embed/${id}`,
+    title: "YouTube player",
+    wrapperClass: "embed-wrapper youtube-wrapper",
+  },
+};
+
+function setVideoEmbeds(container, ids, provider) {
+  container.innerHTML = "";
+  container.appendChild(createIframeEmbeds(ids, provider));
 }
 
 function renderNav(manifest, routes) {
@@ -304,7 +327,7 @@ async function showContent(relativePath, baseFilename) {
   // Create embeds container for YouTube + Audio
   const embedsContainer = el("div", { class: "embeds-container" });
 
-  // Meta (Google Drive or YouTube)
+  // Meta (YouTube, optionally switchable to Google Drive)
   try {
     const meta = await loadMeta(relativePath);
     let hasEmbeds = false;
@@ -312,23 +335,43 @@ async function showContent(relativePath, baseFilename) {
     const googleDriveIds = normalizeEmbedIds(meta["google-drive"]);
     const youtubeIds = normalizeEmbedIds(meta.youtube);
 
-    if (googleDriveIds.length > 0) {
-      const driveEmbeds = createIframeEmbeds(googleDriveIds, {
-        getSrc: (id) => `https://drive.google.com/file/d/${id}/preview`,
-        title: "Google Drive preview",
-        wrapperClass: "embed-wrapper google-drive-wrapper",
-      });
+    if (youtubeIds.length > 0 || googleDriveIds.length > 0) {
+      const videoContainer = el("div", { class: "video-embed-container" });
+      const videoSlot = el("div", { class: "video-embed-slot" });
+      const defaultProvider =
+        youtubeIds.length > 0
+          ? VIDEO_EMBED_PROVIDERS.youtube
+          : VIDEO_EMBED_PROVIDERS.googleDrive;
+      const defaultIds = youtubeIds.length > 0 ? youtubeIds : googleDriveIds;
 
-      embedsContainer.appendChild(driveEmbeds);
-      hasEmbeds = true;
-    } else if (youtubeIds.length > 0) {
-      const youtubeEmbeds = createIframeEmbeds(youtubeIds, {
-        getSrc: (id) => `https://www.youtube.com/embed/${id}`,
-        title: "YouTube player",
-        wrapperClass: "embed-wrapper youtube-wrapper",
-      });
+      setVideoEmbeds(videoSlot, defaultIds, defaultProvider);
+      videoContainer.appendChild(videoSlot);
 
-      embedsContainer.appendChild(youtubeEmbeds);
+      if (youtubeIds.length > 0 && googleDriveIds.length > 0) {
+        let showingGoogleDrive = false;
+        const sourceToggle = el(
+          "button",
+          { class: "video-source-toggle", type: "button" },
+          VIDEO_EMBED_PROVIDERS.googleDrive.buttonText
+        );
+
+        sourceToggle.addEventListener("click", () => {
+          showingGoogleDrive = !showingGoogleDrive;
+          const nextProvider = showingGoogleDrive
+            ? VIDEO_EMBED_PROVIDERS.googleDrive
+            : VIDEO_EMBED_PROVIDERS.youtube;
+          const nextIds = showingGoogleDrive ? googleDriveIds : youtubeIds;
+
+          setVideoEmbeds(videoSlot, nextIds, nextProvider);
+          sourceToggle.textContent = showingGoogleDrive
+            ? VIDEO_EMBED_PROVIDERS.youtube.buttonText
+            : VIDEO_EMBED_PROVIDERS.googleDrive.buttonText;
+        });
+
+        videoContainer.appendChild(sourceToggle);
+      }
+
+      embedsContainer.appendChild(videoContainer);
       hasEmbeds = true;
     } else {
       const videoError = el(

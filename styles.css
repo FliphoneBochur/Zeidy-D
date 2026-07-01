@@ -292,11 +292,35 @@ main header h1 {
   order: 1;
 }
 
-/* Videos container for multiple YouTube videos */
+/* Videos container for multiple embeds */
 .videos-container {
   display: flex;
   flex-direction: column;
   gap: 16px;
+}
+
+.video-embed-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.video-source-toggle {
+  align-self: flex-start;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #fff;
+  color: #111;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 600;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.video-source-toggle:hover {
+  background: var(--hover);
+  border-color: #cfcfcf;
 }
 
 /* PDF styling - always below embeds */
