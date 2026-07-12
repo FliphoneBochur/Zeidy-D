@@ -16,12 +16,12 @@
       "contentPath": "01 - Bereshis/01 - Bereshis/5786/Bereshis (2)",
       "baseFilename": "Bereshis 5786 (2)"
     },
-    "/noach/5784/1/": {
-      "contentPath": "01 - Bereshis/02 - Noach/5784/1",
+    "/noach/5784/(1)/": {
+      "contentPath": "01 - Bereshis/02 - Noach/5784/Noach 5784 (1)",
       "baseFilename": "Noach 5784"
     },
-    "/noach/5784/2/": {
-      "contentPath": "01 - Bereshis/02 - Noach/5784/2",
+    "/noach/5784/(2)/": {
+      "contentPath": "01 - Bereshis/02 - Noach/5784/Noach 5784 (2)",
       "baseFilename": "Noach 5784"
     },
     "/noach/5785/": {
@@ -890,8 +890,8 @@
     "01 - Bereshis/01 - Bereshis/5785": "/bereshis/5785/",
     "01 - Bereshis/01 - Bereshis/5786/Bereshis (1)": "/bereshis/5786/(1)/",
     "01 - Bereshis/01 - Bereshis/5786/Bereshis (2)": "/bereshis/5786/(2)/",
-    "01 - Bereshis/02 - Noach/5784/1": "/noach/5784/1/",
-    "01 - Bereshis/02 - Noach/5784/2": "/noach/5784/2/",
+    "01 - Bereshis/02 - Noach/5784/Noach 5784 (1)": "/noach/5784/(1)/",
+    "01 - Bereshis/02 - Noach/5784/Noach 5784 (2)": "/noach/5784/(2)/",
     "01 - Bereshis/02 - Noach/5785": "/noach/5785/",
     "01 - Bereshis/02 - Noach/5786": "/noach/5786/",
     "01 - Bereshis/03 - Lech Lecha/5784": "/lech-lecha/5784/",
