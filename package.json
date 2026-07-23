@@ -10,7 +10,8 @@
     "generate-qr-codes": "node generate-qr-codes.js",
     "review-spelling": "node review-spelling-candidates.js",
     "replace-docx-text": "node replace-docx-text.js",
-    "scan-bidi-risks": "node scan-bidi-risks.js"
+    "scan-bidi-risks": "node scan-bidi-risks.js",
+    "test-typesetting-rules": "node test-typesetting-rules.js"
   },
   "dependencies": {
     "qrcode": "1.5.4"

@@ -20,6 +20,10 @@ const HEBREW_LETTERS = "[\\u0590-\\u05FF\\uFB1D-\\uFB4F]";
 const HEBREW_INTERNAL_QUOTE = "(?:\\\\[\"']|[\"'׳״])";
 const HEBREW_TOKEN = `${HEBREW_LETTERS}+(?:${HEBREW_INTERNAL_QUOTE}${HEBREW_LETTERS}+)*(?:${HEBREW_INTERNAL_QUOTE})?`;
 const HEBREW_ACRONYM = `${HEBREW_LETTERS}+(?:(?:${HEBREW_INTERNAL_QUOTE}${HEBREW_LETTERS}+)+|${HEBREW_INTERNAL_QUOTE})`;
+const HEBREW_PAREN_CITATION_RE = new RegExp(
+  `\\((?:${HEBREW_TOKEN}\\s+)?${HEBREW_ACRONYM}:${HEBREW_ACRONYM}\\)`,
+  "gu"
+);
 const HEBREW_ACRONYM_RE = new RegExp(
   `${HEBREW_ACRONYM}(?:\\s+${HEBREW_ACRONYM})*`,
   "gu"
@@ -30,6 +34,14 @@ const HEBREW_PHRASE_RE = new RegExp(
 );
 const MISPLACED_HEBREW_COMMA_RE = new RegExp(
   `,\\s*,(${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN})*)(?=\\s+[A-Za-z])`,
+  "gu"
+);
+const HEBREW_CITATION_COLON_RE = new RegExp(
+  `(${HEBREW_TOKEN})\\s*:\\s*(${HEBREW_TOKEN})`,
+  "gu"
+);
+const MISSING_OPEN_HEBREW_CITATION_PAREN_RE = new RegExp(
+  `(\\bthe\\s+${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN})*?)\\s+((?:${HEBREW_TOKEN}\\s+)?${HEBREW_TOKEN}:${HEBREW_TOKEN})\\)\\)+\\s*:`,
   "gu"
 );
 
@@ -157,11 +169,25 @@ function normalizeMisplacedHebrewCommas(typstContent) {
   });
 }
 
+function normalizePunctuationSpacing(typstContent) {
+  return typstContent
+    .replace(/\s+([,;:])/g, "$1")
+    .replace(/([,;:])(?=\S)/g, "$1 ")
+    .replace(HEBREW_CITATION_COLON_RE, "$1:$2")
+    .replace(MISSING_OPEN_HEBREW_CITATION_PAREN_RE, "$1 ($2):");
+}
+
 function isolateHebrewRuns(typstContent) {
-  const acronyms = [];
-  const acronymSafeContent = typstContent.replace(HEBREW_ACRONYM_RE, (match) => {
-    const marker = `\uE000${acronyms.length}\uE001`;
-    acronyms.push(match);
+  const ltrSequences = [];
+  const citationSafeContent = typstContent.replace(HEBREW_PAREN_CITATION_RE, (match) => {
+    const marker = `\uE000${ltrSequences.length}\uE001`;
+    ltrSequences.push(match);
+    return marker;
+  });
+
+  const acronymSafeContent = citationSafeContent.replace(HEBREW_ACRONYM_RE, (match) => {
+    const marker = `\uE000${ltrSequences.length}\uE001`;
+    ltrSequences.push(match);
     return marker;
   });
 
@@ -170,7 +196,7 @@ function isolateHebrewRuns(typstContent) {
   });
 
   return isolatedContent.replace(/\uE000(\d+)\uE001/g, (_match, index) => {
-    return `${LTR_ISOLATE}${acronyms[Number(index)]}${POP_DIRECTIONAL_ISOLATE}`;
+    return `${LTR_ISOLATE}${ltrSequences[Number(index)]}${POP_DIRECTIONAL_ISOLATE}`;
   });
 }
 
@@ -263,7 +289,9 @@ async function ensureEntryFiles(entries) {
 function convertDocxToTypst(entry) {
   const typst = run("pandoc", [entry.docxPath, "-t", "typst"]);
   return isolateHebrewRuns(
-    normalizeMisplacedHebrewCommas(stripDuplicateTitle(typst, entry.sourceTitles))
+    normalizeMisplacedHebrewCommas(
+      normalizePunctuationSpacing(stripDuplicateTitle(typst, entry.sourceTitles))
+    )
   );
 }
 
@@ -393,7 +421,15 @@ async function main() {
   console.log(`Included ${entries.length} article${entries.length === 1 ? "" : "s"} at ${options.size}.`);
 }
 
-main().catch((error) => {
-  console.error(`build-typeset-proof failed: ${error.message}`);
-  process.exitCode = 1;
-});
+if (require.main === module) {
+  main().catch((error) => {
+    console.error(`build-typeset-proof failed: ${error.message}`);
+    process.exitCode = 1;
+  });
+}
+
+module.exports = {
+  isolateHebrewRuns,
+  normalizeMisplacedHebrewCommas,
+  normalizePunctuationSpacing,
+};
