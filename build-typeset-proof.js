@@ -20,8 +20,9 @@ const HEBREW_LETTERS = "[\\u0590-\\u05FF\\uFB1D-\\uFB4F]";
 const HEBREW_INTERNAL_QUOTE = "(?:\\\\[\"']|[\"'׳״])";
 const HEBREW_TOKEN = `${HEBREW_LETTERS}+(?:${HEBREW_INTERNAL_QUOTE}${HEBREW_LETTERS}+)*(?:${HEBREW_INTERNAL_QUOTE})?`;
 const HEBREW_ACRONYM = `${HEBREW_LETTERS}+(?:(?:${HEBREW_INTERNAL_QUOTE}${HEBREW_LETTERS}+)+|${HEBREW_INTERNAL_QUOTE})`;
-const HEBREW_PAREN_CITATION_RE = new RegExp(
-  `\\((?:${HEBREW_TOKEN}\\s+)?${HEBREW_ACRONYM}:${HEBREW_ACRONYM}\\)`,
+const HEBREW_STRONG_ACRONYM = `(?:${HEBREW_LETTERS}+(?:${HEBREW_INTERNAL_QUOTE}${HEBREW_LETTERS}+)+|${HEBREW_LETTERS}{2,}${HEBREW_INTERNAL_QUOTE})`;
+const HEBREW_PAREN_REFERENCE_RE = new RegExp(
+  `\\((?=[^()\\n]{1,120}\\))(?=[^()\\n]{0,120}(?:${HEBREW_STRONG_ACRONYM}|:))(?:${HEBREW_TOKEN}|\\s|:){1,120}\\)`,
   "gu"
 );
 const HEBREW_LOOSE_CITATION_CLOSE_RE = new RegExp(
@@ -29,11 +30,11 @@ const HEBREW_LOOSE_CITATION_CLOSE_RE = new RegExp(
   "gu"
 );
 const HEBREW_ACRONYM_CONTEXT_RE = new RegExp(
-  `(?:${HEBREW_TOKEN}\\s+${HEBREW_ACRONYM}|${HEBREW_ACRONYM}\\s+${HEBREW_TOKEN})`,
+  `(?:${HEBREW_TOKEN}\\s+${HEBREW_STRONG_ACRONYM}|${HEBREW_STRONG_ACRONYM}\\s+${HEBREW_TOKEN})`,
   "gu"
 );
 const HEBREW_ACRONYM_RE = new RegExp(
-  `${HEBREW_ACRONYM}(?:\\s+${HEBREW_ACRONYM})*`,
+  `${HEBREW_STRONG_ACRONYM}(?:\\s+${HEBREW_STRONG_ACRONYM})*`,
   "gu"
 );
 const HEBREW_PHRASE_RE = new RegExp(
@@ -50,6 +51,14 @@ const HEBREW_CITATION_COLON_RE = new RegExp(
 );
 const MISSING_OPEN_HEBREW_CITATION_PAREN_RE = new RegExp(
   `(\\bthe\\s+${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN})*?)\\s+((?:${HEBREW_TOKEN}\\s+)?${HEBREW_TOKEN}:${HEBREW_TOKEN})\\)\\)+\\s*:`,
+  "gu"
+);
+const MALFORMED_ESCAPED_OPEN_HEBREW_CITATION_RE = new RegExp(
+  `\\(\\\\\\(((?:${HEBREW_TOKEN}\\s+)?${HEBREW_TOKEN}:${HEBREW_TOKEN}):\\s*(?=${HEBREW_LETTERS})`,
+  "gu"
+);
+const MALFORMED_ESCAPED_OPEN_NUMERIC_CITATION_RE = new RegExp(
+  `\\((\\d+:\\d+)\\\\\\(:\\s*(?=${HEBREW_LETTERS})`,
   "gu"
 );
 const HEBREW_TO_ENGLISH_DASH_RE = new RegExp(
@@ -184,6 +193,8 @@ function normalizeMisplacedHebrewCommas(typstContent) {
 
 function normalizePunctuationSpacing(typstContent) {
   return typstContent
+    .replace(MALFORMED_ESCAPED_OPEN_HEBREW_CITATION_RE, "($1): ")
+    .replace(MALFORMED_ESCAPED_OPEN_NUMERIC_CITATION_RE, "($1): ")
     .replace(/\s+([,;:])/g, "$1")
     .replace(/([,;:])(?=\S)/g, "$1 ")
     .replace(/(\d+):\s+(\d+)/g, "$1:$2")
@@ -195,13 +206,13 @@ function normalizePunctuationSpacing(typstContent) {
 
 function isolateHebrewRuns(typstContent) {
   const ltrSequences = [];
-  const citationSafeContent = typstContent.replace(HEBREW_PAREN_CITATION_RE, (match) => {
+  const referenceSafeContent = typstContent.replace(HEBREW_PAREN_REFERENCE_RE, (match) => {
     const marker = `\uE000${ltrSequences.length}\uE001`;
     ltrSequences.push(match);
     return marker;
   });
 
-  const acronymContextSafeContent = citationSafeContent.replace(HEBREW_ACRONYM_CONTEXT_RE, (match) => {
+  const acronymContextSafeContent = referenceSafeContent.replace(HEBREW_ACRONYM_CONTEXT_RE, (match) => {
     const marker = `\uE000${ltrSequences.length}\uE001`;
     ltrSequences.push(match);
     return marker;
@@ -317,9 +328,15 @@ function convertDocxToTypst(entry) {
   );
 }
 
+function formatDuration(startedAt) {
+  const elapsedMs = Date.now() - startedAt;
+  return `${(elapsedMs / 1000).toFixed(1)}s`;
+}
+
 function renderTypstDocument(entries, options) {
   const settings = pageSettings(options.size);
   const parts = [];
+  const startedAt = Date.now();
 
   parts.push(`#set document(title: ${typstString(`Zeidy-D ${options.output}`)})
 #set page(
@@ -403,7 +420,10 @@ function renderTypstDocument(entries, options) {
 }
 `);
 
+  console.error(`Converting ${entries.length} article${entries.length === 1 ? "" : "s"} from docx...`);
+
   entries.forEach((entry, index) => {
+    console.error(`[${index + 1}/${entries.length}] ${entry.title}`);
     const body = convertDocxToTypst(entry);
     const qrRelativePath = path.relative(OUTPUT_DIR, entry.qrPath).split(path.sep).join("/");
 
@@ -422,6 +442,7 @@ ${body}
 `);
   });
 
+  console.error(`Finished docx conversion in ${formatDuration(startedAt)}.`);
   return parts.join("\n");
 }
 
@@ -437,7 +458,10 @@ async function main() {
   const typstDocument = renderTypstDocument(entries, options);
 
   await fs.writeFile(typstPath, typstDocument, "utf8");
+  const compileStartedAt = Date.now();
+  console.error(`Compiling PDF with Typst...`);
   run("typst", ["compile", "--root", ROOT_DIR, typstPath, pdfPath]);
+  console.error(`Finished Typst compile in ${formatDuration(compileStartedAt)}.`);
 
   console.log(`Built ${path.relative(ROOT_DIR, typstPath)}`);
   console.log(`Built ${path.relative(ROOT_DIR, pdfPath)}`);

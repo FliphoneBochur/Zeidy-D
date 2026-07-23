@@ -58,6 +58,13 @@ test("keeps numeric source references tight", () => {
   );
 });
 
+test("repairs escaped open parenthesis after numeric source reference", () => {
+  assert.equal(
+    applyTextRules("The פסוק says (30:15\\(:הֶעָשִׁיר לֹא"),
+    `The ${RTL_ISOLATE}פסוק${POP_DIRECTIONAL_ISOLATE} says (30:15): ${RTL_ISOLATE}הֶעָשִׁיר לֹא${POP_DIRECTIONAL_ISOLATE}`
+  );
+});
+
 test("strips duplicate source title when route title has copy marker", () => {
   assert.equal(
     stripDuplicateTitle("Chukas 5784\n\nפרשת חקת", ["Chukas 5784 (1)"]),
@@ -114,10 +121,17 @@ test("keeps shorthand acronym phrase in logical order", () => {
   );
 });
 
-test("keeps adjacent citation acronyms in one protected sequence", () => {
+test("keeps divine-name geresh inside a Hebrew pasuk phrase", () => {
+  assert.equal(
+    applyTextRules("The פסוק says: וַיֹּאמֶר ה׳ אֶל מֹשֶׁה נְטֵה יָדְךָ. There"),
+    `The ${RTL_ISOLATE}פסוק${POP_DIRECTIONAL_ISOLATE} says: ${RTL_ISOLATE}וַיֹּאמֶר ה׳ אֶל מֹשֶׁה נְטֵה יָדְךָ${POP_DIRECTIONAL_ISOLATE}. There`
+  );
+});
+
+test("keeps short parenthesized acronym source in reading order", () => {
   assert.equal(
     applyTextRules("In (ס׳ ע״ב) מסכת ברכות"),
-    `In (${LTR_ISOLATE}ס׳ ע״ב${POP_DIRECTIONAL_ISOLATE}) ${RTL_ISOLATE}מסכת ברכות${POP_DIRECTIONAL_ISOLATE}`
+    `In ${LTR_ISOLATE}(ס׳ ע״ב)${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}מסכת ברכות${POP_DIRECTIONAL_ISOLATE}`
   );
 });
 
@@ -125,6 +139,34 @@ test("keeps full parenthesized Hebrew citation in reading order", () => {
   assert.equal(
     applyTextRules("the תוכחה (דברים כ״ח:מ״ז): תַּחַת"),
     `the ${RTL_ISOLATE}תוכחה${POP_DIRECTIONAL_ISOLATE} ${LTR_ISOLATE}(דברים כ״ח:מ״ז)${POP_DIRECTIONAL_ISOLATE}: ${RTL_ISOLATE}תַּחַת${POP_DIRECTIONAL_ISOLATE}`
+  );
+});
+
+test("keeps plain-letter parenthesized Hebrew citation in reading order", () => {
+  assert.equal(
+    applyTextRules("as we know משלי ו:כג)) כִּי נֵר"),
+    `as we know ${LTR_ISOLATE}(משלי ו:כג)${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}כִּי נֵר${POP_DIRECTIONAL_ISOLATE}`
+  );
+});
+
+test("keeps parenthesized Hebrew source reference in reading order", () => {
+  assert.equal(
+    applyTextRules("called אדם (ע״ש יבמות ס״א ע״א), the אומות"),
+    `called ${RTL_ISOLATE}אדם${POP_DIRECTIONAL_ISOLATE} ${LTR_ISOLATE}(ע״ש יבמות ס״א ע״א)${POP_DIRECTIONAL_ISOLATE}, the ${RTL_ISOLATE}אומות${POP_DIRECTIONAL_ISOLATE}`
+  );
+});
+
+test("does not protect ordinary parenthesized Hebrew as a source reference", () => {
+  assert.equal(
+    applyTextRules("This (מנורה) is the example"),
+    `This (${RTL_ISOLATE}מנורה${POP_DIRECTIONAL_ISOLATE}) is the example`
+  );
+});
+
+test("does not hang on malformed unclosed Hebrew source reference", () => {
+  assert.equal(
+    applyTextRules('The פסוק says (\\(שמות ל:טו:הֶעָשִׁיר לֹא יַרְבֶּה - everybody'),
+    `The ${RTL_ISOLATE}פסוק${POP_DIRECTIONAL_ISOLATE} says ${LTR_ISOLATE}(שמות ל:טו)${POP_DIRECTIONAL_ISOLATE}: ${RTL_ISOLATE}הֶעָשִׁיר לֹא יַרְבֶּה${POP_DIRECTIONAL_ISOLATE} - everybody`
   );
 });
 
