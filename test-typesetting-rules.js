@@ -4,7 +4,7 @@
 
 const assert = require("node:assert/strict");
 const {
-  isolateHebrewRuns,
+  applyTextRules,
   normalizeMisplacedHebrewCommas,
   normalizePunctuationSpacing,
   stripDuplicateTitle,
@@ -13,12 +13,6 @@ const {
 const LTR_ISOLATE = "\u2066";
 const RTL_ISOLATE = "\u2067";
 const POP_DIRECTIONAL_ISOLATE = "\u2069";
-
-function applyTextRules(input) {
-  return isolateHebrewRuns(
-    normalizeMisplacedHebrewCommas(normalizePunctuationSpacing(input))
-  );
-}
 
 function test(name, fn) {
   try {
@@ -44,6 +38,13 @@ test("adds space after citation before Hebrew quote", () => {
   );
 });
 
+test("preserves space after Hebrew label colon before Hebrew quote", () => {
+  assert.equal(
+    normalizePunctuationSpacing("The פסוק says in פסוק ב: דַּבֵּר"),
+    "The פסוק says in פסוק ב: דַּבֵּר"
+  );
+});
+
 test("keeps Hebrew citation colons tight", () => {
   assert.equal(
     normalizePunctuationSpacing("כ״א : ל״ז"),
@@ -55,6 +56,13 @@ test("keeps numeric source references tight", () => {
   assert.equal(
     normalizePunctuationSpacing("itself says (25:7) וְשָׁכַנְתִּי"),
     "itself says (25:7) וְשָׁכַנְתִּי"
+  );
+});
+
+test("adds space after numeric parenthesized source before Hebrew quote", () => {
+  assert.equal(
+    applyTextRules("The dream described (37:9)הַשֶּׁמֶשׁ וְהַיָּרֵחַ"),
+    `The dream described (37:9) ${RTL_ISOLATE}הַשֶּׁמֶשׁ וְהַיָּרֵחַ${POP_DIRECTIONAL_ISOLATE}`
   );
 });
 
@@ -100,6 +108,13 @@ test("moves extracted leading comma to the end of the Hebrew phrase", () => {
   );
 });
 
+test("collapses duplicate commas between Hebrew list items", () => {
+  assert.equal(
+    applyTextRules("when he grows in מצות, ,מעשים טובים and תורה, he"),
+    `when he grows in ${RTL_ISOLATE}מצות${POP_DIRECTIONAL_ISOLATE}, ${RTL_ISOLATE}מעשים טובים${POP_DIRECTIONAL_ISOLATE} and ${RTL_ISOLATE}תורה${POP_DIRECTIONAL_ISOLATE}, he`
+  );
+});
+
 test("keeps Hebrew acronym token together", () => {
   assert.equal(
     applyTextRules('רש\\"י says'),
@@ -118,6 +133,13 @@ test("keeps shorthand acronym phrase in logical order", () => {
   assert.equal(
     applyTextRules('part of שובבים ת\\"ת, which includes'),
     `part of ${LTR_ISOLATE}שובבים ת\\"ת${POP_DIRECTIONAL_ISOLATE}, which includes`
+  );
+});
+
+test("keeps Hebrew name phrase ending with acronym in logical order", () => {
+  assert.equal(
+    applyTextRules('written by ר\\\' שלמה גנצפריד זצ\\"ל - a tremendous'),
+    `written by ${LTR_ISOLATE}ר\\' שלמה גנצפריד זצ\\"ל${POP_DIRECTIONAL_ISOLATE} - a tremendous`
   );
 });
 
@@ -149,10 +171,31 @@ test("keeps plain-letter parenthesized Hebrew citation in reading order", () => 
   );
 });
 
+test("keeps bare Hebrew source reference before quote colon in reading order", () => {
+  assert.equal(
+    applyTextRules("from שמות ד:י״ד: וְרָאֲךָ וְשָׂמַח"),
+    `from ${LTR_ISOLATE}שמות ד:י״ד${POP_DIRECTIONAL_ISOLATE}: ${RTL_ISOLATE}וְרָאֲךָ וְשָׂמַח${POP_DIRECTIONAL_ISOLATE}`
+  );
+});
+
 test("keeps parenthesized Hebrew source reference in reading order", () => {
   assert.equal(
     applyTextRules("called אדם (ע״ש יבמות ס״א ע״א), the אומות"),
     `called ${RTL_ISOLATE}אדם${POP_DIRECTIONAL_ISOLATE} ${LTR_ISOLATE}(ע״ש יבמות ס״א ע״א)${POP_DIRECTIONAL_ISOLATE}, the ${RTL_ISOLATE}אומות${POP_DIRECTIONAL_ISOLATE}`
+  );
+});
+
+test("keeps parenthesized Hebrew source range in reading order", () => {
+  assert.equal(
+    applyTextRules("בְּשִׂמְחָה (דברים כ״ח:מ״ה - מ״ז). Our failure"),
+    `${RTL_ISOLATE}בְּשִׂמְחָה ${LTR_ISOLATE}(דברים כ״ח:מ״ה - מ״ז)${POP_DIRECTIONAL_ISOLATE}${POP_DIRECTIONAL_ISOLATE}. Our failure`
+  );
+});
+
+test("keeps Hebrew quote with ellipsis and trailing source in reading order", () => {
+  assert.equal(
+    applyTextRules("וּבָאוּ עָלֶיךָ כׇּל הַקְּלָלוֹת הָאֵלֶּה \\... תַּחַת אֲשֶׁר לֹא עָבַדְתָּ בְּשִׂמְחָה (דברים כ״ח:מ״ה - מ״ז). Our failure"),
+    `${RTL_ISOLATE}וּבָאוּ עָלֶיךָ כׇּל הַקְּלָלוֹת הָאֵלֶּה \\... תַּחַת אֲשֶׁר לֹא עָבַדְתָּ בְּשִׂמְחָה ${LTR_ISOLATE}(דברים כ״ח:מ״ה - מ״ז)${POP_DIRECTIONAL_ISOLATE}${POP_DIRECTIONAL_ISOLATE}. Our failure`
   );
 });
 

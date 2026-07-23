@@ -17,12 +17,20 @@ const LTR_ISOLATE = "\u2066";
 const RTL_ISOLATE = "\u2067";
 const POP_DIRECTIONAL_ISOLATE = "\u2069";
 const HEBREW_LETTERS = "[\\u0590-\\u05FF\\uFB1D-\\uFB4F]";
+const HEBREW_BASE_LETTERS = "[\\u05D0-\\u05EA\\uFB1D-\\uFB4F]";
 const HEBREW_INTERNAL_QUOTE = "(?:\\\\[\"']|[\"'׳״])";
 const HEBREW_TOKEN = `${HEBREW_LETTERS}+(?:${HEBREW_INTERNAL_QUOTE}${HEBREW_LETTERS}+)*(?:${HEBREW_INTERNAL_QUOTE})?`;
+const HEBREW_REF_TOKEN = `${HEBREW_BASE_LETTERS}+(?:${HEBREW_INTERNAL_QUOTE}${HEBREW_BASE_LETTERS}+)*(?:${HEBREW_INTERNAL_QUOTE})?`;
 const HEBREW_ACRONYM = `${HEBREW_LETTERS}+(?:(?:${HEBREW_INTERNAL_QUOTE}${HEBREW_LETTERS}+)+|${HEBREW_INTERNAL_QUOTE})`;
 const HEBREW_STRONG_ACRONYM = `(?:${HEBREW_LETTERS}+(?:${HEBREW_INTERNAL_QUOTE}${HEBREW_LETTERS}+)+|${HEBREW_LETTERS}{2,}${HEBREW_INTERNAL_QUOTE})`;
-const HEBREW_PAREN_REFERENCE_RE = new RegExp(
-  `\\((?=[^()\\n]{1,120}\\))(?=[^()\\n]{0,120}(?:${HEBREW_STRONG_ACRONYM}|:))(?:${HEBREW_TOKEN}|\\s|:){1,120}\\)`,
+const HEBREW_PAREN_REFERENCE = `\\((?=[^()\\n]{1,120}\\))(?=[^()\\n]{0,120}(?:${HEBREW_STRONG_ACRONYM}|:))(?:${HEBREW_TOKEN}|\\s|:|-){1,120}\\)`;
+const HEBREW_TEXT_WITH_PAREN_REFERENCE_RE = new RegExp(
+  `(${HEBREW_TOKEN}(?:(?:\\s+${HEBREW_TOKEN})|(?:\\s+\\\\?\\.\\.\\.)){0,160})\\s+(${HEBREW_PAREN_REFERENCE})(?=\\s*\\.)`,
+  "gu"
+);
+const HEBREW_PAREN_REFERENCE_RE = new RegExp(HEBREW_PAREN_REFERENCE, "gu");
+const HEBREW_BARE_REFERENCE_RE = new RegExp(
+  `(?:${HEBREW_TOKEN}\\s+)?${HEBREW_REF_TOKEN}\\s*:\\s*${HEBREW_REF_TOKEN}(?=\\s*:)`,
   "gu"
 );
 const HEBREW_LOOSE_CITATION_CLOSE_RE = new RegExp(
@@ -31,6 +39,10 @@ const HEBREW_LOOSE_CITATION_CLOSE_RE = new RegExp(
 );
 const HEBREW_ACRONYM_CONTEXT_RE = new RegExp(
   `(?:${HEBREW_TOKEN}\\s+${HEBREW_STRONG_ACRONYM}|${HEBREW_STRONG_ACRONYM}\\s+${HEBREW_TOKEN})`,
+  "gu"
+);
+const HEBREW_TRAILING_ACRONYM_PHRASE_RE = new RegExp(
+  `${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN}){1,3}\\s+${HEBREW_STRONG_ACRONYM}`,
   "gu"
 );
 const HEBREW_ACRONYM_RE = new RegExp(
@@ -46,7 +58,7 @@ const MISPLACED_HEBREW_COMMA_RE = new RegExp(
   "gu"
 );
 const HEBREW_CITATION_COLON_RE = new RegExp(
-  `(${HEBREW_TOKEN})\\s*:\\s*(${HEBREW_TOKEN})`,
+  `(^|[^\\u0590-\\u05FF\\uFB1D-\\uFB4F])(${HEBREW_REF_TOKEN})\\s*:\\s*(${HEBREW_REF_TOKEN})(?!${HEBREW_LETTERS})`,
   "gu"
 );
 const MISSING_OPEN_HEBREW_CITATION_PAREN_RE = new RegExp(
@@ -196,32 +208,48 @@ function normalizePunctuationSpacing(typstContent) {
     .replace(MALFORMED_ESCAPED_OPEN_HEBREW_CITATION_RE, "($1): ")
     .replace(MALFORMED_ESCAPED_OPEN_NUMERIC_CITATION_RE, "($1): ")
     .replace(/\s+([,;:])/g, "$1")
-    .replace(/([,;:])(?=\S)/g, "$1 ")
+    .replace(/([,;:])\s*/g, "$1 ")
+    .replace(/,\s*,\s*/g, ", ")
     .replace(/(\d+):\s+(\d+)/g, "$1:$2")
-    .replace(HEBREW_CITATION_COLON_RE, "$1:$2")
+    .replace(new RegExp(`(\\(\\d+:\\d+\\))(?=${HEBREW_LETTERS})`, "gu"), "$1 ")
+    .replace(HEBREW_CITATION_COLON_RE, "$1$2:$3")
     .replace(HEBREW_LOOSE_CITATION_CLOSE_RE, "$1($2)")
     .replace(MISSING_OPEN_HEBREW_CITATION_PAREN_RE, "$1 ($2):")
     .replace(HEBREW_TO_ENGLISH_DASH_RE, "$1 - ");
 }
 
 function isolateHebrewRuns(typstContent) {
-  const ltrSequences = [];
-  const referenceSafeContent = typstContent.replace(HEBREW_PAREN_REFERENCE_RE, (match) => {
-    const marker = `\uE000${ltrSequences.length}\uE001`;
-    ltrSequences.push(match);
+  const protectedSequences = [];
+  const protect = (value) => {
+    const marker = `\uE000${protectedSequences.length}\uE001`;
+    protectedSequences.push(value);
     return marker;
+  };
+
+  const textWithReferenceSafeContent = typstContent.replace(
+    HEBREW_TEXT_WITH_PAREN_REFERENCE_RE,
+    (_match, hebrewText, reference) =>
+      protect(`${RTL_ISOLATE}${hebrewText} ${LTR_ISOLATE}${reference}${POP_DIRECTIONAL_ISOLATE}${POP_DIRECTIONAL_ISOLATE}`)
+  );
+
+  const referenceSafeContent = textWithReferenceSafeContent.replace(HEBREW_PAREN_REFERENCE_RE, (match) => {
+    return protect(`${LTR_ISOLATE}${match}${POP_DIRECTIONAL_ISOLATE}`);
   });
 
-  const acronymContextSafeContent = referenceSafeContent.replace(HEBREW_ACRONYM_CONTEXT_RE, (match) => {
-    const marker = `\uE000${ltrSequences.length}\uE001`;
-    ltrSequences.push(match);
-    return marker;
+  const bareReferenceSafeContent = referenceSafeContent.replace(HEBREW_BARE_REFERENCE_RE, (match) => {
+    return protect(`${LTR_ISOLATE}${match}${POP_DIRECTIONAL_ISOLATE}`);
+  });
+
+  const trailingAcronymPhraseSafeContent = bareReferenceSafeContent.replace(HEBREW_TRAILING_ACRONYM_PHRASE_RE, (match) => {
+    return protect(`${LTR_ISOLATE}${match}${POP_DIRECTIONAL_ISOLATE}`);
+  });
+
+  const acronymContextSafeContent = trailingAcronymPhraseSafeContent.replace(HEBREW_ACRONYM_CONTEXT_RE, (match) => {
+    return protect(`${LTR_ISOLATE}${match}${POP_DIRECTIONAL_ISOLATE}`);
   });
 
   const acronymSafeContent = acronymContextSafeContent.replace(HEBREW_ACRONYM_RE, (match) => {
-    const marker = `\uE000${ltrSequences.length}\uE001`;
-    ltrSequences.push(match);
-    return marker;
+    return protect(`${LTR_ISOLATE}${match}${POP_DIRECTIONAL_ISOLATE}`);
   });
 
   const isolatedContent = acronymSafeContent.replace(HEBREW_PHRASE_RE, (match) => {
@@ -229,8 +257,14 @@ function isolateHebrewRuns(typstContent) {
   });
 
   return isolatedContent.replace(/\uE000(\d+)\uE001/g, (_match, index) => {
-    return `${LTR_ISOLATE}${ltrSequences[Number(index)]}${POP_DIRECTIONAL_ISOLATE}`;
+    return protectedSequences[Number(index)];
   });
+}
+
+function applyTextRules(typstContent) {
+  return isolateHebrewRuns(
+    normalizeMisplacedHebrewCommas(normalizePunctuationSpacing(typstContent))
+  );
 }
 
 function pageSettings(size) {
@@ -321,11 +355,7 @@ async function ensureEntryFiles(entries) {
 
 function convertDocxToTypst(entry) {
   const typst = run("pandoc", [entry.docxPath, "-t", "typst"]);
-  return isolateHebrewRuns(
-    normalizeMisplacedHebrewCommas(
-      normalizePunctuationSpacing(stripDuplicateTitle(typst, entry.sourceTitles))
-    )
-  );
+  return applyTextRules(stripDuplicateTitle(typst, entry.sourceTitles));
 }
 
 function formatDuration(startedAt) {
@@ -476,6 +506,7 @@ if (require.main === module) {
 }
 
 module.exports = {
+  applyTextRules,
   isolateHebrewRuns,
   normalizeMisplacedHebrewCommas,
   normalizePunctuationSpacing,
