@@ -935,7 +935,7 @@ says, "You did not withhold your son ⁧מִמֶּנִּי⁩ - from me." Who is
 here? The ⁧מלאך⁩ is speaking. But in the second ⁧ברכה⁩, it says it is given
 #emph[in the name of] ⁧ה׳⁩#emph[.]
 
-The ⁦גר״א⁩ asks a phenomenal ⁧קושיא⁩: Why would the ⁧מלאך⁩ say ⁧מִמֶּנִּי⁩, from me?
+The ⁦גר״א⁩ asks a phenomenal ⁧קשיא⁩: Why would the ⁧מלאך⁩ say ⁧מִמֶּנִּי⁩, from me?
 Was ⁧אברהם⁩ offering ⁧יצחק⁩ to the ⁧מלאך⁩? Certainly not. How could the ⁧מלאך⁩
 say, "You did not withhold your son from me"?
 
@@ -1488,7 +1488,8 @@ her immense gratitude to ⁧הקדוש ברוך הוא⁩. She recognized that s
 received more than her fair portion, as she had already given birth to
 three sons. The ⁧פסוק⁩ says (29:35): ⁧וַתַּהַר עוֹד וַתֵּלֶד בֵּן וַתֹּאמֶר הַפַּעַם אוֹדֶה אֶת ה׳ עַל כֵּן קָרְאָה שְׁמוֹ יְהוּדָה וַתַּעֲמֹד מִלֶּדֶת⁩
 
-The Belzer Rebbe, as quoted by Rabbi Oelbaum, asks a powerful ⁧קושיא⁩: What is the connection between ⁧לאה⁩ naming ⁧יהודה⁩ and the end of the ⁧פסוק⁩, ⁧וַתַּעֲמֹד מִלֶּדֶת⁩ - that she stopped having children?
+The Belzer Rebbe, as quoted by Rabbi Oelbaum, asks a powerful ⁧קשיא⁩: What
+is the connection between ⁧לאה⁩ naming ⁧יהודה⁩ and the end of the ⁧פסוק⁩, ⁧וַתַּעֲמֹד מִלֶּדֶת⁩ - that she stopped having children?
 
 He answers that we must always thank ⁧הקדוש ברוך הוא⁩ for the immense ⁧חסד⁩
 He does for us. However, our gratitude should also include a heartfelt
@@ -1656,7 +1657,7 @@ even amidst success.
 Another ⁧פשט⁩ on this ⁧פסוק⁩ offers a complementary perspective. ⁧יעקב אבינו⁩
 says (32:11): ⁧קָטֹנְתִּי מִכֹּל הַחֲסָדִים וּמִכׇּל הָאֱמֶת אֲשֶׁר עָשִׂיתָ אֶת עַבְדֶּךָ⁩. He
 acknowledges the tremendous kindnesses ⁧הקדוש ברוך הוא⁩ has done for him.
-However, there seems to be a ⁧קושיא⁩ here: how could ⁧יעקב⁩ imply that he
+However, there seems to be a ⁧קשיא⁩ here: how could ⁧יעקב⁩ imply that he
 merited all of these ⁧חסדים⁩ on his own? After all, we know that all the
 ⁧חסדים⁩ and goodness we receive from ⁧הקדוש ברוך הוא⁩ are in the ⁧זכות⁩ of the
 ⁧אבות⁩. For instance, when ⁧דוד המלך⁩ sought to build the ⁧בית המקדש⁩, ⁧שלמה
@@ -13998,7 +13999,7 @@ many copies of that story. Have a Happy Purim!
 = Purim 5784
 
 I'm going to read you a very long essay about ⁧פורים⁩, covering many
-interesting facts you may not have learned before. The ⁧קושיא⁩ is a simple
+interesting facts you may not have learned before. The ⁧קשיא⁩ is a simple
 one: Is there a particular place in the ⁧מגילה⁩, whether a ⁧פסוק⁩ or a word, that marks the exact point of ⁧ונהפוך הוא⁩ - the turnabout of the ⁧פורים⁩
 story? Now, you might say that the ⁧מגילה⁩ explicitly states ⁧ונהפוך הוא⁩.
 But that phrase only tells us that a reversal occurred; it does not
@@ -14400,7 +14401,7 @@ to us to be ⁧חסרונות⁩, this is only from the vantage point of being h
 in ⁧עולם הזה⁩, looking at something that\'s incomplete.
 
 In other words, the ⁦מהר\"ל⁩ is telling us very simply, that when you have
-a Yid, who had this ⁧קושיא⁩, turning in his head, why is it the ⁧צדיק ורע
+a Yid, who had this ⁧קשיא⁩, turning in his head, why is it the ⁧צדיק ורע
 לו⁩, ⁧רשע וטוב לו⁩? The Yid has this question ⁧הוֹדִיעֵנִי נָא אֶת דְּרָכֶיךָ⁩, however, what the ⁦מהר\"ל⁩ is telling us, but after a Yid says this ⁧קפיטל⁩ of ⁧מזמור
 שיר ליום השבת⁩, then all the ⁧קושיות⁩ have to be answered. ⁧אין הכא נמי⁩, in
 the middle of the ⁧קפיטל⁩ you see the question is being raised itself, ⁧בִּפְרֹחַ רְשָׁעִים כְּמוֹ עֵשֶׂב⁩, how is it that ⁧רשעים⁩ are able to blossom like grass, ⁧וַיָּצִיצוּ כׇּל פֹּעֲלֵי אָוֶן⁩, that all the ⁧פֹּעֲלֵי אָוֶן⁩, all the evil doers, ⁧וַיָּצִיצוּ⁩, they grow, and they prosper, and they develop. But ⁧למעשה⁩, when he says
