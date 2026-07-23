@@ -1,0 +1,80 @@
+# Typesetting Pipeline Notes
+
+## Goal
+
+Typeset the existing Word documents into a print-ready book, likely in either 5x8 or 6x9 trim size.
+
+The book should preserve the main document content structure:
+
+- centered article titles
+- paragraph breaks
+- mixed Hebrew/English text
+- per-article footer link
+- per-article QR image
+
+Each leaf directory already has the QR image to use. The footer link should be the leaf route from `routes.json`, for example:
+
+`https://zeidyd.com/bereshis/5784/`
+
+## Current Approach
+
+Use a generated Typst pipeline:
+
+1. `routes.json` is the source of truth for each leaf's route, content directory, and base filename.
+2. `build-typeset-proof.js` reads selected routes.
+3. Full-book order starts with `Rabbi Oelbaum Haskama`, then `About the Name`, then the regular route order beginning with Bereshis.
+4. Pandoc converts each `.docx` to Typst body content.
+5. The generator strips the duplicate first-line title from Pandoc output.
+6. The generator adds a consistent centered Typst heading.
+7. The generator sets a per-article page footer with the route link, QR image, and page number.
+8. Typst compiles the generated `.typ` file to PDF.
+
+Commands:
+
+```sh
+npm run build-typeset-proof
+npm run build-typeset-proof -- --size 5x8 --limit 8 --output proof-5x8
+npm run build-typeset-proof -- --route /bereshis/5784/ --route /noach/5786/
+npm run build-typeset-proof -- --all --output book-6x9
+npm run choose-route-titles -- --dry-run
+npm run choose-route-titles
+```
+
+Outputs are written to `typeset/`, for example:
+
+- `typeset/proof.typ`
+- `typeset/proof.pdf`
+
+## Why Typst
+
+Typst gives us a programmable PDF layout without having to maintain a fragile Word workflow. It is much easier to iterate than LaTeX and should be a good fit for page size, margins, headings, footers, page numbers, links, and QR images.
+
+Pandoc already supports Typst output, so the `.docx` files can stay as the source content for now.
+
+## Open Design Decisions
+
+- Final trim size: compare 5x8 vs 6x9 proof output.
+- Final font. Current proof uses `Times New Roman` at 11pt for body text and article titles.
+- Route entries can include an optional `title`. The typesetting build uses `title` for the visible article heading when present, otherwise it falls back to `baseFilename`.
+- Use `npm run choose-route-titles` to review source-title conflicts one at a time and save chosen titles into `routes.json`.
+- Footer convention: odd page numbers on bottom right, even page numbers on bottom left. QR code and route link go on the opposite side from the page number, with the link aligned to the bottom of the QR image. On the left side the order is QR then link; on the right side the order is link then QR.
+- `About the Name` is front matter and intentionally has no QR/footer link block.
+- Whether the footer appears on every article page or only the first page of each article.
+- Whether each article should always start on a new page, a right-hand page, or flow continuously.
+- Whether to preserve Word bold/italic/footnotes exactly if they appear in later documents.
+- Whether to fix literal Hebrew/English missing spaces in the `.docx` source before full-book conversion.
+
+## Known Risks
+
+- Mixed Hebrew/English line breaking needs visual review. The source PDFs can look fine even when extracted text has literal missing spaces.
+- Pandoc's Typst output preserves paragraphs well, but not all Word layout details should be trusted without proofing.
+- QR images are included from each leaf directory by basename. Missing or mismatched QR filenames will fail the build.
+- The current proof uses the first routes in `routes.json` by default, not the full book.
+
+## Next Steps
+
+1. Generate 5x8 and 6x9 sample PDFs.
+2. Visually inspect Hebrew/English order, line breaks, title spacing, and footer layout.
+3. Decide footer behavior and preferred trim size.
+4. Add a full-book build mode once the proof styling is acceptable.
+5. Add section/chumash dividers and table of contents after the article-level layout is stable.

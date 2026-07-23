@@ -2,6 +2,9 @@
   "name": "zeidy-d",
   "private": true,
   "scripts": {
+    "build-typeset-proof": "node build-typeset-proof.js",
+    "choose-route-titles": "node choose-route-titles.js",
+    "fix-docx-spacing": "node fix-docx-spacing.js",
     "generate-qr-codes": "node generate-qr-codes.js"
   },
   "dependencies": {

@@ -22,7 +22,8 @@
     },
     "/noach/5784/(2)/": {
       "contentPath": "01 - Bereshis/02 - Noach/5784/Noach 5784 (2)",
-      "baseFilename": "Noach 5784"
+      "baseFilename": "Noach 5784",
+      "title": "Noach 5784 (2)"
     },
     "/noach/5785/": {
       "contentPath": "01 - Bereshis/02 - Noach/5785",
@@ -154,7 +155,8 @@
     },
     "/vayechi/5783/": {
       "contentPath": "01 - Bereshis/11 - Vayechi/5783",
-      "baseFilename": "Vayechi 5783"
+      "baseFilename": "Vayechi 5783",
+      "title": "Vayechi 5783"
     },
     "/vayechi/5784/": {
       "contentPath": "01 - Bereshis/11 - Vayechi/5784",
@@ -202,11 +204,13 @@
     },
     "/beshalach/5783/(1)/": {
       "contentPath": "02 - Shemos/04 - Beshalach/5783/Beshalach 5783 (1)",
-      "baseFilename": "Beshalach 5783(1)"
+      "baseFilename": "Beshalach 5783(1)",
+      "title": "Beshalach 5783 (1)"
     },
     "/beshalach/5783/(2)/": {
       "contentPath": "02 - Shemos/04 - Beshalach/5783/Beshalach 5783 (2)",
-      "baseFilename": "Beshalach 5783 (2)"
+      "baseFilename": "Beshalach 5783 (2)",
+      "title": "Beshalach 5783 (2)"
     },
     "/beshalach/5784/": {
       "contentPath": "02 - Shemos/04 - Beshalach/5784",
@@ -262,11 +266,13 @@
     },
     "/tetzaveh/5784/(1)/": {
       "contentPath": "02 - Shemos/08 - Tetzaveh/5784/Tetzaveh 5784 (1)",
-      "baseFilename": "Tetzaveh (1) 5784"
+      "baseFilename": "Tetzaveh (1) 5784",
+      "title": "Tetzaveh 5784 (1)"
     },
     "/tetzaveh/5784/(2)/": {
       "contentPath": "02 - Shemos/08 - Tetzaveh/5784/Tetzaveh 5784 (2)",
-      "baseFilename": "Tetzaveh (2) 5784"
+      "baseFilename": "Tetzaveh (2) 5784",
+      "title": "Tetzaveh 5784 (2)"
     },
     "/tetzaveh/5785/": {
       "contentPath": "02 - Shemos/08 - Tetzaveh/5785",
@@ -426,7 +432,8 @@
     },
     "/naso/5785/story/": {
       "contentPath": "04 - Bamidbar/02 - Naso/Story 5785",
-      "baseFilename": "Story 5785"
+      "baseFilename": "Story 5785",
+      "title": "Naso - Story 5785"
     },
     "/behaloscha/5783/": {
       "contentPath": "04 - Bamidbar/03 - Behaloscha/5783",
@@ -466,7 +473,8 @@
     },
     "/chukas/5784/(1)/": {
       "contentPath": "04 - Bamidbar/06 - Chukas/5784/Chukas (1)",
-      "baseFilename": "Chukas 5784 (1)"
+      "baseFilename": "Chukas 5784 (1)",
+      "title": "Chukas 5784 (1)"
     },
     "/chukas/5784/(2)/": {
       "contentPath": "04 - Bamidbar/06 - Chukas/5784/Chukas (2)",
@@ -578,11 +586,13 @@
     },
     "/ki-seitzei/5784/(1)/": {
       "contentPath": "05 - Devarim/06 - Ki Seitzei/5784/Ki Seitzei 5784 (1)",
-      "baseFilename": "Ki Seitzei 5784 (1)"
+      "baseFilename": "Ki Seitzei 5784 (1)",
+      "title": "Ki Seitzei 5784 (1)"
     },
     "/ki-seitzei/5784/(2)/": {
       "contentPath": "05 - Devarim/06 - Ki Seitzei/5784/Ki Seitzei 5784 (2)",
-      "baseFilename": "Ki Seitzei 5784 (2)"
+      "baseFilename": "Ki Seitzei 5784 (2)",
+      "title": "Ki Seitzei 5784 (2)"
     },
     "/ki-seitzei/5785/": {
       "contentPath": "05 - Devarim/06 - Ki Seitzei/5785",
@@ -610,7 +620,8 @@
     },
     "/nitzavim-vayailech/5783/": {
       "contentPath": "05 - Devarim/10 - Nitzavim-Vayailech/5783",
-      "baseFilename": "Nitzavim-Vayailech 5783"
+      "baseFilename": "Nitzavim-Vayailech 5783",
+      "title": "Nitzavim/Vayeilech 5783"
     },
     "/nitzavim-vayailech/5784/": {
       "contentPath": "05 - Devarim/10 - Nitzavim-Vayailech/5784",
@@ -666,11 +677,13 @@
     },
     "/pesach/5785/story-2/": {
       "contentPath": "06 - Yom Tov/01 - Pesach/5785/Story 2",
-      "baseFilename": "Story 2 Pesach 5785"
+      "baseFilename": "Story 2 Pesach 5785",
+      "title": "Pesach 5785 Story 2"
     },
     "/pesach-sheini/5784/": {
       "contentPath": "06 - Yom Tov/02 - Pesach Sheini/5784",
-      "baseFilename": "Pesach Sheini 5784"
+      "baseFilename": "Pesach Sheini 5784",
+      "title": "Pesach Sheini 5784"
     },
     "/pesach-sheini/5785/": {
       "contentPath": "06 - Yom Tov/02 - Pesach Sheini/5785",
@@ -678,7 +691,8 @@
     },
     "/lag-baomer/5784/": {
       "contentPath": "06 - Yom Tov/03 - Lag Baomer/5784",
-      "baseFilename": "Lag Baomer 5784"
+      "baseFilename": "Lag Baomer 5784",
+      "title": "Lag Ba’omer 5784"
     },
     "/lag-baomer/5785/": {
       "contentPath": "06 - Yom Tov/03 - Lag Baomer/5785",
@@ -706,23 +720,28 @@
     },
     "/9-av/5783/": {
       "contentPath": "06 - Yom Tov/06 - 9 Av/5783",
-      "baseFilename": "9 Av 5783"
+      "baseFilename": "9 Av 5783",
+      "title": "Tisha B’Av 5783"
     },
     "/9-av/5784/": {
       "contentPath": "06 - Yom Tov/06 - 9 Av/5784",
-      "baseFilename": "9 Av 5784"
+      "baseFilename": "9 Av 5784",
+      "title": "Tisha B’Av 5784"
     },
     "/9-av/5785/": {
       "contentPath": "06 - Yom Tov/06 - 9 Av/5785",
-      "baseFilename": "9 Av 5785"
+      "baseFilename": "9 Av 5785",
+      "title": "Tisha B’Av 5785"
     },
     "/15-av/5784/": {
       "contentPath": "06 - Yom Tov/07 - 15 Av/5784",
-      "baseFilename": "15 Av 5784"
+      "baseFilename": "15 Av 5784",
+      "title": "Tu B’Av 5784"
     },
     "/15-av/5785/": {
       "contentPath": "06 - Yom Tov/07 - 15 Av/5785",
-      "baseFilename": "15 Av 5785"
+      "baseFilename": "15 Av 5785",
+      "title": "Tu B’Av 5785"
     },
     "/elul/5784/": {
       "contentPath": "06 - Yom Tov/08 - Elul/5784",
@@ -754,15 +773,18 @@
     },
     "/yom-kippur/5784/": {
       "contentPath": "06 - Yom Tov/10 - Yom Kippur/5784",
-      "baseFilename": "Yom Kippur 5784"
+      "baseFilename": "Yom Kippur 5784",
+      "title": "Yom Kippur 5784"
     },
     "/yom-kippur/5785/": {
       "contentPath": "06 - Yom Tov/10 - Yom Kippur/5785",
-      "baseFilename": "Yom Kippur 5785"
+      "baseFilename": "Yom Kippur 5785",
+      "title": "Yom Kippur 5785"
     },
     "/yom-kippur/5786/": {
       "contentPath": "06 - Yom Tov/10 - Yom Kippur/5786",
-      "baseFilename": "Yom Kippur 5786"
+      "baseFilename": "Yom Kippur 5786",
+      "title": "Yom Kippur 5786"
     },
     "/sukkos/5784/": {
       "contentPath": "06 - Yom Tov/11 - Sukkos/5784",
@@ -814,11 +836,13 @@
     },
     "/simchas-torah/5786/(1)/": {
       "contentPath": "06 - Yom Tov/14 - Simchas Torah/5786/Simchas Torah (1)",
-      "baseFilename": "Simchas Torah 5786 (1)"
+      "baseFilename": "Simchas Torah 5786 (1)",
+      "title": "Simchas Torah 5786 (1)"
     },
     "/simchas-torah/5786/(2)/": {
       "contentPath": "06 - Yom Tov/14 - Simchas Torah/5786/Simchas Torah (2)",
-      "baseFilename": "Simchas Torah 5786 (2)"
+      "baseFilename": "Simchas Torah 5786 (2)",
+      "title": "Simchas Torah 5786 (2)"
     },
     "/chanukah/5783/": {
       "contentPath": "06 - Yom Tov/15 - Chanukah/5783",
@@ -850,7 +874,8 @@
     },
     "/purim/5783/krovitz/": {
       "contentPath": "06 - Yom Tov/19 - Purim/5783/Krovitz",
-      "baseFilename": "Krovitz"
+      "baseFilename": "Krovitz",
+      "title": "Krovitz Purim 5783"
     },
     "/purim/5783/dvar-torah/": {
       "contentPath": "06 - Yom Tov/19 - Purim/5783/Purim Dvar Torah 5783",
@@ -868,21 +893,28 @@
       "contentPath": "06 - Yom Tov/19 - Purim/5785",
       "baseFilename": "Purim 5785"
     },
+    "/about-the-name/": {
+      "contentPath": "07 - Misc/About The Name",
+      "baseFilename": "About the Name"
+    },
     "/bloopers/": {
       "contentPath": "07 - Misc/Bloopers",
       "baseFilename": null
     },
     "/bris/": {
       "contentPath": "07 - Misc/Bris",
-      "baseFilename": "Bris"
+      "baseFilename": "Bris",
+      "title": "Bris 5784"
     },
     "/rabbi-oelbaum-haskama/": {
       "contentPath": "07 - Misc/Rabbi Oelbaum Haskama",
-      "baseFilename": "Rabbi Oelbaum Haskama"
+      "baseFilename": "Rabbi Oelbaum Haskama",
+      "title": "Rabbi Oelbaum Haskama"
     },
     "/rabbi-oelbaum-shabbos/": {
       "contentPath": "07 - Misc/Rabbi Oelbaum Shabbos",
-      "baseFilename": "Shabbos - The Gift of Olam Haba in This World"
+      "baseFilename": "Shabbos - The Gift of Olam Haba in This World",
+      "title": "Shabbos - The Gift of Olam Haba in This World"
     }
   },
   "byContentPath": {
@@ -1103,6 +1135,7 @@
     "06 - Yom Tov/19 - Purim/5783/Story Purim 5783": "/purim/5783/story/",
     "06 - Yom Tov/19 - Purim/5784": "/purim/5784/",
     "06 - Yom Tov/19 - Purim/5785": "/purim/5785/",
+    "07 - Misc/About The Name": "/about-the-name/",
     "07 - Misc/Bloopers": "/bloopers/",
     "07 - Misc/Bris": "/bris/",
     "07 - Misc/Rabbi Oelbaum Haskama": "/rabbi-oelbaum-haskama/",
