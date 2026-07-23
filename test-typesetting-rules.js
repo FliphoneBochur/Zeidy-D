@@ -7,6 +7,7 @@ const {
   isolateHebrewRuns,
   normalizeMisplacedHebrewCommas,
   normalizePunctuationSpacing,
+  stripDuplicateTitle,
 } = require("./build-typeset-proof");
 
 const LTR_ISOLATE = "\u2066";
@@ -50,10 +51,38 @@ test("keeps Hebrew citation colons tight", () => {
   );
 });
 
+test("keeps numeric source references tight", () => {
+  assert.equal(
+    normalizePunctuationSpacing("itself says (25:7) וְשָׁכַנְתִּי"),
+    "itself says (25:7) וְשָׁכַנְתִּי"
+  );
+});
+
+test("strips duplicate source title when route title has copy marker", () => {
+  assert.equal(
+    stripDuplicateTitle("Chukas 5784\n\nפרשת חקת", ["Chukas 5784 (1)"]),
+    "פרשת חקת"
+  );
+});
+
+test("restores missing open parenthesis on loose Hebrew citation closes", () => {
+  assert.equal(
+    normalizePunctuationSpacing("know ישעיהו ו׳:ג׳)) מְלֹא כׇל הָאָרֶץ"),
+    "know (ישעיהו ו׳:ג׳) מְלֹא כׇל הָאָרֶץ"
+  );
+});
+
 test("restores missing open parenthesis in Hebrew citation after English article", () => {
   assert.equal(
     normalizePunctuationSpacing("the תוכחה דברים כ״ח:מ״ז)): תַּחַת"),
     "the תוכחה (דברים כ״ח:מ״ז): תַּחַת"
+  );
+});
+
+test("adds spaces around dash between Hebrew phrase and English explanation", () => {
+  assert.equal(
+    normalizePunctuationSpacing("כִּי קְרוֹבָה יְשׁוּעָתִי לָבוֹא- First"),
+    "כִּי קְרוֹבָה יְשׁוּעָתִי לָבוֹא - First"
   );
 });
 
@@ -68,6 +97,20 @@ test("keeps Hebrew acronym token together", () => {
   assert.equal(
     applyTextRules('רש\\"י says'),
     `${LTR_ISOLATE}רש\\"י${POP_DIRECTIONAL_ISOLATE} says`
+  );
+});
+
+test("keeps short Hebrew acronym phrase in logical order", () => {
+  assert.equal(
+    applyTextRules('There is a יסודותדיק רמב\\"ן at the beginning'),
+    `There is a ${LTR_ISOLATE}יסודותדיק רמב\\"ן${POP_DIRECTIONAL_ISOLATE} at the beginning`
+  );
+});
+
+test("keeps shorthand acronym phrase in logical order", () => {
+  assert.equal(
+    applyTextRules('part of שובבים ת\\"ת, which includes'),
+    `part of ${LTR_ISOLATE}שובבים ת\\"ת${POP_DIRECTIONAL_ISOLATE}, which includes`
   );
 });
 

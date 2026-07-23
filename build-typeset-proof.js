@@ -24,6 +24,14 @@ const HEBREW_PAREN_CITATION_RE = new RegExp(
   `\\((?:${HEBREW_TOKEN}\\s+)?${HEBREW_ACRONYM}:${HEBREW_ACRONYM}\\)`,
   "gu"
 );
+const HEBREW_LOOSE_CITATION_CLOSE_RE = new RegExp(
+  `(^|\\s)((?:${HEBREW_TOKEN}\\s+)?${HEBREW_TOKEN}:${HEBREW_TOKEN})\\)\\)+(?=\\s+${HEBREW_TOKEN})`,
+  "gu"
+);
+const HEBREW_ACRONYM_CONTEXT_RE = new RegExp(
+  `(?:${HEBREW_TOKEN}\\s+${HEBREW_ACRONYM}|${HEBREW_ACRONYM}\\s+${HEBREW_TOKEN})`,
+  "gu"
+);
 const HEBREW_ACRONYM_RE = new RegExp(
   `${HEBREW_ACRONYM}(?:\\s+${HEBREW_ACRONYM})*`,
   "gu"
@@ -42,6 +50,10 @@ const HEBREW_CITATION_COLON_RE = new RegExp(
 );
 const MISSING_OPEN_HEBREW_CITATION_PAREN_RE = new RegExp(
   `(\\bthe\\s+${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN})*?)\\s+((?:${HEBREW_TOKEN}\\s+)?${HEBREW_TOKEN}:${HEBREW_TOKEN})\\)\\)+\\s*:`,
+  "gu"
+);
+const HEBREW_TO_ENGLISH_DASH_RE = new RegExp(
+  `(${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN})*)\\s*-\\s*(?=[A-Za-z])`,
   "gu"
 );
 
@@ -140,6 +152,7 @@ function normalizeTitle(value) {
     .replace(/[“”]/g, '"')
     .replace(/[\\#*_`]/g, "")
     .replace(/[/-]/g, " ")
+    .replace(/\s*\(\d+\)\s*$/g, "")
     .replace(/\s+/g, " ")
     .trim()
     .toLowerCase();
@@ -173,8 +186,11 @@ function normalizePunctuationSpacing(typstContent) {
   return typstContent
     .replace(/\s+([,;:])/g, "$1")
     .replace(/([,;:])(?=\S)/g, "$1 ")
+    .replace(/(\d+):\s+(\d+)/g, "$1:$2")
     .replace(HEBREW_CITATION_COLON_RE, "$1:$2")
-    .replace(MISSING_OPEN_HEBREW_CITATION_PAREN_RE, "$1 ($2):");
+    .replace(HEBREW_LOOSE_CITATION_CLOSE_RE, "$1($2)")
+    .replace(MISSING_OPEN_HEBREW_CITATION_PAREN_RE, "$1 ($2):")
+    .replace(HEBREW_TO_ENGLISH_DASH_RE, "$1 - ");
 }
 
 function isolateHebrewRuns(typstContent) {
@@ -185,7 +201,13 @@ function isolateHebrewRuns(typstContent) {
     return marker;
   });
 
-  const acronymSafeContent = citationSafeContent.replace(HEBREW_ACRONYM_RE, (match) => {
+  const acronymContextSafeContent = citationSafeContent.replace(HEBREW_ACRONYM_CONTEXT_RE, (match) => {
+    const marker = `\uE000${ltrSequences.length}\uE001`;
+    ltrSequences.push(match);
+    return marker;
+  });
+
+  const acronymSafeContent = acronymContextSafeContent.replace(HEBREW_ACRONYM_RE, (match) => {
     const marker = `\uE000${ltrSequences.length}\uE001`;
     ltrSequences.push(match);
     return marker;
@@ -316,6 +338,7 @@ function renderTypstDocument(entries, options) {
   size: ${settings.fontSize},
   lang: "en",
   dir: auto,
+  hyphenate: false,
 )
 #set par(
   first-line-indent: 1.1em,
@@ -432,4 +455,5 @@ module.exports = {
   isolateHebrewRuns,
   normalizeMisplacedHebrewCommas,
   normalizePunctuationSpacing,
+  stripDuplicateTitle,
 };

@@ -15,6 +15,7 @@
   size: 11pt,
   lang: "en",
   dir: auto,
+  hyphenate: false,
 )
 #set par(
   first-line-indent: 1.1em,
@@ -81,7 +82,7 @@
 #set page(footer: article-footer("https://zeidyd.com/rabbi-oelbaum-haskama/", "../Files/07 - Misc/Rabbi Oelbaum Haskama/Rabbi Oelbaum Haskama.png"))
 = Rabbi Oelbaum Haskama
 
-⁦ר'⁩ ⁧יששכר בנימין⁩, I'm here with your ⁧אייניקל⁩ Ari, who is being ⁧מקיים
+⁦ר' יששכר⁩ ⁧בנימין⁩, I'm here with your ⁧אייניקל⁩ Ari, who is being ⁧מקיים
 כיבוד אב⁩. \[Even though there's a whole ⁧שאלה⁩ about ⁧כיבוד⁩ for a
 grandfather, but according to most ⁧פוסקים⁩ there is such a ⁧חיוב⁩, and
 Baruch Hashem he's being ⁧מקיים⁩ it in the best way.\]
@@ -106,7 +107,7 @@ something, you grab hold of it and make sure to be ⁧מזכה את הרבים�
 Baruch Hashem, I have here in my hand just a few papers of ⁧חידושי תורה⁩
 and ⁧וורטלעך⁩, some of which I'm familiar with. I want to wish you a lot
 of ⁧ברכה⁩ and ⁧הצלחה⁩, and to continue to be a ⁧מרביץ תורה⁩. Every Yid has the
-opportunity to be a ⁧מרביץ תורה⁩. What's the ⁧ראיה⁩? ⁦ר'⁩ ⁧משה פיינשטיין⁩ says
+opportunity to be a ⁧מרביץ תורה⁩. What's the ⁧ראיה⁩? ⁦ר' משה⁩ ⁧פיינשטיין⁩ says
 in ⁧דרש משה⁩ that in the ⁧ברכה⁩ of ⁧אַהֲבָה רַבָּה⁩, we daven: ⁧וְתֵן בְּלִבֵּנוּ לְהָבִין
 וּלְהַשְׂכִּיל לִשְׁמֹעַ לִלְמֹד וּלְלַמֵּד⁩. What does it mean, "to teach"? Are we all
 ⁧רבנים⁩, ⁧ראשי ישיבה⁩, or ⁧מלמדים⁩? Some of us are doctors, lawyers, or
@@ -182,7 +183,7 @@ of ⁧הַדֹּבֵר⁩ is the same as ⁧ארי⁩.
 = Bereshis 5784
 
 ⁧וַיְבָרֶךְ אֱלֹקִים אֶת יוֹם הַשְּׁבִיעִי וַיְקַדֵּשׁ אֹתוֹ כִּי בוֹ שָׁבַת מִכׇּל מְלַאכְתּוֹ אֲשֶׁר בָּרָא אֱלֹקִים
-לַעֲשׂוֹת⁩ (2: 3) The pasuk could have said ⁧כִּי בוֹ שָׁבַת מִכׇּל מְלַאכְתּוֹ אֲשֶׁר בָּרָא
+לַעֲשׂוֹת⁩ (2:3) The pasuk could have said ⁧כִּי בוֹ שָׁבַת מִכׇּל מְלַאכְתּוֹ אֲשֶׁר בָּרָא
 אֱלֹקִים⁩. What does the word ⁧לַעֲשׂוֹת⁩ add? ⁦רש\"י⁩ says on the pasuk before ⁧וַיְכַל
 אֱלֹהִים בַּיּוֹם הַשְּׁבִיעִי מְלַאכְתּוֹ אֲשֶׁר עָשָׂה⁩ - what was the world missing? The world
 was missing ⁧מנוחה⁩. He brings from the medrash ⁧מֶה הָיָה הָעוֹלָם חָסֵר⁩? ⁧מְנוּחָה⁩,
@@ -200,7 +201,7 @@ Beginning with Shabbos, ⁧הקדוש ברוך הוא⁩ is recreates everything
 world each and every day, ⁧יש מאין⁩. All the ⁧ספרים⁩ bring down that ⁧בכל רגע
 ורגע⁩, ⁧הקדוש ברוך הוא⁩ is ⁧ממציא כל הנמצא⁩ - ⁧הקדוש ברוך הוא⁩ causes the
 existence of all matter in this world. The exact opposite of Aristotle
-who said matter is eternal, we say that matter is ⁧הקדוש ברוך⁩ ⁦הוא'⁩s
+who said matter is eternal, we say that matter is ⁧הקדוש⁩ ⁦ברוך הוא'⁩s
 creation each and every moment, and not only that, it's ⁧יש מאין⁩. Just
 because it was there before, the previous moment's existence is
 absolutely no reason for this matter, this particle of matter to be
@@ -245,7 +246,7 @@ He heard it in the name of R' Rosenzweig, the ⁧מרא דאתרא⁩ of the ⁧
 ישורון⁩, and he heard it from R' Yoshe Ber Soloveitchik - that's a pretty
 impressive line of ⁧מאן דאמרין⁩.
 
-The pasuk says (1: 16) ⁧וַיַּעַשׂ אֱלֹהִים אֶת שְׁנֵי הַמְּאֹרֹת הַגְּדֹלִים⁩ - ⁧הקדוש ברוך הוא⁩
+The pasuk says (1:16) ⁧וַיַּעַשׂ אֱלֹהִים אֶת שְׁנֵי הַמְּאֹרֹת הַגְּדֹלִים⁩ - ⁧הקדוש ברוך הוא⁩
 created the two great luminaries; ⁧אֶת הַמָּאוֹר הַגָּדֹל לְמֶמְשֶׁלֶת הַיּוֹם וְאֶת הַמָּאוֹר
 הַקָּטֹן לְמֶמְשֶׁלֶת הַלַּיְלָה וְאֵת הַכּוֹכָבִים⁩. R' Soloveitchik asked the following
 question on this pasuk: At a bris we say ⁧זֶה הַקָּטוֹן גָדוֹל יִהְיֶה⁩. It's a
@@ -290,7 +291,7 @@ paper that says ⁧בשבילי נברא העולם⁩. In the other pocket, he 
 the phrase, ⁧אנכי עפר ואפר⁩. I found an interesting parallel in ⁧פרשת
 בראשית⁩.
 
-Regarding ⁧שבת⁩ the pasuk says (2: 2), ⁧וַיְכַל אֱלֹקִים בַּיּוֹם הַשְּׁבִיעִי מְלַאכְתּוֹ אֲשֶׁר
+Regarding ⁧שבת⁩ the pasuk says (2:2), ⁧וַיְכַל אֱלֹקִים בַּיּוֹם הַשְּׁבִיעִי מְלַאכְתּוֹ אֲשֶׁר
 עָשָׂה וַיִּשְׁבֹּת בַּיּוֹם הַשְּׁבִיעִי מִכׇּל מְלַאכְתּוֹ אֲשֶׁר עָשָׂה⁩ - ⁧הקדוש ברוך הוא⁩ completed his
 work on ⁧יום השביעי⁩, and he rested on ⁧יום השביעי⁩. The question is that
 there's a ⁧סתירה מיניה וביה⁩ in the pasuk. It says that Hashem finished
@@ -315,7 +316,7 @@ life, which is time. That is man's limitation. Look how little we are,
 look how imprecise we are, look how humble we should be because of this
 fact of knowing so little about even every moment of the day. That's
 what the ⁧מדרש⁩ is telling us. When ⁧שבת⁩ comes in, we should glorify and
-magnify ⁧הקדוש ברוך⁩ ⁦הוא'⁩s greatness as ⁧מלך מלכי המלכים⁩, especially when
+magnify ⁧הקדוש⁩ ⁦ברוך הוא'⁩s greatness as ⁧מלך מלכי המלכים⁩, especially when
 #emph[we] look at it from the point of view that we are unable to do
 that at all. So, ⁧אנכי עפר ואפר⁩, the famous saying about ⁧עפר ואפר⁩:⁧עפר⁩ is
 dirt, it has no past. ⁧אפר⁩ is ashes, has no future. ⁧אברהם אבינו⁩ was
@@ -325,16 +326,16 @@ people.
 
 Let's go to another pasuk. The pasuk says when ⁧הקדוש ברוך הוא⁩ was
 preparing to create ⁧אדם הראשון⁩, he had a conference with the ⁧מלאכים⁩. He
-said (1: 26), ⁧נַעֲשֶׂה אָדָם בְּצַלְמֵנוּ כִּדְמוּתֵנוּ וְיִרְדּוּ בִדְגַת הַיָּם וּבְעוֹף הַשָּׁמַיִם וּבַבְּהֵמָה
+said (1:26), ⁧נַעֲשֶׂה אָדָם בְּצַלְמֵנוּ כִּדְמוּתֵנוּ וְיִרְדּוּ בִדְגַת הַיָּם וּבְעוֹף הַשָּׁמַיִם וּבַבְּהֵמָה
 וּבְכׇל הָאָרֶץ וּבְכׇל הָרֶמֶשׂ הָרֹמֵשׂ עַל הָאָרֶץ⁩. In (⁦ס׳ ע״ב⁩) ⁧מסכת ברכות⁩ this pasuk is
 brought down with the following rather startling observation: ⁧כִּי סַיֵּים
-מְסָאנֵיהּ⁩ - when a person ties his shoes in the morning; ⁧לֵימָא⁩:⁧״בָּרוּךְ שֶׁעָשָׂה לִי
-כׇּל⁩ ⁦צׇרְכִּי״⁩ - Hashem, you have made for me all that I need. The ⁧וילנא גאון⁩
+מְסָאנֵיהּ⁩ - when a person ties his shoes in the morning; ⁧לֵימָא⁩:⁧״בָּרוּךְ שֶׁעָשָׂה לִי⁩
+⁦כׇּל צׇרְכִּי״⁩ - Hashem, you have made for me all that I need. The ⁧וילנא גאון⁩
 again asks, what do all of the things that we need have to do with
 putting on our shoes? Is the fact that we put on our shoes fulfilling
 all of our requests and our needs?
 
-The ⁧גאון⁩ answers with the famous pasuk in (8: 7) ⁧תהלים⁩:⁧תַּמְשִׁילֵהוּ בְּמַעֲשֵׂי
+The ⁧גאון⁩ answers with the famous pasuk in (8:7) ⁧תהלים⁩:⁧תַּמְשִׁילֵהוּ בְּמַעֲשֵׂי
 יָדֶיךָ כֹּל שַׁתָּה תַחַת רַגְלָיו⁩ - Everything that is in creation is under man's
 dominion. The pasuk tells you that we have a ⁧שליטה⁩. ⁧הקדוש ברוך הוא⁩ gave
 Man the power to control the entire ⁧בריאה⁩. We take a seed, we can crush
@@ -364,7 +365,7 @@ task, but it's doable only because the Torah says so.
 #set page(footer: article-footer("https://zeidyd.com/bereshis/5786/(2)/", "../Files/01 - Bereshis/01 - Bereshis/5786/Bereshis (2)/Bereshis 5786 (2).png"))
 = Bereshis 5786 (2)
 
-In ⁧פרשת בראשית⁩, we have the pasuk (2: 24) ⁧עַל כֵּן יַעֲזׇב אִישׁ אֶת אָבִיו וְאֶת אִמֹּו
+In ⁧פרשת בראשית⁩, we have the pasuk (2:24) ⁧עַל כֵּן יַעֲזׇב אִישׁ אֶת אָבִיו וְאֶת אִמֹּו
 וְדָבַק בְּאִשְׁתֹּו וְהָיוּ לְבָשָׂר אֶחָד⁩, which is the basis of all of our ⁧שידוכים⁩
 efforts, to fulfill this pasuk and bring ⁧שידוכים⁩ and ⁧זיווגים⁩ into the
 world. The following story, quoting from the Torah Tavlin, was recently
@@ -377,7 +378,7 @@ date had just not come along. After so many offers that ended in
 nothing, one can easily reach despair.
 
 What's more, two of his friends were married, and one of them already
-had a six-year-old child. "On one of the days of ⁧בין⁩ ⁦הזמנים"⁩, he says,
+had a six-year-old child. "On one of the days of ⁦בין הזמנים"⁩, he says,
 "I went to ⁧בני ברק⁩ to attend the wedding of a friend. I arrived at the
 ⁧חופה⁩, stayed for the food and dancing. At 10 o'clock, I left the hall
 for the nearest bus back to ⁧ירושלים⁩. I met a friend and started talking
@@ -390,7 +391,7 @@ waiting for you there." "Waiting for me?" I asked? "Go upstairs?"
 somebody else, but he interrupted me. "Look, I'm really looking for a
 man to complete our ⁧מנין⁩ for a ⁧שבע ברכות⁩. So please, come upstairs.
 There's a ⁧חתן⁩ and ⁧כלה⁩ up there, they're supposed to be happy. It's
-already 10: 30 p.m. and there are only six people there. If you go up,
+already 10:30 p.m. and there are only six people there. If you go up,
 you'll get a prize." I opened my mouth to answer him that I'm in a
 hurry, and besides, I wasn't looking for a prize. But something in his
 voice sounded kind and innocent. I decided to comply.
@@ -477,8 +478,8 @@ intensively. So in ⁧פרשת נח⁩, guess who we're going to talk about? Not
 what you expected, we're going to talk about ⁧אברהם אבינו⁩.
 
 It says at the very end of the parsha that ⁧אברהם אבינו⁩ comes from ⁧תרח⁩
-(11: 27): ⁧תֶּרַח הוֹלִיד אֶת אַבְרָם אֶת נָחוֹר וְאֶת הָרָן⁩. Who is ⁧הרן⁩? ⁧הרן⁩ was ⁧אברהם⁩
-⁦אבינו'⁩s brother. It also mentions that ⁧הרן⁩ died in ⁧אור כשדים⁩ (11: 28)
+(11:27): ⁧תֶּרַח הוֹלִיד אֶת אַבְרָם אֶת נָחוֹר וְאֶת הָרָן⁩. Who is ⁧הרן⁩? ⁧הרן⁩ was ⁦אברהם
+אבינו'⁩s brother. It also mentions that ⁧הרן⁩ died in ⁧אור כשדים⁩ (11:28)
 ⁧וַיָּמׇת הָרָן עַל פְּנֵי תֶּרַח אָבִיו⁩. Rashi says that ⁧הרן⁩ died before his father
 died. Why did he die?
 
@@ -508,7 +509,7 @@ about the haggadah, ⁧מתחילין בגנות ומסיימין בשבח⁩. S
 עֲבוֹדָה זָרָה הָיוּ אֲבוֹתֵינוּ⁩ - We started out little. We never claim our
 independence. We say ⁧הקדוש ברוך הוא⁩ took us out of ⁧מצרים⁩, no one
 else.⁧הקדוש ברוך הוא⁩ is the one who's responsible for our independence,
-not us. In exactly the same way, ⁧אברהם⁩ ⁦אבינו'⁩s great brilliance,
+not us. In exactly the same way, ⁦אברהם אבינו'⁩s great brilliance,
 fantastic ⁧מסירות נפש⁩ to start off our history as a nation is also
 buried. It's very hidden. We have to go and uncover it and search for
 it. Like everything else in this world, ⁧אמת⁩ is hidden; ⁧שקר⁩ is all over
@@ -516,7 +517,7 @@ the place. Our ⁧אמת⁩ is buried there. We have to look for it, and when we
 look for it we'll actually appreciate it more because we have to put in
 the effort to find it.
 
-⁧אברהם⁩ ⁦אבינו'⁩s glorious beginning is hidden at the end of ⁧פרשת נח⁩. Hidden
+⁦אברהם אבינו'⁩s glorious beginning is hidden at the end of ⁧פרשת נח⁩. Hidden
 at the end of the parsha where nobody is looking. Everybody's looking at
 how wonderful ⁧נח⁩ is. And yet ⁧אברהם אבינו⁩ surpassed him in so many ways.
 We're not ⁧בני נח⁩, we're ⁧בני אברהם⁩, ⁧יצחק ויעקב⁩. And ⁧בעזרת השם⁩, in that
@@ -529,9 +530,9 @@ We're not ⁧בני נח⁩, we're ⁧בני אברהם⁩, ⁧יצחק ויעק
 
 In ⁧פרשת נח⁩, after the extraordinary ⁧מסירות נפש⁩ of serving everyone in
 the ⁧תיבה⁩, it was a devastating experience to come out to a world which
-had nothing. We know that ⁧נח⁩ was a ⁧צדיק⁩, but for whatever reason (9: 20)
+had nothing. We know that ⁧נח⁩ was a ⁧צדיק⁩, but for whatever reason (9:20)
 ⁧וַיָּחֶל נֹחַ אִישׁ הָאֲדָמָה וַיִּטַּע כָּרֶם⁩, and became ⁧שיכור⁩ and ⁧חָם⁩ came and saw what
-happened and told his two brothers. A famous pasuk (9: 23): ⁧וַיִּקַּח שֵׁם וָיֶפֶת
+happened and told his two brothers. A famous pasuk (9:23): ⁧וַיִּקַּח שֵׁם וָיֶפֶת
 אֶת הַשִּׂמְלָה וַיָּשִׂימוּ עַל שְׁכֶם שְׁנֵיהֶם וַיֵּלְכוּ אֲחֹרַנִּית וַיְכַסּוּ אֵת עֶרְוַת אֲבִיהֶם⁩. The ⁧אזנים
 לתורה⁩ brings a ⁧מדרש⁩ that says that ⁧שֵׁם⁩ and ⁧יֶפֶת⁩ got a ⁧שכר⁩ for doing this
 ⁧מצוה⁩ of ⁧כיבוד אב⁩.
@@ -577,14 +578,14 @@ are and what they represent.
 of the entire universe, became a ⁧חסיד⁩ through Reb Shmelke of Nikolsburg.
 After that he became a ⁧תלמיד⁩ of the ⁧מגיד⁩ of Mezritch, as Reb Shmelke
 introduced him. ⁧רב נחמן⁩ of Breslov said that the day that ⁧רבי לוי יצחק⁩
-was ⁧נפטר⁩, the entire world went dark. And the Ruzhiner, ⁧רבי ישראל⁩
-⁦מרוז'ין⁩, was a grandson of the ⁧מגיד⁩ of Mezritch. The Belzer Rebbe was
+was ⁧נפטר⁩, the entire world went dark. And the Ruzhiner, ⁧רבי⁩ ⁦ישראל
+מרוז'ין⁩, was a grandson of the ⁧מגיד⁩ of Mezritch. The Belzer Rebbe was
 one of the glorious products of that tradition, and that is my
 connection to them.
 
 The vort I'm about to tell you is a ⁧חסידישע ווארט⁩ with a powerful lesson
 to transmit to all of us, and it comes from this week's ⁧פרשה⁩, ⁧פרשת נח⁩.
-The pasuk says (6: 16), ⁧צֹהַר תַּעֲשֶׂה לַתֵּבָה⁩, which we know means that there was
+The pasuk says (6:16), ⁧צֹהַר תַּעֲשֶׂה לַתֵּבָה⁩, which we know means that there was
 going to be a lighting mechanism for the ⁧תבה⁩, they couldn't sit there
 pitch black. Rashi brings down that it was either a window or it was a
 brilliant jewel to light up the ⁧תבה⁩. The vort from the ⁧בעל שם⁩ is, ⁧צֹהַר
@@ -622,12 +623,12 @@ and ⁧בעזרת השם⁩, ⁧משיח צדקנו⁩ should grace us with his 
 = Noach 5786
 
 ⁧פרשת נח⁩ starts with a fundamental and fascinating question which
-continues up until our very day. The ⁧פרשה⁩ starts (6: 9), ⁧אֵלֶּה תּוֹלְדֹת נֹחַ נֹחַ
+continues up until our very day. The ⁧פרשה⁩ starts (6:9), ⁧אֵלֶּה תּוֹלְדֹת נֹחַ נֹחַ
 אִישׁ צַדִּיק⁩. Rashi says on these words ⁧תּוֹלְדוֹתֵיהֶם שֶׁל צַדִּיקִים מַעֲשִׂים טוֹבִים⁩.
 What is Rashi intimating to and what is the ⁧חידוש⁩ in these apparently
 simple words? The following answer is brought down by the ⁧אלכסנדר רבי⁩ in
 his ⁧ספר בית יעקב⁩ in the name of the ⁧ייד הקדוש מפשיסחא⁩ quoted in ⁧מעינה של
-תורה⁩, the wonderful set of seferim from ⁦ר׳⁩ ⁧אלכסנדר זושא פרידמן⁩.
+תורה⁩, the wonderful set of seferim from ⁦ר׳ אלכסנדר⁩ ⁧זושא פרידמן⁩.
 
 When after 120 every person faces the ⁧בית דין של מעלה⁩, he'll be asked,
 "How did you spend your life? What were you busy doing your whole life?"
@@ -673,9 +674,9 @@ ultimate purpose and achievement."
 In the second pasuk of the ⁧פרשה⁩, it says ⁧וְאֶעֶשְׂךָ לְגוֹי גָּדוֹל וַאֲבָרֶכְךָ וַאֲגַדְּלָה
 שְׁמֶךָ וֶהְיֵה בְּרָכָה⁩. In ⁦רש\"י⁩, after his first pshat, he explains that ⁧וְאֶעֶשְׂךָ
 לְגוֹי גָּדוֹל⁩ refers to what we say in ⁧שמונה עשרה⁩:⁧אֱלֹקֵי אַבְרָהָם⁩, ⁧וַאֲבָרֶכְךָ⁩ refers
-to ⁧אֱלֹקֵי יִצְחָק⁩, and ⁧וַאֲגַדְּלָה שְׁמֶךָ⁩ refers to ⁧וֵאֱלֹקֵי יַעֲקֹב⁩. "⁧יָכוֹל יִהְיוּ חוֹתְמִין⁩
-⁦בְּכֻלָּן"⁩ - the bracha could have ended by saying ⁧מָגֵן אַבְרָהָם יִצְחָק וְיַעֲקֹב⁩,
-"⁧תַּלְמוּד לוֹמַר וֶהְיֵה בְּרָכָה⁩, ⁧בְּךָ חוֹתְמִין וְלֹא⁩ ⁦בָהֶם"⁩ - the bracha of ⁧שמונה עשרה⁩
+to ⁧אֱלֹקֵי יִצְחָק⁩, and ⁧וַאֲגַדְּלָה שְׁמֶךָ⁩ refers to ⁧וֵאֱלֹקֵי יַעֲקֹב⁩. "⁧יָכוֹל יִהְיוּ⁩ ⁦חוֹתְמִין
+בְּכֻלָּן"⁩ - the bracha could have ended by saying ⁧מָגֵן אַבְרָהָם יִצְחָק וְיַעֲקֹב⁩,
+"⁧תַּלְמוּד לוֹמַר וֶהְיֵה בְּרָכָה⁩, ⁧בְּךָ חוֹתְמִין⁩ ⁦וְלֹא בָהֶם"⁩ - the bracha of ⁧שמונה עשרה⁩
 ends with ⁧מָגֵן אַבְרָהָם⁩.
 
 This teaches us that the aspect of ⁧גמילות חסדים⁩, represented by ⁧אברהם
@@ -693,7 +694,7 @@ need them once, ⁧בעזרת השם⁩, the war is behind us. ⁧מי כעמך 
 incredible people.
 
 The ⁧ספר אהל תורה⁩ quoted in ⁧מעינה של תורה⁩, comments on ⁧וֶהְיֵה בְּרָכָה⁩ and the
-idea that ⁧בְּךָ חוֹתְמִין וְלֹא בָהֶם⁩. The ⁧משנה⁩ teaches us (Avos 1: 2): ⁧עַל שְׁלשָׁה
+idea that ⁧בְּךָ חוֹתְמִין וְלֹא בָהֶם⁩. The ⁧משנה⁩ teaches us (Avos 1:2): ⁧עַל שְׁלשָׁה
 דְבָרִים הָעוֹלָם עוֹמֵד⁩, ⁧עַל הַתּוֹרָה וְעַל הָעֲבוֹדָה וְעַל גְּמִילוּת חֲסָדִים⁩. Each of these
 corresponding to one of the ⁧אבות⁩:⁧אברהם⁩ represents ⁧גמילות חסדים⁩, ⁧יצחק⁩
 represents ⁧עבודה⁩, since he offered himself as a ⁧קרבן⁩\; and ⁧יעקב⁩
@@ -702,7 +703,7 @@ which we are now participating, preceding the coming of ⁧משיח⁩, the ⁧�
 tells us that ⁧תורה⁩ and ⁧עבודה⁩ will not be what they once were - and
 indeed, we see this. Though we may not compare to the previous
 generations, the ⁧גאולה⁩ will ultimately come in the merit of ⁧גמילות
-חסדים⁩, as the pasuk in ⁧ישעיה⁩ says (1: 27), ⁧צִיּוֹן בְּמִשְׁפָּט תִּפָּדֶה וְשָׁבֶיהָ בִּצְדָקָה⁩.
+חסדים⁩, as the pasuk in ⁧ישעיה⁩ says (1:27), ⁧צִיּוֹן בְּמִשְׁפָּט תִּפָּדֶה וְשָׁבֶיהָ בִּצְדָקָה⁩.
 That's what ⁦רש\"י⁩ means when he says ⁧בְּךָ חוֹתְמִין⁩, he means "we will end
 with you" - in the ⁧חותמה⁩ of ⁧גלות⁩, (at the end of the ⁧גלות⁩) It will only
 be ⁧בְּךָ⁩ - in merit of the ⁧גמילות חסדים⁩ of ⁧אברהם אבינו⁩, and that will make
@@ -717,13 +718,13 @@ the world is tied with a ⁧קשר⁩ to ⁧הקדוש ברוך הוא⁩.
 
 I recently came across a dvar torah from ⁧רבי יצחק טוביה וייס⁩, the former
 ⁧אב בית דין⁩ in ⁧ירושלים⁩. It's a remarkable insight I'd like to share. If
-you open a ⁧תהילים⁩ and look at ⁧פרק⁩ ⁦קמ״ה⁩, ⁧תְּהִלָּה לְדָוִד⁩, known as ⁧אַשְׁרֵי⁩, you'll
+you open a ⁧תהילים⁩ and look at ⁦פרק קמ״ה⁩, ⁧תְּהִלָּה לְדָוִד⁩, known as ⁧אַשְׁרֵי⁩, you'll
 notice that each ⁧פסוק⁩ contains a ⁧ו⁩, a ⁧ו החיבור⁩ - a connecting ⁧ו⁩, that
 connects the first half of the ⁧פסוק⁩ to the second half, except for one
-⁧פסוק⁩:⁧קֹרְאָיו לְכֹל אֲשֶׁר יִקְרָאֻהוּ בֶאֱמֶת קָרוֹב⁩ ⁦ה׳⁩ ⁧לְכׇל⁩. This unique ⁧פסוק⁩ has no ⁧ו⁩
+⁧פסוק⁩:⁧קֹרְאָיו לְכֹל אֲשֶׁר יִקְרָאֻהוּ בֶאֱמֶת⁩ ⁦קָרוֹב ה׳⁩ ⁧לְכׇל⁩. This unique ⁧פסוק⁩ has no ⁧ו⁩
 connecting the two halves. ⁧רבי וייס⁩ explains that the ⁧ו החיבור⁩ in each
 ⁧פסוק⁩ is a symbol of the deep bond between ⁧כלל ישראל⁩ and ⁧הקדוש ברוך הוא⁩.
-The ⁧פסוק⁩ of ⁧קֹרְאָיו קָרוֹב⁩ ⁦ה׳⁩ ⁧לְכׇל⁩ represents an intrinsic ⁧חיבור⁩ that doesn't
+The ⁧פסוק⁩ of ⁧קֹרְאָיו⁩ ⁦קָרוֹב ה׳⁩ ⁧לְכׇל⁩ represents an intrinsic ⁧חיבור⁩ that doesn't
 need a ⁧ו⁩ - it stands alone as a ⁧פסוק⁩ of pure connection.
 
 Take a moment to look at ⁧תְּהִלָּה לְדָוִד⁩ and notice the ⁧ו⁩ in each ⁧פסוק⁩. I've
@@ -746,7 +747,7 @@ This ⁧דבר תורה⁩ is dedicated in honor of our ⁧אייניקל⁩ Tzv
 whose birthday is on ⁧פרשת לך לך⁩. Around the time he was born, he had a
 ⁧ברית⁩, like every other ⁧יידיש⁩ boy.
 
-We know that ⁧ספר בראשית⁩ has only three of all the ⁦תרי״ג⁩ ⁧מצות⁩, one of
+We know that ⁧ספר בראשית⁩ has only three of all the ⁦תרי״ג מצות⁩, one of
 which is ⁧ברית מילה⁩, at the very end of ⁧פרשת לך לך⁩. I've always enjoyed
 finding insights at the end of the ⁧פרשה⁩ to give it some special ⁧חשיבות⁩,
 since most divrei Torah focus on the beginning. So here, we'll talk
@@ -764,13 +765,13 @@ though it was reconfirmed at ⁧הר סיני⁩, it is inherently a ⁧מצוה
 בראשית⁩.
 
 In connection with ⁧ברית מילה⁩, the ⁧ספר עוצר פלאות התורה⁩ includes an
-incredible ⁧מעשה⁩ that took place involving the ⁦חת\"ם⁩ ⁧סופר⁩. I thought
+incredible ⁧מעשה⁩ that took place involving the ⁦חת\"ם סופר⁩. I thought
 sharing this ⁧מעשה⁩ would be a meaningful gift for our birthday boy, Tzvi
 Bennett. This ⁧מעשה פלא⁩ comes from a ⁧ספר⁩ called ⁧זכרון למשה⁩, and tells a
 fascinating story about performing a ⁧ברית מילה⁩ on a goy.
 
-The story goes that during the time of the ⁦חת\"ם⁩ ⁧סופר⁩, a goy from a
-small hamlet near Pressburg, where the ⁦חת\"ם⁩ ⁧סופר⁩ lived, approached the
+The story goes that during the time of the ⁦חת\"ם סופר⁩, a goy from a
+small hamlet near Pressburg, where the ⁦חת\"ם סופר⁩ lived, approached the
 rav of his town. The goy expressed a sincere desire to become a ger.
 After examining his intentions and confirming that he was ⁧לשם שמים⁩, the
 rav performed a conversion ⁧כדת וכדין⁩, including a ⁧ברית מילה⁩. However, on
@@ -783,14 +784,14 @@ accusations escalated into a ⁧סכנה⁩, not only for that town but as a
 threat of a nationwide pogrom.
 
 Desperate, the rav sought guidance and went to Pressburg to consult the
-⁦חת\"ם⁩ ⁧סופר⁩. The ⁦חת\"ם⁩ ⁧סופר⁩ strongly reprimanded him, asking how he could
+⁦חת\"ם סופר⁩. The ⁦חת\"ם סופר⁩ strongly reprimanded him, asking how he could
 perform a ⁧ברית מילה⁩ in such a small town without the necessary expertise
 or medical facilities, risking everyone's safety. However, since the
-deed was done, the ⁦חת\"ם⁩ ⁧סופר⁩ advised him on how to address this
+deed was done, the ⁦חת\"ם סופר⁩ advised him on how to address this
 dangerous situation.
 
 He told the rav that because he had endangered ⁧כלל ישראל⁩, he must be
-⁧מוסר נפש⁩ for the welfare of the community. The ⁦חת\"ם⁩ ⁧סופר⁩ instructed the
+⁧מוסר נפש⁩ for the welfare of the community. The ⁦חת\"ם סופר⁩ instructed the
 rav to take the ger and the ⁧מוהל⁩ in a wagon to a nearby river, and to
 stage an accident by driving the wagon into the water, drowning them
 all. This way, the goyim would believe the man had died from an
@@ -810,13 +811,12 @@ They followed his instructions, and immediately, the ger's health
 improved, sparing the rav and ⁧מוהל⁩ from the need for self-sacrifice. The
 entire town rejoiced, and peace was restored.
 
-When the rav and the ⁧מוהל⁩ returned to the ⁦חת\"ם⁩ ⁧סופר⁩ to recount the
+When the rav and the ⁧מוהל⁩ returned to the ⁦חת\"ם סופר⁩ to recount the
 events, he revealed that he had sent ⁧אליהו⁩, the ⁧מלאך הברית⁩, to intervene
-and save the ger. The ⁦חת\"ם⁩ ⁧סופר⁩ explained that they merited this
+and save the ger. The ⁦חת\"ם סופר⁩ explained that they merited this
 miraculous assistance only because they had been willing to be ⁧מוסר נפש⁩
 for ⁧כלל ישראל⁩. In essence, he knew from the start that they would be
-protected, fulfilling the promise that ⁧כי שומר מצוה לא ידע דבר רע⁩ -
-those who fulfill ⁧מצות⁩ will be shielded from harm.
+protected, fulfilling the promise that ⁧כי שומר מצוה לא ידע דבר רע⁩ - those who fulfill ⁧מצות⁩ will be shielded from harm.
 
 Bezras Hashem, we should all be protected. May we be blessed to observe
 all ⁧מצות⁩, especially the ⁧מצוה⁩ of ⁧ברית מילה⁩, for which ⁧כלל ישראל⁩ has
@@ -828,17 +828,17 @@ always shown self-sacrifice. May we soon witness ⁧גאולה⁩ and the coming
 #set page(footer: article-footer("https://zeidyd.com/lech-lecha/5786/(1)/", "../Files/01 - Bereshis/03 - Lech Lecha/5786/ Lech Lecha (1)/Lech Lecha 5786 (1).png"))
 = Lech Lecha 5786 (1)
 
-⁧פרשת לך לך⁩. Hashem instructs Avram (12: 1) ⁧לֶךְ לְךָ מֵאַרְצְךָ וּמִמּוֹלַדְתְּךָ וּמִבֵּית
+⁧פרשת לך לך⁩. Hashem instructs Avram (12:1) ⁧לֶךְ לְךָ מֵאַרְצְךָ וּמִמּוֹלַדְתְּךָ וּמִבֵּית
 אָבִיךָ אֶל הָאָרֶץ אֲשֶׁר אַרְאֶךָּ⁩ - Cut off all of your previous connections, move
-someplace else and start a new life. A few ⁧פסוקים⁩ later it says (12: 4)
-⁧וַיֵּלֶךְ אַבְרָם כַּאֲשֶׁר דִּבֶּר אֵלָיו⁩ ⁦ה׳⁩ ⁧וַיֵּלֶךְ אִתּוֹ לוֹט וְאַבְרָם בֶּן חָמֵשׁ שָׁנִים וְשִׁבְעִים שָׁנָה
+someplace else and start a new life. A few ⁧פסוקים⁩ later it says (12:4)
+⁧וַיֵּלֶךְ אַבְרָם כַּאֲשֶׁר דִּבֶּר⁩ ⁦אֵלָיו ה׳⁩ ⁧וַיֵּלֶךְ אִתּוֹ לוֹט וְאַבְרָם בֶּן חָמֵשׁ שָׁנִים וְשִׁבְעִים שָׁנָה
 בְּצֵאתוֹ מֵחָרָן⁩. This pasuk requires tremendous elucidation; it is far more
 complicated than it appears on the surface. The ⁧אזנים לתורה⁩, the Lutzker
 Rav, R' Zalman Sorotzkin asks a series of penetrating and pointed
 questions which makes you think "How come I didn't think of that?" ⁧וַיֵּלֶךְ
-אַבְרָם כַּאֲשֶׁר דִּבֶּר אֵלָיו⁩ ⁦ה׳⁩ - The first question he asks is what's the ⁧פסוק⁩
+אַבְרָם כַּאֲשֶׁר דִּבֶּר⁩ ⁦אֵלָיו ה׳⁩ - The first question he asks is what's the ⁧פסוק⁩
 telling you? Is there any other reason that Avram would have gone? Why
-does the pasuk need to explicitly say ⁧כַּאֲשֶׁר דִּבֶּר אֵלָיו⁩ ⁦ה׳⁩? The second
+does the pasuk need to explicitly say ⁧כַּאֲשֶׁר דִּבֶּר⁩ ⁦אֵלָיו ה׳⁩? The second
 question is ⁧וַיֵּלֶךְ אִתּוֹ לוֹט⁩ - Lot went along with him. But didn't Hashem
 just say he should leave his whole family behind? ⁧הקדוש ברוך הוא⁩
 commanded Avram in the first pasuk ⁧וּמִבֵּית אָבִיךָ⁩. Lot is from ⁧בֵּית אָבִיךָ⁩. How
@@ -846,7 +846,7 @@ did Avram bring Lot along with him? He asks a third question: ⁧וְאַבְר�
 חָמֵשׁ שָׁנִים וְשִׁבְעִים שָׁנָה בְּצֵאתוֹ מֵחָרָן⁩ - the pasuk gives us his age. Why is the
 pasuk telling us his age now? What difference does that make? Also, if
 you would have left his age out, it would read like this: ⁧וַיֵּלֶךְ אַבְרָם כַּאֲשֶׁר
-דִּבֶּר אֵלָיו⁩ ⁦ה׳⁩ ⁧וַיֵּלֶךְ אִתּוֹ לוֹט בְּצֵאתוֹ מֵחָרָן⁩ - This recitation of Avram's age
+דִּבֶּר⁩ ⁦אֵלָיו ה׳⁩ ⁧וַיֵּלֶךְ אִתּוֹ לוֹט בְּצֵאתוֹ מֵחָרָן⁩ - This recitation of Avram's age
 breaks up the narrative of Avram's leaving. What purpose is served by
 giving us his age in the middle of this pasuk?
 
@@ -855,7 +855,7 @@ with him all of the people that he influenced - ⁧וְאֶת הַנֶּפֶשׁ
 So we would say his nephew is a ⁧כל שכן⁩ and would certainly be included,
 and that's why Lot came along. However, the pasuk reveals to us in a
 subtle fashion Lot's ulterior motive. What was Avram's motive? To do the
-⁧דבר השם⁩, as the pasuk says ⁧כַּאֲשֶׁר דִּבֶּר אֵלָיו⁩ ⁦ה׳⁩. What was Lot's motive? ⁧וַיֵּלֶךְ
+⁧דבר השם⁩, as the pasuk says ⁧כַּאֲשֶׁר דִּבֶּר⁩ ⁦אֵלָיו ה׳⁩. What was Lot's motive? ⁧וַיֵּלֶךְ
 אִתּוֹ לוֹט⁩. There are two words in the Torah that in English both mean
 "with him": ⁧אִתּוֹ⁩ and ⁧עמו⁩. In English, they mean the same thing, but ⁧אִתּוֹ⁩
 means to go with him for your own purposes and ⁧עמו⁩ means ⁧בלב אחד ואיש
@@ -874,7 +874,7 @@ wealth with him, and therefore Lot was coming along. Lot's actual
 purpose was not because of his wanting to do what Avram does. It was a
 different ⁧כוונה⁩ completely, and that was to do what was good for him.
 
-In ⁧ספר דברים⁩ we have the famous pasuk (28: 9) ⁧וְהָלַכְתָּ בִּדְרָכָיו⁩ - we have to
+In ⁧ספר דברים⁩ we have the famous pasuk (28:9) ⁧וְהָלַכְתָּ בִּדְרָכָיו⁩ - we have to
 go in the ways of ⁧הקדוש ברוך הוא⁩. We understand that that we do
 everything that Hashem does because we cannot really understand Hashem,
 but we're following his ways. ⁧רחום⁩, ⁧חנון⁩, does ⁧חסד⁩. This pasuk started
@@ -901,17 +901,16 @@ level of ⁧אברהם אבינו⁩ and to be better people and to serve ⁧ה�
 
 ⁧לך לך⁩. I heard this vort from my ⁧טייערע⁩ son-in-law Dovid Tribuch, who
 heard it from R' Ephraim Goldberg. When Avram leaves ⁧חרן⁩ and is coming
-to ⁧ארץ ישראל⁩, Hashem gives him a tremendous ⁧הבטחה⁩: (12: 3) ⁧וַאֲבָרְכָה מְבָרְכֶיךָ
-וּמְקַלֶּלְךָ אָאֹר⁩. Rabbi Goldberg asked an interesting question.⁧וַאֲבָרְכָה⁩ -
-whoever benches you; ⁧מְבָרְכֶיךָ⁩ - will be benched, I will bench them. Both
+to ⁧ארץ ישראל⁩, Hashem gives him a tremendous ⁧הבטחה⁩: (12:3) ⁧וַאֲבָרְכָה מְבָרְכֶיךָ
+וּמְקַלֶּלְךָ אָאֹר⁩. Rabbi Goldberg asked an interesting question.⁧וַאֲבָרְכָה⁩ - whoever benches you; ⁧מְבָרְכֶיךָ⁩ - will be benched, I will bench them. Both
 words are the same verb. However, ⁧וּמְקַלֶּלְךָ⁩ - if they curse you, it doesn't
 say ⁧אקלל⁩, it says ⁧אָאֹר⁩, a completely different verb. What do we learn
 from that?
 
 Rabbi Goldberg answers that if somebody benches us, Hashem will bench
 him. But if somebody curses us, what happens? Will that curse have any
-effect on us? What is ⁧כלל⁩ ⁦ישראל'⁩s reaction to a curse? What is ⁧כלל⁩
-⁦ישראל'⁩s reaction to any attack? We get together. Unfortunately, we've
+effect on us? What is ⁦כלל ישראל'⁩s reaction to a curse? What is ⁦כלל
+ישראל'⁩s reaction to any attack? We get together. Unfortunately, we've
 learned that the hard way. Despite our internal bickering, strife and
 fighting, if we're attacked, all of a sudden we are ⁧עם אחד⁩, we get
 together, we unify. Hashem has to send us enemies to unify us. ⁧וּמְקַלֶּלְךָ
@@ -923,7 +922,7 @@ people.
 
 Speaking of being better people, what should our focus be? When Avram
 and Sarah were going to ⁧מצרים⁩, Avram noticed that Sarah is beautiful
-(12: 12) ⁧וַיְהִי כַּאֲשֶׁר הִקְרִיב לָבוֹא מִצְרָיְמָה וַיֹּאמֶר אֶל שָׂרַי אִשְׁתּוֹ הִנֵּה נָא יָדַעְתִּי כִּי
+(12:12) ⁧וַיְהִי כַּאֲשֶׁר הִקְרִיב לָבוֹא מִצְרָיְמָה וַיֹּאמֶר אֶל שָׂרַי אִשְׁתּוֹ הִנֵּה נָא יָדַעְתִּי כִּי
 אִשָּׁה יְפַת מַרְאֶה אָתְּ⁩ - Now I know that you are a beautiful, very attractive
 woman. Rashi says on these words ⁧מִדְרַש אַגָּדָה עַד עַכְשָׁו לֹא הִכִּיר בָּהּ מִתּוֹךְ
 צְנִיעוּת שֶׁבִּשְׁנֵיהֶם⁩ - Avram did not recognize her beauty because of their
@@ -931,8 +930,8 @@ woman. Rashi says on these words ⁧מִדְרַש אַגָּדָה עַד עַ�
 it because they were in a situation where it will become an issue,
 become something to deal with.
 
-The ⁧קשיא⁩ posed by Rav Pinchas Doron from ⁧ארץ ישראל⁩ in his sefer ⁧ביאור
-סתומות⁩ ⁦ברש״י⁩ is that a ⁧חתן⁩ has to see his ⁧כלה⁩ at least one time before
+The ⁧קשיא⁩ posed by Rav Pinchas Doron from ⁧ארץ ישראל⁩ in his sefer ⁧ביאור⁩
+⁦סתומות ברש״י⁩ is that a ⁧חתן⁩ has to see his ⁧כלה⁩ at least one time before
 they get married. Avram already recognized Sarah, he already knew of her
 beauty. Why is Avram saying now, ⁧הִנֵּה נָא יָדַעְתִּי כִּי אִשָּׁה יְפַת מַרְאֶה אָתְּ⁩ - Now I
 know you're beautiful, he already knew that?
@@ -964,16 +963,16 @@ majesty, which is also what our focus should be.
 = Vayairah 5784
 
 After ⁧אברהם אבינו⁩ prepares to perform the ⁧עקדה⁩, placing ⁧יצחק אבינו⁩ on
-the ⁧מזבח⁩, the ⁧מלאך⁩ calls (22: 11) ⁧וַיִּקְרָא אֵלָיו מַלְאַךְ⁩ ⁦ה׳⁩ ⁧מִן הַשָּׁמַיִם וַיֹּאמֶר
+the ⁧מזבח⁩, the ⁧מלאך⁩ calls (22:11) ⁧וַיִּקְרָא אֵלָיו⁩ ⁦מַלְאַךְ ה׳⁩ ⁧מִן הַשָּׁמַיִם וַיֹּאמֶר
 אַבְרָהָם אַבְרָהָם וַיֹּאמֶר הִנֵּנִי⁩. The ⁧תורה⁩ tells us that the ⁧מלאך⁩ called ⁧אברהם⁩
-twice. The first time, it says (22: 12) ⁧וַיֹּאמֶר אַל תִּשְׁלַח יָדְךָ אֶל הַנַּעַר וְאַל תַּעַשׂ
+twice. The first time, it says (22:12) ⁧וַיֹּאמֶר אַל תִּשְׁלַח יָדְךָ אֶל הַנַּעַר וְאַל תַּעַשׂ
 לוֹ מְאוּמָה כִּי עַתָּה יָדַעְתִּי כִּי יְרֵא אֱלֹקִים אַתָּה וְלֹא חָשַׂכְתָּ אֶת בִּנְךָ אֶת יְחִידְךָ מִמֶּנִּי⁩.
 The ⁧מלאך⁩ tells him: "Don't harm him, because now I know that you are ⁧ירא
 אלקים⁩, for you did not withhold your son ⁧מִמֶּנִּי⁩\."
 
-Then, the ⁧מלאך⁩ calls out to ⁧אברהם⁩ a second time (22: 15-17):
+Then, the ⁧מלאך⁩ calls out to ⁧אברהם⁩ a second time (22:15-17):
 
-⁧וַיִּקְרָא מַלְאַךְ⁩ ⁦ה׳⁩ ⁧אֶל אַבְרָהָם שֵׁנִית מִן הַשָּׁמָיִם׃ וַיֹּאמֶר בִּי נִשְׁבַּעְתִּי נְאֻם⁩ ⁦ה׳⁩ ⁧כִּי יַעַן אֲשֶׁר
+⁧וַיִּקְרָא⁩ ⁦מַלְאַךְ ה׳⁩ ⁧אֶל אַבְרָהָם שֵׁנִית מִן הַשָּׁמָיִם׃ וַיֹּאמֶר בִּי נִשְׁבַּעְתִּי⁩ ⁦נְאֻם ה׳⁩ ⁧כִּי יַעַן אֲשֶׁר
 עָשִׂיתָ אֶת הַדָּבָר הַזֶּה וְלֹא חָשַׂכְתָּ אֶת בִּנְךָ אֶת יְחִידֶךָ׃ כִּי בָרֵךְ אֲבָרֶכְךָ וְהַרְבָּה אַרְבֶּה אֶת
 זַרְעֲךָ⁩
 
@@ -1005,10 +1004,10 @@ created by the ⁧עקדה⁩ reflects the greatness of this ⁧מצוה⁩.
 This teaches us a profound ⁧מוסר⁩. When we do ⁧מצות⁩, we should invest in
 them to elevate their quality. The ⁧מדרגה⁩ of our ⁧מצות⁩ reflects the
 greatness of our achievements. If we put more ⁧כוונה⁩, more time, more
-⁧אהבת⁩ ⁦ה׳⁩ and ⁧יראת⁩ ⁦ה׳⁩, it translates into a greater ⁧מצוה⁩. Whether or not
+⁦אהבת ה׳⁩ and ⁦יראת ה׳⁩, it translates into a greater ⁧מצוה⁩. Whether or not
 our ⁧מצות⁩ create a ⁧מלאך⁩ is not the main point - although if the ⁧מדרש⁩ says
 so, we believe it. The lesson is about the quality of our ⁧מצות⁩. Our ⁧מצות⁩
-should express our deep ⁧כוונה⁩, our ⁧אהבת⁩ ⁦ה׳⁩ and ⁧יראת⁩ ⁦ה׳⁩, and that way,
+should express our deep ⁧כוונה⁩, our ⁦אהבת ה׳⁩ and ⁦יראת ה׳⁩, and that way,
 they will be of the highest quality. In the ⁧זכות⁩ of those ⁧מצות⁩, may
 ⁧הקדוש ברוך הוא⁩ grant us ⁧ישועות⁩, ⁧נחמות⁩, and ⁧גואל צדק במהרה בימינו אמן
 ביאת⁩!
@@ -1027,14 +1026,14 @@ thought was worth sharing here. It harkens back to an idea I once heard
 from Rabbi Noach Isaac Oelbaum, regarding ⁧והסר שטן מלפנינו ומאחרינו⁩.
 
 In ⁧פרשת חיי שרה⁩, as we discussed last year, we see how the ⁧שטן⁩ used the
-⁧עקדה⁩ as an opportunity to take ⁧שרה⁩ ⁦אמינו'⁩s ⁧נשמה⁩. ⁧אברהם⁩ passed that test.
+⁧עקדה⁩ as an opportunity to take ⁦שרה אמינו'⁩s ⁧נשמה⁩. ⁧אברהם⁩ passed that test.
 But even before that, the ⁧תורה⁩ gives us another deeply insightful
 example of ⁧פיינקייט⁩ and the wisdom and ⁧מוסר⁩ to be learned from the ⁧עקדה⁩.
 
-At the end of the ⁧עקדה⁩, the ⁧פסוק⁩ states (22: 19), ⁧וַיָּשׇׁב אַבְרָהָם אֶל נְעָרָיו
+At the end of the ⁧עקדה⁩, the ⁧פסוק⁩ states (22:19), ⁧וַיָּשׇׁב אַבְרָהָם אֶל נְעָרָיו
 וַיָּקֻמוּ וַיֵּלְכוּ יַחְדָּו⁩, a ⁧פסוק⁩ whose simplicity belies its depth. ⁦רש\"י⁩
 explains on the beginning of the ⁧עקדה⁩, in the ⁧וַיֵּלְכוּ שְׁנֵיהֶם יַחְדָּו פסוק⁩
-(22: 8), that ⁧אברהם⁩ and ⁧יצחק⁩ went together in precisely the same way.
+(22:8), that ⁧אברהם⁩ and ⁧יצחק⁩ went together in precisely the same way.
 ⁧אברהם⁩ knew he was going to offer his son as a ⁧קרבן⁩, yet he went ⁧בשמחה⁩
 and ⁧ברצון⁩, just as ⁧יצחק⁩, who thought he was going to witness a ⁧קרבן⁩,
 went ⁧בשמחה⁩ and ⁧ברצון⁩. The ⁧יחדו⁩ there teaches us that both father and son
@@ -1060,11 +1059,11 @@ hint of superiority or feeling that they were now on a higher level.
 They did not look down on others or feel their "grass was greener." This
 underscores the greatness of these figures and their humility.
 
-\(This beautiful insight comes from ⁦ר'⁩ ⁧ולוולע בריסקער⁩. I always call him
-⁦ר'⁩ ⁧ולוולע⁩ because ⁦ר'⁩ ⁧יושע בער⁩ ⁦סולובייצ'יק זצ\"ל⁩, whom I was privileged
-to hear, always called his uncle ⁦ר'⁩ ⁧ולוולע⁩. No one else calls him that -
-except R' Hershel Schachter. To everyone else, he is ⁦ר'⁩ ⁧יצחק זאב
-בריסקער⁩. But I call him ⁦ר'⁩ ⁧ולוולע⁩, because that's how I heard his ⁧משפחה⁩
+\(This beautiful insight comes from ⁦ר' ולוולע⁩ ⁧בריסקער⁩. I always call him
+⁦ר' ולוולע⁩ because ⁦ר' יושע⁩ ⁦בער סולובייצ'יק⁩ ⁦זצ\"ל⁩, whom I was privileged
+to hear, always called his uncle ⁦ר' ולוולע⁩. No one else calls him that -
+except R' Hershel Schachter. To everyone else, he is ⁦ר' יצחק⁩ ⁧זאב
+בריסקער⁩. But I call him ⁦ר' ולוולע⁩, because that's how I heard his ⁧משפחה⁩
 call him.)
 
 This is classic ⁧בריסקער תורה⁩, a tremendous insight that teaches us about
@@ -1080,9 +1079,9 @@ it.
 
 ⁧פרשת וירא⁩. If we look at the ⁧פרשה⁩ in the context of the parshiyos that
 surround it, there's a remarkable difference between the three ⁧פרשיות⁩ of
-⁧לך לך⁩, ⁧וירא⁩, and ⁧חיי שרה⁩. The first few words of ⁧לך לך⁩ are ⁧וַיֹּאמֶר⁩ ⁦ה׳⁩ ⁧אֶל
+⁧לך לך⁩, ⁧וירא⁩, and ⁧חיי שרה⁩. The first few words of ⁧לך לך⁩ are ⁦וַיֹּאמֶר ה׳⁩ ⁧אֶל
 אַבְרָם⁩. The first three words of ⁧פרשת חיי שרה⁩ are ⁧וַיִּהְיוּ חַיֵּי שָׂרָה⁩. However,
-⁧פרשת וירא⁩ starts off without mentioning ⁧אברהם⁩ ⁦אבינו'⁩s name: ⁧וַיֵּרָא אֵלָיו⁩ ⁦ה׳⁩
+⁧פרשת וירא⁩ starts off without mentioning ⁦אברהם אבינו'⁩s name: ⁧וַיֵּרָא⁩ ⁦אֵלָיו ה׳⁩
 ⁧בְּאֵלֹנֵי מַמְרֵא⁩. That's a rather unusual way to start a ⁧פרשה⁩. Who are we
 talking about? We're talking about ⁧אברהם⁩. If you go back to the end of
 ⁧לך לך⁩, ⁦אברם'⁩s name is not even in the last pasuk, it's in second-to-last
@@ -1092,7 +1091,7 @@ pronoun?
 The ⁧ספר אוצר פלאות התורה⁩, a wonderful ⁧ספר⁩ which I've quoted many times,
 brings down a fascinating ⁧מנהג⁩. When a person is visiting a ⁧חולה⁩, one
 should not say his name in his presence. He brings it down from the
-⁧ילקוט ראובני⁩, quoted in a sefer called ⁧סודי⁩ ⁦רזייא׳⁩. If someone goes in
+⁧ילקוט ראובני⁩, quoted in a sefer called ⁦סודי רזייא׳⁩. If someone goes in
 to visit a ⁧חולה⁩, he should not mention him by name. He should say ⁧רפואה
 שלמה⁩ and ask "How are you? What can I do to help you? Let me help clean
 up the room a little bit." The ⁦רמב\"ן⁩ writes that it's very important to
@@ -1103,7 +1102,7 @@ fact, there's a ⁧גמרא⁩ in ⁧נדרים דף מ עמוד א⁩ that ⁧�
 to visit him, and he helped to clean him and clean the room, and the
 sick person said "⁧רַבִּי⁩, ⁦הֶחֱיִיתַנִי"⁩. So there are a number of things you
 should do on a ⁧ביקור חולים⁩ visit. But one of the things you don't do is
-mention his name. And that's exactly what happens here, ⁧וַיֵּרָא אֵלָיו⁩ ⁦ה׳⁩. It
+mention his name. And that's exactly what happens here, ⁧וַיֵּרָא⁩ ⁦אֵלָיו ה׳⁩. It
 doesn't say ⁧וַיֵּרָא אל אברהם⁩ to indicate that ⁧הקדוש ברוך הוא⁩ did not
 mention his name when he came to visit him.
 
@@ -1189,8 +1188,8 @@ the ⁧לשון⁩ of the ⁧פרקי דרבי אליעזר⁩.
 When the ⁧חרב⁩ came close and was actually touching his neck, ⁧יצחק⁩ 's ⁧נשמה⁩
 left him, and when he heard the voice of ⁧הקדוש ברוך הוא⁩ through the ⁧מלאך⁩
 saying ⁧אַל תִּשְׁלַח יָדְךָ אֶל הַנַּעַר⁩, his ⁧נשמה⁩ came back to his body. Then ⁧יצחק⁩
-got up and he said, "I now know that there is such a concept as ⁧תחית⁩
-⁦המתים"⁩, and he made the ⁧ברכה⁩ of ⁧מחיה המתים⁩. So as far as we know, ⁧יצחק
+got up and he said, "I now know that there is such a concept as ⁦תחית
+המתים"⁩, and he made the ⁧ברכה⁩ of ⁧מחיה המתים⁩. So as far as we know, ⁧יצחק
 אבינו⁩ was the first one to experience ⁧תחית המתים⁩.
 
 #pagebreak()
@@ -1385,10 +1384,10 @@ train themselves to do that, and take my word for it, it's worth it.
 #set page(footer: article-footer("https://zeidyd.com/toldos/5784/", "../Files/01 - Bereshis/06 - Toldos/5784/Toldos 5784.png"))
 = Toldos 5784
 
-⁧פרשת תולדות⁩ starts ⁧וְאֵלֶּה תּוֹלְדֹת יִצְחָק בֶּן אַבְרָהָם אַבְרָהָם הוֹלִיד אֶת יִצְחָק⁩ (25: 19),
+⁧פרשת תולדות⁩ starts ⁧וְאֵלֶּה תּוֹלְדֹת יִצְחָק בֶּן אַבְרָהָם אַבְרָהָם הוֹלִיד אֶת יִצְחָק⁩ (25:19),
 and then we immediately go into the story of the birth of ⁧יעקב⁩ and ⁧עשו⁩.
 We see that ⁧עשו⁩ is described as ⁧אִישׁ יֹדֵעַ צַיִד אִישׁ שָׂדֶה⁩ and ⁧יעקב⁩ as ⁧אִישׁ תָּם
-יֹשֵׁב אֹהָלִים⁩ (25: 27).
+יֹשֵׁב אֹהָלִים⁩ (25:27).
 
 ⁦רש\"י⁩ gives us a fantastic insight here. It seems so simple and yet it's
 so profound: ⁧מִי שֶׁאֵינוֹ חָרִיף לְרַמּוֹת קָרוּי תָּם⁩ - "A person who is not quick and
@@ -1403,7 +1402,7 @@ obligation to hold his ⁧מידות⁩ in his hand and be ⁧מושל⁩ on the
 them and use them as needed. Sometimes, even a ⁧מידה רעה⁩ can be used ⁧לשם
 שמים⁩.
 
-As ⁦חז\"ל⁩ teach us in ⁧קהלת רבה⁩ \(7: 16): ⁧רַבִּי שִׁמְעוֹן בֶּן לָקִישׁ אוֹמֵר⁩, ⁧כָּל מִי
+As ⁦חז\"ל⁩ teach us in ⁧קהלת רבה⁩ \(7:16): ⁧רַבִּי שִׁמְעוֹן בֶּן לָקִישׁ אוֹמֵר⁩, ⁧כָּל מִי
 שֶׁנַּעֲשָׂה רַחְמָן בֵּמְקוֹם אַכְזָרִי⁩, ⁧סוֹף שֶׁנַּעֲשָׂה אַכְזָרִי בִּמְקוֹם רַחֲמָן⁩. - "If someone shows
 ⁧רחמנות⁩ where they should be strict, they may end up being ⁧אכזרי⁩ where
 they should show compassion". The classic example is ⁧שאול המלך⁩, who
@@ -1423,8 +1422,8 @@ someone who isn't quick to deceive, is a ⁧תם⁩. But ⁧יעקב⁩ is descr
 #strong[⁧איש⁩] ⁧תם⁩ - an ⁧איש⁩ who was master of his ⁧תמימות⁩, who knew when to
 use it and when to restrain it.
 
-As the ⁧פסוק⁩ says in ⁧תהילים⁩ \(18: 27): ⁧וְעִם עִקֵּשׁ תִּתְפַּתָּל⁩, and as it also says
-in the ⁧מדרש⁩ (29: 12 ⁦רש\"י ע״ש⁩) ⁧אֲנִי אָחִיו בְּרַמָּאוּת⁩. ⁧יעקב⁩ could be slick when
+As the ⁧פסוק⁩ says in ⁧תהילים⁩ \(18:27): ⁧וְעִם עִקֵּשׁ תִּתְפַּתָּל⁩, and as it also says
+in the ⁧מדרש⁩ (29:12 ⁦רש\"י ע״ש⁩) ⁧אֲנִי אָחִיו בְּרַמָּאוּת⁩. ⁧יעקב⁩ could be slick when
 necessary. This is what ⁦רש\"י⁩ means: someone who cannot control himself,
 who is always a ⁧תם⁩ and thus easily taken advantage of, is not an
 #strong[⁧איש⁩] ⁧תם⁩. But ⁧יעקב אבינו⁩ could use ⁧חריפות⁩ and ⁧רמאות⁩ when the
@@ -1438,7 +1437,7 @@ temper that nature.
 
 We must be the masters of our own ⁧מידות⁩. There's no concept in Judaism
 like "temporary insanity" as an excuse; we are responsible to maintain
-control and use what we've been given ⁧לשם שמים⁩ and for ⁧עבודת⁩ ⁦ה׳⁩. Bezras
+control and use what we've been given ⁧לשם שמים⁩ and for ⁦עבודת ה׳⁩. Bezras
 Hashem, may we succeed in improving ourselves and our ⁧עבודה⁩ and reach
 true ⁧שלמות⁩.
 
@@ -1448,10 +1447,10 @@ true ⁧שלמות⁩.
 = Toldos 5785
 
 In parshas ⁧תולדות⁩, there's a ⁧פסוק⁩ that, at first blush, presents
-profound philosophical and logical questions. That ⁧פסוק⁩ is (25: 28):
-"⁧וַיֶּאֱהַב יִצְחָק אֶת עֵשָׂו כִּי צַיִד בְּפִיו וְרִבְקָה אֹהֶבֶת אֶת⁩ ⁦יַעֲקֹב"⁩. All of the ⁧מפרשים⁩
+profound philosophical and logical questions. That ⁧פסוק⁩ is (25:28):
+"⁧וַיֶּאֱהַב יִצְחָק אֶת עֵשָׂו כִּי צַיִד בְּפִיו וְרִבְקָה אֹהֶבֶת⁩ ⁦אֶת יַעֲקֹב"⁩. All of the ⁧מפרשים⁩
 spend an enormous amount of time and effort trying to understand the
-meaning of this ⁧פסוק⁩. I have a beautiful ⁧פשט⁩, a ⁧מדרש⁩, from ⁧מפרמישלאן⁩ ⁦ר'⁩
+meaning of this ⁧פסוק⁩. I have a beautiful ⁧פשט⁩, a ⁧מדרש⁩, from ⁦מפרמישלאן ר'⁩
 ⁧מאיר⁩ (most of you know that's where I originally come from; Zeidy
 Bennett's ⁧עלטערן⁩ came from ⁧פרמישלאן⁩) that sheds a little light on the
 greatness of the ⁧אבות⁩.
@@ -1480,7 +1479,7 @@ How are we to understand that? ⁧אברהם⁩ is the paradigm of ⁧גמילו
 What is going on? What does this ⁧גמרא⁩ reveal about ⁧יצחק אבינו⁩ that we
 don't already know?
 
-⁦ר'⁩ ⁧מאיר מפרמישלאן זכותו יגן עלינו⁩ explains something that might
+⁦ר' מאיר⁩ ⁧מפרמישלאן זכותו יגן עלינו⁩ explains something that might
 challenge our preconceived notions.⁧יצחק אבינו⁩ had a ⁧טענה⁩. He was given a
 deck of cards, just as we all are. That's what our lives are - cards
 that we are dealt. And what cards was ⁧יצחק⁩ given? He struggled to have
@@ -1493,7 +1492,7 @@ whom ⁧מחילה⁩, ⁧סליחה⁩, and ⁧כפרה⁩ are in your hands - 
 אתה לאהוב את בניך ולסלוח להם⁩ - you must love your children and forgive
 them, even though they have done ⁦עבירות"⁩.
 
-So we see that through ⁧יצחק⁩ ⁦אבינו'⁩s ⁧אהבה⁩ of ⁧עשו⁩, which we might have
+So we see that through ⁦יצחק אבינו'⁩s ⁧אהבה⁩ of ⁧עשו⁩, which we might have
 thought was misplaced, ⁧פּונקט פארקערט⁩, he took that ⁧אהבה⁩ and asked
 himself, "What am I going to do with this? Why did Hashem do this to
 me?" ⁧יצחק⁩ gives this ⁧טענה⁩ to ⁧הקדוש ברוך הוא⁩, providing a complete and
@@ -1522,7 +1521,7 @@ see everyone in the best light.
 ⁧פרשת תולדות⁩. One of the most famous lines in all of our Torah literature
 comes from the ⁧ברכות⁩ of ⁧יצחק⁩ to ⁧יעקב אבינו⁩, which he was able to snatch
 away from ⁧עשו⁩ with his mother's help. Right before he gives him the
-bracha, ⁧יצחק⁩ says: (27: 22) ⁧וַיִּגַּשׁ יַעֲקֹב אֶל יִצְחָק אָבִיו וַיְמֻשֵּׁהוּ וַיֹּאמֶר הַקֹּל קוֹל
+bracha, ⁧יצחק⁩ says: (27:22) ⁧וַיִּגַּשׁ יַעֲקֹב אֶל יִצְחָק אָבִיו וַיְמֻשֵּׁהוּ וַיֹּאמֶר הַקֹּל קוֹל
 יַעֲקֹב וְהַיָּדַיִם יְדֵי עֵשָׂו⁩. Rashi explains that ⁧יצחק⁩ meant that ⁧יעקב⁩ was
 speaking nicely to him, something that ⁧עשו⁩ did not usually do. However,
 ⁦יעקב'⁩s hands were hairy because of the ridiculous outfit he was wearing.
@@ -1560,7 +1559,7 @@ our efforts at all times. In that ⁧זכות⁩, we will be ⁧זוכה⁩ to h
 = Vayaitzei 5783
 
 In ⁧ויצא פרשת⁩, ⁧יעקב⁩ first marries ⁧לאה⁩, unknowingly because ⁧לבן⁩ deceived
-him. After ⁧יעקב⁩ discovers the truth, ⁧לבן⁩ tells him (29: 27): ⁧מַלֵּא שְׁבֻעַ זֹאת⁩,
+him. After ⁧יעקב⁩ discovers the truth, ⁧לבן⁩ tells him (29:27): ⁧מַלֵּא שְׁבֻעַ זֹאת⁩,
 and then you can marry ⁧רחל⁩. Following this, ⁧יעקב⁩ marries ⁧רחל⁩, and the
 ⁧תורה⁩ transitions into the story of the births of the ⁧שבטים⁩.
 
@@ -1568,9 +1567,9 @@ First, ⁧לאה⁩ gives birth to ⁧ראובן⁩, then ⁧שמעון⁩, then
 birth to ⁧יהודה⁩, ⁦רש\"י⁩ explains that ⁧לאה⁩ gave him that name to express
 her immense gratitude to ⁧הקדוש ברוך הוא⁩. She recognized that she had
 received more than her fair portion, as she had already given birth to
-three sons. The ⁧פסוק⁩ says (29: 35):
+three sons. The ⁧פסוק⁩ says (29:35):
 
-⁧וַתַּהַר עוֹד וַתֵּלֶד בֵּן וַתֹּאמֶר הַפַּעַם אוֹדֶה אֶת⁩ ⁦ה׳⁩ ⁧עַל כֵּן קָרְאָה שְׁמוֹ יְהוּדָה וַתַּעֲמֹד מִלֶּדֶת⁩
+⁧וַתַּהַר עוֹד וַתֵּלֶד בֵּן וַתֹּאמֶר הַפַּעַם אוֹדֶה⁩ ⁦אֶת ה׳⁩ ⁧עַל כֵּן קָרְאָה שְׁמוֹ יְהוּדָה וַתַּעֲמֹד מִלֶּדֶת⁩
 
 The Belzer Rebbe, as quoted by Rabbi Oelbaum, asks a powerful ⁧קושיא⁩:
 What is the connection between ⁧לאה⁩ naming ⁧יהודה⁩ and the end of the ⁧פסוק⁩,
@@ -1599,7 +1598,7 @@ upon us.
 #set page(footer: article-footer("https://zeidyd.com/vayaitzei/5784/", "../Files/01 - Bereshis/07 - Vayaitzei/5784/Vayaitzei 5784.png"))
 = Vayaitzei 5784
 
-In this week's ⁧פרשה⁩, , ⁧פרשת ויצא⁩ it says (30: 22): ⁧וַיִּזְכֹּר אֱלֹקִים אֶת רָחֵל
+In this week's ⁧פרשה⁩, , ⁧פרשת ויצא⁩ it says (30:22): ⁧וַיִּזְכֹּר אֱלֹקִים אֶת רָחֵל
 וַיִּשְׁמַע אֵלֶיהָ אֱלֹקִים וַיִּפְתַּח אֶת רַחְמָהּ⁩. What does ⁦רש\"י⁩ say on this? That ⁦ה׳⁩
 remembered ⁧רחל⁩ because she gave the signs to her sister ⁧לאה⁩, enabling
 her to take her place and marry ⁧יעקב⁩. The topic we will discuss this
@@ -1634,7 +1633,7 @@ that the ⁧זכות⁩ of being ⁧מוותר⁩ outweighs the ⁧זכות⁩ o
 if the regular ⁧שליח ציבור⁩ would yield, it would be a net gain for his
 father.
 
-The discussion didn't end there. The regular ⁧שליח⁩ ⁦ציבור'⁩s father had
+The discussion didn't end there. The regular ⁦שליח ציבור'⁩s father had
 been a tough individual who never yielded during his lifetime. Could his
 son now act against his father's approach? ⁧רב חיים⁩ ruled that the
 father's conduct was influenced by the fleeting nature of ⁧עולם הזה⁩. Now,
@@ -1658,8 +1657,7 @@ expectations and ensuring he had the knowledge he needed.
 ⁧ותרנות⁩. He said, "When the Steipler passed away, halachah dictates that
 sons inherit before daughters. Yet ⁧רב חיים⁩, the only son, gave up his
 rights to the ⁧ירושה⁩ and transferred the publishing rights of his
-father's ⁧ספרים⁩ -⁧קהילות יעקב⁩, ⁧חיי עולם⁩, ⁧שיורים של תורה⁩, and ⁧ברכת פרץ⁩ -
-to his sister, the widowed Rebbetzin Barzam. Did ⁧רב חיים⁩ lose anything
+father's ⁧ספרים⁩ -⁧קהילות יעקב⁩, ⁧חיי עולם⁩, ⁧שיורים של תורה⁩, and ⁧ברכת פרץ⁩ - to his sister, the widowed Rebbetzin Barzam. Did ⁧רב חיים⁩ lose anything
 from this act? Certainly not! Hashem repaid him in full measure". When
 someone asked ⁧רב חיים⁩ why he gave up the rights to his father's sefarim,
 he responded with his characteristic humility: "⁧אבא⁩ lived in her house
@@ -1680,8 +1678,8 @@ journal ⁧קול התורה⁩, which comes out twice a year from England. In t
 week's Parsha, ⁧ויצא⁩, it delves into an intriguing problem regarding the
 tremendous ⁧נבואה⁩ to which ⁧יעקב אבינו⁩ was ⁧זוכה⁩, the vision of the ⁧סֻלָּם מֻצָּב
 אַרְצָה⁩. In this ⁧נבואה⁩, he saw ⁧הקדוש ברוך הוא⁩ and ⁧מלאכים⁩. Upon experiencing
-this, he exclaimed (28: 16): ⁧אָכֵן יֵשׁ⁩ ⁦ה'⁩ ⁧בַּמָּקוֹם הַזֶּה⁩ and then further stated
-(28: 17): ⁧וַיִּירָא וַיֹּאמַר מַה נּוֹרָא הַמָּקוֹם הַזֶּה אֵין זֶה כִּי אִם בֵּית אֱלֹקִים⁩ - This is
+this, he exclaimed (28:16): ⁧אָכֵן⁩ ⁦יֵשׁ ה'⁩ ⁧בַּמָּקוֹם הַזֶּה⁩ and then further stated
+(28:17): ⁧וַיִּירָא וַיֹּאמַר מַה נּוֹרָא הַמָּקוֹם הַזֶּה אֵין זֶה כִּי אִם בֵּית אֱלֹקִים⁩ - This is
 the place of the ⁧בית המקדש⁩ - not only for now, but for all ⁧דורות⁩. It is
 a tremendously holy place.
 
@@ -1691,19 +1689,18 @@ Bnei Brak named R' Aaron Goodman. The phrasing in the ⁧פסוק⁩ is peculiar
 הַמָּקוֹם הַזֶּה⁩, ⁧כִּי זֶה בֵּית אֱלֹקִים⁩. What is the ⁧תורה⁩ teaching us with this
 specific phrasing?
 
-The ⁧חתם סופר⁩ addresses this in ⁦שו\"ת⁩ ⁧חתם סופר⁩, ⁧יורה דעה סימן⁩ ⁦רל\"ג⁩, in
+The ⁧חתם סופר⁩ addresses this in ⁦שו\"ת חתם⁩ ⁧סופר⁩, ⁧יורה דעה⁩ ⁦סימן רל\"ג⁩, in
 the name of his rebbi, R' Nosson Adler. He explains, based on ⁧מדרשים⁩, a
 critical ⁧הלכה⁩ relevant to us. The ⁧מדרש⁩ states that in ⁧ארץ ישראל⁩, ⁧עבודה
-זרה⁩ was so rampant that every high place - every ⁧הר גבוה⁩ or ⁧גִבְעָה נשואה⁩ -
-was associated with ⁧עבודה זרה⁩. The question then arises: how could ⁧הקדוש
+זרה⁩ was so rampant that every high place - every ⁧הר גבוה⁩ or ⁧גִבְעָה נשואה⁩ - was associated with ⁧עבודה זרה⁩. The question then arises: how could ⁧הקדוש
 ברוך הוא⁩ choose a place that had ⁧עבודה זרה⁩ to house the ⁧בית המקדש⁩?
 Wouldn't the ⁧טומאה⁩ from the ⁧עבודה זרה⁩ render the location unfit?
 
 R' Nosson Adler answers with another ⁧מדרש⁩, which explains that when
 ⁧אברהם אבינו⁩ came for the ⁧עקדה⁩ and saw the ⁧מקום המקדש⁩ from afar, as we
-know (22: 7) ⁧וַיַּרְא אֶת הַמָּקוֹם מֵרָחֹק⁩. At that time, the ⁧מקום המקדש⁩ was a
+know (22:7) ⁧וַיַּרְא אֶת הַמָּקוֹם מֵרָחֹק⁩. At that time, the ⁧מקום המקדש⁩ was a
 valley, not a mountain. ⁧אברהם אבינו⁩ exclaimed that it was not fitting
-for ⁧הקדוש ברוך⁩ ⁦הוא'⁩s ⁧שכינה⁩ to dwell in a valley, and at that very
+for ⁧הקדוש⁩ ⁦ברוך הוא'⁩s ⁧שכינה⁩ to dwell in a valley, and at that very
 moment, a miraculous event occurred: the valley rose and became a
 mountain. This ⁧מדרש⁩ asserts that because the mountain did not exist
 before that moment, it had never been associated with ⁧עבודה זרה⁩.
@@ -1714,7 +1711,7 @@ to ⁧עבודה זרה⁩. The ⁧מדרש⁩ emphasizes that even if others pl
 it, they had no ⁧רשות⁩ because the mountain belonged to ⁧אברהם⁩, and as we
 know, a person cannot ⁧אַסוּר דבר שאינו שלו⁩. Thus, when ⁧יעקב אבינו⁩ said ⁧אֵין
 זֶה כִּי אִם בֵּית אֱלֹקִים⁩, he was emphasizing that this place was inherently
-holy, never tainted by ⁧עבודה זרה⁩, and therefore fit for ⁧הקדוש ברוך⁩ ⁦הוא'⁩s
+holy, never tainted by ⁧עבודה זרה⁩, and therefore fit for ⁧הקדוש⁩ ⁦ברוך הוא'⁩s
 ⁧שכינה⁩ to dwell.
 
 This ⁧מדרש⁩ and its message are powerful for us in many ways. It teaches
@@ -1739,7 +1736,7 @@ generally considered a distasteful and disfavored ⁧מידה⁩, nevertheless, 
 
 The ⁧וילנא גאון⁩ derives this concept from this week's ⁧פרשה⁩, ⁧פרשת וישלח⁩.
 In the ⁧תפילה⁩ that ⁧יעקב אבינו⁩ davened to ⁧הקדוש ברוך הוא⁩ to save him from
-⁧עשו⁩, he says (32: 11): ⁧קָטֹנְתִּי מִכֹּל הַחֲסָדִים⁩. The ⁧גאון⁩ notes that this ⁧פסוק⁩ is
+⁧עשו⁩, he says (32:11): ⁧קָטֹנְתִּי מִכֹּל הַחֲסָדִים⁩. The ⁧גאון⁩ notes that this ⁧פסוק⁩ is
 found in the eighth ⁧פרשה⁩ of the ⁧תורה⁩, ⁧פרשת וישלח⁩, and it is the eighth
 ⁧פסוק⁩ in the ⁧פרשה⁩. From this, he explains, we learn a critical lesson:
 even though ⁧יעקב אבינו⁩ had so much to take pride in - his large ⁧משפחה⁩,
@@ -1750,7 +1747,7 @@ utilize ⁧גאוה⁩ is to channel it towards ⁧ענוה⁩, keeping oneself 
 even amidst success.
 
 Another ⁧פשט⁩ on this ⁧פסוק⁩ offers a complementary perspective. ⁧יעקב אבינו⁩
-says (32: 11): ⁧קָטֹנְתִּי מִכֹּל הַחֲסָדִים וּמִכׇּל הָאֱמֶת אֲשֶׁר עָשִׂיתָ אֶת עַבְדֶּךָ⁩. He
+says (32:11): ⁧קָטֹנְתִּי מִכֹּל הַחֲסָדִים וּמִכׇּל הָאֱמֶת אֲשֶׁר עָשִׂיתָ אֶת עַבְדֶּךָ⁩. He
 acknowledges the tremendous kindnesses ⁧הקדוש ברוך הוא⁩ has done for him.
 However, there seems to be a ⁧קושיא⁩ here: how could ⁧יעקב⁩ imply that he
 merited all of these ⁧חסדים⁩ on his own? After all, we know that all the
@@ -1783,7 +1780,7 @@ came before us.
 = Vayishlach 5784
 
 ⁧פרשת וישלח⁩. The ⁧מלאכים⁩ that ⁧יעקב⁩ sent to find out what ⁧עשו⁩ was up to
-returned to ⁧יעקב⁩ with the famous ⁧פסוק⁩ (32: 7): ⁧בָּאנוּ אֶל אָחִיךָ אֶל עֵשָׂו וְגַם
+returned to ⁧יעקב⁩ with the famous ⁧פסוק⁩ (32:7): ⁧בָּאנוּ אֶל אָחִיךָ אֶל עֵשָׂו וְגַם
 הֹלֵךְ לִקְרָאתְךָ וְאַרְבַּע מֵאוֹת אִישׁ עִמּוֹ⁩. This was a frightening report: ⁧עשו⁩ is
 coming with a force of men, and his apparent intention is to do harm.
 
@@ -1836,7 +1833,7 @@ forgiveness. It was an incredible ⁧נס⁩.
 
 When they returned home, the ⁧תלמידים⁩ asked ⁧רב נחום⁩ how he had managed
 this. He replied that he had followed the example of ⁧יעקב אבינו⁩, citing
-the ⁧פסוק⁩ from ⁧משלי⁩ (27: 19): ⁧כַּמַּיִם הַפָּנִים לַפָּנִים כֵּן לֵב הָאָדָם לָאָדָם⁩ - Just as
+the ⁧פסוק⁩ from ⁧משלי⁩ (27:19): ⁧כַּמַּיִם הַפָּנִים לַפָּנִים כֵּן לֵב הָאָדָם לָאָדָם⁩ - Just as
 water reflects a person's face, so too does one person's heart reflect
 another's. ⁧רב נחום⁩ explained that he did exactly the same thing that
 ⁧יעקב אבינו⁩ did. ⁧יעקב⁩ forgave ⁧עשו⁩ with all of his heart, for all of the
@@ -1956,7 +1953,7 @@ to rise above ⁧הרגל⁩ and transform ourselves into a ⁧ראש⁩.
 #set page(footer: article-footer("https://zeidyd.com/vayishlach/5786/", "../Files/01 - Bereshis/08 - Vayishlach/5786/Vayishlach 5786.png"))
 = Vayishlach 5786
 
-⁧פרשת וישלח⁩. (32: 4) ⁧וַיִּשְׁלַח יַעֲקֹב מַלְאָכִים לְפָנָיו אֶל עֵשָׂו אָחִיו אַרְצָה שֵׂעִיר שְׂדֵה
+⁧פרשת וישלח⁩. (32:4) ⁧וַיִּשְׁלַח יַעֲקֹב מַלְאָכִים לְפָנָיו אֶל עֵשָׂו אָחִיו אַרְצָה שֵׂעִיר שְׂדֵה
 אֱדוֹם⁩. Rashi says ⁧מלאכים ממש⁩, that ⁧יעקב⁩ was on such a level of
 accomplishment that he was able to utilize ⁧מלאכים⁩ in his service.
 
@@ -2033,9 +2030,9 @@ efforts be successful.
 = Vayaishev 5783
 
 We know that ⁧יוסף⁩ had two dreams. Regarding the first dream, the ⁧בית
-הלוי⁩ points out that the ⁧פסוק⁩ says (37: 8): ⁧וַיּוֹסִפוּ עוֹד שְׂנֹא אֹתוֹ עַל חֲלֹמֹתָיו
+הלוי⁩ points out that the ⁧פסוק⁩ says (37:8): ⁧וַיּוֹסִפוּ עוֹד שְׂנֹא אֹתוֹ עַל חֲלֹמֹתָיו
 וְעַל דְּבָרָיו⁩. The pasuk uses a ⁧לשון⁩ of ⁧שנאה⁩ - hatred him. By the second
-dream, however, it says (37: 11): ⁧וַיְקַנְאוּ בוֹ אֶחָיו⁩ - the brothers were
+dream, however, it says (37:11): ⁧וַיְקַנְאוּ בוֹ אֶחָיו⁩ - the brothers were
 jealous of him.
 
 The ⁧פסוק⁩ makes a sharp distinction between the two ⁧חלומות⁩: the first
@@ -2049,7 +2046,7 @@ says that ⁦יוסף'⁩s ⁧אלומה⁩ stood upright while theirs bowed to 
 the ⁧תורה⁩ of ⁧פרנסה⁩.
 
 In contrast, the second dream revealed that ⁧יוסף⁩ himself would rise
-above the brothers in ⁧רוחניות⁩. The dream described (37: 9)⁧הַשֶּׁמֶשׁ וְהַיָּרֵחַ וְאַחַד
+above the brothers in ⁧רוחניות⁩. The dream described (37:9)⁧הַשֶּׁמֶשׁ וְהַיָּרֵחַ וְאַחַד
 עָשָׂר כּוֹכָבִים מִשְׁתַּחֲוִים⁩ #strong[⁧לִי⁩] - the celestial bodies bowing to ⁧יוסף⁩
 himself. (According to the ⁧בית הלוי⁩, the twelve ⁧מזלות⁩ hinted at here
 represent the ⁧סֵדֶר הַנְהַגַת הָעוֹלָם⁩, the divine order by which ⁧הקדוש ברוך הוא⁩
@@ -2096,16 +2093,16 @@ always speak and think positively about them. By doing so, may we merit
 #set page(footer: article-footer("https://zeidyd.com/vayaishev/5784/", "../Files/01 - Bereshis/09 - Vayaishev/5784/Vayaishev 5784.png"))
 = Vayaishev 5784
 
-⁦ר'⁩ ⁧מאיר מפרמישלאן⁩ -- some of my ancestors come from ⁧פרמישלאן⁩. As I've
+⁦ר' מאיר⁩ ⁧מפרמישלאן⁩ -- some of my ancestors come from ⁧פרמישלאן⁩. As I've
 mentioned in previous talks, my ⁧עלטער⁩, ⁧עלטער⁩, ⁧עלטער⁩, ⁧עלטער זיידע⁩ -- I
 don't know exactly how many generations back -- was a ⁧שוחט⁩ in ⁧פרמישלאן⁩.
 This was a very ⁦בכבוד'דיג⁩ position. (I'm not sure if it was at the same
-time as ⁦ר'⁩ ⁧מאיר⁩. I doubt it. I assume it was afterward, as it's still
-within the recollection of the previous ⁧דור⁩, and ⁦ר'⁩ ⁧מאיר⁩ lived a couple
+time as ⁦ר' מאיר⁩. I doubt it. I assume it was afterward, as it's still
+within the recollection of the previous ⁧דור⁩, and ⁦ר' מאיר⁩ lived a couple
 of hundred years ago).
 
-I have a story in a ⁧מעשה ביכול⁩ about ⁦ר'⁩ ⁧מאיר⁩, and I want to use this
-⁧מעשה⁩ to make a point about the ⁧פרשה⁩. In the times of ⁦ר'⁩ ⁧מאיר⁩, Jews found
+I have a story in a ⁧מעשה ביכול⁩ about ⁦ר' מאיר⁩, and I want to use this
+⁧מעשה⁩ to make a point about the ⁧פרשה⁩. In the times of ⁦ר' מאיר⁩, Jews found
 it difficult to make ends meet, but they managed as best as they could
 -- the story of all of our generations. Sometimes, however, people
 couldn't resist an opportunity to make a fast buck. The ⁧ראש הקהל⁩, the
@@ -2117,35 +2114,35 @@ do.
 
 This went on for some time until he heard that an inspector was coming
 to audit his transactions, certain to expose his fraud. Panic-stricken,
-he rushed to ⁦ר'⁩ ⁧מאיר⁩ for advice. It was Friday afternoon, and he
+he rushed to ⁦ר' מאיר⁩ for advice. It was Friday afternoon, and he
 couldn't see the ⁧רב⁩ until after ⁧שבת⁩. On ⁧שבת⁩ morning, the ⁧ראש הקהל⁩ was
 honored when the ⁧רב⁩ called him up for ⁧ששי⁩ -- the sixth ⁧עלייה⁩ -- a
-position of respect in those times. However, he quickly realized that ⁦ר'⁩
-⁧מאיר⁩ was not someone who you could pull something over.
+position of respect in those times. However, he quickly realized that ⁦ר'
+מאיר⁩ was not someone who you could pull something over.
 
 The ⁧רב⁩ was also the ⁧בעל קורא⁩ and read the ⁧תורה⁩ himself each week. At the
 end of ⁧ששי⁩, he stopped three ⁧פסוקים⁩ before the usual end of the ⁧עלייה⁩.
-The ⁧פסוק⁩ where he paused was (39: 20): ⁧וַיִּקַּח אֲדֹנֵי יוֹסֵף אֹתוֹ וַיִּתְּנֵהוּ אֶל בֵּית
+The ⁧פסוק⁩ where he paused was (39:20): ⁧וַיִּקַּח אֲדֹנֵי יוֹסֵף אֹתוֹ וַיִּתְּנֵהוּ אֶל בֵּית
 הַסֹּהַר מְקוֹם אֲשֶׁר אֲסִירֵי הַמֶּלֶךְ אֲסוּרִים וַיְהִי שָׁם בְּבֵית הַסֹּהַר⁩. This pasuk describes
 how ⁧פוטיפר⁩ imprisoned ⁧יוסף⁩ over an alleged crime. The ⁧ראש הקהל⁩
 understood immediately -- the ⁧רב⁩ was hinting at his punishment, implying
 that his fate, too, was to be imprisoned for his deceitful actions. The
 ⁧רב⁩ motioned for him to recite the ⁧ברכה⁩ and conclude the ⁧עלייה⁩, but the
 ⁧ראש הקהל⁩ refused, signaling to the ⁧רב⁩ to continue and stop at the usual
-⁧פסוק⁩ (39: 23): ⁧אֵין שַׂר בֵּית הַסֹּהַר רֹאֶה אֶת כׇּל מְאוּמָה בְּיָדוֹ בַּאֲשֶׁר⁩ ⁦ה'⁩ ⁧אִתּוֹ וַאֲשֶׁר הוּא
-עֹשֶׂה⁩ ⁦ה'⁩ ⁧מַצְלִיחַ⁩ -- that in all that Yosef did, he succeeded with Hashem's
-help. The ⁧ראש הקהל⁩ wanted the ⁦ר'⁩ ⁧מאיר⁩ to stop at this pasuk, as he felt
-that he needed this ⁧ברכה⁩. Finally, ⁦ר'⁩ ⁧מאיר⁩ relented, and continued the
+⁧פסוק⁩ (39:23): ⁧אֵין שַׂר בֵּית הַסֹּהַר רֹאֶה אֶת כׇּל מְאוּמָה בְּיָדוֹ⁩ ⁦בַּאֲשֶׁר ה'⁩ ⁧אִתּוֹ וַאֲשֶׁר הוּא⁩
+⁦עֹשֶׂה ה'⁩ ⁧מַצְלִיחַ⁩ -- that in all that Yosef did, he succeeded with Hashem's
+help. The ⁧ראש הקהל⁩ wanted the ⁦ר' מאיר⁩ to stop at this pasuk, as he felt
+that he needed this ⁧ברכה⁩. Finally, ⁦ר' מאיר⁩ relented, and continued the
 leining and stopped at the correct place.
 
-After ⁧שבת⁩, ⁦ר'⁩ ⁧מאיר⁩ summoned the ⁧ראש הקהל⁩ and admonished him sternly. He
+After ⁧שבת⁩, ⁦ר' מאיר⁩ summoned the ⁧ראש הקהל⁩ and admonished him sternly. He
 explained the gravity of his actions, warning him that he could endanger
 the entire Jewish community by stealing from the government. The ⁧ראש
 הקהל⁩ accepted the rebuke, promising to act more responsibly in the
 future. The following day, the inspector informed the ⁧ראש הקהל⁩ that his
 audit was postponed due to being reassigned to another area.
 
-The last ⁧פסוק⁩ of the ⁧פרשה⁩ is (40: 23) ⁧וְלֹא זָכַר שַׂר הַמַּשְׁקִים אֶת יוֹסֵף וַיִּשְׁכָּחֵהוּ⁩,
+The last ⁧פסוק⁩ of the ⁧פרשה⁩ is (40:23) ⁧וְלֹא זָכַר שַׂר הַמַּשְׁקִים אֶת יוֹסֵף וַיִּשְׁכָּחֵהוּ⁩,
 which actually is appropriate to this story. The ⁧שר המשקים⁩ forgot about
 ⁧יוסף⁩, despite the kindness ⁧יוסף⁩ had shown him. This ⁧פסוק⁩ reflects a lack
 of ⁧הכרת הטוב⁩, gratitude, on the part of the ⁧שר המשקים⁩. Not only did he
@@ -2153,7 +2150,7 @@ forget the ⁧בְּשׂוֹרָה טוֹבָה⁩ that ⁧יוסף⁩ gave him,
 ⁧חיזוק⁩ and support ⁧יוסף⁩ had provided. This is a very good ⁧פסוק⁩ for people
 in trouble who are being attacked by someone, it can be used as a ⁧תפילה⁩
 that the pursuers \"forget\" about them and move on to a different
-focus. I personally recite both of these ⁧פסוקים⁩ (39: 23 & 40: 23)
+focus. I personally recite both of these ⁧פסוקים⁩ (39:23 & 40:23)
 regularly - sometimes daily, sometimes weekly - along with other ⁧פסוקים⁩,
 and Im Yirtzeh Hashem these pesukim can help us in an ⁧עת צרה⁩. The best
 thing to so in an ⁧עת צרה⁩ is to keep in mind to ⁧אֵין עוֹד מִלְבַדּו⁩#strong[⁧ֹ⁩],
@@ -2172,8 +2169,8 @@ Hashem to bring about our ultimate ⁧ישועה⁩ and ⁧גאולה שלמה�
 We know that the hero in ⁧פרשת וישב⁩, in the very sad story of the sale of
 ⁧יוסף הצדיק⁩, was ⁧יהודה⁩. ⁧יהודה⁩ spoke up at the last minute and said,
 \"Let's not kill him.\" How did that happen? The ⁧מעינה של תורה⁩ brings in
-the name of the ⁧מלא העומר⁩ that the ⁧פסוק⁩ says (37: 25): ⁧וְהִנֵּה אֹרְחַת יִשְׁמְעֵאלִים
-בָּאָה⁩ - A group of ⁧ישמעאלים⁩ showed up, and then all of a sudden (37: 26):
+the name of the ⁧מלא העומר⁩ that the ⁧פסוק⁩ says (37:25): ⁧וְהִנֵּה אֹרְחַת יִשְׁמְעֵאלִים
+בָּאָה⁩ - A group of ⁧ישמעאלים⁩ showed up, and then all of a sudden (37:26):
 ⁧וַיֹּאמֶר יְהוּדָה אֶל אֶחָיו מַה בֶּצַע⁩, for the first time ⁧יהודה⁩ spoke up and got
 directly and actively involved in ⁧מכירת יוסף⁩.
 
@@ -2190,9 +2187,9 @@ of someone who will descend from him ⁧דורות⁩ later? We cannot act on th
 ⁧עתיד⁩ for something that he is not responsible for now.
 
 This idea is interesting. When ⁧יוסף⁩ was looking for his brothers, the
-⁧פסוק⁩ says (37: 17): ⁧נָסְעוּ מִזֶּה⁩. The ⁧מדרש רבה⁩ (84: 14) explains: ⁧נָסְעוּ מִזֶּה⁩,
-⁧מִמִּדּוֹתָיו שֶׁל מָקוֹם⁩. The brothers had left ⁧הקדוש ברוך⁩ ⁦הוא'⁩s midos.⁧הקדוש ברוך⁩
-⁦הוא'⁩s midah is to judge a person by where he is now - not by his future
+⁧פסוק⁩ says (37:17): ⁧נָסְעוּ מִזֶּה⁩. The ⁧מדרש רבה⁩ (84:14) explains: ⁧נָסְעוּ מִזֶּה⁩,
+⁧מִמִּדּוֹתָיו שֶׁל מָקוֹם⁩. The brothers had left ⁧הקדוש⁩ ⁦ברוך הוא'⁩s midos.⁧הקדוש⁩ ⁦ברוך
+הוא'⁩s midah is to judge a person by where he is now - not by his future
 ⁧עבירות⁩. This is the ⁧מידה⁩ of Hashem. However, the brothers failed in this
 regard. They left the ⁧מידה⁩ of Hashem and conspired to kill ⁧יוסף⁩. They
 forgot the very important ⁧מידה⁩ of ⁧באשר הוא שם⁩.
@@ -2217,9 +2214,8 @@ find success.
 = Mikeitz 5783
 
 The ⁧בית הלוי⁩ on the ⁧פרשה⁩ quotes the ⁧מדרש רבה⁩ on ⁧פרשת מקץ⁩, which
-references a ⁧פסוק⁩ in ⁧תהילים⁩ \(40: 5): ⁧אַשְׁרֵי הַגֶּבֶר אֲשֶׁר שָׂם⁩ ⁦ה׳⁩ ⁧מִבְטַחוֹ⁩ - Praised
-is the man who puts his ⁧בטחון⁩ in Hashem, ⁧זה יוסף⁩\; ⁧וְלֹא פָנָה אֶל רְהָבִים⁩ -
-and he did not turn to magicians, magic, or other sources. The ⁧מדרש⁩
+references a ⁧פסוק⁩ in ⁧תהילים⁩ \(40:5): ⁧אַשְׁרֵי הַגֶּבֶר אֲשֶׁר⁩ ⁦שָׂם ה׳⁩ ⁧מִבְטַחוֹ⁩ - Praised
+is the man who puts his ⁧בטחון⁩ in Hashem, ⁧זה יוסף⁩\; ⁧וְלֹא פָנָה אֶל רְהָבִים⁩ - and he did not turn to magicians, magic, or other sources. The ⁧מדרש⁩
 explains that because ⁧יוסף⁩ asked the ⁧שר המשקים⁩ to "remember me and
 mention me, " an additional two years were added to his time in prison.
 
@@ -2227,9 +2223,9 @@ This ⁧מדרש⁩ is cited in ⁦רש\"י⁩. The ⁧בית הלוי⁩ notes 
 difficult to understand. On the one hand, ⁧יוסף⁩ is praised for his ⁧בטחון⁩
 in Hashem. On the other hand, he is criticized and punished for making a
 minimal effort - two simple statements to the ⁧שר המשקים⁩. A person is
-allowed to make ⁧השתדלות⁩, as the ⁧פסוק⁩ says ⁧דברים⁩ 15: 18)): ⁧וּבֵרַכְךָ⁩ ⁦ה׳⁩ ⁧אֱלֹקֶיךָ
+allowed to make ⁧השתדלות⁩, as the ⁧פסוק⁩ says ⁧דברים⁩ 15:18)): ⁦וּבֵרַכְךָ ה׳⁩ ⁧אֱלֹקֶיךָ
 בְּכֹל אֲשֶׁר תַּעֲשֶׂה⁩ - Hashem give us a ⁧ברכה⁩ in all of our actions, and it also
-says ⁧דברים⁩ 11: 14)): ⁧וְאָסַפְתָּ דְגָנֶךָ וְתִירֹשְׁךָ⁩- you will gather your grain and
+says ⁧דברים⁩ 11:14)): ⁧וְאָסַפְתָּ דְגָנֶךָ וְתִירֹשְׁךָ⁩ - you will gather your grain and
 wine. This implies that people must work - plant, nurture the fields,
 harvest - rather than sit back and passively rely on Hashem. So why is
 ⁧יוסף⁩ criticized for his ⁧השתדלות⁩?
@@ -2410,7 +2406,7 @@ This week's ⁧פרשה⁩ has the great ⁧פגישה⁩, the great confrontati
 ⁧יהודה⁩ and ⁧יוסף⁩ . ⁧יוסף⁩ has threatened to imprison ⁧בנימין⁩ because he
 accused him of stealing the ⁧גביע⁩ . ⁧יהודה⁩ comes to ⁦בנימין'⁩s defense,
 delivering an impassioned speech. Following this, ⁧יוסף⁩ reveals himself
-with the famous words (45: 3), ⁧אֲנִי יוֹסֵף הַעוֹד אָבִי חָי⁩. The ⁧תורה⁩ tells us,
+with the famous words (45:3), ⁧אֲנִי יוֹסֵף הַעוֹד אָבִי חָי⁩. The ⁧תורה⁩ tells us,
 ⁧וְלֹא יָכְלוּ אֶחָיו לַעֲנוֹת אֹתוֹ כִּי נִבְהֲלוּ מִפָּנָיו⁩ - The brothers were astonished
 and overcome with fear. It was both shocking and terrifying for them to
 discover that this ⁧אדון⁩ in ⁧מצרים⁩ who had been challenging them, was
@@ -2423,14 +2419,14 @@ sake of their father. If so, why does ⁧יוסף⁩ suddenly ask, ⁧אֲנִי
 irrelevant.
 
 \2. When the brothers returned to ⁧מצרים⁩ the second time, ⁧יוסף⁩ already
-asked them (43: 27), ⁧הֲשָׁלוֹם אֲבִיכֶם הַזָּקֵן אֲשֶׁר אֲמַרְתֶּם הַעוֹדֶנּוּ חָי⁩? They had not
+asked them (43:27), ⁧הֲשָׁלוֹם אֲבִיכֶם הַזָּקֵן אֲשֶׁר אֲמַרְתֶּם הַעוֹדֶנּוּ חָי⁩? They had not
 yet returned to ⁧ארץ ישראל⁩ but were caught on the way and brought back.
 Why would ⁧יוסף⁩ ask again, ⁧הַעוֹד אָבִי חָי⁩?
 
 \3. Even if the question was valid, where is the answer? The ⁧תורה⁩ does
 not record any response from the brothers.
 
-There's a ⁧מדרש⁩ brought on this ⁧פסוק⁩ (⁧מדרש רבה⁩ 93: 10): ⁧אַבָּא כֹּהֵן בַּרְדְּלָא אָמַר⁩ -
+There's a ⁧מדרש⁩ brought on this ⁧פסוק⁩ (⁧מדרש רבה⁩ 93:10): ⁧אַבָּא כֹּהֵן בַּרְדְּלָא אָמַר⁩ -
 ⁧אַבָּא כֹּהֵן בַּרְדְּלָא⁩ said; ⁧אוֹי לָנוּ מִיּוֹם הַדִּין⁩ - woe to us from the day of ⁧דין⁩,
 and the day of judgment, which will be at ⁦משיח'⁩s time, or after a
 person's 120 years; ⁧אוֹי לָנוּ מִיּוֹם הַתּוֹכֵחָה⁩ - from the day of reproach; ⁧יוֹסֵף
@@ -2449,7 +2445,7 @@ query, but as a rhetorical statement. It was not a ⁧פִּיוּס⁩, an atte
 appease them, but rather a sharp ⁧תוכחה⁩. After ⁧יוסף⁩ revealed himself, he
 initially refrained from using any ⁧לשון⁩ of ⁧אחוה⁩ or ⁧אהבה⁩, saying only ⁧אֲנִי
 יוֹסֵף⁩, without referring to them as brothers. Only after the second ⁧פסוק⁩,
-after it says, ⁧כִּי נִבְהֲלוּ מִפָּנָיו⁩, does it say (45: 4), ⁧אֲנִי יוֹסֵף אֲחִיכֶם⁩, with
+after it says, ⁧כִּי נִבְהֲלוּ מִפָּנָיו⁩, does it say (45:4), ⁧אֲנִי יוֹסֵף אֲחִיכֶם⁩, with
 a ⁧לשון⁩ of ⁧אחוה⁩, showing that he really loves them and considers them his
 brothers. But in the first ⁧פסוק⁩ it just mentions ⁧אֲנִי יוֹסֵף⁩, without any
 ⁧אחוה⁩ or ⁧אהבה⁩. ⁦יוסף'⁩s rhetorical question was, "You just finished telling
@@ -2481,34 +2477,34 @@ this confrontation and reunion. Another significant aspect of the
 Parsha, also discussed in detail, is ⁦יעקב'⁩s meeting with ⁧פרעה⁩, which
 unfortunately has severe consequences for ⁧יעקב⁩.
 
-The ⁧פסוק⁩ says (47: 8): ⁧וַיֹּאמֶר פַּרְעֹה אֶל יַעֲקֹב כַּמָּה יְמֵי שְׁנֵי חַיֶּיךָ⁩? - "How old
-are you?" ⁧יעקב⁩ answers (47: 9): ⁧יְמֵי שְׁנֵי מְגוּרַי שְׁלֹשִׁים וּמְאַת שָׁנָה מְעַט וְרָעִים
+The ⁧פסוק⁩ says (47:8): ⁧וַיֹּאמֶר פַּרְעֹה אֶל יַעֲקֹב כַּמָּה יְמֵי שְׁנֵי חַיֶּיךָ⁩? - "How old
+are you?" ⁧יעקב⁩ answers (47:9): ⁧יְמֵי שְׁנֵי מְגוּרַי שְׁלֹשִׁים וּמְאַת שָׁנָה מְעַט וְרָעִים
 הָיוּ יְמֵי שְׁנֵי חַיַּי וְלֹא הִשִּׂיגוּ אֶת יְמֵי שְׁנֵי חַיֵּי אֲבֹתַי בִּימֵי מְגוּרֵיהֶם⁩. The ⁧מפרשים⁩
 discuss extensively why ⁧יעקב אבינו⁩ chose to describe his life negatively
 rather than positively. Be that as it may, it is brought down in all the
 ⁧מפרשים⁩ that for these words, ⁦יעקב'⁩s life was shortened.
 
-⁦ר׳⁩ ⁧חיים שמולביץ⁩ and the ⁧דעת זקנים⁩ explain that there are 33 words in
+⁦ר׳ חיים⁩ ⁧שמולביץ⁩ and the ⁧דעת זקנים⁩ explain that there are 33 words in
 ⁦יעקב'⁩s response, and these 33 words correspond to the 33 years by which
-⁦יעקב'⁩s life was shorter than ⁦יצחק'⁩s. ⁦ר׳⁩ ⁧חיים שמולביץ⁩ raises an
+⁦יעקב'⁩s life was shorter than ⁦יצחק'⁩s. ⁦ר׳ חיים⁩ ⁧שמולביץ⁩ raises an
 interesting question: these 33 words include the words ⁧וַיֹּאמֶר פַּרְעֹה אֶל
 יַעֲקֹב כַּמָּה יְמֵי שְׁנֵי חַיֶּיךָ⁩ - which were spoken by ⁧פרעה⁩, not ⁧יעקב⁩. Why should
 ⁧יעקב⁩ lose eight years of his life for words that ⁧פרעה⁩ spoke?
 
-⁦ר׳⁩ ⁧חיים⁩ answers that ⁧יעקב⁩ was the cause of ⁧פרעה⁩ asking the question.
+⁦ר׳ חיים⁩ answers that ⁧יעקב⁩ was the cause of ⁧פרעה⁩ asking the question.
 ⁧פרעה⁩ looked at ⁧יעקב⁩ and saw an aged and sorrowful face. ⁧יעקב⁩ appeared
 older than his biological age, his presentation and appearance
 demonstrated sorrow and negativity, and that's what prompted ⁧פרעה⁩ to ask
 the question.
 
-The ⁧משנה⁩ in ⁧פרקי אבות⁩ (1: 15) teaches: ⁧הֱוֵי מְקַבֵּל אֶת כָּל הָאָדָם בְּסֵבֶר פָּנִים
-יָפוֹת⁩, and the ⁧גמרא⁩ (⁧כתובות⁩ ⁦קי״א ע״ב⁩) says it is better that somebody
+The ⁧משנה⁩ in ⁧פרקי אבות⁩ (1:15) teaches: ⁧הֱוֵי מְקַבֵּל אֶת כָּל הָאָדָם בְּסֵבֶר פָּנִים
+יָפוֹת⁩, and the ⁧גמרא⁩ (⁦כתובות קי״א⁩ ⁦ע״ב⁩) says it is better that somebody
 should show someone his white teeth rather than giving him a glass of
 milk. The ⁧מפרשים⁩ elaborate: a glass of milk quenches thirst temporarily,
 but a smile uplifts a person's spirit for much longer, brightening his
 day.
 
-⁦ר׳⁩ ⁧ישראל סלנטר⁩ points out the enormous responsibility this places on us.
+⁦ר׳ ישראל⁩ ⁧סלנטר⁩ points out the enormous responsibility this places on us.
 Our faces are "public property." A smile benefits everyone around us,
 while a frown can negatively affect others. As challenging as it may
 seem, we are obligated to present a cheerful face to those around us,
@@ -2539,7 +2535,7 @@ bring about the ⁧ישועה⁩ that we're looking for.
 After the dramatic meeting between ⁧יוסף⁩ and his brothers, when ⁧יוסף⁩
 finally reveals himself, he gives specific instructions regarding how to
 bring ⁧יעקב⁩ down to ⁧מצרים⁩. The very last words ⁧יוסף⁩ tells them are in the
-⁧פסוק⁩ (\(45: 24: ⁧וַיְשַׁלַּח אֶת אֶחָיו וַיֵּלֵכוּ וַיֹּאמֶר אֲלֵהֶם אַל תִּרְגְּזוּ בַּדָּרֶךְ⁩. The ⁧מפרשים⁩
+⁧פסוק⁩ (\(45:24: ⁧וַיְשַׁלַּח אֶת אֶחָיו וַיֵּלֵכוּ וַיֹּאמֶר אֲלֵהֶם אַל תִּרְגְּזוּ בַּדָּרֶךְ⁩. The ⁧מפרשים⁩
 discuss the meaning of the unique phrase ⁧אַל תִּרְגְּזוּ בַּדָּרֶךְ⁩. ⁦רש\"י⁩ provides
 two ⁧פשטים⁩, the first ⁧פשט⁩ is: ⁧אַל תִּתְעַסְּקוּ בִּדְבַר הֲלָכָה שֶׁלֹּא תִרְגַּז עֲלֵיכֶם הַדֶּרֶךְ⁩.
 Simply put, ⁧יוסף⁩ tells them, "Don't engage in an intense halachic
@@ -2560,11 +2556,11 @@ his parents' directive, the ⁧דין⁩ was still ⁧מדוקדק⁩ for ⁧צ�
 them ⁧כחוט השערה⁩\.) Although the ⁧עונש⁩ was decreed ⁧משמים⁩, the brothers
 understood that they were the ⁧גורמים⁩ of ⁦יעקב'⁩s pain and bore
 responsibility for his suffering. Therefore, they themselves will have
-to give a ⁧דין⁩ on it, as is brought down clearly in ⁧פרקי אבות⁩ (2: 6): ⁧עַל
+to give a ⁧דין⁩ on it, as is brought down clearly in ⁧פרקי אבות⁩ (2:6): ⁧עַל
 דַּאֲטֵפְתְּ⁩, ⁧אַטְפוּךְ⁩. ⁧וְסוֹף מְטִיפַיִךְ יְטוּפוּן⁩, the famous saying of ⁧הלל⁩, when he saw
 a skull in the water. "You were killed because you were a killer, and
 those who killed you, will meet the same fate." The ⁧אַפּרְיוֹן⁩ cites a ⁧גאון⁩
-(possibly the ⁦מהרי\"ץ⁩ ⁧חיות⁩) who explains that the brothers, as the
+(possibly the ⁦מהרי\"ץ חיות⁩) who explains that the brothers, as the
 ⁧גורמים⁩ of ⁦יעקב'⁩s pain, would need to undergo ⁧מידה כנגד מידה⁩ despite
 being ⁧שליחים⁩ of Hashem, because we say ⁧מגלגלין חוב על ידי חייב⁩.
 
@@ -2579,7 +2575,7 @@ scale the heights of torah scholarship, cautioned them with the words ⁧אַל
 benefits of their heightened learning.
 
 The Brisker Rav complements the above. He brings ⁦רש\"י⁩ from ⁧מסכת תענית
-דף י⁩ ⁦ע״ב⁩, which says: ⁧אַל תִּתְעַסְּקוּ בִּדְבַר הֲלָכָה⁩, ⁧שֶׁמָּא תְּרַגְּזוּ עֲלֵיכֶם הַדֶּרֶךְ⁩ - that
+דף⁩ ⁦י ע״ב⁩, which says: ⁧אַל תִּתְעַסְּקוּ בִּדְבַר הֲלָכָה⁩, ⁧שֶׁמָּא תְּרַגְּזוּ עֲלֵיכֶם הַדֶּרֶךְ⁩ - that
 the road should not be a danger to you, that you should not get lost.
 The ⁧גמרא⁩ continues: ⁧אָמַר רַבִּי אִלְעַאי בַּר בֶּרֶכְיָה⁩:⁧שְׁנֵי תַּלְמִידֵי חֲכָמִים שֶׁמְּהַלְּכִים
 בַּדֶּרֶךְ וְאֵין בֵּינֵיהֶן דִּבְרֵי תוֹרָה רְאוּיִין לִישָּׂרֵף⁩ - If two ⁧תַּלְמִידֵי חֲכָמִים⁩ are
@@ -2593,9 +2589,9 @@ engaging in ⁧בעיון⁩ could cause them to lose focus and endanger
 themselves.
 
 The Brisker Rav brings an additional vort, important to transmit to you
-as well: When ⁧יוסף⁩ revealed himself earlier in the ⁧פרשה⁩, he says (45: 3)
+as well: When ⁧יוסף⁩ revealed himself earlier in the ⁧פרשה⁩, he says (45:3)
 ⁧אֲנִי יוֹסֵף הַעוֹד אָבִי חָי⁩. The ⁧פסוק⁩ continues: ⁧וְלֹא יָכְלוּ אֶחָיו לַעֲנוֹת אֹתוֹ כִּי
-נִבְהֲלוּ מִפָּנָיו⁩. The ⁧מדרש תנחומא⁩ (5: 11) says ⁧פָּרְחָה נִשְׁמָתָן⁩ - that the brothers
+נִבְהֲלוּ מִפָּנָיו⁩. The ⁧מדרש תנחומא⁩ (5:11) says ⁧פָּרְחָה נִשְׁמָתָן⁩ - that the brothers
 were so overwhelmed that they actually died, and Hashem performed ⁧תחיית
 המתים⁩.
 
@@ -2649,7 +2645,7 @@ status of all of ⁧כלל ישראל⁩. This was reserved for ⁧יעקב⁩ a
 The second ⁧זכות⁩ is that ⁧יעקב⁩ is frequently referred to as "⁦הזקן"⁩ in both
 the ⁧תורה⁩ and ⁧מדרש⁩. This is notable because, even though ⁧אברהם⁩ and ⁧יצחק⁩
 lived longer than ⁧יעקב⁩, the title "⁦זקן"⁩ is uniquely associated with
-⁧יעקב⁩. One example of this is found in ⁧פרשת מקץ⁩ \(43: 27): ⁧וַיִּשְׁאַל לָהֶם לְשָׁלוֹם
+⁧יעקב⁩. One example of this is found in ⁧פרשת מקץ⁩ \(43:27): ⁧וַיִּשְׁאַל לָהֶם לְשָׁלוֹם
 וַיֹּאמֶר הֲשָׁלוֹם אֲבִיכֶם הַזָּקֵן⁩. Here, and in other places in ⁦תנ\"ך⁩, ⁧יעקב⁩ is
 described as the ⁧זקן⁩, which means "the elderly one" but it also refers
 to his title, which is "grandfather." While ⁧אברהם⁩ and ⁧יצחק⁩ also had
@@ -2725,7 +2721,7 @@ the ⁧מסורה עד ביאת גואל צדק⁩.
 
 Aside from the ⁧ברכות⁩ that ⁧יעקב⁩ gives to his children, ⁧פרשת ויחי⁩ is most
 famous for the two ⁧ברכות⁩ that we repeat each and every week, giving them
-to our ⁧קינדלעך⁩ every ⁧שבת⁩ (48: 20): ⁧בְּךָ יְבָרֵךְ יִשְׂרָאֵל לֵאמֹר יְשִׂמְךָ אֱלֹהִים כְּאֶפְרַיִם
+to our ⁧קינדלעך⁩ every ⁧שבת⁩ (48:20): ⁧בְּךָ יְבָרֵךְ יִשְׂרָאֵל לֵאמֹר יְשִׂמְךָ אֱלֹהִים כְּאֶפְרַיִם
 וְכִמְנַשֶּׁה⁩.
 
 The ⁧מפרשים⁩ discuss this ⁧פסוק⁩ at length. The explanations are well known
@@ -2740,7 +2736,7 @@ In this sense, ⁧אפרים⁩ and ⁧מנשה⁩ represented a return to the i
 mutual respect. This is the ⁧ברכה⁩ to which we aspire: harmony and respect
 for one another.
 
-In the same spirit of hope for the future, ⁧יעקב⁩ tells ⁧יוסף⁩ (48: 22): ⁧אֲשֶׁר
+In the same spirit of hope for the future, ⁧יעקב⁩ tells ⁧יוסף⁩ (48:22): ⁧אֲשֶׁר
 לָקַחְתִּי מִיַּד הָאֱמֹרִי בְּחַרְבִּי וּבְקַשְׁתִּי⁩. The ⁧תרגום⁩ says ⁧בִּצְלוֹתִי וּבְבָעוּתִי⁩, meaning
 with ⁧תפילה⁩ and with ⁧רצון⁩. A ⁧צדיק⁩ can achieve something through ⁧רצון⁩, as
 we say ⁧רְצוֹן יְרֵאָיו יַעֲשֶׂה⁩. On a higher level this is accomplished through
@@ -2798,13 +2794,13 @@ when we consider human activities, a few key moments stand out: ⁧עקדת יצ
 significant that little children often bring home projects from ⁧ישיבה⁩,
 depicting ⁧יעקב⁩ crossing his hands, placing his right hand on ⁧אפרים⁩ and
 his left hand on ⁧מנשה⁩. The ⁧תורה⁩ dedicates several ⁧פסוקים⁩ to this moment,
-underscoring its importance. In this episode, the ⁧פסוק⁩ says (48: 20):
-⁧וַיָּשֶׂם אֶת אֶפְרַיִם לִפְנֵי מְנַשֶּׁה⁩. Why did ⁧יעקב⁩ do that? ⁦רש\"י⁩ explains (48: 19):
+underscoring its importance. In this episode, the ⁧פסוק⁩ says (48:20):
+⁧וַיָּשֶׂם אֶת אֶפְרַיִם לִפְנֵי מְנַשֶּׁה⁩. Why did ⁧יעקב⁩ do that? ⁦רש\"י⁩ explains (48:19):
 ⁧שֶׁעָתִיד יְהוֹשֻׁעַ לָצֵאת מִמֶּנּוּ⁩, ⁧שֶׁיַּנְחִיל אֶת הָאָרֶץ וִילַמֵּד תּוֹרָה לְיִשְׂרָאֵל⁩ - Who will come
 from ⁧אפרים⁩? ⁧יהושע⁩, who will apportion all of ⁧ארץ ישראל⁩ and be a rebbi in
 ⁧יִשְׂרָאֵל⁩.
 
-⁦ר׳⁩ ⁧זאב קלאגסבאלד⁩ of Antwerp, author of ⁧מנחת חן⁩ (a ⁧ספר⁩ that shares its
+⁦ר׳ זאב⁩ ⁧קלאגסבאלד⁩ of Antwerp, author of ⁧מנחת חן⁩ (a ⁧ספר⁩ that shares its
 name with R' Oelbaum's ⁧ספר⁩), asks an important question as quoted in the
 Torah Journal ⁧קול התורה⁩: While ⁦אפרים'⁩s future greatness is undeniable,
 ⁧מנשה⁩ was still the ⁧בכור⁩. ⁧בכורה⁩ carries tremendous ⁧חשיבות⁩. In fact, when
@@ -2846,10 +2842,10 @@ endeavor.
 = Shemos 5783
 
 The ⁧בית הלוי⁩, in his introduction to ⁧ספר שמות⁩, discusses a puzzling
-series of ⁧פסוקים⁩ in ⁧תהלים⁩ (105: 24-26):
+series of ⁧פסוקים⁩ in ⁧תהלים⁩ (105:24-26):
 
 ⁧וַיֶּפֶר אֶת עַמּוֹ מְאֹד וַיַּעֲצִמֵהוּ מִצָּרָיו׃ הָפַךְ לִבָּם לִשְׂנֹא עַמּוֹ לְהִתְנַכֵּל בַּעֲבָדָיו׃ שָׁלַח מֹשֶׁה
-עַבְדּוֹ אַהֲרֹן אֲשֶׁר בָּחַר בּוֹ׃⁩ \ \ The entire ⁧מזמור קה⁩ discusses the ⁧חסדי⁩ ⁦ה׳⁩
+עַבְדּוֹ אַהֲרֹן אֲשֶׁר בָּחַר בּוֹ׃⁩ \ \ The entire ⁧מזמור קה⁩ discusses the ⁦חסדי ה׳⁩
 which Hashem performed for ⁧כלל ישראל⁩ from the time of the avos through
 ⁧יציאת מצרים⁩. Suddenly, in the middle of all of these ⁧שירות⁩ and ⁧תשבחות⁩,
 we encounter a jarring ⁧פסוק⁩:⁧הָפַךְ לִבָּם לִשְׂנֹא עַמּוֹ⁩ - "He changed the ⁦מצריים'⁩s
@@ -2861,10 +2857,10 @@ This raises an age-old question: How could it be that after ⁧יוסף⁩ and h
 brothers brought such fame and prosperity to ⁧מצרים⁩, their descendants
 became ⁧עבדים⁩ overnight? The ⁧פסוק⁩ suggests that ⁦ה׳⁩ was behind this
 transformation. Why? What ⁧עבירה⁩ caused this change of heart? Moreover,
-why is this point included among the ⁧חסדי⁩ ⁦ה׳⁩ in this ⁧פרק⁩?
+why is this point included among the ⁦חסדי ה׳⁩ in this ⁧פרק⁩?
 
-The ⁧מדרש רבה⁩ discusses the ⁧פסוק⁩ of (1: 8) ⁧וַיָּקׇם מֶלֶךְ חָדָשׁ עַל מִצְרָיִם⁩ and
-quotes from sefer ⁧הושע⁩ (5: 7): ⁦בַּה'⁩ ⁧בָּגָדוּ⁩ - ⁧כלל ישראל⁩ rebelled against ⁦ה׳⁩\;
+The ⁧מדרש רבה⁩ discusses the ⁧פסוק⁩ of (1:8) ⁧וַיָּקׇם מֶלֶךְ חָדָשׁ עַל מִצְרָיִם⁩ and
+quotes from sefer ⁧הושע⁩ (5:7): ⁦בַּה' בָּגָדוּ⁩ - ⁧כלל ישראל⁩ rebelled against ⁦ה׳⁩\;
 ⁧כִּי בָּנִים זָרִים יָלָדוּ עַתָּה יֹאכְלֵם חֹדֶשׁ אֶת חֶלְקֵיהֶם⁩ - They raised, or gave birth
 to, sons who were ⁧זָרִים⁩ . ⁧כְּשֶׁמֵּת יוֹסֵף הצדיק⁩ - When ⁧יוסף הצדיק⁩ passed away;
 ⁧הֵפֵרוּ בְּרִית מִילָה⁩ - They were ⁧מפר⁩ the ⁧ברית מילה⁩\; ⁧אָמְרוּ נִהְיֶה כַּמִּצְרִים⁩ - We
@@ -2896,10 +2892,10 @@ nations. This separation was essential for our survival as a unique
 nation, both then and now.
 
 The ⁧בית הלוי⁩ further points to a remarkable ⁧פסוק⁩ in ⁧פרשת בא⁩. As ⁧בני
-ישראל⁩ left ⁧מצרים⁩, they asked the ⁧מצרים⁩ for their valuables (12: 34): ⁧וּבְנֵי
+ישראל⁩ left ⁧מצרים⁩, they asked the ⁧מצרים⁩ for their valuables (12:34): ⁧וּבְנֵי
 יִשְׂרָאֵל עָשׂוּ כִּדְבַר מֹשֶׁה וַיִּשְׁאֲלוּ מִמִּצְרַיִם כְּלֵי כֶסֶף וּכְלֵי זָהָב וּשְׂמָלֹת⁩. One would
 expect the ⁧מצריים⁩ to begrudgingly comply or resentfully part with their
-belongings. Yet the next ⁧פסוק⁩ reveals: ⁦וַה׳⁩ ⁧נָתַן אֶת חֵן הָעָם בְּעֵינֵי מִצְרַיִם
+belongings. Yet the next ⁧פסוק⁩ reveals: ⁦וַה׳ נָתַן⁩ ⁧אֶת חֵן הָעָם בְּעֵינֵי מִצְרַיִם
 וַיַּשְׁאִלוּם⁩. Despite the devastation of ⁧מכת בכורות⁩, ⁧בני ישראל⁩ found favor
 with the ⁧מצריים⁩. How could this be? The answer lies in Hashem's control
 over events. Once ⁧כלל ישראל⁩ separated themselves by performing the ⁧קרבן
@@ -2921,7 +2917,7 @@ in one sentence - a tremendous ⁧גאולה⁩. There are many reasons we were
 ⁧זוכה⁩ to this ⁧גאולה⁩, and I'd like to discuss one of them from an
 enigmatic portion of ⁧פרשת שמות⁩.
 
-⁦הקב\"ה⁩ reveals Himself to ⁧משה רבינו⁩ at the ⁧סנה⁩ \(3: 2): ⁧וְהַסְּנֶה אֵינֶנּוּ אֻכָּל⁩.
+⁦הקב\"ה⁩ reveals Himself to ⁧משה רבינו⁩ at the ⁧סנה⁩ \(3:2): ⁧וְהַסְּנֶה אֵינֶנּוּ אֻכָּל⁩.
 As an aside, the word ⁧אייניקל⁩, which I've probably taught to many of my
 children and ⁧אייניקלעך⁩, comes from the root of ⁧אֵינֶנּוּ אֻכָּל⁩ - many people
 don't know that. Returning to the topic, after the ⁧סנה⁩, ⁦הקב\"ה⁩ tells
@@ -2930,19 +2926,19 @@ say? "Sure, Hashem, I'm glad to go"? No, he didn't say that. Rather, he
 said, "No, I'm not worthy to go. I shouldn't go. I can't speak well
 because of my speech impediment." This goes on and on, ⁧פסוק⁩ after ⁧פסוק⁩,
 with ⁧משה⁩ repeatedly saying "No". ⁧משה⁩ felt he wasn't the right person to
-take ⁧בני ישראל⁩ out of ⁧מצרים⁩. Finally, the ⁧פסוק⁩ states (4: 14): ⁧וַיִּחַר אַף⁩ ⁦ה׳⁩
+take ⁧בני ישראל⁩ out of ⁧מצרים⁩. Finally, the ⁧פסוק⁩ states (4:14): ⁧וַיִּחַר⁩ ⁦אַף ה׳⁩
 ⁧בְּמֹשֶׁה⁩ - Hashem became angry with ⁧משה⁩\; ⁧וַיֹּאמֶר הֲלֹא אַהֲרֹן אָחִיךָ הַלֵּוִי יָדַעְתִּי כִּי
 דַבֵּר יְדַבֵּר הוּא⁩ - ⁧אַהֲרֹן⁩ will be your spokesman. However, the ⁧פסוק⁩ uses a
-very powerful ⁧לשון⁩:⁧וַיִּחַר אַף⁩ ⁦ה׳⁩, which in English is generally translated
+very powerful ⁧לשון⁩:⁧וַיִּחַר⁩ ⁦אַף ה׳⁩, which in English is generally translated
 as "Hashem's anger flared up against ⁧משה⁩\."
 
-The ⁧גמרא⁩ in ⁧זבחים⁩ ⁦ק״ב ע״א⁩ explains that according to ⁧רבי יהושע בן קרחה⁩
+The ⁧גמרא⁩ in ⁦זבחים ק״ב⁩ ⁦ע״א⁩ explains that according to ⁧רבי יהושע בן קרחה⁩
 every time the ⁧תורה⁩ uses the phrase ⁧ויחר אף⁩ it indicates some sort of
 ⁧עונש⁩, because Hashem doesn't get angry, but anger ⁧כביכול⁩ flares up.
 However, ⁧רבי יהושע בן קרחה⁩ points out one exception: in our ⁧פסוק⁩, ⁧משה
 רבינו⁩ doesn't receive any punishment.
 
-But, as always, there's a ⁧מחלוקת⁩ . ⁦ר׳⁩ ⁧שמעון בר יוחי⁩ disagrees and
+But, as always, there's a ⁧מחלוקת⁩ . ⁦ר׳ שמעון⁩ ⁧בר יוחי⁩ disagrees and
 asserts that ⁧משה רבינו⁩ was indeed punished. How do we see this? The ⁧פסוק⁩
 says ⁧הֲלֹא אַהֲרֹן אָחִיךָ⁩ #strong[⁧הַלֵּוִי⁩] ⁧יָדַעְתִּי כִּי דַבֵּר יְדַבֵּר⁩. We know ⁧אַהֲרֹן⁩ is not
 referred to as a ⁧לוי⁩\; why does the ⁧תורה⁩ call him ⁧הלוי⁩? We know that
@@ -2961,7 +2957,7 @@ witnessed the oil flowing over ⁦אַהֲרֹן'⁩s head, down his face, and o
 beard. The ⁧מדרש⁩ describes how ⁧משה⁩ was so thrilled and joyous that it was
 as if the oil was being poured on his own head. ⁦משה'⁩s joy at his
 brother's elevation to ⁧כהן גדול⁩ was entirely genuine. From this ⁧מדרש⁩,
-⁧רבי יהושע בן⁩ ⁦קרחה'⁩s position becomes clear. Even though ⁧משה⁩ lost the
+⁧רבי יהושע⁩ ⁦בן קרחה'⁩s position becomes clear. Even though ⁧משה⁩ lost the
 opportunity to become ⁧כהן גדול⁩, it wasn't considered a punishment. His
 ⁧שמחה⁩ for his brother's accomplishment was so deep and sincere that it
 was as if he himself had been appointed ⁧כהן גדול⁩. This is a tremendous
@@ -3070,8 +3066,8 @@ that aspiration. These thoughts help me focus on the idea of ⁧מסירות נ�
 and remind me of the dedication required for kiddush Hashem.
 
 Where do we see an example of ⁧מסירות נפש⁩ in ⁧פרשת וארא⁩? The pasuk says
-(7: 28): ⁧וְשָׁרַץ הַיְאֹר צְפַרְדְּעִים וְעָלוּ וּבָאוּ בְּבֵיתֶךָ וּבַחֲדַר מִשְׁכָּבְךָ וְעַל מִטָּתֶךָ וּבְבֵית
-עֲבָדֶיךָ וּבְעַמֶּךָ וּבְתַנּוּרֶיךָ וּבְמִשְׁאֲרוֹתֶיךָ⁩. The ⁧מדרש⁩, quoted in ⁧גמרא פסחים⁩ ⁦נ״ג ע״ב⁩,
+(7:28): ⁧וְשָׁרַץ הַיְאֹר צְפַרְדְּעִים וְעָלוּ וּבָאוּ בְּבֵיתֶךָ וּבַחֲדַר מִשְׁכָּבְךָ וְעַל מִטָּתֶךָ וּבְבֵית
+עֲבָדֶיךָ וּבְעַמֶּךָ וּבְתַנּוּרֶיךָ וּבְמִשְׁאֲרוֹתֶיךָ⁩. The ⁧מדרש⁩, quoted in ⁧גמרא⁩ ⁦פסחים נ״ג⁩ ⁦ע״ב⁩,
 connects this to ⁧חנניה⁩, ⁧מישאל⁩, ⁧ועזריה⁩, who were ⁧השם מוסר נפש על קידוש⁩
 and allowed themselves to be thrown into the ⁧כבשן האש⁩. The ⁧גמרא⁩ explains
 that they made a ⁧קל וחומר⁩ from the ⁧צפרדעים⁩: If the ⁧צפרדעים⁩, who were not
@@ -3098,10 +3094,10 @@ if necessary, through ⁧מסירות נפש⁩. This is how we demonstrate our
 dedication to our ⁧בורא⁩ and bring Him ⁧נחת⁩.
 
 While I have your attention, I want to address a famous ⁧קשיא⁩ related to
-⁧פרעה⁩, unrelated to the above. If ⁧וַיְחַזֵּק⁩ ⁦ה׳⁩ ⁧אֶת לֵב פַּרְעֹה⁩ - Hashem hardened
+⁧פרעה⁩, unrelated to the above. If ⁦וַיְחַזֵּק ה׳⁩ ⁧אֶת לֵב פַּרְעֹה⁩ - Hashem hardened
 ⁦פרעה'⁩s heart - how could he be punished for not allowing ⁧בני ישראל⁩ to
 leave? This is a monumental ⁧מחלוקת⁩ among the ⁧מפרשים⁩, but I've always
-been drawn to the ⁧בית⁩ ⁦הלוי'⁩s ⁧תירוץ⁩. Hashem didn't remove ⁦פרעה'⁩s free
+been drawn to the ⁦בית הלוי'⁩s ⁧תירוץ⁩. Hashem didn't remove ⁦פרעה'⁩s free
 will; rather, He restored it. When ⁧פרעה⁩ was ready to release ⁧בני ישראל⁩
 out of fear of the ⁧מכות⁩, Hashem strengthened his heart to remove that
 fear, giving him the ability to choose freely. Without the coercion of
@@ -3113,11 +3109,11 @@ for this very fundamental ⁧קשיא⁩ of ⁧בחירה חפשית⁩.
 #set page(footer: article-footer("https://zeidyd.com/vaeira/5784/", "../Files/02 - Shemos/02 - Vaeira/5784/Vaeira 5784.png"))
 = Vaeira 5784
 
-The ⁧פרשה⁩ begins ⁧וָאֵרָא אֶל אַבְרָהָם אֶל יִצְחָק וְאֶל יַעֲקֹב בְּאֵל שַׁקָּי וּשְׁמִי⁩ ⁦ה׳⁩ ⁧לֹא נוֹדַעְתִּי
+The ⁧פרשה⁩ begins ⁧וָאֵרָא אֶל אַבְרָהָם אֶל יִצְחָק וְאֶל יַעֲקֹב בְּאֵל שַׁקָּי⁩ ⁦וּשְׁמִי ה׳⁩ ⁧לֹא נוֹדַעְתִּי
 לָהֶם⁩. What does this mean?
 
 The sefer ⁧שמחת התורה⁩ by R' Simcha Sheps ⁦זצ״ל⁩ brings a fascinating idea
-from ⁧דברי⁩ ⁦חז״ל⁩ in ⁧בראשית רבה⁩. What does the name ⁧קל שקי⁩ signify? When
+from ⁦דברי חז״ל⁩ in ⁧בראשית רבה⁩. What does the name ⁧קל שקי⁩ signify? When
 ⁧הקדוש ברוך הוא⁩ created the world, it was expanding and had the potential
 to expand indefinitely. But Hashem said, ⁧די⁩ - enough! There are limits
 to ⁧עולם הזה⁩. The name ⁧שקי⁩ represents ⁧הקדוש ברוך הוא⁩ halting the process
@@ -3125,7 +3121,7 @@ of ⁧בריאת העולם⁩ at a certain point. How is this relevant to us? W
 need to know about such a supernatural and esoteric concept?
 
 The answer is simple. In ⁧פרשת בראשית⁩, the ⁧נחש⁩ was punished. What was his
-punishment? The Torah says (3: 14): ⁧וְעָפָר תֹּאכַל כׇּל יְמֵי חַיֶּיךָ⁩ - "You will eat
+punishment? The Torah says (3:14): ⁧וְעָפָר תֹּאכַל כׇּל יְמֵי חַיֶּיךָ⁩ - "You will eat
 dust all the days of your life." That's a punishment? It seems like a
 ⁧ברכה⁩ - you'll never starve! But, as we all know from the famous vort,
 this was precisely the ⁧קללה⁩. Hashem was saying to the ⁧נחש⁩, "I'm giving
@@ -3139,7 +3135,7 @@ constantly improving yourselves." By striving for ⁧שלמות⁩, we continue 
 ⁧מעשה בראשית⁩ that ⁧הקדוש ברוך הוא⁩ stopped when He said ⁧די⁩. This is what
 Hashem wants from us. This is what ⁧אברהם⁩, ⁧יצחק⁩, and ⁧יעקב⁩ did. That's
 what the ⁧פסוק⁩ means when it says ⁧וָאֵרָא אֶל אַבְרָהָם אֶל יִצְחָק וְאֶל יַעֲקֹב בְּאֵל שַׁקָּי⁩.
-That the ⁧אבות⁩ understood the message. Their ⁧עבודת⁩ ⁦ה׳⁩ was the ultimate
+That the ⁧אבות⁩ understood the message. Their ⁦עבודת ה׳⁩ was the ultimate
 perfection, the ⁧שלמות⁩ of their time prior to ⁧קבלת התורה⁩.
 
 Rabbi Oelbaum ⁦שליט\"א⁩ often shares a powerful vort. We all know the
@@ -3153,25 +3149,24 @@ this matter. When I first heard this idea, I was so taken by it, that
 every single day since then, I daven for ⁧יראת שמים⁩.
 
 But what does ⁧יראת שמים⁩ mean? This week's ⁧פרשה⁩ provides an answer.
-During the ⁧מכה⁩ of ⁧ברד⁩, the Torah states (9: 20): ⁧הַיָּרֵא אֶת דְּבַר⁩ ⁦ה׳⁩ ⁧מֵעַבְדֵי
+During the ⁧מכה⁩ of ⁧ברד⁩, the Torah states (9:20): ⁧הַיָּרֵא אֶת⁩ ⁦דְּבַר ה׳⁩ ⁧מֵעַבְדֵי
 פַּרְעֹה הֵנִיס אֶת עֲבָדָיו וְאֶת מִקְנֵהוּ אֶל הַבָּתִּים⁩ - those who feared the word of
 Hashem brought their servants and livestock inside. And what about the
-others? (9: 21): ⁧וַאֲשֶׁר לֹא שָׂם לִבּוֹ אֶל דְּבַר⁩ ⁦ה׳⁩ ⁧וַיַּעֲזֹב אֶת עֲבָדָיו וְאֶת מִקְנֵהוּ בַּשָּׂדֶה⁩ -
-they left their servants and livestock in the field, and they perished.
+others? (9:21): ⁧וַאֲשֶׁר לֹא שָׂם לִבּוֹ אֶל⁩ ⁦דְּבַר ה׳⁩ ⁧וַיַּעֲזֹב אֶת עֲבָדָיו וְאֶת מִקְנֵהוּ בַּשָּׂדֶה⁩ - they left their servants and livestock in the field, and they perished.
 Here, the Torah describes two types of people. Some ⁧מצריים⁩ had ⁧יראת
 שמים⁩, while others lacked it. But what does ⁧יראת שמים⁩ really mean? And
 when we daven for ⁧יראת שמים⁩, what are we asking for?
 
-R' Zev of Strickov explains the ⁧פסוק⁩ in ⁧תהילים⁩ (19: 10): ⁧יִרְאַת⁩ ⁦ה׳⁩ ⁧טְהוֹרָה
+R' Zev of Strickov explains the ⁧פסוק⁩ in ⁧תהילים⁩ (19:10): ⁦יִרְאַת ה׳⁩ ⁧טְהוֹרָה
 עוֹמֶדֶת לָעַד⁩. There are two levels of ⁧יראת שמים⁩. The ⁧עבדי פרעה⁩ had a
 temporary ⁧יראה⁩ - they feared the immediate danger and took precautions.
 But as soon as the danger passed, their ⁧יראה⁩ disappeared. In contrast,
-⁧יִרְאַת⁩ ⁦ה׳⁩ ⁧טְהוֹרָה⁩ refers to a pure, enduring ⁧יראת שמים⁩ that remains
+⁦יִרְאַת ה׳⁩ ⁧טְהוֹרָה⁩ refers to a pure, enduring ⁧יראת שמים⁩ that remains
 permanent. R' Yosef Chaim Zonnenfeld points out a subtle lesson in the
 ⁧פסוקים⁩. The Torah doesn't say the second group lacked ⁧יראת שמים⁩\; it
-says they didn't take Hashem's word to heart: ⁧וַאֲשֶׁר לֹא שָׂם לִבּוֹ אֶל דְּבַר⁩ ⁦ה׳⁩.
-This teaches us that even if we are technically fulfilling the ⁧דבר⁩ ⁦ה׳⁩,
-we must internalize it. Our ⁧עבודת⁩ ⁦ה׳⁩ cannot become routine or apathetic.
+says they didn't take Hashem's word to heart: ⁧וַאֲשֶׁר לֹא שָׂם לִבּוֹ אֶל⁩ ⁦דְּבַר ה׳⁩.
+This teaches us that even if we are technically fulfilling the ⁦דבר ה׳⁩,
+we must internalize it. Our ⁦עבודת ה׳⁩ cannot become routine or apathetic.
 Instead, it must permeate our hearts and inspire us with ⁧התלהבות⁩ and
 passion.
 
@@ -3190,7 +3185,7 @@ In the middle of setting the stage in this ⁧פרשה⁩ for the dramatic and
 momentous ⁧עשר מכות⁩ and ⁧יציאת מצרים⁩, ⁧הקדוש ברוך הוא⁩ promises ⁧משה רבינו⁩
 that He will do everything necessary to transform ⁧כלל ישראל⁩ from a
 nation in servitude to an ⁧עם השם⁩. The four ⁧לשונות⁩ of ⁧גאולה⁩, and all of
-⁧הקדוש ברוך⁩ ⁦הוא'⁩s promises, are contrasted with ⁧משה⁩ ⁦רבינו'⁩s
+⁧הקדוש⁩ ⁦ברוך הוא'⁩s promises, are contrasted with ⁦משה רבינו'⁩s
 counterargument: "How is ⁧פרעה⁩ going to listen to me? ⁧בני ישראל⁩ don't
 listen to me!" But Hashem reassures him, "⁧פרעה⁩ will listen to you."
 
@@ -3198,9 +3193,9 @@ In the midst of all this preparation, amidst this intense unfolding of
 the story, the narrative suddenly pauses, and we find a ⁧ספר יחוס⁩ by 2nd
 aliya. It goes through ⁧ראובן⁩, ⁧שמעון⁩, and ⁧לוי⁩, detailing the lineage of
 ⁧שבט לוי⁩, including ⁧אהרן⁩ and all the family branches, and culminates with
-(6: 26-27):
+(6:26-27):
 
-⁧הוּא אַהֲרֹן וּמֹשֶׁה אֲשֶׁר אָמַר⁩ ⁦ה׳⁩ ⁧לָהֶם הוֹצִיאוּ אֶת בְּנֵי יִשְׂרָאֵל מֵאֶרֶץ מִצְרַיִם עַל צִבְאֹתָם׃⁩ \
+⁧הוּא אַהֲרֹן וּמֹשֶׁה אֲשֶׁר⁩ ⁦אָמַר ה׳⁩ ⁧לָהֶם הוֹצִיאוּ אֶת בְּנֵי יִשְׂרָאֵל מֵאֶרֶץ מִצְרַיִם עַל צִבְאֹתָם׃⁩ \
 ⁧הֵם הַמְדַבְּרִים אֶל פַּרְעֹה מֶלֶךְ מִצְרַיִם לְהוֹצִיא אֶת בְּנֵי יִשְׂרָאֵל מִמִּצְרָיִם הוּא מֹשֶׁה וְאַהֲרֹן׃
 
 כמעט⁩ all of the ⁧מפרשים⁩, from ⁧ראשונים⁩ to ⁧אחרונים⁩, address this pause in
@@ -3213,7 +3208,7 @@ says, these were not lunatics claiming, "I am a ⁧משיח⁩, I will save you!
 Rather, they were individuals of great ⁧יחוס⁩ and ⁧סגולות⁩, holy and good
 people, with the qualifications to be ⁧מנהיגי ישראל⁩ and ⁧מושיעים⁩ of ⁧ישראל⁩.
 
-However, ⁧פסוק⁩ ⁦כ״ו⁩ begins with ⁧הוּא אַהֲרֹן וּמֹשֶׁה⁩, while ⁧פסוק⁩ ⁦כ״ז⁩ concludes
+However, ⁦פסוק כ״ו⁩ begins with ⁧הוּא אַהֲרֹן וּמֹשֶׁה⁩, while ⁦פסוק כ״ז⁩ concludes
 with ⁧הוּא מֹשֶׁה וְאַהֲרֹן⁩. Why is the ⁧פסוק⁩ repeating itself? Yes, we know the
 idea that the pasuk switched the order of their names to indicate that
 ⁧משה⁩ and ⁧אהרן⁩ were ⁧שקולים⁩, equal in stature, though ⁧משה⁩ was the ⁧אדון
@@ -3222,7 +3217,7 @@ explains the order reversal. But why the ⁧פסוק⁩ repeats itself still
 requires explanation.
 
 The ⁧באר מים חיים⁩ offers a tremendous insight, providing a ⁧מוסר השכל⁩ for
-us. The ⁧פסוק⁩ says: ⁧הוּא אַהֲרֹן וּמֹשֶׁה אֲשֶׁר אָמַר⁩ ⁦ה׳⁩ ⁧לָהֶם⁩\; then it pauses and
+us. The ⁧פסוק⁩ says: ⁧הוּא אַהֲרֹן וּמֹשֶׁה אֲשֶׁר⁩ ⁦אָמַר ה׳⁩ ⁧לָהֶם⁩\; then it pauses and
 continues: ⁧הֵם הַמְדַבְּרִים אֶל פַּרְעֹה מֶלֶךְ מִצְרַיִם⁩. Finally, it ends with ⁧הוּא מֹשֶׁה
 וְאַהֲרֹן⁩. The ⁧באר מים חיים⁩ explains that the first part, ⁧הוּא אַהֲרֹן וּמֹשֶׁה⁩,
 highlights their lineage and the ⁧קדושה⁩ they achieved. These were
@@ -3270,12 +3265,12 @@ our ⁧ישועות⁩, and our ⁧שלשלת⁩ until ⁧ימות המשיח ב
 = Bo 5783
 
 In ⁧פרשת בא⁩, we read about the ⁧מכות⁩. Let's focus on ⁧מכה⁩ number nine, ⁧חשך⁩.
-The ⁧פסוק⁩ says (10: 21): ⁧וַיֹּאמֶר⁩ ⁦ה׳⁩ ⁧אֶל מֹשֶׁה נְטֵה יָדְךָ עַל הַשָּׁמַיִם וִיהִי חֹשֶׁךְ עַל אֶרֶץ
+The ⁧פסוק⁩ says (10:21): ⁦וַיֹּאמֶר ה׳⁩ ⁧אֶל מֹשֶׁה נְטֵה יָדְךָ עַל הַשָּׁמַיִם וִיהִי חֹשֶׁךְ עַל אֶרֶץ
 מִצְרָיִם וְיָמֵשׁ חֹשֶׁךְ⁩. There's a pattern in the ⁧מכות⁩, for some of them ⁧פרעה⁩ got
 a ⁧התראה⁩ but for ⁧חשך⁩ he did not. Hashem said to ⁧משה⁩, "Let there be ⁦חשך"⁩
-(10: 22): ⁧וַיֵּט מֹשֶׁה אֶת יָדוֹ עַל הַשָּׁמָיִם וַיְהִי חֹשֶׁךְ אֲפֵלָה בְּכׇל אֶרֶץ מִצְרַיִם שְׁלֹשֶׁת יָמִים⁩.
+(10:22): ⁧וַיֵּט מֹשֶׁה אֶת יָדוֹ עַל הַשָּׁמָיִם וַיְהִי חֹשֶׁךְ אֲפֵלָה בְּכׇל אֶרֶץ מִצְרַיִם שְׁלֹשֶׁת יָמִים⁩.
 This darkness was unlike any other, it was so intense and thick that
-it's described as (10: 23): ⁧לֹא רָאוּ אִישׁ אֶת אָחִיו וְלֹא קָמוּ אִישׁ מִתַּחְתָּיו שְׁלֹשֶׁת
+it's described as (10:23): ⁧לֹא רָאוּ אִישׁ אֶת אָחִיו וְלֹא קָמוּ אִישׁ מִתַּחְתָּיו שְׁלֹשֶׁת
 יָמִים⁩ - The Egyptians were frozen in place for three days. However, ⁧וּלְכׇל
 בְּנֵי יִשְׂרָאֵל הָיָה אוֹר בְּמוֹשְׁבֹתָם⁩ - but ⁧כלל ישראל⁩ had ⁧אור⁩. Not only that, we
 know from the ⁧מדרש⁩ that they were able to travel through all the houses
@@ -3286,7 +3281,7 @@ third drawer on the left." They knew exactly where it was because they
 were able to look around the ⁦מצריים'⁩s houses during ⁧חשך⁩. So this was a
 ⁧חשך⁩ that only affected the ⁧מצריים⁩, but not ⁧בני ישראל⁩.
 
-The ⁧חידושי⁩ ⁦הרי\"ם⁩, the Gerrer Rebbe, offers a profound insight into the
+The ⁦חידושי הרי\"ם⁩, the Gerrer Rebbe, offers a profound insight into the
 phrase ⁧לֹא רָאוּ אִישׁ אֶת אָחִיו⁩. He teaches ⁧הַחשֵׁךְ הַגָּרוּעַ בְּיוֹתֵר⁩ - What is the
 greatest ⁧חשך⁩ that we experience in our lives in ⁧עולם הזה⁩ ?
 
@@ -3315,24 +3310,24 @@ times.
 #set page(footer: article-footer("https://zeidyd.com/bo/5784/", "../Files/02 - Shemos/03 - Bo/5784/Bo 5784.png"))
 = Bo 5784
 
-In ⁧פרשת בא⁩ it says (12: 2): ⁧הַחֹדֶשׁ הַזֶּה לָכֶם רֹאשׁ חֳדָשִׁים⁩, the first ⁧מצוה⁩ given
+In ⁧פרשת בא⁩ it says (12:2): ⁧הַחֹדֶשׁ הַזֶּה לָכֶם רֹאשׁ חֳדָשִׁים⁩, the first ⁧מצוה⁩ given
 to ⁧כלל ישראל⁩ as a nation: ⁧רִאשׁוֹן הוּא לָכֶם לְחׇדְשֵׁי הַשָּׁנָה⁩. The sefer ⁧שמחת התורה⁩
 by R' Simcha Sheps offers a fascinating insight. He brings a ⁧גמרא⁩ in
-⁧מנחות⁩ ⁦כ״ט ע״א⁩:⁧תנא דבי רבי ישמעאל שלשה דברים היו קשין לו למשה⁩ - There
-were three topics that ⁧משה רבינו⁩ found particularly difficult; ⁧עד שהראה
-לו⁩ ⁦הקב\"ה⁩ ⁧באצבעו⁩ - until ⁧הקדוש ברוך הוא⁩ explicitly showed ⁧משה⁩ each one
+⁦מנחות כ״ט⁩ ⁦ע״א⁩:⁧תנא דבי רבי ישמעאל שלשה דברים היו קשין לו למשה⁩ - There
+were three topics that ⁧משה רבינו⁩ found particularly difficult; ⁧עד שהראה⁩
+⁦לו הקב\"ה⁩ ⁧באצבעו⁩ - until ⁧הקדוש ברוך הוא⁩ explicitly showed ⁧משה⁩ each one
 with an ⁧אצבע⁩, pointing and clarifying, "This is what I mean, this is
 what I want." ⁧ואלו הן מנורה וראש חדש ושרצים⁩. What is the ⁧גמרא⁩ conveying
 here? Why did ⁧משה רבינו⁩ struggle specifically with these three?
 
-First, ⁧מנורה⁩ symbolizes ⁧תורה⁩, as we know ⁧משלי ו⁩:⁧כג⁩)) ⁧כִּי נֵר מִצְוָה וְתוֹרָה
+First, ⁧מנורה⁩ symbolizes ⁧תורה⁩, as we know (⁧משלי ו⁩:⁧כג⁩) ⁧כִּי נֵר מִצְוָה וְתוֹרָה
 אוֹר⁩. Moshe found it hard to grasp how the fundamentally divergent
 concepts of our ⁧עולם⁩ of ⁧גשמיות⁩ and the ⁧תורה⁩, which is ⁧רוחניות⁩, could
 connect. However, ⁧הקדוש ברוך הוא⁩ clarified that the world itself is
 sustained and only exists through the ⁧זכות⁩ of the ⁧עמוד התורה⁩.
 
 Next, ⁧שרצים⁩, which are ⁧טמא⁩, symbolize the ⁧אומות העולם⁩. While ⁧כלל ישראל⁩
-is called ⁧אדם⁩ (⁦ע״ש⁩ ⁧יבמות⁩ ⁦ס״א ע״א⁩), the ⁧אומות העולם⁩ are not. ⁧משה⁩
+is called ⁧אדם⁩ (⁦ע״ש יבמות⁩ ⁦ס״א ע״א⁩), the ⁧אומות העולם⁩ are not. ⁧משה⁩
 questioned how ⁧טהרה⁩ could influence ⁧טומאה⁩, given the stark contrast
 between the holiness of ⁧כלל ישראל⁩ and the impurity of the ⁧אומות העולם⁩ .
 ⁧הקדוש ברוך הוא⁩ responded that the ⁧השפעה⁩ of ⁧כלל ישראל⁩ could indeed
@@ -3358,7 +3353,7 @@ succeed in ⁧עולם הזה⁩ with our ⁧עבודה⁩ of bringing ⁧אור
 #set page(footer: article-footer("https://zeidyd.com/bo/5785/", "../Files/02 - Shemos/03 - Bo/5785/Bo 5785.png"))
 = Bo 5785
 
-The ⁧ספר אור גדליהו⁩, by ⁧רב גדליה שור⁩ ⁦זצ\"ל⁩, is a wonderful ⁧ספר⁩. Every
+The ⁧ספר אור גדליהו⁩, by ⁧רב גדליה⁩ ⁦שור זצ\"ל⁩, is a wonderful ⁧ספר⁩. Every
 time it's reprinted, it sells out almost immediately, and there's a good
 reason for that - it's a truly enlightening set of ⁧ספרים⁩. On ⁧פרשת בא⁩,
 the ⁧אור גדליהו⁩ writes that every ⁧מצוה⁩ has an integral and significant
@@ -3382,7 +3377,7 @@ invisible to us, carries a special ⁧קדושה⁩. While we may not see it, ma
 Similarly, each ⁧מצוה⁩ we perform contains within it a similar ⁧כח⁩. ⁧רב
 גדליה⁩ brings a ⁧רְאָיָה⁩ from the ⁦גר״א⁩ that the spiritual experience of ⁧יציאת
 מצרים⁩ is embedded in every ⁧מצוה⁩. The ⁦גר״א⁩, in his ⁧ספר אדרת אליהו⁩,
-explains this using a ⁧פסוק⁩ in ⁧האזינו⁩ (32: 11): ⁧כְּנֶשֶׁר יָעִיר קִנּוֹ עַל גּוֹזָלָיו
+explains this using a ⁧פסוק⁩ in ⁧האזינו⁩ (32:11): ⁧כְּנֶשֶׁר יָעִיר קִנּוֹ עַל גּוֹזָלָיו
 יְרַחֵף⁩ - like an eagle who spreads over his wings over his little eagles,
 the little babies; ⁧יִפְרֹשׂ כְּנָפָיו יִקָּחֵהוּ יִשָּׂאֵהוּ עַל אֶבְרָתוֹ⁩. The ⁦גר״א⁩ discusses
 four ⁧מצוות⁩ which are represented by this ⁧פסוק⁩: 1) ⁧מזוזה⁩, 2) ⁧ציצית⁩, 3)
@@ -3392,7 +3387,7 @@ us, offering a glimpse of ⁧התגלות השכינה⁩ . ⁧רב גדליה�
 
 A fascinating insight into a particular part of a ⁧מצוה⁩ comes from the
 ⁧ספר אפיריון⁩, written the ⁧בעל קיצור שולחן ערוך⁩, R' Shlomo Ganzfried. He
-says in this week's ⁧פרשה⁩ (12: 39): ⁧וַיֹּאפוּ אֶת הַבָּצֵק⁩ - they baked the dough;
+says in this week's ⁧פרשה⁩ (12:39): ⁧וַיֹּאפוּ אֶת הַבָּצֵק⁩ - they baked the dough;
 ⁧עֻגֹת מַצּוֹת כִּי לֹא חָמֵץ כִּי גֹרְשׁוּ מִמִּצְרַיִם⁩. We say in the ⁧הגדה של פסח⁩:⁧מַצָּה זוֹ שֶׁאָנוּ
 אוֹכְלִים⁩, ⁧עַל שׁוּם מַה⁩? ⁧עַל שׁוּם שֶׁלֹּא הִסְפִּיק בְּצֵקָם שֶׁל אֲבוֹתֵינוּ לְהַחֲמִיץ⁩ - Why are we
 eating this ⁧מצה⁩? We're eating this ⁧מצה⁩ because of the ⁧מצה⁩ that they ate
@@ -3430,15 +3425,12 @@ the ⁧מסורה⁩, elevate ourselves in ⁧רוחניות⁩, do the ⁧רצ�
 #set page(footer: article-footer("https://zeidyd.com/beshalach/5783/(1)/", "../Files/02 - Shemos/04 - Beshalach/5783/Beshalach 5783 (1)/Beshalach 5783(1).png"))
 = Beshalach 5783 (1)
 
-Beshalach 5783
-
 ⁧פרשת בשלח⁩ commemorates the once-in-history ⁧נס⁩ of ⁧קריעת ים סוף⁩. This ⁧נס⁩
-served two fundamental purposes. The first purpose was ⁧ישועת ישראל⁩ -
-allowing ⁧כלל ישראל⁩ to escape from the pursuing ⁧מצריים⁩. The second
+served two fundamental purposes. The first purpose was ⁧ישועת ישראל⁩ - allowing ⁧כלל ישראל⁩ to escape from the pursuing ⁧מצריים⁩. The second
 purpose was to drown the ⁧מצריים⁩ and destroy them as a fighting force,
 preventing them from capturing ⁧בני ישראל⁩. The pasuk relates these events
-as follows (14: 31): ⁧וַיַּרְא יִשְׂרָאֵל אֶת הַיָּד הַגְּדֹלָה אֲשֶׁר עָשָׂה⁩ ⁦ה׳⁩ ⁧בְּמִצְרַיִם וַיִּירְאוּ הָעָם
-אֶת⁩ ⁦ה׳⁩ ⁧וַיַּאֲמִינוּ⁩ ⁦בַּה׳⁩ ⁧וּבְמֹשֶׁה עַבְדּוֹ⁩.
+as follows (14:31): ⁧וַיַּרְא יִשְׂרָאֵל אֶת הַיָּד הַגְּדֹלָה אֲשֶׁר⁩ ⁦עָשָׂה ה׳⁩ ⁧בְּמִצְרַיִם וַיִּירְאוּ הָעָם⁩
+⁦אֶת ה׳⁩ ⁦וַיַּאֲמִינוּ בַּה׳⁩ ⁧וּבְמֹשֶׁה עַבְדּוֹ⁩.
 
 The ⁧אזנים לתורה⁩ brings to light a ⁧פשט⁩ in this pasuk. If we examine the
 events of this ⁧מעשה⁩ from our limited vantage point, which ⁧נס⁩ would we
@@ -3446,8 +3438,8 @@ say was greater - ⁧קריעת ים סוף⁩, the splitting of the sea, or the
 returning of the water to drown the ⁧מצריים⁩ ? Many of us might think that
 ⁧קריעת ים סוף⁩ was the greater ⁧נס⁩, as water splitting is an extraordinary,
 unnatural event, a ⁧למעלה מן הטבע⁩ occurrence. And yet, what does the
-pasuk say? ⁧וַיַּרְא יִשְׂרָאֵל אֶת הַיָּד הַגְּדֹלָה אֲשֶׁר עָשָׂה⁩ ⁦ה׳⁩ ⁧בְּמִצְרַיִם⁩. It doesn't say ⁧אשר
-עשה⁩ ⁦ה׳⁩ ⁧בישראל⁩, it emphasizes that the ⁧יד הגדולה⁩ of Hashem was
+pasuk say? ⁧וַיַּרְא יִשְׂרָאֵל אֶת הַיָּד הַגְּדֹלָה אֲשֶׁר⁩ ⁦עָשָׂה ה׳⁩ ⁧בְּמִצְרַיִם⁩. It doesn't say ⁧אשר⁩
+⁦עשה ה׳⁩ ⁧בישראל⁩, it emphasizes that the ⁧יד הגדולה⁩ of Hashem was
 demonstrated through what happened to ⁧מצרים⁩, that the waters returned to
 drown them.
 
@@ -3457,18 +3449,16 @@ naturally returns to its place, is the real manifestation of the ⁧יד
 הגדולה⁩ of ⁧הקדוש ברוך הוא⁩ . ⁧כלל ישראל⁩ recognized this at ⁧קריעת ים סוף⁩.
 They understood that the same divine greatness evident in ⁧למעלה מן הטבע⁩
 miracles is present in ⁧טבע⁩ itself. They appreciated that ⁧הקדוש ברוך הוא⁩
-is the ⁧מנהיג העולם⁩ and that everything occurs ⁧בהשגחת⁩ ⁦ה׳⁩.
+is the ⁧מנהיג העולם⁩ and that everything occurs ⁦בהשגחת ה׳⁩.
 
 #pagebreak()
 
 #set page(footer: article-footer("https://zeidyd.com/beshalach/5783/(2)/", "../Files/02 - Shemos/04 - Beshalach/5783/Beshalach 5783 (2)/Beshalach 5783 (2).png"))
 = Beshalach 5783 (2)
 
-Beshalach 5783
-
 Right before ⁧קריעת ים סוף⁩, ⁧הקדוש ברוך הוא⁩ commanded ⁧בני ישראל⁩ to turn
 back so that ⁧פרעה⁩ would think they were wandering aimlessly. The pasuk
-says (14: 2): ⁧דַּבֵּר אֶל בְּנֵי יִשְׂרָאֵל וְיָשֻׁבוּ וְיַחֲנוּ לִפְנֵי פִּי הַחִירֹת⁩. As we know,
+says (14:2): ⁧דַּבֵּר אֶל בְּנֵי יִשְׂרָאֵל וְיָשֻׁבוּ וְיַחֲנוּ לִפְנֵי פִּי הַחִירֹת⁩. As we know,
 there are four different methods of explaining a dvar torah, represented
 by the acronym ⁧פרדס⁩:⁧פשט⁩, ⁧דרש⁩, ⁧רמז⁩, and ⁧סוד⁩ . ⁧פשט⁩ is the ⁧פשוט פשט⁩, and
 ⁧רמז⁩ is a hint.
@@ -3480,9 +3470,8 @@ be wise to adopt throughout life: ⁧וְיָשֻׁבוּ וְיַחֲנוּ ל�
 Apter Rav explains that before allowing one's mouth the freedom to speak
 freely, a person should first ⁧וְיָשֻׁבוּ וְיַחֲנוּ⁩ - pause and think carefully.
 Reflect on what you are about to say, weigh your words, and only then
-speak thoughtfully. This corresponds to the pasuk in ⁧משלי⁩ (21: 23): ⁧שֹׁמֵר
-פִּיו וּלְשׁוֹנוֹ⁩ - one who guards his mouth and tongue; ⁧שֹׁמֵר מִצָּרוֹת נַפְשׁוֹ⁩ -
-protects himself from trouble. A good idea.
+speak thoughtfully. This corresponds to the pasuk in ⁧משלי⁩ (21:23): ⁧שֹׁמֵר
+פִּיו וּלְשׁוֹנוֹ⁩ - one who guards his mouth and tongue; ⁧שֹׁמֵר מִצָּרוֹת נַפְשׁוֹ⁩ - protects himself from trouble. A good idea.
 
 #pagebreak()
 
@@ -3490,13 +3479,13 @@ protects himself from trouble. A good idea.
 = Beshalach 5784
 
 ⁧פרשת בשלח⁩ contains many important topics, with a highlight being ⁧שירת
-הים⁩, beginning with the familiar words we recite daily (15: 1): ⁧אָז יָשִׁיר
+הים⁩, beginning with the familiar words we recite daily (15:1): ⁧אָז יָשִׁיר
 מֹשֶׁה⁩. The ⁧מפרשים⁩ are struck by the fact that ⁧משה רבינו⁩ starts the ⁧שירה⁩
-with the word ⁧אָז⁩. The ⁧מדרש רבה⁩ (\(23: 3, as quoted by the ⁧בית הלוי⁩,
+with the word ⁧אָז⁩. The ⁧מדרש רבה⁩ (\(23:3, as quoted by the ⁧בית הלוי⁩,
 notes: ⁧אמר משה באז חטאתי שאמרתי וּמֵאָז בָּאתִי אֶל פַּרְעֹה לְדַבֵּר בִּשְׁמֶךָ הֵרַע לָעָם הַזֶּה⁩,
 ⁧באז אני אומר שירה⁩. This cryptic ⁧מדרש⁩ demands elucidation. The literal
 translation is, "I, ⁧משה⁩, did an ⁧עֲבֵירָה⁩ with the word ⁧אז⁩ when I said
-(5: 23), ⁧וּמֵאָז בָּאתִי אֶל פַּרְעֹה לְדַבֵּר בִּשְׁמֶךָ הֵרַע לָעָם הַזֶּה⁩. Now when I say ⁧שירה⁩, I
+(5:23), ⁧וּמֵאָז בָּאתִי אֶל פַּרְעֹה לְדַבֵּר בִּשְׁמֶךָ הֵרַע לָעָם הַזֶּה⁩. Now when I say ⁧שירה⁩, I
 use the same word again, ⁧אז⁩\." ⁦רש\"י⁩ and other ⁧מפרשים⁩ explain what ⁧משה
 רבינו⁩ did wrong. At the very end of ⁧פרשת שמות⁩, ⁧משה רבינו⁩ questioned
 Hashem, asking why their situation worsened after He had promised
@@ -3519,7 +3508,7 @@ saved them from the ⁧מצריים⁩. Their primary joy was the realization th
 through their suffering and redemption, they became the ⁧כלי חפץ⁩ by which
 Hashem's name was glorified in the world. The ⁧כבוד⁩ of ⁧הקדוש ברוך הוא⁩ was
 realized through their experiences, including the suffering of ⁧שיעבוד
-מצרים⁩ and the subsequent redemption. This is reflected in the ⁧שירה⁩:⁧אָשִׁירָה⁩ ⁦לַה׳⁩ ⁧כִּי גָאֹה גָּאָה⁩. They sang not just for the ⁧הצלה⁩, but also for the
+מצרים⁩ and the subsequent redemption. This is reflected in the ⁧שירה⁩:⁦אָשִׁירָה לַה׳⁩ ⁧כִּי גָאֹה גָּאָה⁩. They sang not just for the ⁧הצלה⁩, but also for the
 ⁧שיעבוד⁩ which came before. The connection is clear: ⁧באז חטאתי⁩ - Moshe
 previously was complaining about the ⁧כובד השיעבוד⁩, now he sang ⁧שירה⁩ to
 explain that when he said ⁧אז⁩ then, it was not a complaint, rather, he
@@ -3527,8 +3516,7 @@ was thanking Hashem that through the modality of ⁧שיעבוד מצרים⁩ a
 מצרים⁩ we became the means by which Hashem's name received greatness in
 this world. The ⁧בית הלוי⁩ also explains a phrase we recite in ⁧הלל⁩:⁧אוֹדְךָ
 כִּי עֲנִיתָנִי וַתְּהִי לִי לִישׁוּעָה⁩. While commonly understood as "Thank You for
-answering me, " ⁧עֲנִיתָנִי⁩ actually refers to suffering. ⁧אוֹדְךָ כִּי עֲנִיתָנִי⁩ -
-Hashem, I am praising you for my ⁧עינוי⁩, for the suffering that I had,
+answering me, " ⁧עֲנִיתָנִי⁩ actually refers to suffering. ⁧אוֹדְךָ כִּי עֲנִיתָנִי⁩ - Hashem, I am praising you for my ⁧עינוי⁩, for the suffering that I had,
 Why? ⁧וַתְּהִי לִי לִישׁוּעָה⁩ - because I am giving you thanks both on the ⁧עינוי⁩
 which came before, and the ⁧ישועה⁩ which came afterwards, through which we
 had the great ⁧זכות⁩ to be ⁧מקדש⁩ the name of ⁧הקדוש ברוך הוא ברבים⁩.
@@ -3557,12 +3545,12 @@ Jewish year are interconnected, all emanating from a single source. So,
 when I discuss ⁧פרשת בשלח⁩ and connect it to ⁧על הנסים⁩ from ⁧חנוכה⁩, it's not
 as disparate or jarring as one might initially think.
 
-The pasuk in ⁧פרשת בשלח⁩ says (14: 14): ⁦ה׳⁩ ⁧יִלָּחֵם לָכֶם וְאַתֶּם תַּחֲרִשׁוּן⁩ . Rashi
+The pasuk in ⁧פרשת בשלח⁩ says (14:14): ⁦ה׳ יִלָּחֵם⁩ ⁧לָכֶם וְאַתֶּם תַּחֲרִשׁוּן⁩ . Rashi
 comments: ⁧בִּשְׁבִילְכֶם⁩, meaning that Hashem will fight for you. What does
 ⁦רש\"י⁩ mean?
 
 There's a ⁧גוואַלדיק⁩ vort on this pasuk from R' Beryl Weisbord in the
-Chanukah sefer put out by ⁧ישיבת נר ישראל⁩, titled ⁦ה׳⁩ ⁧יִלָּחֵם לָכֶם⁩. He raises
+Chanukah sefer put out by ⁧ישיבת נר ישראל⁩, titled ⁦ה׳ יִלָּחֵם⁩ ⁧לָכֶם⁩. He raises
 an intriguing question: In the ⁧נוסח⁩ of ⁧על הנסים⁩, we praise Hashem for
 delivering ⁧גִבּוֹרִים בְּיַד חַלָּשִׁים⁩, ⁧רַבִּים בְּיַד מְעַטִּים⁩, ⁧טְמֵאִים בְּיַד טְהוֹרִים⁩, ⁧רְשָׁעִים בְּיַד
 צַדִּיקִים⁩, and ⁧זֵדִים בְּיַד עוֹסְקֵי תוֹרָתֶךָ⁩. The first two instances, ⁧גִבּוֹרִים⁩ and
@@ -3575,7 +3563,7 @@ R' Beryl brings down a ⁦רמב\"ן⁩ at the beginning of ⁧פרשת וישל
 prepared for three things: ⁧תפילה⁩, ⁧דורון⁩, and ⁧מלחמה⁩. Was ⁧יעקב⁩ truly
 preparing for a literal battle? The ⁦רמב\"ן⁩ explains that he was
 preparing to engage in a battle as a means to escape. This highlights
-the Jewish approach to ⁧מלחמה⁩:⁦ה׳⁩ ⁧יִלָּחֵם לָכֶם⁩, ⁦ה׳⁩ ⁧אִישׁ מִלְחָמָה⁩ . ⁧כלל ישראל⁩ are
+the Jewish approach to ⁧מלחמה⁩:⁦ה׳ יִלָּחֵם⁩ ⁧לָכֶם⁩, ⁦ה׳ אִישׁ⁩ ⁧מִלְחָמָה⁩ . ⁧כלל ישראל⁩ are
 not natural warriors; it is Hashem who fights for us. Any battle in
 which we engage is merely a means to escape, with Hashem doing the real
 fighting.
@@ -3591,26 +3579,26 @@ There is no ⁧טבע⁩, only Hashem's direct involvement.
 In ⁧עַל הַנִּסִּים⁩, ⁦חז\"ל⁩ emphasized that the ⁧הצלה⁩ was ⁧בדרך מלחמה⁩, but the
 fact of the matter is, the ⁧נִצָחוֹן⁩ of the ⁧מלחמה⁩ was not because of the
 efforts of "The mighty Maccabim", as all the songs go, but rather only
-because of ⁦ה'⁩ ⁧איש מלחמה⁩. Even though they put on battle armaments and
+because of ⁦ה' איש⁩ ⁧מלחמה⁩. Even though they put on battle armaments and
 were working with swords, bows and arrows, they did not win because of
-their heroics, but rather because of ⁧הקדוש ברוך⁩ ⁦הוא'⁩s activities.
+their heroics, but rather because of ⁧הקדוש⁩ ⁦ברוך הוא'⁩s activities.
 
 Now we understand that even though we had a ⁧נצחון⁩, and the ⁧נצחון⁩ was
 through ⁧נסים⁩ and ⁧נפלאות⁩, it only was because of ⁧טְמֵאִים בְּיַד טְהוֹרִים וּרְשָׁעִים
-בְּיַד צַדִּיקִים וְזֵדִים בְּיַד עוֹסְקֵי תוֹרָתֶךָ⁩. ⁧מלחמה⁩ is successful only because ⁦ה׳⁩
-⁧יִלָּחֵם לָכֶם וְאַתֶּם תַּחֲרִשׁוּן⁩ . When ⁦רש\"י⁩ says ⁧בִּשְׁבִילְכֶם⁩, he means that if you're
+בְּיַד צַדִּיקִים וְזֵדִים בְּיַד עוֹסְקֵי תוֹרָתֶךָ⁩. ⁧מלחמה⁩ is successful only because ⁦ה׳
+יִלָּחֵם⁩ ⁧לָכֶם וְאַתֶּם תַּחֲרִשׁוּן⁩ . When ⁦רש\"י⁩ says ⁧בִּשְׁבִילְכֶם⁩, he means that if you're
 succeeding, understand that the cause of your success is Hashem. Here in
 ⁧בשלח⁩, that's obvious. The splitting of the ⁧ים סוף⁩, going through the ⁧ים⁩,
 and drowning the ⁧מצריים⁩ was without human input. But even when it seems
 that something happens because of what we call ⁧טבע⁩, we have to
 understand that it is also Hashem. In fact, the ⁧אזנים לתורה⁩ says
-(14: 28): ⁧וַיַּרְא יִשְׂרָאֵל אֶת הַיָּד הַגְּדֹלָה אֲשֶׁר עָשָׂה⁩ ⁦ה׳⁩ ⁧בְּמִצְרַיִם⁩. Which was the
+(14:28): ⁧וַיַּרְא יִשְׂרָאֵל אֶת הַיָּד הַגְּדֹלָה אֲשֶׁר⁩ ⁦עָשָׂה ה׳⁩ ⁧בְּמִצְרַיִם⁩. Which was the
 greater of the two ⁧נסים⁩? The splitting of the sea and ⁧כלל ישראל⁩ going
 through it, with water standing up, or, the waters falling back down and
 drowning the ⁧מצריים⁩? The pasuk says ⁧בני ישראל⁩ saw what happened ⁧בְּמִצְרַיִם⁩.
 The pasuk is telling that the ⁧טבע⁩ of gravity, and the ⁧טבע⁩ that water
 drowns people is exactly the same ⁧ניסים נפלאות⁩ as ⁧למעלה מן הטבע⁩. That's
-what they understood, and that's what it means, ⁦ה׳⁩ ⁧יִלָּחֵם לָכֶם⁩ - ⁧בִּשְׁבִילְכֶם⁩,
+what they understood, and that's what it means, ⁦ה׳ יִלָּחֵם⁩ ⁧לָכֶם⁩ - ⁧בִּשְׁבִילְכֶם⁩,
 Hashem is doing everything for us. ⁧וְאַתֶּם תַּחֲרִשׁוּן⁩ - We do have to do our
 ⁧השתדלות⁩. But because we do our ⁧השתדלות⁩, let us not think for one second
 that it is our efforts that caused us to be successful; rather,
@@ -3621,7 +3609,7 @@ everything we accomplish is only because Hashem wants us to.
 #set page(footer: article-footer("https://zeidyd.com/yisro/5783/", "../Files/02 - Shemos/05 - Yisro/5783/Yisro 5783.png"))
 = Yisro 5783
 
-The pasuk, prior to the ⁧עשרת הדברות⁩, says (19: 5): ⁧וְעַתָּה אִם שָׁמוֹעַ תִּשְׁמְעוּ
+The pasuk, prior to the ⁧עשרת הדברות⁩, says (19:5): ⁧וְעַתָּה אִם שָׁמוֹעַ תִּשְׁמְעוּ
 בְּקֹלִי וּשְׁמַרְתֶּם אֶת בְּרִיתִי וִהְיִיתֶם לִי סְגֻלָּה מִכׇּל הָעַמִּים⁩. This is a beautiful and
 endearing pasuk, which shows that Hashem treasures us; we are a treasure
 to Him. The ⁧מכילתא⁩ comments on this pasuk: ⁧והייתם לי סגולה⁩ - ⁧שתהיו
@@ -3659,17 +3647,17 @@ It also provides a tremendous insight into the difference between the
 relationship of the entire world with ⁧הקדוש ברוך הוא⁩ and our
 relationship with Him. While the ⁧גויים⁩ have ⁧שבע מצוות בני נח⁩, they are
 not ⁧קנויים⁩ to Hashem and not ⁧משועבד⁩ to Him. They accepted a limited
-number of ⁧מצוות⁩, but they are not ⁧עבדי⁩ ⁦ה׳⁩. In contrast, we are ⁧עבדי⁩ ⁦ה׳⁩,
+number of ⁧מצוות⁩, but they are not ⁦עבדי ה׳⁩. In contrast, we are ⁦עבדי ה׳⁩,
 fully ⁧קנויים⁩ to ⁧הקדוש ברוך הוא⁩, and in that ⁧זכות⁩ may we be able to be
 ⁧מקיים⁩ all the ⁧מצוות⁩ and aspire to attain that very prestigious title of
-⁧עבד⁩ ⁦ה׳⁩ in the same way that ⁧משה רבינו⁩ was called an ⁧עבד⁩ ⁦ה׳⁩.
+⁦עבד ה׳⁩ in the same way that ⁧משה רבינו⁩ was called an ⁦עבד ה׳⁩.
 
 #pagebreak()
 
 #set page(footer: article-footer("https://zeidyd.com/yisro/5784/", "../Files/02 - Shemos/05 - Yisro/5784/Yisro 5784.png"))
 = Yisro 5784
 
-⁧וַיִּחַן שָׁם יִשְׂרָאֵל נֶגֶד הָהָר⁩\(19: 2), possibly the most beautiful pasuk in the
+⁧וַיִּחַן שָׁם יִשְׂרָאֵל נֶגֶד הָהָר⁩\(19:2), possibly the most beautiful pasuk in the
 Torah. ⁦רש\"י⁩ comments ⁧כְּאִישׁ אֶחָד בְּלֵב אֶחָד⁩. However, people often overlook
 the next pasuk: ⁧וּמֹשֶׁה עָלָה אֶל הָאֱלֹקִים⁩. The ⁧ספר דרש והעיון⁩, quoted in ⁧מעינה
 של תורה⁩, offers a profound insight: if ⁧כלל ישראל⁩ achieves this
@@ -3691,13 +3679,13 @@ reach extraordinary spiritual levels.
 
 This theme ties into an enlightened teaching quoted by R' Matis Blum
 ⁦זצ\"ל⁩, (known for his ⁧תורה לדעת⁩ sheets), from the sefer ⁧חנוכת התורה
-החדש⁩. He references a Gemara in ⁦ע״ב⁩ ⁧שבת פח⁩:⁧בְּשָׁעָה שֶׁעָלָה מֹשֶׁה לַמָּרוֹם⁩ - when
+החדש⁩. He references a Gemara in ⁦ע״ב שבת⁩ ⁧פח⁩:⁧בְּשָׁעָה שֶׁעָלָה מֹשֶׁה לַמָּרוֹם⁩ - when
 ⁧משה⁩ went up to ⁧שמים⁩\; ⁧אָמְרוּ מַלְאֲכֵי הַשָּׁרֵת לִפְנֵי הַקָּדוֹשׁ בָּרוּךְ הוּא⁩ - the ⁧מלאכי
 השרת⁩, who serve before Hashem, complained. ⁧רִבּוֹנוֹ שֶׁל עוֹלָם⁩, ⁧מַה לִּילוּד אִשָּׁה
 בֵּינֵינוּ⁩ - Why is a ⁧בשר ודם⁩, a person born of flesh and blood, coming here
 amongst us?⁧אָמַר לָהֶן⁩ - ⁧הקדוש ברוך הוא⁩ answered them; ⁧לְקַבֵּל תּוֹרָה בָּא⁩ - He
 came to accept the ⁧תורה⁩, to receive the ⁧תורה⁩. They responded with the
-pasuk in ⁧תהילים⁩ (8: 2): ⁧תְּנָה הוֹדְךָ עַל הַשָּׁמָיִם⁩ - Leave it up here with us. So
+pasuk in ⁧תהילים⁩ (8:2): ⁧תְּנָה הוֹדְךָ עַל הַשָּׁמָיִם⁩ - Leave it up here with us. So
 what did Hashem do? He didn't say yes or no. He turned to ⁧משה⁩ and he
 said ⁧הַחְזֵיר לָהֶן תְּשׁוּבָה⁩ - Answer them. That's how we translate it. Give
 them a ⁧תשובה⁩, an answer. So ⁧משה רבינו⁩ said an astounding thing to
@@ -3728,7 +3716,7 @@ placing ⁧בעלי תשובה⁩ on a higher ⁧מדרגה⁩ than those who ne
 is difficult for us to fully grasp, but it emphasizes the transformative
 power of ⁧תשובה⁩.
 
-The next pasuk in ⁧תהילים⁩ (8: 3) says, ⁧מִפִּי עוֹלְלִים וְיֹנְקִים יִסַּדְתָּ עֹז⁩ . ⁧משה
+The next pasuk in ⁧תהילים⁩ (8:3) says, ⁧מִפִּי עוֹלְלִים וְיֹנְקִים יִסַּדְתָּ עֹז⁩ . ⁧משה
 רבינו⁩ told the ⁧מלאכים⁩, "I have an answer for you. I can hold on to the
 ⁧כסא הכבוד⁩ and reach a higher level than you." The ⁧מלאכים⁩ dismissed this,
 arguing, "We don't buy it. We're on a higher level because we have no
@@ -3787,7 +3775,7 @@ getting colder.\] As he hurries, he slips on an icy patch, and in that
 instant of falling, all his desires vanish. The ⁧בית הלוי⁩ teaches that
 even a small amount of ⁧יראת שמים⁩, akin to the fear of falling, can
 greatly diminish one's ⁧יצר הרע⁩. By focusing on ⁧יראת שמים⁩, contemplating
-the ⁧גדלות הבורא⁩ and keeping in mind ⁧שִׁוִּיתִי⁩ ⁦ה׳⁩ ⁧לְנֶגְדִּי תָמִיד⁩, we can make the
+the ⁧גדלות הבורא⁩ and keeping in mind ⁦שִׁוִּיתִי ה׳⁩ ⁧לְנֶגְדִּי תָמִיד⁩, we can make the
 ⁧מצוה⁩ of ⁧לא תחמד⁩ more attainable; if not easy, then certainly easier.
 
 A pathway to achieve an inkling into Hashem's infinite greatness it to
@@ -3902,7 +3890,7 @@ foundation for all the ⁧הלכות⁩ of ⁧נזיקין⁩, ⁧בבא קמא�
 ⁧הלכות⁩ in this parsha concerns the ⁧גנב⁩ and ⁧גזלן⁩. Specifically, regarding
 a ⁧גנב⁩, the ⁧תורה⁩ discusses the case of ⁧טבח ומכר⁩, as the ⁧פסוק⁩ states ⁦(שמות
 כ״א:ל״ז)⁩: ⁧כִּי יִגְנֹב אִישׁ שׁוֹר אוֹ שֶׂה וּטְבָחוֹ אוֹ מְכָרוֹ חֲמִשָּׁה בָקָר יְשַׁלֵּם תַּחַת הַשּׁוֹר
-וְאַרְבַּע צֹאן תַּחַת הַשֶּׂה⁩. We are familiar with the ⁧דברי⁩ ⁦חז״ל⁩ about why a ⁧שה⁩
+וְאַרְבַּע צֹאן תַּחַת הַשֶּׂה⁩. We are familiar with the ⁦דברי חז״ל⁩ about why a ⁧שה⁩
 requires a payment of ⁧ארבעה⁩ while a ⁧שור⁩ requires ⁧חמשה⁩. They explain that
 when someone steals a ⁧שה⁩, they may experience some embarrassment or
 ⁧טירחא⁩ because they have to carry it on their shoulders. This difficulty
@@ -3916,8 +3904,8 @@ perform our ⁧מצוות⁩. Just as the ⁧גנב⁩ receives a reduced punish
 the lack of joy in his ⁧עבירה⁩, so too, when someone performs a ⁧מצוה⁩
 without enthusiasm and ⁧שמחה⁩, their reward may be diminished.
 
-This idea is emphasized in the ⁧תוכחה⁩ ⁦(דברים כ״ח:מ״ז)⁩: ⁧תַּחַת אֲשֶׁר לֹא עָבַדְתָּ אֶת⁩
-⁦ה׳⁩ ⁧אֱלֹקֶיךָ בְּשִׂמְחָה וּבְטוּב לֵבָב מֵרֹב כֹּל⁩. The word ⁧בְּשִׂמְחָה⁩ is key here. But someone
+This idea is emphasized in the ⁧תוכחה⁩ ⁦(דברים כ״ח:מ״ז)⁩: ⁧תַּחַת אֲשֶׁר לֹא עָבַדְתָּ⁩ ⁦אֶת
+ה׳⁩ ⁧אֱלֹקֶיךָ בְּשִׂמְחָה וּבְטוּב לֵבָב מֵרֹב כֹּל⁩. The word ⁧בְּשִׂמְחָה⁩ is key here. But someone
 might ask, "Isn't it enough that we're doing the ⁧מצוות⁩? Why does it
 matter whether or not we do them with joy?"
 
@@ -3971,7 +3959,7 @@ all the way up the mountain, you can only ascend halfway."
 
 But there's an important detail here. R' Moshe Kormornick in his sefer
 Short Vort (vol. 1) points out that ⁧משה⁩ alone ascended - ⁧מֹשֶׁה לְבַדּוֹ⁩
-(24: 2). What about ⁧אהרן⁩? After all, ⁧אהרן⁩ had stood by ⁦משה'⁩s side the
+(24:2). What about ⁧אהרן⁩? After all, ⁧אהרן⁩ had stood by ⁦משה'⁩s side the
 entire time and did not abandoned him like the ⁧זקנים⁩. Shouldn't ⁧אהרן⁩
 have been allowed to go up too?
 
@@ -3999,7 +3987,7 @@ That was the ⁧גדלות⁩ of ⁧אהרן הכהן⁩.
 #set page(footer: article-footer("https://zeidyd.com/mishpatim/5785/", "../Files/02 - Shemos/06 - Mishpatim/5785/Mishpatim 5785.png"))
 = Mishpatim 5785
 
-In ⁧פרשת משפטים⁩, a parsha filled with numerous ⁧מצוות⁩, it says (21: 14):
+In ⁧פרשת משפטים⁩, a parsha filled with numerous ⁧מצוות⁩, it says (21:14):
 ⁧וְכִי יָזִד אִישׁ עַל רֵעֵהוּ לְהׇרְגוֹ בְעׇרְמָה מֵעִם מִזְבְּחִי תִּקָּחֶנּוּ לָמוּת⁩ - If a person is a
 ⁧מזיד⁩ and he kills somebody intentionally with trickery; ⁧מֵעִם מִזְבְּחִי תִּקָּחֶנּוּ
 לָמוּת⁩ - if he runs, as the famous ⁧גמרא⁩ says, when ⁧יואב⁩ was to be punished
@@ -4013,7 +4001,7 @@ and I thought it would be worthwhile to share it. The ⁧אפיריון⁩ says 
 עניות דעתי⁩, \[which is such a wonderful phrase, ⁧לפי עניות דעתי⁩\], in my
 small and humble opinion, the ⁧מדרש רבה⁩ states that the last ⁧פסוק⁩ in ⁧פרשת
 יתרו⁩ and the opening ⁧פסוק⁩ of ⁧משפטים⁩ are connected. The closing ⁧פסוק⁩ of
-⁧יתרו⁩ is (20: 23): ⁧וְלֹא תַעֲלֶה בְמַעֲלֹת עַל מִזְבְּחִי⁩ - You should not ascend the
+⁧יתרו⁩ is (20:23): ⁧וְלֹא תַעֲלֶה בְמַעֲלֹת עַל מִזְבְּחִי⁩ - You should not ascend the
 ⁧מזבח⁩ using steps. Instead, the ⁧כהנים⁩ used a ramp, the ⁧כבש⁩. The very
 first pasuk in ⁧משפטים⁩ is ⁧וְאֵלֶּה הַמִּשְׁפָּטִים⁩.
 
@@ -4025,7 +4013,7 @@ The ⁧מדרש⁩ poses two key questions:
 + Why was there a need for this ⁧איסור⁩ that the ⁧מזבח⁩ should have a ramp
   and not steps?
 
-The ⁧פסוק⁩ says (28: 42): ⁧וַעֲשֵׂה לָהֶם מִכְנְסֵי בָד לְכַסּוֹת בְּשַׂר עֶרְוָה⁩ - the ⁧כהנים⁩ wore
+The ⁧פסוק⁩ says (28:42): ⁧וַעֲשֵׂה לָהֶם מִכְנְסֵי בָד לְכַסּוֹת בְּשַׂר עֶרְוָה⁩ - the ⁧כהנים⁩ wore
 ⁧מכנסי בד⁩ to cover their ⁧ערוה⁩. So then why did the ⁧תורה⁩ have to give you
 a separate, additional ⁧אַזהָרָה⁩, a warning, that you have to walk up a
 ramp, and be careful not to be ⁧מגלה בשר ערוה⁩, the ⁧בגדים⁩ were made to
@@ -4033,8 +4021,7 @@ cover up those private parts of the body which have to be covered, and
 couldn't be seen anyway?
 
 ⁧רב אבינא⁩ in the ⁧מדרש רבה⁩ explains that just as ⁧הקדוש ברוך הוא⁩ instructed
-the ⁧כהנים⁩ to take small, deliberate steps when ascending the ⁧כבש⁩ -
-walking ⁧עקב בצד גודל⁩, heel to toe - so too, ⁧דיינים⁩ in ⁧בית דין⁩ must
+the ⁧כהנים⁩ to take small, deliberate steps when ascending the ⁧כבש⁩ - walking ⁧עקב בצד גודל⁩, heel to toe - so too, ⁧דיינים⁩ in ⁧בית דין⁩ must
 exercise extreme care when rendering ⁧משפט⁩. They should not rush to
 conclusions with ⁧פסיעות גסות⁩, assuming familiarity with a ⁧הלכה⁩ simply
 because they've encountered similar cases in the past. Instead, every
@@ -4077,16 +4064,16 @@ did.
 = Teruma 5783
 
 This week is ⁧פרשת תרומה⁩, which many of the ⁧חסידישע ספרים⁩ mention as part
-of ⁧שובבים⁩ ⁦ת\"ת⁩, which includes ⁧תרומה⁩ and ⁧תצוה⁩. As we know, ⁧פרשת תרומה⁩
+of ⁦שובבים ת\"ת⁩, which includes ⁧תרומה⁩ and ⁧תצוה⁩. As we know, ⁧פרשת תרומה⁩
 follows ⁧פרשת משפטים⁩, which itself follows ⁧פרשת יתרו⁩.
 
 What is ⁧פרשת תרומה⁩ all about? It introduces the ⁧מצוה⁩ of ⁧בנין המשכן⁩ - the
-command to build a ⁧משכן⁩ for Hashem. There is a ⁧יסודותדיק⁩ ⁦רמב\"ן⁩ at the
+command to build a ⁧משכן⁩ for Hashem. There is a ⁦יסודותדיק רמב\"ן⁩ at the
 beginning of ⁧פרשת תרומה⁩, which is worth looking at. He asks: What was
 the purpose of the ⁧משכן⁩? Why was it necessary to build a structure for
-Hashem when, as we know ⁧ישעיהו⁩ ⁦ו׳⁩:⁦ג׳⁩)) ⁧מְלֹא כׇל הָאָרֶץ כְּבוֹדוֹ⁩ - Hashem's
+Hashem when, as we know ⁦(ישעיהו ו׳:ג׳)⁩ ⁧מְלֹא כׇל הָאָרֶץ כְּבוֹדוֹ⁩ - Hashem's
 glory fills the entire universe. Why then does He need a ⁧משכן⁩? So the
-⁧פסוק⁩ itself says (25: 7) ⁧וְשָׁכַנְתִּי בְּתוֹכָם⁩, but what was the purpose of that?
+⁧פסוק⁩ itself says (25:7) ⁧וְשָׁכַנְתִּי בְּתוֹכָם⁩, but what was the purpose of that?
 
 The purpose of that was that ⁧הר סיני⁩ was a once-in-history event, never
 to be repeated. ⁧מעמד הר סיני⁩ was Hashem revealing Himself to ⁧בני ישראל⁩
@@ -4102,7 +4089,7 @@ command to build the ⁧משכן⁩ to follow ⁧הר סיני⁩. Why is ⁧פ�
 between these two monumental ⁧פרשיות⁩?
 
 The ⁧בית הלוי⁩, in his usual fantastic ⁧בריסקער⁩ style, addresses this
-question. He points to the ⁧פסוק⁩ (25: 2): ⁧וְיִקְחוּ לִי תְּרוּמָה מֵאֵת כׇּל אִישׁ אֲשֶׁר
+question. He points to the ⁧פסוק⁩ (25:2): ⁧וְיִקְחוּ לִי תְּרוּמָה מֵאֵת כׇּל אִישׁ אֲשֶׁר
 יִדְּבֶנּוּ לִבּוֹ⁩ - whoever wanted to give ⁧הקדוש ברוך הוא⁩ a ⁧תרומה⁩ has to give
 from the goodness of his heart. The ⁧בית הלוי⁩ explains that ⁧פרשת תרומה⁩
 follows ⁧משפטים⁩ for a clear and important reason. Before a person can
@@ -4115,7 +4102,7 @@ is ⁧לולב הגזול⁩. A person who uses a stolen ⁧לולב⁩ does not
 ⁧מצוה⁩\; it becomes a ⁧מצוה הבאה בעבירה⁩.
 
 To support this idea, the ⁧בית הלוי⁩ brings the ⁧פסוק⁩ ⁦(ישעיהו נ״ו:א׳)⁩: ⁧שִׁמְרוּ
-מִשְׁפָּט וַעֲשׂוּ צְדָקָה כִּי קְרוֹבָה יְשׁוּעָתִי לָבוֹא⁩- First you have to do ⁧מִשְׁפָּט⁩, then you
+מִשְׁפָּט וַעֲשׂוּ צְדָקָה כִּי קְרוֹבָה יְשׁוּעָתִי לָבוֹא⁩ - First you have to do ⁧מִשְׁפָּט⁩, then you
 can do ⁧צְדָקָה⁩, and then ⁧ישועה⁩ will come. Therefore, ⁧פרשת משפטים⁩ teaches us
 to respect boundaries and be careful with the property of others. Once
 we understand these principles, we can become ⁧בעלי צדקה⁩, giving ⁧נדבות⁩
@@ -4173,8 +4160,7 @@ into the ground; ⁧לְכָךְ נִקְרְאוּ יְתֵדוֹת⁩ - That's
 which means pins. And then he brings down a ⁧פסוק⁩ from ⁧ישעיה⁩:⁧וּמִקְרָא זֶה
 מְסַיְּעֵנִי⁩. That's what I thought was quite fascinating. And the ⁧פסוק⁩ in
 (⁧ישעיה⁩ (⁦ל״ג׃כ׳⁩ that ⁦רש\"י⁩ brings is: ⁧אֹהֶל בַּל יִצְעָן⁩ - a tent shall not be
-removed; ⁧בַּל יִסַּע יְתֵדֹתָיו⁩ - And the ⁧יתדות⁩ will never be taken out; ⁧לָנֶצַח⁩ -
-forever. So the last ⁦רש\"י⁩ in ⁧תרומה⁩, the last word of that ⁦רש\"י⁩ is
+removed; ⁧בַּל יִסַּע יְתֵדֹתָיו⁩ - And the ⁧יתדות⁩ will never be taken out; ⁧לָנֶצַח⁩ - forever. So the last ⁦רש\"י⁩ in ⁧תרומה⁩, the last word of that ⁦רש\"י⁩ is
 ⁧לָנֶצַח⁩, forever, and I thought this is quite fascinating (This is my vort,
 I hope I'm not wrong). ⁦רש\"י⁩'s implication here, is that all this ⁧נדיבת
 לב⁩, all the heartfelt generosity, was given for what? A ⁧משכן⁩ - a
@@ -4216,7 +4202,7 @@ a wonderful ⁧ספר⁩ called ⁧אוצר פלאות התורה⁩. Initially,
 about one, but the second was so fascinating that I had to include it.
 Although unrelated, they both discuss parts of the ⁧משכן⁩.
 
-The first topic relates to the ⁧פסוק⁩ (25: 18): ⁧וְעָשִׂיתָ שְׁנַיִם כְּרֻבִים זָהָב מִקְשָׁה
+The first topic relates to the ⁧פסוק⁩ (25:18): ⁧וְעָשִׂיתָ שְׁנַיִם כְּרֻבִים זָהָב מִקְשָׁה
 תַּעֲשֶׂה אֹתָם מִשְּׁנֵי קְצוֹת הַכַּפֹּרֶת⁩. As we all know, the most important, most holy
 feature of the ⁧משכן⁩ was the ⁧ארון⁩, in which were the ⁧עשרת הדיברות⁩, which
 were in the ⁧קודש הקדשים⁩, which were visited once a year by the ⁧כהן גדול⁩
@@ -4225,10 +4211,9 @@ and on its top was a gold slab called the ⁧כפרת⁩. From this slab emerged
 the two ⁧כרובים⁩. There's a tremendous amount of ⁧תורה⁩ concerning these
 ⁧כרובים⁩. The ⁧אוצר פלאות התורה⁩ raises a startling question that floored
 me, made me think, and I'm delighted to share it with you. It says in
-⁧מסכת מנחות⁩ ⁦כ״ט ע״א⁩:⁧תנא דבי רבי ישמעאל שלשה דברים היו קשין לו למשה⁩ -
-There were three things that ⁧משה⁩ had difficulty with. \[We don't
-understand what that means, but that's what the ⁧גמרא⁩ says\]; ⁧עד שהראה לו⁩
-⁦הקב\"ה⁩ ⁧באצבעו⁩ - until ⁦הקב\"ה⁩ showed him with a finger. \[We don't
+⁧מסכת⁩ ⁦מנחות כ״ט⁩ ⁦ע״א⁩:⁧תנא דבי רבי ישמעאל שלשה דברים היו קשין לו למשה⁩ - There were three things that ⁧משה⁩ had difficulty with. \[We don't
+understand what that means, but that's what the ⁧גמרא⁩ says\]; ⁧עד שהראה⁩ ⁦לו
+הקב\"ה⁩ ⁧באצבעו⁩ - until ⁦הקב\"ה⁩ showed him with a finger. \[We don't
 understand what that means either. It's ⁧כביכול⁩, of course, Hashem has no
 fingers, but it says ⁧באצבע⁩. That's what it says\], and what are they?
 The first one we know, ⁧מנורה⁩. The second one, which we also know, is ⁧ראש
@@ -4250,14 +4235,14 @@ block of gold, chisel away at it until you're left with a ⁧מנורה⁩.⁧מ
 
 Now, here comes the bomb ⁧קשה⁩: it doesn't say anywhere that ⁧משה רבינו⁩ had
 any trouble making the ⁧כרובים⁩! The ⁧כרובים⁩ were also ⁧מקשה אחת⁩ with the
-⁧כפרת⁩. It says (25: 17) ⁧מִקְשָׁה תַּעֲשֶׂה אֹתָם⁩ a very, very similar ⁧לשון⁩. It had to
+⁧כפרת⁩. It says (25:17) ⁧מִקְשָׁה תַּעֲשֶׂה אֹתָם⁩ a very, very similar ⁧לשון⁩. It had to
 be one piece of work. It could not be two ⁧כרובים⁩ screwed onto this ⁧כפרת⁩.
 We don't see that they were made by themselves by a ⁧נס⁩, just like the
 ⁧מנורה⁩ was made by itself by a ⁧נס⁩. What's the difference?
 
 He says ⁧על דרך דרוש⁩ that we learn from this a tremendous ⁧מוסר השכל⁩
 regarding ⁧חינוך הבנים⁩, educating our children. What were the ⁧כרובים⁩? The
-⁧כרובים⁩ had a ⁧דְמוּת⁩ of two ⁧תינוקות⁩, a ⁧בפרש גמרא⁩ in ⁧סוכה דף⁩ ⁦ה׳⁩. The ⁧תורה⁩ is
+⁧כרובים⁩ had a ⁧דְמוּת⁩ of two ⁧תינוקות⁩, a ⁧בפרש גמרא⁩ in ⁧סוכה⁩ ⁦דף ה׳⁩. The ⁧תורה⁩ is
 ⁧מרמז⁩ to us in this tremendous accomplishment of making this ⁧כלי⁩ of the
 ⁧בית המקדש⁩, a ⁧יסוד גדול לחינוך התינוקות⁩:⁧שאין הבנים גדלים בתורה וביראת
 שמים מאליהם⁩ - The kids can't grow up by themselves. You can't say "Let
@@ -4275,7 +4260,7 @@ effort, we will see ⁧אמת ייִדיש נחת⁩ from our ⁧בנים⁩ and
 The second topic relates to the ⁧עצי שיטים⁩ used in the construction of
 the ⁧משכן⁩. ⁧מדרש רבה⁩ in ⁧שמות⁩ presents a sobering statement about the
 locale know as ⁧שיטים⁩:⁧שהשתה בהם מתעורר לזנות⁩ - There was a water source
-in ⁧שיטים⁩ during ⁧בני⁩ ⁦ישראל'⁩s journey in the ⁧מדבר⁩. The ⁧מדרש⁩ explains that
+in ⁧שיטים⁩ during ⁦בני ישראל'⁩s journey in the ⁧מדבר⁩. The ⁧מדרש⁩ explains that
 drinking this water caused people to be drawn toward immorality. We know
 that when ⁧בני ישראל⁩ came to ⁧שיטים⁩ and they drank from that water, the
 result was ⁧זנות⁩, as the ⁧פסוק⁩ says ⁦(במדבר כ״ה:א׳)⁩: ⁧וַיֵּשֶׁב יִשְׂרָאֵל בַּשִּׁטִּים וַיָּחֶל
@@ -4291,17 +4276,17 @@ area known as ⁧שיטים⁩.
 
 The author of ⁧אוצר פלאות התורה⁩ asks an interesting question: We often
 see in ⁦רש\"י⁩, throughout ⁧חומש⁩ and ⁧גמרא⁩, that ⁦רש\"י⁩ translates for us,
-and he says a "⁦בלעז"⁩ ⁧לשון⁩, where ⁦רש\"י⁩ will translate a word into French
+and he says a "⁦בלעז" לשון⁩, where ⁦רש\"י⁩ will translate a word into French
 Why did ⁦רש\"י⁩ do this? At first glance, it seems simply to clarify
 difficult words.
 
-He cites ⁧רב דוד אלעווסקי⁩ ⁦שליט\"א⁩, a ⁧ראש ישיבה⁩ of ⁧בית ישראל⁩ of Ger in
+He cites ⁧רב דוד⁩ ⁦אלעווסקי שליט\"א⁩, a ⁧ראש ישיבה⁩ of ⁧בית ישראל⁩ of Ger in
 Brooklyn, who shared a beautiful insight from the ⁧שם משמואל⁩. The ⁧שם
-משמואל⁩, quoting the ⁧חידושי⁩ ⁦הרי\"ם⁩, explains that every language reflects
-the essence of the nation that speaks it. The ⁧חידושי⁩ ⁦הרי\"ם⁩ states: ⁧לשון
+משמואל⁩, quoting the ⁦חידושי הרי\"ם⁩, explains that every language reflects
+the essence of the nation that speaks it. The ⁦חידושי הרי\"ם⁩ states: ⁧לשון
 צרפת היא משחת לניאוף⁩ - The French language, he argues, is inherently
 associated with immorality, reflecting the culture of France, which is
-often steeped in ⁧טומאה⁩ and ⁧ניאוף⁩. The ⁧חידושי⁩ ⁦הרי\"ם⁩ says, this is ⁧פּונקט
+often steeped in ⁧טומאה⁩ and ⁧ניאוף⁩. The ⁦חידושי הרי\"ם⁩ says, this is ⁧פּונקט
 פאַרקערט⁩ from ⁧לשון הקודש⁩. ⁧לשון הקודש⁩ can transform dirt into clean, ⁧הפכת
 את הרע לטובה⁩, from the ⁧כח⁩ of the ⁧קדושה⁩ of the ⁧תורה⁩, and from the
 tremendous ⁧קדושה⁩ that's embedded within its words. Based on this ⁧יסוד⁩,
@@ -4328,17 +4313,17 @@ will be proud of us.
 = Tetzaveh 5783
 
 Any time a person goes up to daven, he will see a sign in front of him
-in any shul, anywhere around the world: ⁧שויתי⁩ ⁦ה׳⁩ ⁧לנגדי תמיד⁩. This is a
+in any shul, anywhere around the world: ⁦שויתי ה׳⁩ ⁧לנגדי תמיד⁩. This is a
 great ⁧זכות⁩, a tremendous obligation, and a remarkable opportunity to
 constantly keep ⁧הקודש ברוך הוא⁩ in front of us at all times.
 
 This concept is brought down in this week's ⁧פרשה⁩, ⁧פרשת תצוה⁩, through an
 interesting ⁧פסוק⁩. In fact, a ⁧מדרש פליאה⁩ uses this ⁧פסוק⁩ to make a
 fascinating point. The ⁧מדרש⁩ asks: which ⁧מצוה⁩, if you had to choose just
-one of the ⁦תרי\"ג⁩ ⁧מצות⁩, includes all the other ⁧מצות⁩? There is a ⁧מחלוקת⁩
+one of the ⁦תרי\"ג מצות⁩, includes all the other ⁧מצות⁩? There is a ⁧מחלוקת⁩
 quoted in the introduction of ⁧הכותב⁩, a ⁧פירוש⁩ on ⁧עין יעקב⁩.
 
-⁧בן זומא⁩ says it's ⁧שְׁמַע יִשְׂרָאֵל⁩ ⁦ה׳⁩ ⁧אֱלֹקֵינוּ⁩ ⁦ה׳⁩ ⁧אֶחָד⁩ (⁧דברים ו⁩:⁧ד⁩), where we are
+⁧בן זומא⁩ says it's ⁧שְׁמַע⁩ ⁦יִשְׂרָאֵל ה׳⁩ ⁦אֱלֹקֵינוּ ה׳⁩ ⁧אֶחָד⁩ (⁧דברים ו⁩:⁧ד⁩), where we are
 ⁧מקבל אחדות השם⁩ and ⁧עול מלכות שמים⁩.⁧בן ננס⁩ says it's ⁧וְאָהַבְתָּ לְרֵעֲךָ כָּמוֹךָ⁩
 ⁦(ויקרא י״ט:י״ח)⁩ which pertains to ⁧בין אדם לחבירו⁩, a tremendously
 important ⁧יסוד⁩. Finally, ⁧שמעון בן פזי⁩ brings down the ⁧פסוק⁩ from our
@@ -4348,8 +4333,8 @@ important ⁧יסוד⁩. Finally, ⁧שמעון בן פזי⁩ brings down the 
 \[⁦רש\"י⁩ points out that ⁧תמיד⁩ does not mean it was brought continuously
 without interruption, but rather that it was brought every single day
 without ⁧הפסק⁩\.\] Morning and evening, every single day, the ⁧קרבן תמיד⁩
-was offered. Through this ⁧קרבן⁩, we represent, signify, and declare ⁧שויתי⁩
-⁦ה׳⁩ ⁧לנגדי תמיד⁩, that ⁧הקודש ברוך הוא⁩ is constantly before us.
+was offered. Through this ⁧קרבן⁩, we represent, signify, and declare ⁦שויתי
+ה׳⁩ ⁧לנגדי תמיד⁩, that ⁧הקודש ברוך הוא⁩ is constantly before us.
 
 In fact, this is the ultimate purpose of all ⁧מצות⁩. Every ⁧מצוה⁩ is
 designed to remind us that Hashem is always in front of us. He creates
@@ -4367,7 +4352,7 @@ wisdom of experience. As he ages, wisdom increases while physical ⁧כח⁩
 declines. In all phases of our lives, no matter what we have, we should
 constantly use the ⁧כוחות⁩ that we have, the abilities that we have, the
 blessings that ⁧הקודש ברוך הוא⁩ gave us, to fulfill the ⁧מצוה⁩ of the ⁧קרבן
-תמיד⁩, through which we fulfill ⁧שויתי⁩ ⁦ה׳⁩ ⁧לנגדי תמיד⁩.
+תמיד⁩, through which we fulfill ⁦שויתי ה׳⁩ ⁧לנגדי תמיד⁩.
 
 #pagebreak()
 
@@ -4377,12 +4362,12 @@ blessings that ⁧הקודש ברוך הוא⁩ gave us, to fulfill the ⁧מצ�
 ⁧פרשת תצוה⁩ is unique, as the ⁧בעל הטורים⁩ points out, because it is one of
 the rare ⁧פרשיות⁩ after the birth of ⁧משה רבינו⁩ where his name is not
 mentioned. Everyone is familiar with the ⁧מדרש⁩ which explains that this
-is due to ⁧משה⁩ ⁦רבינו'⁩s statement (32: 32) ⁧מְחֵנִי נָא מִסִּפְרְךָ⁩. A ⁧קללת חכם⁩, even
+is due to ⁦משה רבינו'⁩s statement (32:32) ⁧מְחֵנִי נָא מִסִּפְרְךָ⁩. A ⁧קללת חכם⁩, even
 if made ⁧על תנאי⁩, is ⁧מתקיים⁩.
 
 There is much discussion as to why this specifically happens in ⁧פרשת
-תצוה⁩. A well-known answer is that it almost always coincides with ⁦ז׳⁩
-⁧אדר⁩, the yartzeit of ⁧משה רבינו⁩. Why this connection exists is an
+תצוה⁩. A well-known answer is that it almost always coincides with ⁦ז׳
+אדר⁩, the yartzeit of ⁧משה רבינו⁩. Why this connection exists is an
 interesting ⁧שאלה⁩ on its own. However, I'd like to focus on something
 else.
 
@@ -4394,30 +4379,30 @@ communication between ⁧הקדוש ברוך הוא⁩ and ⁧משה רבינו�
 end, it's ⁧ואתה⁩, ⁧ואתה⁩, ⁧ואתה⁩, followed by ⁧ועשית⁩, ⁧וצפית⁩, ⁧ונתת⁩ - constant
 dialogue between ⁧הקדוש ברוך הוא⁩ and ⁧משה רבינו⁩.
 
-The first ⁧מצוה⁩ in ⁧פרשת תצוה⁩ is (27: 20) ⁧שֶׁמֶן זַיִת זָךְ כָּתִית לַמָּאוֹר לְהַעֲלֹת נֵר
+The first ⁧מצוה⁩ in ⁧פרשת תצוה⁩ is (27:20) ⁧שֶׁמֶן זַיִת זָךְ כָּתִית לַמָּאוֹר לְהַעֲלֹת נֵר
 תָּמִיד⁩. The idea of ⁧תמיד⁩ is central here. Interestingly, the final section
 of the ⁧פרשה⁩ discusses the ⁧מזבח הזהב⁩, the golden ⁧מזבח⁩ for ⁧קטורת⁩. The
 ⁧קטורת⁩ was brought every single day, ⁧בבוקר⁩, ⁧בבוקר⁩, but the ⁧מזבח הזהב⁩ also
 had another function: once a year on ⁧יום כיפור⁩, as the ⁧פסוק⁩ states
-(30: 10): ⁧וְכִפֶּר אַהֲרֹן עַל קַרְנֹתָיו אַחַת בַּשָּׁנָה מִדַּם חַטַּאת הַכִּפֻּרִים אַחַת בַּשָּׁנָה⁩. Even
+(30:10): ⁧וְכִפֶּר אַהֲרֹן עַל קַרְנֹתָיו אַחַת בַּשָּׁנָה מִדַּם חַטַּאת הַכִּפֻּרִים אַחַת בַּשָּׁנָה⁩. Even
 though this was a once-a-year event, it held an element of ⁧תמיד⁩, of
 constancy, reinforcing the central theme of this ⁧פרשה⁩.
 
 This leads to an interesting ⁧מחלוקת⁩ in the ⁧מדרש⁩ about which ⁧פסוק⁩ in the
 ⁧תורה⁩ includes all others. I heard this vort from my father, ⁧עליו השלום⁩,
-who heard it from Rabbi David Hollander ⁧עליו השלום⁩ ⁦זצ\"ל⁩, the ⁧מרא דאתרא⁩
+who heard it from Rabbi David Hollander ⁧עליו⁩ ⁦השלום זצ\"ל⁩, the ⁧מרא דאתרא⁩
 of Mount Eden Shul in the Bronx, where we grew up. This was his ⁧דרשה⁩ on
 ⁧פרשת תצוה⁩.
 
 Which ⁧פסוק⁩, \[in his cute way he would say is the most important ⁧פסוק⁩ in
 the ⁧תורה⁩, of course it's not such a thing, they're all equally
 important\], but the ⁧מדרש⁩ says which ⁧פסוק⁩ is ⁧כולל⁩ all of the other
-⁧פסוקים⁩ in the ⁧תורה⁩? ⁧בן זומא⁩ says ⁧שְׁמַע יִשְׂרָאֵל⁩ ⁦ה׳⁩ ⁧אֱלֹקֵינוּ⁩ ⁦ה׳⁩ ⁧אֶחָד⁩ (⁧דברים ו⁩:⁧ד⁩)
+⁧פסוקים⁩ in the ⁧תורה⁩? ⁧בן זומא⁩ says ⁧שְׁמַע⁩ ⁦יִשְׂרָאֵל ה׳⁩ ⁦אֱלֹקֵינוּ ה׳⁩ ⁧אֶחָד⁩ (⁧דברים ו⁩:⁧ד⁩)
 \; ⁧בן ננס⁩ says ⁧וְאָהַבְתָּ לְרֵעֲךָ כָּמוֹךָ⁩ ⁦(ויקרא י״ט:י״ח)⁩ \; ⁧שמעון בן פזי⁩ says from
 our ⁧פרשה⁩, and also repeated in ⁧פינחס⁩:⁧אֶת הַכֶּבֶשׂ הָאֶחָד תַּעֲשֶׂה בַבֹּקֶר וְאֵת הַכֶּבֶשׂ
 הַשֵּׁנִי תַּעֲשֶׂה בֵּין הָעַרְבָּיִם⁩ ⁦(שמות כ״ט:ל״ט)⁩ the ⁧פסוק⁩ which refers famously to
 the ⁧קרבן תמיד⁩. All the ⁧מצוות⁩ in the ⁧תורה⁩ are intended to create a
-continuous connection to ⁧הקדוש ברוך הוא⁩. The goal is ⁧שויתי⁩ ⁦ה׳⁩ ⁧לנגדי תמיד⁩
+continuous connection to ⁧הקדוש ברוך הוא⁩. The goal is ⁦שויתי ה׳⁩ ⁧לנגדי תמיד⁩
 \- maintaining the awareness of ⁦ה׳⁩ before us at all times.
 
 In English, ⁧להבדיל⁩, we use the term "constant, " but there's another
@@ -4426,12 +4411,12 @@ consistent - no breaks, no moments of stepping away by saying, "I'll be
 back soon." Everything revolves around maintaining a continuous,
 consistent connection with ⁧הקדוש ברוך הוא⁩.
 
-This is the message of the ⁧פרשה⁩:⁧לְהַעֲלֹת נֵר תָּמִיד⁩ - ⁧הקדוש ברוך⁩ ⁦הוא'⁩s light
+This is the message of the ⁧פרשה⁩:⁧לְהַעֲלֹת נֵר תָּמִיד⁩ - ⁧הקדוש⁩ ⁦ברוך הוא'⁩s light
 is upon us at all times. Our ⁧עבודה⁩ must be one of ⁧אֶת הַכֶּבֶשׂ הָאֶחָד תַּעֲשֶׂה בַבֹּקֶר
 וְאֵת הַכֶּבֶשׂ הַשֵּׁנִי תַּעֲשֶׂה בֵּין הָעַרְבָּיִם⁩ - constantly and consistently. The highest
 form of that was the ⁧עבודה⁩ of ⁧יום כיפור⁩, which again, was a constant
 ⁧עבודה⁩ for ⁧דור דורות⁩, even though it only happened once a year. That is
-the message of the ⁧פרשה⁩:⁧משה⁩ ⁦רבינו'⁩s name is not there, but his presence
+the message of the ⁧פרשה⁩:⁦משה רבינו'⁩s name is not there, but his presence
 is there very consistently, ⁧ואתה⁩, ⁧ואתה⁩, ⁧ואתה⁩ . ⁧משה רבינו⁩ is constantly
 representing us before ⁧הקדוש ברוך הוא⁩, constantly bringing us back to
 Hashem, constantly reminding us of what our ⁧עבודה⁩ is, and we should be
@@ -4449,7 +4434,7 @@ Baruch Hashem, we are in the midst of preparing for a fantastic,
 beautiful ⁧שמחה⁩. In recognition of that, we will find a connection
 between ⁧פרשת תצוה⁩ and the upcoming ⁧שמחה⁩ between Chaim and Bracha.
 
-The ⁧פרשה⁩ begins with ⁧וְאַתָּה תְּצַוֶּה⁩. There is a (⁧מדרש תנחומא⁩ (⁧תצוה⁩ ⁦ה׳⁩:⁦ה׳⁩ on
+The ⁧פרשה⁩ begins with ⁧וְאַתָּה תְּצַוֶּה⁩. There is a (⁧מדרש תנחומא⁩ (⁦תצוה ה׳⁩:⁦ה׳⁩ on
 the ⁧פסוק⁩ in ⁧שיר השירים⁩ (⁧א⁩:⁦ט״ו⁩): ⁧הִנָּךְ יָפָה עֵינַיִךְ יוֹנִים⁩ - "your eyes are like
 doves." The ⁧מדרש⁩ explains: ⁧מַה הַיּוֹנָה הֵבִיאָה אוֹרָה לָעוֹלָם⁩, ⁧אַף אַתֶּם שֶׁנִּמְשַׁלְתֶּם
 כַּיּוֹנָה⁩, ⁧הָבִיאוּ שֶׁמֶן זַיִת וְהַדְלִיקוּ⁩ - just as the ⁧יונה⁩, in various ways, brings
@@ -4475,7 +4460,7 @@ faithfulness to its mate and family. Similarly, ⁧שמן זית⁩, which ⁧כ
 brings, represents this ⁧מדה⁩, as oil is known not to intermingle or mix
 with any other liquid. Oil remains distinct and separate, refusing to
 blend with anything else, symbolizing steadfastness to its source. The
-gemara (⁧תענית⁩ ⁦כ״ד ע״א⁩) says that a ⁧כַּלָּה שֶׁעֵינֶיהָ יָפוֹת⁩, meaning she is
+gemara (⁦תענית כ״ד⁩ ⁦ע״א⁩) says that a ⁧כַּלָּה שֶׁעֵינֶיהָ יָפוֹת⁩, meaning she is
 satisfied and content, does not require further evaluation, because this
 very quality reveals a special ⁧מדה⁩ within her. This elevated trait of
 ⁧הסתפקות⁩ defines her as a wonderful ⁧נשמה⁩ and a truly special person.
@@ -4510,10 +4495,10 @@ have a lot of ⁧ברכות⁩ from all of them. And I'm looking forward to a hu
 = Tetzaveh 5785
 
 ⁧פרשת זכור⁩ this year coincides with ⁧פרשת תצוה⁩. ⁧תצוה⁩ is a ⁧פרשה⁩ in which
-⁧משה⁩ ⁦רבינו'⁩s name is not mentioned. This connects to, ⁧המן עמלק⁩, and ⁧פורים⁩,
-because ⁧המן⁩ was pleased that his ⁧פוּר⁩ fell in ⁧אדר⁩, the month of ⁧משה⁩
-⁦רבינו'⁩s ⁧פטירה⁩. This is among other reasons why ⁧פרשת תצוה⁩ does not
-mention ⁧משה⁩ ⁦רבינו'⁩s name.
+⁦משה רבינו'⁩s name is not mentioned. This connects to, ⁧המן עמלק⁩, and ⁧פורים⁩,
+because ⁧המן⁩ was pleased that his ⁧פוּר⁩ fell in ⁧אדר⁩, the month of ⁦משה
+רבינו'⁩s ⁧פטירה⁩. This is among other reasons why ⁧פרשת תצוה⁩ does not
+mention ⁦משה רבינו'⁩s name.
 
 However, ⁧פרשת זכור⁩ \[which is a ⁧מצוה דאורייתא⁩, and in our shul, the ⁧רב⁩
 leins it\] is an intriguing ⁧מצוה⁩. R' Moshe Feinstein, in his ⁧ספר קול רם⁩,
@@ -4523,9 +4508,9 @@ thousands of years.
 
 Second, who is ⁧עמלק⁩? We don't know. Even if we did, we could not take
 any direct action against ⁧עמלק⁩ because we live in ⁧גלות⁩, and any such
-action would endanger ⁧כלל⁩ ⁦ישראל'⁩s survival.
+action would endanger ⁦כלל ישראל'⁩s survival.
 
-Third, the ⁧תורה⁩ tells us ⁧ויקרא⁩ ⁦י״ט⁩:⁦י״ח⁩)) ⁧לֹא תִקֹּם וְלֹא תִטֹּר⁩ - do not take
+Third, the ⁧תורה⁩ tells us ⁦(ויקרא י״ט:י״ח)⁩ ⁧לֹא תִקֹּם וְלֹא תִטֹּר⁩ - do not take
 revenge or bear a grudge. How, then, are we commanded to hold onto our
 enmity toward ⁧עמלק⁩ for all these generations?
 
@@ -4540,7 +4525,7 @@ must never become overconfident. Consider the well-known story of ⁧יוחנן
 כהן גדול⁩, who served in the ⁧בית המקדש⁩ with the highest level of ⁧קדושה⁩
 for many years - only to eventually become a ⁧צדוקי⁩. ⁧עמלק⁩, the ultimate
 symbol of ⁧רשעות⁩, beheld the ⁧ניסים⁩ of ⁧יציאת מצרים⁩ and ⁧קריעת ים סוף⁩, yet
-remained unchanged. Instead of recognizing ⁧הקדוש ברוך⁩ ⁦הוא'⁩s hand, they
+remained unchanged. Instead of recognizing ⁧הקדוש⁩ ⁦ברוך הוא'⁩s hand, they
 attacked ⁧כלל ישראל⁩. Other people followed ⁧עמלק⁩ as well, to attack ⁧כלל
 ישראל⁩, and what the ⁧חכמים⁩ always say is, if someone jumps into a boiling
 bath and gets scalded, at least he cooled off the bath a little bit. We
@@ -4564,7 +4549,7 @@ Now, I can barely hold myself back."
 These stark, black-and-white cases demonstrate the overpowering force of
 the ⁧יצר הרע⁩. It is relentless, blinding people even when the truth is
 unmistakable. If that is the case, then we, who strive to be good, who
-wish to fulfill ⁧הקדוש ברוך⁩ ⁦הוא'⁩s ⁧רצון⁩, have to remain on guard
+wish to fulfill ⁧הקדוש⁩ ⁦ברוך הוא'⁩s ⁧רצון⁩, have to remain on guard
 constantly, never to be misled. As ⁧הלל⁩ teaches in ⁧פרקי אבות⁩ ⁦(ב׳:ד׳)⁩: ⁧אַל
 תַּאֲמִין בְּעַצְמְךָ עַד יוֹם מוֹתְךָ⁩ - even to the last minute of our lives, we have
 to be on guard from that ⁧יצר הרע⁩. I'm sure I've told you this story
@@ -4609,7 +4594,7 @@ a person gives, the better. Why is ⁧מחצית השקל⁩ different?
 R' Simcha explains that the ⁧תורה⁩ is revealing a tremendous insight into
 many ⁧מידות⁩ that lurk beneath the surface of a person's actions, hidden
 deep within the heart. Naturally, people don't like parting with their
-money - especially a rich person. The ⁧גמרא⁩ in ⁧מנחות⁩ ⁦פ״ו ע״א⁩ even says:
+money - especially a rich person. The ⁧גמרא⁩ in ⁦מנחות פ״ו⁩ ⁦ע״א⁩ even says:
 ⁧וסימניך עשירים מקמצין⁩ - rich people are often frugal and very careful
 with their money. However, in this case, something different is at play.
 The ⁧פסוק⁩ says ⁧הֶעָשִׁיר לֹא יַרְבֶּה וְהַדַּל לֹא יַמְעִיט⁩ - everyone must give exactly
@@ -4637,7 +4622,7 @@ became frightened. He wondered what was happening and realized that his
 face was radiating an intense, brilliant light, shining like the sun, if
 not brighter. Therefore, he placed a ⁧מסוה⁩, a veil, over his face. This
 is highly unusual behavior - why would ⁧משה רבינו⁩ walk around with a veil
-all the time? The ⁧תורה⁩ then states ⁦(שם ל״ד:ל״ד)⁩: ⁧וּבְבֹא מֹשֶׁה לִפְנֵי⁩ ⁦ה׳⁩ ⁧לְדַבֵּר
+all the time? The ⁧תורה⁩ then states ⁦(שם ל״ד:ל״ד)⁩: ⁧וּבְבֹא מֹשֶׁה⁩ ⁦לִפְנֵי ה׳⁩ ⁧לְדַבֵּר
 אִתּוֹ יָסִיר אֶת הַמַּסְוֶה עַד צֵאתוֹ⁩ - When ⁧משה⁩ went before Hashem, he removed the
 ⁧מסוה⁩. But when he spoke to the people, he wore it. What is the ⁧מוסר השכל⁩
 here?
@@ -4661,7 +4646,7 @@ Hashem.
 
 May we take this lesson to heart, and may we always strive to do what is
 right. Though you may be hearing this after ⁧פורים⁩, that's okay - ⁧שמחה⁩ is
-not limited to one day. We should always strive to ⁧עבדו את⁩ ⁦ה׳⁩ ⁧בשמחה⁩, and
+not limited to one day. We should always strive to ⁧עבדו⁩ ⁦את ה׳⁩ ⁧בשמחה⁩, and
 may we be ⁧זוכה⁩ to hear great ⁧שמחות⁩ in all of ⁧כלל ישראל⁩.
 
 #pagebreak()
@@ -4678,10 +4663,10 @@ we've done them our whole lives. Rabbi Oelbaum, ⁧זאל ער זײן געזונ
 enlighten us as to how much deeper and more profound they really are.
 
 One of the things we do every single ⁧שבת⁩ - found in ⁧פרשת כי תשא⁩ - is
-recite the following ⁧פסוקים⁩ (31: 16-18):
+recite the following ⁧פסוקים⁩ (31:16-18):
 
 ⁧וְשָׁמְרוּ בְנֵי יִשְׂרָאֵל אֶת הַשַּׁבָּת לַעֲשׂוֹת אֶת הַשַּׁבָּת לְדֹרֹתָם בְּרִית עוֹלָם׃ בֵּינִי וּבֵין בְּנֵי
-יִשְׂרָאֵל אוֹת הִוא לְעֹלָם כִּי שֵׁשֶׁת יָמִים עָשָׂה⁩ ⁦ה׳⁩ ⁧אֶת הַשָּׁמַיִם וְאֶת הָאָרֶץ וּבַיּוֹם הַשְּׁבִיעִי שָׁבַת
+יִשְׂרָאֵל אוֹת הִוא לְעֹלָם כִּי שֵׁשֶׁת יָמִים⁩ ⁦עָשָׂה ה׳⁩ ⁧אֶת הַשָּׁמַיִם וְאֶת הָאָרֶץ וּבַיּוֹם הַשְּׁבִיעִי שָׁבַת
 וַיִּנָּפַשׁ⁩.
 
 There is a well-known ⁧מדרש⁩ on the words ⁧שָׁבַת וַיִּנָּפַשׁ⁩. When the ⁧נשמה יתרה⁩
@@ -4708,13 +4693,13 @@ other hand, receives its ⁧קדושה⁩ directly from ⁧הקודש ברוך �
 seventh day is ⁧שבת⁩, from ⁧מעשה בראשית⁩ until today. But ⁧יום טוב⁩ is
 different - ⁧ישראל⁩ are ⁧מקדשים את הזמנים⁩. And here comes his bomb ⁧חידוש⁩:⁧קדושה⁩ that comes through our ⁧מעשה⁩ never leaves. It stays with us
 forever! This is an astonishing concept. It reminds me of the famous
-debate between ⁧טורנוס רופוס⁩ and ⁧רבי עקיבא⁩ about whether ⁧הקודש ברוך⁩ ⁦הוא'⁩s
+debate between ⁧טורנוס רופוס⁩ and ⁧רבי עקיבא⁩ about whether ⁧הקודש⁩ ⁦ברוך הוא'⁩s
 actions are greater than Man's. ⁧רבי עקיבא⁩ answered that Man's actions
 are greater. ⁧טורנוס רופוס⁩ responded, "Oh, good answer! Because if you
-had said that ⁧הקודש ברוך⁩ ⁦הוא'⁩s actions are greater, I would have
-punished you for performing ⁧ברית מילה⁩ on ⁧הקודש ברוך⁩ ⁦הוא'⁩s creation. But
+had said that ⁧הקודש⁩ ⁦ברוך הוא'⁩s actions are greater, I would have
+punished you for performing ⁧ברית מילה⁩ on ⁧הקודש⁩ ⁦ברוך הוא'⁩s creation. But
 since you said man's actions are greater, you proclaim that man has the
-ability to enhance and improve ⁧הקודש ברוך⁩ ⁦הוא'⁩s infinite creation." (I
+ability to enhance and improve ⁧הקודש⁩ ⁦ברוך הוא'⁩s infinite creation." (I
 had the ⁧זכות⁩ to hear this ⁧מדרש⁩ from R' Ahron Soloveichik ⁦זצ״ל⁩).
 
 According to this ⁧שפת אמת⁩, the ⁧קדושה⁩ that we instill into ⁧יום טוב⁩,
@@ -4724,8 +4709,7 @@ departs each week, and we need ⁧בשמים⁩ to compensate for the loss - ⁧
 
 In a real sense, ⁧פרשת כי תשא⁩ is a ⁧פרשה⁩ of ⁧קדושה⁩. It discusses the ⁧לוחות⁩,
 their breaking, the ⁧קדושה⁩ of ⁧שבת⁩, and ⁧קדושה⁩ in various forms. ⁧שבת⁩ itself
-is a ⁧מקור קדושה⁩. We always thought of ⁧שבת⁩ as the ultimate ⁧מקור קדושה⁩ -
-after all, the ⁧פסוק⁩ says (31: 134) ⁧כִּי אֲנִי⁩ ⁦ה׳⁩ ⁧מְקַדִּשְׁכֶם⁩ - talking about ⁧שבת⁩.
+is a ⁧מקור קדושה⁩. We always thought of ⁧שבת⁩ as the ultimate ⁧מקור קדושה⁩ - after all, the ⁧פסוק⁩ says (31:134) ⁧כִּי⁩ ⁦אֲנִי ה׳⁩ ⁧מְקַדִּשְׁכֶם⁩ - talking about ⁧שבת⁩.
 And yet, we have been given an extraordinary opportunity, granted to us
 by ⁧הקודש ברוך הוא⁩, to generate ⁧קדושה⁩ on our own, to such an extent that
 it lasts forever.
@@ -4748,8 +4732,8 @@ Kanievsky's father R' Elyashiv ⁦זצ\"ל⁩. She relates that when she was a
 little girl, about ten years old, after R' Elyashiv would finish ⁧שמונה
 עשרה⁩, he would take three steps back and stand there for a period of
 time. She once asked him what he was saying. He told her that before
-finishing the ⁧יהי רצון⁩ at the end of ⁧שמונה עשרה⁩, he would recite ⁧פרק⁩
-⁦קכ\"א⁩, which begins ⁧שִׁיר לַמַּעֲלוֹת⁩, ⁧אֶשָּׂא עֵינַי אֶל הֶהָרִים⁩. Why did he do this?
+finishing the ⁧יהי רצון⁩ at the end of ⁧שמונה עשרה⁩, he would recite ⁦פרק
+קכ\"א⁩, which begins ⁧שִׁיר לַמַּעֲלוֹת⁩, ⁧אֶשָּׂא עֵינַי אֶל הֶהָרִים⁩. Why did he do this?
 R' Elyashiv's grandfather was a famous ⁧גאון⁩ and ⁧בעל קבלה⁩, known as the
 ⁧לֶשֶם⁩, well known in his own right. The ⁧לֶשֶם⁩ told R' Elyashiv that saying
 this ⁧פרק⁩ was a ⁧סגולה⁩ for certain things. R' Elyashiv said that he loved
@@ -4760,10 +4744,10 @@ Many years later, Rebbetzin Kanievsky's son-in-law told her an
 interesting story. In the ⁧ישיבה⁩ of ⁧חברון⁩, there was a group of twenty
 ⁧בחורים⁩ who had been eligible for marriage for years but had not been
 able to find their ⁧שידוך⁩. One day, they came across an obscure sefer. It
-turned out to be from the ⁦רמ״ע⁩ ⁧מפאנו⁩ \[this is where I first heard about
-it years ago from Rabbi Oelbaum\]. The sefer stated that reciting ⁧פרק⁩
-⁦קכ\"א⁩ at the end of ⁧שמונה עשרה⁩ is a ⁧סגולה⁩ for finding a ⁧שידוך⁩. \[This is
-in the ⁦רמ״ע⁩ ⁧מפאנו⁩, ⁧מאמר חקור דין⁩, part 4, ⁧חלק⁩ ⁦י״ז⁩\.\] These twenty
+turned out to be from the ⁦רמ״ע מפאנו⁩ \[this is where I first heard about
+it years ago from Rabbi Oelbaum\]. The sefer stated that reciting ⁦פרק
+קכ\"א⁩ at the end of ⁧שמונה עשרה⁩ is a ⁧סגולה⁩ for finding a ⁧שידוך⁩. \[This is
+in the ⁦רמ״ע מפאנו⁩, ⁧מאמר חקור דין⁩, part 4, ⁦חלק י״ז⁩\.\] These twenty
 ⁧בחורים⁩ adopted the ⁧מנהג⁩, and within two months, each one of them had
 found a ⁧שידוך⁩. This is interesting because I also say a few ⁧פרקים⁩ of
 ⁧תהילים⁩ after ⁧שמונה עשרה⁩. I don't usually share my ⁧מנהגים⁩, as I don't
@@ -4782,14 +4766,14 @@ dab in the middle of ⁧פורים משולש⁩, I want to refer back to a prev
 תורה⁩ I shared and add a ⁧קנייטש⁩ from R' Yosef Chaim Sonnenfeld that I
 think you will find interesting. As we all know, this week's ⁧פרשה⁩
 discusses two things, ⁧שמן המשחה⁩ and the ⁧קטורת⁩. In the ⁧קטורת⁩ it says
-(30: 23) ⁧וְאַתָּה קַח לְךָ בְּשָׂמִים רֹאשׁ מׇר דְּרוֹר⁩ - You should take the best, the
+(30:23) ⁧וְאַתָּה קַח לְךָ בְּשָׂמִים רֹאשׁ מׇר דְּרוֹר⁩ - You should take the best, the
 nicest of the spices, and that is ⁧מׇר דְּרוֹר⁩ - pure ⁧מׇר⁩. ⁧מׇר⁩ is supposed to
 be the number one most beautiful spice that was used in the ⁧קטורת⁩, and
 which was apparently known to those people at that time. As we have
 mentioned, ⁧אונקלוס⁩ translates ⁧מׇר דְּרוֹר⁩ as ⁧מֵירָא דַכְיָא⁩, which has almost
 identical letters as ⁧מרדכי⁩. This shows that the ⁧צדיקים⁩ are compared to
-the most beautiful spices, which is brought down in the ⁧גמרא מגילה⁩ ⁦י״ג
-ע״א⁩. The choicest spice was used to show that ⁧מרדכי⁩ was ⁧ראש וראשון⁩ among
+the most beautiful spices, which is brought down in the ⁧גמרא⁩ ⁦מגילה י״ג⁩
+⁦ע״א⁩. The choicest spice was used to show that ⁧מרדכי⁩ was ⁧ראש וראשון⁩ among
 the ⁧אנשי כנסת הגדולה⁩ - he was the ⁧גדול הדור⁩. Now, here's something
 fascinating. R' Chaim adds another insight. While discussing the ⁧קטורת⁩,
 he asks, "Where do we find ⁧המן⁩ in all of these items?" And guess what?
@@ -4811,7 +4795,7 @@ us. In that ⁧זכות⁩, we shall see the ⁧משיח צדקנו⁩, ⁧במ�
 #set page(footer: article-footer("https://zeidyd.com/vayakel/5784/", "../Files/02 - Shemos/10 - Vayakel/5784/Vayakel 5784.png"))
 = Vayakel 5784
 
-In ⁧פרשת ויקהל⁩, the ⁧פסוק⁩ (35: 3), states: ⁧וַיֹּאמֶר מֹשֶׁה אֶל כׇּל עֲדַת בְּנֵי יִשְׂרָאֵל
+In ⁧פרשת ויקהל⁩, the ⁧פסוק⁩ (35:3), states: ⁧וַיֹּאמֶר מֹשֶׁה אֶל כׇּל עֲדַת בְּנֵי יִשְׂרָאֵל
 לֵאמֹר זֶה הַדָּבָר⁩. I originally heard a beautiful idea about this from R'
 Fabian Schonfeld ⁦זצ\"ל⁩, who was the Rav of the Young Israel of Kew
 Gardens Hills, and I never forgot it. What was the date of this ⁧ויקהל⁩,
@@ -4848,8 +4832,7 @@ not limited to ⁧ערב יום כיפור⁩. It applies just as much to the da
 of us has that job to do the day after ⁧יום כיפור⁩.
 
 One additional aspect of the ⁧פרשה⁩ is the connection between ⁧שבת⁩ and the
-⁧בנין המשכן⁩. What did ⁧כלל ישראל⁩ do after ⁧יום כיפור⁩? They built the ⁧משכן⁩ -
-a most fascinating and magnificent miniature of what would eventually
+⁧בנין המשכן⁩. What did ⁧כלל ישראל⁩ do after ⁧יום כיפור⁩? They built the ⁧משכן⁩ - a most fascinating and magnificent miniature of what would eventually
 become the ⁧בית המקדש⁩. They carried this ⁧משכן⁩ with them for 40 years in
 the ⁧מדבר⁩, and its ⁧כלים⁩ were used until ⁧שלמה המלך⁩ built the ⁧בית המקדש⁩.
 That was a long span of time, but in the grand course of Jewish history,
@@ -4857,7 +4840,7 @@ those hundreds of years seem like a short period. The question is: What
 can we do today, in our long and difficult ⁧גלות⁩, to maintain the ⁧השפעה⁩
 of the ⁧בית המקדש⁩ when we no longer have one?
 
-\(35: 2) ⁧שֵׁשֶׁת יָמִים תֵּעָשֶׂה מְלָאכָה וּבַיּוֹם הַשְּׁבִיעִי יִהְיֶה לָכֶם קֹדֶשׁ שַׁבַּת שַׁבָּתוֹן⁩. ⁧שבת
+\(35:2) ⁧שֵׁשֶׁת יָמִים תֵּעָשֶׂה מְלָאכָה וּבַיּוֹם הַשְּׁבִיעִי יִהְיֶה לָכֶם קֹדֶשׁ שַׁבַּת שַׁבָּתוֹן⁩. ⁧שבת
 קודש⁩ is eternal. No matter how difficult the ⁧גלות⁩ may be, ⁧שבת⁩ can never
 be taken away from us. ⁧שבת⁩ gives us the ability to continue our ascent
 in ⁧קדושה⁩. We should appreciate and cherish every ⁧שבת⁩ because each one
@@ -4866,7 +4849,7 @@ and maintain our connection to ⁧הקדוש ברוך הוא⁩. The promise giv
 at ⁧הר סיני⁩ remains alive through the ⁧משכן⁩, through the ⁧בית המקדש⁩, and
 through ⁧שבת⁩.
 
-This is a powerful way to begin ⁧פרשת ויקהל⁩. ⁦י״א⁩ ⁧תשרי⁩ teaches us that we
+This is a powerful way to begin ⁧פרשת ויקהל⁩. ⁦י״א תשרי⁩ teaches us that we
 must continue the ⁧עבודה⁩ of ⁧יום כיפור⁩, and ⁧שבת⁩ is our opportunity to
 continue what we were meant to do with a ⁧בית המקדש⁩ - even in its
 absence.
@@ -4881,7 +4864,7 @@ repetition of what was commanded in ⁧תרומה⁩ - except here, ⁧בני י
 actually carried out the task, fulfilling Hashem's ⁧ציווי⁩ to the highest
 level. However, there was one aspect that was not done as perfectly as
 it could have been, and the ⁧פסוק⁩ points it out explicitly. It says
-(35: 27), ⁧וְהַנְּשִׂאִם הֵבִיאוּ אֵת אַבְנֵי הַשֹּׁהַם⁩ - the ⁧נשיאים⁩ brought the ⁧אבני השהם⁩
+(35:27), ⁧וְהַנְּשִׂאִם הֵבִיאוּ אֵת אַבְנֵי הַשֹּׁהַם⁩ - the ⁧נשיאים⁩ brought the ⁧אבני השהם⁩
 required for the ⁧בגדי כהונה⁩ of the ⁧כהן גדול⁩. The only problem is, if you
 look carefully, the word ⁧נְּשִׂאִם⁩ is missing a ⁦י׳⁩ - it's ⁧חסר⁩. ⁦רש\"י⁩ comments
 that the ⁧נשיאים⁩ were punished because ⁧נִּתְעַצְּלוּ⁩ - they were lazy. Why? They
@@ -4944,7 +4927,7 @@ clear from this ⁧תוספות⁩ that it's better for him to do the ⁧מצו�
 the ⁧שעטנז ציצית⁩ and depend on ⁧עשה דוחה לא תעשה⁩, and do the ⁧מצוה⁩ with
 ⁧זריזות⁩. I hope we don't have that specific problem, I hope all of our
 ⁧ציצית⁩ are not ⁧שעטנז⁩. But meanwhile, that is what ⁧תוספות⁩ says. You can
-look it up. ⁧תוספות⁩ says this in ⁧שבועות⁩, ⁧דף ג⁩ ⁦ע״א⁩, ⁦ד״ה⁩ ⁧ועל הזקן שתים
+look it up. ⁧תוספות⁩ says this in ⁧שבועות⁩, ⁧דף⁩ ⁦ג ע״א⁩, ⁦ד״ה ועל⁩ ⁧הזקן שתים
 מכאן⁩. Im Yirtzeh Hashem, we should be ⁧זוכה⁩ to always fulfill the ⁧רצון
 השם⁩ in the best possible way.
 
@@ -4969,8 +4952,8 @@ moment. However, there is a deeper reason for calling this not only the
 conclusion of ⁧ספר שמות⁩ but also its climax, and we see this from the
 following vort.
 
-The ⁧בעל הטורים⁩ points out that in ⁧פרשת פקודי⁩, the phrase ⁧כַּאֲשֶׁר צִוָּה⁩ ⁦ה׳⁩ ⁧אֶת
-מֹשֶׁה⁩, or ⁧כְּכֹל אֲשֶׁר צִוָּה⁩ ⁦ה׳⁩, appears 18 times. He explains that this is a ⁧רמז⁩
+The ⁧בעל הטורים⁩ points out that in ⁧פרשת פקודי⁩, the phrase ⁧כַּאֲשֶׁר⁩ ⁦צִוָּה ה׳⁩ ⁧אֶת
+מֹשֶׁה⁩, or ⁧כְּכֹל אֲשֶׁר⁩ ⁦צִוָּה ה׳⁩, appears 18 times. He explains that this is a ⁧רמז⁩
 to the 18 ⁧ברכות⁩ of ⁧שמונה עשרה⁩. What is the connection?
 
 We know that the ⁧משכן⁩, and later the ⁧בית המקדש⁩, was the ultimate center
@@ -4980,7 +4963,7 @@ of the ⁧משכן⁩ by ⁧משה רבינו⁩, so too, each and every day, we
 opportunity to engage in that same ⁧עבודה⁩ through our ⁧תפילה⁩. We should
 think that our ⁧עבודה⁩ corresponds to the climactic conclusion of ⁧ספר שמות⁩
 \- the completion and the putting together of the ⁧משכן⁩ by ⁧משה רבינו⁩
-himself, fulfilling the words ⁧כַּאֲשֶׁר צִוָּה⁩ ⁦ה׳⁩ ⁧אֶת מֹשֶׁה⁩. If we do that, it will
+himself, fulfilling the words ⁧כַּאֲשֶׁר⁩ ⁦צִוָּה ה׳⁩ ⁧אֶת מֹשֶׁה⁩. If we do that, it will
 give us a whole new character, a whole new perspective, about what we're
 able to accomplish. It's not just our little ⁧עבודה⁩, not just our little
 ⁧שמונה עשרה⁩. It's exactly the same thing as the ⁧עבודה⁩ in the ⁧בית המקדש⁩,
@@ -5046,15 +5029,15 @@ gave a fascinating answer. On one hand, a person should avoid suspicion,
 as we learn in ⁧מסכת שקלים⁩. A person must pass scrutiny in the eyes of
 others just as he must in the eyes of Hashem. As the ⁧פסוק⁩ says in ⁧במדבר⁩,
 you should be vindicated before both Hashem and ⁧ישראל⁩. However, there
-was justification for the ⁧ראש⁩ ⁦ישיבה'⁩s silence. Some airlines refuse to
+was justification for the ⁦ראש ישיבה'⁩s silence. Some airlines refuse to
 divulge whether or not there is an ⁧ארון⁩ on board, as passengers may find
 it disturbing. Had the ⁧ראש ישיבה⁩ announced that he was an ⁧אונן⁩, people
 might have asked him questions, forcing him to reveal that the ⁧ארון⁩ was
 on the plane. Perhaps he chose to avoid this out of concern for the
 airline. Nevertheless, R' Zilberstein suggested that he could have
 handled it slightly differently. Instead of remaining seated, he could
-have stood with the ⁧מנין⁩ and mumbled under his breath ⁦ה׳⁩ ⁧נָתַן⁩, ⁦ה׳⁩ ⁧לָקָח⁩,
-⁧יְהִי שֵׁם⁩ ⁦ה׳⁩ ⁧מְבֹרָךְ⁩, and keep saying that over and over again so that the
+have stood with the ⁧מנין⁩ and mumbled under his breath ⁦ה׳ נָתַן⁩, ⁦ה׳ לָקָח⁩,
+⁧יְהִי⁩ ⁦שֵׁם ה׳⁩ ⁧מְבֹרָךְ⁩, and keep saying that over and over again so that the
 people would think he was davening, and that would avoid ⁧מראית עין⁩ that
 he was not davening."
 
@@ -5088,7 +5071,7 @@ to ⁧שמחות⁩, ⁧נחת⁩, ⁧געזונט⁩, and the ⁧ביאת גו�
 
 This week's Shabbos leining is the second longest of the year,
 ⁧ויקהל⁩/⁧פקודי פרשת החדש⁩. In ⁧ויקהל⁩, ⁧משה רבינו⁩ makes a definitive statement
-(35: 10): ⁧וְכׇל חֲכַם לֵב בָּכֶם יָבֹאוּ וְיַעֲשׂוּ אֵת כׇּל אֲשֶׁר צִוָּה⁩ ⁦ה׳⁩ - All of those who
+(35:10): ⁧וְכׇל חֲכַם לֵב בָּכֶם יָבֹאוּ וְיַעֲשׂוּ אֵת כׇּל אֲשֶׁר⁩ ⁦צִוָּה ה׳⁩ - All of those who
 have a wise heart will come and do everything that Hashem has commanded.
 Rabbi Dr. Abraham Twerski ⁦זצ״ל⁩, the famous psychiatrist and ⁧תלמיד חכם⁩,
 has a story that relates to this pasuk:
@@ -5134,7 +5117,7 @@ The wise among you will do as Hashem instructs. At ⁧הר סיני⁩, all the
 people answered ⁧נַעֲשֶׂה וְנִשְׁמָע⁩. In observing the ⁧תורה⁩, we must do what we
 are told, even if we don't understand why. ⁧משה רבינו⁩ was not preaching,
 he was living according to his own teachings. And it says everywhere,
-through the whole ⁧פרשה⁩, ⁧בני ישראל⁩ did: ⁧כַּאֲשֶׁר צִוָּה⁩ ⁦ה׳⁩ ⁧אֶת מֹשֶׁה⁩ - what ⁧משה⁩
+through the whole ⁧פרשה⁩, ⁧בני ישראל⁩ did: ⁧כַּאֲשֶׁר⁩ ⁦צִוָּה ה׳⁩ ⁧אֶת מֹשֶׁה⁩ - what ⁧משה⁩
 told them to do, and Baruch Hashem they were successful. Their superior
 intelligence notwithstanding, they did everything only as Hashem
 commanded, and not because they understood it.
@@ -5167,10 +5150,10 @@ other ⁧נביאים⁩. He wanted to write what ⁧בלעם⁩ got, which was 
 said that he should write ⁧ויקרא⁩, and the compromise was the little ⁧א⁩ in
 ⁧ויקרא⁩.
 
-⁧פסוק⁩ ⁦א׳⁩ continues ⁧וַיְדַבֵּר⁩ ⁦ה׳⁩ ⁧אֵלָיו מֵאֹהֶל מוֹעֵד לֵאמֹר⁩ . The ⁧אזנים לתורה⁩, the
+⁦פסוק א׳⁩ continues ⁦וַיְדַבֵּר ה׳⁩ ⁧אֵלָיו מֵאֹהֶל מוֹעֵד לֵאמֹר⁩ . The ⁧אזנים לתורה⁩, the
 ⁧הייליגא⁩ Lutzker Rav, R' Zalman Sorotzkin, asks, why did ⁧משה רבינו⁩ wait
 for Hashem to call him? Nowhere else do we see this wording. Typically,
-the ⁧תורה⁩ states, ⁧וַיְדַבֵּר⁩ ⁦ה׳⁩ ⁧אֶל מֹשֶׁה לֵאמֹר⁩. Why here does it say, ⁧וַיִּקְרָא אֶל
+the ⁧תורה⁩ states, ⁦וַיְדַבֵּר ה׳⁩ ⁧אֶל מֹשֶׁה לֵאמֹר⁩. Why here does it say, ⁧וַיִּקְרָא אֶל
 מֹשֶׁה⁩ - that Hashem called to ⁧משה⁩?
 
 The ⁧אזנים לתורה⁩ brings down a ⁧מדרש תנחומא⁩. ⁧משה רבינו⁩ assumed that once
@@ -5182,12 +5165,11 @@ allowing ⁧כלל ישראל⁩ to maintain a connection with ⁧הקדוש ב�
 important than anything else that you have done. I want you to teach ⁧בני
 ישראל⁩ the ⁧הלכות⁩ of ⁧טומאה וטהרה⁩, to warn them that you have to be in a
 proper state, because their job is to be ⁧מקריב קרבנות⁩ before Me. This
-language of the ⁧תנחומא⁩ raises a question: ⁧מְלָאכָה גְּדוֹלָה מִכָּל מַה שֶּׁעָשִׂיתָ⁩ -
-bigger than anything else you have done? ⁧קריעת ים סוף⁩ is pretty
+language of the ⁧תנחומא⁩ raises a question: ⁧מְלָאכָה גְּדוֹלָה מִכָּל מַה שֶּׁעָשִׂיתָ⁩ - bigger than anything else you have done? ⁧קריעת ים סוף⁩ is pretty
 impressive, ⁧אפילו קריעת ים סוף⁩?
 
 The ⁧אזנים לתורה⁩ answers that the ⁧תנחומא⁩ is teaching us that ⁧בני ישראל⁩
-needed to be taught that in order to go up to the ⁧הר⁩ ⁦ה׳⁩, ⁧מִי יַעֲלֶה בְהַר⁩ ⁦ה׳⁩
+needed to be taught that in order to go up to the ⁦הר ה׳⁩, ⁧מִי יַעֲלֶה⁩ ⁦בְהַר ה׳⁩
 ⁧וּמִי יָקוּם בִּמְקוֹם קׇדְשׁוֹ⁩, going up is important, but to be ⁧יָקוּם בִּמְקוֹם קׇדְשׁוֹ⁩,
 how do we get there and stay at that level? That is through the medium
 of ⁧טומאה וטהרה⁩, we can achieve ⁧דְבֵקוּת⁩ to Hashem with the ⁧קרבנות⁩. How is
@@ -5197,14 +5179,14 @@ between a husband and a wife, is even greater than ⁧קריעת ים סוף⁩.
 Therefore, the Lutzker Rav says, the ⁧זיווג⁩ of ⁧כלל ישראל⁩ and ⁧הקדוש ברוך
 הוא⁩ is even ⁧קשה מקריעת ים סוף⁩.
 
-It happens to be that this past Monday, ⁦כ\"ז⁩ ⁧אדר⁩, was the first ⁧יארצייט⁩
+It happens to be that this past Monday, ⁦כ\"ז אדר⁩, was the first ⁧יארצייט⁩
 of my ⁧תיירה מאמא⁩, ⁧תמר רייזל בת מרדכי צבי⁩, and in whose ⁧זכות⁩ we are
 learning, and in ⁧זכות⁩ of my father, ⁧אהרן בן יששכר⁩, and my ⁧תיירה ברידר⁩,
 ⁧אברהם יהודה בן אהרן⁩. Decades ago, my mother was honored at the Young
 Israel of Forest Hills, and it happened to be during this very week. I
 was looking for a ⁧דבר תורה⁩ to find to say in her honor, and I used this
 particular ⁧דבר תורה⁩ at that time, and pointed out that her job in life
-was constantly to be ⁧מעלה בקדש⁩ to go up and up, ⁧יַעֲלֶה בְהַר⁩ ⁦ה׳⁩, and she was
+was constantly to be ⁧מעלה בקדש⁩ to go up and up, ⁧יַעֲלֶה⁩ ⁦בְהַר ה׳⁩, and she was
 successful in ⁧וּמִי יָקוּם בִּמְקוֹם קׇדְשׁוֹ⁩. The ⁧זכות⁩ of this learning should be
 an ⁧עלית נשמה⁩ for her, and we should all be ⁧זוכה⁩ to follow in her
 footsteps.
@@ -5224,7 +5206,7 @@ the incredible spiritual level of the ⁧קרבנות⁩. We would do well to fo
 on them, study them, and learn them to the best of our abilities.
 
 One of the ⁧קרבנות⁩ mentioned in this ⁧פרשה⁩ refers to the ⁧מלך⁩. In the
-middle of the ⁧פרשה⁩, the ⁧פסוק⁩ (4: 22) begins with three words: ⁧אֲשֶׁר נָשִׂיא
+middle of the ⁧פרשה⁩, the ⁧פסוק⁩ (4:22) begins with three words: ⁧אֲשֶׁר נָשִׂיא
 יֶחֱטָא⁩. One of the ⁧מפרשים⁩ makes an interesting observation: it does not
 say ⁧אם נָשִׂיא יֶחֱטָא⁩ - "If the ⁧נשיא⁩ \[which refers to the ⁧מלך⁩\] will do an
 ⁦עבירה"⁩ - but rather ⁧אֲשֶׁר⁩ - "When he will do an ⁧עבירה⁩\." Why? The reason
@@ -5234,7 +5216,7 @@ and expected that the ⁧נשיא⁩ will commit ⁧עבירות⁩. The authori
 given to him can go to his head.
 
 The ⁧מפרש⁩ then offers a fascinating insight into these three words, ⁧אֲשֶׁר
-נָשִׂיא יֶחֱטָא⁩. What are the first letters of each word?⁦א' נ' י'⁩ - ⁧אני⁩. "It's
+נָשִׂיא יֶחֱטָא⁩. What are the first letters of each word?⁦א' נ'⁩ ⁦י'⁩ - ⁧אני⁩. "It's
 me. It's all about me." We see this every day, everywhere in the world.
 Power brings corruption to leaders. The ⁧פסוק⁩ is teaching us that the
 ⁧תורה⁩ understands human nature all too well, and this is precisely what
@@ -5272,15 +5254,14 @@ amount of ⁧ספרים⁩ is ⁧ספר ויקרא⁩. I always emphasize this p
 demonstrates that every ⁧פרט⁩ in ⁧ספר ויקרא⁩ contains a world of learning
 and a world of ⁧תורה⁩.
 
-The ⁧פסוק⁩ says in ⁧פסוק ב⁩:⁧דַּבֵּר אֶל בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם אָדָם כִּי יַקְרִיב מִכֶּם
-קׇרְבָּן⁩ ⁦לַה׳⁩. Why is the word ⁧אדם⁩ included? ⁦רש\"י⁩ on the spot explains: ⁧מָה
+The ⁧פסוק⁩ says in ⁧פסוק ב⁩:⁧דַּבֵּר אֶל בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם אָדָם כִּי יַקְרִיב מִכֶּם⁩
+⁦קׇרְבָּן לַה׳⁩. Why is the word ⁧אדם⁩ included? ⁦רש\"י⁩ on the spot explains: ⁧מָה
 אָדָם הָרִאשׁוֹן לֹא הִקְרִיב מִן הַגָּזֵל⁩ - just as ⁧אדם הראשון⁩ could not bring a ⁧קרבן⁩
 from stolen property (as he owned everything), so too, you are not
 allowed to steal an animal and offer it as a ⁧קרבן⁩\; it must be your own.
 
-The ⁧ספר אפריון⁩, written by ⁦ר'⁩ ⁧שלמה גנצפריד⁩ ⁦זצ\"ל⁩ - a tremendous ⁧גאון⁩ -
-offers an additional perspective. The ⁧פסוק⁩ could have simply said: ⁧דַּבֵּר
-אֶל בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם כִּי יַקְרִיב מִכֶּם קׇרְבָּן⁩ ⁦לַה׳⁩. What is the word ⁧אדם⁩
+The ⁧ספר אפריון⁩, written by ⁦ר' שלמה⁩ ⁦גנצפריד זצ\"ל⁩ - a tremendous ⁧גאון⁩ - offers an additional perspective. The ⁧פסוק⁩ could have simply said: ⁧דַּבֵּר
+אֶל בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם כִּי יַקְרִיב מִכֶּם⁩ ⁦קׇרְבָּן לַה׳⁩. What is the word ⁧אדם⁩
 coming to teach us that we would not have otherwise known?
 
 The ⁧אפריון⁩ presents a fascinating insight involving many ⁧גמטריות⁩ and
@@ -5288,11 +5269,11 @@ deep mathematical concepts. I will try my best to do justice to it, and
 if I do not succeed, it is not the ⁦אפריון'⁩s fault, but mine. He quotes a
 ⁧ספר⁩, which I had never heard of - though that is not unusual - called
 ⁧שפע טל⁩, "The Bounty of Dew." He brings it down in the name of ⁧מקובלים⁩,
-so we immediately know that this is a ⁧קבלה⁩-based idea rather than a
+so we immediately know that this is a ⁧קבלה⁩ - based idea rather than a
 simple ⁧פשט⁩. ⁧הקדוש ברוך הוא⁩, ⁧מלך מלכי המלכים⁩, is understood through His
-⁧מעשים⁩ and through His ⁧מצוות⁩. His name consists of ⁦רמ\"ח⁩ ⁧מצוות עשה⁩ ⁦ושס\"ה⁩
+⁧מעשים⁩ and through His ⁧מצוות⁩. His name consists of ⁦רמ\"ח מצוות⁩ ⁦עשה ושס\"ה⁩
 ⁧מצוות לא תעשה⁩ - the 613 ⁧מצוות⁩, broken into 248 positive ⁧מצוות⁩ and 365
-negative ⁧מצוות⁩. What is the ⁧רמז⁩ for this? The ⁧פסוק⁩ in ⁧שמות⁩ ⁦ג׳⁩:⁦ט״ו⁩
+negative ⁧מצוות⁩. What is the ⁧רמז⁩ for this? The ⁧פסוק⁩ in ⁦שמות ג׳⁩:⁦ט״ו⁩
 states: ⁧זֶה שְּׁמִי לְעֹלָם וְזֶה זִכְרִי לְדֹר דֹּר⁩. If you take the ⁧גמטריא⁩ of the word
 ⁧שמי⁩ along with the first half of Hashem's name - ⁦י׳⁩, ⁦ה׳⁩, ⁦ו׳⁩, ⁦ה׳⁩ - it
 equals 365, the number of ⁧לא תעשה⁩ s. ⁧שמי⁩ equals 350, and ⁦י׳⁩ and ⁦ה׳⁩ add
@@ -5305,17 +5286,17 @@ totaling 248. Thus, the two halves of Hashem's name, together with this
 
 Now, all of the ⁧נשמות⁩ from the beginning of time until ⁧משיח⁩ comes - all
 of ⁧כלל ישראל⁩ - are a ⁧חלק אלוק ממעל⁩. We know that our ⁧נשמות⁩ come from
-⁧הקדוש ברוך הוא⁩ Himself, as the ⁧פסוק⁩ in ⁧דברים⁩ ⁦ל״ב⁩:⁦ט׳⁩ states: ⁧כִּי חֵלֶק⁩ ⁦ה׳⁩
+⁧הקדוש ברוך הוא⁩ Himself, as the ⁧פסוק⁩ in ⁦דברים ל״ב⁩:⁦ט׳⁩ states: ⁧כִּי⁩ ⁦חֵלֶק ה׳⁩
 ⁧עַמּוֹ⁩. That ⁧חלק⁩ - the portion of Hashem - is our ⁧נשמות⁩. The ⁧אפריון⁩ brings
 another fascinating principle: when you have a ⁧חלק⁩ (a portion) of
 something, it is exactly the same as the original. A sample of something
 is identical to the whole. In Hebrew: ⁧החלק הנחלק מאיזה דבר הוא שוה ודומה
 בעינו לאותו דבר שנחלק ממנו⁩ - There is no difference between the ⁧חלק⁩ and
-the actual item itself. Since we are a ⁧חלק⁩ ⁦ה׳⁩, that means we are ⁧דומה⁩ to
+the actual item itself. Since we are a ⁦חלק ה׳⁩, that means we are ⁧דומה⁩ to
 ⁧הקדוש ברוך הוא⁩. What part of us reflects this? The inner ⁧אור⁩, the light
 of our ⁧נשמה⁩, which is infinite and has no ⁧גשמיות⁩ whatsoever. Our ⁧נשמה⁩ is
 a ⁧חלק אלוק ממעל⁩ - a spark of ⁧הקדוש ברוך הוא⁩ - given to us as a ⁧זכות⁩, a
-part of Himself. This ⁧נשמה⁩ is connected to the ⁦תרי\"ג⁩ ⁧מצוות⁩, and is
+part of Himself. This ⁧נשמה⁩ is connected to the ⁦תרי\"ג מצוות⁩, and is
 equivalent to Hashem's name. How so?
 
 We mention this concept many times in our ⁧תפילות⁩, specifically in
@@ -5332,16 +5313,16 @@ that the ⁧ראשי תיבות⁩ and ⁧סוף תיבות⁩ of these three wo
 ⁦תרי\"ג⁩. This ⁦תרי\"ג⁩ represents both our spiritual and physical being,
 which are rooted in the ⁦רמ\"ח ושס\"ה⁩ - the ⁧מצוות⁩ connected to ⁧הקדוש ברוך
 הוא⁩. The visible parts of our ⁧גוף⁩ - our ⁧אברים⁩ and ⁧גידים⁩ - are merely a
-⁧לבוש⁩, a ⁧סכַך⁩, for the ⁧נשמה⁩. The ⁧פסוק⁩ in ⁧איוב⁩ ⁦י׳⁩:⁦י״א⁩ describes this: ⁧עוֹר
+⁧לבוש⁩, a ⁧סכַך⁩, for the ⁧נשמה⁩. The ⁧פסוק⁩ in ⁦איוב י׳⁩:⁦י״א⁩ describes this: ⁧עוֹר
 וּבָשָׂר תַּלְבִּישֵׁנִי וּבַעֲצָמוֹת וְגִידִים תְּשֹׂכְכֵנִי⁩. The vital component of ⁧אדם⁩ consists
-of the ⁦תרי\"ג⁩ ⁧מצוות⁩, which is precisely the same as the name of ⁧הקדוש
+of the ⁦תרי\"ג מצוות⁩, which is precisely the same as the name of ⁧הקדוש
 ברוך הוא⁩, which expresses His essence. So we see demonstrated that a ⁧חלק⁩
 of something is exactly the same as the original. ⁧אדם⁩ is a ⁧חלק אלוק
 ממעל⁩. Since Hashem's name with ⁧זֶה שְּׁמִי וְזֶה זִכְרִי⁩ totals ⁦תרי\"ג⁩, therefore
 ⁧אדם⁩, made up of ⁧נפש⁩, ⁧רוח⁩ and ⁧נשמה⁩, also totals ⁦תרי\"ג⁩.
 
 Now, in ⁧פסוק ג⁩ of our ⁧פרשה⁩, there is another difficult word: ⁧אִם עֹלָה
-קׇרְבָּנוֹ מִן הַבָּקָר זָכָר תָּמִים יַקְרִיבֶנּוּ אֶל פֶּתַח אֹהֶל מוֹעֵד יַקְרִיב אֹתוֹ לִרְצֹנוֹ לִפְנֵי⁩ ⁦ה׳⁩.
+קׇרְבָּנוֹ מִן הַבָּקָר זָכָר תָּמִים יַקְרִיבֶנּוּ אֶל פֶּתַח אֹהֶל מוֹעֵד יַקְרִיב אֹתוֹ לִרְצֹנוֹ⁩ ⁦לִפְנֵי ה׳⁩.
 The difficult word here is ⁧לִרְצֹנוֹ⁩ - what does that mean? When a person
 brings a ⁧קרבן⁩, it has to be ⁧לִרְצֹנוֹ⁩, meaning he must want to do it. But
 the question is, if the person doesn't want to bring the ⁧קרבן⁩, why is he
@@ -5373,7 +5354,7 @@ when it comes to doing the ⁧רצון השם⁩.
 
 The ⁧אפריון⁩ emphasizes that the ⁧נשמה⁩, which is called ⁧אדם⁩, is a ⁧חלק אלוק
 ממעל⁩. This is what defines ⁧אדם⁩ - the real ⁧אדם⁩ is one who strives to
-fulfill all of the ⁦תרי\"ג⁩ ⁧מצוות⁩. ⁧אדם התחתון⁩ connects to ⁧אדם העליון⁩, and
+fulfill all of the ⁦תרי\"ג מצוות⁩. ⁧אדם התחתון⁩ connects to ⁧אדם העליון⁩, and
 the word ⁧אדם⁩ represents our ⁧פנימיות⁩, our highest ideals. A true ⁧אדם⁩ is
 one who recognizes that his ⁧גשמיות⁩ is merely a covering for his ⁧נשמה⁩.
 When the ⁧פסוק⁩ states: ⁧אָדָם כִּי יַקְרִיב מִכֶּם⁩, it means that by bringing a
@@ -5409,7 +5390,7 @@ We can gain some insight into what ⁧הקדוש ברוך הוא⁩ considers to
 and how we should orient ourselves by looking at another instance where
 the word ⁧גדול⁩ is used. Where do we find this? At ⁧קריעת ים סוף⁩, which
 took place at the end of ⁧פסח⁩. What does the ⁧פסוק⁩ which we recite every
-day in davening, say? ⁧וַיַּרְא יִשְׂרָאֵל אֶת הַיָּד הַגְּדֹלָה אֲשֶׁר עָשָׂה⁩ ⁦ה׳⁩ ⁧בְּמִצְרָיִם⁩ - They
+day in davening, say? ⁧וַיַּרְא יִשְׂרָאֵל אֶת הַיָּד הַגְּדֹלָה אֲשֶׁר⁩ ⁦עָשָׂה ה׳⁩ ⁧בְּמִצְרָיִם⁩ - They
 witnessed the great hand of Hashem, in that which he did to ⁧מצרים⁩. This
 is written immediately after ⁧קריעת ים סוף⁩.
 
@@ -5428,7 +5409,7 @@ experience, realize, and internalize that ⁧הקדוש ברוך הוא⁩ runs 
 even in the mundane forces of nature, such as gravity.
 
 This is what ⁧גדולה⁩ truly is. ⁧גדולה⁩ is recognizing ⁧השם אחד ושמו אחד⁩ and
-living with the awareness of ⁧שִׁוִּיתִי⁩ ⁦ה׳⁩ ⁧לְנֶגְדִּי תָמִיד⁩. We must realize that
+living with the awareness of ⁦שִׁוִּיתִי ה׳⁩ ⁧לְנֶגְדִּי תָמִיד⁩. We must realize that
 Hashem is constantly with us - no matter what we are doing, no matter
 how we act. ⁧גדולה⁩ is present in every moment, in every step we take, in
 every breath we breathe. We must appreciate this and keep it in mind as
@@ -5494,8 +5475,8 @@ are put on the line and in harm's way as they strive to help ⁧כלל ישרא�
 and rid us of our enemies. We are also celebrating the ⁧אופרוף⁩ of the
 newest member of our family, the honorable R' Chaim Mandel. We embrace
 and welcome him with open arms into our ever-growing and ever-improving
-family. Additionally, the ⁧יארצייט⁩ of my ⁧טהרה מאמא תמר רייזל בת מרדכי צבי⁩
-⁦ע״ה⁩ is approaching in the next week or two, and ⁧בעזרת השם⁩, this learning
+family. Additionally, the ⁧יארצייט⁩ of my ⁧טהרה מאמא תמר רייזל בת מרדכי⁩ ⁦צבי
+ע״ה⁩ is approaching in the next week or two, and ⁧בעזרת השם⁩, this learning
 should be an ⁧עליה⁩ for her ⁧נשמה⁩.
 
 ⁧פרשת צו⁩, which continues to discusses more details of the ⁧קרבנות⁩ begun
@@ -5506,8 +5487,7 @@ leining, has a fascinating ⁦רש\"י⁩ on the words ⁧פָרָה אֲדֻמ�
 in his ⁧חומש שיעור⁩ pointed out this ⁦רש\"י⁩, I'll read it to you from ⁧פרשת
 חקת⁩:⁧מָשָׁל לְבֶן שִׁפְחָה שֶׁטִּנֵּף פָּלָטִין שֶׁל מֶלֶךְ⁩ - A servant woman brought her baby
 to the king's palace and the baby made a mess; ⁧אָמְרוּ תָּבֹא אִמּוֹ וּתְקַנֵּחַ הַצּוֹאָה⁩
-\- Let his mother come and clean up the mess; ⁧כָּךְ תָּבֹא פָרָה וּתְכַפֵּר עַל הָעֵגֶל⁩ -
-so too the ⁧פרה אדומה⁩ comes to be ⁧מכפר⁩ the ⁧חטא⁩ of the ⁧עגל⁩, the greatest
+\- Let his mother come and clean up the mess; ⁧כָּךְ תָּבֹא פָרָה וּתְכַפֵּר עַל הָעֵגֶל⁩ - so too the ⁧פרה אדומה⁩ comes to be ⁧מכפר⁩ the ⁧חטא⁩ of the ⁧עגל⁩, the greatest
 ⁧חטא⁩ in history, which we had in ⁧פרשת כי תשא⁩ just a few weeks ago.
 
 Rabbi Oelbaum cited the ⁧טעם ודעת⁩ from R' Moshe Sternbuch, who quoted Rav
@@ -5517,8 +5497,8 @@ requiring his mother to come clean it up? Another item which Rabbi
 Oelbaum alluded to is the unpleasant experience of a child's dirty
 diaper. What purpose could there possibly be for such an occurrence?
 
-He brings a beautiful explanation, based on a ⁧פסוק⁩ in ⁧ישעיהו⁩ ⁦(ד׳:ד׳)⁩: ⁧אִם
-רָחַץ⁩ ⁦ה׳⁩ ⁧אֵת צֹאַת בְּנוֹת צִיּוֹן⁩. What does this mean? When a baby soils himself,
+He brings a beautiful explanation, based on a ⁧פסוק⁩ in ⁧ישעיהו⁩ ⁦(ד׳:ד׳)⁩: ⁧אִם⁩
+⁦רָחַץ ה׳⁩ ⁧אֵת צֹאַת בְּנוֹת צִיּוֹן⁩. What does this mean? When a baby soils himself,
 most people are repulsed. They step away, wrinkle their noses, and say,
 "Ugh, that stinks! Take him away!" The entire world finds the situation
 disgusting and unpleasant. But there is one person who rushes to take
@@ -5526,8 +5506,7 @@ care of the baby, who embraces the responsibility with love and care -
 his mother. The mother does not recoil; instead, she runs to clean him
 up, comfort him, and make him feel better. She does this out of pure
 love, knowing that her care will help him. This, says the ⁧נביא⁩, is our
-relationship with ⁧הקדוש ברוך הוא⁩. The ⁧חטא העגל⁩ was a horrifying ⁧עבירה⁩ -
-an act of spiritual defilement committed right there at ⁧הר סיני⁩. Who
+relationship with ⁧הקדוש ברוך הוא⁩. The ⁧חטא העגל⁩ was a horrifying ⁧עבירה⁩ - an act of spiritual defilement committed right there at ⁧הר סיני⁩. Who
 could possibly cleanse such a stain? Only ⁧הקדוש ברוך הוא⁩ Himself. And
 how does He do it? Through the ⁧פרה אדומה⁩. Just as a mother lovingly
 cleans her child despite the mess, ⁧הקדוש ברוך הוא⁩, in His infinite love
@@ -5559,7 +5538,7 @@ Im Yirtzeh Hashem, may our family continue to grow both in ⁧כמות⁩ and
 ⁧כהנים⁩ regarding the ⁧קרבנות⁩. These are intricate and detailed ⁧מצוות⁩,
 which are completed by ⁧רביעי⁩. Then, in ⁧רביעי⁩, the ⁧תורה⁩ resumes the
 narrative of preparing the ⁧משכן⁩ and the ⁧כהנים⁩ for the ⁧עבודה⁩. It says
-(8: 3) ⁧וְאֵת כׇּל הָעֵדָה הַקְהֵל אֶל פֶּתַח אֹהֶל מוֹעֵד⁩ - a seemingly simple ⁧פסוק⁩, but
+(8:3) ⁧וְאֵת כׇּל הָעֵדָה הַקְהֵל אֶל פֶּתַח אֹהֶל מוֹעֵד⁩ - a seemingly simple ⁧פסוק⁩, but
 upon reflection, it is quite astounding. The entire congregation
 gathered in front of the ⁧אהל מועד⁩. How big was the ⁧אהל מועד⁩?
 Approximately 50 by 100 ⁧אמות⁩. And yet, we are talking about three
@@ -5575,7 +5554,7 @@ desires. ⁧הקדוש ברוך הוא⁩ performed this ⁧נס⁩ to ensure th
 
 There are two important lessons to take from this. First, ⁧הקדוש ברוך הוא⁩
 desires the participation of every single Jew because each and every one
-of us is significant. Second, ⁧הקדוש ברוך⁩ ⁦הוא'⁩s ⁧גבורה⁩ is evident even in
+of us is significant. Second, ⁧הקדוש⁩ ⁦ברוך הוא'⁩s ⁧גבורה⁩ is evident even in
 the smallest details - like this seemingly simple ⁧פסוק⁩, which hides
 within it an incredible ⁧נס⁩. This is Hashem's ⁧דרך⁩, to embed profound
 miracles in the mundane.
@@ -5675,13 +5654,13 @@ was ⁧שורה⁩, and all the people saw it. This is followed by the tragedy o
 ⁧נדב⁩ and ⁧אביהוא⁩. In their enthusiasm and ⁧קדושה⁩ to serve Hashem, they
 performed an ⁧עבודה⁩ that was uncalled for. Since it was not a ⁧צווי⁩ from
 Hashem, they paid the ultimate price and were burnt up. Immediately
-after that, the ⁧תורה⁩ says (3: 10)⁧וַיִּדֹּם אַהֲרֹן⁩ - ⁧אהרן⁩ accepted Hashem's
+after that, the ⁧תורה⁩ says (3:10)⁧וַיִּדֹּם אַהֲרֹן⁩ - ⁧אהרן⁩ accepted Hashem's
 judgment in silence. In the great ⁧זכות⁩ of ⁧וַיִּדֹּם אַהֲרֹן⁩, he was ⁧זוכה⁩ to
 receive the next ⁧פרשה⁩ in the ⁧תורה⁩, the ⁧פרשה⁩ of ⁧שתויי יין⁩. The ⁧פסוק⁩
-states: ⁧וַיְדַבֵּר⁩ ⁦ה׳⁩ ⁧אֶל אַהֲרֹן לֵאמֹר⁩, rather than the usual wording of ⁧וַיְדַבֵּר⁩ ⁦ה׳⁩
+states: ⁦וַיְדַבֵּר ה׳⁩ ⁧אֶל אַהֲרֹן לֵאמֹר⁩, rather than the usual wording of ⁦וַיְדַבֵּר ה׳⁩
 ⁧אֶל מֹשֶׁה לֵאמֹר⁩. Immediately following this, ⁧משה רבינו⁩ commanded them to
 continue the ⁧עבודה⁩. However, when he discovered that not all of the
-⁧קרבנות⁩ had been eaten, the ⁧פסוק⁩ states (10: 16): ⁧וְאֵת שְׂעִיר הַחַטָּאת דָּרֹשׁ דָּרַשׁ
+⁧קרבנות⁩ had been eaten, the ⁧פסוק⁩ states (10:16): ⁧וְאֵת שְׂעִיר הַחַטָּאת דָּרֹשׁ דָּרַשׁ
 מֹשֶׁה וְהִנֵּה שֹׂרָף וַיִּקְצֹף עַל אֶלְעָזָר וְעַל אִיתָמָר בְּנֵי אַהֲרֹן הַנּוֹתָרִם לֵאמֹר⁩ - Moshe
 became angry at ⁧אלעזר⁩ and ⁧איתמר⁩ that the ⁧קרבן חטאת⁩ had been burnt,
 accusing them of neglecting their responsibility. ⁧אהרן הכהן⁩ defended
@@ -5700,12 +5679,11 @@ that states ⁧כאן חצי התורה⁩, and he explains as follows. ⁧תו�
 ⁧תורה⁩. Through ⁧תורה שבעל פה⁩, we are able to fathom, grasp, and understand
 the deep and hidden secrets within ⁧תורה שבכתב⁩. Without ⁧תורה שבעל פה⁩,
 ⁧תורה שבכתב⁩ cannot be fully understood - it is only half of a ⁧ספר⁩.
-Everything is hidden within it, and only through the ⁦י\"ג⁩ ⁧מידות⁩ and the
+Everything is hidden within it, and only through the ⁦י\"ג מידות⁩ and the
 ⁧רוח הקודש⁩ of our ⁧חכמים⁩ were these secrets unlocked, allowing us to
 comprehend the ⁧תורה הקדושה⁩. Therefore, the ⁧דגל מחנה אפרים⁩ uses a very
-strong ⁧לשון⁩:⁧מי שכופר בקל וחומר או דרוש אחד מן החכמים⁩, ⁧כופר בתורת משה⁩ -
-Not only is it ⁧כפירה⁩ to deny a ⁧פסוק⁩ or a ⁧הלכה⁩, but even if a person does
-not accept the ⁦י\"ג⁩ ⁧מידות⁩ as ⁧תורה שבעל פה⁩, he is considered a ⁧כופר⁩.
+strong ⁧לשון⁩:⁧מי שכופר בקל וחומר או דרוש אחד מן החכמים⁩, ⁧כופר בתורת משה⁩ - Not only is it ⁧כפירה⁩ to deny a ⁧פסוק⁩ or a ⁧הלכה⁩, but even if a person does
+not accept the ⁦י\"ג מידות⁩ as ⁧תורה שבעל פה⁩, he is considered a ⁧כופר⁩.
 
 This is what the ⁧פסוק⁩ is teaching us: ⁧דָּרֹשׁ דָּרַשׁ מֹשֶׁה⁩ - this is half of the
 ⁧תורה⁩, to teach us that ⁧תורה שבעל פה⁩ is the other half of the ⁧תורה שבכתב⁩.
@@ -5722,8 +5700,8 @@ and fulfill all of Hashem's ⁧ציוויים⁩.
 = Shmini 5784
 
 In ⁧פרשת שמיני⁩, the ⁧ספר אפריון⁩, written by ⁧רב שלמה גאנצפריד⁩, the ⁧בעל
-קיצור שולחן ערוך⁩, brings down a well-known ⁧גמרא⁩ in ⁧מסכת מגילה דף⁩ ⁦י״ב
-ע״ב⁩. He quotes a ⁧ברייתא⁩ that explains the phrase ⁧וַיְהִי בַּיּוֹם הַשְּׁמִינִי⁩,
+קיצור שולחן ערוך⁩, brings down a well-known ⁧גמרא⁩ in ⁧מסכת מגילה⁩ ⁦דף י״ב⁩
+⁦ע״ב⁩. He quotes a ⁧ברייתא⁩ that explains the phrase ⁧וַיְהִי בַּיּוֹם הַשְּׁמִינִי⁩,
 comparing it to the ⁧שמחה⁩ that ⁧הקדוש ברוך הוא⁩ had when He created ⁧שמים
 וארץ⁩. Just as there was ⁧שמחה⁩ at the beginning of creation, so too there
 was ⁧שמחה⁩ on the eighth day, when the ⁧משכן⁩ was inaugurated.
@@ -5733,8 +5711,8 @@ It connects this idea to ⁧בראשית⁩, where it says: ⁧וַיְהִי ע
 the ⁧מקדש⁩ is considered ⁧בריאת עולם מעט⁩, a microcosm of creation. However,
 the ⁧מדרש⁩ he brings adds an even deeper and more meaningful perspective.
 
-The ⁧פסוק⁩ states: ⁧וַיִּשְׁמְעוּ אֶת קוֹל⁩ ⁦ה׳⁩ ⁧אֱלֹקִים מִתְהַלֵּךְ בַּגָּן⁩. This indicates that
-⁧הקדוש ברוך⁩ ⁦הוא'⁩s original ⁧מחשבה⁩ was for His ⁧שכינה⁩ to dwell permanently
+The ⁧פסוק⁩ states: ⁧וַיִּשְׁמְעוּ אֶת⁩ ⁦קוֹל ה׳⁩ ⁧אֱלֹקִים מִתְהַלֵּךְ בַּגָּן⁩. This indicates that
+⁧הקדוש⁩ ⁦ברוך הוא'⁩s original ⁧מחשבה⁩ was for His ⁧שכינה⁩ to dwell permanently
 in this world, among the ⁧תחתונים⁩. However, once ⁧אדם הראשון⁩ was ⁧חוטא⁩, the
 ⁧שכינה⁩ was ⁧נסתלק⁩ to the first ⁧רקיע⁩, moving one level above this world.
 
@@ -5746,10 +5724,10 @@ to the seventh and highest ⁧רקיע⁩.
 
 However, ⁧הקדוש ברוך הוא⁩ sent seven ⁧צדיקים⁩ to bring the ⁧שכינה⁩ back down
 to ⁧ארץ⁩:⁧אברהם⁩, ⁧יצחק⁩, ⁧יעקב⁩, ⁧לוי⁩, ⁧קהת⁩, ⁧עמרם⁩, and ⁧משה⁩. When the ⁧משכן⁩ was
-completed, the ⁧שכינה⁩ finally returned to this world, fulfilling ⁧הקדוש
-ברוך⁩ ⁦הוא'⁩s original desire. This is expressed in the ⁧פסוק⁩:⁧אִוָּהּ לְמֹושָׁב לֹו⁩
+completed, the ⁧שכינה⁩ finally returned to this world, fulfilling ⁧הקדוש⁩
+⁦ברוך הוא'⁩s original desire. This is expressed in the ⁧פסוק⁩:⁧אִוָּהּ לְמֹושָׁב לֹו⁩
 ⁦(תהילים קל״ב:י״ג)⁩ - Hashem desired to dwell here in this world. That is
-why it says: (⁧וְעָשׂוּ לִי מִקְדָּשׁ וְשָׁכַנְתִּי בְּתוֹכָם⁩ (⁧שמות⁩ ⁦כ״ה⁩:⁦ח׳⁩. This teaches us
+why it says: (⁧וְעָשׂוּ לִי מִקְדָּשׁ וְשָׁכַנְתִּי בְּתוֹכָם⁩ (⁦שמות כ״ה⁩:⁦ח׳⁩. This teaches us
 that the ⁧שכינה⁩ had a deep ⁧תשוקה⁩ to return to this ⁧עולם⁩. Therefore, the
 ⁧שמחה⁩ that ⁧הקדוש ברוך הוא⁩ had on the day of ⁧בריאת שמים וארץ⁩ was the same
 ⁧שמחה⁩ as on the day the ⁧משכן⁩ was inaugurated, because that day allowed
@@ -5758,9 +5736,9 @@ the ⁧שכינה⁩ to return to the ⁧תחתונים⁩.
 Whenever we fulfill ⁧וְעָשׂוּ לִי מִקְדָּשׁ וְשָׁכַנְתִּי בְּתוֹכָם⁩, whenever we establish a
 ⁧בית נאמן בישראל⁩, we are building a miniature ⁧מקדש⁩. In the ⁧זכות⁩ of
 building a new ⁧בית נאמן בישראל⁩ - through every ⁧חתונה⁩, and especially,
-⁧בעזרת⁩ ⁦ה׳⁩, through the ⁧חתונות⁩ in our own ⁧משפחה⁩, with our ⁧קינדערלאך⁩ and
+⁦בעזרת ה׳⁩, through the ⁧חתונות⁩ in our own ⁧משפחה⁩, with our ⁧קינדערלאך⁩ and
 ⁧אייניקלעך⁩, and for all future ⁧דורות⁩ - we contribute to bringing the
-⁧שכינה⁩ back into this ⁧עולם⁩. In doing so, we fulfill ⁧הקדוש ברוך⁩ ⁦הוא'⁩s
+⁧שכינה⁩ back into this ⁧עולם⁩. In doing so, we fulfill ⁧הקדוש⁩ ⁦ברוך הוא'⁩s
 deepest ⁧רצון⁩ of ⁧וְשָׁכַנְתִּי בְּתוֹכָם⁩.
 
 #pagebreak()
@@ -5773,7 +5751,7 @@ columnists, R' Chaim Yosef Kofman ⁦זצ\"ל⁩. He was a contributor to R'
 Hoffman's Torah Tavlin, and though he has since passed away, his columns
 continue to be reprinted. He has an interesting take on ⁧פרשת שמיני⁩ (from
 the Torah Tavlin 5778, the ⁧מחשבת הלב⁩ section), based on a ⁧פסוק⁩ regarding
-kosher and non-kosher animals (10: 4): ⁧אֶת הַגָּמָל כִּי מַעֲלֵה גֵרָה הוּא וּפַרְסָה אֵינֶנּוּ
+kosher and non-kosher animals (10:4): ⁧אֶת הַגָּמָל כִּי מַעֲלֵה גֵרָה הוּא וּפַרְסָה אֵינֶנּוּ
 מַפְרִיס טָמֵא הוּא לָכֶם⁩. He makes an astute observation: Most animals don't
 have any ⁧סימנים⁩ of ⁧כשרות⁩ at all. Out of all the animals in the world,
 only four have one ⁧סימן⁩ of ⁧כשרות⁩ while lacking the other. ⁦חז\"ל⁩ teach us
@@ -5831,7 +5809,7 @@ with the positive topic of having ⁧קינדערלאך⁩:⁧אִשָּׁה כ�
 There are two major topics in ⁧פרשת תזריע⁩, and the one we will focus on
 for the next few moments is ⁧נגעים⁩, an entire ⁧מסכתה⁩ in ⁧משניות⁩.
 
-The ⁧פסוק⁩ states: (13: 2) ⁧וְהָיָה בְעוֹר בְּשָׂרוֹ לְנֶגַע צָרָעַת⁩ - if a person sees a
+The ⁧פסוק⁩ states: (13:2) ⁧וְהָיָה בְעוֹר בְּשָׂרוֹ לְנֶגַע צָרָעַת⁩ - if a person sees a
 ⁧נגע צרעת⁩ on his skin, he must go to the ⁧כהן⁩. All the ⁧מפרשים⁩ explain that
 we no longer experience ⁧נגעים⁩ today. This was not an ordinary skin
 condition like leprosy or any other disease; rather, it was a ⁧רוחניות⁩
@@ -5849,7 +5827,7 @@ the letters of ⁧צרעת⁩, they form the word ⁧עצרת⁩, which refers t
 that ⁧שבת⁩ and ⁧יום טוב⁩ stand in direct opposition to the concepts
 represented by ⁧נגע צרעת⁩.
 
-A ⁧נגע צרעת⁩ signifies that ⁧הקדוש ברוך⁩ ⁦הוא'⁩s ⁧שליטה⁩ is being hidden, that
+A ⁧נגע צרעת⁩ signifies that ⁧הקדוש⁩ ⁦ברוך הוא'⁩s ⁧שליטה⁩ is being hidden, that
 ⁧טבע⁩ conceals the ⁧פנימיות⁩ of the ⁧בריאה⁩. When a person does an ⁧עבירה⁩, he
 further strengthens this concealment. By design, ⁧טבע⁩ already hides the
 ⁧קדושה⁩ within it, because Hashem wants us to work to uncover the truth,
@@ -5857,7 +5835,7 @@ to put in effort, to sweat the details in order to reveal the ⁧פנימיות�
 It is not meant to be an easy-pickings situation. However, ⁧הקדוש ברוך
 הוא⁩ provides us with assistance. What is that help? ⁧שבת⁩ and ⁧יום טוב⁩.
 These days open our eyes to ⁧קדושה⁩, they open our hearts to see not only
-⁧הקדוש ברוך⁩ ⁦הוא'⁩s ⁧יצירה⁩ but also His ⁧הנהגה⁩ in ⁧עולם הזה⁩ - to recognize
+⁧הקדוש⁩ ⁦ברוך הוא'⁩s ⁧יצירה⁩ but also His ⁧הנהגה⁩ in ⁧עולם הזה⁩ - to recognize
 that Hashem is actively running the world.
 
 By learning the ⁧הלכת⁩ of ⁧נגעים⁩, we are able to have the ability to see
@@ -5889,14 +5867,13 @@ closer to him. And if that does not wake him up, it finally afflicts his
 own body.
 
 I want to focus on one particularly interesting ⁧פסוק⁩ regarding the ⁧נגע⁩
-of the house. In ⁧פרק⁩ ⁦י״ד⁩, right after ⁧רביעי⁩ in ⁧מצורע⁩, it says
-(14: 33-34): ⁧וַיְדַבֵּר⁩ ⁦ה׳⁩ ⁧אֶל מֹשֶׁה וְאֶל אַהֲרֹן לֵאמֹר׃ כִּי תָבֹאוּ אֶל אֶרֶץ כְּנַעַן אֲשֶׁר אֲנִי
+of the house. In ⁦פרק י״ד⁩, right after ⁧רביעי⁩ in ⁧מצורע⁩, it says
+(14:33-34): ⁦וַיְדַבֵּר ה׳⁩ ⁧אֶל מֹשֶׁה וְאֶל אַהֲרֹן לֵאמֹר׃ כִּי תָבֹאוּ אֶל אֶרֶץ כְּנַעַן אֲשֶׁר אֲנִי
 נֹתֵן לָכֶם לַאֲחֻזָּה וְנָתַתִּי נֶגַע צָרַעַת בְּבֵית אֶרֶץ אֲחֻזַּתְכֶם⁩ - Hashem says that He will
 place ⁧צרעת⁩ in the houses. There is a vast amount of ⁧תורה⁩ on this idea.
 The most well known explanation is that the ⁧אֱמֹרִים⁩ hid treasures in their
 walls, and Hashem sent the ⁧נגע⁩ so that ⁧בני ישראל⁩ would find these hidden
-riches. However, in ⁧פסוק⁩ ⁦ל״ה⁩, it says: ⁧וּבָא אֲשֶׁר לוֹ הַבַּיִת וְהִגִּיד לַכֹּהֵן לֵאמֹר⁩ -
-the man who has the house where this is happening; ⁧כְּנֶגַע נִרְאָה לִי בַּבָּיִת⁩ - a
+riches. However, in ⁦פסוק ל״ה⁩, it says: ⁧וּבָא אֲשֶׁר לוֹ הַבַּיִת וְהִגִּיד לַכֹּהֵן לֵאמֹר⁩ - the man who has the house where this is happening; ⁧כְּנֶגַע נִרְאָה לִי בַּבָּיִת⁩ - a
 very interesting and unusual ⁧פסוק⁩, unusual phrase, ⁧כְּנֶגַע נִרְאָה לִי בַּבָּיִת⁩ All
 the ⁧מפרשים⁩ discuss this ⁧פסוק⁩ at length. I want to share two approaches
 from Rabbi Dr. Abraham Twerski.
@@ -5931,7 +5908,7 @@ you taught me a very important lesson. I have always told people not to
 speak ⁧לשון הרע⁩ about others, but you showed me something deeper - you're
 also not allowed to speak ⁧לשון הרע⁩ about yourself. Just because you're
 saying it about yourself doesn't mean you're allowed to say negative
-things." The ⁧חפץ חיים⁩ connected this idea to our ⁧פסוק⁩:⁧כְּנֶגַע נִרְאָה לִי⁩- one
+things." The ⁧חפץ חיים⁩ connected this idea to our ⁧פסוק⁩:⁧כְּנֶגַע נִרְאָה לִי⁩ - one
 should not say definitively that he has a ⁧נגע⁩\; he should leave room for
 the possibility that it is not so.
 
@@ -5966,7 +5943,7 @@ Now that we've established this, let's focus on the ⁧הלכות⁩ of ⁧אש�
 particularly of ⁧כלל ישראל⁩. The concepts of ⁧טומאה⁩ and ⁧טהרה⁩ are unique to
 ⁧כלל ישראל⁩, and therefore, they are placed at the very beginning of ⁧פרשת
 תזריע⁩, in a position of prominence. The ⁧פסוקים⁩ describe the process a
-woman undergoes after childbirth (12: 2-4): ⁧אִשָּׁה כִּי תַזְרִיעַ וְיָלְדָה זָכָר וְטָמְאָה
+woman undergoes after childbirth (12:2-4): ⁧אִשָּׁה כִּי תַזְרִיעַ וְיָלְדָה זָכָר וְטָמְאָה
 שִׁבְעַת יָמִים כִּימֵי נִדַּת דְּוֺתָהּ תִּטְמָא׃ וּבַיּוֹם הַשְּׁמִינִי יִמּוֹל בְּשַׂר עׇרְלָתוֹ׃ וּשְׁלֹשִׁים יוֹם
 וּשְׁלֹשֶׁת יָמִים תֵּשֵׁב בִּדְמֵי טׇהֳרָה⁩ - For a baby boy, the mother is ⁧טמאה⁩ for seven
 days, followed by a period of 33 days in which she remains ⁧טהור⁩. After
@@ -6036,7 +6013,7 @@ the beginning of ⁧תזריע⁩? The last ⁧פסוק⁩ in ⁧שמיני⁩ s
 ⁧פרשה⁩ continues with ⁧אִשָּׁה כִּי תַזְרִיעַ וְיָלְדָה זָכָר⁩. What is the connection?
 
 It is said that the ⁧וילנא גאון⁩, just a little boy of six, thought for a
-moment and then took out a ⁧מסכת יומא⁩. He opened it to ⁧דף⁩ ⁦פ\"ב ע\"ב⁩,
+moment and then took out a ⁧מסכת יומא⁩. He opened it to ⁦דף פ\"ב⁩ ⁦ע\"ב⁩,
 which brings down the following ⁧מעשה⁩:
 
 There was an ⁧אשה מעוברת⁩ who, on ⁧יום כיפור⁩, smelled food cooking and
@@ -6130,7 +6107,7 @@ recognizes that the other side is correct, he must concede.
 
 Another fascinating ⁧מוסר השכל⁩ that we can learn from our parsha is that
 ⁦חז\"ל⁩ tell us in the Yerushalmi ⁧מסכת יומא⁩ on the pasuk ⁧אַחֲרֵי מוֹת שְׁנֵי בְּנֵי
-אַהֲרֹן⁩. Although ⁦אהרן'⁩s sons were ⁧נפטר⁩ on ⁦א׳⁩ ⁧ניסן⁩ - as we know, on ⁧יום
+אַהֲרֹן⁩. Although ⁦אהרן'⁩s sons were ⁧נפטר⁩ on ⁦א׳ ניסן⁩ - as we know, on ⁧יום
 השמיני⁩, when the ⁧משכן⁩ was first consecrated - their deaths are
 nevertheless mentioned here, in ⁧אחרי מות⁩, in connection with ⁧יום כיפור⁩.
 The ⁧גמרא⁩ says we learn from here that just as ⁧יום כיפור⁩ is ⁧מכפר⁩ for our
@@ -6140,7 +6117,7 @@ R' Chaim Kanievsky ⁦זצ״ל⁩ shares a beautiful idea which he heard ⁧בש
 Yitzchok Elchonon Spector of Kovno. The ⁧גמרא⁩ in ⁧כתובות⁩ relates that at
 the levaya of ⁧רבי יהודה הנשיא⁩, a ⁧בת קול⁩ proclaimed that all who
 participated in his levaya were ⁧ראוי⁩ for ⁧חיי העולם הבא⁩. The ⁧קשיא⁩ is: Why
-was such a ⁧בת קול⁩ made specifically at ⁧רבי יהודה⁩ ⁦הנשיא'⁩s funeral? What
+was such a ⁧בת קול⁩ made specifically at ⁧רבי⁩ ⁦יהודה הנשיא'⁩s funeral? What
 about the ⁧לוויות⁩ of many other equally great ⁧צדיקים⁩ and ⁧תנאים⁩? Why no ⁧בת
 קול⁩ then?
 
@@ -6176,7 +6153,7 @@ and every one of us.
 = Kedoshim 5784
 
 Parshas ⁧קדושים⁩ begins with the pasuk: ⁧דַּבֵּר אֶל כׇּל עֲדַת בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם
-קְדֹשִׁים תִּהְיוּ כִּי קָדוֹשׁ אֲנִי⁩ ⁦ה׳⁩ ⁧אֱלֹקֵיכֶם⁩. Rashi quotes the ⁧מדרש רבה⁩:⁧מְלַמֵּד⁩ - This
+קְדֹשִׁים תִּהְיוּ כִּי קָדוֹשׁ⁩ ⁦אֲנִי ה׳⁩ ⁧אֱלֹקֵיכֶם⁩. Rashi quotes the ⁧מדרש רבה⁩:⁧מְלַמֵּד⁩ - This
 comes to teach us; ⁧שֶׁנֶּאֶמְרָה פָרָשָׁה זוֹ בְּהַקְהֵל⁩ - This ⁧פרשה⁩ of ⁧קדושים⁩ had to be
 said in public; ⁧מִפְּנֵי שֶׁרֹב גּוּפֵי תוֹרָה תְלוּיִּין בָּהּ⁩ - because the majority, the
 essence, the \"rov\" of the ⁦תורה'⁩s foundational principles are found in
@@ -6185,7 +6162,7 @@ this little ⁧פרשה⁩ of ⁧קדושים⁩.
 There are so many fantastic and important ⁧הלכות⁩ and ⁧יסודות⁩ of ⁧מוסר⁩ in
 this ⁧פרשה⁩ that it's worth spending a lifetime reading ⁧פרשת קדושים⁩. We're
 going to do one line of this wonderful ⁧פרשה⁩, and that line is
-(19: 17)⁧הוֹכֵחַ תּוֹכִיחַ אֶת עֲמִיתֶךָ⁩ - You should give ⁧מוסר⁩ to your fellow man;
+(19:17)⁧הוֹכֵחַ תּוֹכִיחַ אֶת עֲמִיתֶךָ⁩ - You should give ⁧מוסר⁩ to your fellow man;
 ⁧וְלֹא תִשָּׂא עָלָיו חֵטְא⁩ - and do not bear a sin because of him. The simple ⁧פשט⁩
 is that if someone else does an ⁧עבירה⁩, it affects the entire ⁧כלל ישראל⁩.
 We're all responsible for one another. But all the ⁧מפרשים⁩ point out that
@@ -6250,9 +6227,9 @@ The ⁧אזנים לתורה⁩, the Lutzker Rav, R' Zalman Sorotzkin, made an
 insightful analysis of the first few ⁧פסוקים⁩ in ⁧פרשת קדושים⁩, which go as
 follows:
 
-⁧וַיְדַבֵּר⁩ ⁦ה׳⁩ ⁧אֶל מֹשֶׁה לֵּאמֹר׃ דַּבֵּר אֶל כׇּל עֲדַת בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם קְדֹשִׁים תִּהְיוּ כִּי
-קָדוֹשׁ אֲנִי⁩ ⁦ה׳⁩ ⁧אֱלֹקֵיכֶם׃ אִישׁ אִמּוֹ וְאָבִיו תִּירָאוּ וְאֶת שַׁבְּתֹתַי תִּשְׁמֹרוּ אֲנִי⁩ ⁦ה׳⁩ ⁧אֱלֹקֵיכֶם׃
-אַל תִּפְנוּ אֶל הָאֱלִילִם וֵאלֹהֵי מַסֵּכָה לֹא תַעֲשׂוּ לָכֶם אֲנִי⁩ ⁦ה׳⁩ ⁧אֱלֹקֵיכֶם׃⁩
+⁦וַיְדַבֵּר ה׳⁩ ⁧אֶל מֹשֶׁה לֵּאמֹר׃ דַּבֵּר אֶל כׇּל עֲדַת בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם קְדֹשִׁים תִּהְיוּ כִּי
+קָדוֹשׁ⁩ ⁦אֲנִי ה׳⁩ ⁧אֱלֹקֵיכֶם׃ אִישׁ אִמּוֹ וְאָבִיו תִּירָאוּ וְאֶת שַׁבְּתֹתַי תִּשְׁמֹרוּ⁩ ⁦אֲנִי ה׳⁩ ⁧אֱלֹקֵיכֶם׃
+אַל תִּפְנוּ אֶל הָאֱלִילִם וֵאלֹהֵי מַסֵּכָה לֹא תַעֲשׂוּ לָכֶם⁩ ⁦אֲנִי ה׳⁩ ⁧אֱלֹקֵיכֶם׃⁩
 
 The question he raises is: what is the purpose of using this incredibly
 inclusive term, ⁧דַּבֵּר אֶל כׇּל עֲדַת בְּנֵי יִשְׂרָאֵל⁩? He explains that the proper
@@ -6271,15 +6248,15 @@ he has to find those people who are the outstanding members of society -
 the big ⁧צדיקים⁩, the ⁧תלמידי חכמים⁩. These are people who already have a
 preparation, a ⁧ידיעה⁩, a ⁧הנהגה⁩, and ⁧מעשים⁩ of ⁧קדושה⁩. What does he say to
 them? ⁧וְאָמַרְתָּ אֲלֵהֶם קְדֹשִׁים תִּהְיוּ⁩ - When speaking to these types of people, it
-is sufficient just to exhort them: "You should be holy." Why? ⁧כִּי קָדוֹשׁ
-אֲנִי⁩ ⁦ה׳⁩ ⁧אֱלֹקֵיכֶם⁩ - If Hashem is holy, you should be holy. They can grasp
+is sufficient just to exhort them: "You should be holy." Why? ⁧כִּי קָדוֹשׁ⁩
+⁦אֲנִי ה׳⁩ ⁧אֱלֹקֵיכֶם⁩ - If Hashem is holy, you should be holy. They can grasp
 that concept in a flash, because their entire lives have been devoted to
 ⁧דבקות⁩ to ⁧הקדוש ברוך הוא⁩, to being close to Hashem.
 
 What is the next job of the ⁧מנהיג⁩? To speak to the people who are not
 quite on that level - the middle-class people, the ⁧בעלי בתים⁩, those who
 do ⁧עבודה⁩, who keep ⁧מצוות⁩, who are ⁧שומרי תורה ומצוות⁩. Their job is to
-walk ⁧בדרך⁩ ⁦ה׳⁩. Therefore, what does ⁧משה⁩ do with these people? He gives
+walk ⁦בדרך ה׳⁩. Therefore, what does ⁧משה⁩ do with these people? He gives
 them practical advice. He gives them ⁧מצות עשה⁩ and ⁧מצות לא תעשה⁩. Through
 working on the ⁧מצות עשה⁩ and ⁧מצות לא תעשה⁩, they are able to come close to
 Hashem. What does he say here? ⁧אִישׁ אִמּוֹ וְאָבִיו תִּירָאוּ וְאֶת שַׁבְּתֹתַי תִּשְׁמֹרוּ⁩ - an
@@ -6303,7 +6280,7 @@ to Hashem."
 The ⁧אזנים לתורה⁩ brings a particularly brilliant ⁧ראיה⁩ by pointing out
 something you might not notice unless you're very clever. If you look at
 these three ⁧פסוקים⁩ carefully, you'll see that the last three words of
-each ⁧פסוק⁩ are the same: ⁧אֲנִי⁩ ⁦ה׳⁩ ⁧אֱלֹקֵיכֶם⁩. He points out that even though
+each ⁧פסוק⁩ are the same: ⁦אֲנִי ה׳⁩ ⁧אֱלֹקֵיכֶם⁩. He points out that even though
 these are three different groups of people - so far apart from each
 other - they still have a common thread. With the proper influence, with
 the proper ⁧השפעה⁩, we can bring each and every one of these members of
@@ -6325,7 +6302,7 @@ Yosef Kofman ⁦זצ״ל⁩ in the Torah Tavlin (5776), on the pasuk: ⁧בְּ�
 אַהֲרֹן אֶל הַקֹּדֶשׁ בְּפַר בֶּן בָּקָר לְחַטָּאת וְאַיִל לְעֹלָה⁩. Parshas ⁧אחרי מות⁩ describes the
 ⁧עבודה⁩ of the ⁧כהן גדול⁩ on ⁧יום כיפור⁩. It seems strange that the pasuk
 which introduces this whole process begins with the word ⁧בְּזֹאת⁩, meaning
-"with this." It could have just said, ⁧יָבֹא אַהֲרֹן אֶל הַקֹּדֶשׁ⁩, or ⁧וידבר⁩ ⁦ה'⁩ ⁧אל
+"with this." It could have just said, ⁧יָבֹא אַהֲרֹן אֶל הַקֹּדֶשׁ⁩, or ⁦וידבר ה'⁩ ⁧אל
 משה לאמר⁩, ⁧זה יעשה אהרן⁩. Why begin with the word ⁧בְּזֹאת⁩?
 
 There is a famous vort from ⁧וּנְתַנֶּה תֹּקֶף⁩, on the words we say loudly:
@@ -6364,11 +6341,10 @@ unified through the ⁧תורה⁩. It's all part of one seamless connection.
 
 Parshas ⁧קדושים⁩ - we have two ⁧פרשיות⁩ this week. From ⁧פרשת קדושים⁩, I'd
 like to quote again from Torah Tavlin (5776), from R' Guttman of Ramat
-Shlomo. He comments on the pasuk (19: 30): ⁧אֶת שַׁבְּתֹתַי תִּשְׁמֹרוּ וּמִקְדָּשִׁי תִּירָאוּ
-אֲנִי⁩ ⁦ה׳⁩. This is a pasuk that, because of our familiarity with the words,
+Shlomo. He comments on the pasuk (19:30): ⁧אֶת שַׁבְּתֹתַי תִּשְׁמֹרוּ וּמִקְדָּשִׁי תִּירָאוּ⁩
+⁦אֲנִי ה׳⁩. This is a pasuk that, because of our familiarity with the words,
 we might rush over and miss an enormously powerful lesson. ⁧אֶת שַׁבְּתֹתַי
-תִּשְׁמֹרוּ⁩ - "We keep Shabbos, " we say. "I do that already." ⁧וּמִקְדָּשִׁי תִּירָאוּ⁩ -
-What does that really mean? ⁧אֲנִי⁩ ⁦ה׳⁩ - Hashem says, "Pay attention! What
+תִּשְׁמֹרוּ⁩ - "We keep Shabbos, " we say. "I do that already." ⁧וּמִקְדָּשִׁי תִּירָאוּ⁩ - What does that really mean? ⁦אֲנִי ה׳⁩ - Hashem says, "Pay attention! What
 am I really saying here?"
 
 R' Guttman raises a powerful question: What will it be like when ⁧משיח⁩
@@ -6378,7 +6354,7 @@ down the ⁧בית השלישי⁩ in a burst of fire. The ⁧כהנים⁩ will
 experience will that be? Here is where it's appropriate to use a word
 which I tell all the ⁧קינדערלאך⁩ to use only when it really fits. That
 word is awesome. This will be the real awesome - not the ⁧נרישקייט⁩ people
-use that word for today. Real ⁧יראת⁩ ⁦ה׳⁩, real ⁧יראת שמים⁩. We'll feel it in
+use that word for today. Real ⁦יראת ה׳⁩, real ⁧יראת שמים⁩. We'll feel it in
 our hearts and in our souls.
 
 R' Avraham Pam told a moving story about the ⁧קדושה⁩ of the ⁧בית המקדש⁩. He
@@ -6462,7 +6438,7 @@ R' Yosef Chaim Sonnenfeld, one of the greatest minds of previous
 generations, had a unique perspective on this concept of time, and he
 shared it in the context of our current parsha, ⁧אמור⁩. Of all things, he
 discussed it regarding ⁧יום כיפור⁩ - the peak of our year in terms of
-⁧תשובה תפילה וצדקה⁩. The pasuk says in our parsha (23: 27) ⁧אַךְ בֶּעָשׂוֹר לַחֹדֶשׁ
+⁧תשובה תפילה וצדקה⁩. The pasuk says in our parsha (23:27) ⁧אַךְ בֶּעָשׂוֹר לַחֹדֶשׁ
 הַשְּׁבִיעִי הַזֶּה יוֹם הַכִּפֻּרִים הוּא⁩. Yom Kippur is the fabulous day on which
 Hashem gives us a ⁧כפרה⁩, offers ⁧מחילה⁩, and allows us to begin again,
 giving us hope that not all is lost.
@@ -6480,7 +6456,7 @@ are, but it's because they are constantly working on themselves. So when
 did R' Yosef Chaim begin his preparations for Yom Kippur?
 
 It's a fascinating question, and one that not many people know the
-answer to. As we approach ⁧שבועות⁩ - which falls on ⁦ו'⁩ ⁧סיון⁩ - let's look
+answer to. As we approach ⁧שבועות⁩ - which falls on ⁦ו' סיון⁩ - let's look
 at the days leading up to it. The first day of ⁧סיון⁩ is ⁧ראש חודש⁩. Days
 three, four, and five are ⁧שלושת ימי הגבלה⁩. But what about day two? Most
 people don't know what the second of ⁧סיון⁩ is. If you look on a good
@@ -6555,7 +6531,7 @@ for the sake of the ⁧מצוה⁩ alone, and nothing more."
 
 In this week's parsha, ⁧פרשת אמור⁩, we find all of the ⁧הלכות⁩ of the ⁧כֹּהֲנִים⁩,
 both for a ⁧כהן הדיוט⁩ and the ⁧כהן גדול⁩. What is the sum total? What does
-the ⁧פסוק⁩ tell us that is the result of all of these ⁧הלכות⁩? (21: 6)⁧קְדֹשִׁים
+the ⁧פסוק⁩ tell us that is the result of all of these ⁧הלכות⁩? (21:6)⁧קְדֹשִׁים
 יִהְיוּ לֵאלֹקֵיהֶם וְלֹא יְחַלְּלוּ שֵׁם אֱלֹקֵיהֶם⁩. It's an interesting ⁧מצוה⁩, both an ⁧עשה⁩
 and a ⁧לא תעשה⁩. The ⁧פסוקים⁩ give us a dual message: A) to elevate the
 ⁧כהנים⁩ to a higher level of ⁧קדושה⁩, and B) to inspire them not to create a
@@ -6684,7 +6660,7 @@ well and pay great dividends.
 
 \(Incidentally, the first half of ⁧אוצר פלאות התורה⁩ on ⁧פרשת אמור⁩ is full
 of stories and fascinating halachic discussions about ⁧כהנים⁩. One
-question it raises: Can a ⁧כהן⁩ go to the ⁧קבר⁩ of ⁦ר'⁩ ⁧שמעון בר יוחאי⁩? It's a
+question it raises: Can a ⁧כהן⁩ go to the ⁧קבר⁩ of ⁦ר' שמעון⁩ ⁧בר יוחאי⁩? It's a
 very interesting ⁧קשיא⁩. We ourselves had this question when we were in
 ⁧ארץ ישראל⁩ just a few days ago. Another one: Can ⁧כהנים⁩ enter the ⁧מערת
 המכפלה⁩? He brings down that the ⁧מנחת אלעזר⁩, the Munkatcher Rebbe came
@@ -6703,8 +6679,8 @@ with this sefer and look through it, it's really quite enlightening.)
 #set page(footer: article-footer("https://zeidyd.com/behar/5784/", "../Files/03 - Vayikra/11 - Behar/5784/Behar 5784.png"))
 = Behar 5784
 
-We're right before ⁦ל\"ג⁩ ⁧בעומר⁩, which is a joyous ⁧יום טוב⁩. It has to do
-with ⁧כלל⁩ ⁦ישראל'⁩s finding itself with ⁧ישועות ונחמות⁩. Parshas Behar has a
+We're right before ⁦ל\"ג בעומר⁩, which is a joyous ⁧יום טוב⁩. It has to do
+with ⁦כלל ישראל'⁩s finding itself with ⁧ישועות ונחמות⁩. Parshas Behar has a
 lot of significance in that it represents the shidduch between ⁧הקדוש
 ברוך הוא⁩ and ⁧כלל ישראל⁩. We know that one of the most important
 underpinnings of any relationship, of which a shidduch is the ultimate,
@@ -6762,7 +6738,7 @@ about to reaccept on ⁧שבועות⁩, "then I will give you the ⁧ברכות
 not, ⁧חס ושלום⁩, the opposite." Similarly, ⁧כי תבוא⁩ precedes the ⁧ימים
 נוראים⁩, where we have this same idea of a contract.
 
-One of the wonderful ⁧ברכות⁩ written in ⁧פרשת בחוקותי⁩ is (26: 4) ⁧וְנָתַתִּי
+One of the wonderful ⁧ברכות⁩ written in ⁧פרשת בחוקותי⁩ is (26:4) ⁧וְנָתַתִּי
 גִשְׁמֵיכֶם בְּעִתָּם⁩ - I will give you the rains in the proper time, a tremendous
 ⁧ברכה⁩. We city folks often take this for granted, in fact; we often look
 at rain as an inconvenience. But the truth is, without rain, we can't
@@ -6840,7 +6816,7 @@ greater level your ⁧קדושה⁩. And ⁧בעזרת השם⁩ you'll be able 
 
 I once heard a talk from a ⁧קירוב⁩ fellow as to how to prove that Hashem
 exists and that the ⁧תורה⁩ is true, and he used ⁧פסוקים⁩ from this week's
-parsha. (25: 19-21):
+parsha. (25:19-21):
 
 ⁧וְנָתְנָה הָאָרֶץ פִּרְיָהּ וַאֲכַלְתֶּם לָשֹׂבַע וִישַׁבְתֶּם לָבֶטַח עָלֶיהָ׃ וְכִי תֹאמְרוּ מַה נֹּאכַל בַּשָּׁנָה
 הַשְּׁבִיעִת הֵן לֹא נִזְרָע וְלֹא נֶאֱסֹף אֶת תְּבוּאָתֵנוּ׃ וְצִוִּיתִי אֶת בִּרְכָתִי לָכֶם בַּשָּׁנָה הַשִּׁשִּׁית
@@ -6874,7 +6850,7 @@ how about if we don't ask the question?
 Rabbi Oelbaum said that if we don't ask, the reward is even greater.
 Instead of getting a huge crop that you have to gather and store and
 worry about rodents and spoilage for three years, Hashem will give us
-food with a special bracha: ⁧אכל קימעא ומתברך במעיו⁩- You'll eat a little,
+food with a special bracha: ⁧אכל קימעא ומתברך במעיו⁩ - You'll eat a little,
 and it will expand in your stomach, it will be super food. You won't
 need much, and you'll be full and satisfied. There are two major
 advantages to this: A) You won't have to go on a diet, and B) you won't
@@ -6895,7 +6871,7 @@ have to believe that whatever Hashem promises will happen
 = Behar-Bechukosai 5785
 
 R' Chaim Kanievsky's sefer on chumash by Rabbi Shai Graucher, quotes the
-pasuk from ⁧פרשת בהר⁩ (25: 21): ⁧וְצִוִּיתִי אֶת בִּרְכָתִי לָכֶם בַּשָּׁנָה הַשִּׁשִּׁית וְעָשָׂת אֶת
+pasuk from ⁧פרשת בהר⁩ (25:21): ⁧וְצִוִּיתִי אֶת בִּרְכָתִי לָכֶם בַּשָּׁנָה הַשִּׁשִּׁית וְעָשָׂת אֶת
 הַתְּבוּאָה לִשְׁלֹשׁ הַשָּׁנִים⁩. R' Chaim quotes the ⁧חזון איש⁩ in ⁧מסכת שביעית⁩ that this
 ⁧ברכה⁩ is still in effect in our times, and some people have the zchus to
 see it. He brings down a ⁧מעשה⁩ which happened in the famous ⁧מושב⁩ of
@@ -6951,7 +6927,7 @@ to ⁧ירושלים⁩ to relate to the Brisker Rav what had happened. The Bris
 Rav quoted to him the ⁦רמב\"ן⁩ which I mentioned, that ever since Hashem
 said that ⁧ארבה⁩ would not come to ⁧מצרים⁩, it has never been there. And the
 fact that the plague bypassed their ⁧מושב⁩ is ⁧ממש⁩ a ⁧נס⁩ and must be
-publicized, as the pasuk in Tehillim (105: 2) says: ⁧שִׂיחוּ בְּכׇל נִפְלְאוֹתָיו⁩.
+publicized, as the pasuk in Tehillim (105:2) says: ⁧שִׂיחוּ בְּכׇל נִפְלְאוֹתָיו⁩.
 
 Every single media outlet in ⁧ארץ ישראל⁩ was notified of this ⁧מעשה⁩, and
 they all came to see it. People saw this, and who knows whether or not
@@ -6972,7 +6948,7 @@ I've come into contact with for the last two weeks is, if the ⁧שבת⁩ befor
 ⁧פסח⁩ is ⁧שבת הגדול⁩ and the ⁧שבת⁩ before ⁧יום כיפור⁩ is ⁧שבת שובה⁩, what is the
 name of the ⁧שבת⁩ before ⁧שבועות⁩? And everyone looks at me with a glazed
 look and I answer them ⁧שבת דרך ארץ⁩ because ⁧דרך ארץ קדמה לתורה⁩. It's in
-the ⁧חידושי⁩ ⁦הרי״ם⁩.
+the ⁦חידושי הרי״ם⁩.
 
 But that is not the thrust of this week's talk. Many of the ⁧מפרשים⁩, from
 ⁧ראשונים⁩ to ⁧אחרונים⁩, as prominently as ⁧תוספות⁩ in ⁧מגילה⁩, up to and
@@ -7000,9 +6976,8 @@ boys who are 13 years and older will instantly recognize, are as
 follows: ⁧וְאֵרַשְׂתִּיךְ לִי לְעוֹלָם⁩ - I will betroth you to me forever; ⁧וְאֵרַשְׂתִּיךְ לִי
 בְּצֶדֶק וּבְמִשְׁפָּט וּבְחֶסֶד וּבְרַחֲמִים⁩ - I will betroth you with righteousness, with
 justice, with kindness, and with mercy. ⁧וְאֵרַשְׂתִּיךְ לִי בֶּאֱמוּנָה⁩ - I will
-betroth you with ⁧אמונה⁩, with faith; ⁧וְיָדַעַתְּ אֶת⁩ ⁦ה׳⁩ - and then you will know
-Hashem. These ⁧פסוקים⁩, which we say every day when we put on our ⁧תפילין⁩ -
-and if we're looking forward to our ⁧בר מצוה⁩ when we're not yet 13, we
+betroth you with ⁧אמונה⁩, with faith; ⁧וְיָדַעַתְּ⁩ ⁦אֶת ה׳⁩ - and then you will know
+Hashem. These ⁧פסוקים⁩, which we say every day when we put on our ⁧תפילין⁩ - and if we're looking forward to our ⁧בר מצוה⁩ when we're not yet 13, we
 start learning it ahead of time - reflects the tremendous excitement,
 the enthusiasm, and the happiness we feel in drawing closer to Hashem,
 just like a ⁧חתן⁩ and ⁧כלה⁩ who are in the stage of ⁧אירוסין⁩. The ⁧מפרשים⁩
@@ -7015,7 +6990,7 @@ That is what ⁧הר סיני⁩ was. It is so appropriate that this is the ⁧�
 enthusiasm. To inspire and energize us with the drive we should have,
 each and every year, and every day, as we anticipate the ⁧תורה הקדושה⁩
 that Hashem is giving to us. We have the ⁧זכות⁩ to learn it, and through
-it, to come closer to Hashem. ⁧וְיָדַעַתְּ אֶת⁩ ⁦ה׳⁩ - this knowledge of Hashem,
+it, to come closer to Hashem. ⁧וְיָדַעַתְּ⁩ ⁦אֶת ה׳⁩ - this knowledge of Hashem,
 this ⁧ידיעת השם⁩, is the ultimate goal of all of ⁧תורה⁩.
 
 This was my father's ⁦ע״ה⁩ bar mitzvah parsha, and this was his ⁧הפטרה⁩.
@@ -7033,7 +7008,7 @@ His memory should be a ⁧ברכה⁩, and he should be a ⁧מליץ יושר�
 sojourn. Right at the very beginning ⁧הקודש ברוך הוא⁩ tells ⁧משה רבינו⁩ that
 he has to choose people from each ⁧שבט⁩ to accompany him in his ⁧עבודה⁩,
 whether it was the census or in doing that which was required to lead
-⁧כלל ישראל⁩. The pasuk says (1: 4) ⁧וְאִתְּכֶם יִהְיוּ אִישׁ אִישׁ לַמַּטֶּה⁩, which would be
+⁧כלל ישראל⁩. The pasuk says (1:4) ⁧וְאִתְּכֶם יִהְיוּ אִישׁ אִישׁ לַמַּטֶּה⁩, which would be
 a fine way to conclude. But the pasuk continues: ⁧אִישׁ רֹאשׁ לְבֵית אֲבֹתָיו הוּא⁩.
 The ⁧קשיא⁩ is: who is this person who is considered the head of the
 family? Is it the ⁧בכור⁩? Is it someone with ⁧יחס⁩? Is it someone more
@@ -7053,7 +7028,7 @@ a ⁧צדיק בן צדיק⁩ are given precedence over those of a ⁧צדיק 
 very ⁧שווער⁩ to understand. One would think the opposite - that someone
 like ⁧רבקה⁩, who pulled herself out of an environment and upbringing
 steeped in ⁧רשעות⁩, and made herself into a ⁧צדקת⁩, should be on an even
-higher ⁧מדרגה⁩. In fact, we know the famous gemara (⁧ברכות⁩ ⁦ל״ד ע״ב⁩)⁧מָקוֹם
+higher ⁧מדרגה⁩. In fact, we know the famous gemara (⁦ברכות ל״ד⁩ ⁦ע״ב⁩)⁧מָקוֹם
 שֶׁבַּעֲלֵי תְשׁוּבָה עוֹמְדִין צַדִּיקִים גְּמוּרִים אֵינָם עוֹמְדִין⁩ - a place where a ⁧בעל תשובה⁩
 can get to, even a complete ⁧צדיק⁩ is unable to stand there. Why were
 ⁦יצחק'⁩s ⁧תפילות⁩ accepted prior to those of ⁧רבקה⁩?
@@ -7100,7 +7075,7 @@ most successful in developing his own ⁧עבודת השם⁩.
 הַיָּם⁩. It is tied to the ⁧פרשה⁩ by this connection with counting.
 
 The last two ⁧פסוקים⁩ of the ⁧הפטרה⁩ are ⁧פסוקים⁩ related to putting on
-⁧תפילין⁩. They are ⁦וכו׳⁩ ⁧וְאֵרַשְׂתִּיךְ לִי לְעוֹלָם⁩. I'd like to read you a story
+⁧תפילין⁩. They are ⁦וכו׳ וְאֵרַשְׂתִּיךְ⁩ ⁧לִי לְעוֹלָם⁩. I'd like to read you a story
 about how significant these ⁧פסוקים⁩ are, which we generally don't say
 slowly enough. The article is entitled, Tefillin in Dachau. It was
 written by Rabbi Yosef Wallace.
@@ -7128,7 +7103,7 @@ dumbfounded.
 He handed Judah the ⁧תפילין⁩. As Judah put them on, he said the ⁧פסוקים⁩
 that that we all say while winding the ⁧תפילין⁩ around our fingers.
 ⁧וְאֵרַשְׂתִּיךְ לִי לְעוֹלָם וְאֵרַשְׂתִּיךְ לִי בְּצֶדֶק וּבְמִשְׁפָּט וּבְחֶסֶד וּבְרַחֲמִים׃ וְאֵרַשְׂתִּיךְ לִי בֶּאֱמוּנָה
-וְיָדַעַתְּ אֶת⁩ ⁦ה׳⁩ - "I will betroth you to me forever. And I will betroth you
+וְיָדַעַתְּ⁩ ⁦אֶת ה׳⁩ - "I will betroth you to me forever. And I will betroth you
 to me with righteousness, with justice, with kindness, and with mercy.
 And I will betroth you to me with fidelity, and you will know Hashem."
 In silence, the entire camp looked at the Jew with a noose around his
@@ -7199,7 +7174,7 @@ through our ⁧זכות⁩\; ⁧עִם חַיַּת הַשָּׂדֶה וְעִ�
 אֶשְׁבּוֹר מִן הָאָרֶץ וְהִשְׁכַּבְתִּים לָבֶטַח⁩ - It's talking about ⁧ימות המשיח⁩. If we are
 able to be counted, even until this day, among those that fulfill the
 ⁧מצוות⁩, Hashem tells us he will marry us forever. ⁧וְאֵרַשְׂתִּיךְ לִי לְעוֹלָם
-וְאֵרַשְׂתִּיךְ לִי בְּצֶדֶק וּבְמִשְׁפָּט וּבְחֶסֶד וּבְרַחֲמִים׃ וְאֵרַשְׂתִּיךְ לִי בֶּאֱמוּנָה וְיָדַעַתְּ אֶת⁩ ⁦ה׳⁩.
+וְאֵרַשְׂתִּיךְ לִי בְּצֶדֶק וּבְמִשְׁפָּט וּבְחֶסֶד וּבְרַחֲמִים׃ וְאֵרַשְׂתִּיךְ לִי בֶּאֱמוּנָה וְיָדַעַתְּ⁩ ⁦אֶת ה׳⁩.
 What a ⁧הבטחה⁩. What a ⁧ברכה⁩. We should think about that every time we put
 on our ⁧תפילין⁩.
 
@@ -7245,7 +7220,7 @@ Finally, R' Yosef Chaim said, "I'll tell you - but only on condition
 that you don't share this with anyone until after I pass away." He
 explained: "For several weeks, I've been grappling with what seemed like
 an insoluble problem in the sefer ⁧ספרא דצניעותא⁩, a sefer on ⁧קבלה⁩, along
-with the ⁧ווילנא⁩ ⁦גאון'⁩s commentary on it. Last night, the ⁧גאון⁩ came to me
+with the ⁦ווילנא גאון'⁩s commentary on it. Last night, the ⁧גאון⁩ came to me
 in a dream and explained the difficult passage to me. When I awoke this
 morning, I realized that the matter had indeed become perfectly clear."
 I thought that was an astounding little vignette about R' Yosef Chaim
@@ -7294,13 +7269,12 @@ My final vort is a tremendously interesting question brought down in the
 ⁧ספר אוצר פלאות התורה⁩. I got this from a very ⁧חשוב⁩ friend of mine, R'
 Mendy Pollak, who should live and be well, a wonderful fellow. This
 sefer was written by a ⁧בעלאבוס⁩ who was a tremendous ⁧גאון⁩. The man knew
-everything in ⁦ש\"ס⁩ ⁧ופוסקים⁩. Now, here's his question, which was asked to
+everything in ⁦ש\"ס ופוסקים⁩. Now, here's his question, which was asked to
 R' Aharon Mordechai Brisk and it's brought down in ⁦שו\"ת מהר\"ם⁩ ⁧בריסק⁩:
 Let's say a ⁧בן ארץ ישראל⁩ is in ⁧חוץ לארץ⁩ for ⁧יום טוב⁩, and he happens to
 be a ⁧כהן⁩. He doesn't keep ⁧יום טוב שני של גלויות⁩, because he has ⁧כוונה⁩ to
 go back home. Is he allowed to duchan with the other ⁧כהנים⁩ who are who
-are duchaning on ⁧יום טוב שני של גלויות⁩? R' Brisk answered ⁧לענית דעתי⁩ -
-In my humble opinion, it's clear that a ⁧בן ארץ ישראל⁩ who's in ⁧חוץ לארץ⁩
+are duchaning on ⁧יום טוב שני של גלויות⁩? R' Brisk answered ⁧לענית דעתי⁩ - In my humble opinion, it's clear that a ⁧בן ארץ ישראל⁩ who's in ⁧חוץ לארץ⁩
 can definitely duchan on the second day on Yom Tov. Why? Because what's
 the reason we don't duchan every single day in ⁧חוץ לארץ⁩? Because we're
 busy with our ⁧פרנסה⁩, and cannot be involved with those activities which
@@ -7318,7 +7292,7 @@ there's no ⁧חשש ברכה לבטלה⁩.
 
 In ⁧פרשת נשא⁩, we read the most wonderful ⁧ברכות⁩ that we have in all of the
 ⁧תורה⁩, ⁧ברכת כהנים⁩. The ⁧כהנים⁩ gave this special ⁧ברכה⁩ in the ⁧בית המקדש⁩, and
-for all generations we have the same ⁧ברכה⁩ . ⁦רש\"י⁩ explains that ⁧יברכך⁩ ⁦ה׳⁩
+for all generations we have the same ⁧ברכה⁩ . ⁦רש\"י⁩ explains that ⁦יברכך ה׳⁩
 ⁧וישמרך⁩ means Hashem will give us money and guard us from danger. The
 ⁧דברי יחזקאל⁩ asks, it would seem that we need the opposite order, we
 should be guarded from danger and only after receive money. Why does
@@ -7376,20 +7350,20 @@ especially long ⁧שטיקל⁩ of ⁧תורה⁩.
 There are a number of wonderful topics in ⁧פרשת נשא⁩, the one I've chosen
 is ⁧ברכת כהנים⁩. In the past, we've tried to connect the beginning and end
 of various sections of ⁧תורה⁩, and we'll try to do the same here. The ⁧פרשה⁩
-of ⁧ברכת כהנים⁩ starts with (6: 23) ⁧דַּבֵּר אֶל אַהֲרֹן וְאֶל בָּנָיו לֵאמֹר כֹּה תְבָרְכוּ אֶת
+of ⁧ברכת כהנים⁩ starts with (6:23) ⁧דַּבֵּר אֶל אַהֲרֹן וְאֶל בָּנָיו לֵאמֹר כֹּה תְבָרְכוּ אֶת
 בְּנֵי יִשְׂרָאֵל⁩. The whole ⁧ברכת כהנים⁩ is a ⁧ברכה⁩. The last three words of ⁧ברכת
 כהנים⁩ are ⁧וְיָשֵׂם לְךָ שָׁלוֹם⁩. What is the connection between the beginning and
 the end?
 
 With two little ⁧וערטלאך⁩ of R' Chaim Kanievsky from his sefer on chumash,
 I think we'll find an important connection and an important lesson. The
-⁧גמרא⁩ in ⁧ברכות דף⁩ ⁦נ״ה⁩ ⁧עמוד⁩ ⁦ב׳⁩ teaches us that one who has a bad dream
+⁧גמרא⁩ in ⁧ברכות⁩ ⁦דף נ״ה⁩ ⁦עמוד ב׳⁩ teaches us that one who has a bad dream
 should stand in front of the ⁧כהנים⁩ when they give the ⁧ברכה⁩ of ⁧ברכת
 כהנים⁩, and recite a special formula requesting from Hashem that he
 change the dream to good. If you look in every ⁧מחזור⁩, every ⁧סידור⁩,
 you'll see it. We use it. R' Chaim related that he once saw the
 explanation as to what is the connection between nullifying a bad dream
-and ⁧ברכת כהנים⁩. Two ⁧דפים⁩ later, on ⁧דף⁩ ⁦נ״ז⁩ ⁧עמוד⁩ ⁦ב׳⁩, Chazal tell us that
+and ⁧ברכת כהנים⁩. Two ⁧דפים⁩ later, on ⁦דף נ״ז⁩ ⁦עמוד ב׳⁩, Chazal tell us that
 a dream is one-sixtieth of ⁧נבואה⁩. ⁧ברכת כהנים⁩ is considered to be a real
 ⁧נבואה⁩. Why? Because Hashem gives us the ⁧ברכה⁩ that the ⁧כהנים⁩ are relating
 and they're doing a ⁧מצות עשה⁩. So ⁧ברכת כהנים⁩ is on a super high level,
@@ -7407,13 +7381,13 @@ therefore, it has the ability through the ⁧כח⁩ of being a ⁧נבואה⁩
 Another ⁧שטיקל⁩ from R' Chaim. One of his sons completed ⁧ששה סדרי משנה⁩
 when he was ten and a half years old. For the celebration, R' Chaim
 wrote him a ⁧וערטל⁩: The final ⁧משנה⁩ in ⁦ש״ס⁩ teaches us: ⁧אָמַר רַבִּי שִׁמְעוֹן בֶּן
-חֲלַפְתָּא⁩, ⁧לֹא מָצָא הַקָּדוֹשׁ בָּרוּךְ הוּא כְּלִי מַחֲזִיק בְּרָכָה לְיִשְׂרָאֵל אֶלָּא הַשָּׁלוֹם⁩, ⁧שֶׁנֶּאֱמַר⁩ ⁦ה׳⁩
-⁧עֹז לְעַמּוֹ יִתֵּן⁩ ⁦ה׳⁩ ⁧יְבָרֵךְ אֶת עַמּוֹ בַשָּׁלוֹם⁩ - Hashem found no vessel, no ⁧כלי⁩, to
+חֲלַפְתָּא⁩, ⁧לֹא מָצָא הַקָּדוֹשׁ בָּרוּךְ הוּא כְּלִי מַחֲזִיק בְּרָכָה לְיִשְׂרָאֵל אֶלָּא הַשָּׁלוֹם⁩, ⁦שֶׁנֶּאֱמַר ה׳⁩
+⁧עֹז לְעַמּוֹ⁩ ⁦יִתֵּן ה׳⁩ ⁧יְבָרֵךְ אֶת עַמּוֹ בַשָּׁלוֹם⁩ - Hashem found no vessel, no ⁧כלי⁩, to
 contain ⁧ברכה⁩ for Jews better than ⁧שלום⁩. What is it about ⁧שלום⁩ that makes
 it such a tremendous ⁧כלי⁩ for ⁧ברכה⁩? The ⁧גמרא⁩ in ⁧בבא מציעא⁩ teaches us that
 ⁧ברכה⁩ cannot be found in anything that is measured or counted. ⁦חז״ל⁩ teach
-us that ⁧תלמידי חכמים⁩ increase ⁧שלום⁩ in the world, see the ⁧גמרא⁩ in ⁧ברכות
-דף⁩ ⁦ס״ד⁩ ⁧עמוד⁩ ⁦א׳⁩. Since the amount of ⁧שלום⁩ is not fixed, but is constantly
+us that ⁧תלמידי חכמים⁩ increase ⁧שלום⁩ in the world, see the ⁧גמרא⁩ in ⁧ברכות⁩
+⁦דף ס״ד⁩ ⁦עמוד א׳⁩. Since the amount of ⁧שלום⁩ is not fixed, but is constantly
 increasing through the influence of the ⁧תלמידי חכמים⁩, it is a perfect
 ⁧כלי⁩ for ⁧ברכה⁩ since it is never measured precisely, it's always
 increasing. It goes up to infinity. There's an infinite amount of ⁧תורה⁩
@@ -7468,7 +7442,7 @@ hearing and worth repeating.
 #set page(footer: article-footer("https://zeidyd.com/behaloscha/5783/", "../Files/04 - Bamidbar/03 - Behaloscha/5783/Behaloscha 5783.png"))
 = Behaloscha 5783
 
-⁧וַיְדַבֵּר⁩ ⁦ה׳⁩ ⁧אֶל מֹשֶׁה בְמִדְבַּר סִינַי בַּשָּׁנָה הַשֵּׁנִית לְצֵאתָם מֵאֶרֶץ מִצְרַיִם בַּחֹדֶשׁ הָרִאשׁוֹן לֵאמֹר׃
+⁦וַיְדַבֵּר ה׳⁩ ⁧אֶל מֹשֶׁה בְמִדְבַּר סִינַי בַּשָּׁנָה הַשֵּׁנִית לְצֵאתָם מֵאֶרֶץ מִצְרַיִם בַּחֹדֶשׁ הָרִאשׁוֹן לֵאמֹר׃
 וְיַעֲשׂוּ בְנֵי יִשְׂרָאֵל אֶת הַפָּסַח בְּמוֹעֲדוֹ⁩ (⁧ט⁩:⁧א⁩--⁧ב⁩). Hashem said: I want you to
 bring the ⁧קרבן פסח⁩. What happened? There were people who couldn't bring
 it. The ⁧פסוק⁩ says: (⁧וַיְהִי אֲנָשִׁים אֲשֶׁר הָיוּ טְמֵאִים לְנֶפֶשׁ אָדָם⁩ (⁧ט⁩:⁧ו⁩. For whatever
@@ -7486,8 +7460,8 @@ greater relationship than that, and that is for us to seek out ⁧הקדוש
 R' Ahron Soloveitchik ⁦זצ\"ל⁩, once gave a ⁧דרשה⁩ in Kew Gardens where he
 alluded to this thought. There's a Gemera that the Kaiser - the Roman
 emperor, who was a ⁧רשע⁩ (and eventually killed ⁧רבי עקיבא⁩) - asked ⁧רבי
-עקיבא⁩ a fascinating question. "In your opinion, which are greater? ⁧הקדוש
-ברוך⁩ ⁦הוא'⁩s achievements or Man's?" Instead of answering immediately, ⁧רבי
+עקיבא⁩ a fascinating question. "In your opinion, which are greater? ⁧הקדוש⁩
+⁦ברוך הוא'⁩s achievements or Man's?" Instead of answering immediately, ⁧רבי
 עקיבא⁩ said, "Give me three days to give you the answer." The Kaiser
 agreed. ⁧רבי עקיבא⁩ went home and told his wife to bake her finest cookies
 and cakes, for which she was famous. "Make them special, " he said.
@@ -7498,7 +7472,7 @@ back to the palace. On the way back, he stopped along the roadside and
 picked up some pebbles, rocks, and shmutz, and added them to one side of
 the basket. When he came before the Kaiser, the Kaiser asked, "Do you
 have the answer to my question? Which are greater, Man's achievements or
-⁧הקדוש ברוך⁩ ⁦הוא'⁩s?" ⁧רבי עקיבא⁩ replied, "The answer is in the basket." He
+⁧הקדוש⁩ ⁦ברוך הוא'⁩s?" ⁧רבי עקיבא⁩ replied, "The answer is in the basket." He
 offered the basket to the ruler and said, "Try a cookie." The Kaiser ate
 one and said, "Delicious!" Then ⁧רבי עקיבא⁩ told him to taste a little bit
 of the sand and shmutz. The Kaiser took some of the sand and shmutz and
@@ -7540,9 +7514,9 @@ opportunities are.
 ⁧פרשת בהעלותך⁩ contains one of the most unusual, if not unique, parts of
 the ⁧תורה⁩ - the famous section of ⁧וַיְהִי בִּנְסֹעַ הָאָרֹן⁩, which is surrounded by
 two upside-down ⁦נ'⁩s. Nothing else in the ⁧תורה⁩ is remotely similar to
-that. The ⁧ספר אפריון⁩ from ⁦ר'⁩ ⁧שלמה גאנצפריד⁩, has a short but interesting
-essay regarding this ⁧פרשה⁩ of ⁧וַיְהִי בִּנְסֹעַ הָאָרֹן⁩. He brings a Gemara (⁧שבת דף⁩
-⁦קט\"ו ע״ב⁩): ⁧תָּנוּ רַבָּנַן⁩:⁧״וַיְהִי בִּנְסוֹעַ הָאָרוֹן וַיֹּאמֶר⁩ ⁦מֹשֶׁה״⁩ ⁧פָּרָשָׁה זוֹ עָשָׂה לָהּ הַקָּדוֹשׁ
+that. The ⁧ספר אפריון⁩ from ⁦ר' שלמה⁩ ⁧גאנצפריד⁩, has a short but interesting
+essay regarding this ⁧פרשה⁩ of ⁧וַיְהִי בִּנְסֹעַ הָאָרֹן⁩. He brings a Gemara (⁧שבת⁩ ⁦דף
+קט\"ו⁩ ⁦ע״ב⁩): ⁧תָּנוּ רַבָּנַן⁩:⁧״וַיְהִי בִּנְסוֹעַ הָאָרוֹן⁩ ⁦וַיֹּאמֶר מֹשֶׁה״⁩ ⁧פָּרָשָׁה זוֹ עָשָׂה לָהּ הַקָּדוֹשׁ
 בָּרוּךְ הוּא סִימָנִיּוֹת⁩ - The ⁧גמרא⁩ says that ⁧הקדוש ברוך הוא⁩ made a ⁧סימן מִלְּמַעְלָה
 וּלְמַטָּה⁩ - at the beginning and at the end, to tell you that this is not in
 its right place. ⁧רַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל⁩ says, ⁧עֲתִידָה פָּרָשָׁה זוֹ שֶׁתֵּיעָקֵר מִכָּאן
@@ -7585,7 +7559,7 @@ We were hoping ⁧הלוואי⁩ that it should continue. And in ⁧זכות⁩
 
 R' Yosef Shlomo Goldstein, the ⁧מחבר⁩ of a sefer called ⁧דברי יושר⁩ from the
 ⁧ישיבה⁩ in Gateshead, is quoted in the Kol HaTorah journal with the
-following ⁧דבר תורה⁩ on this pasuk in ⁧בהעלותך⁩ (8: 19):
+following ⁧דבר תורה⁩ on this pasuk in ⁧בהעלותך⁩ (8:19):
 
 ⁧וָאֶתְּנָה אֶת הַלְוִיִּם נְתֻנִים לְאַהֲרֹן וּלְבָנָיו מִתּוֹךְ בְּנֵי יִשְׂרָאֵל לַעֲבֹד אֶת עֲבֹדַת בְּנֵי יִשְׂרָאֵל
 בְּאֹהֶל מוֹעֵד וּלְכַפֵּר עַל בְּנֵי יִשְׂרָאֵל וְלֹא יִהְיֶה בִּבְנֵי יִשְׂרָאֵל נֶגֶף בְּגֶשֶׁת בְּנֵי יִשְׂרָאֵל אֶל
@@ -7598,7 +7572,7 @@ opportunity at the ⁧חטא העגל⁩. ⁦רש״י⁩ points out an interesti
 is not usual for ⁦רש״י⁩, it's more like the ⁧בעל הטורים⁩. ⁦רש״י⁩ points out
 that it says the words ⁧בְּנֵי יִשְׂרָאֵל⁩ five times in this pasuk, to teach you
 ⁧חיבתן⁩, that Hashem loves all of ⁧כלל ישראל⁩:⁧חֲמִשָּׁה פְעָמִים נֶאֶמְרוּ בְנֵי יִשְׂרָאֵל בְּמִקְרָא זֶה⁩, ⁧לְהוֹדִיעַ חִבָּתָן⁩, ⁧שֶׁנִּכְפַּל אַזְכְּרוֹתֵיהֶן בְּמִקְרָא
-אֶחָד כְּמִנְיַן חֲמִשָּׁה חֻמְשֵׁי תוֹרָה⁩, ⁧וְכָךְ רָאִיתִי⁩ ⁦בִּבְ\"רַ⁩
+אֶחָד כְּמִנְיַן חֲמִשָּׁה חֻמְשֵׁי תוֹרָה⁩, ⁧וְכָךְ⁩ ⁦רָאִיתִי בִּבְ\"רַ⁩
 
 Hashem looks at us just like the ⁧חמישה חומשי תורה⁩. What is the
 implication of that? R' Goldstein explains that it says in ⁧פרשת יתרו⁩
@@ -7633,13 +7607,13 @@ only for ⁧דוד⁩ and his children, but the ⁧כתר⁩ of ⁧תורה⁩ i
 for each and every member of ⁧כלל ישראל⁩. You see that is greater than all
 of them.
 
-The pasuk teaches us that this is the basis for ⁧הקדוש ברוך⁩ ⁦הוא'⁩s ⁧חיבה⁩
+The pasuk teaches us that this is the basis for ⁧הקדוש⁩ ⁦ברוך הוא'⁩s ⁧חיבה⁩
 for ⁧כלל ישראל⁩. It's brought here, in this specific spot where the ⁧לוים⁩
 are being chosen, because Hashem wants to show us, (and you have to know
 how to learn and read ⁦רש״י⁩ to look into the ⁧פסוק⁩ to show this love for
 ⁧כלל ישראל⁩) that even in an area where part of ⁧כלל ישראל⁩ is chosen,
 Hashem says, "I love you all, and I love each and every one with a
-⁧חביבות⁩ because of the ⁧זכות⁩ of ⁧לימוד⁩ ⁦התורה"⁩. In that ⁧זכות⁩ may we all join
+⁧חביבות⁩ because of the ⁧זכות⁩ of ⁦לימוד התורה"⁩. In that ⁧זכות⁩ may we all join
 in that ⁧כתר⁩ and may we all benefit from this love that Hashem has for
 us, both in ⁧עולם הזה⁩ and in ⁧עולם הבא⁩. And hopefully soon when ⁧משיח⁩
 comes, we will see it ⁧בחוש⁩.
@@ -7660,7 +7634,7 @@ example that they should be on guard and be a little bit better. That is
 a well-known vort.
 
 I'd like to say something that's not so well-known from R' Chaim
-Kanievsky ⁦זצ\"ל⁩. (13: 16)⁧וַיִּקְרָא מֹשֶׁה לְהוֹשֵׁעַ בִּן נוּן יְהוֹשֻׁעַ⁩. R' Chaim has a
+Kanievsky ⁦זצ\"ל⁩. (13:16)⁧וַיִּקְרָא מֹשֶׁה לְהוֹשֵׁעַ בִּן נוּן יְהוֹשֻׁעַ⁩. R' Chaim has a
 unique ⁧פשט⁩ here, and it comes along with a terrific story. ⁧תרגום יונתן⁩
 says that when ⁧משה⁩ saw that that ⁧הושע⁩ was a very big ⁧עניו⁩, he changed
 his name to ⁧יהושע⁩. What does his humility have to do with changing his
@@ -7688,15 +7662,15 @@ discussed the positive attributes of various ⁧תנאים⁩, ⁧אמוראים
 ⁧אמורא⁩ called ⁧עולא בר אבא⁩, who was praised in the ⁧גמרא⁩ in ⁧סנהדרין דף פח
 עמוד א⁩: "⁧עולא בר אבא⁩ was humble and modest, he enters and leaves
 quietly, he's constantly learning ⁧תורה⁩ but does not take any credit for
-himself." The author noted that we do not find ⁧עולא בר⁩ ⁦אבא'⁩s torah
-thoughts recorded anywhere in ⁧ספרי⁩ ⁦חז\"ל⁩, and he explained that because
+himself." The author noted that we do not find ⁧עולא⁩ ⁦בר אבא'⁩s torah
+thoughts recorded anywhere in ⁦ספרי חז\"ל⁩, and he explained that because
 of his extreme humility, he did not want to even have the credit of
 being quoted by name, willingly forgoing the reward of having his lips
 move in his grave, ⁧שפתותיו דובבות בקבר⁩, when his ⁧תורה⁩ is quoted in his
 name, in order to maintain his modest silence.
 
 R' Chaim immediately noted, of course, that the author seemed to have
-forgotten the ⁧גמרא כתובות דף⁩ ⁦ע\"ד⁩ ⁧עמוד א⁩, where ⁧עולא בר אבא⁩ is mentioned
+forgotten the ⁧גמרא כתובות⁩ ⁦דף ע\"ד⁩ ⁧עמוד א⁩, where ⁧עולא בר אבא⁩ is mentioned
 by name as having transmitted the teachings of prior generations. R'
 Chaim then tells the following story. In his later years, the ⁧חזון איש⁩
 used to take a short walk outdoors every day on the advice of his
@@ -7733,7 +7707,7 @@ recently had, ⁧נזיר⁩ and ⁧סוטה⁩ - two seemingly disparate topics
 
 Here in the middle of ⁧שלח⁩ with all of the ⁧נעבעך⁩, sad news, we flunked on
 our mission of sending the spies, the ⁧מרגלים⁩, to ⁧ארץ ישראל⁩. So that's
-finished. What does Hashem say next? (15: 2) ⁧דַּבֵּר אֶל בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם
+finished. What does Hashem say next? (15:2) ⁧דַּבֵּר אֶל בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם
 כִּי תָבֹאוּ אֶל אֶרֶץ מוֹשְׁבֹתֵיכֶם אֲשֶׁר אֲנִי נֹתֵן לָכֶם⁩. That is remarkable. ⁧בני ישראל⁩
 were just told that they're all going to die in the ⁧מדבר⁩, and only the
 next generation would go to ⁧ארץ ישראל⁩. Yet now Hashem proceeds to give
@@ -7742,8 +7716,8 @@ that we are indeed going to get ⁧ארץ ישראל⁩.
 
 However, I'd like to discuss one particular pasuk which R' Chaim
 Kanievsky ⁦זצ\"ל⁩ discusses at great length and it's also ⁧הלכה למעשה⁩.
-Pasuk ⁦ד׳⁩ says ⁧וְהִקְרִיב הַמַּקְרִיב קׇרְבָּנוֹ⁩ ⁦לַה׳⁩. It should have said ⁧וְהִקְרִיב קׇרְבָּנוֹ⁩
-⁦לַה׳⁩. We had the same phraseology in parshas ⁧נשא⁩, by the ⁧נשיאים⁩, where it
+Pasuk ⁦ד׳⁩ says ⁧וְהִקְרִיב הַמַּקְרִיב⁩ ⁦קׇרְבָּנוֹ לַה׳⁩. It should have said ⁧וְהִקְרִיב⁩ ⁦קׇרְבָּנוֹ
+לַה׳⁩. We had the same phraseology in parshas ⁧נשא⁩, by the ⁧נשיאים⁩, where it
 says ⁧וַיְהִי הַמַּקְרִיב בַּיּוֹם הָרִאשׁוֹן⁩. The ⁧מפרשים⁩ say, ⁧הִקְרִיב⁩ - Who did he bring?
 He brought himself. That's what a ⁧קרבן⁩ really is. We're bringing
 ourselves, but we don't believe in human sacrifice, so we bring a ⁧קרבן⁩
@@ -7824,7 +7798,7 @@ asking for. The good things we ask for are means to an end. In that
 questions surround the ⁧מצוה⁩ of ⁧ציצית⁩, and I'd like to discuss two of
 them.
 
-R' Chaim Kanievsky ⁦זצ\"ל⁩ asks a question on the pasuk (15: 38), ⁧עַל כַּנְפֵי
+R' Chaim Kanievsky ⁦זצ\"ל⁩ asks a question on the pasuk (15:38), ⁧עַל כַּנְפֵי
 בִגְדֵיהֶם לְדֹרֹתָם⁩ - on the corners of your garments, for all your
 generations. R' Chaim asks, why does the ⁧תורה⁩ specify that this ⁧מצוה⁩
 will apply throughout all of their generations? A second, related
@@ -7852,7 +7826,7 @@ the ⁧תורה⁩ itself. The ⁧תורה⁩ is not something we carry, it is w
 Rav Chaim explains ⁧ציצית⁩ in a similar fashion. The purpose of ⁧ציצית⁩ is
 ⁧לְמַעַן תִּזְכְּרוּ וַעֲשִׂיתֶם אֶת כׇּל מִצְוֺתָי⁩ - that you will remember and perform all
 of my ⁧מצוות⁩. However, at the time of ⁧משיח⁩, there will no longer be any
-⁧שכחה⁩. As the ⁧נביא ירמיהו⁩ says (31: 33) ⁧נָתַתִּי אֶת תּוֹרָתִי בְּקִרְבָּם⁩ - when ⁧משיח⁩
+⁧שכחה⁩. As the ⁧נביא ירמיהו⁩ says (31:33) ⁧נָתַתִּי אֶת תּוֹרָתִי בְּקִרְבָּם⁩ - when ⁧משיח⁩
 will come, I will put the ⁧תורה⁩ inside of them; ⁧וְעַל לִבָּם אֶכְתְּבֶנָּה⁩ - I will
 write it on their hearts. So if there will no longer be ⁧שכחה⁩, and we
 will be part of the ⁧תורה⁩ itself, as the ⁧בית הלוי⁩ explained, would we
@@ -7896,7 +7870,7 @@ who brought the ⁧קטורת⁩ were consumed by fire, ⁧כלל ישראל⁩ 
 said, "We're all going to die because of the ⁧קדושה⁩ of the ⁧משכן⁩\." Moshe
 immediately realized that their complaint would raise a ⁧קִטרוּג⁩ in ⁧שמים⁩,
 and indeed, a ⁧מגפה⁩ began to spread. He instructed ⁧אהרן הכהן⁩ at the end
-of the ⁧פרשה⁩ to hurry and bring ⁧קטורת⁩, and ⁧אהרן⁩ ran. (17: 13) ⁧וַיַּעֲמֹד בֵּין
+of the ⁧פרשה⁩ to hurry and bring ⁧קטורת⁩, and ⁧אהרן⁩ ran. (17:13) ⁧וַיַּעֲמֹד בֵּין
 הַמֵּתִים וּבֵין הַחַיִּים וַתֵּעָצַר הַמַּגֵּפָה⁩.
 
 By stopping the ⁧מגפה⁩ with the ⁧קטורת⁩, ⁧אהרן הכהן⁩ showed the people that
@@ -7970,8 +7944,7 @@ However, Korach is still in ⁧גיהנום⁩, and every ⁧ראש חודש⁩ 
 yells ⁧משה אמת ותורתו אמת⁩.
 
 ⁧משה רבינו⁩ gave us an interesting ⁧הערה⁩ prior to the punishment of Korach.
-One of the conditions that he mentioned was ⁧וּפְקֻדַּת כׇּל הָאָדָם יִפָּקֵד עֲלֵיהֶם⁩ -
-if Korach and his followers die a natural death, that shows that I'm not
+One of the conditions that he mentioned was ⁧וּפְקֻדַּת כׇּל הָאָדָם יִפָּקֵד עֲלֵיהֶם⁩ - if Korach and his followers die a natural death, that shows that I'm not
 the ⁧אמת⁩ and they are correct. So what happened? Of course, we all know
 there was a tremendous ⁧נס⁩, and the earth swallowed them up. But what did
 ⁧משה רבינ⁩ mean when he said ⁧וּפְקֻדַּת כׇּל הָאָדָם יִפָּקֵד עֲלֵיהֶם⁩ - that if they die a
@@ -7993,7 +7966,7 @@ people who come to visit him should do ⁧תשובה⁩ as well. But the ⁧ספ
 העומר⁩, quoted in ⁧מעינה של תורה⁩, brings down that according to the ⁧ספרי
 מוסר⁩, one of the main ⁧תפקידים⁩ of ⁧ביקור חולים⁩ is to help the ⁧חולה⁩ do
 ⁧תשובה⁩. The ⁧עדת קרח⁩ were ⁧חוֹטֵא ומַּחֲטִיא אֶת הָרַבִּים⁩, and we know that the
-Mishna in Pirkei Avos (5: 18) says anybody who falls into that category
+Mishna in Pirkei Avos (5:18) says anybody who falls into that category
 ⁧אֵין מַסְפִּיקִין בְּיָדוֹ לַעֲשׂוֹת תְּשׁוּבָה⁩. Therefore, it would not be proper for them
 to get a regular a ⁧מיתה⁩. That's why Moshe said ⁧וּפְקֻדַּת כׇּל הָאָדָם יִפָּקֵד עֲלֵיהֶם⁩
 \- if they're going to get sick and die a natural death, then Hashem did
@@ -8023,7 +7996,7 @@ and in the ⁧זכות⁩ of the ⁧טובה⁩ we do, may we soon see ⁧משי
 the ⁧מתנת כהונה⁩ and the ⁧מתנת לויה⁩ in the latter part of the ⁧פרשה⁩. In the
 section of ⁧מתנת כהונה⁩, Hashem tells ⁧משה רבינו⁩ to instruct ⁧אהרן⁩ about the
 critical importance of the ⁧עבודה⁩ of the ⁧כהנים⁩ in the ⁧בית המקדש⁩. So much
-so that (18: 7) ⁧עֲבֹדַת מַתָּנָה אֶתֵּן אֶת כְּהֻנַּתְכֶם וְהַזָּר הַקָּרֵב יוּמָת⁩. Their job was
+so that (18:7) ⁧עֲבֹדַת מַתָּנָה אֶתֵּן אֶת כְּהֻנַּתְכֶם וְהַזָּר הַקָּרֵב יוּמָת⁩. Their job was
 twofold: A) to perform the ⁧עבודה⁩ in the ⁧בית המקדש⁩, and B) to protect ⁧כלל
 ישראל⁩ from coming too close to the ⁧משכן⁩, which could, ⁧חס ושלום⁩, result
 in the tragic ⁧תקלה⁩ of ⁧וְהַזָּר הַקָּרֵב יוּמָת⁩.
@@ -8129,17 +8102,14 @@ giving him a gift, and that is a tremendous ⁧זכות⁩.
 #set page(footer: article-footer("https://zeidyd.com/chukas/5784/(1)/", "../Files/04 - Bamidbar/06 - Chukas/5784/Chukas (1)/Chukas 5784 (1).png"))
 = Chukas 5784 (1)
 
-Chukas 5784
-
-⁧פרשת חקת⁩. The ⁧פסוק⁩ says, ⁧אֲשֶׁר צִוָּה⁩ ⁦ה׳⁩ ⁧לֵאמֹר דַּבֵּר אֶל בְּנֵי יִשְׂרָאֵל וְיִקְחוּ אֵלֶיךָ פָרָה
+⁧פרשת חקת⁩. The ⁧פסוק⁩ says, ⁧אֲשֶׁר⁩ ⁦צִוָּה ה׳⁩ ⁧לֵאמֹר דַּבֵּר אֶל בְּנֵי יִשְׂרָאֵל וְיִקְחוּ אֵלֶיךָ פָרָה
 אֲדֻמָּה תְּמִימָה⁩. So the mitzva has the unusual ⁧לשון⁩ of ⁧וְיִקְחוּ אֵלֶיךָ⁩. Rashi
 immediately brings down a ⁧מדרש רבה⁩. Why did it have to say ⁧וְיִקְחוּ אֵלֶיךָ⁩,
 bring to you a ⁧פרה אדומה⁩? It's a ⁧פרה אדומה⁩ for anybody who is ⁧טמא⁩. What
 purpose is served by saying that it has to be brought to you, to ⁧משה
 רבינו⁩?
 
-The ⁧מדרש רבה⁩ says, ⁧לְעוֹלָם הִיא נִקְרֵאת עַל שִׁמְךָ פָּרָה שֶׁעָשָׂה מֹשֶׁה בַּמִּדְבָּר⁩ -
-Throughout all generations, for all time, the ⁧פרה אדומה⁩ will be called
+The ⁧מדרש רבה⁩ says, ⁧לְעוֹלָם הִיא נִקְרֵאת עַל שִׁמְךָ פָּרָה שֶׁעָשָׂה מֹשֶׁה בַּמִּדְבָּר⁩ - Throughout all generations, for all time, the ⁧פרה אדומה⁩ will be called
 in Moshe's name. What is Rashi saying here? It's brought down from the
 Torah Treasures that the ⁦אריז\"ל⁩ says that a person who does not
 understand the deeper meaning of his ⁧תפילות⁩ should meditate on infusing
@@ -8170,7 +8140,7 @@ leave the Jews alone.
 
 To this end, the ⁧אלטע⁩ Rebbe began traveling extensively through the
 region asking people for donations. On one such mission, it took him to
-the town of Bolin, near the city of Tulchin, where ⁦ר׳⁩ ⁧ברוך⁩, the ⁧בעל⁩ ⁦שם'⁩s
+the town of Bolin, near the city of Tulchin, where ⁦ר׳ ברוך⁩, the ⁦בעל שם'⁩s
 grandson resided. The ⁧אלטע⁩ Rebbe decided to pay ⁧רב ברוך⁩ a visit. ⁧רב ברוך⁩
 was delighted by this honor.
 
@@ -8189,7 +8159,7 @@ And that's how he was appeased."
 ⁧רב ברוך⁩ remained unconvinced. The ⁧אלטע⁩ Rebbe was a great ⁧צדיק⁩. Why would
 he have to lower himself to act in this way, shlepping from place to
 place to collect ⁧צדקה⁩? "But why didn't you just teach them the meaning
-of the word ⁧אחד⁩ according to the ⁧בעל שם⁩ ⁦טוב'⁩s teaching? The decree would
+of the word ⁧אחד⁩ according to the ⁧בעל⁩ ⁦שם טוב'⁩s teaching? The decree would
 have then been automatically nullified." "It was precisely your
 grandfather's ⁧אחד⁩ that caused this whole problem in the first place!"
 the ⁧אלטע⁩ Rebbe replied. He then revealed the following fascinating
@@ -8199,8 +8169,8 @@ else, came from the upper spheres, the ⁧מלאכים⁩. In ⁧שמים⁩, th
 representing the various nations were arguing amongst themselves, "We
 don't want the Jews in our land. The first thing they'll do is build
 shuls and they'll build a ⁧בית מדרש⁩, and they'll daven and they'll learn.
-We don't want them to say ⁦ה'⁩ ⁧אחד⁩\." The ⁧מלאכים⁩ were afraid that this
-declaration of ⁧הקדוש ברוך⁩ ⁦הוא'⁩s unity would nullify their very
+We don't want them to say ⁦ה' אחד⁩\." The ⁧מלאכים⁩ were afraid that this
+declaration of ⁧הקדוש⁩ ⁦ברוך הוא'⁩s unity would nullify their very
 existence. This spiritual reality was reflected down below. The leaders
 of each nation refused to take in the Jews. There was only one ⁧מלאך⁩ who
 was not afraid, the ⁧מלאך השרת⁩ of Poland. In fact, he saw this as a
@@ -8208,14 +8178,14 @@ golden opportunity to increase his own impure ⁧כח⁩.
 
 "They don't scare me, " he declared, "I'll take them in. It'll be to my
 advantage. It is true they will build ⁧ישיבות⁩, and it's true they will
-study ⁧תורה⁩ and they will say ⁦ה'⁩ ⁧אחד⁩, but they will not have the proper
+study ⁧תורה⁩ and they will say ⁦ה' אחד⁩, but they will not have the proper
 ⁧כוונה⁩, and I will get stronger." And so it came to pass. The king of
 Poland agreed to accept the bribe, a pile of money as high as a mounted
 cossack holding a spear standing up.
 
 Indeed, the Jews arrived in Poland in droves. They built shuls, they
 built ⁧בתי מדרש⁩, established businesses, they learned ⁧תורה⁩, and they said
-⁧שמע ישראל⁩ ⁦ה'⁩ ⁧אלקינו⁩ ⁦ה'⁩ ⁧אחד⁩. And as the ministering angel had predicted,
+⁧שמע⁩ ⁦ישראל ה'⁩ ⁦אלקינו ה'⁩ ⁧אחד⁩. And as the ministering angel had predicted,
 they did not have the proper ⁧כוונה⁩.
 
 The ⁧מלאך⁩ was delighted, his plan was working. His own powers were
@@ -8236,7 +8206,7 @@ needed to avert the harsh decree."
 
 Having read this story, I approached Rabbi Oelbuam and I said, "What is
 the proper ⁧כוונה⁩ for ⁧אחד⁩?" He replied, "What do you think?" I said,
-"⁧קבלת עול מלכות⁩ ⁦שמים"⁩ which is, of course, a very proper ⁧כוונה⁩. My
+"⁧קבלת עול⁩ ⁦מלכות שמים"⁩ which is, of course, a very proper ⁧כוונה⁩. My
 second ⁧כוונה⁩ is ⁧מסירות נפש⁩ for ⁧קבלת עול מלכות שמים⁩. The third ⁧כוונה⁩
 which I had said until that point was to be ⁧מקיים⁩ the ⁧מצוה⁩ of ⁧קריאת שמע
 שחרית וערבית⁩.
@@ -8272,7 +8242,7 @@ being in the same house as a dead body, he's given the status of an ⁧אב
 the ⁧פרה אדומה⁩ sprinkled on him two times, on day three and day seven of
 the seven-day ⁧טהרה⁩ procedure.
 
-The ⁧פסוק⁩ says (19: 19), ⁧וְהִזָּה הַטָּהֹר עַל הַטָּמֵא⁩ - the pure one should sprinkle
+The ⁧פסוק⁩ says (19:19), ⁧וְהִזָּה הַטָּהֹר עַל הַטָּמֵא⁩ - the pure one should sprinkle
 onto the impure one, and then he goes into the ⁧מקוה⁩. The ⁧תלמוד ירושלמי⁩
 brings an interesting drush: ⁧רבי יהושע בן קפצאי⁩ said, "My whole life I
 read this ⁧פסוק⁩, the pure one will sprinkle on the impure one, I assumed
@@ -8281,7 +8251,7 @@ a single ⁧טָּמֵא⁩ person." He then says, "This was the case until I le
 otherwise from the ⁧אוצרה של יבנה⁩ - the storehouse, the ⁧אוצר⁩ of ⁧יבנה⁩,
 that a single individual who is ⁧טהור⁩ can even sprinkle on many ⁧טמא⁩
 individuals." We paskin that ⁧להלכה⁩. The question is, what does "I
-learned this from the ⁧אוצרות של⁩ ⁦יבנה"⁩ mean? What is the ⁧גמרא⁩ trying to
+learned this from the ⁧אוצרות⁩ ⁦של יבנה"⁩ mean? What is the ⁧גמרא⁩ trying to
 tell us about the ⁧אוצרות⁩ of ⁧יבנה⁩?
 
 R' Meir Shapiro ⁦זצ\"ל⁩, the ⁧לובלינר רב⁩, gave a ⁧דרשה⁩ on this ⁧ירושלמי⁩.
@@ -8327,7 +8297,7 @@ for such a ⁧נס⁩. So in that context, with so many ⁧ניסים⁩ and ⁧
 on, this ⁧דבר תורה⁩ will be all the more relevant.
 
 In ⁧פרשת חקת⁩, which is the ⁧פרשה⁩ of the ⁧פרה אדומה⁩ and ⁧טומאה וטהרה⁩, there's
-a famous pasuk (19: 14): ⁧זֹאת הַתּוֹרָה אָדָם כִּי יָמוּת בְּאֹהֶל כׇּל הַבָּא אֶל הָאֹהֶל וְכׇל
+a famous pasuk (19:14): ⁧זֹאת הַתּוֹרָה אָדָם כִּי יָמוּת בְּאֹהֶל כׇּל הַבָּא אֶל הָאֹהֶל וְכׇל
 אֲשֶׁר בָּאֹהֶל יִטְמָא שִׁבְעַת יָמִים⁩. There are many ⁧דברי תורה⁩ that talk about how a
 person who is learning Torah has to immerse himself to the point he's
 willing to die for it, that you should be willing to be ⁧יָמוּת בְּאֹהֶל⁩ to
@@ -8336,7 +8306,7 @@ learn Torah.
 However, the sefer ⁧אוצר פלאות התורה⁩, written by a ⁧חשובע⁩ Yid named Zev
 Wolf Zicherman from Boro Park, has a completely different take on this
 pasuk. As we know, there are ⁧שבעים פנים לתורה⁩, every single dot in the
-Torah has multiple ⁧פירושים⁩. He brings from the ⁧ספר⁩ ⁦מהרי\"ל⁩. (You've
+Torah has multiple ⁧פירושים⁩. He brings from the ⁦ספר מהרי\"ל⁩. (You've
 heard of the ⁦מהרי\"ל⁩. When you're looking in ⁧משנה ברורה⁩, you'll see the
 ⁦מהרי\"ל⁩ quoted many times. Rabbi Oelbaum has pointed out to us that the
 ⁦מהרי\"ל⁩ is a ⁧פוסק⁩ for the ⁧דורות⁩, for all generations.) The ⁦מהרי\"ל⁩
@@ -8354,7 +8324,7 @@ tremendous loss with his passing.
 
 However, the ⁦יעב\"ץ⁩ is ⁧חולק⁩ on the ⁦מהרי\"ל⁩, and he says he forgot a
 plain pasuk. When ⁧דוד המלך⁩ heard about the death of ⁧יהונתן⁩, his beloved
-childhood friend, he said (⁧שמואל ב⁩ ⁦א׳⁩:⁦כ״ו⁩) ⁧צַר לִי עָלֶיךָ אָחִי יְהוֹנָתָן⁩. Not
+childhood friend, he said (⁧שמואל⁩ ⁦ב א׳⁩:⁦כ״ו⁩) ⁧צַר לִי עָלֶיךָ אָחִי יְהוֹנָתָן⁩. Not
 only that, it's brought down when the ⁧נודע ביהודה⁩ was being ⁧מספיד רבי
 יהונתן אייבשיץ⁩, he said, ⁧צַר לִי עָלֶיךָ אָחִי יְהוֹנָתָן⁩. So, it seems that the
 phrase can be appropriate, depending on the depth of the pain and
@@ -8372,12 +8342,12 @@ here a fabulous ⁧פשט⁩.
 When there was ⁧השראת השכינה⁩, when the ⁧בית המקדש⁩ was standing, people
 could see ⁧בחוש⁩ the ⁧חסדי הבורא⁩ in every aspect of our ⁧עולם הזה⁩. Every
 matter, every action, every molecule - they saw that everything was
-infused with ⁧הקדוש ברוך⁩ ⁦הוא'⁩s ⁧חסד⁩. Even during difficult times, they
+infused with ⁧הקדוש⁩ ⁦ברוך הוא'⁩s ⁧חסד⁩. Even during difficult times, they
 could see the good and say, ⁧ברוך השם הטוב והמטיב⁩. As the pasuk says in
-Eichah (3: 38) ⁧מִפִּי עֶלְיֹון לֹא תֵצֵא הָרָעֹות⁩ - nothing bad ever truly comes from
+Eichah (3:38) ⁧מִפִּי עֶלְיֹון לֹא תֵצֵא הָרָעֹות⁩ - nothing bad ever truly comes from
 Hashem. When the ⁧בית המקדש⁩ stood, ⁧כלל ישראל⁩ saw this clearly. Living in
 ⁧ארץ ישראל⁩ and ⁧ירושלים⁩, they had the ⁧זכות⁩ to see that everything, every
-⁧דבר⁩, was only ⁧טוב וחסד⁩. So no one ever said, "⁧צר לי⁩ ⁦המקום"⁩ - meaning
+⁧דבר⁩, was only ⁧טוב וחסד⁩. So no one ever said, "⁧צר⁩ ⁦לי המקום"⁩ - meaning
 Hashem, who is ⁧המקום⁩. No one ever said Hashem caused them pain, because
 they recognized ⁧כל מה דעביד רחמנא לטב עביד⁩ - Every single thing that
 Hashem does is for the good.
@@ -8428,9 +8398,9 @@ over all of us. That's the real Iron Dome - Hakodosh Baruch Hu's ⁧יד
 discusses the ⁧נבואות⁩ of ⁧בלעם⁩, the fact that ⁧בלעם⁩, a ⁧רשע⁩, became a ⁧נביא⁩
 for the ⁧גוים⁩, and his failed attempts to bring a ⁧קללה⁩ on ⁧כלל ישראל⁩\.The
 sefer ⁧אור גדליהו⁩, a wonderful sefer which I encourage everyone to get
-(if it's available), has the following vort on ⁧פרשת בלק⁩. The ⁦מהר\"ל⁩
-⁧דיסקין⁩ is quoted in the ⁧אור גדליהו⁩, quoting a ⁦רש\"י⁩ in ⁧מסכתא בבא בתרא דף⁩
-⁦י\"ד⁩ ⁧עמוד ב⁩. The ⁧גמרא⁩ says ⁧מֹשֶׁה כָּתַב סִפְרוֹ וּפָרָשַׁת בִּלְעָם וְאִיּוֹב⁩ - Moshe wrote
+(if it's available), has the following vort on ⁧פרשת בלק⁩. The ⁦מהר\"ל
+דיסקין⁩ is quoted in the ⁧אור גדליהו⁩, quoting a ⁦רש\"י⁩ in ⁧מסכתא בבא בתרא⁩ ⁦דף
+י\"ד⁩ ⁧עמוד ב⁩. The ⁧גמרא⁩ says ⁧מֹשֶׁה כָּתַב סִפְרוֹ וּפָרָשַׁת בִּלְעָם וְאִיּוֹב⁩ - Moshe wrote
 his sefer, which is ⁧חמשה חומשי תורה⁩, the ⁧פרשה⁩ of ⁧בלעם⁩, and ⁧ספר איוב⁩.
 
 Rashi asks why is the ⁧גמרא⁩ giving this distinction to the ⁧פרשה⁩ of ⁧בלעם⁩?
@@ -8451,7 +8421,7 @@ messengers "I can't go unless Hashem lets me go". Finally Hashem said,
 saddled his own donkey. Now, ⁧בלעם⁩ obviously knew ⁧הקדוש ברוך הוא⁩ did not
 want him to curse ⁧כלל ישראל⁩. So what was his ⁧הוה אמינא⁩? What was he
 thinking? Did he really believe he could override the will of Hashem, ⁧חס
-ושלום⁩? Hashem said to him clearly (22: 12), ⁧לֹא תָאֹר אֶת הָעָם כִּי בָרוּךְ הוּא⁩,
+ושלום⁩? Hashem said to him clearly (22:12), ⁧לֹא תָאֹר אֶת הָעָם כִּי בָרוּךְ הוּא⁩,
 and he went anyway. How could he possibly have felt that he could have
 been successful?
 
@@ -8470,13 +8440,13 @@ Moshe's level of ⁧קדושה⁩ was on such a high ⁧מדרגה⁩ that it's 
 some sort of partition, some separation, because he was a ⁧בשר ודם⁩. But
 his level of ⁧נבואה⁩ was on such a high ⁧מדרגה⁩ that it was considered
 ⁧אספקלריא המאירה⁩, that there was nothing that was getting in the way of
-⁧הקדוש ברוך⁩ ⁦הוא'⁩s message and the ⁧נבואה⁩ as it was transmitted. The famous
+⁧הקדוש⁩ ⁦ברוך הוא'⁩s message and the ⁧נבואה⁩ as it was transmitted. The famous
 example he brings out from the ⁧מדרש⁩ is that ⁧אברהם אבינו⁩ was a ⁧נביא⁩, was
 on a very high level of ⁧נבואה⁩, but ⁧אברהם אבינו⁩ called himself ⁧אנכי עפר
 ואפר⁩. He still had some ⁧ממשות⁩ to him. He was still something, even
 though he considered himself nothing. ⁧משה רבינו⁩ on the other hand was
 ⁧נחנו מה⁩. We are \[speaking of himself and ⁧אהרן⁩\] nothing. So vis-a-vis
-⁧הקדוש ברוך⁩ ⁦הוא'⁩s message there was no impediment getting in the way.
+⁧הקדוש⁩ ⁦ברוך הוא'⁩s message there was no impediment getting in the way.
 
 ⁧בלעם⁩ knew that his level of ⁧נבואה⁩ was channeled through his "⁦נשמה"⁩,
 through his level of ⁧טומאה⁩, and it came out in a very krum, distorted
@@ -8492,8 +8462,8 @@ was no ⁧נביא⁩ in ⁧ישראל⁩ like ⁧משה⁩, but amongst the ⁧
 Yes, ⁧בלעם⁩ was a ⁧רשע⁩. Yes, ⁧בלעם⁩ was ⁧טמא⁩. Yes, ⁧בלעם⁩ was the lowest of the
 low. But in order to prevent any ⁧קללה⁩ on ⁦בלעם'⁩s part, ⁧הקדוש ברוך הוא⁩
 gave this unparalleled gift of the level of ⁧נבואה⁩ of ⁧משה רבינו⁩, so that
-when he said his ⁧נבואה⁩, it came out exactly in the same way as ⁧משה⁩
-⁦רבינו'⁩s level of ⁧נבואה⁩. That being the case he was forced against his
+when he said his ⁧נבואה⁩, it came out exactly in the same way as ⁦משה
+רבינו'⁩s level of ⁧נבואה⁩. That being the case he was forced against his
 will to give the ⁧נבואה⁩ properly and give ⁧כלל ישראל⁩ that ⁧ברכה⁩.
 
 So when we say that ⁧משה רבינו⁩ wrote the entire ⁧תורה⁩ and the ⁧פרשה⁩ of ⁧בלעם⁩, Moshe took the ⁧נבואות⁩ of all the other ⁧נביאים⁩, ⁧אברהם⁩, ⁧יצחק⁩, ⁧יעקב⁩, or
@@ -8547,16 +8517,15 @@ told them "I can't, Hashem didn't give me permission to go with you, " so
 they left. The second batch of messengers came and finally Hashem said
 "If they came for you, go with them". And he did. Hashem was angry at
 him. We all know the story with the donkey and the wall. Finally he gets
-to ⁧בלק⁩ and he says to ⁧בלק⁩, "Here I am." ⁧בלק⁩ says (22: 17), ⁧כַבֵּד אֲכַבֶּדְךָ⁩ -
-I'm going to give you ⁧כבוד⁩, anything that you say, but please, ⁧קָבָה לִּי אֵת
-הָעָם הַזֶּה⁩. The next ⁧פסוק⁩ is fascinating (22: 18): ⁧וַיַּעַן בִּלְעָם וַיֹּאמֶר אֶל עַבְדֵי
-בָלָק אִם יִתֶּן לִי בָלָק מְלֹא בֵיתוֹ כֶּסֶף וְזָהָב לֹא אוּכַל לַעֲבֹר אֶת פִּי⁩ ⁦ה׳⁩ ⁧אֱלֹקׇי לַעֲשׂוֹת
+to ⁧בלק⁩ and he says to ⁧בלק⁩, "Here I am." ⁧בלק⁩ says (22:17), ⁧כַבֵּד אֲכַבֶּדְךָ⁩ - I'm going to give you ⁧כבוד⁩, anything that you say, but please, ⁧קָבָה לִּי אֵת
+הָעָם הַזֶּה⁩. The next ⁧פסוק⁩ is fascinating (22:18): ⁧וַיַּעַן בִּלְעָם וַיֹּאמֶר אֶל עַבְדֵי
+בָלָק אִם יִתֶּן לִי בָלָק מְלֹא בֵיתוֹ כֶּסֶף וְזָהָב לֹא אוּכַל לַעֲבֹר אֶת⁩ ⁦פִּי ה׳⁩ ⁧אֱלֹקׇי לַעֲשׂוֹת
 קְטַנָּה אוֹ גְדוֹלָה⁩ - I cannot do anything small or great. The ⁧קשיא⁩ stares us
 right in the face. The ⁦גר״א⁩ asks, if you cannot do something small, ⁧קל
 וחומר⁩ you cannot do something big. So what's the purpose of saying ⁧קְטַנָּה
 אוֹ גְדוֹלָה⁩? What does that teach us?
 
-Later on in the ⁧פרשה⁩ it says (23: 5) ⁧וַיָּשֶׂם⁩ ⁦ה׳⁩ ⁧דָּבָר בְּפִי בִלְעָם⁩ - Hashem put
+Later on in the ⁧פרשה⁩ it says (23:5) ⁦וַיָּשֶׂם ה׳⁩ ⁧דָּבָר בְּפִי בִלְעָם⁩ - Hashem put
 the words into ⁧בלעם⁩, Hashem said "⁧בלעם⁩, this is what you have to say."
 The ⁧מדרש⁩ says, ⁧אמרו חכמינו⁩, ⁧חד אמר רסן וחד אמר חכה⁩. When it says Hashem
 put something in his mouth - what do we put into mouths? So by a horse,
@@ -8586,10 +8555,10 @@ and knocked off his ⁧אלקים⁩ as if he had a bridle in his mouth and it c
 out ⁧קל⁩ . ⁧קל⁩ is a ⁧שם⁩ of ⁧רחמים⁩. When he wanted to say the name of ⁧קה⁩,
 which is another ⁧שם⁩ of ⁧דין⁩, Hashem pulled his tongue and added on the
 ⁧ו⁩-⁧ה⁩ and made it ⁧י⁩-⁧ק⁩-⁧ו⁩-⁧ק⁩, which is ⁧מדת הרחמים⁩. So that's what ⁧בלעם⁩ says
-(23: 8), ⁧מָה אֶקֹּב לֹא קַבֹּה קֵל וּמָה אֶזְעֹם לֹא זָעַם⁩ ⁦ה׳⁩, ⁧י⁩-⁧ק⁩-⁧ו⁩-⁧ק⁩. The two names of
+(23:8), ⁧מָה אֶקֹּב לֹא קַבֹּה קֵל וּמָה אֶזְעֹם לֹא⁩ ⁦זָעַם ה׳⁩, ⁧י⁩-⁧ק⁩-⁧ו⁩-⁧ק⁩. The two names of
 ⁧רחמים⁩. ⁧בלעם⁩ was saying "How can I possibly bring a ⁧קללה⁩ on ⁧כלל ישראל⁩
 when the names of ⁧קל⁩ and ⁦הוי\"ה⁩ which come to my mouth are a ⁧לשון של חבה⁩, of loving.⁧הקדוש ברוך הוא⁩ loves ⁧כלל ישראל⁩. That's what ⁧בלעם⁩ was
-saying.⁧לֹא אוּכַל לַעֲבֹר אֶת פִּי⁩ ⁦ה׳⁩ ⁧אֱלֹקׇי לַעֲשׂוֹת קְטַנָּה אוֹ גְדוֹלָה⁩ - If I want to use
+saying.⁧לֹא אוּכַל לַעֲבֹר אֶת⁩ ⁦פִּי ה׳⁩ ⁧אֱלֹקׇי לַעֲשׂוֹת קְטַנָּה אוֹ גְדוֹלָה⁩ - If I want to use
 a longer name of Hashem that was a ⁧מדת הדין⁩, Hashem would chop my
 tongue off. If I want to use the shorter name, Hashem will pull my
 tongue and make it into the longer name of ⁧רחמים⁩.
@@ -8631,7 +8600,7 @@ figure out what he's saying and where he got it from. Here comes ⁧פרשת
 The pasuk says ⁧זֹאת חֻקַּת הַתּוֹרָה⁩. Why does it say that? It should have said
 ⁧זֹאת חֻקַּת הפרה⁩. What does the ⁧חקת פרה אדומה⁩ have to do with ⁧חקת התורה⁩? He
 brings down from a goan Rav Tzvi Hersh Heller, the ⁧בעל המחבר ספר חידושי
-טיב גיטין⁩, who discusses the medrash on the pasuk in Mishlei (7: 23)
+טיב גיטין⁩, who discusses the medrash on the pasuk in Mishlei (7:23)
 ⁧אָמַרְתִּי אֶחְכָּמָה וְהִיא רְחֹוקָה מִמֶּנִּי⁩. The ⁧מדרש⁩ says ⁧זו פרה אדומה⁩. That is, the
 ⁧פרה אדומה⁩ is the thing that Shlomo HaMelech said he tried to understand,
 and it remained far from him. But we have to understand something. There
@@ -8641,8 +8610,7 @@ many mitzvos that also have no known explanation? After all, a ⁧חוק⁩ is b
 definition a ⁧גזירת המלך⁩, something we do simply because Hashem commanded
 it.
 
-The answer, he explains, lies in the wording of the pasuk: ⁧אָמַרְתִּי אֶחְכָּמָה⁩ -
-I said, "I will become wise." That implies an attempt, an effort to
+The answer, he explains, lies in the wording of the pasuk: ⁧אָמַרְתִּי אֶחְכָּמָה⁩ - I said, "I will become wise." That implies an attempt, an effort to
 understand. And still, ⁧וְהִיא רְחֹוקָה מִמֶּנִּי⁩ - it remained far. This unique
 frustration applies only to ⁧פרה אדומה⁩. Why? Because the ⁧פרה אדומה⁩ is a
 paradox. It's ⁧מטהר טמאים⁩ and ⁧מטמא טהורים⁩. That's the issue. If you try
@@ -8676,7 +8644,7 @@ We have to learn this from ⁧פרה אדומה⁩. It's intellectually impossib
 figure out the reason for the ⁧פרה אדומה⁩. So therefore that is a teaching
 for all the other ⁧מצוות⁩, just like all the other ⁧מצוות⁩, even if there's
 a ⁧שכל⁩ to it, we still have to follow it regardless of whatever comes
-along, because that's ⁧הקדוש ברוך⁩ ⁦הוא'⁩s ⁧גזירה⁩. So whether or not you have
+along, because that's ⁧הקדוש⁩ ⁦ברוך הוא'⁩s ⁧גזירה⁩. So whether or not you have
 the reason, you have to keep all the ⁧מצוות⁩.
 
 That's why it says ⁧זאת חקת התורה⁩. Why? ⁧פרשת פרה אדומה⁩ teaches us that we
@@ -8740,8 +8708,8 @@ the Torah which has a special aspect. The vav is called a ⁧ו קטיעא⁩. I
 a vav with a split in it. Normally, any letter in the Torah with a split
 in it is ⁧פסול⁩, but this letter is written ⁧בדווקא⁩ with a split in it.
 There are many ⁧מדרשים⁩ on this incredibly unusual occurrence. The sefer
-⁧כָּתְנוֹת עוֹר⁩ brings a ⁧תוספות⁩ in ⁧גמרא זבחים⁩ that says that because of ⁧הקדוש
-ברוך⁩ ⁦הוא'⁩s ⁧ברית שלום⁩ with ⁧פנחס⁩, he was able to be ⁧מעמיד⁩ 380 ⁧כהנים גדולים⁩
+⁧כָּתְנוֹת עוֹר⁩ brings a ⁧תוספות⁩ in ⁧גמרא זבחים⁩ that says that because of ⁧הקדוש⁩
+⁦ברוך הוא'⁩s ⁧ברית שלום⁩ with ⁧פנחס⁩, he was able to be ⁧מעמיד⁩ 380 ⁧כהנים גדולים⁩
 from his descendants.
 
 Now, as we well know, in ⁧בית ראשון⁩ there were fewer ⁧כהנים גדולים⁩ than in
@@ -8800,17 +8768,17 @@ investment we can ever have.
 ⁧פרשת פנחס⁩ has a number of massive topics, some more well-known than
 others. One of the topics that doesn't get as much attention or isn't
 learned as much as the others appears right before the section of the
-⁧ימים טובים⁩. Hashem is having a discussion with Moshe (27: 15): ⁧וַיְדַבֵּר מֹשֶׁה
-אֶל⁩ ⁦ה׳⁩ ⁧לֵאמֹר⁩. An unusual pasuk. ⁧משה רבינו⁩ makes an interesting request
-⁧יִפְקֹד⁩ ⁦ה׳⁩ ⁧אֱלֹקֵי הָרוּחֹת לְכׇל בָּשָׂר אִישׁ עַל הָעֵדָה⁩ - He wants to have a successor
-appointed. What does Hashem tell him? ⁧וַיֹּאמֶר⁩ ⁦ה׳⁩ ⁧אֶל מֹשֶׁה קַח לְךָ אֶת יְהוֹשֻׁעַ בִּן
+⁧ימים טובים⁩. Hashem is having a discussion with Moshe (27:15): ⁧וַיְדַבֵּר מֹשֶׁה⁩
+⁦אֶל ה׳⁩ ⁧לֵאמֹר⁩. An unusual pasuk. ⁧משה רבינו⁩ makes an interesting request
+⁦יִפְקֹד ה׳⁩ ⁧אֱלֹקֵי הָרוּחֹת לְכׇל בָּשָׂר אִישׁ עַל הָעֵדָה⁩ - He wants to have a successor
+appointed. What does Hashem tell him? ⁦וַיֹּאמֶר ה׳⁩ ⁧אֶל מֹשֶׁה קַח לְךָ אֶת יְהוֹשֻׁעַ בִּן
 נוּן אִישׁ אֲשֶׁר רוּחַ בּוֹ וְסָמַכְתָּ אֶת יָדְךָ עָלָיו⁩ - and he should give him ⁧סמיכה⁩.
 What does the pasuk say? ⁧וְסָמַכְתָּ אֶת יָדְךָ עָלָיו⁩. What happens a couple of
-⁧פסוקים⁩ later? ⁧וַיִּסְמֹךְ אֶת יָדָיו עָלָיו וַיְצַוֵּהוּ כַּאֲשֶׁר דִּבֶּר⁩ ⁦ה׳⁩ ⁧בְּיַד מֹשֶׁה⁩. There's a
+⁧פסוקים⁩ later? ⁧וַיִּסְמֹךְ אֶת יָדָיו עָלָיו וַיְצַוֵּהוּ כַּאֲשֶׁר⁩ ⁦דִּבֶּר ה׳⁩ ⁧בְּיַד מֹשֶׁה⁩. There's a
 ⁧סתירה בפסוקים⁩. Hashem said to Moshe ⁧וְסָמַכְתָּ אֶת יָדְךָ⁩, singular, and it says
 ⁧וַיִּסְמֹךְ אֶת יָדָיו⁩ - Moshe used his two hands, plural. ⁦רש״י⁩ on the spot says,
 ⁧בְּעַיִן יָפָה⁩ - beautifully, with a generous eye; ⁧יוֹתֵר וְיוֹתֵר מִמַּה שֶּׁנִּצְטַוָּה⁩,
-⁦שֶׁהַקָּבָּ\"ה⁩ ⁧אָמַר לוֹ⁩ \"⁧וְסָמַכְתָּ אֶת⁩ ⁦יָדְךָ\"⁩ - Hashem said "You should put your
+⁦שֶׁהַקָּבָּ\"ה אָמַר⁩ ⁧לוֹ⁩ \"⁧וְסָמַכְתָּ⁩ ⁦אֶת יָדְךָ\"⁩ - Hashem said "You should put your
 hand", and he did it with two hands; ⁧וַעֲשָׂאוֹ כִכְלִי מָלֵא וְגָדוּשׁ⁩ - The ⁧ברכה⁩ he
 gave was as if he was filling a vessel to full and overflowing. What
 does ⁦רש״י⁩ mean by ⁧מָלֵא וְגָדוּשׁ⁩?
@@ -8837,7 +8805,7 @@ attainments, he would be worthy of leading ⁧כלל ישראל⁩.
 He brings down a ⁧מדרש⁩ that ⁧רבי עקיבא⁩ was able to continue the ⁧מסורה⁩ with
 just seven ⁧תלמידים⁩, by filling them up so that they could continue to
 grow. He brings another example of the ⁧חזון איש⁩, one single person
-turned ⁧בני ברק⁩ into what ⁧בני ברק⁩ is, sitting in his ⁦ד׳⁩ ⁧אמות⁩ of learning
+turned ⁧בני ברק⁩ into what ⁧בני ברק⁩ is, sitting in his ⁦ד׳ אמות⁩ of learning
 ⁧תורה⁩, his ⁧השפעה⁩ was so overwhelming that he created an entire ⁧בני ברק⁩.
 So we see that ⁧לימוד התורה⁩ is an ongoing process, and we have to
 continue to work on ourselves, to make ourselves better and to have an
@@ -8875,16 +8843,16 @@ influence on all of ⁧כלל ישראל⁩.
 #set page(footer: article-footer("https://zeidyd.com/pinchas/5785/", "../Files/04 - Bamidbar/09 - Pinchas/5785/Pinchas 5785.png"))
 = Pinchas 5785
 
-⁧פרשת פנחס⁩ is notable in many ways. The first one, of course, is ⁧הקדוש
-ברוך⁩ ⁦הוא'⁩s ⁧בריתי שלום⁩ to ⁧פנחס⁩ at the beginning of the parsha, and the
+⁧פרשת פנחס⁩ is notable in many ways. The first one, of course, is ⁧הקדוש⁩
+⁦ברוך הוא'⁩s ⁧בריתי שלום⁩ to ⁧פנחס⁩ at the beginning of the parsha, and the
 ⁧מועדים⁩ at the end. However, one of the topics discussed in the middle of
-the parsha is not as famous as those. The pasuk is ⁧פרק⁩ ⁦כ\"ז⁩ ⁧פסוק⁩ ⁦י\"ב
-וי\"ג⁩, and the following is quoted in the sefer ⁧פנינים משלחן גבוה⁩ in the
+the parsha is not as famous as those. The pasuk is ⁦פרק כ\"ז⁩ ⁦פסוק י\"ב⁩
+⁦וי\"ג⁩, and the following is quoted in the sefer ⁧פנינים משלחן גבוה⁩ in the
 name of the ⁧כתב סופר⁩. It presents a fascinating analysis of what we
 might think is a simple pasuk, but like everything in the ⁧תורה⁩, has
 tremendous depth.
 
-The pasuk says ⁧וַיֹּאמֶר⁩ ⁦ה׳⁩ ⁧אֶל מֹשֶׁה עֲלֵה אֶל הַר הָעֲבָרִים הַזֶּה וּרְאֵה אֶת הָאָרֶץ אֲשֶׁר
+The pasuk says ⁦וַיֹּאמֶר ה׳⁩ ⁧אֶל מֹשֶׁה עֲלֵה אֶל הַר הָעֲבָרִים הַזֶּה וּרְאֵה אֶת הָאָרֶץ אֲשֶׁר
 נָתַתִּי לִבְנֵי יִשְׂרָאֵל⁩. Hakodosh Baruch Hu informs ⁧משה⁩ that his ⁧מיתה⁩ is
 pending, and that before he passes from this world, he should fulfill
 his last ⁧מצוה⁩, which is to look at ⁧ארץ ישראל⁩\; ⁧וְרָאִיתָה אֹתָהּ⁩ - and you will
@@ -8900,10 +8868,10 @@ does the pasuk say ⁧גַּם אָתָּה⁩? It could have simply said ⁧ו�
 אֶל עַמֶּיךָ כַּאֲשֶׁר נֶאֱסַף אַהֲרֹן אָחִיךָ⁩ - so why these seemingly extra words?
 
 The ⁧כתב סופר⁩ answers in the name of his great father, the ⁧חתם סופר⁩, by
-drawing from what ⁧דוד המלך⁩ said before his own passing (⁧מלכים א⁩ ⁦ב׳
-א׳⁩:⁦ג׳⁩): ⁧וַיְצַו אֶת שְׁלֹמֹה בְנוֹ לֵאמֹר אָנֹכִי הֹלֵךְ בְּדֶרֶךְ כׇּל הָאָרֶץ⁩ - I'm going the way
+drawing from what ⁧דוד המלך⁩ said before his own passing (⁧מלכים⁩ ⁦א ב׳⁩
+⁦א׳⁩:⁦ג׳⁩): ⁧וַיְצַו אֶת שְׁלֹמֹה בְנוֹ לֵאמֹר אָנֹכִי הֹלֵךְ בְּדֶרֶךְ כׇּל הָאָרֶץ⁩ - I'm going the way
 of all of all creatures; ⁧וְחָזַקְתָּ וְהָיִיתָ לְאִישׁ⁩ - strengthen yourself; ⁧וְשָׁמַרְתָּ
-אֶת מִשְׁמֶרֶת⁩ ⁦ה׳⁩ ⁧אֱלֹהֶיךָ לָלֶכֶת בִּדְרָכָיו⁩ - and continues on with his final ⁧צואה⁩ to
+אֶת⁩ ⁦מִשְׁמֶרֶת ה׳⁩ ⁧אֱלֹהֶיךָ לָלֶכֶת בִּדְרָכָיו⁩ - and continues on with his final ⁧צואה⁩ to
 the future king ⁧שלמה⁩. The question is, what's the purpose of the words
 ⁧אָנֹכִי הֹלֵךְ בְּדֶרֶךְ כׇּל הָאָרֶץ⁩? It could have started with ⁧וְחָזַקְתָּ וְהָיִיתָ לְאִישׁ⁩ - I'm
 telling you to strengthen yourself, to be the person that you have to
@@ -9018,7 +8986,7 @@ something positive.
 
 R' Chaim immediately responded, "⁧חולה⁩ doesn't mean sick in this context.
 It means dancing, as in ⁧מחול⁩, " as the ⁧משנה⁩ in ⁧תענית⁩ says: ⁧יוצאות במחולות
-בכרמים⁩. On ⁦ט\"ו⁩ ⁧באב⁩ and on ⁧יום כיפור⁩, the young girls would go out and
+בכרמים⁩. On ⁦ט\"ו באב⁩ and on ⁧יום כיפור⁩, the young girls would go out and
 dance in the vineyards so that they could make ⁧שידוכים⁩. They were
 discussing preparations for a ⁧חתונה⁩. This ⁧מחלה⁩ is not someone who's
 sick, it's ⁦צלפחד'⁩s daughter, whose marriage is recorded at the end of
@@ -9035,12 +9003,12 @@ should strive to duplicate even one little fraction of his work.
 = Matos-Maasei 5784
 
 The parsha starts off ⁧וַיְדַבֵּר מֹשֶׁה אֶל רָאשֵׁי הַמַּטּוֹת לִבְנֵי יִשְׂרָאֵל לֵאמֹר זֶה הַדָּבָר
-אֲשֶׁר צִוָּה⁩ ⁦ה׳⁩. This ⁧פסוק⁩ is different from most of the other ⁧דברות⁩ that ⁧משה
+אֲשֶׁר⁩ ⁦צִוָּה ה׳⁩. This ⁧פסוק⁩ is different from most of the other ⁧דברות⁩ that ⁧משה
 רבינו⁩ was given, in two significant ways. Usually it's ⁧וידבר משה⁩ or
-⁧וידבר⁩ ⁦ה׳⁩ ⁧אל משה לאמר⁩ or ⁧וידבר משה אל בני ישראל⁩. But here, he's talking
+⁦וידבר ה׳⁩ ⁧אל משה לאמר⁩ or ⁧וידבר משה אל בני ישראל⁩. But here, he's talking
 to the ⁧ראשי המטות⁩, which is very unusual. The second aspect is ⁧זֶה הַדָּבָר⁩,
 which is a ⁧חשובה לשון⁩ as ⁦רש\"י⁩ points out. ⁧משה רבינו⁩ uses the ⁧לשון⁩ of ⁧זֶה
-הַדָּבָר אֲשֶׁר צִוָּה⁩ ⁦ה׳⁩, while the other ⁧נביאים⁩ said ⁧כה אמר⁩ ⁦ה׳⁩ to tell you that
+הַדָּבָר אֲשֶׁר⁩ ⁦צִוָּה ה׳⁩, while the other ⁧נביאים⁩ said ⁧כה⁩ ⁦אמר ה׳⁩ to tell you that
 Moshe's level of ⁧נבואה⁩ was on a significantly higher ⁧מדרגה⁩. But if we
 think about it for a second, that's not the usual syntax of the ⁧פסוקים⁩
 elsewhere in the Torah. What would have made more sense to stay
@@ -9055,8 +9023,8 @@ us the pinnacle and highlight of ⁧מעשה בראשית⁩. He explains that t
 is different from the norm so you can read it: ⁧לֵאמֹר⁩ - to say, ⁧זֶה הַדָּבָר⁩.
 In other words, the ⁧זֶה הַדָּבָר⁩ is part of what you have to say. That's why
 the ⁧לֵאמֹר⁩ comes before it. ⁧לֵאמֹר⁩, you have to say, ⁧זֶה הַדָּבָר⁩. The ⁧ראשי המטות⁩
-have to tell ⁧בני ישראל⁩ not only the ⁧דינים⁩ of ⁧נדרים⁩ but, ⁧זֶה הַדָּבָר אֲשֶׁר צִוָּה⁩
-⁦ה׳⁩. You have to know all the ⁧הלכות⁩ of ⁧נדרים⁩, but that's because this is
+have to tell ⁧בני ישראל⁩ not only the ⁧דינים⁩ of ⁧נדרים⁩ but, ⁧זֶה הַדָּבָר אֲשֶׁר⁩ ⁦צִוָּה
+ה׳⁩. You have to know all the ⁧הלכות⁩ of ⁧נדרים⁩, but that's because this is
 ⁧זה הדבר⁩. Exactly in the same way that you know that eating ⁧נבילות
 וטריפות⁩, ⁧שקצים ורמשים⁩, every other ⁧מצוה⁩ in the Torah that were given as
 a ⁧ציווי השם⁩, in exactly the same way, when you make a ⁧נדר⁩, you have to
@@ -9110,8 +9078,8 @@ three ⁧ערי מקלט⁩ on the east side of the ⁧ירדן⁩ before his �
 other three were later set up on the west side of the ⁧ירדן⁩. That was
 where a ⁧רוצח⁩ who killed someone ⁧בשוגג⁩ had to run. They would bring him
 back to ⁧בית דין⁩ to find out what the ⁧דין⁩ was. Then the ⁧פסוק⁩ says
-(35: 25), ⁧וְהֵשִׁיבוּ אֹתֹו הָעֵדָה אֶל עִיר מִקְלָטֹו⁩ - they returned him to the ⁧עיר
-מקלט⁩\; ⁧אֲשֶׁר נָס שָׁמָּה וְיָשַׁב בָּהּ עַד מֹות הַכֹּהֵן הַגָּדֹל אֲשֶׁר מָשַׁח אֹתֹו בְּשֶׁמֶן הַקֹּדֶשׁ⁩- He has
+(35:25), ⁧וְהֵשִׁיבוּ אֹתֹו הָעֵדָה אֶל עִיר מִקְלָטֹו⁩ - they returned him to the ⁧עיר
+מקלט⁩\; ⁧אֲשֶׁר נָס שָׁמָּה וְיָשַׁב בָּהּ עַד מֹות הַכֹּהֵן הַגָּדֹל אֲשֶׁר מָשַׁח אֹתֹו בְּשֶׁמֶן הַקֹּדֶשׁ⁩ - He has
 to stay there until the ⁧מיתה⁩ of the ⁧כהן גדול⁩. If the ⁧כהן גדול⁩ died after
 one week, he would only have to be there for one week. If the ⁧כהן גדול⁩
 died 20 years later, he had to stay there for 20 years. And it could
@@ -9278,8 +9246,7 @@ This week is ⁧פרשת דברים⁩ which is ⁧שבת חזון⁩. Before we
 just wish Dovid Bennett a ⁧מזל טוב⁩ on his birthday, and I hope you lein
 well.
 
-In the ⁧הפטרה⁩ of ⁧חֲזוֹן יְשַׁעְיָהוּ⁩ is the pasuk: ⁧צִיֹּון בְּמִשְׁפָּט תִּפָּדֶה וְשָׁבֶיהָ בִּצְדָקָה⁩ -
-Tziyon, which R' Chaim Kanievsky ⁦זצ״ל⁩ explains refers to the ⁧בית המקדש⁩,
+In the ⁧הפטרה⁩ of ⁧חֲזוֹן יְשַׁעְיָהוּ⁩ is the pasuk: ⁧צִיֹּון בְּמִשְׁפָּט תִּפָּדֶה וְשָׁבֶיהָ בִּצְדָקָה⁩ - Tziyon, which R' Chaim Kanievsky ⁦זצ״ל⁩ explains refers to the ⁧בית המקדש⁩,
 will be returned to us through ⁧משפט⁩, through justice. The ⁧בית המקדש⁩ did
 not do any ⁧עבירה⁩. Therefore, it is only just that it should be restored
 as soon as possible. However, ⁧וְשָׁבֶיהָ⁩ - the people of ⁧ירושלים⁩, those who
@@ -9299,7 +9266,7 @@ that ⁧ירושלים⁩ will be rebuilt without ⁧רחמים⁩? That's reall
 ⁦גר"א⁩.
 
 Rav Chaim brings many ⁧ראיות⁩ that we should say ⁧בְרַחֲמָיו⁩. One of them is a
-pasuk in ⁧זכריה⁩ ⁦א׳⁩:⁦ט״ז⁩: ⁧שַׁבְתִּי לִירוּשָׁלַם בְּרַחֲמִים⁩. Another is what we say three
+pasuk in ⁦זכריה א׳⁩:⁦ט״ז⁩: ⁧שַׁבְתִּי לִירוּשָׁלַם בְּרַחֲמִים⁩. Another is what we say three
 times a day in ⁧שמונה עשרה⁩:⁧וְתֶחֱזֶינָה עֵינֵינוּ בְּשׁוּבְךָ לְצִיּוֹן בְּרַחֲמִים⁩. We also
 say ⁧בְּרַחֲמִים⁩ there. And again in ⁧שמונה עשרה⁩ we say: ⁧וְלִירוּשָׁלַיִם עִירְךָ בְּרַחֲמִים
 תָּשׁוּב⁩. So we know that Hashem will grant us ⁧רחמים⁩ in the rebuilding of
@@ -9317,8 +9284,7 @@ be ⁧ישרותדיק⁩ in our entire lives, in our dealings certainly ⁧בי
 have to do more in terms of ⁧תשובה⁩, ⁧תפלה⁩, and ⁧צדקה⁩. We're heading into
 ⁧אלול⁩, into the new year. We know that these are the three critical
 elements that we need in order to ensure that we'll have, ⁧אם ירצה השם⁩, ⁧א
-גוט געבענטשט יאר⁩. And we will, ⁧אם ירצה השם⁩, come together for ⁧שמחות⁩ -
-with ⁧צדקה⁩, with ⁧משפט⁩, and with ⁧נחת⁩.
+גוט געבענטשט יאר⁩. And we will, ⁧אם ירצה השם⁩, come together for ⁧שמחות⁩ - with ⁧צדקה⁩, with ⁧משפט⁩, and with ⁧נחת⁩.
 
 #pagebreak()
 
@@ -9330,7 +9296,7 @@ with ⁧צדקה⁩, with ⁧משפט⁩, and with ⁧נחת⁩.
 ⁧משה רבינו⁩ delivering his final speech which lasted for many days, and
 starts off with the ⁧תוכחה⁩ which lists all the places at the beginning of
 ⁧דברים⁩, as ⁦רש\"י⁩ points out. The fundamental lesson in ⁧פרשת דברים⁩ is if
-you pay attention to ⁧הקדוש ברוך⁩ ⁦הוא'⁩s ⁧מצוות⁩, you will receive the
+you pay attention to ⁧הקדוש⁩ ⁦ברוך הוא'⁩s ⁧מצוות⁩, you will receive the
 appropriate ⁧שכר⁩, and ⁧חס ושלום⁩ the opposite, if we don't listen, we will
 have to face the consequences. A deeper understanding of this concept is
 found in the ⁧מדרש⁩, which emphasizes ⁧צדיק גוזר והקדוש ברוך הוא מקיים⁩,
@@ -9339,7 +9305,7 @@ that if ⁧משה רבינו⁩ says something, it's because of his level of ⁧
 down through all ages.
 
 One of the ⁧פסוקים⁩ in the parsha which I would like to discuss for just a
-moment is (1: 13): ⁧הָבוּ לָכֶם אֲנָשִׁים חֲכָמִים וּנְבֹנִים וִידֻעִים לְשִׁבְטֵיכֶם וַאֲשִׂימֵם
+moment is (1:13): ⁧הָבוּ לָכֶם אֲנָשִׁים חֲכָמִים וּנְבֹנִים וִידֻעִים לְשִׁבְטֵיכֶם וַאֲשִׂימֵם
 בְּרָאשֵׁיכֶם⁩. Moshe complained to ⁧הקדוש ברוך הוא⁩, "I can't carry the burden
 of this nation". Hashem answers by saying that others will be appointed
 to lead ⁧כלל ישראל⁩. That seems to be a compromise or a defeat, because
@@ -9411,7 +9377,7 @@ time. Nobody else can. People can talk out of both sides of their mouth,
 
 That brings us to an interesting story, one of my favorites, brought
 down in Rabbi Peretz Steinberg's beautiful sefer on ⁧חומש⁩ called ⁧ספר פרי
-עץ חיים⁩ in the name of R' Yaakov Kamenetsky on the pasuk (5: 12) ⁧שָׁמֹור אֶת
+עץ חיים⁩ in the name of R' Yaakov Kamenetsky on the pasuk (5:12) ⁧שָׁמֹור אֶת
 יֹום הַשַּׁבָּת לְקַדְּשֹׁו⁩. Rav Steinberg says that he himself heard from R' Yaakov
 that one time, R' Yaakov went into a ⁧חדר⁩ in ⁧ירושלים⁩ where there were
 little kids, and he asked them "In Lecha Dodi is says ⁧שָׁמוֹר וְזָכוֹר בְּדִבּוּר
@@ -9462,7 +9428,7 @@ and we will indeed be ⁧מקיים זכור ושמור בדיבור אחד⁩.
 Parshas Vaeschanan begins with the famous medrash that the word ⁧ואתחנן⁩
 represents the number 515. The following vort is from the ⁧ספר אוצר פלאות
 התורה⁩. He's quoting from a Rav named R' Chaim Leibish Rottenberg, who
-gave this ⁧דרשה⁩ on ⁧שבת פרשת ואתחנן⁩ ⁦תשע\"ח⁩. How do we know that ⁧משה רבינו⁩
+gave this ⁧דרשה⁩ on ⁧שבת פרשת⁩ ⁦ואתחנן תשע\"ח⁩. How do we know that ⁧משה רבינו⁩
 davened 515 ⁧תפילות⁩? Because the ⁧גמטריא⁩ of ⁧ואתחנן⁩ is 515. The ⁧קשיא⁩ that
 he raises is what is the significance of 515?
 
@@ -9479,7 +9445,7 @@ the ⁧בית המקדש⁩. Those are the words of the Belzer rebbe.
 
 His grandson, two rebbes after him, explained that we can use this to
 understand the ⁧גמרא⁩ in ⁧מסכת פסחים⁩. What did ⁧אברהם אבינו⁩ call the ⁧מקום
-המקדש⁩? He called it ⁧הר⁩. As we know, ⁧בְּהַר⁩ ⁦ה׳⁩ ⁧יֵרָאֶה⁩ ⁦(בראשית כ״ב:י״ד)⁩. What
+המקדש⁩? He called it ⁧הר⁩. As we know, ⁦בְּהַר ה׳⁩ ⁧יֵרָאֶה⁩ ⁦(בראשית כ״ב:י״ד)⁩. What
 did ⁧יצחק⁩ call the ⁧בית המקדש⁩? ⁧שדה⁩, As it says, ⁧וַיֵּצֵא יִצְחָק לָשׂוּחַ בַּשָּׂדֶה⁩
 ⁦(בראשית כ״ד:ס״ג)⁩. ⁧יעקב אבינו⁩ called it ⁧בית⁩, as the ⁧פסוק⁩ says, ⁧וַיִּקְרָא אֶת
 שֵׁם הַמָּקֹום הַהוּא בֵּית קֵל⁩ ⁦(בראשית כ״ח:י״ט)⁩. Now, how does he explain all of
@@ -9531,7 +9497,7 @@ like to ask the following question, which is not well known: How many
 times did ⁧אהרן הכהן⁩ daven to go into ⁧ארץ ישראל⁩? The answer is zero. He
 did not daven to go into ⁧ארץ ישראל⁩. The ⁧מגלה עמוקות⁩ asks this question
 and points out that there's a ⁧פסוק⁩ in Parshas Matos ⁦(במדבר ל״ב:כ״ב)⁩:
-⁧וִהְיִיתֶם נְקִיִּים⁩ ⁦מֵה׳⁩ ⁧וּמִיִּשְׂרָאֵל⁩ - We have to be blameless and spotless in the
+⁧וִהְיִיתֶם⁩ ⁦נְקִיִּים מֵה׳⁩ ⁧וּמִיִּשְׂרָאֵל⁩ - We have to be blameless and spotless in the
 eyes of Hashem and ⁧ישראל⁩.
 
 An interesting observation made by R' Moshe Donnebaum in the Torah
@@ -9546,7 +9512,7 @@ gifts. Since there was the possibility of having his intentions
 misunderstood, he didn't daven to enter ⁧ארץ ישראל⁩ so that he should be
 ⁧נקי⁩, clear even from those who might mistakenly make an assumption.
 
-⁧משה⁩ ⁦רבינו'⁩s torrent of ⁧תפילות⁩ #emph[was] answered. The answer was no.
+⁦משה רבינו'⁩s torrent of ⁧תפילות⁩ #emph[was] answered. The answer was no.
 What is the important lesson to derive from this?
 
 There is a ⁧מחלוקת⁩ in the ⁧גמרא⁩ as to when ⁧משה רבינו⁩ davened to Hashem to
@@ -9554,7 +9520,7 @@ be allowed to enter into ⁧ארץ ישראל⁩. Whichever ⁧שיטה⁩ we ta
 before Hashem commanded ⁧משה רבינו⁩ to take ⁧נקמה⁩ from ⁧מדין⁩. We know that
 ⁧כלל ישראל⁩ refused to send out the soldiers because they knew of this
 ⁧הבטחה⁩ and they didn't want to be ⁧גורם⁩ his ⁧מיתה⁩, as the ⁧פסוק⁩ says
-(31: 5)⁧וַיִּמָּסְרוּ⁩, that they were given against their will.
+(31:5)⁧וַיִּמָּסְרוּ⁩, that they were given against their will.
 
 The ⁧משנה⁩ says in ⁧פרקי אבות⁩ ⁦(ב׳:ט״ז)⁩: ⁧לֹא עָלֶיךָ הַמְּלָאכָה לִגְמֹר⁩ - Your job is
 not to look at what ⁧הקדוש ברוך הוא⁩ gives you as a task and say, "I've
@@ -9642,14 +9608,14 @@ to spend time down here. Our purpose in life is to do ⁧רצון השם⁩.
 ⁧משה רבינו⁩ davened to enter ⁧ארץ ישראל⁩, not because of personal gain. He
 davened in ⁧ואתחנן⁩ because he wanted to do more ⁧מצוות⁩ . Hashem said, "You
 have fulfilled your ⁧תפקיד⁩, you did my ⁧רצון⁩, now is the time for you to
-go to ⁧עולם⁩ ⁦הבא"⁩. Once ⁧משה רבינו⁩ heard that, he immediately ran to do
+go to ⁦עולם הבא"⁩. Once ⁧משה רבינו⁩ heard that, he immediately ran to do
 Hashem's will, whether it was by ⁧מדין⁩, whether it was by not davening
 anymore, as well as his last ⁧מצוה⁩, to go up on ⁧הר נבו⁩ and give up his
 ⁧נשמה⁩.
 
 This is the lesson that we get. No matter what our role in life is, our
 ⁧תפקיד⁩ is to do Hashem's ⁧רצון⁩, each of us in our own way. If we do that,
-we will be ⁧זוכה⁩ to ⁧חיי עולם הבא⁩, and we'll be making ⁧הקדוש ברוך⁩ ⁦הוא'⁩s
+we will be ⁧זוכה⁩ to ⁧חיי עולם הבא⁩, and we'll be making ⁧הקדוש⁩ ⁦ברוך הוא'⁩s
 ⁧הנאה⁩ infinite.
 
 #pagebreak()
@@ -9660,7 +9626,7 @@ we will be ⁧זוכה⁩ to ⁧חיי עולם הבא⁩, and we'll be making �
 We live in an era of science and technology where man thinks he can
 control everything. In fact, Hashem gave us a mitzvah of ⁦(בראשית א׳:כ״ח)⁩
 ⁧וְכִבְשֻׁהָ⁩ to control and to run the world for the betterment of mankind.
-However, we often take that too far and we fall into the trap of (8: 17)
+However, we often take that too far and we fall into the trap of (8:17)
 ⁧כֹּחִי וְעֹצֶם יָדִי עָשָׂה לִי אֶת הַחַיִל הַזֶּה⁩. Hashem constantly sends us reminders
 that this not true. Titus said, "Hashem, You can only defeat me on
 water. You can't defeat me on land." Hashem said, "Oh yeah? Get onto
@@ -9676,16 +9642,15 @@ Hashem I can help a sick person get better."
 
 In this week's ⁧פרשה⁩ of ⁧עקב⁩ is the second ⁧פרשה⁩ of ⁧קריאת שמע⁩, and it
 contains a beautiful but subtle example of what it means to know our
-limits. The pasuk goes as follows: ⁧וְחָרָה אַף⁩ ⁦ה׳⁩ ⁧בָּכֶם וְעָצַר אֶת הַשָּׁמַיִם וְלֹא יִהְיֶה
-מָטָר וְהָאֲדָמָה לֹא תִתֵּן אֶת יְבוּלָהּ וַאֲבַדְתֶּם מְהֵרָה מֵעַל הָאָרֶץ הַטֹּבָה אֲשֶׁר⁩ ⁦ה׳⁩ ⁧נֹתֵן לָכֶם⁩.
+limits. The pasuk goes as follows: ⁧וְחָרָה⁩ ⁦אַף ה׳⁩ ⁧בָּכֶם וְעָצַר אֶת הַשָּׁמַיִם וְלֹא יִהְיֶה
+מָטָר וְהָאֲדָמָה לֹא תִתֵּן אֶת יְבוּלָהּ וַאֲבַדְתֶּם מְהֵרָה מֵעַל הָאָרֶץ הַטֹּבָה⁩ ⁦אֲשֶׁר ה׳⁩ ⁧נֹתֵן לָכֶם⁩.
 These particular five words, ⁧וְהָאֲדָמָה לֹא תִתֵּן אֶת יְבוּלָהּ⁩, would be more
 grammatically correct if it was written ⁧לֹא תִתֵּן יְבוּלָהּ⁩, because the word
 ⁧יְבוּלָהּ⁩ means ⁧את היבול שלה⁩, so the word ⁧אֶת⁩ is unnecessary. Why did the
 torah use this extra word ⁧אֶת⁩?
 
 What does ⁦רש\"י⁩, our teacher, our guide, our ultimate all-time rebbi,
-say on this pasuk?⁧אַף מַה שֶּׁאַתָּה מוֹבִיל לָהּ⁩, ⁧כָּעִנְיָן שֶׁנֶּאֱמַר זְרַעְתֶּם הַרְבֵּה וְהָבֵא מְעָט⁩ -
-No matter what you try to do, you will plant a lot and nothing will come
+say on this pasuk?⁧אַף מַה שֶּׁאַתָּה מוֹבִיל לָהּ⁩, ⁧כָּעִנְיָן שֶׁנֶּאֱמַר זְרַעְתֶּם הַרְבֵּה וְהָבֵא מְעָט⁩ - No matter what you try to do, you will plant a lot and nothing will come
 out. Why? Because we think we can do anything with technology. If Hashem
 doesn't send us rain, it doesn't matter, we'll dig an irrigation ditch.
 We'll bring in water. We'll make water out of saline water, which is
@@ -9704,13 +9669,13 @@ in ⁧עבודת הבורא⁩ and fulfill our ⁧תפקיד⁩ in this world.
 #set page(footer: article-footer("https://zeidyd.com/eikev/5784/", "../Files/05 - Devarim/03 - Eikev/5784/Eikev 5784.png"))
 = Eikev 5784
 
-We are now in the ⁦ז'⁩ ⁧דנחמתא⁩, the seven weeks of comfort following ⁧תשעה
+We are now in the ⁦ז' דנחמתא⁩, the seven weeks of comfort following ⁧תשעה
 באב⁩, which continue all the way until ⁧ראש השנה⁩. The first ⁧פסוקים⁩ of each
-of the haftorahs of the ⁦ז'⁩ ⁧דנחמתא⁩ are a dialogue between ⁧הקדוש ברוך הוא⁩
+of the haftorahs of the ⁦ז' דנחמתא⁩ are a dialogue between ⁧הקדוש ברוך הוא⁩
 and ⁧כלל ישראל⁩. The ⁧הפטרה⁩ for ⁧עקב⁩ has two extremely important ⁧פסוקים⁩
 which I would like to focus on. The first is when ⁧כלל ישראל⁩ cries to
-Hashem. ⁧כלל ישראל⁩ in ⁧ציון⁩ cries bitterly ⁦(ישעיהו מ״ט:י״ד)⁩: ⁧וַתֹּאמֶר צִיֹּון
-עֲזָבַנִי⁩ ⁦ה׳ וַה׳⁩ ⁧שְׁכֵחָנִי⁩. This is a bitter cry. It is not an accusation; it is
+Hashem. ⁧כלל ישראל⁩ in ⁧ציון⁩ cries bitterly ⁦(ישעיהו מ״ט:י״ד)⁩: ⁧וַתֹּאמֶר צִיֹּון⁩
+⁦עֲזָבַנִי ה׳⁩ ⁦וַה׳ שְׁכֵחָנִי⁩. This is a bitter cry. It is not an accusation; it is
 a cry, a weeping: Hashem, You have forgotten us.
 
 Towards the end of the ⁧הפטרה⁩, there's a ⁧פסוק⁩ which profoundly answers
@@ -9756,8 +9721,8 @@ government ⁧ימח שמם⁩ came out with an announcement that they're going 
 attack Israel on ⁧תשעה באב⁩ because that's the day of their ⁧פורעניות⁩,
 that's the day that they suffer all their misfortunes. I immediately
 fired back to anyone who got my text message, those guys just like
-Haman, who didn't know that ⁦ז'⁩ ⁧אדר⁩ was not only a day when ⁧משה רבינו⁩
-died, but ⁦ז'⁩ ⁧אדר⁩ is the day ⁧משה רבינו⁩ was born. So too, in our time,
+Haman, who didn't know that ⁦ז' אדר⁩ was not only a day when ⁧משה רבינו⁩
+died, but ⁦ז' אדר⁩ is the day ⁧משה רבינו⁩ was born. So too, in our time,
 ⁧הלוואי תשעה באב⁩ is going to become the biggest ⁧יום טוב⁩. When you hear
 this podcast, this talk, it will already be after ⁧תשעה באב⁩, and I'm
 hoping by then we will see a great ⁧ישועה⁩, and Hashem will answer us and
@@ -9769,7 +9734,7 @@ we will see the great ⁧נחמה⁩, and ⁧הלוואי משיח⁩ should com
 = Eikev 5785
 
 In ⁧פרשת עקב⁩ the ⁧מגלה עמוקות⁩ brings down a Zohar which quotes a pasuk
-from Malachi: ⁧לְיִרְאֵי⁩ ⁦ה׳⁩ ⁧וּלְחֹשְׁבֵי שְׁמוֹ⁩ ⁦(מלאכי ג׳:ט״ז)⁩. We know that
+from Malachi: ⁦לְיִרְאֵי ה׳⁩ ⁧וּלְחֹשְׁבֵי שְׁמוֹ⁩ ⁦(מלאכי ג׳:ט״ז)⁩. We know that
 everything in ⁧עולם הזה⁩ is temporary, but there are some things we tend
 to think of as important, inviolate, black and white - hard rules. In
 truth, they are not. Everything we see here is part of the temporary
@@ -9779,9 +9744,9 @@ can't bend it. Indeed, ⁧חשבונות⁩ are important. But the ⁧מגלה �
 out, from the Zohar on this pasuk ⁧וּלְחֹשְׁבֵי שְׁמוֹ⁩, that all ⁧חשבונות⁩ are
 nothing other than manifestations of permutations of the ⁧שם השם⁩. As we
 know from many ⁧מפרשים⁩, all of the Torah - every pasuk in the Torah - is
-a permutation of ⁧הקדוש ברוך⁩ ⁦הוא'⁩s Name. The ⁧מגלה עמוקות⁩ brings a
+a permutation of ⁧הקדוש⁩ ⁦ברוך הוא'⁩s Name. The ⁧מגלה עמוקות⁩ brings a
 fascinating ⁧ראיה⁩. The word ⁧חשבון⁩, which means calculation, has the
-gematria of 366, and the term ⁧שם⁩ ⁦הוי״ה⁩ also has a gematria of 366.
+gematria of 366, and the term ⁦שם הוי״ה⁩ also has a gematria of 366.
 
 \[As I've mentioned previously, there was once a medical journal cover -
 printed in honor of ⁧ימים נוראים⁩, as I recall - with a picture of an ⁧ארון
@@ -9803,8 +9768,8 @@ did he do? He sat down and counted every instance from ⁧בראשית⁩ to ⁧
 הברכה⁩, and came up with a number which, as he notes, almost no one
 knows. I've asked many people since I read this, and not one person has
 even come close. The answer is 1, 820. He then asked a fascinating
-question: which ⁧פרשה⁩ in the Torah contains the most appearances of ⁧שם⁩
-⁦הוי״ה⁩? So far, my batting average is 100% - no one I've asked has gotten
+question: which ⁧פרשה⁩ in the Torah contains the most appearances of ⁦שם
+הוי״ה⁩? So far, my batting average is 100% - no one I've asked has gotten
 it right. And I've asked some pretty ⁦חשוב'ע⁩ people. The answer is this
 week's ⁧פרשה⁩, ⁧פרשת עקב⁩, which has 93 occurrences. That's just an
 interesting aside - nothing you have to know, but certainly worth being
@@ -9812,8 +9777,8 @@ aware of. I am 77 years old, and I had never heard this before. All of
 you who are younger now have the ⁧זכות⁩ to know it earlier in life.
 
 Another sefer of repute is the ⁧ספר אפריון⁩ from R' Shlomo Ganzfried. In
-our ⁧פרשה⁩, there's a pasuk discussing many aspects of ⁧הקדוש ברוך⁩ ⁦הוא'⁩s
-dealings with us. In ⁧פרשת עקב⁩, ⁧פרק ז⁩, ⁧פסוק⁩ ⁦ט\"ו⁩:⁧וְהֵסִיר⁩ ⁦ה׳⁩ ⁧מִמְּךָ כׇּל חֹלִי וְכׇל
+our ⁧פרשה⁩, there's a pasuk discussing many aspects of ⁧הקדוש⁩ ⁦ברוך הוא'⁩s
+dealings with us. In ⁧פרשת עקב⁩, ⁧פרק ז⁩, ⁦פסוק ט\"ו⁩:⁦וְהֵסִיר ה׳⁩ ⁧מִמְּךָ כׇּל חֹלִי וְכׇל
 מַדְוֵי מִצְרַיִם הָרָעִים אֲשֶׁר יָדַעְתָּ לֹא יְשִׂימָם בָּךְ וּנְתָנָם בְּכׇל שֹׂנְאֶיךָ⁩ - Hashem says: I
 will take away all of the illnesses of the world from you, and I will
 place them upon your enemies. The ⁧ספר אפריון⁩ makes a sharp insight into
@@ -9823,12 +9788,12 @@ distinction. He says that ⁧שימה⁩ refers to something temporary, not mean
 to stay forever. He brings a proof from ⁧פרשת ראה⁩, where the Torah
 commands the destruction of all avodah zara upon entering Eretz Yisrael:
 ⁧וְנִתַּצְתֶּם אֶת מִזְבְּחֹתָם⁩... ⁧וְאִבַּדְתֶּם אֶת שְׁמָם מִן הַמָּקוֹם הַהוּא⁩. The next pasuk there
-says: ⁧כִּי אִם אֶל הַמָּקוֹם אֲשֶׁר יִבְחַר⁩ ⁦ה׳⁩... ⁧לָשׂוּם אֶת שְׁמוֹ שָׁם⁩. The ⁧כלי יקר⁩ explains
+says: ⁧כִּי אִם אֶל הַמָּקוֹם אֲשֶׁר⁩ ⁦יִבְחַר ה׳⁩... ⁧לָשׂוּם אֶת שְׁמוֹ שָׁם⁩. The ⁧כלי יקר⁩ explains
 that this is referring to ⁧משכן שילה⁩, not the ⁧בית המקדש⁩, which we hope
 will be permanent. Even ⁧משכן שילה⁩ was not permanent because of our
 ⁧עבירות⁩. This is another proof that ⁧שימה⁩ is temporary. Other uses of ⁧שימה⁩
 in Tanach similarly indicate something that exists only for a set time.
-However, ⁧נתינה⁩ is permanent. For example (7: 15) ⁧וּנְתָנָם בְּכׇל שֹׂנְאֶיךָ⁩ - that
+However, ⁧נתינה⁩ is permanent. For example (7:15) ⁧וּנְתָנָם בְּכׇל שֹׂנְאֶיךָ⁩ - that
 is ongoing. They do not retain all their illnesses or all the ⁧קללות⁩.
 When Hashem says ⁧ונתתי גשמיכם בעיתם⁩, or in shema ⁧ונתתי מטר ארצכם בעיתו⁩,
 these are permanent commitments. ⁧נתינת התורה⁩, ⁧מתן תורה⁩ - these are
@@ -9840,13 +9805,13 @@ When ⁧הקדוש ברוך הוא⁩ gives us something, we must appreciate tha
 forever.
 
 Now, why is ⁧עקב בדווקא⁩ the one with most of Hashem's names? I thought
-about it. We're in the middle of the ⁦ז׳⁩ ⁧דנחמתאּ⁩. ⁧הקדוש ברוך הוא⁩ is
+about it. We're in the middle of the ⁦ז׳ דנחמתאּ⁩. ⁧הקדוש ברוך הוא⁩ is
 showering us with his name of ⁧רחמים⁩ in these days when we're trying to
-bring ourselves back from ⁧תשעה באב⁩. ⁦ז׳⁩ ⁧דנחמתאּ⁩, this is exactly where it
+bring ourselves back from ⁧תשעה באב⁩. ⁦ז׳ דנחמתאּ⁩, this is exactly where it
 belongs. ⁧י ק ו ק⁩, the name of ⁧רחמים⁩. Hashem is showing us, "I'm giving
 you my name, use it, hear it, say it. Utilize it to its fullest
 capacity." I He didn't have that in his sefer, I thought of that myself.
-I don't know if I'm right or wrong. That's my own little ⁧בעל⁩ ⁦הבית'ישע⁩
+I don't know if I'm right or wrong. That's my own little ⁦בעל הבית'ישע⁩
 take on it. But I listen to everybody's opinion including my own.
 Sometimes I'm right, sometimes I'm not. I try to do things ⁧על פי דרך
 התורה⁩.
@@ -9959,7 +9924,7 @@ require ⁧ישועות⁩ and ⁧רפואות⁩ should have them.
 = Re'eh 5785
 
 ⁧פרשת ראה⁩ is a ⁧פרשה⁩ full of ⁧מצוות⁩, ⁧חסד⁩ and ⁧מידות⁩. In the ⁧פרשה⁩, the ⁧פסוק⁩
-says (15: 7-8), ⁧לֹא תְאַמֵּץ אֶת לְבָבְךָ⁩ - we're talking about the ⁧מצוה⁩ of ⁧צדקה⁩,
+says (15:7-8), ⁧לֹא תְאַמֵּץ אֶת לְבָבְךָ⁩ - we're talking about the ⁧מצוה⁩ of ⁧צדקה⁩,
 you should not harden your heart; ⁧וְלֹא תִקְפֹּץ אֶת יָדְךָ⁩ - and don't close your
 hand; ⁧מֵאָחִיךָ הָאֶבְיֹון⁩ - from your poor brother; ⁧כִּי פָתֹחַ תִּפְתַּח אֶת יָדְךָ לוֹ וְהַעֲבֵט
 תַּעֲבִיטֶנּוּ דֵּי מַחְסֹרוֹ אֲשֶׁר יֶחְסַר לוֹ⁩ - Open up your hand generously and extend
@@ -10014,7 +9979,7 @@ improve our own ⁧צדקה⁩ to the best of our abilities.
 #set page(footer: article-footer("https://zeidyd.com/shoftim/5783/", "../Files/05 - Devarim/05 - Shoftim/5783/Shoftim 5783.png"))
 = Shoftim 5783
 
-In ⁧פרשת שופטים⁩ the pasuk says (17: 11): ⁧עַל פִּי הַתּוֹרָה אֲשֶׁר יוֹרוּךָ וְעַל הַמִּשְׁפָּט
+In ⁧פרשת שופטים⁩ the pasuk says (17:11): ⁧עַל פִּי הַתּוֹרָה אֲשֶׁר יוֹרוּךָ וְעַל הַמִּשְׁפָּט
 אֲשֶׁר יֹאמְרוּ לְךָ תַּעֲשֶׂה לֹא תָסוּר מִן הַדָּבָר אֲשֶׁר יַגִּידוּ לְךָ יָמִין וּשְׂמֹאל⁩. This is
 fairly straightforward, you should listen to the chachomim and you
 should not deviate from whatever they tell you, right or left. R'
@@ -10038,9 +10003,9 @@ is telling us that if the rabbis are telling you that right is left,
 make sure you turn around, because it's your perspective that's wrong.
 
 In a similar vein, in an unrelated pasuk, right at the beginning of the
-⁧פרשה⁩, it says (16: 21): ⁧לֹא תִטַּע לְךָ אֲשֵׁרָה כׇּל עֵץ אֵצֶל מִזְבַּח⁩ ⁦ה׳⁩ ⁧אֱלֹקֶיךָ אֲשֶׁר תַּעֲשֶׂה לָּךְ⁩
+⁧פרשה⁩, it says (16:21): ⁧לֹא תִטַּע לְךָ אֲשֵׁרָה כׇּל עֵץ אֵצֶל⁩ ⁦מִזְבַּח ה׳⁩ ⁧אֱלֹקֶיךָ אֲשֶׁר תַּעֲשֶׂה לָּךְ⁩
 \- No trees are allowed to be planted in the ⁧בית המקדש⁩. In the very next
-pasuk it says ⁧וְלֹא תָקִים לְךָ מַצֵּבָה אֲשֶׁר שָׂנֵא⁩ ⁦ה׳⁩ ⁧אֱלֹקֶיךָ⁩. So R' Moshe Feinstein
+pasuk it says ⁧וְלֹא תָקִים לְךָ מַצֵּבָה אֲשֶׁר⁩ ⁦שָׂנֵא ה׳⁩ ⁧אֱלֹקֶיךָ⁩. So R' Moshe Feinstein
 brings an incredible insight into these two ⁧פסוקים⁩, especially the pasuk
 regarding ⁧מצבה⁩. What is a ⁧מצבה⁩? A ⁧מצבה⁩ is a single slab of stone. We
 know today what a ⁧מצבה⁩ is, ⁧נעבעך⁩, when someone passes away, we put up a
@@ -10058,7 +10023,7 @@ standing still. After a person passes away, we build a ⁧מצבה⁩ because
 that's as far as he got. This is his level of accomplishment, whatever
 he accomplished, more or less, hopefully more, is what he did. The ⁧מצבה⁩
 represents completion of accomplishment, and ⁧אבנים⁩ represent ongoing
-creativity. In the same vein, the gemara (⁧ברכות סד⁩ ⁦ע״א⁩) bring down
+creativity. In the same vein, the gemara (⁧ברכות⁩ ⁦סד ע״א⁩) bring down
 what's the difference between ⁧לך לשלום⁩ and ⁧לך בשלום⁩? When a person says
 to somebody ⁧לך בשלום⁩, it's not a good thing. ⁧לך בשלום⁩ means that that's
 it, you have completed your job. That's not said to a living person.
@@ -10079,7 +10044,7 @@ then we don't do anything to them. The ⁧צדוקים⁩, of course, didn't kno
 how to learn, they only know ⁧תורה שבכתב⁩. The ⁧צדוקים⁩ said, no, you do
 ⁧כַּאֲשֶׁר זָמַם⁩ to them if they fulfilled their ⁧עדות שקר⁩. How did they know
 that? Because the pasuk says ⁧נפש תחת נפש⁩. The ⁧חכמים⁩ said to them, but it
-says ⁧וַעֲשִׂיתֶם לֹו כַּאֲשֶׁר זָמַם לַעֲשֹׂות לְאָחִיו⁩ and they explain ⁧עד שאחיו קיים⁩- the
+says ⁧וַעֲשִׂיתֶם לֹו כַּאֲשֶׁר זָמַם לַעֲשֹׂות לְאָחִיו⁩ and they explain ⁧עד שאחיו קיים⁩ - the
 brother still has to be here, the brother has to still be alive.
 
 The ⁦ריטב״א⁩ asks a ⁧קשיא⁩ on this ⁧משנה⁩: What do you mean ⁧אחיו⁩ is only if
@@ -10128,7 +10093,7 @@ have a ⁧ישועה במהרה⁩.
 In ⁧פרשת שופטים⁩, the Torah instructs us that listening to our leaders is
 not only a good idea, but is mandatory. We have to come to our leaders
 and they should tell us what we have to do. Not only that, but the pasuk
-says (17: 11) ⁧עַל פִּי הַתּוֹרָה אֲשֶׁר יוֹרוּךָ וְעַל הַמִּשְׁפָּט אֲשֶׁר יֹאמְרוּ לְךָ תַּעֲשֶׂה לֹא תָסוּר
+says (17:11) ⁧עַל פִּי הַתּוֹרָה אֲשֶׁר יוֹרוּךָ וְעַל הַמִּשְׁפָּט אֲשֶׁר יֹאמְרוּ לְךָ תַּעֲשֶׂה לֹא תָסוּר
 מִן הַדָּבָר אֲשֶׁר יַגִּידוּ לְךָ יָמִין וּשְׂמֹאל⁩. This is a firm pasuk which says that
 you cannot deviate one bit from whatever they tell you.
 
@@ -10158,7 +10123,7 @@ could not live? They came up with many theories. But the ⁦מלבי\"ם⁩ in �
 נח⁩ already explains this. After the mabul, ⁧הקדוש ברוך הוא⁩ changed the
 ⁧מצב⁩ of the world. Places that had been near the equator were moved
 north, and those that were far north were shifted southward, closer to
-the center of habitation. This was part of ⁧הקדוש ברוך⁩ ⁦הוא'⁩s plan to
+the center of habitation. This was part of ⁧הקדוש⁩ ⁦ברוך הוא'⁩s plan to
 improve both the environment and life for people. So, in a very real
 sense, south became north and north became south. There is your ⁧ימין
 ושמאל⁩. The scientists could not understand, but the Torah already told
@@ -10196,17 +10161,17 @@ Torah, if only one delves deeply enough.
 
 ⁧פרשת כי תצא⁩ is the parsha with the most ⁧מצוות⁩ in it, each one of which
 deserves a lifetime of study. We're going to use two of them to explain
-an interesting thought, and that is that ⁧הקדוש ברוך⁩ ⁦הוא'⁩s ⁧חסד⁩ is
+an interesting thought, and that is that ⁧הקדוש⁩ ⁦ברוך הוא'⁩s ⁧חסד⁩ is
 manifest throughout all of ⁧ספר דברים⁩. He has patience with us, He cares
 for us, and He yearns for our ⁧דביקות⁩, for our coming close to Him. On
 the other hand, the precision and the exactitude of how ⁧הקדוש ברוך הוא⁩
 rules the world is hidden between the lines. The famous pasuk coming up
-in a few weeks (32: 4)⁧הַצּוּר תָּמִים פׇּעֳלוֹ כִּי כׇל דְּרָכָיו מִשְׁפָּט⁩, highlights that
+in a few weeks (32:4)⁧הַצּוּר תָּמִים פׇּעֳלוֹ כִּי כׇל דְּרָכָיו מִשְׁפָּט⁩, highlights that
 thought. But we can see it running throughout all of ⁧ספר דברים⁩ if we
 look for it carefully.
 
 If we look in this week's parsha, two unrelated sections will emphasize
-this point. The pasuk says (23: 21) ⁧לַנׇּכְרִי תַשִּׁיךְ וּלְאָחִיךָ לֹא תַשִּׁיךְ⁩ - the
+this point. The pasuk says (23:21) ⁧לַנׇּכְרִי תַשִּׁיךְ וּלְאָחִיךָ לֹא תַשִּׁיךְ⁩ - the
 famous ⁧הלכה⁩ about ⁧ריבית⁩. ⁧ריבית⁩ or ⁧נשך⁩ is the ⁧איסור⁩ in the Torah to
 charge another Yid interest if we borrow or lend money. However, the
 pasuk clearly says, right there, ⁧לַנׇּכְרִי תַשִּׁיךְ וּלְאָחִיךָ לֹא תַשִּׁיךְ⁩ - To a ⁧גוי⁩,
@@ -10234,7 +10199,7 @@ beginning of the ⁧פרשה⁩, and that is the ⁧הלכה⁩ about ⁧בֶּ�
 It's really where we learn the ⁧הלכה⁩ of ⁧פי שנים⁩ for a ⁧בכור⁩. The ⁧בכור⁩ gets
 ⁧פי שנים⁩. It doesn't matter if he's from the ⁧שנואה⁩ or the ⁧אהובה⁩.
 Specifically, the Torah is telling us that if the ⁧שנואה⁩ child is the
-⁧בכור⁩, he gets ⁧פי שנים⁩: (21: 17) ⁧כִּי אֶת הַבְּכֹר בֶּן הַשְּׂנוּאָה יַכִּיר לָתֶת לוֹ פִּי שְׁנַיִם
+⁧בכור⁩, he gets ⁧פי שנים⁩: (21:17) ⁧כִּי אֶת הַבְּכֹר בֶּן הַשְּׂנוּאָה יַכִּיר לָתֶת לוֹ פִּי שְׁנַיִם
 בְּכֹל אֲשֶׁר יִמָּצֵא לוֹ⁩.
 
 The sefer Torah Treasures brings in the name of the ⁦גר\"א⁩ that this ⁧הלכה⁩
@@ -10404,8 +10369,8 @@ of ⁧גמרא⁩. How could I have learned ⁦ש\"ס⁩ three times?" The ⁧ב
 responded to both of them: "You, ⁧תלמיד חכם⁩, we know you learned ⁦ש\"ס⁩ six
 times. But how were you able to do it? Because this tailor supported
 you. He provided you with ⁧פרנסה⁩ so that you could sit and learn. Because
-he helped you, exactly like ⁧יששכר וזבולון⁩, he received half of ⁧שכר לימוד⁩
-⁦הש\"ס⁩"
+he helped you, exactly like ⁧יששכר וזבולון⁩, he received half of ⁧שכר⁩ ⁦לימוד
+הש\"ס⁩"
 
 It doesn't say we shouldn't learn. All of us who are ⁧בעלי בתים⁩ making a
 ⁧פרנסה⁩ should also learn. But look at that. He really got ⁧שכר⁩ for three
@@ -10418,7 +10383,7 @@ itself.
 #set page(footer: article-footer("https://zeidyd.com/ki-seitzei/5785/", "../Files/05 - Devarim/06 - Ki Seitzei/5785/Ki Seitzei 5785.png"))
 = Ki Seitzei 5785
 
-⁧בָּנִים אֲשֶׁר יִוָּלְדוּ לָהֶם דּוֹר שְׁלִישִׁי יָבֹא לָהֶם בִּקְהַל⁩ ⁦ה׳⁩ (23: 9). Certain ⁧אומות⁩
+⁧בָּנִים אֲשֶׁר יִוָּלְדוּ לָהֶם דּוֹר שְׁלִישִׁי יָבֹא לָהֶם⁩ ⁦בִּקְהַל ה׳⁩ (23:9). Certain ⁧אומות⁩
 surrounding ⁧ארץ ישראל⁩ were allowed to join ⁧כלל ישראל⁩, for example,
 ⁧מצרים⁩, and certain nations were not - like ⁧עמון ומואב⁩. A story from the
 Torah Tavlin is not about ⁧גירות⁩, it's just shows you how a Yid can have
@@ -10511,11 +10476,11 @@ parsha, ⁧פרשת כי תצא⁩. The end of ⁧פרשת כי תצא⁩ is ⁧
 ⁧פרשת ביכורים⁩ have to do with the ⁧פרשה⁩ of ⁧עמלק⁩?
 
 His second question is that ⁧פרשת כי תצא⁩ starts with ⁧כי תצא⁩, while ⁧פרשת
-כי תבוא⁩ starts with ⁧והיה⁩, with a ⁦ו'⁩ ⁧החיבר⁩, which connects it to ⁧פרשת כי
+כי תבוא⁩ starts with ⁧והיה⁩, with a ⁦ו' החיבר⁩, which connects it to ⁧פרשת כי
 תצא⁩.
 
-His third question is that the last pasuk of ⁧פרשת כי תצא⁩ is ⁧וְהָיָה בְּהָנִיחַ⁩
-⁦ה׳⁩ ⁧אֱלֹקֶיךָ לְךָ מִכׇּל אֹיְבֶיךָ⁩. So the first word in the last pasuk in ⁧כי תצא⁩ is
+His third question is that the last pasuk of ⁧פרשת כי תצא⁩ is ⁧וְהָיָה⁩ ⁦בְּהָנִיחַ
+ה׳⁩ ⁧אֱלֹקֶיךָ לְךָ מִכׇּל אֹיְבֶיךָ⁩. So the first word in the last pasuk in ⁧כי תצא⁩ is
 ⁧והיה⁩, and the first word in ⁧פרשת כי תבוא⁩ is also ⁧והיה⁩. The two ⁧והיה⁩ s
 tell us that there is more than just a simple ⁧דבר המחבר⁩. These are
 intimately connected. This is all one ⁧ענין⁩ - ⁧והיה והיה⁩. What could the
@@ -10609,35 +10574,35 @@ thousands of years. The ⁧נחמה⁩ is very much delayed. We see this ⁧בפ
 that this is how it came out.
 
 In the ⁧תוכחה⁩ in our parsha there's a slight pause and ⁧משה רבינו⁩ tells
-us, ⁧וּבָאוּ עָלֶיךָ כׇּל הַקְּלָלוֹת הָאֵלֶּה⁩ \... ⁧תַּחַת אֲשֶׁר לֹא עָבַדְתָּ אֶת⁩ ⁦ה׳⁩ ⁧אֱלֹקֶיךָ בְּשִׂמְחָה⁩
-(⁧דברים⁩ ⁦כ״ח⁩:⁦מ״ה⁩ - ⁦מ״ז⁩). Our failure to serve Hashem with ⁧שמחה⁩ brings the
+us, ⁧וּבָאוּ עָלֶיךָ כׇּל הַקְּלָלוֹת הָאֵלֶּה⁩ \... ⁧תַּחַת אֲשֶׁר לֹא עָבַדְתָּ⁩ ⁦אֶת ה׳⁩ ⁧אֱלֹקֶיךָ בְּשִׂמְחָה⁩
+(⁦דברים כ״ח⁩:⁦מ״ה⁩ - ⁦מ״ז⁩). Our failure to serve Hashem with ⁧שמחה⁩ brings the
 ⁧קללות⁩ upon us. How do we serve Hashem with ⁧שמחה⁩? And what happens if we
 can't serve Hashem with ⁧שמחה⁩? People have ⁧ייסורים⁩ and they can't be
 ⁧בשמחה⁩. The answer is serving Hashem is ⁧שמחה⁩. Not a ⁧שמחה⁩ that we
 experience when we perform ⁧מצוות⁩, it is the feeling of ⁧הכרת הטוב⁩, of
 gratitude, that no matter what situation we are in, we can always find a
-way to do the ⁧רצון⁩ ⁦ה׳⁩. No matter what we're in, no matter what happens
+way to do the ⁦רצון ה׳⁩. No matter what we're in, no matter what happens
 to us, good or bad, we can serve Hashem. The following is a great story
 that illustrates that in any circumstance we could find a way to serve
 Hashem.
 
 It happened in one of the many cruel regimes that imprisoned Jews for
-practicing their religion. I heard it was about ⁦ר'⁩ ⁧זושא⁩ and ⁦ר'⁩ ⁧אלימלך⁩,
+practicing their religion. I heard it was about ⁦ר' זושא⁩ and ⁦ר' אלימלך⁩,
 but I'm reading it from A Short Vort, and he does not bring their names.
 The Poritz once threw the two brothers into prison. They were thrown
 into a room which was small and dark, and had only one other thing in
 there: a basket of waste, still full from the previous tenants. That was
-their company. At the sight of this prison cell, ⁦ר'⁩ ⁧זושא⁩ started to cry.
+their company. At the sight of this prison cell, ⁦ר' זושא⁩ started to cry.
 "I'm not crying because we're in jail. I know that Hashem sent us here
 with ⁧השגחה פרטית⁩ and said we belong here, whatever the reason. That is
 for the best. I am crying because I didn't daven ⁧מנחה⁩ yet. With this
 smelly bucket of waste here, I cannot daven. I can't serve Hashem if I
-can't daven." ⁦ר'⁩ ⁧אלימלך⁩ smiled and said to him, "Just as you serve
+can't daven." ⁦ר' אלימלך⁩ smiled and said to him, "Just as you serve
 Hashem by doing His will and daven ⁧מנחה⁩ every day, so too, you are now
 doing ⁧רצון השם⁩ by not davening, because that's the ⁧הלכה⁩. You are serving
 Hashem in exactly the same way now that you cannot daven as you do when
-you do daven." After hearing this, ⁦ר'⁩ ⁧זושא⁩ jumped up with tears of joy.
-He grabbed ⁦ר'⁩ ⁧אלימלך⁩, and together they sang and danced around the
+you do daven." After hearing this, ⁦ר' זושא⁩ jumped up with tears of joy.
+He grabbed ⁦ר' אלימלך⁩, and together they sang and danced around the
 bucket of waste, ecstatic at the thought of serving Hashem according to
 ⁧רצון השם⁩. Hearing all this commotion, the prison guards came running in,
 saw this bizarre scene of these two prominent ⁧רבנים⁩ dancing around a
@@ -10645,7 +10610,7 @@ bucket of waste.
 
 Not wanting them to have any kind of pleasure at all, they stormed the
 prison cell and removed the bucket, delighted at having deprived the
-⁧רביים⁩ of their source of joy. As soon as the guards left, ⁦ר'⁩ ⁧זושא⁩ turned
+⁧רביים⁩ of their source of joy. As soon as the guards left, ⁦ר' זושא⁩ turned
 towards the east and started to daven ⁧מנחה⁩, again delighted to serve
 Hashem in that best possible way. That is such a delightful story. I'm
 glad I could share it with you.
@@ -10657,7 +10622,7 @@ glad I could share it with you.
 
 ⁧פרשת כי תבוא⁩, a ⁧פרשה⁩ rich in ⁧השקפה⁩ and messages that we have to take
 home with us each and every day. The last pasuk in the parsha is one
-which doesn't get enough publicity (29: 8): ⁧וּשְׁמַרְתֶּם אֶת דִּבְרֵי הַבְּרִית הַזֹּאת
+which doesn't get enough publicity (29:8): ⁧וּשְׁמַרְתֶּם אֶת דִּבְרֵי הַבְּרִית הַזֹּאת
 וַעֲשִׂיתֶם אֹתָם⁩ - If you keep Hashem's bris; ⁧לְמַעַן תַּשְׂכִּילוּ אֵת כׇּל אֲשֶׁר תַּעֲשׂוּן⁩ - We
 will be successful in whatever we do if we learn and follow the Torah.
 It's an outstanding and awesome (and here I use the word awesome on
@@ -10666,7 +10631,7 @@ purpose) ⁧הבטחה⁩, that if we keep the Torah, we will be successful.
 I want to bring down another pasuk, which is brought down by R' Sheps'
 sefer ⁧מורשת שמחת התורה⁩. R' Sheps was the ⁧ראש ישיבה⁩ in ⁧תורה ודעת⁩. A very
 quiet and humble man, a very ⁧טייערער מענטש⁩ who was beloved by all. In
-his sefer he brings the pasuk (27: 8) ⁧וְכָתַבְתָּ עַל הָאֲבָנִים אֶת כׇּל דִּבְרֵי הַתּוֹרָה
+his sefer he brings the pasuk (27:8) ⁧וְכָתַבְתָּ עַל הָאֲבָנִים אֶת כׇּל דִּבְרֵי הַתּוֹרָה
 הַזֹּאת בַּאֵר הֵיטֵב⁩. This is referring a rather unusual and remarkable ⁧מצוה⁩
 which doesn't get enough prominence, but it's a ⁧מצוה⁩ like any other one.
 What were ⁧בני ישראל⁩ supposed to do in their momentous entry into ⁧ארץ
@@ -10676,8 +10641,7 @@ a ⁧כיבוש⁩, you have to go and get the ⁧ברכות⁩ and ⁧קללו�
 stones, put them up, plaster them, and afterwards write the whole Torah
 on them. A remarkable ⁧מצוה⁩. What could this ⁧מצוה⁩ possibly mean to us?
 They were supposed to write the whole Torah, and in fact, the last two
-words are ⁧בַּאֵר הֵיטֵב⁩. Rashi and the Ramban say on the spot, ⁧בְּשִׁבְעִים לָשׁוֹן⁩ -
-not only did we write the whole Torah, but we wrote the entire Torah
+words are ⁧בַּאֵר הֵיטֵב⁩. Rashi and the Ramban say on the spot, ⁧בְּשִׁבְעִים לָשׁוֹן⁩ - not only did we write the whole Torah, but we wrote the entire Torah
 translated into seventy different languages. There are only two
 possibilities. They either wrote in micro-script, which the Ramban
 mentions, they wrote very tiny, or much more likely, it was all ⁧בדרך נס⁩,
@@ -10697,8 +10661,7 @@ flying in the air.
 
 They said, "Rebbi, what will happen to us? The Torah is being burnt." He
 said "Don't be afraid. The letters are flying in the air. Those letters
-are indestructible." That's what it means. ⁧פורחות⁩ means ⁧פריחה וצמיחה⁩ -
-planting and growing. All the ⁧דברי תורה⁩ will not simply last forever,
+are indestructible." That's what it means. ⁧פורחות⁩ means ⁧פריחה וצמיחה⁩ - planting and growing. All the ⁧דברי תורה⁩ will not simply last forever,
 but they will continue to flourish and blossom just like flowers will
 blossom. The ⁧קיום⁩ of the ⁧תורה⁩ is ⁧נצחיות⁩. Even though everything seems to
 be destroyed and we're losing it, this ⁧נס⁩ of the ⁦תורה'⁩s ⁧נצחיות⁩ is
@@ -10724,17 +10687,17 @@ maintain you ⁧לעולם ועד⁩.
 #set page(footer: article-footer("https://zeidyd.com/nitzavim/5785/", "../Files/05 - Devarim/08 -  Nitzavim/5785/Nitzavim 5785.png"))
 = Nitzavim 5785
 
-⁧פרשת נצבים⁩. ⁧אַתֶּם נִצָּבִים הַיּוֹם כֻּלְּכֶם לִפְנֵי⁩ ⁦ה׳⁩ ⁧אֱלֹקֵיכֶם רָאשֵׁיכֶם שִׁבְטֵיכֶם זִקְנֵיכֶם
+⁧פרשת נצבים⁩. ⁧אַתֶּם נִצָּבִים הַיּוֹם כֻּלְּכֶם⁩ ⁦לִפְנֵי ה׳⁩ ⁧אֱלֹקֵיכֶם רָאשֵׁיכֶם שִׁבְטֵיכֶם זִקְנֵיכֶם
 וְשֹׁטְרֵיכֶם כֹּל אִישׁ יִשְׂרָאֵל⁩. The ⁧אלשיך⁩, giving a ⁧פשט⁩ on the deep significance
-of this pasuk, quotes a pasuk in ⁧איוב⁩ (3: 19): ⁧קָטֹן וְגָדֹול שָׁם הוּא וְעֶבֶד חׇפְשִׁי
+of this pasuk, quotes a pasuk in ⁧איוב⁩ (3:19): ⁧קָטֹן וְגָדֹול שָׁם הוּא וְעֶבֶד חׇפְשִׁי
 מֵאֲדֹנָיו⁩ - A comparison to small and great; to an ⁧עבד⁩ and to his master.
 What he is teaching is that when the pasuk says ⁧רָאשֵׁיכֶם שִׁבְטֵיכֶם זִקְנֵיכֶם
 וְשֹׁטְרֵיכֶם⁩, these are all titles of glory and honor. All of these titles -
 the ⁧ראש⁩, the leader of the community, the head of the ⁧ציבור⁩ or even a
 ⁧ראש ישיבה⁩ - all of these are ⁧עולם הזה⁩ terms. This is the external
 appearance that we are able to see. However, to ⁧הקדוש ברוך הוא⁩, these
-significances may be meaningless. When you are standing ⁧לִפְנֵי⁩ ⁦ה׳⁩ ⁧אֱלֹקֵיכֶם⁩,
-it's ⁧כֹּל אִישׁ יִשְׂרָאֵל⁩ - each person has his own merit in ⁧הקדוש ברוך⁩ ⁦הוא'⁩s
+significances may be meaningless. When you are standing ⁦לִפְנֵי ה׳⁩ ⁧אֱלֹקֵיכֶם⁩,
+it's ⁧כֹּל אִישׁ יִשְׂרָאֵל⁩ - each person has his own merit in ⁧הקדוש⁩ ⁦ברוך הוא'⁩s
 eyes, totally unrelated to what we see here in ⁧עולם הזה⁩. As he says on
 the pasuk in ⁧איוב⁩, someone who's a small man here may be a great man
 there, and similarly, someone who's as low as an ⁧עבד⁩ may even have more
@@ -10782,20 +10745,20 @@ others around us, always assuming that we are not on their ⁧מדרגה⁩.
 #set page(footer: article-footer("https://zeidyd.com/vayailech/5786/", "../Files/05 - Devarim/09 - Vayailech/5786/Vayailech 5786.png"))
 = Vayailech 5786
 
-⁧פרשת וילך⁩. The last ⁧מצוה⁩ in the ⁧תורה⁩ is (31: 19) ⁧וְעַתָּה כִּתְבוּ לָכֶם אֶת הַשִּׁירָה
+⁧פרשת וילך⁩. The last ⁧מצוה⁩ in the ⁧תורה⁩ is (31:19) ⁧וְעַתָּה כִּתְבוּ לָכֶם אֶת הַשִּׁירָה
 הַזֹּאת⁩. It's usually translated as "And now, write for yourselves this
 song." It's specifically referring to ⁧האזינו⁩, but we learn the ⁧הלכה⁩ of
 writing a ⁧ספר תורה⁩, which is called a song to Hashem, from this.
 
 There are two different aspects of this pasuk which have divergent
 purposes but come to the same conclusion. In ⁧פרקי אבות⁩ we learn a famous
-rule (4: 5): ⁧הַלּוֹמֵד תּוֹרָה עַל מְנָת לְלַמֵּד⁩, ⁧מַסְפִּיקִין בְּיָדוֹ לִלְמֹד וּלְלַמֵּד⁩. ⁧וְהַלּוֹמֵד עַל
+rule (4:5): ⁧הַלּוֹמֵד תּוֹרָה עַל מְנָת לְלַמֵּד⁩, ⁧מַסְפִּיקִין בְּיָדוֹ לִלְמֹד וּלְלַמֵּד⁩. ⁧וְהַלּוֹמֵד עַל
 מְנָת לַעֲשׂוֹת⁩, ⁧מַסְפִּיקִין בְּיָדוֹ לִלְמֹד וּלְלַמֵּד לִשְׁמֹר וְלַעֲשׂוֹת⁩. One of the ⁧עיקר⁩ purposes
 of learning and teaching is to accomplish. We can accomplish things in
 many ways. We can accomplish by sitting and learning, and we can
 accomplish by doing ⁧מצוות⁩. Learning itself is also a ⁧מצוה⁩. What is the
 point? Listen to this. The ⁦רא\"ש⁩, no less than the ⁦רא\"ש⁩, which the ⁧שלחן
-ערוך⁩ and all of our ⁧פוסקים⁩ come from, writes in ⁧פסקי⁩ ⁦הרא\"ש⁩ that in his
+ערוך⁩ and all of our ⁧פוסקים⁩ come from, writes in ⁦פסקי הרא\"ש⁩ that in his
 time there were so many ⁧ספרי תורה⁩ standing in the ⁧ארון קודש⁩ that they
 never got used, and he says a better way to fulfill this ⁧מצוה⁩, believe
 it or not, as joyous as we are when we have a new ⁧ספר תורה⁩, we make a
@@ -10807,7 +10770,7 @@ When a person sits down and writes ⁧חידושים⁩, when a person sits down
 writes ⁧ספרים⁩ and he's learning ⁧תורה בעמקות⁩ and with ⁧שלימות⁩, he's being
 ⁧מקיים⁩ this ⁧מצוה⁩ on an even greater level. How does the ⁦רא\"ש⁩ know that?
 Because the pasuk says ⁧וְעַתָּה⁩ - and now. Why "and now" - only now? He
-explains that in ⁧משה⁩ ⁦רבינו'⁩s time, when there were very few ⁧ספרי תורה⁩,
+explains that in ⁦משה רבינו'⁩s time, when there were very few ⁧ספרי תורה⁩,
 each ⁧שבט⁩ having only one, then ⁧כִּתְבוּ לָכֶם אֶת הַשִּׁירָה הַזֹּאת⁩ meant the ⁧מצוה⁩ was
 to write ⁧תורה שבכתב⁩. However, in future ⁧דורות⁩ when there will be many
 ⁧ספרי תורה⁩, it's much better to write ⁧חידושי תורה⁩. That is the ⁧עיקר⁩ of
@@ -10818,7 +10781,7 @@ Now, a completely different take on some aspect of transmitting ⁧תורה⁩.
 This is a fascinating story, the beginning of which all of you will know
 and recognize, but the end of which most have never heard, as I hadn't
 either - unless you've learned more than me, which is of course not that
-difficult. It says in the pasuk (31: 28) ⁧הַקְהִילוּ אֵלַי אֶת כׇּל זִקְנֵי שִׁבְטֵיכֶם
+difficult. It says in the pasuk (31:28) ⁧הַקְהִילוּ אֵלַי אֶת כׇּל זִקְנֵי שִׁבְטֵיכֶם
 וְשֹׁטְרֵיכֶם וַאֲדַבְּרָה בְאׇזְנֵיהֶם אֵת הַדְּבָרִים הָאֵלֶּה⁩. You have to write the ⁧דברי תורה⁩,
 but I also have to transmit it orally ⁧פה אל פה⁩, from my mouth ⁧משה⁩ says;
 ⁧וַאֲדַבְּרָה בְאׇזְנֵיהֶם⁩ - and into their ears; ⁧אֵת הַדְּבָרִים הָאֵלֶּה⁩ - all of these
@@ -10840,7 +10803,7 @@ because it was not meant to be translated, but leaving that aside for
 the moment; this was a tremendous ⁧נס⁩, that they all made exactly the
 same changes.
 
-The ⁧אוצר פלאות התורה⁩ brings the ⁦ש\"ך⁩ ⁧על התורה⁩ \[which is not the same
+The ⁧אוצר פלאות התורה⁩ brings the ⁦ש\"ך על⁩ ⁧התורה⁩ \[which is not the same
 ⁦ש\"ך⁩ as the ⁦ש\"ך⁩ in the ⁧שלחן ערוך⁩\] in our ⁧פרשה⁩. ⁧משה רבינו⁩ knew through
 ⁧רוח הקודש⁩ that which was going to happen to ⁧תלמי המלך⁩ and the ⁧זקנים⁩,
 that they would have to translate the ⁧תורה⁩ against their will and would
@@ -10880,15 +10843,15 @@ our children and ⁧אייניקלעך⁩ will continue that ⁧מסורה עד 
 This week's ⁧פרשיות⁩ are ⁧ניצבים וילך⁩, and include ⁧וילך⁩, the shortest ⁧פרשה⁩
 in the Torah. Nevertheless, it has a powerhouse full of wonderful things
 to learn, one of which is what we will do now from the ⁧וילנא גאון⁩. In
-⁧פרק⁩ ⁦ל״א⁩ ⁧פסוק⁩ ⁦י״ד⁩, the pasuk says: ⁧וַיֹּאמֶר⁩ ⁦ה׳⁩ ⁧אֶל מֹשֶׁה הֵן קָרְבוּ יָמֶיךָ לָמוּת קְרָא
+⁦פרק ל״א⁩ ⁦פסוק י״ד⁩, the pasuk says: ⁦וַיֹּאמֶר ה׳⁩ ⁧אֶל מֹשֶׁה הֵן קָרְבוּ יָמֶיךָ לָמוּת קְרָא
 אֶת יְהוֹשֻׁעַ⁩. A ⁧מדרש ילקוט⁩, brought down in ⁧חתם סופר על התורה⁩, says that the
 day that ⁧משה רבינו⁩ was going to be ⁧נפטר⁩, Hashem's ⁧שכינה⁩ moved over to
-Yehoshua and was speaking to Yehoshua. ⁧שאל לו משה⁩- Moshe asked Yehoshua;
-⁧מה אמר לך⁩ ⁦ה׳⁩? - What did Hashem tell you? ⁧אמר לו יהושע⁩, ⁧וכי כל ארבעים
-שנה שאלתי אותך מה דיבר⁩ ⁦ה׳⁩? - Yehoshua's answer to Moshe was, "And in all
+Yehoshua and was speaking to Yehoshua. ⁧שאל לו משה⁩ - Moshe asked Yehoshua;
+⁧מה אמר⁩ ⁦לך ה׳⁩? - What did Hashem tell you? ⁧אמר לו יהושע⁩, ⁧וכי כל ארבעים
+שנה שאלתי אותך מה⁩ ⁦דיבר ה׳⁩? - Yehoshua's answer to Moshe was, "And in all
 the 40 years, did I ever ask you what Hashem said?" Immediately ⁧משה
 רבינו⁩ said, ⁧טוב אלף מיתות מקנאה אחת⁩ - Better to die a thousand times than
-to have a moment of ⁧קנאה⁩. A ⁦פלא׳דיגע⁩ ⁧מדרש⁩ from beginning to the end.
+to have a moment of ⁧קנאה⁩. A ⁦פלא׳דיגע מדרש⁩ from beginning to the end.
 
 The first question is, is this the way that Yehoshua could possibly
 speak to ⁧משה רבינו⁩ under any circumstances? That's the obvious question.
@@ -10929,7 +10892,7 @@ beautiful.
 So this is a tremendous ⁧וילנא גאון⁩ on the ⁧פרשה⁩ teaches us that
 everything is for our own good. ⁧הקדוש ברוך הוא פירט די וועלט⁩, and no
 matter what happens to us, we have to be ⁧מקבל⁩ it. As it says in ⁧פרקי
-אבות⁩, we have to be ⁧מקבל⁩ it with ⁧שמחה⁩. ⁧אם ירצה⁩ ⁦ה׳⁩, we should have ⁧א גוט
+אבות⁩, we have to be ⁧מקבל⁩ it with ⁧שמחה⁩. ⁧אם⁩ ⁦ירצה ה׳⁩, we should have ⁧א גוט
 געבענטשט געזונט יאר⁩, daven that Hashem should not send us ⁧נסיונות⁩, and
 in fact give us ⁧אריכות ימים⁩, ⁧נחת⁩ from the ⁧קינדער⁩, opportunities to do
 more and more ⁧מצוות⁩, and that we should be ⁧זוכה⁩ to see ⁧ביאת גואל צדק⁩
@@ -10942,7 +10905,7 @@ this year.
 
 ⁧פרשת נצבים⁩. We're now in the ⁧היליגע ימים נוראים⁩, surrounded by ⁧קדושה⁩,
 surrounded by opportunity, and surrounded by ⁧מצוות⁩. The pasuk tells us
-(29: 9) ⁧אַתֶּם נִצָּבִים הַיּוֹם כֻּלְּכֶם לִפְנֵי⁩ ⁦ה׳⁩ ⁧אֱלֹקֵיכֶם⁩. Rashi points out that this
+(29:9) ⁧אַתֶּם נִצָּבִים הַיּוֹם כֻּלְּכֶם⁩ ⁦לִפְנֵי ה׳⁩ ⁧אֱלֹקֵיכֶם⁩. Rashi points out that this
 parsha was written immediately after the terrifying ⁧תוכחה⁩ in ⁧כי תבוא⁩. He
 asks why is it here? Because ⁧כלל ישראל⁩ came to ⁧משה⁩ after they heard all
 of those terrible things and said, "How can we bear to stand? We're
@@ -11003,7 +10966,7 @@ am. Show me where ⁧אבנר⁩ is in ⁧האזינו⁩\."
 
 Hashem endowed the ⁦רמב'⁩'⁧ן⁩ with ⁧רוח הקודש⁩ and without hesitating he
 quoted ⁧אָמַ⁩#strong[⁧רְ⁩]⁧תִּי אַפְ⁩#strong[⁧אֵ⁩]⁧יהֶם אַשְׁ⁩#strong[⁧בִּ⁩]⁧יתָה מֵאֱ⁩#strong[⁧נֹ⁩]⁧ושׁ⁩,
-which is in ⁧פרק⁩ ⁦ל'⁩'⁧ב פסוק⁩ ⁦כ'⁩'⁧ו⁩ in ⁧האזינו⁩. If you look at the third
+which is in ⁦פרק ל'⁩'⁧ב⁩ ⁦פסוק כ'⁩'⁧ו⁩ in ⁧האזינו⁩. If you look at the third
 letter of every word, you see the name ⁧אבנר⁩. You know what this pasuk
 means? It means that Hashem will wipe your memory off the face of the
 earth."
@@ -11065,7 +11028,7 @@ He answers with a fascinating ⁧משל⁩ from ⁦ח׳ ע״ב⁩ ⁧גמרא ר
 says, ⁧דְּאָמַר רַב חִסְדָּא מֶלֶךְ וְצִיבּוּר מֶלֶךְ נִכְנָס תְּחִילָּה לַדִּין⁩ - If there's a choice
 between the king going first or the ⁧ציבור⁩ going first for the ⁧דין⁩ before
 Hashem, the ⁧מלך⁩ goes first. There are many reasons given for why that
-is, but one is ⁧מִקַּמֵּי דְּלִיפּוֹשׁ חֲרוֹן אַף⁩ - in order to soften ⁧הקדוש ברוך⁩ ⁦הוא'⁩s
+is, but one is ⁧מִקַּמֵּי דְּלִיפּוֹשׁ חֲרוֹן אַף⁩ - in order to soften ⁧הקדוש⁩ ⁦ברוך הוא'⁩s
 anger at us. What does that mean? Here's the ⁧משל⁩ that he gives. He says
 there once was a man whose son was going off the ⁧דרך⁩, but he was not
 aware of it. A friend of the father knew what was going on, and he
@@ -11115,7 +11078,7 @@ should get all the good things that we ask for in a ⁧גוטן אופן⁩.
 ⁧פרשת האזינו⁩ contains the foundation stones of the entire history of the
 world. Every single letter in ⁧פרשת האזינו⁩ has 600, 000 explanations, as
 does every other letter in the Torah, but we appreciate it a little bit
-more here because we're attuned to it. In ⁧פרק⁩ ⁦ל\"ב⁩ ⁧פסוק⁩ ⁦ל\"ט⁩ are the
+more here because we're attuned to it. In ⁦פרק ל\"ב⁩ ⁦פסוק ל\"ט⁩ are the
 words, ⁧אֲנִי אָמִית וַאֲחַיֶּה⁩ - Hashem says he will kill and he will also bring
 to life; ⁧מָחַצְתִּי וַאֲנִי אֶרְפָּא⁩ - I will strike down and I will heal; ⁧וְאֵין מִיָּדִי
 מַצִּיל⁩ - And there's no one, there's nothing who can be saved from my
@@ -11124,14 +11087,13 @@ Yechezkel Abramsky, brought down in R' Goldwasser's sefer "Something to
 Say", brought out an interesting thought from the ⁧תפילה⁩ that we talk
 about in terms of ⁧רפואה⁩ in ⁧שמונה עשרה⁩. I've said this every day for many
 decades, as have many of you. Maybe not as many decades as me, but a lot
-of decades. ⁧רְפָאֵנוּ⁩ ⁦ה׳⁩ ⁧וְנֵרָפֵא הוֹשִׁיעֵנוּ וְנִוָּשֵׁעָה כִּי תְהִלָּתֵנוּ אָתָּה⁩. I've said this
+of decades. ⁦רְפָאֵנוּ ה׳⁩ ⁧וְנֵרָפֵא הוֹשִׁיעֵנוּ וְנִוָּשֵׁעָה כִּי תְהִלָּתֵנוּ אָתָּה⁩. I've said this
 over and over again - I actually have a lot of ⁧כוונה⁩ because I have a
 lot of people in mind who need a ⁧רפואה⁩, so I'm really concentrating on
 this ⁧ברכה⁩ - and with all of that, until about ten minutes ago, when I
 saw this vort from R' Abramsky, I did not understand the meaning of the
-words⁧כִּי תְהִלָּתֵנוּ אָתָּה⁩ . ⁧רְפָאֵנוּ⁩ ⁦ה׳⁩ ⁧וְנֵרָפֵא⁩ - Hashem, heal us and we will be
-healed; ⁧הושיענו ונושעה⁩ - save us and we'll be saved; ⁧כִּי תְהִלָּתֵנוּ אָתָּה⁩ -
-Because you are our praise. What does that mean?
+words⁧כִּי תְהִלָּתֵנוּ אָתָּה⁩ . ⁦רְפָאֵנוּ ה׳⁩ ⁧וְנֵרָפֵא⁩ - Hashem, heal us and we will be
+healed; ⁧הושיענו ונושעה⁩ - save us and we'll be saved; ⁧כִּי תְהִלָּתֵנוּ אָתָּה⁩ - Because you are our praise. What does that mean?
 
 R' Abramsky says that the reason for saying this in ⁧שמונה עשרה⁩ is that
 it's quite possible for one to mistakenly believe that healing is in the
@@ -11167,7 +11129,7 @@ the beginning once again. The last letter is ⁦ל׳⁩, and first letter is ⁦
 which spells ⁧לב⁩, to tell us that a Yiddish heart keeps right on beating.
 
 There's an interesting story I came across about the words ⁧וַיָּמׇת שָׁם מֹשֶׁה⁩
-(34: 5).
+(34:5).
 
 At the shiva house for R' Nosson Tzvi Finkel, the rosh yeshiva's brother
 R' Gedalia Finkel quoted R' Yonasan Eibschutz that when a ⁧צדיק⁩ who is a
@@ -11181,7 +11143,7 @@ and Hashem will do the rest; he will have ⁧סיעתא דשמיא⁩.
 We are not only able to become great by picking up a ⁦צדיק'⁩s ⁧מדות⁩, we are
 obligated to try to fill the void that his passing has left in this
 world. As Rav Shach said when he was leaving the funeral of the ⁧חזון
-איש⁩, even though the pasuk in ⁧קהלת⁩ (9: 4) says it is better to be a live
+איש⁩, even though the pasuk in ⁧קהלת⁩ (9:4) says it is better to be a live
 dog than a dead lion, nevertheless, if the lion is dead, one cannot
 remain a dog. He needs to pick himself up and become a lion.
 
@@ -11209,20 +11171,20 @@ resent him for giving that ⁧מוסר⁩? And what did he do with that ⁧הו�
 in mind? ⁧וזאת הברכה⁩, he gave them a ⁧ברכה⁩. He bentched them like a father
 would bentch his children.
 
-Now, at the very end of the parshas it says ⁧וַיָּמׇת שָׁם מֹשֶׁה עֶבֶד⁩ ⁦ה׳⁩ (34: 5).
+Now, at the very end of the parshas it says ⁧וַיָּמׇת שָׁם מֹשֶׁה⁩ ⁦עֶבֶד ה׳⁩ (34:5).
 In his ⁧הספד⁩ for the ⁧חפץ חיים⁩, the ⁧גדול הדור⁩ of his generation - and in
 my humble opinion, the greatest leader of the 20th century - R' Elchonon
 Wasserman questioned why ⁧משה⁩, the greatest person who ever lived, was
-given a ⁧הספד⁩ of only two words: ⁧עֶבֶד⁩ ⁦ה׳⁩. Surely, the one who took them
+given a ⁧הספד⁩ of only two words: ⁦עֶבֶד ה׳⁩. Surely, the one who took them
 out of ⁧מצרים⁩, brought the ⁧תורה⁩ down from ⁧סיני⁩, sacrificed his life for
-the welfare of his ⁧ציבור⁩, deserves a little bit more of a ⁧הספד⁩ than ⁧עֶבֶד⁩
-⁦ה׳⁩?
+the welfare of his ⁧ציבור⁩, deserves a little bit more of a ⁧הספד⁩ than ⁦עֶבֶד
+ה׳⁩?
 
 R' Elchonon gave a very clever, ⁧למדיש⁩, beautiful answer based on the
-Gemara in ⁧פסחים דף⁩ ⁦פ״ח ע״ב⁩. We know there's a principal ⁧מַה שֶּׁקָּנָה עֶבֶד קָנָה
+Gemara in ⁧פסחים⁩ ⁦דף פ״ח⁩ ⁦ע״ב⁩. We know there's a principal ⁧מַה שֶּׁקָּנָה עֶבֶד קָנָה
 רַבּוֹ⁩ - Whatever an ⁧עבד⁩ acquires, belongs to his master. Therefore, if the
-⁧תורה⁩ says that ⁧משה רבינו⁩ was an ⁧עֶבֶד⁩ ⁦ה׳⁩, it is giving us a tremendous
-⁧עדות⁩ that ⁧משה רבינו⁩ was a real ⁧עֶבֶד⁩ ⁦ה׳⁩. Why? Because every single thing
+⁧תורה⁩ says that ⁧משה רבינו⁩ was an ⁦עֶבֶד ה׳⁩, it is giving us a tremendous
+⁧עדות⁩ that ⁧משה רבינו⁩ was a real ⁦עֶבֶד ה׳⁩. Why? Because every single thing
 that he did in his life, ⁧מַה שֶּׁקָּנָה עֶבֶד⁩, all of the things that he acquired
 were strictly for his master's sake, for Hashem's sake. As such, these
 few words offer ⁧משה רבינו⁩ the greatest praise of all.
@@ -11237,15 +11199,15 @@ appreciation of the words? Then it's a big ⁧מצוה⁩. But if I'm doing it f
 no purpose other than to indulge, I enjoy butter on my bread, so what
 good is it? What am I doing it for? Just to have ⁧הנאה⁩? It's a very ⁧פשוט⁩
 example, but it gets right to the point. Every simple thing that we do
-can make us an ⁧עֶבֶד⁩ ⁦ה׳⁩. It just takes a minute of concentration, a minute
+can make us an ⁦עֶבֶד ה׳⁩. It just takes a minute of concentration, a minute
 of thought before we act.
 
 Everybody knows you should always think before you open your mouth. Not
 just before you open your mouth, but we should think before everything
 that we do. The more that we learn to think like this throughout our
 day, we, little us guys, little pipsqueaks, can learn to emulate the
-ways of ⁧משה⁩ and lead a life full of ⁧קדושה⁩, all to become a better ⁧עֶבֶד⁩
-⁦ה׳⁩. What a way to end the ⁧תורה⁩.
+ways of ⁧משה⁩ and lead a life full of ⁧קדושה⁩, all to become a better ⁦עֶבֶד
+ה׳⁩. What a way to end the ⁧תורה⁩.
 
 #pagebreak()
 
@@ -11259,7 +11221,7 @@ praised ⁧משה רבינו⁩ for destroying the ⁧לוחות⁩. R' Yosef Ch
 the Rav of Yerushalayim ⁧זכותו יגן עלינו⁩ asks how did the ⁧חכמים⁩ know that
 ⁧לְעֵינֵי כׇּל יִשְׂרָאֵל⁩ is referring to the ⁧שבירת הלוחות⁩? Maybe it's referring to
 the ⁧עשר מכות⁩, ⁧קריעת ים סוף⁩, or ⁧הר סיני⁩. Why is ⁧שבירת הלוחות⁩ singled out
-as apparently ⁧משה⁩ ⁦רבינו'⁩s greatest achievement of all the outstanding
+as apparently ⁦משה רבינו'⁩s greatest achievement of all the outstanding
 things that he did?
 
 The important lesson that ⁧משה רבינו⁩ wanted to teach us is: we don't
@@ -11271,7 +11233,7 @@ with the people around us. Always be ⁧מחמיר⁩ on yourself and ⁧מיק�
 everybody else - a very important side lesson. The people who are
 compromising want to give in a little bit and they want to say, "We want
 to save the Torah, we have to give in a little bit over here, a little
-bit over there." Meanwhile, ⁧משה רבינו⁩ called out ⁧מי⁩ ⁦לה׳⁩ ⁧אלי⁩ and broke
+bit over there." Meanwhile, ⁧משה רבינו⁩ called out ⁦מי לה׳⁩ ⁧אלי⁩ and broke
 the ⁧לוחות⁩ because he said the ⁧עגל⁩ cannot coexist side-by-side with the
 ⁧לוחות⁩. The ⁧לוחות⁩ have to go because we have to preserve the purity of
 the Torah. They could not exist with this tremendous ⁧עבירה⁩. To preserve
@@ -11291,7 +11253,7 @@ preservation of our ⁧דעת⁩, of our beliefs, of our ⁧אמונה⁩, was, 
 this ⁦רש\"י⁩, his greatest achievement.
 
 What a way to end the Torah. What a way to start a new year. Let us
-learn from ⁧משה⁩ ⁦רבינו'⁩s steadfastness that we too should be steadfast and
+learn from ⁦משה רבינו'⁩s steadfastness that we too should be steadfast and
 continue to do everything we can to the best of our ability.
 
 #pagebreak()
@@ -11300,7 +11262,7 @@ continue to do everything we can to the best of our ability.
 = Dvar Torah Pesach 5783
 
 R' Noach Isaac Oelbaum, the author of the ⁧מנחת חן⁩, \[interesting, his
-name is ⁧נח⁩, so he called the sefer "⁧מנחת⁩ ⁦חן"⁩, ⁧חן⁩ is ⁧ח⁩ - ⁧נ⁩ and ⁧נח⁩ is ⁧נ⁩ -
+name is ⁧נח⁩, so he called the sefer "⁦מנחת חן"⁩, ⁧חן⁩ is ⁧ח⁩ - ⁧נ⁩ and ⁧נח⁩ is ⁧נ⁩ -
 ⁧ח⁩\], asked us a startling question. I've asked this question to many of
 my ⁧אייניקלעך⁩, if not all of them. For those who have heard it, it's good
 for ⁧חזרה⁩. For those who haven't, it is an excellent ⁧קשיא⁩, as I've been
@@ -11358,7 +11320,7 @@ your ⁧חמץ⁩ does not become a ⁧גר⁩. Good Yom Tov!
 
 In ⁧מוסף⁩ for the ⁧שלש רגלים⁩, in the paragraph of ⁧וּמִפְּנֵי חֲטָאֵינוּ⁩ - one of the
 most inspiring and beautiful paragraphs in our davening - we say the
-following: ⁧יְהִי רָצוֹן מִלְּפָנֶיךָ⁩ ⁦ה׳⁩ ⁧אֱלֹקֵינוּ וֵאלֹקֵי אֲבוֹתֵינוּ מֶלֶךְ רַחֲמָן שֶׁתָּשׁוּב וּתְרַחֵם
+following: ⁧יְהִי רָצוֹן⁩ ⁦מִלְּפָנֶיךָ ה׳⁩ ⁧אֱלֹקֵינוּ וֵאלֹקֵי אֲבוֹתֵינוּ מֶלֶךְ רַחֲמָן שֶׁתָּשׁוּב וּתְרַחֵם
 עָלֵינוּ וְעַל מִקְדָּשְׁךָ בְּרַחֲמֶיךָ הָרַבִּים וְתִבְנֵהוּ מְהֵרָה וּתְגַדֵּל כְּבוֹדוֹ⁩ - We express our
 yearning for the return of the ⁧בית המקדש⁩ and for us to be restored to
 our homeland. ⁧אָבִינוּ מַלְכֵּנוּ גַּלֵּה כְּבוֹד מַלְכוּתְךָ עָלֵינוּ מְהֵרָה⁩ - Please reveal to
@@ -11368,9 +11330,9 @@ phrase, ⁧אָבִינוּ מַלְכֵּנוּ גַּלֵּה כְּבוֹד �
 
 The ⁧כנסת ישראל⁩ machzor for Pesach brings the Vilna Gaon, who offers a
 fantastic vort on these ⁧פסוקים⁩ in our davening. He quotes a ⁧גמרא⁩ in
-⁧חגיגה⁩ ⁦י\"ג ע\"ב⁩, which says that all of the ⁧מלאכים⁩ in ⁧שמים⁩ have ⁧שֵׁשׁ כְּנָפַיִם
-שֵׁשׁ כְּנָפַיִם לְאֶחָד⁩ - six wings, as is brought down in ⁧ישעיהו⁩ ⁦ו׳⁩:⁦ב׳⁩. However,
-there is another pasuk in ⁧יחזקאל⁩ ⁦א׳⁩:⁦ו׳⁩ which says ⁧וְאַרְבָּעָה פָנִים לְאֶחָת⁩,
+⁦חגיגה י\"ג⁩ ⁦ע\"ב⁩, which says that all of the ⁧מלאכים⁩ in ⁧שמים⁩ have ⁧שֵׁשׁ כְּנָפַיִם
+שֵׁשׁ כְּנָפַיִם לְאֶחָד⁩ - six wings, as is brought down in ⁦ישעיהו ו׳⁩:⁦ב׳⁩. However,
+there is another pasuk in ⁦יחזקאל א׳⁩:⁦ו׳⁩ which says ⁧וְאַרְבָּעָה פָנִים לְאֶחָת⁩,
 implying that they have only four wings. The ⁧גמרא⁩ asks it's a ⁧סתירה⁩, do
 the ⁧מלאכים⁩ have four wings or six wings? The ⁧גמרא⁩ answers: ⁧כָּאן בִּזְמַן שֶׁבֵּית
 הַמִּקְדָּשׁ קַיָּים⁩, ⁧כָּאן בִּזְמַן שֶׁאֵין בֵּית הַמִּקְדָּשׁ קַיָּים⁩ - when the ⁧בית המקדש⁩ stood, the
@@ -11381,7 +11343,7 @@ has enormous effects in ⁧העולם האמת⁩.
 The ⁧גמרא⁩ asks: Which two wings were lost? The ⁧גמרא⁩ brings ⁧רַב חֲנַנְאֵל אָמַר
 רַב⁩ who explains that the two lost wings were the middle wings, the ones
 used to say ⁧שירה⁩. Since we are unable to say ⁧שירה⁩ properly in ⁧גלות⁩,
-they, too, cannot say ⁧שירה⁩. As it says (⁧ישעיהו⁩ ⁦ו׳⁩:⁦ב׳ ג׳⁩) ⁧וּבִשְׁתַּיִם יְעוֹפֵף
+they, too, cannot say ⁧שירה⁩. As it says (⁦ישעיהו ו׳⁩:⁦ב׳ ג׳⁩) ⁧וּבִשְׁתַּיִם יְעוֹפֵף
 וְקָרָא זֶה אֶל זֶה וְאָמַר⁩. Those are the two middle wings.
 
 The ⁦גר\"א⁩ asks: What was written on those wings? He brings another ⁧מדרש⁩
@@ -11408,7 +11370,7 @@ asked, "How much did you lose?" The boy told him, and the ⁧נודע ביהוד
 gave him the amount, saving him from punishment.
 
 Fast forward many, many years later, late one night there was a knock at
-the door of the ⁧נודע⁩ ⁦ביהודה'⁩s home. His wife answered and saw a young
+the door of the ⁦נודע ביהודה'⁩s home. His wife answered and saw a young
 man, clearly not Jewish, standing there. He said, "I must speak to the
 rabbi." She was hesitant, but after thinking it over, she let him in.
 The man approached the ⁧נודע ביהודה⁩ and asked, "Do you remember me?" The
@@ -11463,13 +11425,13 @@ year that ⁧פסח⁩ was nine days long.
 #set page(footer: article-footer("https://zeidyd.com/pesach/5784/", "../Files/06 - Yom Tov/01 - Pesach/5784/Pesach 5784.png"))
 = Pesach 5784
 
-⁧לכבוד ליל הסדר⁩. The ⁧גמרא עירובין דף⁩ ⁦ס״ה ע״א⁩ has a long ⁧אגדתא⁩ discussing
+⁧לכבוד ליל הסדר⁩. The ⁧גמרא עירובין⁩ ⁦דף ס״ה⁩ ⁦ע״א⁩ has a long ⁧אגדתא⁩ discussing
 the properties of ⁧יין⁩. In that ⁧גמרא⁩, it says: ⁧אָמַר רַבִּי חֲנִינָא⁩:⁧כׇּל הַמִּתְפַּתֶּה
 בְּיֵינוֹ יֵשׁ בּוֹ מִדַּעַת קוֹנוֹ⁩. An interesting statement, which literally
 translates: "Whoever can be appeased, or quieted down, through his wine
 will be able to acquire understanding of Hashem, or some aspect of
 understanding of Hashem, Who is our ⁧קונה⁩\." The ⁧גמרא⁩ continues by
-quoting a ⁧פסוק⁩ from ⁦(ח׳:כ״א)⁩ ⁧פרשת נח⁩:⁧וַיָּרַח⁩ ⁦ה׳⁩ ⁧אֶת רֵיחַ הַנִּיחוֹחַ וְגוֹ⁩. After
+quoting a ⁧פסוק⁩ from ⁦(ח׳:כ״א)⁩ ⁧פרשת נח⁩:⁦וַיָּרַח ה׳⁩ ⁧אֶת רֵיחַ הַנִּיחוֹחַ וְגוֹ⁩. After
 ⁧נח⁩ came out of the ⁧תֵּבָה⁩, he offered a ⁧קרבן⁩, and Hashem accepted that ⁧קרבן⁩
 . ⁦רש״י⁩ explains on that ⁧גמרא⁩:⁧שמפייסין אותו על דבר⁩ - we're able to calm
 him down, or appease him, in a particular matter; ⁧ומתרצה⁩ - and he
@@ -11487,28 +11449,28 @@ impactful the ⁧ארבע כוסות⁩ are. By studying this, I was able to app
 much more what the ⁧ארבע כוסות⁩ mean to us.
 
 At the beginning of ⁧פרשת בא⁩, the ⁧תורה⁩ states: (⁧וּלְמַעַן תְּסַפֵּר בְּאׇזְנֵי בִנְךָ⁩ \...
-⁧וִידַעְתֶּם כִּי אֲנִי⁩ ⁦ה׳⁩ (⁧שמות⁩ ⁦י׳⁩:⁦ב׳⁩. Through the ⁧מצוה⁩ of ⁧סיפור יציאת מצרים⁩, we
-are able to achieve ⁧וִידַעְתֶּם כִּי אֲנִי⁩ ⁦ה׳⁩ - to attain some level of
+⁧וִידַעְתֶּם כִּי⁩ ⁦אֲנִי ה׳⁩ (⁦שמות י׳⁩:⁦ב׳⁩. Through the ⁧מצוה⁩ of ⁧סיפור יציאת מצרים⁩, we
+are able to achieve ⁧וִידַעְתֶּם כִּי⁩ ⁦אֲנִי ה׳⁩ - to attain some level of
 understanding of Hashem and His relationship with us. To summarize,
 there are three levels to the ⁧סדר⁩:
 
-\1. ⁧סיפור יציאת מצרים⁩ - Through the ⁦ד׳⁩ ⁧כוסות⁩, through the ⁧סדר⁩, and
+\1. ⁧סיפור יציאת מצרים⁩ - Through the ⁦ד׳ כוסות⁩, through the ⁧סדר⁩, and
 through all the meaningful components of the ⁧סדר⁩, we recount and relive
 ⁧יציאת מצרים⁩.
 
-\2. ⁧קונה דעת⁩ ⁦ה׳⁩ - This is absolutely critical. I don't know if we fully
+\2. ⁧קונה⁩ ⁦דעת ה׳⁩ - This is absolutely critical. I don't know if we fully
 appreciate this, but I certainly did not.
 
-\3. What do you do with that ⁧דעת⁩ ⁦ה׳⁩? How does it change you? How does it
+\3. What do you do with that ⁦דעת ה׳⁩? How does it change you? How does it
 make you a better person?
 
 I hope to discuss these three aspects over the next few minutes.
 
 First, when we were ⁧עבדים⁩ in ⁧מצרים⁩, both our ⁧גוף⁩ and ⁧נשמה⁩ were under the
 ⁧יד פרעה⁩. This was a powerful manifestation of the ⁧סיטרא אחרא⁩, the ⁧יצר
-הרע⁩ in control. What was the result? We descended to ⁦מ״ט⁩ ⁧שערי טומאה⁩. But
+הרע⁩ in control. What was the result? We descended to ⁦מ״ט שערי⁩ ⁧טומאה⁩. But
 then ⁧הקדוש ברוך הוא⁩ took us out from that ⁧טומאה⁩ and brought us to ⁧טהרה⁩,
-enabling us to reach a level of ⁧דעת⁩ ⁦ה׳⁩. That was the great
+enabling us to reach a level of ⁦דעת ה׳⁩. That was the great
 accomplishment of ⁧יציאת מצרים⁩.
 
 A person can assess himself on the night of the ⁧סדר⁩. If he truly engages
@@ -11521,15 +11483,14 @@ What does that mean? It means he can withstand his ⁧יצר הרע⁩, he can l
 peacefully with others. He can get along with everyone. When he sees
 that he is capable of being happy no matter who is around him - even
 people he previously didn't get along with - this brings him to a deeper
-understanding. That is the highest accomplishment of ⁧דעת⁩ ⁦ה׳⁩: to develop
+understanding. That is the highest accomplishment of ⁦דעת ה׳⁩: to develop
 a ⁧רוח נמוכה⁩, a humble spirit, that enables a person to live harmoniously
 with others.
 
 There is a ⁧תנה דבי אליהו⁩ that states that the ⁧יוצאי מצרים⁩ had one ⁧מצוה⁩.
 Just one. What was that ⁧מצוה⁩? To bring joy to Hashem. How did they
 accomplish that? How did they fulfill this one ⁧מצוה⁩ that, according to
-the ⁧מדרש⁩, was worth more than a hundred ⁧מצוות⁩? ⁧שעשו כולם אגודה אחת⁩ -
-They became a unified entity, a collective unit of ⁧כלל ישראל⁩. Just as we
+the ⁧מדרש⁩, was worth more than a hundred ⁧מצוות⁩? ⁧שעשו כולם אגודה אחת⁩ - They became a unified entity, a collective unit of ⁧כלל ישראל⁩. Just as we
 say by ⁧שבועות⁩:⁧כאיש אחד בלב אחד⁩, we can say the same by ⁧פסח⁩. They made a
 ⁧ברית⁩, an agreement. What was that agreement? To do ⁧חסד⁩ for one another.
 That is what the ⁧תנה דבי אליהו⁩ says.
@@ -11558,9 +11519,9 @@ next? ⁧הָשַּׁתָּא הָכָא⁩, ⁧לְשָׁנָה הַבָּאָ�
 we will be in ⁧ארץ ישראל⁩. As you know, the first night of ⁧פסח⁩
 corresponds, through ⁦א״ת ב״ש⁩, to the first night of ⁧תשעה באב⁩. The ⁧בית
 המקדש⁩ was ⁧נחרב⁩ because of ⁧שנאת חינם⁩. And what are we doing tonight?
-Through acquiring ⁧דעת⁩ ⁦ה׳⁩ and allowing the ⁦ד׳⁩ ⁧כוסות⁩ to bring out the
+Through acquiring ⁦דעת ה׳⁩ and allowing the ⁦ד׳ כוסות⁩ to bring out the
 ⁧פנימיות⁩ of a Yid - not to get us drunk, but to remove the ⁧שנאה⁩ that
-obstructs ⁧אהבת ישראל⁩ - that is what the ⁦ד׳⁩ ⁧כוסות⁩ accomplish. And then,
+obstructs ⁧אהבת ישראל⁩ - that is what the ⁦ד׳ כוסות⁩ accomplish. And then,
 we will be able to say: Next year ⁧בירושלים⁩. Through ⁧אהבת חינם⁩, we will
 have the ⁧זכות⁩ to return to ⁧ארץ ישראל⁩.
 
@@ -11574,40 +11535,40 @@ Two men were shouting at each other in the street. They didn't care who
 was around them. Someone asked, "What's going on?" They were screaming
 and hollering. One of the men said, "He owes me a thousand rubles." The
 other one said, "No, I owe you nothing." They were really fighting.
-Finally, an older gentleman suggested, "Let's go to ⁦ר׳⁩ ⁧לוי יצחק⁩\." They
-agreed and went to ⁦ר׳⁩ ⁧לוי יצחק⁩. He listened to their arguments, thought
+Finally, an older gentleman suggested, "Let's go to ⁦ר׳ לוי⁩ ⁧יצחק⁩\." They
+agreed and went to ⁦ר׳ לוי⁩ ⁧יצחק⁩. He listened to their arguments, thought
 about their points, and the next day he ruled that the one who claimed
 he was owed money must be paid. The second man accepted the ⁧פסק⁩ and
 asked for a receipt.
 
-The next day, he came back to ⁦ר׳⁩ ⁧לוי יצחק⁩ and said, "I couldn't sleep
+The next day, he came back to ⁦ר׳ לוי⁩ ⁧יצחק⁩ and said, "I couldn't sleep
 last night, Rebbe. I understand that the Rebbe's ruling is true based on
 the guidelines of ⁧הלכה⁩, and I accept it. But I also know that I am
 innocent - I don't owe him a penny. He presented lies as the truth, and
 it was impossible for me to prove otherwise. I cannot accept in my mind
-that this was a just ruling." ⁦ר׳⁩ ⁧לוי יצחק⁩ saw how sincere the man was
+that this was a just ruling." ⁦ר׳ לוי⁩ ⁧יצחק⁩ saw how sincere the man was
 and suspected he was telling the truth. He said, "You know what, let me
 think about what you're saying. Come back in three days." For the next
-three days, ⁦ר׳⁩ ⁧לוי יצחק⁩ fasted and davened for an answer. The answer
+three days, ⁦ר׳ לוי⁩ ⁧יצחק⁩ fasted and davened for an answer. The answer
 came to him in a dream.
 
-When the man returned, ⁦ר׳⁩ ⁧לוי יצחק⁩ told him, "It was revealed to me in a
+When the man returned, ⁦ר׳ לוי⁩ ⁧יצחק⁩ told him, "It was revealed to me in a
 dream that your grandfather borrowed 1, 000 rubles from your friend's
 great-grandfather and never paid him back. The 1, 000 rubles that should
 have been repaid instead remained in your family and was passed down to
 you. The ⁧בית דין של מעלה⁩ decreed that the money should be returned to
 the original lender. Since he is no longer alive, it should be given to
 his grandson." The man was amazed. "That's incredible, " he said, "but
-how do you know this is true? It was only a dream." ⁦ר׳⁩ ⁧לוי יצחק⁩ asked
+how do you know this is true? It was only a dream." ⁦ר׳ לוי⁩ ⁧יצחק⁩ asked
 him, "Did you inherit a ⁧שולחן ערוך⁩ from your grandfather?" "Yes, I did."
 "Go home and look through the pages. See if you find anything in there."
 
 The man went home and searched through the ⁧שולחן ערוך⁩. Suddenly, a
-document fell out - just as ⁦ר׳⁩ ⁧לוי יצחק⁩ had predicted. It contained a
-record of the loan. The man immediately ran back to ⁦ר׳⁩ ⁧לוי יצחק⁩ and
+document fell out - just as ⁦ר׳ לוי⁩ ⁧יצחק⁩ had predicted. It contained a
+record of the loan. The man immediately ran back to ⁦ר׳ לוי⁩ ⁧יצחק⁩ and
 showed him the document.
 
-The next day, ⁦ר׳⁩ ⁧לוי יצחק⁩ called for a meeting of all the leaders of the
+The next day, ⁦ר׳ לוי⁩ ⁧יצחק⁩ called for a meeting of all the leaders of the
 congregation. "I would like to offer my resignation." They were
 flabbergasted. "Why?" He told them the story about the ⁧מחלוקת⁩ and the
 dream, and he said, "I want to go to another city. If there's a dispute
@@ -11615,7 +11576,7 @@ here, I have to fast for three days before I can give a proper ⁧דין⁩. It
 has never happened to me before. I think it would be better if I find a
 different place." "Please don't leave so quickly, " the townspeople
 pleaded. "We understand what you're saying. Give us some time. It's ⁧פסח⁩
-now. Let's talk about it after ⁧פסח⁩\." ⁦ר׳⁩ ⁧לוי יצחק⁩ agreed, and the city
+now. Let's talk about it after ⁧פסח⁩\." ⁦ר׳ לוי⁩ ⁧יצחק⁩ agreed, and the city
 leaders departed.
 
 On ⁧פסח⁩ night, all the poor beggars stood in the back of the shul,
@@ -11629,7 +11590,7 @@ right here."
 
 The ⁧בעל הבית⁩ went out with his friend and got caught up in a deep
 conversation. They walked down the street, still talking, and continued
-all the way to the ⁧בעל⁩ ⁦הבית'⁩s home. When they arrived at his door, they
+all the way to the ⁦בעל הבית'⁩s home. When they arrived at his door, they
 wished each other a good ⁧יום טוב⁩ and parted ways. As the ⁧בעל הבית⁩
 stepped inside, he suddenly froze. "Oy! What happened to my ⁧אורח⁩? What
 happened to my guest?" He ran back to shul. It was empty. The poor man
@@ -11664,12 +11625,12 @@ had invited him!"
 "I didn't abandon him! I was speaking to someone! I came back for him,
 but he wasn't there - because you took him!" They started fighting. They
 had to be pulled apart before they came to blows. Finally, peace was
-restored when they both agreed to go to ⁦ר׳⁩ ⁧לוי יצחק⁩ for a ⁧פסק⁩ after ⁧יום
+restored when they both agreed to go to ⁦ר׳ לוי⁩ ⁧יצחק⁩ for a ⁧פסק⁩ after ⁧יום
 טוב⁩.
 
-⁦ר׳⁩ ⁧לוי יצחק⁩ listened carefully to their arguments. Then he turned to the
+⁦ר׳ לוי⁩ ⁧יצחק⁩ listened carefully to their arguments. Then he turned to the
 second man and said, "You have to pay the first man a ⁧קנס⁩ for taking his
-⁧אורח⁩\." After they left, ⁦ר׳⁩ ⁧לוי יצחק⁩ called another meeting with all the
+⁧אורח⁩\." After they left, ⁦ר׳ לוי⁩ ⁧יצחק⁩ called another meeting with all the
 ⁧ראשי הקהילה⁩. "I have reconsidered, " he announced. "I have decided to
 remain here as the ⁧רב⁩ of Berditchev. If the men in this city fight over
 the privilege of inviting a poor man to their ⁧סדר⁩, then this is the kind
@@ -11738,8 +11699,8 @@ through a wall to make his own entrance! The king was astounded. "How
 did you know?" he asked ⁧רב יונתן⁩. ⁧רב יונתן⁩ replied, "The ⁧חכמים⁩ say that
 a ⁧חכם⁩ is greater than a ⁧נביא⁩. I considered all the possibilities, I
 analyzed every thought process that might run through the king's mind,
-and I realized exactly what would happen. As the ⁧חכמים⁩ teach (⁧תמיד⁩ ⁦ל״ב
-ע״א⁩): ⁧אֵיזֶהוּ חָכָם⁩? ⁧הָרוֹאֶה אֶת הַנּוֹלָד⁩. \[Which in this case was also a play on
+and I realized exactly what would happen. As the ⁧חכמים⁩ teach (⁦תמיד ל״ב⁩
+⁦ע״א⁩): ⁧אֵיזֶהוּ חָכָם⁩? ⁧הָרוֹאֶה אֶת הַנּוֹלָד⁩. \[Which in this case was also a play on
 words - he foresaw something new being created.\] A ⁧חכם⁩ has the ability
 to see the future unfold through deep understanding and analysis."
 
@@ -11914,7 +11875,7 @@ By the ⁧הגדה⁩, before we eat the ⁧כּוֹרֵךְ⁩ sandwich, we quo
 מַצּוֹת וּמְרוֹרִים יֹאכְלֻהוּ⁩. But this pasuk is not from ⁧פרשת בא⁩, where the
 original commandment of ⁧קרבן פסח⁩ is given. It actually comes from ⁧פרשת
 בהעלותך⁩, and it's not referring to the ⁧קרבן פסח⁩ of ⁧ניסן⁩ - it's referring
-to ⁧פסח שני⁩. In ⁧פרשת בא⁩ the pasuk says (12: 8): ⁧וּמַצּוֹת עַל מְרֹרִים יֹאכְלֻהוּ⁩.
+to ⁧פסח שני⁩. In ⁧פרשת בא⁩ the pasuk says (12:8): ⁧וּמַצּוֹת עַל מְרֹרִים יֹאכְלֻהוּ⁩.
 
 And as Casey said - don't just take my word for it - you can look it up
 and see for yourself. The version we say at the seder, ⁧עַל מַצּוֹת וּמְרוֹרִים
@@ -11934,7 +11895,7 @@ should be ⁧זוכה⁩, as we just said, to celebrate ⁧פסח שני⁩ prop
 #set page(footer: article-footer("https://zeidyd.com/pesach-sheini/5785/", "../Files/06 - Yom Tov/02 - Pesach Sheini/5785/Pesach Sheini 5785.png"))
 = Pesach Sheini 5785
 
-⁧פסח שני⁩ is a special day in our calendar. It represents ⁧כלל⁩ ⁦ישראל'⁩s
+⁧פסח שני⁩ is a special day in our calendar. It represents ⁦כלל ישראל'⁩s
 yearning to do ⁧מצוות⁩ even when they had a ⁧פטור⁩. As R' Elimelech Biderman
 points out so eloquently in his sefer Around the Year With Reb Meilech,
 if a person cannot perform a ⁧מצוה⁩ for reasons beyond his control - if
@@ -11942,7 +11903,7 @@ it's an ⁧אונס⁩ - he is ⁧פטור⁩. Yet ⁧כלל ישראל⁩ came 
 ⁦(במדבר ט׳:ז׳)⁩ ⁧אֲנַחְנוּ טְמֵאִים לְנֶפֶשׁ אָדָם לָמָּה נִגָּרַע⁩? Why should we be left out?
 Why should we not have an opportunity to participate in the wonderful
 ⁧מצוה⁩ of ⁧קרבן פסח⁩? Moshe answered them with the classic words: ⁧עִמְדוּ
-וְאֶשְׁמְעָה מַה יְצַוֶּה⁩ ⁦ה׳⁩ ⁧לָכֶם⁩. Stand still, wait here, and Hashem will command
+וְאֶשְׁמְעָה מַה⁩ ⁦יְצַוֶּה ה׳⁩ ⁧לָכֶם⁩. Stand still, wait here, and Hashem will command
 me regarding you. Rashi says on the spot: this is like a ⁧תלמיד⁩ who is
 confident he can always receive guidance from his Rebbe. How fortunate
 is the human being who can be so assured that whenever he wants, he can
@@ -11976,24 +11937,24 @@ Bezras Hashem, in the ⁧זכות⁩ of that genuine effort, we will be answered
 #set page(footer: article-footer("https://zeidyd.com/lag-baomer/5784/", "../Files/06 - Yom Tov/03 - Lag Baomer/5784/Lag Baomer 5784.png"))
 = Lag Ba’omer 5784
 
-To commemorate ⁦ל״ג⁩ ⁧בעומר⁩, I'm going to share a number of short vertlach,
+To commemorate ⁦ל״ג בעומר⁩, I'm going to share a number of short vertlach,
 which together will add up to a substantial message I want to pass
 along. This is ⁧לעילוי נשמת⁩ all of our ⁧עלטערן⁩, and a ⁧תפילה⁩ that those who
 need ⁧ישועות⁩, especially those in Gaza, should receive them ⁧במהרה⁩. The
-⁧הילולא⁩, or the ⁧יארצייט⁩, of ⁧רב שמעון בר יוחאי⁩ is on ⁦ל״ג⁩ ⁧בעומר⁩. It is said
-in the name of the ⁦אריז\"ל⁩ that on ⁦ל״ג⁩ ⁧בעומר⁩, ⁧רב שמעון בר יוחאי⁩ is
+⁧הילולא⁩, or the ⁧יארצייט⁩, of ⁧רב שמעון בר יוחאי⁩ is on ⁦ל״ג בעומר⁩. It is said
+in the name of the ⁦אריז\"ל⁩ that on ⁦ל״ג בעומר⁩, ⁧רב שמעון בר יוחאי⁩ is
 present and available, and gives a ⁧ברכה⁩ to each and every person who
 comes to Meron to honor him and to be ⁧משמח⁩ in his ⁧הילולא⁩.
 
 There's a fascinating vort brought from R' Yechezkel Shraga, the
 Shinever Rov, in the sefer ⁧חיים שיש בהם⁩. (Many of you may know that
 Zeidy Weiss' father was named Yechezkel Shraga after the Shinever Rov).
-He quotes the pasuk from ⁧תהלים⁩ ⁦צ״ב⁩:⁧שְׁתוּלִים בְּבֵית⁩ ⁦ה׳⁩ ⁧בְּחַצְרוֹת אֱלֹקֵינוּ יַפְרִיחוּ⁩
+He quotes the pasuk from ⁦תהלים צ״ב⁩:⁧שְׁתוּלִים⁩ ⁦בְּבֵית ה׳⁩ ⁧בְּחַצְרוֹת אֱלֹקֵינוּ יַפְרִיחוּ⁩
 \- Those who are planted in the house of Hashem, in the courtyards of
-Hashem, will blossom. If you look at the words ⁧שְׁתוּלִים בְּבֵית⁩ ⁦ה׳⁩, the ⁧ראשי
-תיבות⁩ are ⁦ש׳ ב׳ י׳⁩, the ⁧נוטריקון⁩ for ⁧שמעון בר יוחאי⁩. The Shinever Rov
+Hashem, will blossom. If you look at the words ⁧שְׁתוּלִים⁩ ⁦בְּבֵית ה׳⁩, the ⁧ראשי
+תיבות⁩ are ⁦ש׳ ב׳⁩ ⁦י׳⁩, the ⁧נוטריקון⁩ for ⁧שמעון בר יוחאי⁩. The Shinever Rov
 explains that we ask Hashem that the beautiful lights of ⁧קדושה⁩ which
-emanate from ⁧רבי שמעון בר יוחאי⁩\; ⁧שְׁתוּלִים בְּבֵית⁩ ⁦ה׳⁩ - in the upper worlds,
+emanate from ⁧רבי שמעון בר יוחאי⁩\; ⁧שְׁתוּלִים⁩ ⁦בְּבֵית ה׳⁩ - in the upper worlds,
 ⁧בְּחַצְרוֹת אֱלֹקֵינוּ⁩ - to those who are far away or outside in the courtyard,
 in the ⁧חצרות⁩, or the ⁧חוצות⁩ outside of the house; ⁧יַפְרִיחוּ⁩ - they should
 send us light, and they should give us tremendous ⁧ישועות⁩ and spread out
@@ -12010,8 +11971,7 @@ this. When do we usually go to ⁧קברי מתים⁩? Often during times of �
 especially in ⁧אלול⁩. These are serious moments. Even then, the halacha is
 concerned that we are careful not to be flippant or careless about other
 people. Don't be ⁧מצער⁩ the ⁧מתים⁩ or aggravate them with what we consider
-to be ⁧מעשים טובים⁩. How much more so - ⁧קל וחומר בן בנו של קל וחומר⁩ -
-should we be careful not to cause distress or embarrassment to people
+to be ⁧מעשים טובים⁩. How much more so - ⁧קל וחומר בן בנו של קל וחומר⁩ - should we be careful not to cause distress or embarrassment to people
 who are alive! When we're walking among the ⁧חיים⁩, everyone sees, hears,
 and is affected by what we say and do. We must be so careful not to
 embarrass others, not to mock them, not to make light of their
@@ -12038,7 +11998,7 @@ Don't criticize people. Don't make sarcastic remarks. Don't speak about
 them. Always try to put yourself in their shoes. Ask yourself: How would
 I like to be spoken to? That's how we should speak to others."
 
-Let's learn this from ⁦ל״ג⁩ ⁧בעומר⁩. Let's learn it from the ⁧תלמידים⁩ of ⁧רבי
+Let's learn this from ⁦ל״ג בעומר⁩. Let's learn it from the ⁧תלמידים⁩ of ⁧רבי
 עקיבא⁩. Let's learn it from the ⁧תורה הקדושה⁩ that we study. In that ⁧זכות⁩,
 may we improve ourselves each and every day of the ⁧ספירה⁩ - day by day,
 one through forty-nine - and be ⁧זוכה⁩ to be ⁧מקבל⁩ the ⁧תורה⁩ with ⁧יראה⁩, with
@@ -12049,7 +12009,7 @@ one through forty-nine - and be ⁧זוכה⁩ to be ⁧מקבל⁩ the ⁧תו�
 #set page(footer: article-footer("https://zeidyd.com/lag-baomer/5785/", "../Files/06 - Yom Tov/03 - Lag Baomer/5785/Lag Baomer 5785.png"))
 = Lag Baomer 5785
 
-I have two short vorts on ⁦ל״ג⁩ ⁧בעומר⁩. One of them is from a sefer by R'
+I have two short vorts on ⁦ל״ג בעומר⁩. One of them is from a sefer by R'
 Moshe Wolfson called Festivals of Faith. He brings down an interesting
 ⁧מעשה⁩ from a ⁧מדרש⁩. There was a doctor named ⁧אבא אומנא⁩ who received ⁧שלום⁩
 from ⁧שמים⁩ every single day. ⁧אביי⁩ felt bad - he only received ⁧שלום⁩ from
@@ -12072,8 +12032,7 @@ Jew? That was ⁧רב שמעון בר יוחאי⁩.
 ⁧רב שמעון בר יוחאי⁩ was a master of secrets. His ⁧נשמה⁩ was rooted in the
 ⁧קודש קדשים⁩. He had the ability to see in every Yid what they were
 capable of and what we could learn from them. When he explained the
-teaching of his rebbi, ⁧רבי עקיבא⁩ - ⁧ואהבת לרעך כמוך⁩, ⁧זה כלל גדול בתורה⁩-
-he brought it to its fullest and deepest expression. On ⁦ל״ג⁩ ⁧בעומר⁩, we
+teaching of his rebbi, ⁧רבי עקיבא⁩ - ⁧ואהבת לרעך כמוך⁩, ⁧זה כלל גדול בתורה⁩ - he brought it to its fullest and deepest expression. On ⁦ל״ג בעומר⁩, we
 learn from him that every Jew has something to teach us, something
 essential to make us whole.
 
@@ -12082,7 +12041,7 @@ our goal: to see the good in every Yid to the best of our ability and to
 elevate it. Let us learn from ⁧רב שמעון בר יוחאי⁩ the ability to see that
 ⁧פנימיות⁩ and the good in everyone.
 
-⁦ל״ג⁩ ⁧בעומר⁩ carries the great ⁧זכות⁩ of being the ⁧יום הילולא⁩ of ⁧רב שמעון בר
+⁦ל״ג בעומר⁩ carries the great ⁧זכות⁩ of being the ⁧יום הילולא⁩ of ⁧רב שמעון בר
 יוחאי⁩, one of the greatest ⁧תנאים⁩. However, it is also the ⁧יום הילולא⁩ of
 the ⁦רמ״א⁩. The ⁦רמ״א⁩ was the ⁧רבן⁩ of ⁧כל ישראל⁩. We learn from his ⁧תורה⁩ every
 single day. His ⁧הגהות⁩ on ⁧שולחן ערוך⁩ give us daily direction on how to
@@ -12090,18 +12049,18 @@ live our lives.
 
 The ⁦רמ״א⁩ lived in the city of Cracow. In that city also lived ⁧רב שמעון
 סופר⁩, the son of the ⁧כתם סופר⁩. He served as the Rav of Cracow, and when
-he passed away, his son, ⁧רב בונם⁩, succeeded him. Every year on ⁦ל״ג⁩
-⁧בעומר⁩, on the ⁧יארצייט⁩ of the ⁦רמ״א⁩, they would gather in his shul and
+he passed away, his son, ⁧רב בונם⁩, succeeded him. Every year on ⁦ל״ג
+בעומר⁩, on the ⁧יארצייט⁩ of the ⁦רמ״א⁩, they would gather in his shul and
 deliver ⁧דרשות⁩ in his ⁧זכות⁩.
 
-At one such gathering, ⁧רב בונם⁩ noted that ⁦ל״ג⁩ ⁧בעומר⁩ always falls out on
+At one such gathering, ⁧רב בונם⁩ noted that ⁦ל״ג בעומר⁩ always falls out on
 either ⁧פרשת אמר⁩, ⁧בהר⁩, or ⁧בחוקותי⁩. What's the ⁧רמז⁩? The letters of ⁧אמר⁩,
 when written backwards, spell ⁦רמ״א⁩. As for ⁧בהר⁩ and ⁧בחוקותי⁩ - he
 explained that the ⁦רמ״א'⁩s ⁧הוראות⁩, his ⁧חוקות⁩, his teachings became ⁧קודש⁩
 to us just like ⁧הר סיני⁩ itself. That was his beautiful, clever vort as a
 tribute to the ⁦רמ״א⁩, our ⁧רב⁩.
 
-I think it's a worthwhile point to bring out as we celebrate ⁦ל״ג⁩ ⁧בעומר⁩.
+I think it's a worthwhile point to bring out as we celebrate ⁦ל״ג בעומר⁩.
 In that ⁧זכות⁩, may we receive the ⁧תורה⁩ anew and may ⁧משיח⁩ come quickly,
 ⁧אמן⁩.
 
@@ -12119,7 +12078,7 @@ Hashem: ⁧מַה לִּילוּד אִשָּׁה בֵּינֵינוּ⁩ - What
 us, the celestial beings, beings of perfection? (A ⁧ילוּד אִשָּׁה⁩ represents a
 person with all of his ⁧חסרונות⁩, his ⁧יצר הטוב⁩ and ⁧יצר הרע⁩, and all of his
 various defects). ⁧אָמַר לָהֶן⁩ - Hakodosh Baruch Hu answered the ⁧מלאכים⁩\; ⁧לְקַבֵּל
-תּוֹרָה בָּא⁩ - he came to receive the Torah; ⁧אָמְרוּ לְפָנָיו⁩- they said "The
+תּוֹרָה בָּא⁩ - he came to receive the Torah; ⁧אָמְרוּ לְפָנָיו⁩ - they said "The
 Torah, which was established for 974 generations before ⁧בריאת העולם⁩? We
 disagree; leave the Torah here. We want it to remain with us."⁧אָמַר לוֹ
 הַקָּדוֹשׁ בָּרוּךְ הוּא לְמֹשֶׁה⁩:⁧הַחְזֵיר לָהֶן תְּשׁוּבָה⁩ - Hashem told Moshe "You answer
@@ -12179,7 +12138,7 @@ is spotless. Who are they? ⁧תינוקות של בית רבן⁩. The ⁦תש�
 on a higher ⁧מדרגה⁩, because they are without ⁧חטא⁩. So we have both: we
 have the concept of ⁧תשובה⁩, and we also have the ⁧הבל שאין בו חטא⁩, we have
 those ⁧קינדערלאך⁩ who are giving us the ability to accept the Torah, as it
-says in the pasuk, (⁧מִפִּי עוֹלְלִים וְיֹנְקִים יִסַּדְתָּ עֹז⁩ (⁧תהילים⁩ ⁦ח׳⁩:⁦ג׳⁩. It was only
+says in the pasuk, (⁧מִפִּי עוֹלְלִים וְיֹנְקִים יִסַּדְתָּ עֹז⁩ (⁦תהילים ח׳⁩:⁦ג׳⁩. It was only
 in the ⁧זכות⁩ of those little ⁧קינדערלאך⁩ that were able to get the Torah,
 not in the ⁧זכות⁩ of the ⁧אבות⁩, not in the ⁧זכות⁩ of our ⁧מצוות⁩, not in the
 ⁧זכות⁩ of our Torah or even of our ⁧גמילות חסדים⁩. It was in the ⁧זכות⁩ of the
@@ -12224,16 +12183,16 @@ is it that ⁧מתן תורה⁩ appears specifically in ⁧פרשת יתרו⁩
 himself rose up from ⁧עבודה זרה⁩. He elevated himself and became part of
 ⁧כלל ישראל⁩, part of ⁧עם השם⁩.
 
-Chazal tell us in ⁧בבא בתרא⁩ ⁦ע״ה ע״א⁩ that if someone sells a piece of land
+Chazal tell us in ⁧בבא⁩ ⁦בתרא ע״ה⁩ ⁦ע״א⁩ that if someone sells a piece of land
 to another and there's no access road to it, there's a ⁧מחלוקת⁩ whether
 the sale includes the road to it. That's in the case of a sale. But if
 it was given as a gift, there's a famous principle: ⁧הנותן בעין יפה נותן⁩
-\- Someone who gives a gift does so generously. The ⁧חידושי⁩ ⁦הרי״ם⁩ says
+\- Someone who gives a gift does so generously. The ⁦חידושי הרי״ם⁩ says
 that a gift includes not just the object you receive, but everything
 necessary to fully enjoy it. The Torah, he explains, is the ultimate
 gift. So of course, it comes with the access road.
 
-The ⁧חידושי⁩ ⁦הרי״ם⁩ says that every single Yid, every person, is given the
+The ⁦חידושי הרי״ם⁩ says that every single Yid, every person, is given the
 strength and the ability to approach the Torah. All we need to do is get
 on the road and begin walking. We can achieve what we might think is
 difficult or even unattainable. But if we put our minds to it, we too
@@ -12249,13 +12208,13 @@ the entire world.
 #set page(footer: article-footer("https://zeidyd.com/shavuos/5785/", "../Files/06 - Yom Tov/04 - Shavuos/5785/Shavuos 5785.png"))
 = Shavuos 5785
 
-The Mishna in ⁧תענית⁩ (4: 8) says, ⁧בְּיוֹם חֲתֻנָּתוֹ⁩, ⁧זֶה מַתַּן תּוֹרָה⁩ - referring to
+The Mishna in ⁧תענית⁩ (4:8) says, ⁧בְּיוֹם חֲתֻנָּתוֹ⁩, ⁧זֶה מַתַּן תּוֹרָה⁩ - referring to
 the ⁧יום טוב⁩ of ⁧שבועות⁩, of ⁧מתן תורה⁩. R' Moshe Wolfson, in a marvelous
 sefer called Festivals of Faith, which discusses ⁧פסח⁩, ⁧שבועות⁩, and the
 summer months, has a beautiful essay on the phrase ⁧בְּיוֹם חֲתֻנָּתוֹ⁩, ⁧זֶה מַתַּן
 תּוֹרָה⁩ - the day of the wedding. What is this wedding? It's the ⁧חתן⁩ and
 ⁧כלה⁩ of ⁧שיר השירים⁩. He mentions a fascinating ⁧מדרש⁩ based on a pasuk in
-(⁧מלכים א⁩ (⁧ה⁩:⁦י״ב⁩, describing the vastness of ⁧שלמה⁩ ⁦המלך'⁩s wisdom. The ⁧נביא⁩
+(⁧מלכים א⁩ (⁧ה⁩:⁦י״ב⁩, describing the vastness of ⁦שלמה המלך'⁩s wisdom. The ⁧נביא⁩
 says, ⁧וַיְדַבֵּר שְׁלֹשֶׁת אֲלָפִים מָשָׁל⁩ - he spoke 3, 000 ⁧משלים⁩. So what if ⁧שלמה המלך⁩
 was able to come up with 3, 000 ⁧משלים⁩? The Dubno Maggid might have had
 almost as many, if not more. What is the pasuk really telling us?
@@ -12272,7 +12231,7 @@ the 3, 000th ⁧משל⁩, then the people understood. What was that 3, 000th �
 That was ⁧שיר השירים⁩. It describes the union between ⁧הקדוש ברוך הוא⁩ and
 ⁧כלל ישראל⁩. That union came into being on ⁧שבועות⁩. Until then, ⁧עולם הבא⁩
 and ⁧שמים⁩ were always above, and we were down here in ⁧עולם הזה⁩. But on
-the sixth day of sivan, ⁦(שמות י״ט:כ׳)⁩ ⁧וַיֵּרֶד⁩ ⁦ה׳⁩ ⁧עַל הַר סִינַי⁩. And at the
+the sixth day of sivan, ⁦(שמות י״ט:כ׳)⁩ ⁦וַיֵּרֶד ה׳⁩ ⁧עַל הַר סִינַי⁩. And at the
 same time, ⁧וְאֶל משֶׁה אָמַר עֲלֵה אֶל⁩ ⁦(שמות כ״ד:א׳)⁩ ⁦ה׳⁩. The joining of ⁧עולם הבא⁩
 and ⁧עולם הזה⁩.
 
@@ -12310,7 +12269,7 @@ been worth the time I spent relaying it to you.
 We're now in the month of ⁧תמוז⁩, with ⁧שבעה עשר בתמוז⁩ rapidly approaching.
 The Arizal teaches us that each of the months of the year corresponds to
 one of the organs of the head. ⁧תמוז⁩ corresponds to the right eye, and ⁧אב⁩
-to the left eye. In regards to this, ⁧ירמיהו הנביא⁩ says in Eicha (1: 16):
+to the left eye. In regards to this, ⁧ירמיהו הנביא⁩ says in Eicha (1:16):
 ⁧עֵינִי עֵינִי יֹרְדָה מַּיִם⁩ - My eye, my eye \[referring to both eyes\] is
 running water, meaning, we are crying, shedding tears. Our job is to dry
 those tears. We do that by keeping our eyes pure. When we insist on
@@ -12358,8 +12317,7 @@ we're tiny. What did he mean by ⁧כִּי רַב הוּא⁩?
 
 What is ⁧רַב⁩? ⁧רַב⁩ stands for ⁧רות⁩ and ⁧בועז⁩. Balak was scared that the spark
 of ⁧משיח⁩ would be released. What did he do? This is brilliant, the guy
-was brilliant. He said to ⁧בלעם⁩, go and curse ⁧כלל ישראל⁩. ⁧אָרָה לִּי אֶת הָעָם⁩ -
-Curse that nation so that we will not be able to join them. Why? Because
+was brilliant. He said to ⁧בלעם⁩, go and curse ⁧כלל ישראל⁩. ⁧אָרָה לִּי אֶת הָעָם⁩ - Curse that nation so that we will not be able to join them. Why? Because
 it says in the Torah ⁧לא יבוא עמוני ומואבי בקהל השם⁩ - Whoever curses ⁧כלל
 ישראל⁩ will be ⁧אסור לבוא בקהל⁩. Balak said "If we can't join ⁧כלל ישראל⁩,
 Rus and Boaz can't get married. If they can't get married, ⁧משיח⁩ can't
@@ -12563,7 +12521,7 @@ limited. But if one closes his eyes, his vision is unlimited, and he can
 see forever. On ⁧תשעה באב⁩ we cry because we have to. We've lost so much.
 For the ⁧צדיקים⁩ who died, for the people of our generation. The only
 reason that we cry is because our eyes are open. If we cover our eyes
-and say ⁧שמע ישראל⁩ ⁦ה'⁩ ⁧אלוקינו⁩ ⁦ה'⁩ ⁧אחד⁩, we realize that everything that
+and say ⁧שמע⁩ ⁦ישראל ה'⁩ ⁦אלוקינו ה'⁩ ⁧אחד⁩, we realize that everything that
 ⁧הקדוש ברוך הוא⁩ does for us is good. Through our tears, we have to have
 the ⁧אמונה⁩ that we will once again be able to see the ⁧בנין בית המקדש⁩,
 we'll be able to see the ⁧עבודה⁩, be able to see all that Hashem does is
@@ -12578,17 +12536,17 @@ really for the good.
 happiest days, if not the happiest day, of the year. It's a day when
 ⁧שידוכים⁩ were prepared, where people were able to start a new ⁧משפחה⁩ and
 continue the ⁧דורות⁩ of ⁧כלל ישראל⁩. This day has a number of significances.
-The most famous one is that on ⁦ט״ו⁩ ⁧באב⁩, the people stopped dying in the
+The most famous one is that on ⁦ט״ו באב⁩, the people stopped dying in the
 ⁧מדבר⁩. But R' Elimelech Biderman ⁧זאל ער זיין געזונט און שטארק⁩ brings down
-another. The ⁧גמרא⁩ in ⁧בבא בתרא⁩ says that on ⁦ט״ו⁩ ⁧באב⁩ people noticed that
+another. The ⁧גמרא⁩ in ⁧בבא בתרא⁩ says that on ⁦ט״ו באב⁩ people noticed that
 the days were starting to get shorter. What's the significance of the
 days getting shorter that they were happy about it? Firstly, the longer
 the night is, the more we can learn. But also, that was the day that
-they finished cutting the ⁧עצים⁩ for the ⁧מערכה⁩, because up until ⁦ט״ו⁩ ⁧באב⁩
+they finished cutting the ⁧עצים⁩ for the ⁧מערכה⁩, because up until ⁦ט״ו באב⁩
 the days were hot and the wood would not have any worms in it. Now that
 the days would begin getting shorter, there was a chance that the wood
 would be infested, and you would not want to ⁧חס ושלום⁩ bring wormy,
-infested wood into the ⁧בית המקדש⁩. So from ⁦ט״ו⁩ ⁧באב⁩ on they stopped
+infested wood into the ⁧בית המקדש⁩. So from ⁦ט״ו באב⁩ on they stopped
 cutting. Since they were not doing the wood-cutting anymore, they had
 more time to learn. This shows us that learning ⁧תורה⁩ is even higher than
 preparing things for the ⁧בית המקדש⁩.
@@ -12602,23 +12560,23 @@ accept upon himself to learn one more minute of ⁧תורה⁩ every single day.
 The Yid was disappointed. He was expecting something big. He wanted
 something dramatic. "If I'm going to add another 60 seconds on my
 learning, how is that going to improve my life?" R' Zundel showed him
-this ⁧גמרא⁩ in ⁧בבא בתרא⁩, that they stopped cutting wood on ⁦ט״ו⁩ ⁧באב⁩. The
+this ⁧גמרא⁩ in ⁧בבא בתרא⁩, that they stopped cutting wood on ⁦ט״ו באב⁩. The
 change in nighttime hours was barely felt from one day to the next. The
-whole difference between ⁦ט״ו⁩ ⁧באב⁩ and ⁦י\"ד⁩ ⁧באב⁩ was just a moment. But for
+whole difference between ⁦ט״ו באב⁩ and ⁦י\"ד באב⁩ was just a moment. But for
 that moment that the day was a drop shorter, they were able to learn
 more, and because of that it became a day of celebration.
 
-Now, from ⁦ט״ו⁩ ⁧באב⁩ until ⁧ראש השנה⁩ is 45 days. We can start now, even
+Now, from ⁦ט״ו באב⁩ until ⁧ראש השנה⁩ is 45 days. We can start now, even
 before ⁧ראש חודש אלול⁩ to be ⁧מקבל פני השכינה⁩, to be ⁧מקבל הקדוש ברוך הוא⁩ as
 the ⁧מלך⁩ on ⁧ראש השנה⁩. In fact, R' Elimelech brings down that there were
 those who started to say ⁧כתיבה וחתימה טובה⁩ starting from ⁧חמישה עשר באב⁩,
 because they thought it was appropriate for that time. The pasuk says
-⁦(דברים י׳:י״ב)⁩ ⁧וְעַתָּה יִשְׂרָאֵל מָה⁩ ⁦ה׳⁩ ⁧אֱלֹקֶיךָ שֹׁאֵל מֵעִמָּךְ⁩ - What does ⁧הקדוש ברוך
-הוא⁩ ask from you? ⁧כִּי אִם לְיִרְאָה אֶת⁩ ⁦ה׳⁩. As my sister ⁧זאל זי זיין געזונט און
+⁦(דברים י׳:י״ב)⁩ ⁧וְעַתָּה יִשְׂרָאֵל⁩ ⁦מָה ה׳⁩ ⁧אֱלֹקֶיךָ שֹׁאֵל מֵעִמָּךְ⁩ - What does ⁧הקדוש ברוך
+הוא⁩ ask from you? ⁧כִּי אִם לְיִרְאָה⁩ ⁦אֶת ה׳⁩. As my sister ⁧זאל זי זיין געזונט און
 שטארק⁩ said, for ⁧משה רבינו⁩, it was a ⁧מילתא זוטרתא⁩, it's a little thing to
-be ⁧כִּי אִם לְיִרְאָה אֶת⁩ ⁦ה׳⁩. For us, ⁧יראת השם⁩ is a big deal. But for ⁧משה רבינו⁩,
+be ⁧כִּי אִם לְיִרְאָה⁩ ⁦אֶת ה׳⁩. For us, ⁧יראת השם⁩ is a big deal. But for ⁧משה רבינו⁩,
 it was ⁧מה⁩, what? ⁧נחנו מה⁩, what are we? However, you can change how you
-read it and say ⁧מָה⁩ ⁦ה׳⁩ ⁧אֱלֹקֶיךָ שֹׁאֵל מֵעִמָּךְ⁩ - Hashem is asking from you ⁧מה⁩.
+read it and say ⁦מָה ה׳⁩ ⁧אֱלֹקֶיךָ שֹׁאֵל מֵעִמָּךְ⁩ - Hashem is asking from you ⁧מה⁩.
 What's ⁧מה⁩ ? ⁦מ\"ה⁩, 45. These are the days that Hashem asks from us. Give
 Him one more minute on that day, and then we will maybe, hopefully, be
 prepared to encounter ⁧הקדוש ברוך הוא מלך מלכי המלכים⁩.
@@ -12633,7 +12591,7 @@ The last entry in the wonderful sefer ⁧חיים שיש בהם⁩, the volume a
 ⁧תענית⁩, which is the hallmark of this day. ⁧אָמַר רַבָּן שִׁמְעוֹן בֶּן גַּמְלִיאֵל⁩ - a
 ⁧הייליגע תנא⁩, the ⁧נשיא⁩\; ⁧לֹא הָיוּ יָמִים טוֹבִים לְיִשְׂרָאֵל כַּחֲמִשָּׁה עָשָׂר בְּאָב⁩. The
 sefer goes on to speak about ⁧אהבת ישראל⁩. He quotes a magnificent ⁧דבר
-תורה⁩ from the ⁧בני יששכר⁩, who quotes the ⁧גמרא תענית⁩ ⁦ל״א ע״א⁩ a few blatt
+תורה⁩ from the ⁧בני יששכר⁩, who quotes the ⁧גמרא⁩ ⁦תענית ל״א⁩ ⁦ע״א⁩ a few blatt
 later: ⁧אָמַר רַבִּי אֶלְעָזָר⁩:⁧עָתִיד הַקָּדוֹשׁ בָּרוּךְ הוּא לַעֲשׂוֹת מָחוֹל לְצַדִּיקִים⁩ - In ⁧עולם
 הבא⁩, ⁧הקדוש ברוך הוא⁩ is going to make a ⁧מחול⁩ for ⁧צדיקים⁩.
 
@@ -12646,7 +12604,7 @@ no one will be below, they're going to all be exactly in the ⁧מדרגה⁩ of
 
 How do we represent that in our time, in our existence here before ⁧עולם
 הבא⁩? Again, referring back to the mishnah: ⁧בְּנוֹת יְרוּשָׁלַיִם יוֹצְאוֹת בִּכְלֵי לָבָן
-שְׁאוּלִין⁩- On that day of ⁦ט\"ו⁩ ⁧באב⁩, all the ⁧בנות ישראל⁩ would go out with
+שְׁאוּלִין⁩ - On that day of ⁦ט\"ו באב⁩, all the ⁧בנות ישראל⁩ would go out with
 borrowed clothing so that they would not embarrass the poor girls. They
 all wore white, beautiful garments. There was no ⁧קנאה⁩, only love, mutual
 respect, and ⁧אחדות⁩ between all of ⁧כלל ישראל⁩.
@@ -12680,8 +12638,8 @@ true reason for ⁧ביאת גואל צדק⁩.
 My vort for ⁧אלול⁩, which ⁧אני הקטן⁩ thought of, and I was inspired by a
 number of different people, including Rabbi Oelbaum, is as follows: We
 know that the month of ⁧אלול⁩ is unique and distinctive in that every day
-we say ⁧לְדָוִד⁩ ⁦ה׳⁩ ⁧אוֹרִי וְיִשְׁעִי⁩. In that ⁧קאַפּיטל⁩ there's the pasuk ⁧אַחַת שָׁאַלְתִּי
-מֵאֵת⁩ ⁦ה׳⁩ - that's only one thing that I'm asking for. And then we go home
+we say ⁦לְדָוִד ה׳⁩ ⁧אוֹרִי וְיִשְׁעִי⁩. In that ⁧קאַפּיטל⁩ there's the pasuk ⁧אַחַת שָׁאַלְתִּי⁩
+⁦מֵאֵת ה׳⁩ - that's only one thing that I'm asking for. And then we go home
 and we wash and we have a nice fresh roll and a little scrambled egg or
 whatever. And then we bentch, and in bentching we say ⁧הקדוש ברוך הוא⁩, I
 need:
@@ -12709,10 +12667,10 @@ even better, 'Can I have a car?' Is that ⁧מַתְּנַת בָּשָׂר וָ
 family. When you're getting something from your father, mother, and
 family, that's not ⁧מַתְּנַת בָּשָׂר וָדָם⁩.
 
-What are we asking Hashem? ⁧שִׁבְתִּי בְּבֵית⁩ ⁦ה׳⁩ ⁧כׇּל יְמֵי חַיַּי⁩ - Hashem, I want to
+What are we asking Hashem? ⁧שִׁבְתִּי⁩ ⁦בְּבֵית ה׳⁩ ⁧כׇּל יְמֵי חַיַּי⁩ - Hashem, I want to
 be part of your ⁧משפחה⁩. I want to live in your house. I want to be close
 to you, as close as a father and a mother. When you ask ⁧הקדוש ברוך הוא
-שִׁבְתִּי בְּבֵית⁩ ⁦ה׳⁩ ⁧כׇּל יְמֵי חַיַּי⁩, that I want to live in your house, then you can
+שִׁבְתִּי⁩ ⁦בְּבֵית ה׳⁩ ⁧כׇּל יְמֵי חַיַּי⁩, that I want to live in your house, then you can
 ask for everything. And that's why when we bentch, we can ask for
 everything. And may ⁧הקדוש ברוך הוא⁩ give us the ⁧זכות⁩ to get all the good
 things we ask for, ⁧לטובה⁩, and to have a wonderful ⁧כתיבה וחתימה טובה⁩.
@@ -12743,10 +12701,10 @@ in. A person has to force himself to be ⁧גובר⁩ on himself.
 
 What R' Gedalia Schorr did very interestingly here is a new take on a
 pasuk which I've learned many times with my ⁧משפחה⁩. That's what we say
-⁦(תהילים כ״ז:ד׳)⁩ ⁧שִׁבְתִּי בְּבֵית⁩ ⁦ה׳⁩ ⁧כׇּל יְמֵי חַיַּי⁩. What does ⁧דוד המלך⁩ mean by ⁧כׇּל
+⁦(תהילים כ״ז:ד׳)⁩ ⁧שִׁבְתִּי⁩ ⁦בְּבֵית ה׳⁩ ⁧כׇּל יְמֵי חַיַּי⁩. What does ⁧דוד המלך⁩ mean by ⁧כׇּל
 יְמֵי חַיַּי⁩? ⁧דוד המלך⁩ is saying that every situation, whether it's light,
 whether it's darkness, ⁧חס ושלום⁩, that we have to have our concept of
-⁧שִׁבְתִּי בְּבֵית⁩ ⁦ה׳⁩ every moment of my life. When things are good and things
+⁧שִׁבְתִּי⁩ ⁦בְּבֵית ה׳⁩ every moment of my life. When things are good and things
 are not so good.
 
 By the way, which pasuk is ⁧כולל⁩ every other pasuk in the Torah? ⁧אֶת הַכֶּבֶשׂ
@@ -12758,13 +12716,13 @@ could what we used to be able to do before. Hopefully we'll still be
 able to utilize our ⁧כוחות⁩ to serve Hashem in exactly the same way with
 the same ⁧התלהבות⁩, with the same intensity, with the same success. So he
 has that here as ⁧כׇּל יְמֵי חַיַּי⁩. ⁧כׇּל יְמֵי חַיַּי⁩ ties right in with that pasuk.
-Everything is one. The whole Torah is ⁧הקדוש ברוך⁩ ⁦הוא'⁩s name. That's the
+Everything is one. The whole Torah is ⁧הקדוש⁩ ⁦ברוך הוא'⁩s name. That's the
 ⁧חשבון⁩ that we have to make. The ⁧חשבון⁩ we have to make is how can I use
-⁧הקדוש ברוך⁩ ⁦הוא'⁩s name to serve ⁧הקדוש ברוך הוא⁩? That's what every ⁧מצווה⁩
-is. It's a permutation of ⁧הקדוש ברוך⁩ ⁦הוא'⁩s name. The whole Torah is
-⁧הקדוש ברוך⁩ ⁦הוא'⁩s name. If we're able to utilize our ⁧שכל⁩ and our hearts
+⁧הקדוש⁩ ⁦ברוך הוא'⁩s name to serve ⁧הקדוש ברוך הוא⁩? That's what every ⁧מצווה⁩
+is. It's a permutation of ⁧הקדוש⁩ ⁦ברוך הוא'⁩s name. The whole Torah is
+⁧הקדוש⁩ ⁦ברוך הוא'⁩s name. If we're able to utilize our ⁧שכל⁩ and our hearts
 to do the ⁧רצון השם⁩, we can then be successful in our life's journey
-towards ⁧גדלות⁩, towards ⁧שלמות⁩, towards fulfilling ⁧הקדוש ברוך⁩ ⁦הוא'⁩s ⁧רצון⁩,
+towards ⁧גדלות⁩, towards ⁧שלמות⁩, towards fulfilling ⁧הקדוש⁩ ⁦ברוך הוא'⁩s ⁧רצון⁩,
 which is what each and every one of us wants most, most importantly in
 our lives.
 
@@ -12963,15 +12921,15 @@ the ⁧דרשה⁩, the ⁧חפץ חיים⁩ said, "I have a tremendous ⁧יס
 ⁧סוד⁩. I have something that's quite important, which is a secret, and I
 would like to reveal it to you. However, I cannot give it to you now in
 a regular, in a regular shmooze. If anyone's interested to hear it, you
-have to come back tonight at 3: 00 in the morning, and I will tell you
+have to come back tonight at 3:00 in the morning, and I will tell you
 the secret."
 
 Once the word came out that the ⁧חפץ חיים⁩ had a secret which he wants to
-reveal to the people and specifically at 3: 00 in the morning, the word
+reveal to the people and specifically at 3:00 in the morning, the word
 went out like wildfire and all of a sudden everybody wanted to come. The
 whole town of Radin wanted to come, the entire ⁧סביבה⁩ wanted to come.
 People didn't sleep that whole night waiting to hear what the ⁧רבי⁩ was
-going to say to them. 3: 00 came, and the house of the ⁧חפץ חיים⁩ was
+going to say to them. 3:00 came, and the house of the ⁧חפץ חיים⁩ was
 packed. The yard outside was packed. Each and every person was sitting
 there quietly, waiting to hear the secret of the ⁧חפץ חיים⁩.
 
@@ -13010,10 +12968,10 @@ again. He repeated it and emphasized it, "That ⁧נשמה⁩ that they're takin
 from us, that's the ⁧נשמה⁩ that we're getting back." He fell silent after
 these words.
 
-After a moment, he said "This ⁧סוד⁩, which was said at 3: 00 in the morning
+After a moment, he said "This ⁧סוד⁩, which was said at 3:00 in the morning
 to wake up the people, how beautiful this is for every day of the year.
 Certainly at ⁧ראש השנה⁩ time. Certainly at the onset of ⁧ימים נוראים⁩, when
-we need tremendous ⁧סיעתא דשמיא⁩. We have the power with ⁧הקדוש ברוך⁩ ⁦הוא'⁩s
+we need tremendous ⁧סיעתא דשמיא⁩. We have the power with ⁧הקדוש⁩ ⁦ברוך הוא'⁩s
 help to do tremendous things. We can cleanse our ⁧נשמות⁩. We can make them
 ⁧טהור⁩ from all of the ⁧שמוציקייט⁩, from all of the ⁧פגמים⁩, from all of the
 ⁧בלאטלאך⁩, and to clean it up and be able to stand before ⁧הקדוש ברוך הוא⁩
@@ -13119,13 +13077,13 @@ R' Levi Yitzchok ⁧זכותו יגן עלינו⁩.
 It was the first day of Rosh Hashana in the shul in Berditchev by the
 Rebbe, R' Levi Yitzchok. It was crowded. The Rebbe himself was at the
 ⁧עמוד⁩, leading the ⁧תפילות⁩ on this most solemn of days. "All declare your
-majesty, Hashem, who sits in judgment, ⁧לְקֵל עוֹרֵךְ⁩ ⁦דִּין"⁩. The famous, ⁧פיוט⁩
+majesty, Hashem, who sits in judgment, ⁧לְקֵל⁩ ⁦עוֹרֵךְ דִּין"⁩. The famous, ⁧פיוט⁩
 that we say. The Rabbi's soft and vibrant voice touched the heartstrings
 of every ⁧מתפלל⁩. Hardly anyone's eyes were dry.
 
 From the women's gallery, many a sob burst forth, loud enough to send
-the tears rolling down every face. "To He Who searches the hearts ⁧ביום⁩
-⁦הדין"⁩. As the Rebbe pronounced the words, his voice broke. Everyone's
+the tears rolling down every face. "To He Who searches the hearts ⁦ביום
+הדין"⁩. As the Rebbe pronounced the words, his voice broke. Everyone's
 heart was filled with ⁧תשובה⁩. Everyone pictured himself standing before
 the ⁧כסא הכבוד⁩, where the judge of the entire universe presided to
 dispense judgment and pronounce the verdict. "Be merciful and gracious
@@ -13283,13 +13241,13 @@ We want to get through ⁧יום כיפור בשלום⁩. We want to see our ch
 #set page(footer: article-footer("https://zeidyd.com/yom-kippur/5785/", "../Files/06 - Yom Tov/10 - Yom Kippur/5785/Yom Kippur 5785.png"))
 = Yom Kippur 5785
 
-⁧לכבוד יום כיפור⁩. R' Levi Yitzchok quotes the famous Gemara (⁧פסחים⁩ ⁦נ׳ ע״א⁩
-& ⁧בבא בתרא⁩ ⁦י׳ ע״ב⁩) which we know is referring to olam hazeh vis-a-vis
+⁧לכבוד יום כיפור⁩. R' Levi Yitzchok quotes the famous Gemara (⁦פסחים נ׳⁩ ⁦ע״א⁩
+& ⁧בבא⁩ ⁦בתרא י׳⁩ ⁦ע״ב⁩) which we know is referring to olam hazeh vis-a-vis
 olam haba: ⁧עוֹלָם הָפוּךְ רָאִיתִי⁩ - The world is upside down. R' Levi Yitzchok
 had a very ingenious take on this, and it's actually an indictment which
 we'll have to answer and we will.
 
-He says in the olden days, ⁧בפריערדיגע דורות⁩, ⁦אמאל'דיגע⁩ ⁧צייטן⁩ as I say in
+He says in the olden days, ⁧בפריערדיגע דורות⁩, ⁦אמאל'דיגע צייטן⁩ as I say in
 Yiddish, a person used to deal honestly in his business. He would do his
 business honestly, he did everything properly, and he never let out a
 lie from his mouth. That was in the in the old days. He would go into
@@ -13309,12 +13267,12 @@ these days of ⁧יום כיפור⁩ and ⁧עשרת ימי תשובה⁩, to t
 to be as straight and as truthful as we can be. It's a tremendous
 challenge. We're so used to absolute out-and-out ⁧שקר⁩ all around the
 world. We know that ⁧אמת⁩ is a very rare commodity, it's hard to find. The
-letters ⁦א׳ מ׳ ת׳⁩ are the furthest apart, whereas the letters ⁦ש׳ ק׳ ר׳⁩
+letters ⁦א׳ מ׳⁩ ⁦ת׳⁩ are the furthest apart, whereas the letters ⁦ש׳ ק׳⁩ ⁦ר׳⁩
 are next to each other. So it's our moral obligation, our ⁧אחריות⁩, our
 responsibility and job to try to do something better, to try to make
 ourselves better in everything that we do.
 
-Now, in that light, there's a Gemara (⁧ראש השנה⁩ ⁦ל״ב ע״ב⁩) that's brought
+Now, in that light, there's a Gemara (⁧ראש⁩ ⁦השנה ל״ב⁩ ⁦ע״ב⁩) that's brought
 down by R' Yechezkel Levenstein, the mashgiach ruchani of the Mir. ⁧אָמַר
 רַבִּי אֲבָהוּ⁩:⁧אָמְרוּ מַלְאֲכֵי הַשָּׁרֵת לִפְנֵי הַקָּדוֹשׁ בָּרוּךְ הוּא⁩ - The ⁧מלאכים⁩ said to
 Hashem: ⁧רִבּוֹנוֹ שֶׁל עוֹלָם⁩! ⁧מִפְּנֵי מָה אֵין יִשְׂרָאֵל אוֹמְרִים שִׁירָה לְפָנֶיךָ בְּרֹאשׁ הַשָּׁנָה
@@ -13428,8 +13386,8 @@ to take care of that one.
 However, we all know that there are numerous ⁧הלכות פסח⁩. There are two
 ⁧קרבנות⁩ on ⁧פסח⁩ itself. There's a ⁧קרבן פסח⁩ and the ⁧קרבן חגיגה⁩. So it's not
 two ⁧פסחים⁩, but there actually are two ⁧קרבנות⁩ brought on ⁧פסח⁩. Then
-there's also a ⁧קרבן פסח⁩ which we have ⁦י\"ד⁩ ⁧ניסן⁩, and there is a ⁧פסח שני⁩
-of ⁦י\"ד⁩ ⁧אייר⁩. So there are two ⁧פסחים⁩. There are so many ⁧הלכות⁩ and so
+there's also a ⁧קרבן פסח⁩ which we have ⁦י\"ד ניסן⁩, and there is a ⁧פסח שני⁩
+of ⁦י\"ד אייר⁩. So there are two ⁧פסחים⁩. There are so many ⁧הלכות⁩ and so
 many ⁧קרבנות⁩, that the ⁧מסכתא⁩ is in ⁧לשון רבים⁩.
 
 #pagebreak()
@@ -13484,7 +13442,7 @@ After all of this work, sweat, effort and results, we want to show ⁧הקדוש
 ברוך הוא⁩ that we are so grateful for all of the things that we're able
 to do by our efforts. Hashem says, you, "That's good. I'll give you a
 way to show your gratitude. Take ⁧ארבע מינים⁩. Take a ⁧לולב⁩, and you should
-be ⁧משמח⁩. ⁧וּשְׂמַחְתֶּם לִפְנֵי⁩ ⁦ה׳⁩ ⁧אֱלֹקֵיכֶם שִׁבְעַת יָמִים⁩ ⁦(ויקרא כ״ג:מ׳)⁩. They are not
+be ⁧משמח⁩. ⁧וּשְׂמַחְתֶּם⁩ ⁦לִפְנֵי ה׳⁩ ⁧אֱלֹקֵיכֶם שִׁבְעַת יָמִים⁩ ⁦(ויקרא כ״ג:מ׳)⁩. They are not
 ⁧מוקצה⁩. The ⁧אסרוג⁩ is not ⁧מוקצה⁩. There's no ⁧שם שמים⁩ on the ⁧אסרוג⁩ as there
 is on the walls of the ⁧סוכה⁩.
 
@@ -13745,12 +13703,12 @@ It's based on the ⁧תפילות⁩ of a certain R' Avraham Landau of Chekhanov
 written by R' Menachem Mendel Chaim Landau from a city Zawiercie in
 Poland.
 
-The ⁧פסוקים⁩ in ⁧אשרי⁩ are: ⁧רְצוֹן יְרֵאָיו יַעֲשֶׂה וְאֶת שַׁוְעָתָם יִשְׁמַע וְיוֹשִׁיעֵם׃ שׁוֹמֵר⁩ ⁦ה׳⁩
+The ⁧פסוקים⁩ in ⁧אשרי⁩ are: ⁧רְצוֹן יְרֵאָיו יַעֲשֶׂה וְאֶת שַׁוְעָתָם יִשְׁמַע וְיוֹשִׁיעֵם׃⁩ ⁦שׁוֹמֵר ה׳⁩
 ⁧אֶת כׇּל אֹהֲבָיו וְאֵת כׇּל הָרְשָׁעִים יַשְׁמִיד⁩. He brings down a fascinating ⁧הארה⁩ which
 after you hear it you say, why didn't I think of that? It says for the
 ⁧יראים⁩, those who fear Hashem, Hashem does their ⁧רצון⁩ \; ⁧וְאֶת שַׁוְעָתָם יִשְׁמַע
 וְיוֹשִׁיעֵם⁩ - Hashem hears them and saves them from their ⁧צרות⁩. However,
-⁧שׁוֹמֵר⁩ ⁦ה׳⁩ ⁧אֶת כׇּל אֹהֲבָיו⁩- the ones who love Hashem, Hashem watches over them
+⁦שׁוֹמֵר ה׳⁩ ⁧אֶת כׇּל אֹהֲבָיו⁩ - the ones who love Hashem, Hashem watches over them
 that their ⁧צרות⁩ should not come on them in the first place. So the ⁧שמירה⁩
 that Hashem provides for those who love him is definitely a much higher
 ⁧מדרגה⁩ than the ones who fear him. ⁧יראת שמים⁩ is not a small thing, it's
@@ -13759,7 +13717,7 @@ that ⁧הקדוש ברוך הוא⁩ loves us and we love ⁧הקדוש ברו�
 
 The Ruzhiner Rebbe, quoted in the sefer ⁧חיים שיש בהם⁩, has a very
 interesting take on a Gemara which we all know, and he applies it to
-⁧שמיני עצרת⁩. It's brought down in the Gemara in ⁧שבת⁩ ⁦ל״א ע״א⁩ that a goy
+⁧שמיני עצרת⁩. It's brought down in the Gemara in ⁦שבת ל״א⁩ ⁦ע״א⁩ that a goy
 came to ⁧הלל⁩ and said to him, ⁧גַּיְּירֵנִי עַל מְנָת שֶׁתְּלַמְּדֵנִי כׇּל הַתּוֹרָה כּוּלָּהּ כְּשֶׁאֲנִי
 עוֹמֵד עַל רֶגֶל אַחַת⁩ - I'm willing to become a ⁧גר⁩ on the condition that you
 teach me the whole ⁧תורה על רגל אחת⁩. ⁧הלל⁩ replied with the famous line,
@@ -13770,7 +13728,7 @@ different take on this Gemara. He points out that the ⁧תורה⁩ brings the
 basis for every single ⁧יום טוב⁩ that we have. There's one ⁧יום טוב⁩ for
 which that is not the case, and that's ⁧שמיני עצרת⁩. The ⁧תורה⁩ doesn't give
 us any ⁧טעם⁩, doesn't give us any reason whatsoever as to what this ⁧יום
-טוב⁩ is, and we only about ⁧שמיני⁩ ⁦עצרת'⁩s significance from the ⁧מדרש⁩.
+טוב⁩ is, and we only about ⁦שמיני עצרת'⁩s significance from the ⁧מדרש⁩.
 That's what the ⁧גר⁩ was asking ⁧הלל⁩. This ⁧גר⁩ apparently was already fairly
 well-versed. He said "Every ⁧יום טוב⁩ in the ⁧תורה⁩ has a reason, ⁧גַּיְּירֵנִי עַל
 מְנָת שֶׁתְּלַמְּדֵנִי כׇּל הַתּוֹרָה כּוּלָּהּ כְּשֶׁאֲנִי עוֹמֵד עַל רֶגֶל אַחַת⁩, except this one ⁧רגל⁩\."
@@ -13793,11 +13751,10 @@ running to him and they said, "Go look what's going on, see what her ⁧מצב�
 is." He went into her room, took a look at her situation, came out, and
 made the following proclamation: "⁧ריבונו של עולם⁩, you told us to be ⁧תוקע
 בשופר⁩ on ⁧ראש השנה⁩ - Meir'l was ⁧תוקע⁩. \[He always spoke about himself in
-the third person\]. You told us to be ⁧מתענה⁩, to fast on ⁧יום כיפור⁩ -
-Meir'l fasted. You told us to sit in the ⁧סוכה⁩ on ⁧סוכות⁩ - Meir'l did that
+the third person\]. You told us to be ⁧מתענה⁩, to fast on ⁧יום כיפור⁩ - Meir'l fasted. You told us to sit in the ⁧סוכה⁩ on ⁧סוכות⁩ - Meir'l did that
 too. You also told us to be ⁧משמח⁩ on ⁧שמחת תורה⁩, and Meir'l is having the
 ⁧שמחה⁩. But you made R' Meir'l's daughter sick. And Meir'l has to be ⁧מקבל⁩
-this situation ⁧בשמחה⁩, as ⁦חז\"ל⁩ say (⁧ברכות⁩ ⁦נ״ד ע״א⁩), ⁧חַיָּיב אָדָם לְבָרֵךְ עַל
+this situation ⁧בשמחה⁩, as ⁦חז\"ל⁩ say (⁦ברכות נ״ד⁩ ⁦ע״א⁩), ⁧חַיָּיב אָדָם לְבָרֵךְ עַל
 הָרָעָה כְּשֵׁם שֶׁמְּבָרֵךְ עַל הַטּוֹבָה⁩ - The same way that a person is ⁧שמח⁩ when Hashem
 showers him with ⁧ברכה והצלחה⁩, he has to have exactly the same ⁧שמחה⁩ when
 a misfortune befalls him. So Meir'l is ⁧מקבל⁩ all of this ⁧בשמחה⁩. But
@@ -13808,7 +13765,7 @@ They noticed that his daughter immediately began perspiring profusely,
 and a little while came back to her full state of health.
 
 The last words of this ⁧דבר תורה⁩ are: ⁧רְצוֹן יְרֵאָיו יַעֲשֶׂה⁩. ⁧יראת שמים⁩ is not a
-little thing. We want to have that level of being ⁧אוהבי⁩ ⁦ה׳⁩. But let's
+little thing. We want to have that level of being ⁦אוהבי ה׳⁩. But let's
 also work very hard to be ⁧מקבל⁩ on ourselves ⁧יראת שמים⁩. We should work
 very diligently to understand that everything comes from Hashem. We
 should respect that and treat ⁧הקדוש ברוך הוא⁩ with the awesomeness He is
@@ -14072,7 +14029,7 @@ concerned about everybody else, relatives and non-relatives alike.
 fully rejoices with the Torah on ⁧שמחת תורה⁩ is given the promise that the
 Torah will remain in his family by him, his whole family, and by all
 future ⁧דורות⁩ as well. R' Elimelech Biderman quotes R Chaim Vital, who
-describes how his rebbi, the ⁦אר\"י⁩ ⁧הקדוש⁩, would dance with all of his
+describes how his rebbi, the ⁦אר\"י הקדוש⁩, would dance with all of his
 might in honor of the Torah. He would go from one ⁧בית מדרש⁩ to another to
 dance with every ⁧ספר תורה⁩ in each shul. The sefer ⁧מעשה רב⁩ describes that
 the ⁧ווילנא גאון⁩ was extremely joyous when he danced before the ⁧ספר תורה⁩.
@@ -14124,7 +14081,7 @@ danced like I never did before, focusing only on ⁧כבוד התורה⁩. And
 tomorrow we're making a ⁧ברית⁩\.'
 
 What a nice story. I wanted to share that with you, and may you have a
-very ⁦שמחה'דיק⁩ and ⁧כבוד⁩ ⁦התורה'דיק⁩ ⁧שמחת תורה⁩.
+very ⁦שמחה'דיק⁩ and ⁦כבוד התורה'דיק⁩ ⁧שמחת תורה⁩.
 
 #pagebreak()
 
@@ -14166,7 +14123,7 @@ witnessed the whole congregation, men in ⁧טליתים⁩, children with flags
 women pushing babies in strollers, friends and strangers alike, all
 marching to her front lawn and dancing the ⁧שמחת תורה הקפות⁩ right there.
 She treasured the sight of her six-year-old waving a flag while sitting
-on a ⁧ישיבה⁩ ⁦בחור'⁩s shoulders. It was priceless to see her husband dance
+on a ⁦ישיבה בחור'⁩s shoulders. It was priceless to see her husband dance
 with the Torah and smile with the deep joyousness that transcended their
 family's troubles. Soon, her nine-year-old son came into the house with
 the biggest and proudest smile that showed his love in the deepest way
@@ -14215,7 +14172,7 @@ start, and that is worth celebrating just as joyously." The Homiler rav
 then asked these boys if they would be willing to start learning Torah
 and start their Torah journey. They said, "Yes!" Listen to this.
 
-The rav learned with these boys every day from 3: 00 a.m. until 7: 00 a.m.
+The rav learned with these boys every day from 3:00 a.m. until 7:00 a.m.
 Pause. Think about that. After which time they went off to work. And
 that was the beginning of a ⁧ישיבה⁩ known as ⁧תפארת בחורים⁩.
 
@@ -14314,12 +14271,12 @@ learn how to do it. Just as we add another candle each day, so too we
 must reflect daily on the ⁧חסדים⁩ of Hashem.
 
 Consider the ⁧קרבן תודה⁩. This ⁧קרבן⁩, which represents and expresses our
-appreciation for ⁧הקדוש ברוך⁩ ⁦הוא\'⁩s kindness to us in every way, is
+appreciation for ⁧הקדוש⁩ ⁦ברוך הוא\'⁩s kindness to us in every way, is
 unique. Unlike a ⁧קרבן שלמים⁩, which may be consumed over two days and one
 intervening night, the ⁧קרבן תודה⁩ is eaten only on the day it is brought
 and the following night. Why is that?
 
-The ⁧חידושי⁩ ⁦הרי\"ם⁩ explains that the ⁧קרבן תודה⁩ is restricted to one day
+The ⁦חידושי הרי\"ם⁩ explains that the ⁧קרבן תודה⁩ is restricted to one day
 because each new day brings its own reason for expressing thanks. Every
 day has its own ⁧נס⁩. One who lives with awareness and pays attention to
 the ⁧חסדים⁩ that flow from Hashem will see this clearly.
@@ -14357,7 +14314,7 @@ merited that day. If we do this properly, we can extend the spirit of
 #set page(footer: article-footer("https://zeidyd.com/chanukah/5785/", "../Files/06 - Yom Tov/15 - Chanukah/5785/Chanukah 5785.png"))
 = Chanukah 5785
 
-⁧לכבוד חנוכה⁩, and ⁧לעילוי נשמת רב צבי בן אלכסנדר הכהן⁩ ⁦הי״ד⁩, the man who
+⁧לכבוד חנוכה⁩, and ⁧לעילוי נשמת רב צבי בן אלכסנדר⁩ ⁦הכהן הי״ד⁩, the man who
 was tragically killed in Abu Dhabi, we are learning now ⁧לעילוי נשמתו⁩,
 and also for all those who need a ⁧רפואה שלמה⁩ and a big ⁧ישועה⁩.
 
@@ -14462,11 +14419,11 @@ A famous ⁧תירוץ⁩ brought by ⁧בני יששכר⁩, ⁧זכותו יג
 refers to a specific ⁧אילן⁩ that we should daven for and think about on
 ⁧חמשה עשר בשבט⁩, \[or ⁧ראש חודש שבט⁩ according to ⁧בית שמאי⁩, of course, we
 ⁧פסקין⁩ like ⁧בית הלל⁩\]. This specific ⁧אילן⁩ is the ⁧אתרוג⁩. When a person
-davens on ⁦ט״ו⁩ ⁧בשבט⁩ for his ⁧אתרוג⁩, he is assured of having a beautiful
+davens on ⁦ט״ו בשבט⁩ for his ⁧אתרוג⁩, he is assured of having a beautiful
 ⁧אתרוג⁩ for that year.
 
-Now, let's discuss ⁦ט״ו⁩ ⁧בשבט⁩. R' Elimelech Biderman offers an insightful
-perspective. He explains that ⁦ט״ו⁩ ⁧בשבט⁩ is a ⁧ראש השנה⁩, symbolizing the
+Now, let's discuss ⁦ט״ו בשבט⁩. R' Elimelech Biderman offers an insightful
+perspective. He explains that ⁦ט״ו בשבט⁩ is a ⁧ראש השנה⁩, symbolizing the
 renewal of trees and the new cycle of the year, making it a significant
 ⁧יום טוב⁩. However, he raises an obvious ⁧קושיה⁩: we don't see trees
 blooming on ⁧חמשה עשר בשבט⁩. In the middle of winter, there is no visible
@@ -14486,7 +14443,7 @@ the other way around.
 The Sanzer Rav points out another fascinating aspect, highlighted by R'
 Biderman: from ⁧חמשה עשר בשבט⁩ onwards, every two weeks marks another ⁧יום
 טוב⁩. Starting with ⁧חמשה עשר בשבט⁩, followed by ⁧ראש חודש אדר⁩, ⁧פורים⁩, ⁧ראש
-חודש ניסן⁩, ⁧פסח⁩, ⁧ראש חודש אייר⁩, ⁧פסח שני⁩, ⁦ל״ג⁩ ⁧בעומר⁩, ⁧ראש חודש סיון⁩, and
+חודש ניסן⁩, ⁧פסח⁩, ⁧ראש חודש אייר⁩, ⁧פסח שני⁩, ⁦ל״ג בעומר⁩, ⁧ראש חודש סיון⁩, and
 ⁧שבועות⁩. There's so much going on, that we're renewing our ⁧אמונה⁩. Even
 though it's a cold winter day, we're starting with this. Now that's a
 fascinating concept. One can get very depressed when you think about the
@@ -14496,7 +14453,7 @@ come out on a Friday? None of the others can come out on a Friday.
 They're always ⁧נדחה⁩. But ⁧עשרה בטבת⁩ can come out on Friday, because that
 was a ⁧התחלה⁩. That was that little microscopic bud that started the ⁧חרבן⁩.
 So just to counteract that, just ⁧פּונקט פאַרקערט⁩, we have these ⁧ימים טובים⁩
-coming up, starting with ⁦ט״ו⁩ ⁧בשבט⁩. This microscopic beginning, this
+coming up, starting with ⁦ט״ו בשבט⁩. This microscopic beginning, this
 little bud that we cannot see, renews our ⁧אמונה⁩, and brings us to the
 ultimate ⁧גאולה⁩ and ⁧ישועה⁩, !⁧במהרה בימינו⁩. ⁧אמן⁩
 
@@ -14505,7 +14462,7 @@ ultimate ⁧גאולה⁩ and ⁧ישועה⁩, !⁧במהרה בימינו⁩. 
 #set page(footer: article-footer("https://zeidyd.com/tu-beshvat/5785/", "../Files/06 - Yom Tov/17 - Tu Beshvat/5785/Tu Beshvat 5785.png"))
 = Tu Beshvat 5785
 
-In preparing this ⁧דבר תורה⁩ for ⁦ט״ו⁩ ⁧בשבט⁩, a fascinating question arose,
+In preparing this ⁧דבר תורה⁩ for ⁦ט״ו בשבט⁩, a fascinating question arose,
 which I did not see in the ⁧ספרים⁩, but which is answered in the ⁧ספרים⁩.
 And that question is, we celebrate all of life's milestones. We
 celebrate a ⁧ברית⁩, we celebrate a birth, we make a kiddush for a girl, we
@@ -14514,10 +14471,10 @@ celebrate the conception of a new human being, the very outset of their
 creation? It's an intriguing question that I had never really considered
 before.
 
-R' Moshe Kormornick, in his essay on ⁦ט״ו⁩ ⁧בשבט⁩, addresses a similar idea.
+R' Moshe Kormornick, in his essay on ⁦ט״ו בשבט⁩, addresses a similar idea.
 He explains that the ⁧משנה⁩ regarding the ⁧ראש השנה⁩ for ⁧אילנות⁩ is connected
 to the month of ⁧שבט⁩, where we find the famous ⁧מחלוקת⁩ between ⁧בית שמאי⁩
-and ⁧בית הלל⁩. While we paskin like ⁧בית הלל⁩ that it falls on ⁦ט״ו⁩ ⁧בשבט⁩, the
+and ⁧בית הלל⁩. While we paskin like ⁧בית הלל⁩ that it falls on ⁦ט״ו בשבט⁩, the
 timing is still notable. ⁧שבט⁩ comes right in the heart of winter when
 everything is black, empty, and seemingly lifeless. The branches are
 bare, the ground is frozen, and the trees appear barren. Is this really
@@ -14540,7 +14497,7 @@ often when true growth begins - if only we keep pushing forward, putting
 in our efforts, and staying committed to our goals.
 
 R' Heitman, who recently published a ⁧ספר⁩ on the so-called \"minor\" ⁧ימים
-טובים⁩, emphasizes that ⁦ט״ו⁩ ⁧בשבט⁩ is far from minor. If we \"listen\" to
+טובים⁩, emphasizes that ⁦ט״ו בשבט⁩ is far from minor. If we \"listen\" to
 the trees on this day, they can teach us profound lessons. One ⁧קנייטש⁩ he
 shares, quoting Rabbi Dr. Avraham Twerski, relates to the unique
 characteristics of trees. A tree stands tall and majestic, yet it
@@ -14574,8 +14531,7 @@ worthwhile to share it with you. ⁧פורים⁩, as we know, is a ⁧זמן⁩
 very ⁧מסוגל⁩ for ⁧תפילה⁩. Just as ⁦אסתר'⁩s ⁧תפילה⁩ was ⁧מקובל⁩, so too, throughout
 all the ⁧דורות⁩, ⁧תפילות⁩ on ⁧פורים⁩ and ⁧תענית אסתר⁩ have been especially
 potent. ⁧תענית אסתר⁩ is particularly ⁧מסוגל⁩ for ⁧תפילה⁩, even though it's not
-actually the day she fasted - the fast originally took place on ⁧פסח⁩ -
-but it is still a special time for ⁧תפילות⁩. So what does that wily ⁧יצר
+actually the day she fasted - the fast originally took place on ⁧פסח⁩ - but it is still a special time for ⁧תפילות⁩. So what does that wily ⁧יצר
 הרע⁩ do? He keeps us running around on ⁧פורים⁩ with ⁧משלוח מנות⁩. We're busy
 giving a ⁧פעקלעך⁩, getting a ⁧פעקלעך⁩, kids getting tips - where is the
 ⁧תפילה⁩? His ⁧מקור⁩ was the famous ⁧משנה⁩ in ⁧מגילה⁩, ⁧אין בין⁩. The first ⁧אין בין⁩
@@ -14674,7 +14630,7 @@ show how much we love ⁧פורים⁩. So if you ask a hundred guys, "What is
 say on ⁧פורים⁩\." But what is ⁧קרובץ⁩? Nobody knows what ⁧קרובץ⁩ is. The next
 hundred guys will not know what ⁧קרובץ⁩ stands for. ⁧קרובץ⁩ stands for
 ⁧קוֹל רִנָּה וִישׁוּעָה בְּאׇהֳלֵי צַדִּיקִים⁩. Now you know the rest of the story. Bye!
-(⁦ע״ש א״ח ס׳ קי״ב⁩:⁦ב׳⁩)
+(⁦ע״ש א״ח⁩ ⁦ס׳ קי״ב⁩:⁦ב׳⁩)
 
 #pagebreak()
 
@@ -14760,9 +14716,9 @@ you'll get a ⁧ת⁩. Count another 12, 196, you get a ⁧ר⁩. That's the nam
 ⁧מרדכי⁩? We found ⁧אסתר⁩ - where is ⁧מרדכי⁩?" R' Weissmandl smiled and said,
 "Check with me next year." The following year, R' Greenwald came to R'
 Weissmandl and greeted him with, "Where is ⁧מרדכי⁩?" R' Weissmandl said,
-"I found the ⁧רמז⁩ from ⁧מרדכי⁩ as well. ⁦חז\"ל⁩ say in (⁦קל\"ט⁩ ⁧דף⁩) ⁧חולין מסכת⁩,
+"I found the ⁧רמז⁩ from ⁧מרדכי⁩ as well. ⁦חז\"ל⁩ say in (⁦קל\"ט דף⁩) ⁧חולין מסכת⁩,
 ⁧מרדכי מן התורה מנין⁩? - Where can we find ⁧מרדכי⁩ in the ⁧תורה⁩? The ⁧פסוק⁩
-says in ⁧פרשת כי תשא⁩\(30: 23), ⁧וְאַתָּה קַח לְךָ בְּשָׂמִים רֹאשׁ מׇר דְּרוֹר⁩. And the ⁧תרגום⁩
+says in ⁧פרשת כי תשא⁩\(30:23), ⁧וְאַתָּה קַח לְךָ בְּשָׂמִים רֹאשׁ מׇר דְּרוֹר⁩. And the ⁧תרגום⁩
 of ⁧מׇר דְּרוֹר⁩ is ⁧מֵירָא דַכְיָא⁩, which is ⁧מרדכי⁩. This is where ⁧מרדכי⁩ is hinted
 to in the ⁧תורה⁩. Now, start taking from the letter ⁧מ⁩ in ⁧מׇר דְּרוֹר⁩, and
 count your 12, 196 letters, and guess what you'll find. You'll find the
@@ -14825,19 +14781,19 @@ for word, when depicting the joy of the ⁧ישועה⁩ in the second half of t
 ⁧מגילה⁩. The trup frequently is even exactly the same. Here are a few
 examples that he brings down. Each one of them is worth hearing. Number
 one: When ⁧אחשורוש⁩ agreed to allow ⁧המן⁩ to hatch his plot, the ⁧מגילה⁩
-states (3: 10) ⁧וַיָּסַר הַמֶּלֶךְ אֶת טַבַּעְתּוֹ מֵעַל יָדוֹ וַיִּתְּנָהּ לְהָמָן⁩. Later when ⁧אחשורוש⁩
+states (3:10) ⁧וַיָּסַר הַמֶּלֶךְ אֶת טַבַּעְתּוֹ מֵעַל יָדוֹ וַיִּתְּנָהּ לְהָמָן⁩. Later when ⁧אחשורוש⁩
 gives ⁧מרדכי⁩ the same ring after ⁧המן⁩ is killed, the ⁧מגילה⁩ states in
-almost the exact same words (8: 2) ⁧וַיָּסַר הַמֶּלֶךְ אֶת טַבַּעְתּוֹ אֲשֶׁר הֶעֱבִיר מֵהָמָן
+almost the exact same words (8:2) ⁧וַיָּסַר הַמֶּלֶךְ אֶת טַבַּעְתּוֹ אֲשֶׁר הֶעֱבִיר מֵהָמָן
 וַיִּתְּנָהּ לְמׇרְדֳּכָי⁩. Number two: When the ⁧מגילה⁩ describes the writing and
 dispatch of the evil decrees in the first half, and the writing and
 dispatch of ⁦מרדכי'⁩s letters in the second half that counteracted the
 first ones, the same words are employed. You can look it up. Number
 three: After the promulgation of ⁦המן'⁩s decree, the ⁧מגילה⁩ describes the
-bewilderment of the Jews of ⁧שושן⁩ by saying (3: 15) ⁧וְהָעִיר שׁוּשָׁן נָבוֹכָה⁩, When
+bewilderment of the Jews of ⁧שושן⁩ by saying (3:15) ⁧וְהָעִיר שׁוּשָׁן נָבוֹכָה⁩, When
 it describes their elation at the news of the letters that ⁧מרדכי⁩ sent,
-it says in opposite words (8: 14) ⁧וְהָעִיר שׁוּשָׁן צָהֲלָה וְשָׂמֵחָה⁩. Number four:
+it says in opposite words (8:14) ⁧וְהָעִיר שׁוּשָׁן צָהֲלָה וְשָׂמֵחָה⁩. Number four:
 When describing how the Jewish people throughout the empire reacted in
-mourning to word of the evil decree, the ⁧מגילה⁩ says (4: 3) ⁧וּבְכׇל מְדִינָה
+mourning to word of the evil decree, the ⁧מגילה⁩ says (4:3) ⁧וּבְכׇל מְדִינָה
 וּמְדִינָה מְקוֹם אֲשֶׁר דְּבַר הַמֶּלֶךְ וְדָתוֹ מַגִּיעַ אֵבֶל גָּדוֹל לַיְּהוּדִים וְצוֹם וּבְכִי וּמִסְפֵּד שַׂק
 וָאֵפֶר יֻצַּע לָרַבִּים⁩. Similarly, when the word of ⁦מרדכי'⁩s letters reached the
 same places, the ⁧מגילה⁩ states in word-for-word language, ⁧וּבְכׇל מְדִינָה
@@ -14856,12 +14812,12 @@ we can focus it down even better, even further. The two sides of the
 ⁧ונהפוך הוא⁩ close in on each side when ⁧אחשורוש⁩ surprises ⁧המן⁩ by directing
 him to lead ⁧מרדכי⁩ through the streets. When ⁧המן⁩ details how he envisions
 the parade, thinking that he will be the honoree, the ⁧מגילה⁩ states
-(6: 8-9) ⁧יָבִיאוּ לְבוּשׁ מַלְכוּת אֲשֶׁר לָבַשׁ בּוֹ הַמֶּלֶךְ וְסוּס אֲשֶׁר רָכַב עָלָיו הַמֶּלֶךְ וַאֲשֶׁר נִתַּן
+(6:8-9) ⁧יָבִיאוּ לְבוּשׁ מַלְכוּת אֲשֶׁר לָבַשׁ בּוֹ הַמֶּלֶךְ וְסוּס אֲשֶׁר רָכַב עָלָיו הַמֶּלֶךְ וַאֲשֶׁר נִתַּן
 כֶּתֶר מַלְכוּת בְּרֹאשׁוֹ׃ וְנָתוֹן הַלְּבוּשׁ וְהַסּוּס עַל יַד אִישׁ מִשָּׂרֵי הַמֶּלֶךְ הַפַּרְתְּמִים וְהִלְבִּישׁוּ
 אֶת הָאִישׁ אֲשֶׁר הַמֶּלֶךְ חָפֵץ בִּיקָרוֹ וְהִרְכִּיבֻהוּ עַל הַסּוּס בִּרְחוֹב הָעִיר וְקָרְאוּ לְפָנָיו כָּכָה
 יֵעָשֶׂה לָאִישׁ אֲשֶׁר הַמֶּלֶךְ חָפֵץ בִּיקָרוֹ⁩. Correspondingly, exactly two ⁧פסוקים⁩ later,
 when everything has turned around, and ⁧המן⁩ has to perform every ⁧דיקט⁩ for
-⁧מרדכי⁩, the ⁧מגילה⁩ states in amazingly similar language (6: 11)⁧וַיִּקַּח הָמָן אֶת
+⁧מרדכי⁩, the ⁧מגילה⁩ states in amazingly similar language (6:11)⁧וַיִּקַּח הָמָן אֶת
 הַלְּבוּשׁ וְאֶת הַסּוּס וַיַּלְבֵּשׁ אֶת מׇרְדֳּכָי וַיַּרְכִּיבֵהוּ בִּרְחוֹב הָעִיר וַיִּקְרָא לְפָנָיו כָּכָה יֵעָשֶׂה
 לָאִישׁ אֲשֶׁר הַמֶּלֶךְ חָפֵץ בִּיקָרוֹ⁩. In the middle of these ⁧פסוקים⁩, which is ⁧פרק ו⁩,
 ⁧פסוק י⁩, there is one ⁧פסוק⁩. This ⁧פסוק⁩ must be the central theme of where
@@ -14901,8 +14857,7 @@ splendid piece of ⁧תורה⁩ that we could all learn something from. Happy
 
 The ⁧ספר הליקח והלבוב⁩, a series of ⁧ספרים⁩ written by R' Avraham Schorr,
 follows very much in the ⁧דרך⁩ of his ⁧הייליקא⁩ father, R' Gedalia Schorr,
-in that he combines ⁧נגלה⁩ and ⁧נסתר⁩ with tremendous ⁧בקיאות⁩ and ⁧עמקות⁩ -
-both in learning and in ⁧אגדתא⁩, in ⁧סברא⁩ and in ⁧השקפה⁩. He presents a
+in that he combines ⁧נגלה⁩ and ⁧נסתר⁩ with tremendous ⁧בקיאות⁩ and ⁧עמקות⁩ - both in learning and in ⁧אגדתא⁩, in ⁧סברא⁩ and in ⁧השקפה⁩. He presents a
 tremendously interesting take on ⁧פורים⁩, focusing on a specific ⁧מידה⁩ that
 we don't typically associate with ⁧פורים⁩. It is fascinating to see how he
 develops this idea, bringing many ⁧ראיות⁩, which I will share with you
@@ -14929,10 +14884,10 @@ directly: ⁧וְשָׂמַח בְּלִבּוֹ⁩ - real ⁧שמחה⁩ comes 
 means that the ⁧שמחת פורים⁩, which we always wish one another, is tied to
 the ⁧מידה⁩ of overcoming ⁧קנאה⁩.
 
-There is a ⁧ספר⁩ called ⁧אמרי חיים⁩ on ⁧חודש אדר⁩, where the Rebbe, ⁦ר'⁩ ⁧חיים
-מאיר⁩ from Pinczow (pronounced Pinchov) ⁧זכותו יגן עלינו⁩, explores the ⁧קשר⁩
+There is a ⁧ספר⁩ called ⁧אמרי חיים⁩ on ⁧חודש אדר⁩, where the Rebbe, ⁦ר' חיים⁩
+⁧מאיר⁩ from Pinczow (pronounced Pinchov) ⁧זכותו יגן עלינו⁩, explores the ⁧קשר⁩
 between the ⁧עבודה⁩ of ⁧אדר⁩ in general and ⁧פורים בפרט⁩. We know the phrase
-⁧משנכנס אדר מרבים בשמחה⁩, and this idea of ⁧שמחה⁩ being tied to ⁧אהרן⁩ ⁦הכהן'⁩s
+⁧משנכנס אדר מרבים בשמחה⁩, and this idea of ⁧שמחה⁩ being tied to ⁦אהרן הכהן'⁩s
 lack of jealousy is discussed in ⁧ספרים⁩. This means we must learn from it
 and actively work on it. We must understand that ⁧שמחה⁩ is ⁧תלוי⁩ in
 eliminating ⁧קנאה⁩. In that same ⁧ספר⁩, ⁧אמרי חיים⁩, the Rav from Pinczow
@@ -15018,14 +14973,14 @@ Zeidy: This was a dvar torah that R' Oelbaum requested be printed
 because it was a very beautiful vort on Ki Sisa, and he gave us
 permission to put it in the sefer. \ \ In this shiur, ⁧בעזרת השם⁩, we\'ll
 give an appreciation of the wonderful gift, the wonderful ⁧מתנה⁩, called
-⁧שבת⁩. We\'ll begin first with the ⁧גמרא⁩ in ⁧מסכת שבת⁩, ⁧דף⁩ ⁦י\"ד⁩ ⁧עמוד⁩ ⁦ב׳⁩,
+⁧שבת⁩. We\'ll begin first with the ⁧גמרא⁩ in ⁧מסכת שבת⁩, ⁦דף י\"ד⁩ ⁦עמוד ב׳⁩,
 where the ⁧גמרא⁩ tells us, ⁧ואמר רבא בר מחסיא אמר רב חמא בר גוריא אמר רב⁩,
 ⁧הנותן מתנה לחברו צריך להודיעו⁩. If one gives a ⁧מתנה⁩, a gift to his ⁧חבר⁩,
 one must notify him, ⁧שנאמר⁩, as the ⁧פסוק⁩ says, in ⁧פרשת כי תשא⁩, regarding
 the ⁧מצוה⁩ of ⁧שבת⁩, the ⁧פסוק⁩ says, ⁧לדעת⁩, they should know, they should be
-aware of what they have. ⁧לדעת⁩, they should know, ⁧כי אני⁩ ⁦ה\'⁩ ⁧מקדשכם⁩.
+aware of what they have. ⁧לדעת⁩, they should know, ⁧כי⁩ ⁦אני ה\'⁩ ⁧מקדשכם⁩.
 
-The ⁧גמרא⁩ says, ⁧תני נמי הכי⁩, ⁧לדעת⁩, ⁧כי אני⁩ ⁦ה\'⁩ ⁧מקדשכם⁩, ⁧אמר להם הקדוש ברוך
+The ⁧גמרא⁩ says, ⁧תני נמי הכי⁩, ⁧לדעת⁩, ⁧כי⁩ ⁦אני ה\'⁩ ⁧מקדשכם⁩, ⁧אמר להם הקדוש ברוך
 הוא למשה⁩, ⁧מתנה טובה יש לי בבית גנזי⁩. I have a very good ⁧מתנה⁩ in my
 treasure house, hidden away, the ⁧שבת שמה⁩, and the name of that ⁧מתנה⁩ is
 ⁧שבת⁩. ⁧ואני מבקש ליתן לישראל⁩, ⁧לך והודיעם⁩, and I wish to give this ⁧שבת⁩,
@@ -15053,15 +15008,15 @@ In addition to that, we find a very fascinating ⁧תוספות⁩ in ⁧מסכ�
 לז ב׃⁩ on the pasuk in ⁧ישעיהו⁩, ⁧מכנף הארץ זמירות שמענו⁩, that from the end
 of the earth we hear ⁧זמירות⁩, we hear ⁧שירים⁩, and ⁧תושבחות⁩, to ⁧הקדוש ברוך
 הוא⁩ . ⁧תוספות⁩ quotes, ⁧כתוב בתשובת הגאונים⁩ it is written in the ⁧תשובת
-הגאונים⁩, ⁧שאין בני⁩ ⁦א\"י⁩ ⁧אומרים קדושה אלא בשבת⁩, that the ⁧בני ארץ ישראל⁩ do
+הגאונים⁩, ⁧שאין⁩ ⁦בני א\"י⁩ ⁧אומרים קדושה אלא בשבת⁩, that the ⁧בני ארץ ישראל⁩ do
 not say ⁧קדושה⁩ only on ⁧שבת⁩, ⁧דכתיב⁩ because there\'s a ⁧פסוק⁩ in ⁧ישעיה⁩
 concerning the ⁧חיות הקודש⁩, the heavenly ⁧מלאכים⁩ that are called the ⁧חיות⁩,
 it says ⁧שש כנפים לאחד⁩, that each ⁧מלאך⁩ has six wings, ⁧וכל כנף הוא אומר
 שירה אחת ביום בששת ימי החול⁩, and each wing says ⁧שירה⁩ to ⁧הקדוש ברוך הוא⁩
 during the six days of the ⁧ימי החול⁩, six wings for six days.⁧כשיגיע שבת⁩
-when Shabbos arrives, ⁧אומרים החיות לפני המקום⁩ ⁦רבש\"ע⁩ ⁧אין לנו עוד כנף⁩,
+when Shabbos arrives, ⁧אומרים החיות לפני⁩ ⁦המקום רבש\"ע⁩ ⁧אין לנו עוד כנף⁩,
 the ⁧מלאכים⁩ say "we don\'t have an extra wing for ⁧שבת⁩, so what are we
-going to do about ⁦שבת"⁩? ⁦והקב\"ה⁩ ⁧משיב להם יש לי עוד כנף אחד⁩, "there is
+going to do about ⁦שבת"⁩? ⁦והקב\"ה משיב⁩ ⁧להם יש לי עוד כנף אחד⁩, "there is
 another wing", ⁧שאומר לפני שירה שנאמר מכנף הארץ זמירות שמענו⁩. In other
 words, what we\'ve told that regarding ⁧שבת⁩, there is something extra
 special, and that is a very special ⁧שירה⁩ that is being said on ⁧שבת⁩, and
@@ -15069,7 +15024,7 @@ that is the ⁧קדושה⁩ . ⁧קדושה⁩ is something that\'s reserved to
 ⁧שבת⁩, according to the ⁧תשובת הגאונים⁩.
 
 We\'re going to see more about this in the ⁧ספר מרגליות הים⁩, who brings
-down ⁧בשם⁩ ⁦הראב\"ד⁩ and other ⁧ראשונים⁩, and the ⁧שאלה⁩ is, whether the ⁧כוונה⁩
+down ⁦בשם הראב\"ד⁩ and other ⁧ראשונים⁩, and the ⁧שאלה⁩ is, whether the ⁧כוונה⁩
 is that the ⁧בני ארץ ישראל⁩ don\'t say ⁧קידוש⁩ at all, only ⁧בשבת⁩, or the
 ⁧כוונה⁩ is only regarding ⁧קדושת כתר⁩, that that is said only on ⁧שבת⁩. In any
 case, we see from here that ⁧תוספות⁩ is telling us that ⁧קדושה⁩ is something
@@ -15086,11 +15041,11 @@ in the ⁧נביא⁩, the ⁧פסוק⁩ actually reads ⁧יוֹצֵ֥ר או�
 ⁧כוונה⁩ of ⁦חז\"ל⁩ is instead of ⁧ובורא רע⁩, but rather the ⁧נוסח⁩ is ⁧ובורא את
 הכל⁩. In any case, what we have is afterwards a ⁧פיוט⁩, which is ⁧מיוחדת⁩ for
 ⁧שבת⁩, after ⁧יוֹצֵר אוֹר⁩, which of course begins with ⁧הַכּל יוֹדוּךָ⁩. ⁧וְהַכּל יְשַׁבְּחוּךָ⁩.
-⁧וְהַכּל יֹאמְרוּ אֵין קָדושׁ⁩ ⁦כַּה׳⁩. ⁧הַכֹּל יְרומְמוּךָ סֶּלָה יוצֵר הַכֹּל⁩. And the question is,
+⁧וְהַכּל יֹאמְרוּ אֵין⁩ ⁦קָדושׁ כַּה׳⁩. ⁧הַכֹּל יְרומְמוּךָ סֶּלָה יוצֵר הַכֹּל⁩. And the question is,
 why was it necessary to repeat the word ⁧הכל⁩ so many times? It certainly
 would have been enough to say the word ⁧הכל⁩ only once, in the beginning
-of the ⁧פיוט⁩, could have easily stated ⁧הַכּל יוֹדוּךָ וְיְשַׁבְּחוּךָ וְיֹאמְרוּ אֵין קָדושׁ⁩
-⁦כַּה׳⁩ ⁧וְיְרומְמוּךָ סֶּלָה⁩. After all, according to the present ⁧נוסח⁩, it comes out
+of the ⁧פיוט⁩, could have easily stated ⁧הַכּל יוֹדוּךָ וְיְשַׁבְּחוּךָ וְיֹאמְרוּ אֵין⁩ ⁦קָדושׁ
+כַּה׳⁩ ⁧וְיְרומְמוּךָ סֶּלָה⁩. After all, according to the present ⁧נוסח⁩, it comes out
 that we actually are ⁧חוזר⁩ of the word ⁧הכל⁩ six times. First we said ⁧עֹשֶׂה
 שָׁלוֹם וּבוֹרֵא אֶת הַכֹּל⁩, And then we say it another five times, ⁧הַכּל יוֹדוּךָ⁩.
 ⁧וְהַכּל יְשַׁבְּחוּךָ⁩, and so on. What is the purpose? What is the purpose of
@@ -15099,10 +15054,10 @@ repeating the word ⁧הכל⁩ so many times?
 In addition also, we find something very interesting, According to ⁧נוסח
 אשכנז⁩, there is a ⁧שינוי הניכר⁩, there is clearly an open ⁧שינוי⁩ between
 the ⁧נוסח⁩ that we say in the weekdays, The weekdays after ⁧יוֹצֵר אוֹר⁩, there
-is the ⁧פסוק⁩ of ⁧מָה־רַבּוּ מַעֲשֶׂיךָ⁩ ⁦ה׳⁩ ⁧כֻּלָּם בְּחָכְמָה עָשִׂיתָ⁩. However, on ⁧שבת⁩,
+is the ⁧פסוק⁩ of ⁧מָה־רַבּוּ⁩ ⁦מַעֲשֶׂיךָ ה׳⁩ ⁧כֻּלָּם בְּחָכְמָה עָשִׂיתָ⁩. However, on ⁧שבת⁩,
 according to ⁧נוסח אשכנז⁩, In the ⁧פיוט⁩ of ⁧הכל יודוך⁩, it is omitted, we
 don\'t say it. And the question is, what is the reason? What is the
-reason that on ⁧שבת⁩ we do not say ⁧מָה־רַבּוּ מַעֲשֶׂיךָ⁩ ⁦ה׳⁩?
+reason that on ⁧שבת⁩ we do not say ⁧מָה־רַבּוּ⁩ ⁦מַעֲשֶׂיךָ ה׳⁩?
 
 In order to clarify all of these ⁧עניינים⁩, it behooves us to look a
 little bit back into one of the most difficult, difficult questions from
@@ -15113,10 +15068,10 @@ every person. And one, on account of this ⁧קושיה⁩, from time immemorial
 has to strengthen himself, and be ⁧מחזיק⁩ himself, in his firm belief in
 the ⁧אמונה⁩ of ⁧הקדוש ברוך הוא⁩, And not the question of ⁧הקדוש ברוך הוא⁩. And
 that is an old age question, which the ⁧גמרא⁩ tells us is a question that
-was already raised by ⁧משה רבינו⁩, as we find in the ⁧גמרא מסכת ברכות דף ז⁩
-⁦ע״א⁩ brings the pasuk in ⁧פרשת כי תשא ״הוֹדִיעֵנִי נָא אֶת⁩ ⁦דְּרָכֶיךָ״⁩ - "⁧ריבונו של
+was already raised by ⁧משה רבינו⁩, as we find in the ⁧גמרא מסכת ברכות דף⁩ ⁦ז
+ע״א⁩ brings the pasuk in ⁧פרשת כי תשא ״הוֹדִיעֵנִי נָא⁩ ⁦אֶת דְּרָכֶיךָ״⁩ - "⁧ריבונו של
 עולם⁩, Show Me Your Ways. And the ⁧גמרא⁩ in ⁧ברכות⁩, interprets this phrase,
-⁧משה⁩ ⁦רבינו\'⁩s question, to mean: ⁧בִּקֵּשׁ לְהוֹדִיעוֹ דְּרָכָיו שֶׁל הַקָּדוֹשׁ בָּרוּךְ הוּא⁩, ⁧וְנָתַן
+⁦משה רבינו\'⁩s question, to mean: ⁧בִּקֵּשׁ לְהוֹדִיעוֹ דְּרָכָיו שֶׁל הַקָּדוֹשׁ בָּרוּךְ הוּא⁩, ⁧וְנָתַן
 לוֹ⁩. -That ⁧הקדוש ברוך הוא⁩ explained it to ⁧משה⁩ . ⁧אָמַר לְפָנָיו⁩ - ⁧משה רבינו⁩
 says ⁧רִבּוֹנוֹ שֶׁל עוֹלָם⁩! ⁧מִפְּנֵי מָה יֵשׁ צַדִּיק וְטוֹב לוֹ⁩, ⁧וְיֵשׁ צַדִּיק וְרַע לוֹ⁩, ⁧יֵשׁ רָשָׁע
 וְטוֹב לוֹ⁩, ⁧וְיֵשׁ רָשָׁע וְרַע לוֹ⁩?. How are we to understand that the ⁧דרך⁩ of
@@ -15156,8 +15111,8 @@ allow this to happen? How is it possible that ⁧צדיק ורע לו⁩ and ⁧
 
 We, of course, are not going to make an attempt to answer this question,
 because the real answer, why is it that the ⁧ורשע וטוב לו⁩ and the ⁧צדיק
-ורע לו⁩, the answer to that question will actually only be revealed ⁧בעזרת⁩
-⁦ה׳⁩ ⁧כשיבוא משיח צדקנו במהרה בימינו⁩. But what we would, in fact, like to
+ורע לו⁩, the answer to that question will actually only be revealed ⁦בעזרת
+ה׳⁩ ⁧כשיבוא משיח צדקנו במהרה בימינו⁩. But what we would, in fact, like to
 explain is, what should be the real ⁧מחשבה⁩ of a Yid? How should a Yid be
 thinking when they get into this ⁧קשה⁩? What should be the true ⁧השקפה⁩ of a
 Yid? What is the true ⁧השקפה⁩ regarding this question? And also, in
@@ -15172,10 +15127,10 @@ However, ⁧מקרא הלכה⁩, we know and we\'re well aware from the ⁧פו
 ⁧שולחן ערוך⁩, that the ⁧עיקר⁩ of ⁧קבלת שבת⁩, Friday night, ⁧ליל שבת קודש⁩, truly
 begins with ⁧מזמור שיר ליום השבת⁩. The source of this ⁧קפיטל⁩, of course,
 was said by ⁧אדם הראשון⁩. He was really the ⁧מחבר⁩ of ⁧מִזְמוֹר שִׁיר לְיוֹם הַשַּׁבָּת
-טוֹב לְהֹדוֹת⁩ ⁦לַה׳⁩, as ⁧אגדת רבה⁩ points this out, in ⁧פרשת בראשית⁩. However,
+טוֹב⁩ ⁦לְהֹדוֹת לַה׳⁩, as ⁧אגדת רבה⁩ points this out, in ⁧פרשת בראשית⁩. However,
 what we are going to address ourselves is to a very simple question:
 that if, in fact, ⁧מִזְמוֹר שִׁיר לְיוֹם הַשַּׁבָּת⁩, the title of this ⁧קפיטל⁩ purports
-to sing a song, ⁧לכבוד יום השבת טוֹב לְהֹדוֹת⁩ ⁦לַה׳⁩, what is very, very evident
+to sing a song, ⁧לכבוד יום השבת טוֹב⁩ ⁦לְהֹדוֹת לַה׳⁩, what is very, very evident
 and cries out in front of us when we read the various ⁧פסוקים⁩ of this
 ⁧קפיטל⁩, glaringly, staring us in the face, is the fact that there is not
 one mention at all about ⁧שבת⁩ throughout the entire ⁧קפיטל⁩. So what, ⁧בכלל⁩,
@@ -15184,8 +15139,8 @@ find in this ⁧קפיטל⁩ that, in fact, has anything to do with ⁧שבת�
 omission is so glaringly evident, and how are we to understand this?
 
 So the first item, therefore, we have regarding this question is, in
-fact, none other than the ⁦מהר\"ל⁩ himself, the ⁦מהר\"ל⁩ ⁧מפראג⁩, in his ⁧ספר⁩,
-⁧נצח ישראל⁩, in ⁧פרק⁩ ⁦י\"ט⁩, where the ⁦מהר\"ל⁩ is ⁧מעורר⁩ this ⁧דבר פלא⁩, that the
+fact, none other than the ⁦מהר\"ל⁩ himself, the ⁦מהר\"ל מפראג⁩, in his ⁧ספר⁩,
+⁧נצח ישראל⁩, in ⁦פרק י\"ט⁩, where the ⁦מהר\"ל⁩ is ⁧מעורר⁩ this ⁧דבר פלא⁩, that the
 entire ⁧מזמור⁩ is not mentioned even once, ⁧בכלל שום ענין⁩, that is a ⁧שייכות⁩
 to ⁧שבת⁩. If we take a look at the words of the ⁦מהר\"ל⁩, the ⁦מהר\"ל⁩ says,
 ⁧ועל דבר זה יסד דוד עליו השלום המזמור שיר ליום השבת⁩, ⁧ועל דבר זה⁩ what the
@@ -15228,10 +15183,9 @@ are people who complain and criticize the world, they\'re not happy with
 Hashem's creation. They criticize, in their opinion, they say there are
 mistakes made in the ⁧בריאה⁩. There are things that doesn\'t ⁧שתים⁩, there
 are things that doesn\'t work out. ⁧ובפרט⁩, especially, says the ⁦מהר\"ל⁩
-concerning the question, ⁧שיש צדיק ורע לו רשע וטוב לו דבר זה יחשב חסרון⁩ -
-this is considered by many to be a great ⁧חסרון⁩. So therefore, regarding
+concerning the question, ⁧שיש צדיק ורע לו רשע וטוב לו דבר זה יחשב חסרון⁩ - this is considered by many to be a great ⁧חסרון⁩. So therefore, regarding
 this question, ⁧ועל זה אמר⁩, therefore in ⁧תהילים⁩ we say, ⁧מִזְמוֹר שִׁיר לְיוֹם
-הַשַּׁבָּת טוֹב לְהֹדוֹת⁩ ⁦לַה׳⁩, that when ⁧שבת⁩ comes, when ⁧שבת⁩ contributes, that now
+הַשַּׁבָּת טוֹב⁩ ⁦לְהֹדוֹת לַה׳⁩, that when ⁧שבת⁩ comes, when ⁧שבת⁩ contributes, that now
 that we have ⁧שבת⁩, we realize that everything is just, and everything is
 right, and there\'s reason to thank ⁧הקדוש ברוך הוא⁩. ⁧כי יש להודות השם
 יתברך על שלימות הבריאה⁩, ⁧ושלא ימצא חסרון בבריאה⁩, ⁧רק הכל בהשלמה⁩ - ⁧שבת⁩
@@ -15242,7 +15196,7 @@ something that will not be recognized only in ⁧עולם הבא⁩, ⁧ועל �
 הכל כמו שיתבאר⁩, ⁧ולכך אומר⁩ - which means that when will we really be
 capable of singing? In other words, to really understand that whatever
 ⁧הקדוש ברוך הוא⁩ did, everything that ⁧הקדוש ברוך הוא⁩ does, is everything
-is the ⁧טוב⁩, this will be ⁧ליום השבת⁩, which means, ⁧ופרשו⁩ ⁦ז\"ל⁩, ⁦חז\"ל⁩ say
+is the ⁧טוב⁩, this will be ⁧ליום השבת⁩, which means, ⁦ופרשו ז\"ל⁩, ⁦חז\"ל⁩ say
 in the end of ⁧מסכת תמיד⁩, ⁧ליום שכולו שבת⁩, ⁧והוא מנוחה לחי עולמים⁩ - which
 means, ⁧כי אף אם נראה בעולם הזה דבר מה שהוא חסרון⁩ - that even though from
 the vantage point, and from the look, and the view, and from the lenses,
@@ -15262,7 +15216,7 @@ the middle of the ⁧קפיטל⁩ you see the question is being raised itself,
 ⁧וַיָּצִיצוּ כׇּל פֹּעֲלֵי אָוֶן⁩, that all the ⁧פֹּעֲלֵי אָוֶן⁩, all the evil doers, ⁧וַיָּצִיצוּ⁩,
 they grow, and they prosper, and they develop. But ⁧למעשה⁩, when he says
 ⁧מזמור שיר ליום השבת⁩, by the time he gets to the end of the ⁧קפיטל⁩, he
-says, ⁧לְהַגִּיד כִּי יָשָׁר⁩ ⁦ה׳⁩ ⁧צוּרִי וְלֹא עַוְלָתָה בּוֹ⁩. He then realized that whatever
+says, ⁧לְהַגִּיד כִּי⁩ ⁦יָשָׁר ה׳⁩ ⁧צוּרִי וְלֹא עַוְלָתָה בּוֹ⁩. He then realized that whatever
 ⁧הקדוש ברוך הוא⁩ did at ⁧באמת⁩ is really perfect, it\'s a hundred percent
 satisfaction guaranteed, because ⁧שבת⁩ is ⁧מֵעֵין עוֹלָם הַבָּא⁩, ⁧מזמור שיר ליום
 השבת⁩, ⁧יום שכולו שבת⁩. And there, ⁧באמת⁩, there is no ⁧חסרון⁩. It is only here
@@ -15278,7 +15232,7 @@ appears to be wrong in this world is merely because he\'s not able to
 see it. But ⁧לעולם הבא⁩, ⁧באמת⁩ everything is answered. In the world of
 Shabbos, there are no questions. Everything is just, and everything is
 perfect. Everything is ⁧בתמימות⁩. And he is then very able to sing a song,
-and to say, ⁧טוֹב לְהֹדוֹת⁩ ⁦לַה׳⁩, to thank Hashem for everything that he
+and to say, ⁧טוֹב⁩ ⁦לְהֹדוֹת לַה׳⁩, to thank Hashem for everything that he
 performed, that he did in creation. Because in the world of Shabbos, in
 the world of Shabbos, which is ⁧מֵעֵין עוֹלָם הַבָּא⁩, there are no questions,
 there are no ⁧חסרונות⁩, it\'s a perfect world. It\'s a world of ⁧השלמה⁩.
@@ -15306,13 +15260,11 @@ which belong to the category of vegetation, ⁧כל כך בבעלי חיים⁩,
 קשר ויחס שיצטרכו להעזר זה מזה⁩ - There\'s no way that he can see and
 understand that there is a ⁧קשר⁩ and a relationship, that one really has
 to come on to the other. ⁧ושיתקבצו לתכלית אחת⁩ - And that should all come
-together for one purpose. ⁧אלא⁩ but rather ⁧כל אחד נברא למה שנברא⁩ -
-everything was created for its own purpose. ⁧ועניניו משלימים לתכלית
+together for one purpose. ⁧אלא⁩ but rather ⁧כל אחד נברא למה שנברא⁩ - everything was created for its own purpose. ⁧ועניניו משלימים לתכלית
 המכוון בו⁩ - And each and every ⁧דבר נברא⁩ in the world is ⁧משלים⁩, only its
 own ⁧תכלית⁩, for which it was created, ⁧לא יותר⁩ - no more.
 
-However, says the ⁦רמח\"ל⁩, this is a big mistake. ⁧אך מי שיעמיק בחכמה⁩ -
-Whoever looks a little bit deeper with wisdom, ⁧ימצא⁩ will find, ⁧היות כל
+However, says the ⁦רמח\"ל⁩, this is a big mistake. ⁧אך מי שיעמיק בחכמה⁩ - Whoever looks a little bit deeper with wisdom, ⁧ימצא⁩ will find, ⁧היות כל
 הנמצאות כולם מתקשרים קשר גמור זה בזה⁩ - In fact, you will come to the
 realization that everything that we find here in the world, everything
 has a direct relationship, they are all connected with a ⁧שכולם צריכים
@@ -15322,8 +15274,7 @@ specific ⁧תכלית⁩ come about, ⁧הקדוש ברוך הוא⁩ created t
 therefore means that each and every thing that is created in this world,
 the purpose of each and every thing is for this common ⁧תכלית⁩, for the
 common goal to come about. ⁧וכולם מתקבצים לתכלית אחת⁩ - And everything is
-gathered together for this one purpose. ⁧שתנאיו רבים וסדרם עמוק מאד⁩ -
-Which there are a lot of conditions in order to make this happen and
+gathered together for this one purpose. ⁧שתנאיו רבים וסדרם עמוק מאד⁩ - Which there are a lot of conditions in order to make this happen and
 which involves a very deep ⁧סדר⁩, Hard to understand and to see it, ⁧והם הם
 כל חלקי הבריאה הרבים האלה⁩ - All of the many, many ⁧חלקים⁩ in the ⁧בריאה⁩, in
 fact, are not separate. They are not ⁧נפרד⁩. But rather ⁧הנה על כן יתיחסו
@@ -15355,7 +15306,7 @@ orchestra, in that symphony.
 What the ⁦רמח\"ל⁩ is telling us is that the entire ⁧בריאה⁩, everything that
 we find in the ⁧בריאה⁩ is part of this wonderful symphony in order to
 bring about the ⁧התגלות כבוד שמים⁩, which that is the purpose of the
-⁧הבריאה⁩, that we recognize the ⁧הקודש ברוך⁩ ⁦הוא'⁩s ⁧כבוד⁩ and kingship in this
+⁧הבריאה⁩, that we recognize the ⁧הקודש⁩ ⁦ברוך הוא'⁩s ⁧כבוד⁩ and kingship in this
 world, and all of the ⁧חלקים⁩ in the ⁧בריאה⁩ together as being part of a
 larger picture, of being a ⁧חלק⁩ of that big puzzle serve to accomplish
 and to bring this ⁧תכלית⁩ to fruition. And therefore, the ⁦רמח\"ל⁩ goes on
@@ -15367,8 +15318,8 @@ they all come together to make up the perfect ⁧השלמה⁩. ⁧אך⁩ howev
 ⁦רמח\"ל⁩, I want you to know, ⁧אין דבר מושלם שיהיה רע⁩ - There\'s nothing in
 the ⁧בריאה⁩, which is ⁧מושלם⁩, coming together, if you put all the pieces of
 the puzzle together, it\'s not ⁧שייך⁩ that it is ⁧רע⁩. ⁧וזה⁩ - And the reason
-for this is because ⁧כיון שידענו⁩ - on the one hand we know, ⁧שכל מה⁩
-⁦שהקב\"ה⁩ ⁧עושה הוא אך טוב מאד⁩ - We have that knowledge, we have that ⁧קבלה⁩,
+for this is because ⁧כיון שידענו⁩ - on the one hand we know, ⁧שכל⁩ ⁦מה
+שהקב\"ה⁩ ⁧עושה הוא אך טוב מאד⁩ - We have that knowledge, we have that ⁧קבלה⁩,
 we have that ⁧אמונה⁩ that whatever ⁧הקודש ברוך הוא⁩ does is ⁧טוב מאד⁩. And we
 might add what the ⁧גמרא⁩ tells us that ⁧כָּל מַה דְּעָבִיד רַחְמָנָא לְטַב עָבִיד⁩. So
 therefore says the ⁦רמח\"ל⁩ being that we already know that whatever ⁧הקודש
@@ -15389,11 +15340,11 @@ see and recognize that this in fact is good.
 
 And so points out the ⁦רמח\"ל⁩ and he says further that bezras Hashem that
 we will recognize that everything is fine when ⁧משיח⁩ will come, ⁧בזמן
-שתתקיים הבטחת⁩ - as ⁧ישעיהו הנביא⁩ says: ⁧אודך⁩ ⁦ה׳⁩ ⁧כי אנפת בי⁩ - we will come
+שתתקיים הבטחת⁩ - as ⁧ישעיהו הנביא⁩ says: ⁦אודך ה׳⁩ ⁧כי אנפת בי⁩ - we will come
 to the high ⁧מדרגה⁩ to recognize that we will even thank Hashem for
 getting angry at us, something that at first glance, of course, appears
 to be ⁧מדת הדין⁩, something that appears to be something which is very
-bad. And yet, ⁧ישעיהו הנביא⁩ is able to say, ⁧אודך⁩ ⁦ה׳⁩ - I thank you, not
+bad. And yet, ⁧ישעיהו הנביא⁩ is able to say, ⁦אודך ה׳⁩ - I thank you, not
 only for the good things, but also ⁧כי אנפת בי⁩ - that you were angry with
 me. How\'s that possible, says the ⁦רמח\"ל⁩? Simple. Because ⁧כי אז⁩ - when
 that time will come, ⁧יהיו נגמרים כל חלקי המעשה⁩, ⁧והנה יהיה המעשה אך טוב
@@ -15420,7 +15371,7 @@ and the ⁧טוב שבו⁩. But he does not believe, he does not recognize, he 
 not see that we really have a perfect world in all areas. He only sees
 the ⁧טוב⁩ where he sees it. But on the other hand, he also notices and
 perceives that there are many, many ⁧חיסרונות⁩ in the world. There are
-deficiencies in the world. The way he sees it, ⁧הקדוש ברוך⁩ ⁦הוא\'⁩s
+deficiencies in the world. The way he sees it, ⁧הקדוש⁩ ⁦ברוך הוא\'⁩s
 creation, there\'s something missing, there\'s something lacking.
 There\'s the ⁧ענין⁩ of ⁧צדיק ורע לו⁩, ⁧ורשע וטוב לו⁩. So to this comes the
 ⁦רמח\"ל⁩ and says, Reb Yid, all I want you to do is look at the ⁧בריאה⁩ a
@@ -15455,7 +15406,7 @@ fact it will come a time of ⁧צדיק כתמר יפרח⁩ where the ⁧צדי
 bloom and he will blossom. There\'ll come a time ⁧לעולם הבא⁩ which is the
 ⁧זמן⁩ of ⁧מִזְמוֹר שִׁיר לְיוֹם הַשַּׁבָּת יום שכולו שבת⁩ and when that time arrives then
 we will all understand as we conclude we\'ll come to the realization to
-the conclusion of ⁧לְהַגִּיד כִּי יָשָׁר⁩ ⁦ה׳⁩ ⁧צוּרִי וְלֹא עַוְלָתָה בּוֹ⁩ and there\'s no ⁧עַולָה⁩
+the conclusion of ⁧לְהַגִּיד כִּי⁩ ⁦יָשָׁר ה׳⁩ ⁧צוּרִי וְלֹא עַוְלָתָה בּוֹ⁩ and there\'s no ⁧עַולָה⁩
 at all in anything that ⁧הקדוש ברוך הוא⁩ created. Because ⁧לעולם הבא⁩ we
 will understand that every ⁧חלק⁩ in the ⁧בריאה⁩ basically is not a ⁧דבר נפרד⁩
 at all, but it all serves the common ⁧השלמה⁩ of the bigger beautiful
@@ -15473,7 +15424,7 @@ the way that ⁦רמח\"ל⁩ tells us the way it is, and therefore all the ⁧�
 will fall aside.
 
 And ⁧באמת⁩ based upon what we have just learned, how wonderful are the
-words of ⁦ר\'⁩ ⁧צדוק הכהן⁩ of ⁧לובלין⁩ in his ⁧ספר פרי צדיק⁩, ⁦ר\'⁩ ⁧צדוק⁩ points
+words of ⁦ר\' צדוק⁩ ⁧הכהן⁩ of ⁧לובלין⁩ in his ⁧ספר פרי צדיק⁩, ⁦ר\' צדוק⁩ points
 out on the ⁧פסוק אני אעביר כל טובי לפניך⁩ the intent of the ⁧פסוק⁩ is ⁦הקב\"ה⁩
 was saying to ⁧משה רבינו⁩ in spite of all of the misfortune that we see,
 but I want you to understand I will show you one day ⁧אני אעביר כל טובי
@@ -15481,41 +15432,40 @@ but I want you to understand I will show you one day ⁧אני אעביר כל �
 everything is ⁧לטובה⁩, that in fact even the ⁧חטא העגל⁩, that there\'s a
 positive side even to the ⁧חטא העגל⁩ although we are not able ⁧בכלל⁩ to
 understand this but nevertheless ⁧אני אעביר כל טובי לפניך⁩ - I will show
-you how everything is ⁧לטובה⁩. Says ⁦ר\'⁩ ⁧צדוק הכהן והוא מה שנאמר⁩ - this is
-what the ⁧פסוק⁩ means ⁧וראית את אחורי⁩ ⁦וגו\'⁩ ⁧ובפני לא יראו⁩ - The ⁧כוונה⁩ of
+you how everything is ⁧לטובה⁩. Says ⁦ר\' צדוק⁩ ⁧הכהן והוא מה שנאמר⁩ - this is
+what the ⁧פסוק⁩ means ⁧וראית את⁩ ⁦אחורי וגו\'⁩ ⁧ובפני לא יראו⁩ - The ⁧כוונה⁩ of
 the ⁧פסוק⁩ is ⁧וראית את אחורי⁩ - you will only be able to see things in
 hindsight. Later, later many years later you\'ll be able to look back
 and understand all of that which you didn\'t understand but ⁧ובפני לא
 יראו⁩ - but we have not the ability, we do not have the capability of
-understanding things ahead of time. Says ⁦ר\'⁩ ⁧צדוק⁩:⁧ושמעתי מהרבינו הקדוש
-זכר צדיק וקדוש לברכה לחיי העולם הבא⁩ - This is the Rebbi of ⁦ר\'⁩ ⁧צדוק⁩ the
+understanding things ahead of time. Says ⁦ר\' צדוק⁩:⁧ושמעתי מהרבינו הקדוש
+זכר צדיק וקדוש לברכה לחיי העולם הבא⁩ - This is the Rebbi of ⁦ר\' צדוק⁩ the
 ⁧איזביצא⁩ Rebbi, who was a ⁧תלמיד⁩ of the Kotska Rebbi, The ⁧איזביצא רב⁩ says:
-⁦שהפי\'⁩ ⁧הוא⁩ - You know what it means ⁧וראית את אחורי⁩? ⁧שאחר המעשה⁩ - That
-after the ⁧מעשה⁩, ⁧שאחר המעשה הכיר תיכף משה רבינו⁩ ⁦ע\"ה⁩ ⁧העומק והטובה הצפון
+⁦שהפי\' הוא⁩ - You know what it means ⁧וראית את אחורי⁩? ⁧שאחר המעשה⁩ - That
+after the ⁧מעשה⁩, ⁧שאחר המעשה הכיר תיכף משה⁩ ⁦רבינו ע\"ה⁩ ⁧העומק והטובה הצפון
 בו⁩ - it was later, only after the, ⁧מעשה⁩ that ⁧משה רבינו⁩ ultimately
-understood the depth of the ⁧טוב⁩ that was hidden. ⁧אבל שתבין מקודם הטובה⁩ -
-But you should be able to see it and understand it before, ⁦עז\"נ⁩ - on
+understood the depth of the ⁧טוב⁩ that was hidden. ⁧אבל שתבין מקודם הטובה⁩ - But you should be able to see it and understand it before, ⁦עז\"נ⁩ - on
 this it says ⁧ופני לא יראו⁩ - You will not be able to see it ahead of
-time. ⁧וזה⁩ ⁦שת\"א⁩ - And this in fact now we understand what the ⁧תרגום
+time. ⁦וזה שת\"א⁩ - And this in fact now we understand what the ⁧תרגום
 אונקלוס⁩ says, ⁧ותחזי ית דבתרי⁩ - You\'ll be able to see that which is
 behind me, ⁧ודקדמי לא יתחזון⁩ - But that which is before me you will not
-see. ⁧דהיינו⁩, the intent of that is, ⁧להבין מקודם שהוא גם כן לטובה⁩ ⁦עכ\"ד
-הק׳⁩ - That you will not be able to see.
+see. ⁧דהיינו⁩, the intent of that is, ⁧להבין מקודם שהוא גם כן⁩ ⁦לטובה עכ\"ד⁩
+⁦הק׳⁩ - That you will not be able to see.
 
-Says ⁦ר\'⁩ ⁧צדוק⁩ that the truth is ⁧וכן בגלות מצרים⁩ - ⁧הקדוש ברוך הוא⁩ showed
+Says ⁦ר\' צדוק⁩ that the truth is ⁧וכן בגלות מצרים⁩ - ⁧הקדוש ברוך הוא⁩ showed
 ⁧משה רבינו⁩ the hidden ⁧טוב⁩ that there was in ⁧גלות מצרים⁩. Of course when we
 look at ⁧גלות מצרים⁩ and we see of all of the ⁧צער⁩ and all of the ⁧צרות⁩ that
 the Yidden went through in ⁧מצרים⁩ 210 years, which the ⁧תורה⁩ says really
 amounts in fact to being in ⁧גלות⁩ 400 years, how are we to understand,
-how can we see, how can we find any good hidden in ⁧גלות מצרים⁩? Says ⁦ר\'⁩
-⁧צדוק⁩:⁧וכן בגלות מצרים הראה לו⁩ ⁦השי\"ת⁩ ⁧איך כל שלות המצריים להאבידם היה
+how can we see, how can we find any good hidden in ⁧גלות מצרים⁩? Says ⁦ר\'
+צדוק⁩:⁧וכן בגלות מצרים הראה⁩ ⁦לו השי\"ת⁩ ⁧איך כל שלות המצריים להאבידם היה
 לטובה⁩ - That all of the ⁧מצריים⁩ that he intended to do and to destroy the
 Yidden, that all the attempted to do ⁧למעשה⁩ it turns out it was a ⁧טובים⁩
-because ⁦שע\"י⁩ ⁧כן היו בשם כל החכמות מצרים⁩ - ⁧מצריים⁩ living ⁧בשלווה⁩, living
+because ⁦שע\"י כן⁩ ⁧היו בשם כל החכמות מצרים⁩ - ⁧מצריים⁩ living ⁧בשלווה⁩, living
 in comfort and in tranquility, that allowed ⁧מצרים⁩ to prosper and become
 a center in the world for culture and for ⁧חכמה⁩, and as a result being
 that everything located itself in ⁧מצרים⁩, we had a central point to be
-able to remove the sparks of ⁧קדושה⁩ says ⁦ר\'⁩ ⁧צדוק⁩:⁧ובגלות הוציאו הניצוצות
+able to remove the sparks of ⁧קדושה⁩ says ⁦ר\' צדוק⁩:⁧ובגלות הוציאו הניצוצות
 קדושות מהם⁩ - As you know that when the Yidden were in ⁧מצרים⁩ they
 actually removed all of the cracked sparks of ⁧קדושה⁩ that were hidden in
 ⁧מצרים⁩, and in fact ⁧מצרים⁩ became a center of culture where all of the
@@ -15523,12 +15473,12 @@ actually removed all of the cracked sparks of ⁧קדושה⁩ that were hidden 
 had a center place where the ⁧ניצוצות קדושה⁩ were trapped from all over
 were found in ⁧מצרים⁩, and the Yidden therefore had the opportunity to
 release and to redeem and to elevate all of these ⁧ניצוצות קדושים⁩. ⁧והיה
-הכנה למתן תורה⁩ - In addition, this being a ⁧הכנה⁩ for ⁧מתן תורה⁩. Says ⁦ר\'⁩
-⁧צדוק⁩ I want you to know that ⁧וכן הוא באמת כל הגליות לטובה⁩ - the same
+הכנה למתן תורה⁩ - In addition, this being a ⁧הכנה⁩ for ⁧מתן תורה⁩. Says ⁦ר\'
+צדוק⁩ I want you to know that ⁧וכן הוא באמת כל הגליות לטובה⁩ - the same
 way, also all of the ⁧גלות⁩ and all of the ⁧גלות⁩ in the Yidden went
 through, we know that there are four ⁧גלות⁩ besides ⁧מצרים⁩: the ⁧גלות מדי⁩,
 ⁧גלות בבל⁩, ⁧גלות יוון⁩, ⁧גלות אדום⁩\; ⁧אך בהווה⁩ - but in the present time, ⁧לא
-יוכל האדם לעמוד⁩ ⁦ע\"ז⁩ - we\'re not able to fathom it, we cannot
+יוכל האדם⁩ ⁦לעמוד ע\"ז⁩ - we\'re not able to fathom it, we cannot
 comprehend it, we can\'t understand it, ⁦ועז\"נ⁩ - and therefore it says
 ⁧ופני לא יראו⁩ - ahead of time we\'re not able to see it, but it\'ll
 become a time ⁧וְרָאִיתָ אֶת אֲחֹרָי⁩ - we will look behind and then we\'ll see
@@ -15537,12 +15487,12 @@ hidden good that is in all of those areas that we at first perceived
 superficially that in fact it is ⁧רע⁩.
 
 Just to show you something very interesting of how great minds and great
-⁧צדיקים⁩ and great ⁧חכמים תלמידי⁩ think alike, we find the similar word ⁦ר\'⁩
-⁧צדוק⁩ says the name of his ⁧רב⁩ the ⁧אישביצר⁩, we find also in the ⁧חתם סופר⁩.
+⁧צדיקים⁩ and great ⁧חכמים תלמידי⁩ think alike, we find the similar word ⁦ר\'
+צדוק⁩ says the name of his ⁧רב⁩ the ⁧אישביצר⁩, we find also in the ⁧חתם סופר⁩.
 Now ⁧חתם סופר⁩ says ⁧וזה⁩ - this is the meaning of the ⁧פסוק וְרָאִיתָ אֶת אֲחֹרָי⁩,
 ⁧לאחר שנעשה תכלית הדבר תראה ותבין למפרע⁩ - it is only in hindsight that
 after everything is done and completed you\'ll look back and you\'ll
-understand, ⁧מה⁩ ⁦שהי\'⁩ ⁧ומה שנעשה אבל לפני לא יראו קודם עשיית הדבר לא יראו
+understand, ⁦מה שהי\'⁩ ⁧ומה שנעשה אבל לפני לא יראו קודם עשיית הדבר לא יראו
 ולא יבינו תכליתו וזה⁩ - that\'s the ⁧כוונה⁩ of the ⁧פסוק כל פני לא יראו⁩.
 
 So we come to the realization that now while we are still here in this
@@ -15565,9 +15515,9 @@ himself to his question, and we will use the ⁦מלבי\"ם⁩, and we\'ll take
 the idea of the ⁦מלבי\"ם⁩ and connect it with the ideas that we have just
 now prepared, so we will veer off a little bit slightly from the ⁦מלבי\"ם⁩
 but we will use the ⁦מלבי\"ם⁩ for our benefit. Let\'s take a look what the
-⁦מלבי\"ם⁩ is saying: ⁧כי אות הוא ביני וביניכם⁩, says the ⁦מלבי\"ם⁩:⁧בשבת⁩ (⁧דף יב⁩
-⁦ע\"ב⁩) on the pasuk ⁧לדעת כי אני⁩ ⁦ה׳ מקדשכם\"⁩ ⁧אמר⁩ ⁦הקב\"ה⁩ ⁧למשה משה מתנה טובה
-יש לי בבית⁩ ⁦גנזי\"⁩ - I have a chashuv ⁧מתנה⁩, a good ⁧מתנה⁩, in my treasure
+⁦מלבי\"ם⁩ is saying: ⁧כי אות הוא ביני וביניכם⁩, says the ⁦מלבי\"ם⁩:⁧בשבת⁩ (⁧דף⁩ ⁦יב
+ע\"ב⁩) on the pasuk ⁧לדעת כי⁩ ⁦אני ה׳⁩ ⁦מקדשכם\" אמר⁩ ⁦הקב\"ה למשה⁩ ⁧משה מתנה טובה
+יש לי⁩ ⁦בבית גנזי\"⁩ - I have a chashuv ⁧מתנה⁩, a good ⁧מתנה⁩, in my treasure
 house, ⁧ושבת שמה ואני מבקש לתנה לישראל לך והודיעם⁩ - says the ⁦מלבי\"ם⁩,
 without raising the question over here: ⁧רצה לומר⁩ - it\'s evident that
 the ⁦מלבי\"ם⁩ also was bothered what is this new ⁧מתנה⁩ is giving ⁧כלל ישראל⁩
@@ -15576,15 +15526,15 @@ to us? So what is the new ⁧מתנה⁩, what is the new idea that ⁧משה ר
 supposed to impart the ⁧כלל ישראל⁩ that they are receiving now a great
 ⁧מתנה⁩ a ⁧מתנה טובה⁩ called ⁧שבת⁩ - there\'s nothing new about ⁧שבת⁩? Says the
 ⁦מלבי\"ם⁩:⁧רצה לומר⁩ - the intent of this ⁦חז\"ל⁩ is, because I want you to
-know, says the ⁦מלבי\"ם⁩, ⁧כי תענוגי⁩ ⁦העוה\"ב⁩ - because the pleasure of ⁧עולם
-הבא⁩, ⁦א\"א⁩ ⁧שישיג האדם בחיים⁩ - on this world, we have no ⁧השגה⁩ whatsoever,
+know, says the ⁦מלבי\"ם⁩, ⁧כי⁩ ⁦תענוגי העוה\"ב⁩ - because the pleasure of ⁧עולם
+הבא⁩, ⁦א\"א שישיג⁩ ⁧האדם בחיים⁩ - on this world, we have no ⁧השגה⁩ whatsoever,
 we cannot understand, we cannot comprehend, we cannot relate to the idea
 of the immense, immense, tremendous, tremendous pleasures of ⁧עולם הבא⁩.
 ⁧כי בעוד הנפש קשורה בחומר⁩ - because ⁧כל זמן⁩ that the ⁧נשמה⁩ is still
-connected with the material, with our ⁧גוף⁩, ⁦א\"א⁩ ⁧שתצייר לעצמה⁩ - it\'s
+connected with the material, with our ⁧גוף⁩, ⁦א\"א שתצייר⁩ ⁧לעצמה⁩ - it\'s
 impossible even to imagine, certainly we don\'t know, we can\'t be ⁧משיג⁩,
 but even to imagine it\'s not ⁧שייך⁩ even to imagine what it means ⁧תענוג
-הנפש⁩ -the pleasure that the ⁧נשמה⁩ will derive, ⁧והבלתי נקשר בחומר⁩. In
+הנפש⁩ - the pleasure that the ⁧נשמה⁩ will derive, ⁧והבלתי נקשר בחומר⁩. In
 other words, ⁧עולם הבא⁩ of course is reserved for the ⁧נשמה⁩, and ⁧כל זמן⁩ the
 ⁧נשמה⁩ is connected to the ⁧חומר⁩ we have no idea how the ⁧נשמה⁩ alone can
 find this tremendous tremendous pleasure because we relate to the ⁧נשמה⁩
@@ -15593,13 +15543,13 @@ neshama-wise, and therefore we cannot even imagine and begin to fathom
 even scratch the surface of how a ⁧נשמה⁩ feels when the ⁧נשמה⁩ is totally
 divorced from the ⁧גוף⁩, and to realize the tremendous pleasure that the
 ⁧נשמה⁩ can receive in ⁧עולם הבא⁩. And it is for this very reason says the
-⁦מלבי\"ם⁩:⁦וע\"כ⁩ ⁧החריש בתורה מיעודי⁩ ⁦עוה\"ב⁩ - that\'s why, this is the
+⁦מלבי\"ם⁩:⁦וע\"כ החריש⁩ ⁧בתורה⁩ ⁦מיעודי עוה\"ב⁩ - that\'s why, this is the
 reason that we find that the ⁧תורה בכלל⁩ does not talk about ⁧עולם הבא⁩,
 about promising ⁧שכר לעולם הבא⁩, as we notice in the ⁧תורה⁩ when the ⁧תורה⁩
 talks about ⁧שכר⁩ for ⁧מצות⁩ it always talks about things ⁧בנוגע עולם הזה⁩,
 whether it\'s ⁧אִם בְּחֻקֹּתַי תֵּלֵכוּ וְנָתַתִּי גִשְׁמֵיכֶם בְּעִתָּם⁩, again ⁧עולם הזה⁩, and then
 in the ⁧פרשה⁩ of ⁧קריאת שמע⁩:⁧וְהָיָה אִם שָׁמֹעַ תִּשְׁמְעוּ אֶל מִצְוֹתַי אֲשֶׁר אָנֹכִי מְצַוֶּה אֶתְכֶם
-הַיּוֹם לְאַהֲבָה אֶת⁩ ⁦ה׳⁩ ⁧אֱלֹהֵיכֶם וּלְעָבְדוֹ בְּכָל לְבַבְכֶם⁩, what does it say: ⁧וְנָתַתִּי מְטַר
+הַיּוֹם לְאַהֲבָה⁩ ⁦אֶת ה׳⁩ ⁧אֱלֹהֵיכֶם וּלְעָבְדוֹ בְּכָל לְבַבְכֶם⁩, what does it say: ⁧וְנָתַתִּי מְטַר
 אַרְצְכֶם בְּעִתּוֹ יוֹרֶה וּמַלְקוֹשׁ וְאָסַפְתָּ דְגָנֶךָ וְתִירשְׁךָ וְיִצְהָרֶךָ⁩. Always we find when the
 ⁧תורה⁩ promises ⁧שכר⁩ it talks about ⁧עולם הזה⁩. And the obvious question is
 why doesn\'t the ⁧תורה⁩ mention the designated ⁧שכר⁩ which is prepared ⁧לעולם
@@ -15614,17 +15564,16 @@ imagine what that means.
 
 However, says the ⁦מלבי\"ם⁩, when ⁧שבת⁩ comes it is different, our ⁧השגה⁩ has
 changed totally completely because our constitution changes: ⁧אולם שבת
-הוא אחד מששים⁩ ⁦בעוה\"ב⁩ - ⁧שבת⁩ happens to be 1/60th of ⁧עולם הבא⁩\; ⁧לכן נתן
+הוא אחד⁩ ⁦מששים בעוה\"ב⁩ - ⁧שבת⁩ happens to be 1/60th of ⁧עולם הבא⁩\; ⁧לכן נתן
 להם מצות שבת⁩ - ⁧הקדוש ברוך הוא⁩ now is giving ⁧כלל ישראל⁩ the ⁧מצוה⁩ of ⁧שבת⁩,
-which means ⁧שמן עונג שבת⁩ - from the pleasure of ⁧שבת⁩\; ⁧ישיגו טעם מעניני⁩
-⁦עוה\"ב⁩ - ⁧הקדוש ברוך הוא⁩ wanted to give us an opportunity to experience,
+which means ⁧שמן עונג שבת⁩ - from the pleasure of ⁧שבת⁩\; ⁧ישיגו טעם⁩ ⁦מעניני
+עוה\"ב⁩ - ⁧הקדוש ברוך הוא⁩ wanted to give us an opportunity to experience,
 and be ⁧מרגיש⁩, somewhat a ⁧מֵעֵין עוֹלָם הַבָּא⁩ even while we are still here in
 ⁧עולם הזה⁩. ⁧הקדוש ברוך הוא⁩ took a ⁧שטיקל עולם הבא⁩ and brought it down to
 ⁧עולם הזה⁩ that we should be able to be ⁧מרגיש⁩ and experience ⁧עולם הבא⁩ even
 while in fact we are physically in ⁧עולם הזה⁩. And it is precisely this
 idea that is being presented that ⁧הקדוש ברוך הוא⁩ says when ⁦חז\"ל⁩ tell us
-⁧מתנה טובה יש לי בבית גנזי ושבת שמה⁩ - what it means is ⁧שהוא שכר⁩ ⁦עוה\"ב⁩ -
-I am giving them not only the ⁧מצוה⁩ of ⁧שבת⁩, of course the ⁧מצוה⁩ of ⁧שבת⁩
+⁧מתנה טובה יש לי בבית גנזי ושבת שמה⁩ - what it means is ⁧שהוא⁩ ⁦שכר עוה\"ב⁩ - I am giving them not only the ⁧מצוה⁩ of ⁧שבת⁩, of course the ⁧מצוה⁩ of ⁧שבת⁩
 they already had, they had it in ⁧מרה⁩, it was given in the ⁧עשרת הדיברות⁩.
 But what is being given to ⁧כלל ישראל⁩ the ⁧תענוג⁩ of ⁧שבת⁩, the ⁧עונג⁩ of ⁧שבת⁩,
 the ⁧עולם הבא⁩ experience of ⁧שבת⁩, that is that is being now imparted to
@@ -15635,9 +15584,9 @@ in this treasure house, because ⁧עולם הבא⁩, truly speaking, is not do
 here. ⁧עולם הבא⁩ is in the upper world, it\'s hidden from us. ⁧הקדוש ברוך
 הוא⁩ took out a ⁧שטיקל עולם הבא⁩ from his ⁧בית גנוזה⁩, he took out a ⁧שטיקל
 עולם הבא⁩ from the ⁧עולמות עליונים⁩ and brought it down here in the form of
-⁧שבת⁩, because ⁦שא\"א⁩ ⁧שירגיש אותו האדם בחייו⁩ - a person can't experience
-⁧עולם הבא⁩ when he's alive, ⁧ואני מבקש לתנו לישראל שהם יירשו השבת הגנוז הזה⁩
-⁦לעוה\"ב⁩ - a little bit, says the ⁧הקדוש ברוך הוא⁩, I want to give ⁧כל ישראל⁩
+⁧שבת⁩, because ⁦שא\"א שירגיש⁩ ⁧אותו האדם בחייו⁩ - a person can't experience
+⁧עולם הבא⁩ when he's alive, ⁧ואני מבקש לתנו לישראל שהם יירשו השבת הגנוז⁩ ⁦הזה
+לעוה\"ב⁩ - a little bit, says the ⁧הקדוש ברוך הוא⁩, I want to give ⁧כל ישראל⁩
 a little bit of ⁧עולם הבא⁩ in this world as well, I want to give a little
 bit of ⁧עולם הבא⁩ that I have stashed away up in the ⁧עולמות העליונים⁩\; the
 ⁧שבת⁩ which is the ⁧יום שכולו שבת⁩ which in fact in its fullest sense of the
@@ -15650,16 +15599,16 @@ taste, a little bit of a shpear in ⁧עולם הזה⁩, and this will be our �
 If we are ⁧מתבונן⁩ in what we are talking about, based upon the ⁦מהר\"ל⁩ and
 the ⁦רמח\"ל⁩, then we will understand very clearly the difference of the
 ⁧חילוק⁩ between ⁧תפילות חול⁩ and ⁧תפילות שבת⁩. By ⁧תפילות חול⁩ a Yid gets up and
-he says ⁧מה רבו מעשיך⁩ ⁦ה\'⁩ ⁧כולם בחכמה עשית⁩ he looks at ⁧הקודש ברוך⁩ ⁦הוא'⁩s
+he says ⁧מה רבו⁩ ⁦מעשיך ה\'⁩ ⁧כולם בחכמה עשית⁩ he looks at ⁧הקודש⁩ ⁦ברוך הוא'⁩s
 wonderful wonderful creation and instinctively he expresses himself with
-song, with ecstasy, he says ⁧מה רבו מעשיך⁩ ⁦ה\'⁩ - ⁦רבש\"ע⁩ you created such a
+song, with ecstasy, he says ⁧מה רבו⁩ ⁦מעשיך ה\'⁩ - ⁦רבש\"ע⁩ you created such a
 wonderful world! But his perception at that time is ⁧מה⁩ #strong[⁧רבו⁩]
-⁧מעשיך⁩ ⁦ה׳⁩, what he sees is ⁧ריבוי מעשים⁩ in the ⁧בריאה⁩, he sees ⁧ריבוי מעשים⁩,
+⁦מעשיך ה׳⁩, what he sees is ⁧ריבוי מעשים⁩ in the ⁧בריאה⁩, he sees ⁧ריבוי מעשים⁩,
 many many different things and certainly from these different ⁧מעשים⁩ he
-receives ⁧הִתפַּלְאוּת⁩ and he says ⁧מה רבו מעשיך⁩ ⁦ה\'⁩, but what he sees is many
+receives ⁧הִתפַּלְאוּת⁩ and he says ⁧מה רבו⁩ ⁦מעשיך ה\'⁩, but what he sees is many
 many ⁧חלקים⁩, and according to his ⁧הֲבָנָה⁩ at that time they have no ⁧שייכות⁩
 one to the other. And based upon that ⁧השקפה⁩, yes on the one hand he\'s
-able to say ⁧מה רבו מעשיך⁩ ⁦ה\'⁩, but based upon that ⁧השקפה⁩ if he sees the
+able to say ⁧מה רבו⁩ ⁦מעשיך ה\'⁩, but based upon that ⁧השקפה⁩ if he sees the
 world as being a world of ⁧ריבוי מעשים⁩ it\'s still ⁧שייך⁩, it\'s ⁧ייתכן⁩ that
 ⁧חס ושלום⁩ he can fall into the great ⁧קושיה⁩ of ⁧צדיק ורע לו⁩ and ⁧רשע וטוב לו⁩
 that the ⁦רמב\"ן⁩ mentions in the ⁧הקדמה⁩ to ⁧ספר איוב⁩. However when it comes
@@ -15673,7 +15622,7 @@ big picture together, whose purpose is to bring out from each and every
 understand why we emphasize on ⁧שבת⁩ when we say #strong[⁧הכל⁩] ⁧יודוך⁩
 #strong[⁧והכל⁩] ⁧ישבחוך⁩ #strong[⁧והכל⁩] ⁧יאמרו אין קדוש כהשם⁩ because that is
 the ⁧עיקר יסוד⁩ in the ⁧שבח⁩ of ⁧שבת⁩, not to look at everything ⁧בנפרד⁩. The
-⁧עיקר שירה⁩ of ⁧שבת⁩, ⁧מִזְמוֹר שִׁיר לְיוֹם הַשַּׁבָּת⁩, is ⁧לְהַגִּיד כִּי יָשָׁר⁩ ⁦ה׳⁩, and that is
+⁧עיקר שירה⁩ of ⁧שבת⁩, ⁧מִזְמוֹר שִׁיר לְיוֹם הַשַּׁבָּת⁩, is ⁧לְהַגִּיד כִּי⁩ ⁦יָשָׁר ה׳⁩, and that is
 why? Because we understand that ⁧הכל יודוך⁩ and ⁧הכל ישבחוך⁩, that the
 entire ⁧בריאה כולו יחד⁩ together, express in the form of a symphony the
 ⁧הודאה⁩ of ⁧מזמור שיר ליום השבת טוב להודות לה⁩, it\'s not that each ⁧חלק⁩
@@ -15685,8 +15634,8 @@ learned in the ⁦מלבי\"ם⁩, that ⁧שבת⁩ is a ⁧מתנה טובה�
 the ⁦מלבי\"ם⁩, that each and every Yid is able to be ⁧טועם⁩, is able to
 taste, a ⁧מֵעֵין עוֹלָם הַבָּא⁩, it means therefore that on ⁧שבת⁩ we come to the
 realization of ⁧הכל יודוך⁩. Now we understand the ⁦מהר\"ל⁩ why on each and
-every ⁧שבת⁩ we come to the realization of ⁧טוֹב לְהֹדוֹת⁩ ⁦לַה׳⁩ and ⁧לְהַגִּיד כִּי יָשָׁר⁩
-⁦ה׳⁩, because ⁧שבת⁩ basically is already now, even before ⁧משיח⁩ comes, each
+every ⁧שבת⁩ we come to the realization of ⁧טוֹב⁩ ⁦לְהֹדוֹת לַה׳⁩ and ⁧לְהַגִּיד כִּי⁩ ⁦יָשָׁר
+ה׳⁩, because ⁧שבת⁩ basically is already now, even before ⁧משיח⁩ comes, each
 and every ⁧שבת⁩ we are whisked out of ⁧עולם הזה⁩ and transplanted into the
 world of ⁧עולם הבא⁩ . ⁧שבת⁩ is ⁧מֵעֵין עוֹלָם הַבָּא⁩, which means we come to the
 ⁧השגה⁩ of ⁧הכל יודוך הכל ישבחוך⁩ that all of the ⁧חלקים⁩ of the ⁧בריאה⁩, they
@@ -15695,16 +15644,16 @@ serving one ⁧תכלית הבריאה שיתגלה כבוד מלכותו בעו
 
 So now we come to the ⁧ידיעה⁩ that everything is ⁧טוב⁩, because everything
 together certainly is ⁧טוב⁩, and there is no ⁧שום מציאות⁩ of ⁧צדיק ורע לו⁩ but
-all is ⁧צדיק כתמר יפרח⁩ and the ⁧לְהַגִּיד כִּי יָשָׁר⁩ ⁦ה׳⁩, which basically means
+all is ⁧צדיק כתמר יפרח⁩ and the ⁧לְהַגִּיד כִּי⁩ ⁦יָשָׁר ה׳⁩, which basically means
 that when ⁧שבת⁩ comes all the ⁧קושיות⁩ get answered. All the ⁧קושיות⁩ that a
 Yid has on the ⁧הנהגה⁩ of ⁧הקדוש ברוך הוא⁩, they all become answered. And
 when it comes to ⁧שבת⁩ by ⁧מנחה⁩, (⁧אגב⁩ I did not mention this in the shiur
 on ⁧שבת⁩), and therefore when he begins Friday night, he says ⁧מִזְמוֹר שִׁיר
-לְיוֹם הַשַּׁבָּת טוֹב לְהֹדוֹת⁩ ⁦לַה׳⁩ and he works his way through ⁧שבת⁩ to come to the
+לְיוֹם הַשַּׁבָּת טוֹב⁩ ⁦לְהֹדוֹת לַה׳⁩ and he works his way through ⁧שבת⁩ to come to the
 ⁧שבת מֵעֵין עוֹלָם הַבָּא⁩ experience, to come to the realization that ⁧הכל יודוך
 והכל ישבחוך⁩ - that the entire world are not different ⁧חלקים⁩ but rather
 they\'re all ⁧חלקים⁩ of one big picture. And he comes to the realization
-of ⁧לְהַגִּיד כִּי יָשָׁר⁩ ⁦ה׳⁩, so when he comes already ultimately to ⁧שבת⁩ by ⁧מנחה⁩
+of ⁧לְהַגִּיד כִּי⁩ ⁦יָשָׁר ה׳⁩, so when he comes already ultimately to ⁧שבת⁩ by ⁧מנחה⁩
 then he says with even more clarity, he says ⁧אַתָּה אֶחָד וְשִׁמְךָ אֶחָד⁩, that
 everything is ⁧אֶחָד אֶחָד אֶחָד⁩, now he understands that everything is ⁧ממש אֶחָד⁩
 and there are no ⁧פרטים⁩ in the ⁧בריאה⁩ but rather everything is one big
@@ -15717,8 +15666,7 @@ of ⁧שבת⁩ we say ⁧יִשְׂמַח מֹשֶׁה בְּמַתְּנַת �
 ⁧וְכֵן כָּתוּב בְּתוֹרָתֶךָ⁩:⁧וְשָׁמְרוּ בְנֵי יִשְׂרָאֵל אֶת הַשַּׁבָּת⁩. And ⁧באמת⁩ we have here
 basically we have two shtark ⁧קושיות⁩: first of all, what are we saying
 that ⁧משה רבינו שְׁנֵי לוּחוֹת אֲבָנִים הוֹרִיד בְּיָדוֹ⁩\; ⁧משה רבינו⁩ brings down ⁧שני
-לוחות אבנים⁩, and what does it say in the ⁧לוחות⁩? ⁧וְכָתוּב בָּהֶם שְׁמִירַת שַׁבָּת⁩ -
-it\'s written in them ⁧שְׁמִירַת שַׁבָּת⁩. And the question, obvious question, is:
+לוחות אבנים⁩, and what does it say in the ⁧לוחות⁩? ⁧וְכָתוּב בָּהֶם שְׁמִירַת שַׁבָּת⁩ - it\'s written in them ⁧שְׁמִירַת שַׁבָּת⁩. And the question, obvious question, is:
 only ⁧שְׁמִירַת שַׁבָּת⁩ is written in the ⁧לוחות⁩? The entire ⁧עשרת הדיברות⁩ was
 written in the ⁧לוחות⁩! So why is he mentioning the ⁧וּשְׁנֵי לוּחוֹת אֲבָנִים הוֹרִיד
 בְּיָדוֹ וְכָתוּב בָּהֶם שְׁמִירַת שַׁבָּת⁩? And then we conclude by saying ⁧וְכֵן כָּתוּב בְּתוֹרָתֶךָ⁩
@@ -15754,8 +15702,7 @@ Therefore, this is the meaning when we say ⁧וּשְׁנֵי לוּחוֹת א
 that means even after the ⁧הוֹרִיד בְּיָדוֹ⁩ means even after the ⁧שבירת הלוחות⁩\;
 ⁧וְכָתוּב בָּהֶם⁩ - it\'s still written ⁧שְׁמִירַת שַׁבָּת⁩ whereas all of the other
 ⁧אותיות⁩ of the ⁧עשרת הדיברות⁩ are no longer there. The exception is that
-⁧וּשְׁנֵי לוּחוֹת אֲבָנִים הוֹרִיד בְּיָדוֹ⁩ and what always remained there, ⁧וְכָתוּב בָּהֶם⁩ -
-written there; ⁧עדיין⁩ - still, forever forever remaining on the ⁧לוחות⁩ the
+⁧וּשְׁנֵי לוּחוֹת אֲבָנִים הוֹרִיד בְּיָדוֹ⁩ and what always remained there, ⁧וְכָתוּב בָּהֶם⁩ - written there; ⁧עדיין⁩ - still, forever forever remaining on the ⁧לוחות⁩ the
 ⁧שְׁמִירַת שַׁבָּת⁩. What\'s the ⁧רְאָיָה⁩? The ⁧רְאָיָה⁩ is because ⁧וְכֵן כָּתוּב בְּתוֹרָתֶךָ⁩:⁧וְשָׁמְרוּ
 בְנֵי יִשְׂרָאֵל אֶת הַשַּׁבָּת⁩ - because after the ⁧חטא העגל⁩ we find that the ⁧דיבור
 הראשון⁩ that ⁧משה רבינו⁩ speaks to ⁧כלל ישראל⁩ is ⁧ושמרו⁩ to show that the ⁧חטא
@@ -15782,12 +15729,12 @@ that Shabbos is the ⁧בחינה⁩ of ⁧עולם הבא⁩ the ⁧חטא הע
 And therefore when Shabbos comes, everything is answered, all questions
 are answered for a Yid, because a Yid when he stands up Shabbos and he
 says ⁧מִזְמוֹר שִׁיר לְיוֹם הַשַּׁבָּת⁩, he\'s actually ⁧מרגיש⁩, he feels in his bones
-⁧לְהַגִּיד כִּי יָשָׁר⁩ ⁦ה׳⁩, he comes to the realization that ⁧הכל ידוך הכל ישבחוך⁩.
+⁧לְהַגִּיד כִּי⁩ ⁦יָשָׁר ה׳⁩, he comes to the realization that ⁧הכל ידוך הכל ישבחוך⁩.
 
 It\'s ⁧כדאי⁩ just to mention one more ⁧נקודה⁩ and that is that the ⁦חיד\"א⁩
 brings out a wonderful observation. We find regarding ⁧שְׁמִירַת שַׁבָּת⁩ in the
 various ⁧פרשיות⁩ of Shabbos we find four times we find the word ⁧היא⁩. For
-example like ⁧כי אות⁩ #strong[⁧היא⁩] ⁧ביני וביניכם לדעת כי אני⁩ ⁦ה\'⁩ ⁧מקדשכם⁩. We
+example like ⁧כי אות⁩ #strong[⁧היא⁩] ⁧ביני וביניכם לדעת כי⁩ ⁦אני ה\'⁩ ⁧מקדשכם⁩. We
 find four times the word ⁧היא⁩ in the ⁧פרשה⁩ of Shabbos, however we find
 there\'s a ⁧שינוי⁩ between the ⁧קרי⁩ and the ⁧כתיב⁩. The ⁧כתיב⁩ is with a ⁧ו⁩ but
 the ⁧קרי⁩ is with a ⁧חיריק⁩, we read it ⁧היא⁩ but it\'s written with a ⁧ו⁩ which
@@ -15805,7 +15752,7 @@ six times ⁧הכל⁩ which is ⁧כנגד⁩ all of the ⁧חלקים⁩ that 
 which is six sides. However the ⁧נקודה הפנימית⁩ which is in the middle,
 that\'s the ⁧אות י⁩. The ⁧נקודה הפנימית⁩ is ⁧אות י⁩ which is ⁧כנגד עולם הבא⁩.
 And we know ⁦חז\"ל⁩ tell us in fact himself in ⁧מנחות⁩ on the ⁧פסוק כי
-ב⁩#strong[⁧יה⁩] ⁦ה\'⁩ ⁧צור עולמים⁩ that ⁧עולם הבא⁩ was ⁧נברא⁩ with a ⁧י⁩. So
+ב⁩#strong[⁧יה⁩] ⁦ה\' צור⁩ ⁧עולמים⁩ that ⁧עולם הבא⁩ was ⁧נברא⁩ with a ⁧י⁩. So
 therefore when it comes to ⁧שבת⁩ we say the word ⁧היא⁩ with a ⁧י⁩, the ⁧קרי⁩ is
 with a ⁧י⁩, to tell us that although taka we are living in ⁧עולם הזה⁩, so
 ⁧באמת עולם הזה⁩ basically is a ⁧ו⁩ because ⁧עולם הזה⁩ is represented by the
@@ -15814,10 +15761,10 @@ this ⁧אות ו⁩ is truly a ⁧י⁩ and a ⁧י⁩ represents ⁧עולם �
 as the ⁧גמרא⁩ in fact says in ⁧מנחות⁩, that\'s why we have a ⁧שינוי⁩ between
 the ⁧קרי⁩ and the ⁧כתיב⁩. And therefore we also understand the ⁧קושיה⁩ that we
 asked regarding ⁧קדושת כתר⁩: Why is it that ⁧דווקא⁩ on ⁧שבת⁩ that Yidden say
-⁧קדושת כתר⁩ as ⁧תוספות⁩ has pointed out in ⁧סנהדרין לז⁩ ⁦ע״בּ⁩, why is it ⁧דווקא⁩
+⁧קדושת כתר⁩ as ⁧תוספות⁩ has pointed out in ⁧סנהדרין⁩ ⁦לז ע״בּ⁩, why is it ⁧דווקא⁩
 on ⁧שבת⁩ that they say the ⁧קדושת כתר⁩? Because we say in ⁧קדושת כתר⁩, we
 point out to say that ⁧כבודו מלא עולם⁩, that the entire world is filled
-with ⁧כבוד⁩ ⁦ה׳⁩, meaning to say that there are no ⁧חלקים⁩ in the ⁧בריאה⁩, that
+with ⁦כבוד ה׳⁩, meaning to say that there are no ⁧חלקים⁩ in the ⁧בריאה⁩, that
 there are no ⁧פרטים⁩ in the ⁧בריאה⁩. When it comes on ⁧שבת⁩, we say that
 rather it is ⁧הכל⁩, that is one ⁧שטיק השלמה גדולה⁩, is one big ⁧השלמה⁩, it\'s
 ⁧כבודו מלא עולם⁩, that the entire world together is filled from one thing,
@@ -15831,10 +15778,10 @@ filled only with one thing, and that is to bring about ⁧כבוד שמים⁩.
 So when ⁧שבת⁩ comes we are ⁧זוכה⁩ to be ⁧מרגיש⁩ and to be ⁧טעוֹם מֵעֵין עוֹלָם הַבָּא⁩,
 as the ⁦מלבי\"ם⁩ tells us. And therefore we now understand very well again
 what the ⁦מהר\"ל⁩ tells us, that ⁧מזמור שיר ליום השבת⁩ that on ⁧שבת⁩ we were
-able truly to sing the song and to say ⁧טוב להודות⁩ ⁦להּ׳⁩, and not to be
+able truly to sing the song and to say ⁧טוב⁩ ⁦להודות להּ׳⁩, and not to be
 perturbed and not to be bothered by the ⁧קושיות⁩ of ⁧בפרוח רשעים כמו עשב⁩,
 because we have to understand that in this world our ⁧הבנה⁩ and our ⁧שכל⁩ is
 very very limited, we are in the ⁧בחינה⁩ of ⁧אִישׁ בַּעַר לֹא יֵדָע וּכְסִיל לֹא יָבִין
 אֶת זֹאת⁩, but we will come to the realization by ⁧מזמור שיר ליום השבת⁩ that
-in fact ⁧צדיק כתמר יפרח להגד כי ישר⁩ ⁦ה\'⁩ ⁧צורי ולא עולתה בו אמן כן יהי
+in fact ⁧צדיק כתמר יפרח להגד כי⁩ ⁦ישר ה\'⁩ ⁧צורי ולא עולתה בו אמן כן יהי
 רצון⁩.
