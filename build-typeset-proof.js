@@ -205,6 +205,7 @@ function normalizeMisplacedHebrewCommas(typstContent) {
 
 function normalizePunctuationSpacing(typstContent) {
   return typstContent
+    .replace(/\u2014/g, "-")
     .replace(MALFORMED_ESCAPED_OPEN_HEBREW_CITATION_RE, "($1): ")
     .replace(MALFORMED_ESCAPED_OPEN_NUMERIC_CITATION_RE, "($1): ")
     .replace(/\s+([,;:])/g, "$1")

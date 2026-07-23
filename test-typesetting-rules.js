@@ -101,6 +101,13 @@ test("adds spaces around dash between Hebrew phrase and English explanation", ()
   );
 });
 
+test("replaces em dashes with hyphen-minus", () => {
+  assert.equal(
+    normalizePunctuationSpacing("This idea\u2014we know\u2014is important"),
+    "This idea-we know-is important"
+  );
+});
+
 test("moves extracted leading comma to the end of the Hebrew phrase", () => {
   assert.equal(
     normalizeMisplacedHebrewCommas("to משה, ,אֱחוֹז בְּכִסֵּא כְבוֹדִי symbolizes"),
