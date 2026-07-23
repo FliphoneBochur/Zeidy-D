@@ -13,6 +13,25 @@ const OUTPUT_DIR = path.join(ROOT_DIR, "typeset");
 const DOMAIN = "https://zeidyd.com";
 const FRONT_MATTER_ROUTES = ["/rabbi-oelbaum-haskama/", "/about-the-name/"];
 const NO_FOOTER_ROUTES = new Set(["/about-the-name/"]);
+const LTR_ISOLATE = "\u2066";
+const RTL_ISOLATE = "\u2067";
+const POP_DIRECTIONAL_ISOLATE = "\u2069";
+const HEBREW_LETTERS = "[\\u0590-\\u05FF\\uFB1D-\\uFB4F]";
+const HEBREW_INTERNAL_QUOTE = "(?:\\\\[\"']|[\"'׳״])";
+const HEBREW_TOKEN = `${HEBREW_LETTERS}+(?:${HEBREW_INTERNAL_QUOTE}${HEBREW_LETTERS}+)*(?:${HEBREW_INTERNAL_QUOTE})?`;
+const HEBREW_ACRONYM = `${HEBREW_LETTERS}+(?:(?:${HEBREW_INTERNAL_QUOTE}${HEBREW_LETTERS}+)+|${HEBREW_INTERNAL_QUOTE})`;
+const HEBREW_ACRONYM_RE = new RegExp(
+  `${HEBREW_ACRONYM}(?:\\s+${HEBREW_ACRONYM})*`,
+  "gu"
+);
+const HEBREW_PHRASE_RE = new RegExp(
+  `${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN})*`,
+  "gu"
+);
+const MISPLACED_HEBREW_COMMA_RE = new RegExp(
+  `,\\s*,(${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN})*)(?=\\s+[A-Za-z])`,
+  "gu"
+);
 
 function usage() {
   console.log(`Usage: node build-typeset-proof.js [options]
@@ -103,6 +122,8 @@ function titleFromBaseFilename(baseFilename) {
 function normalizeTitle(value) {
   return value
     .replace(/[\u0591-\u05C7]/g, "")
+    .replace(/\bkipper\b/g, "kippur")
+    .replace(/\bKipper\b/g, "Kippur")
     .replace(/[’‘]/g, "'")
     .replace(/[“”]/g, '"')
     .replace(/[\\#*_`]/g, "")
@@ -128,6 +149,29 @@ function stripDuplicateTitle(typstContent, titles) {
   }
 
   return lines.join("\n").trim();
+}
+
+function normalizeMisplacedHebrewCommas(typstContent) {
+  return typstContent.replace(MISPLACED_HEBREW_COMMA_RE, (_match, hebrewPhrase) => {
+    return `, ${hebrewPhrase},`;
+  });
+}
+
+function isolateHebrewRuns(typstContent) {
+  const acronyms = [];
+  const acronymSafeContent = typstContent.replace(HEBREW_ACRONYM_RE, (match) => {
+    const marker = `\uE000${acronyms.length}\uE001`;
+    acronyms.push(match);
+    return marker;
+  });
+
+  const isolatedContent = acronymSafeContent.replace(HEBREW_PHRASE_RE, (match) => {
+    return `${RTL_ISOLATE}${match}${POP_DIRECTIONAL_ISOLATE}`;
+  });
+
+  return isolatedContent.replace(/\uE000(\d+)\uE001/g, (_match, index) => {
+    return `${LTR_ISOLATE}${acronyms[Number(index)]}${POP_DIRECTIONAL_ISOLATE}`;
+  });
 }
 
 function pageSettings(size) {
@@ -218,7 +262,9 @@ async function ensureEntryFiles(entries) {
 
 function convertDocxToTypst(entry) {
   const typst = run("pandoc", [entry.docxPath, "-t", "typst"]);
-  return stripDuplicateTitle(typst, entry.sourceTitles);
+  return isolateHebrewRuns(
+    normalizeMisplacedHebrewCommas(stripDuplicateTitle(typst, entry.sourceTitles))
+  );
 }
 
 function renderTypstDocument(entries, options) {

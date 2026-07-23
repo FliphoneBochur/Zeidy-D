@@ -1,0 +1,2486 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-23T19:50:30.082Z",
+  "decisions": {
+    "achdus": {
+      "word": "achdus",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/08 - Chukas-Balak/5783/Chukas-Balak 5783.docx",
+          "context": "...e are spread out, a little group here, a little group there, there’s often more achdus. They stick together because they know they’re a minority, they know they’re isolated, an..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:41:40.303Z"
+    },
+    "afruf": {
+      "word": "afruf",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/05 - Korach/5784/Korach 5784.docx",
+          "context": "...רח interestingly enough, was the פרשה that Zeidy Weiss ע״ה had his עליה for his afruf, as well as myself. So it has a special connection to us. And we’re going to discuss two ..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:42:08.540Z"
+    },
+    "aliya": {
+      "word": "aliya",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/02 - Shemos/02 - Vaeira/5785/Vaeira 5785.docx",
+          "context": "...e story, the narrative suddenly pauses, and we find a ספר יחוס by 2nd aliya. It goes through ראובן , שמעון, and לוי, detailing the lineage of שבט לוי, incl..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:43:25.830Z"
+    },
+    "ashgiach": {
+      "word": "ashgiach",
+      "status": "fix",
+      "correction": "mashgiach",
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/10 - Yom Kippur/5785/Yom Kippur 5785.docx",
+          "context": "...ראש השנה ל״ב ע״ב) that’s brought down by R’ Yechezkel Levenstein, the ashgiach ruchani of the Mir. אָמַר רַבִּי אֲבָהוּ: אָמְרוּ מַלְאֲכֵי הַשָּׁרֵת לִפְנֵי ה..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:43:39.112Z"
+    },
+    "avodah": {
+      "word": "avodah",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/03 - Eikev/5785/Eikev 5785.docx",
+          "context": "... proof from פרשת ראה, where the Torah commands the destruction of all avodah zara upon entering Eretz Yisrael: וְנִתַּצְתֶּם אֶת מִזְבְּחֹתָם... וְאִבַּדְתּ..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:43:45.095Z"
+    },
+    "bunim's": {
+      "word": "bunim's",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/03 - Vayikra/10 - Emor/5784/Emor 5784.docx",
+          "context": "...are a remarkable story about the Baal Shem Tov, brought in Rav Irving Bunim’s sefer on פרקי אבות, Ethics from Sinai - a classic. The Baal Shem Tov was once r..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:43:49.138Z"
+    },
+    "chachomim": {
+      "word": "chachomim",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/05 - Shoftim/5783/Shoftim 5783.docx",
+          "context": "...ן וּשְׂמֹאל. This is fairly straightforward, you should listen to the chachomim and you should not deviate from whatever they tell you, right or left. R’ Yitzc..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:43:54.568Z"
+    },
+    "chap-vertlach": {
+      "word": "chap-vertlach",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/19 - Purim/5783/Purim Dvar Torah 5783/Purim Dvar Torah 5783.docx",
+          "context": "... In מגילת אסתר, there are so many wonderful פשטים, so many different chap-vertlach, that it’s truly a delight to read. However, one idea I heard a number of years..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:43:56.300Z"
+    },
+    "chasidus": {
+      "word": "chasidus",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/06 - Chukas/5784/Chukas (1)/Chukas 5784 (1).docx",
+          "context": "...be, who was Rebbe שניאור זלמן from Liadi, who was the founder of חב\"ד chasidus, a law was passed that forcibly moved the Jews from rural villages to larger to..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:44:00.139Z"
+    },
+    "chassddish": {
+      "word": "chassddish",
+      "status": "fix",
+      "correction": "chassidish",
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/10 - Mikeitz/5785/Mikeitz 5785.docx",
+          "context": "...an? The sefer עיטורי תורה brings in the name of רב יחיאל ממוגלינצה, a chassddish Rebbe, quoting his father זצ\"ל: One time, his father’s נשמה went up to שמים. I..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:44:41.218Z"
+    },
+    "chasssidish": {
+      "word": "chasssidish",
+      "status": "fix",
+      "correction": "chassidish",
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/04 - Shavuos/5785/Shavuos 5785.docx",
+          "context": "...t the great גדולים of the past, and not even that long ago, the great chasssidish gedolim and even the litvish gedolim, had an exceptional feeling for the majest..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:44:47.001Z"
+    },
+    "chavrusah": {
+      "word": "chavrusah",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/01 - Pesach/5783/Dvar Torah/Dvar Torah Pesach 5783.docx",
+          "context": "...office the following week with a broad smile. He informed me that his chavrusah was his grandfather, a prominent Dayan in Boro Park. He had posed this question..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:44:52.988Z"
+    },
+    "chesed": {
+      "word": "chesed",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/03 - Vayikra/11 - Behar/5784/Behar 5784.docx",
+          "context": "...n Tel Aviv, and requested Shabbos accommodations in the Rachashei Lev chesed apartments. “I know I will cry a lot, and I would really prefer to be alone,” s..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:45:09.692Z"
+    },
+    "chinam": {
+      "word": "chinam",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/09 - Rosh Hashana/Rosh Hashana in Berditchev/Rosh Hashana in Berditchev.docx",
+          "context": "...contents, it was filled with all kinds of עבירות : lashon hara, sinas chinam, kinah, ביטול זמן which should have been set aside for the study of torah, תפיל..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:45:12.094Z"
+    },
+    "d'asra": {
+      "word": "d'asra",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/07 - Misc/Rabbi Oelbaum Haskama/Rabbi Oelbaum Haskama.docx",
+          "context": "... ובמצות, להגדיל תורה ולהאדירה, עד עולם! R' Noach Isaac Oelbaum, Mora D'Asra of Khal Nachlas Yitzchok"
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:45:15.175Z"
+    },
+    "derech": {
+      "word": "derech",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/06 - 9 Av/5783/9 Av 5783.docx",
+          "context": "... 5783 The following was presented by Rav Pesach Krohn in his typical derech: very beautiful, very meaningful, and very real. A number of years ago, Rav Mor..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:45:17.168Z"
+    },
+    "drush": {
+      "word": "drush",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/06 - Chukas/5784/Chukas (2)/Chukas 5784 (2).docx",
+          "context": "...d then he goes into the מקוה. The תלמוד ירושלמי brings an interesting drush: רבי יהושע בן קפצאי said, “My whole life I read this פסוק, the pure one will sp..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:45:22.387Z"
+    },
+    "ehrlich": {
+      "word": "ehrlich",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/06 - 9 Av/5783/9 Av 5783.docx",
+          "context": "...You saw your mother cry when she bentched licht that you should be an ehrlich Yid. You saw how your mother got up early and stayed up late for your sake and ..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:45:48.557Z"
+    },
+    "elyashiv's": {
+      "word": "elyashiv's",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/02 - Shemos/09 - Ki Sisa/5785/Ki Sisa 5785.docx",
+          "context": "...ִׁיר לַמַּעֲלוֹת, אֶשָּׂא עֵינַי אֶל הֶהָרִים. Why did he do this? R’ Elyashiv’s grandfather was a famous גאון and בעל קבלה, known as the לֶשֶם, well known in h..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:45:51.282Z"
+    },
+    "ffbs": {
+      "word": "ffbs",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/08 - Vayishlach/5785/Vayishlach 5785.docx",
+          "context": "...ashem with thought, intention, and awareness. For those of us who are FFBs - frum from birth - this is our נסיון, our challenge. It’s interesting to note ..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:45:53.363Z"
+    },
+    "gadol": {
+      "word": "gadol",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/03 - Vayikra/10 - Emor/5785/Emor 5785.docx",
+          "context": "...lligent than us. Perhaps they are, in fact, far greater. There was a gadol from about 200 years ago, the author of the לבושי שרד. The חתם סופר brigs down ..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:45:54.800Z"
+    },
+    "getchkas": {
+      "word": "getchkas",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/07 - Vayaitzei/5785/Vayaitzei 5785.docx",
+          "context": "...ubjected to עבודה זרה. The מדרש emphasizes that even if others placed getchkas on it, they had no רשות because the mountain belonged to אברהם, and as we know,..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:45:56.354Z"
+    },
+    "goldstein's": {
+      "word": "goldstein's",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/08 - Vayishlach/5786/Vayishlach 5786.docx",
+          "context": "...el capable of helping him and he should go to America to seek out Dr. Goldstein’s care and advice. Dr. Goldstein examined him and told that he could assist him b..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:45:58.139Z"
+    },
+    "goldwasser's": {
+      "word": "goldwasser's",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/11 - Ha'azinu/5786/Ha'azinu 5786.docx",
+          "context": "...ָחַצְתִּי וַאֲנִי אֶרְפָּא. R’ Yechezkel Abramsky, brought down in R’ Goldwasser’s sefer “Something to Say”, brought out an interesting thought from the תפילה tha..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:46:00.271Z"
+    },
+    "gorelick's": {
+      "word": "gorelick's",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/11 - Ha'azinu/5785/Ha'azinu 5785.docx",
+          "context": "...arsh פלפול. I remember when I was a kid, I used to go to Rav Yeruchem Gorelick’s שבת שובה דרשה, it was fire and brimstone. You guys today have no conception of ..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:46:04.940Z"
+    },
+    "haftorahs": {
+      "word": "haftorahs",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/03 - Eikev/5784/Eikev 5784.docx",
+          "context": "... continue all the way until ראש השנה. The first פסוקים of each of the haftorahs of the ז’ דנחמתא are a dialogue between הקדוש ברוך הוא and כלל ישראל. The הפטרה..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:46:06.651Z"
+    },
+    "hakohen": {
+      "word": "hakohen",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/09 - Rosh Hashana/5785/Rosh Hashana 5785.docx",
+          "context": "... The following מעשה was related by R’ Hersh Mesharais, R’ Tzvi Hirsch HaKohen of Rimanov, who was a chassid of R’ Mendel of Rimanov, a world-classic chassidi..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:46:08.420Z"
+    },
+    "halachah": {
+      "word": "halachah",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/07 - Vayaitzei/5784/Vayaitzei 5784.docx",
+          "context": "...le of the rewards of ותרנות. He said, “When the Steipler passed away, halachah dictates that sons inherit before daughters. Yet רב חיים, the only son, gave up..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:46:13.204Z"
+    },
+    "hamelech": {
+      "word": "hamelech",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/08 - Chukas-Balak/5783/Chukas-Balak 5783.docx",
+          "context": "...רש says זו פרה אדומה. That is, the פרה אדומה is the thing that Shlomo HaMelech said he tried to understand, and it remained far from him. But we have to under..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:46:16.286Z"
+    },
+    "hashkafos": {
+      "word": "hashkafos",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/06 - 9 Av/5783/9 Av 5783.docx",
+          "context": "... learning, which is very important to understand the concepts and the hashkafos of what the learning is all about, but the actual experience of it, then we mig..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:46:18.388Z"
+    },
+    "hashomer": {
+      "word": "hashomer",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/03 - Vayikra/11 - Behar/5784/Behar 5784.docx",
+          "context": "...g to call Mrs. Mandel, had a daughter was undergoing treatment in Tel HaShomer hospital in Tel Aviv, and requested Shabbos accommodations in the Rachashei Lev..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:46:21.861Z"
+    },
+    "hatorah": {
+      "word": "hatorah",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/03 - Behaloscha/5785/Behaloscha 5785.docx",
+          "context": "...er called דברי יושר from the ישיבה in Gateshead, is quoted in the Kol HaTorah journal with the following דבר תורה on this pasuk in בהעלותך (8:19): וָאֶתְּנָ..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:46:23.552Z"
+    },
+    "hazeh": {
+      "word": "hazeh",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/10 - Yom Kippur/5785/Yom Kippur 5785.docx",
+          "context": "...a (פסחים נ׳ ע״א & בבא בתרא י׳ ע״ב) which we know is referring to olam hazeh vis-a-vis olam haba: עוֹלָם הָפוּךְ רָאִיתִי - The world is upside down. R’ Lev..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:46:25.266Z"
+    },
+    "hoffman's": {
+      "word": "hoffman's",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/03 - Vayikra/03 - Shmini/5785/Shmini 5785.docx",
+          "context": "...te columnists, R’ Chaim Yosef Kofman זצ\"ל. He was a contributor to R’ Hoffman’s Torah Tavlin, and though he has since passed away, his columns continue to be r..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:46:26.986Z"
+    },
+    "komornick's": {
+      "word": "komornick's",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/09 - Pinchas/5783/Pinchas 5783.docx",
+          "context": "...ew of this particular ברית שלום, I want to bring down a vort from Rav Komornick’s sefer A Short Vort: from where do we learn out all of the הלכות of making a קני..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:46:30.001Z"
+    },
+    "korban": {
+      "word": "korban",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/02 - Naso/5783/Naso 5783.docx",
+          "context": "...hich he listed 80 possible answers to a particular קשיא regarding the korban brought by a סוטה. R’ Shlomo Zalman’s father, R’ Yosef Chaim’s grandson, asked ..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:46:31.311Z"
+    },
+    "kormornick's": {
+      "word": "kormornick's",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/14 - Simchas Torah/5786/Simchas Torah (2)/Simchas Torah 5786 (2).docx",
+          "context": "... beautiful story which I’m sure you will appreciate. This is from Rav Kormornick’s second sefer of A Short Vort. The Homiler rav was dancing in shul on שמחת תורה...."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:46:36.156Z"
+    },
+    "krum": {
+      "word": "krum",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/07 - Balak/5784/Balak 5784.docx",
+          "context": "...ugh his “נשמה”, through his level of טומאה, and it came out in a very krum, distorted way because that’s the kind of person he was. He thought that he cou..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:46:39.731Z"
+    },
+    "lecht": {
+      "word": "lecht",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/06 - 9 Av/5784/9 Av 5784.docx",
+          "context": "...r had no intention of closing up anytime soon. It was almost time for lecht benching. R’ Aryeh understood it would be very difficult for the owner to pull ..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:46:42.031Z"
+    },
+    "leins": {
+      "word": "leins",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/02 - Shemos/08 - Tetzaveh/5785/Tetzaveh 5785.docx",
+          "context": "...However, פרשת זכור [which is a מצוה דאורייתא, and in our shul, the רב leins it] is an intriguing מצוה. R’ Moshe Feinstein, in his ספר קול רם, discusses thi..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:46:45.018Z"
+    },
+    "licht": {
+      "word": "licht",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/06 - 9 Av/5783/9 Av 5783.docx",
+          "context": "...You can relate to a mother. You saw your mother cry when she bentched licht that you should be an ehrlich Yid. You saw how your mother got up early and sta..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:46:46.798Z"
+    },
+    "litvish": {
+      "word": "litvish",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/04 - Shavuos/5785/Shavuos 5785.docx",
+          "context": "...nd not even that long ago, the great chasssidish gedolim and even the litvish gedolim, had an exceptional feeling for the majesty and the awesomeness of מעמד..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:46:48.367Z"
+    },
+    "m'lichev": {
+      "word": "m'lichev",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/18 - Purim Katon/5784/Purim Katon 5784.docx",
+          "context": "...e sitting at his פורים קטן סעודה was a Chassidish Rebbe named R’ Lieb M’Lichev. He was a very sharp and well-seasoned תלמיד חכם. During the סעודה, the Apter R..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:46:53.032Z"
+    },
+    "mabul": {
+      "word": "mabul",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/05 - Shoftim/5785/Shoftim 5785.docx",
+          "context": "... theories. But the מלבי\"ם in פרשת נח already explains this. After the mabul, הקדוש ברוך הוא changed the מצב of the world. Places that had been near the equ..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:46:54.271Z"
+    },
+    "machzorim": {
+      "word": "machzorim",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/09 - Rosh Hashana/5784/Rosh Hashana 5784.docx",
+          "context": ".... I was standing in this group of Yidden, everybody was holding their machzorim and davening. A gentleman came over to me, gave he gave me a siddur, and showed..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:46:56.704Z"
+    },
+    "mashiach": {
+      "word": "mashiach",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/05 - 17 Tamuz/5784/17 Tamuz 5784.docx",
+          "context": "...d in overcoming the challenges of תמוז ending up becoming the root of mashiach: משיח בן יוסף comes from יהושע, and משיח בן דוד comes from כלב. We can also bri..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:47:31.204Z"
+    },
+    "mefarshim": {
+      "word": "mefarshim",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/10 - Mikeitz/5784/Mikeitz 5784.docx",
+          "context": "... יוסף’s interpretation was correct, he returned to ויאמר. (All of the mefarshim ask the question: how did פרעה know that יוסף’s interpretation was correct? The..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:47:32.589Z"
+    },
+    "midos": {
+      "word": "midos",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/09 - Vayaishev/5785/Vayaishev 5785.docx",
+          "context": "...ֶה, מִמִּדּוֹתָיו שֶׁל מָקוֹם. The brothers had left הקדוש ברוך הוא’s midos.הקדוש ברוך הוא’s midah is to judge a person by where he is now - not by his fut..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:47:34.908Z"
+    },
+    "milchigs": {
+      "word": "milchigs",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/11 - Sukkos/5785/Sukkos 5785.docx",
+          "context": "...holiday. שבועות isn’t bad either, kids. We have blintzes, and we have milchigs, and it’s a great time. סוכות, you have to go outside in a סוכה, it’s a lot of ..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:47:36.184Z"
+    },
+    "milublin": {
+      "word": "milublin",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/06 - Toldos/5784/Toldos 5784.docx",
+          "context": "...his approach, as brought down in the מעינה של תורה quoting the Chozeh MiLublin on this רש\"י. The idea is that a person has an obligation to hold his מידות in ..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:47:39.721Z"
+    },
+    "minyanim": {
+      "word": "minyanim",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/02 - Shemos/06 - Mishpatim/5783/Mishpatim 5783.docx",
+          "context": "...rvise his care. Since he would be remaining in the hospital over שבת, minyanim were arranged. It was משפטים פרשת. The boy offered to lein as he remembered the..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:47:41.351Z"
+    },
+    "mitzva": {
+      "word": "mitzva",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/06 - Chukas/5784/Chukas (1)/Chukas 5784 (1).docx",
+          "context": "... בְּנֵי יִשְׂרָאֵל וְיִקְחוּ אֵלֶיךָ פָרָה אֲדֻמָּה תְּמִימָה. So the mitzva has the unusual לשון of וְיִקְחוּ אֵלֶיךָ. Rashi immediately brings down a מדרש..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:47:51.651Z"
+    },
+    "navi": {
+      "word": "navi",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/03 - Vayikra/10 - Emor/5785/Emor 5785.docx",
+          "context": "...we’re talking about the aspect of שכל, can sometimes be better than a navi. The לבושי שרד said to the בעל, “You’re right. You really should give her a גט...."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:47:52.425Z"
+    },
+    "nigun": {
+      "word": "nigun",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/16 - 10 Teves/5785/10 Teves 5785.docx",
+          "context": "... poignant words we recite every שבת in Bobbi and Zeidy Weiss’ zemiros nigun come to mind: אֱלָקָא דִּי לֵהּ יְקָר וּרְבוּתָא, פְּרוֹק יַת עָנָךְ מִפּוּם אַ..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:47:53.280Z"
+    },
+    "nusach": {
+      "word": "nusach",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/04 - Shlach/5784/Shlach 5784.docx",
+          "context": "...re you telling this to me?” The אברך said, “I have a problem. I daven nusach Ashkenaz, I don’t say חָכְמָה בִּינָה וָדָּעַת. I say דֵּעָה בִּינָה וְהַשְׂכֵּ..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:47:54.116Z"
+    },
+    "ovadia's": {
+      "word": "ovadia's",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/08 - Vayishlach/5786/Vayishlach 5786.docx",
+          "context": "...is stories was about R’ Ovadia Yosef. Quite a number of years ago, R’ Ovadia’s son developed an ear problem. When he sought medical attention, he was told tha..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:47:56.367Z"
+    },
+    "pareve": {
+      "word": "pareve",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/12 - V'zos Habracha/5785/V'zos Habracha 5785.docx",
+          "context": "... Shimshon Pincus teaches a lesson that there’s nothing we do which is pareve. Everything can become a מצוה. For example, says R’ Pincus, if I put butter on ..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:47:57.297Z"
+    },
+    "parnassa": {
+      "word": "parnassa",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/03 - Eikev/5783/Eikev 5783.docx",
+          "context": "...ashem, with your help, I can do anything. B’ezras Hashem I can make a parnassa, b’ezras Hashem I can help a sick person get better.” In this week’s פרשה of ע..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:47:58.696Z"
+    },
+    "parshiyos": {
+      "word": "parshiyos",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/04 - Vayairah/5786/Vayairah (1)/Vayairah 5786 (1).docx",
+          "context": "...rah 5786 (1) פרשת וירא. If we look at the פרשה in the context of the parshiyos that surround it, there’s a remarkable difference between the three פרשיות of ל..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:48:00.076Z"
+    },
+    "pasken": {
+      "word": "pasken",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/03 - Vayikra/05 - Metzora/5784/Metzora 5784.docx",
+          "context": "...mself, he must step back and say, “I am personally involved; I cannot pasken for myself.” He must bring the שאלה to another posek because he is נוגע בדבר an..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:48:00.766Z"
+    },
+    "paskened": {
+      "word": "paskened",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/18 - Purim Katon/5784/Purim Katon 5784.docx",
+          "context": "... horse. Right after that, מרדכי’s תפילות were accepted. In שמים, they paskened like אסתר. When מרדכי’s תפילות came from a place of שמחה, triumph, and exciteme..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:48:02.160Z"
+    },
+    "paskins": {
+      "word": "paskins",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/07 - Ki Savo/5784/Ki Savo 5784.docx",
+          "context": "...ou can look it up, is one allowed to make a הוֹסָפָה in the תוכחה? He paskins להלכה that you can make a הוֹסָפָה in the תוכחה in כי תבוא but you cannot make ..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:48:04.064Z"
+    },
+    "payos": {
+      "word": "payos",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/09 - Rosh Hashana/Rosh Hashana in Berditchev/Rosh Hashana in Berditchev.docx",
+          "context": "...What have you done with my wonderful עבירות?” He grabbed my beard and payos and yelled, “You’re a גנב! All year I labored to gather these precious sins, yo..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:48:05.332Z"
+    },
+    "pre-shabbos": {
+      "word": "pre-shabbos",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/06 - 9 Av/5784/9 Av 5784.docx",
+          "context": "...od why he was there, R’ Aryeh being a familiar figure from his weekly pre-Shabbos rounds. The owner looked at all the customers. He was not going to lose out on..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:48:06.732Z"
+    },
+    "psak": {
+      "word": "psak",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/02 - Vaeschanan/5785/Vaeschanan 5785.docx",
+          "context": "...lve it. Since the ב\"ח was there, they asked him to step in and give a psak. The ב\"ח heard the מחלוקת and responded “It’s an issue of 10 versus 3? Is that ..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:48:07.657Z"
+    },
+    "pshat": {
+      "word": "pshat",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/03 - Lech Lecha/5784/Lech Lecha 5784.docx",
+          "context": "...ֶכְךָ וַאֲגַדְּלָה שְׁמֶךָ וֶהְיֵה בְּרָכָה. In רש\"י, after his first pshat, he explains that וְאֶעֶשְׂךָ לְגוֹי גָּדוֹל refers to what we say in שמונה עשר..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:48:08.452Z"
+    },
+    "psukim": {
+      "word": "psukim",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/09 - Rosh Hashana/5784/Rosh Hashana 5784.docx",
+          "context": "... he gave me a siddur, and showed me what paragraph to say. I said the psukim of תשליך with intense concentration, and then תשליך was over. I turned to go ba..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:48:09.510Z"
+    },
+    "rabbeim": {
+      "word": "rabbeim",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/08 - Chukas-Balak/5783/Chukas-Balak 5783.docx",
+          "context": "...e, want to find a טעם for a מצוה. The best example was what one of my rabbeim told me, I think it was Rav Moshe Tendler זצ״ל, he said the אפיקורסים or the or..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:48:11.618Z"
+    },
+    "reagan's": {
+      "word": "reagan's",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/05 - Korach/5783/Korach 5783.docx",
+          "context": "...רן went back to משה to report the good news. During President Ronald Reagan’s administration, several space shuttle missions were launched. One of them, the ..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:48:14.032Z"
+    },
+    "rebbishe": {
+      "word": "rebbishe",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/13 - Shmini Atzeres/5786/Shmini Atzeres (2)/Shmini Atzeres (2) 5786.docx",
+          "context": "...its peak. As is well known, brought down by many of the רבנים and the rebbishe גדולים, שמיני עצרת is the peak of all of our efforts of the year."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:48:19.682Z"
+    },
+    "rov": {
+      "word": "rov",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/03 - Vayikra/08 - Kedoshim/5784/Kedoshim 5784.docx",
+          "context": "...פֵי תוֹרָה תְלוּיִּין בָּהּ - because the majority, the essence, the \"rov\" of the תורה’s foundational principles are found in this little פרשה of קדושים...."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:48:20.763Z"
+    },
+    "ruchani": {
+      "word": "ruchani",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/10 - Yom Kippur/5785/Yom Kippur 5785.docx",
+          "context": "...ל״ב ע״ב) that’s brought down by R’ Yechezkel Levenstein, the ashgiach ruchani of the Mir. אָמַר רַבִּי אֲבָהוּ: אָמְרוּ מַלְאֲכֵי הַשָּׁרֵת לִפְנֵי הַקָּדוֹש..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:48:22.975Z"
+    },
+    "sabato's": {
+      "word": "sabato's",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/19 - Purim/5784/Purim 5784.docx",
+          "context": "...s, having alerted him and brought to his attention, from R’ Mordechai Sabato’s ספר called, הדסה היא אסתר. I thought this was a splendid piece of תורה that we ..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:48:28.273Z"
+    },
+    "satka's": {
+      "word": "satka's",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/09 - Rosh Hashana/How to do Teshuva/How to do Teshuva.docx",
+          "context": "How to do Teshuva I came across from Rav Satka’s weekly sheet on the פרשה, [Rav Satka being from the בית מדרש טוב here in Kew Ga..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:48:32.548Z"
+    },
+    "schwab's": {
+      "word": "schwab's",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/11 - Sukkos/5786/Sukkos 5786.docx",
+          "context": "..., everyone was busy with their seder only one person came to R’ Moshe Schwab’s שלום זכר. That person was this new baby’s great-grandfather. And because הכרת ה..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:48:34.267Z"
+    },
+    "seferim": {
+      "word": "seferim",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/02 - Noach/5786/Noach 5786.docx",
+          "context": "...f the ייד הקדוש מפשיסחא quoted in מעינה של תורה, the wonderful set of seferim from ר׳ אלכסנדר זושא פרידמן. When after 120 every person faces the בית דין של ..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:48:35.248Z"
+    },
+    "seudah": {
+      "word": "seudah",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/01 - Devarim/5785/Devarim 5785.docx",
+          "context": "... in the moment; he knew the Chafetz Chaim had a reason. But after the seudah, he said, ילמדנו רבינו - “Please tell me, Rebbi, why did you change the מנהג?” ..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:48:36.003Z"
+    },
+    "shaila": {
+      "word": "shaila",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/01 - Pesach/5783/Dvar Torah/Dvar Torah Pesach 5783.docx",
+          "context": "... his חמץ remains מותר. As a delightful postscript to this vort, this shaila was asked to hundreds if not thousands of my patients in Boro Park and Queens o..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:48:37.063Z"
+    },
+    "shechting": {
+      "word": "shechting",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/02 - Shemos/06 - Mishpatim/5784/Mishpatim 5784 (1)/Mishpatim (1)  5784.docx",
+          "context": "...es. He points out that none of us are going around stealing בהמות and shechting them or selling them, but we can ask ourselves how we perform our מצוות. Just a..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:48:39.307Z"
+    },
+    "shema": {
+      "word": "shema",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/03 - Eikev/5785/Eikev 5785.docx",
+          "context": "...llnesses or all the קללות. When Hashem says ונתתי גשמיכם בעיתם, or in shema ונתתי מטר ארצכם בעיתו, these are permanent commitments. נתינת התורה, מתן תורה -..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:48:40.674Z"
+    },
+    "shlep": {
+      "word": "shlep",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/07 - Balak/5785/Balak 5785.docx",
+          "context": "... and you send it out there and a fish catches it in his mouth and you shlep the fish out. So one pulls back and one pulls forward. These are the two opinio..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:48:41.987Z"
+    },
+    "shlepped": {
+      "word": "shlepped",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/02 - Noach/5784/Noach 5784 (2)/Noach 5784.docx",
+          "context": "...He took it because he was trying to do this, and יפת tagged along, he shlepped along to do it, but he did it without any טעם, without any חיות, without any gr..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:48:42.822Z"
+    },
+    "shlepping": {
+      "word": "shlepping",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/06 - Chukas/5784/Chukas (1)/Chukas 5784 (1).docx",
+          "context": "... a great צדיק. Why would he have to lower himself to act in this way, shlepping from place to place to collect צדקה? “But why didn’t you just teach them the me..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:48:43.762Z"
+    },
+    "shmatas": {
+      "word": "shmatas",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/03 - Vayikra/09 -  Achrei Mos-Kedoshim/5785/Achrei Mos-Kedoshim 5785.docx",
+          "context": "... He told his תלמידים, “If we continue like this, we’ll bring the same shmatas - our same casual behavior - right into the בית השלישי. We have to train oursel..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:48:44.778Z"
+    },
+    "shmoozing": {
+      "word": "shmoozing",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/03 - Vayikra/09 -  Achrei Mos-Kedoshim/5785/Achrei Mos-Kedoshim 5785.docx",
+          "context": "...hought he was back in Boro Park! He couldn’t believe that people were shmoozing at the holiest site in the world like it was a regular street corner. And isn’..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:48:45.778Z"
+    },
+    "shoomzen": {
+      "word": "shoomzen",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/12 - Hoshana Raba/5786/Hoshana Raba 5786.docx",
+          "context": "Hoshana Raba 5786 Rabbi Moshe Wolfson’s shoomzen have been translated into English. He has a beautiful shmooze which he quotes f..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:48:46.701Z"
+    },
+    "shpear": {
+      "word": "shpear",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/07 - Misc/Rabbi Oelbaum Shabbos/Shabbos - The Gift of Olam Haba in This World.docx",
+          "context": "...s well, at least somewhat, a little bit of a taste, a little bit of a shpear in עולם הזה, and this will be our על ידי מצוה שבת שעל ידו נרגיש תענוגי עולם הבא..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:48:51.462Z"
+    },
+    "shtickle": {
+      "word": "shtickle",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/01 - Pesach/5785/Story 2/Story 2 Pesach 5785.docx",
+          "context": "Story Pesach 5785 This was a shtickle from the Torah Anytimes Haggadah Companion for 5785, and I’ve shown it to a num..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:48:53.227Z"
+    },
+    "sifrei": {
+      "word": "sifrei",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/04 - Re'eh/5783/Re'eh 5783.docx",
+          "context": "...even a ספר תורה בהיכל has to have מזל. Why? Because there are so many sifrei torah in the ארון קודש, and every torah wants to be used for leining. The one w..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:48:55.415Z"
+    },
+    "soloveitchik's": {
+      "word": "soloveitchik's",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/08 - Vayishlach/5786/Vayishlach 5786.docx",
+          "context": "...oat doctors. He actually was both the Satmar Rebbe’s and R’ Yoshe Ber Soloveitchik’s ear, nose and throat specialist. When he was a young doctor, he was deciding wh..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:48:57.998Z"
+    },
+    "steinberg's": {
+      "word": "steinberg's",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/02 - Vaeschanan/5783/Vaeschanan 5783.docx",
+          "context": "... interesting story, one of my favorites, brought down in Rabbi Peretz Steinberg’s beautiful sefer on חומש called ספר פרי עץ חיים in the name of R’ Yaakov Kamenet..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:48:59.101Z"
+    },
+    "torahanytimes": {
+      "word": "torahanytimes",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/03 - Vayikra/02 - Tzav/5785/Tzav 5785.docx",
+          "context": "... miracles in the mundane. There’s a story that I saw recently in the TorahAnytimes Tetzaveh 5785, which I thought I would share with you, keeping these two topics..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:00.629Z"
+    },
+    "vertlach": {
+      "word": "vertlach",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/03 - Lag Baomer/5784/Lag Baomer 5784.docx",
+          "context": "... 5784 To commemorate ל״ג בעומר, I’m going to share a number of short vertlach, which together will add up to a substantial message I want to pass along. This..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:01.806Z"
+    },
+    "vodaas's": {
+      "word": "vodaas's",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/08 - Elul/5785/Elul 5785.docx",
+          "context": "...ahu, the טייערע R’ Gedalia Schorr זצ\"ל, a brilliant מגיד שיעור, Torah Vodaas’s finest Rebbe, brilliant משפחה. I cannot say enough words about R’ Gedalia Schor..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:03.854Z"
+    },
+    "wallace's": {
+      "word": "wallace's",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/01 - Bamidbar/5785/Bamidbar 5785.docx",
+          "context": "...e. Mr. Olasky, a 95-year-old man, asked for the phone number of Judah Wallace’s son, Rabbi Yosef Wallace, who happened to be the director of ערכים at the time...."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:05.109Z"
+    },
+    "weissmandl's": {
+      "word": "weissmandl's",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/19 - Purim/5783/Story Purim 5783/Story Purim 5783.docx",
+          "context": "...brains, trying to think of what to say, and suddenly, I remembered R’ Weissmandl’s vort. I told her about the ענין of פורים and shared with her the incredible רמז..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:10.052Z"
+    },
+    "wolfson's": {
+      "word": "wolfson's",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/12 - Hoshana Raba/5786/Hoshana Raba 5786.docx",
+          "context": "Hoshana Raba 5786 Rabbi Moshe Wolfson’s shoomzen have been translated into English. He has a beautiful shmooze which he..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:10.974Z"
+    },
+    "y.y": {
+      "word": "y.y",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/10 - Matos-Maasei/5785/Matos Massei 5785.docx",
+          "context": "...that תפקיד of davening to save כלל ישראל.” A little story from Rabbi Y.Y. Jacobson from the Torah Anytimes illustrates this thought. Rabbi Jacobson’s br..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:12.881Z"
+    },
+    "yartzeit": {
+      "word": "yartzeit",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/02 - Shemos/08 - Tetzaveh/5784/Tetzaveh 5784 (1)/Tetzaveh (1) 5784.docx",
+          "context": "...well-known answer is that it almost always coincides with ז׳ אדר, the yartzeit of משה רבינו. Why this connection exists is an interesting שאלה on its own. How..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:14.291Z"
+    },
+    "yehoshua's": {
+      "word": "yehoshua's",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/10 - Nitzavim-Vayailech/5783/Nitzavim-Vayailech 5783.docx",
+          "context": "...em tell you? אמר לו יהושע, וכי כל ארבעים שנה שאלתי אותך מה דיבר ה׳? - Yehoshua’s answer to Moshe was, “And in all the 40 years, did I ever ask you what Hashem s..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:18.096Z"
+    },
+    "yetzer": {
+      "word": "yetzer",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/03 - Eikev/5783/Eikev 5783.docx",
+          "context": "...of a sudden the world grinds to a halt. But this כֹּחִי וְעֹצֶם יָדִי yetzer hara is in every generation, not just now. We need constant reminders that we h..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:19.195Z"
+    },
+    "yirtzeh": {
+      "word": "yirtzeh",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/08 - Vayishlach/5784/Vayishlach 5784.docx",
+          "context": "...ur עבודה be מקובל, and in that זכות, may we see ישועות and נחמות , im yirtzeh Hashem, for all כלל ישראל."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:20.878Z"
+    },
+    "yitzchok's": {
+      "word": "yitzchok's",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/09 - Rosh Hashana/5785/Rosh Hashana 5785.docx",
+          "context": "...istic secrets associated with the שופר. None of them were to Reb Levi Yitzchok’s taste. One day, a new applicant came along. Reb Levi Yitzchok asked him on what..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:21.797Z"
+    },
+    "yungerman": {
+      "word": "yungerman",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/01 - Pesach/5783/Dvar Torah/Dvar Torah Pesach 5783.docx",
+          "context": "...ot thousands of my patients in Boro Park and Queens over decades. One yungerman was given the question and answer some years ago. He returned to the office the..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:23.032Z"
+    },
+    "zalman's": {
+      "word": "zalman's",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/02 - Naso/5783/Naso 5783.docx",
+          "context": "...o a particular קשיא regarding the korban brought by a סוטה. R’ Shlomo Zalman’s father, R’ Yosef Chaim’s grandson, asked his grandfather R’ Yosef Chaim, “Why d..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:25.398Z"
+    },
+    "zara": {
+      "word": "zara",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/03 - Eikev/5785/Eikev 5785.docx",
+          "context": "...from פרשת ראה, where the Torah commands the destruction of all avodah zara upon entering Eretz Yisrael: וְנִתַּצְתֶּם אֶת מִזְבְּחֹתָם... וְאִבַּדְתֶּם אֶ..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:27.130Z"
+    },
+    "zechus": {
+      "word": "zechus",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/15 - Chanukah/5785/Chanukah 5785.docx",
+          "context": "... emphasized that חנוכה remains a celebration of תורה שבעל פה. In the zechus of learning תורה, may הקדוש ברוך הוא protect us from all our enemies, grant us ..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:28.550Z"
+    },
+    "zemiros": {
+      "word": "zemiros",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/16 - 10 Teves/5785/10 Teves 5785.docx",
+          "context": "...דש. The poignant words we recite every שבת in Bobbi and Zeidy Weiss’ zemiros nigun come to mind: אֱלָקָא דִּי לֵהּ יְקָר וּרְבוּתָא, פְּרוֹק יַת עָנָךְ מִפּ..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:29.941Z"
+    },
+    "zilberstein's": {
+      "word": "zilberstein's",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/05 - Chayai Sara/5786/Chayai Sara 5786.docx",
+          "context": "...oing out to daven מנחה. The sefer אחת שאלתי - a sefer of R’ Yitzchok Zilberstein’s torah wisdom written by R’ Erez Chazani - discusses the importance of how we sh..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:30.990Z"
+    },
+    "zoche": {
+      "word": "zoche",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 1,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/05 - Chayai Sara/5785/Chayai Sara 5785.docx",
+          "context": "...trive to show them not only by instruction but by example. May we be zoche, bezras Hashem, to great נחת and success in all that we do, especially with our..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:32.038Z"
+    },
+    "bennett's": {
+      "word": "bennett's",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 2,
+      "files": 2,
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/06 - Toldos/5785/Toldos 5785.docx",
+          "context": "... ר’ מאיר (most of you know that’s where I originally come from; Zeidy Bennett’s עלטערן came from פרמישלאן) that sheds a little light on the greatness of the אב..."
+        },
+        {
+          "filePath": "Files/04 - Bamidbar/06 - Chukas/5785/Chukas 5785.docx",
+          "context": "Chukas 5785 פרשת חקת, Dr. Ellie Bennett’s birthday parsha. We’re recording this in the midst of the ongoing war between א..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:33.948Z"
+    },
+    "bobbi's": {
+      "word": "bobbi's",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 2,
+      "files": 2,
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/04 - Re'eh/5784/Re'eh 5784.docx",
+          "context": "...izing time itself as the fulfillment of the מצוה. As all of you know, Bobbi’s grandfather, Papa, had a tremendously interesting מנהג which I picked up shortl..."
+        },
+        {
+          "filePath": "Files/07 - Misc/About The Name/About the Name.docx",
+          "context": "...חן for נח). Secondly, the word הַדֹּבֵר contains the same letters as Bobbi’s name, דברה. This connection beautifully reflects the principle of אשתו כגופו, e..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:34.828Z"
+    },
+    "brachos": {
+      "word": "brachos",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 2,
+      "files": 2,
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/04 - Re'eh/5783/Re'eh 5783.docx",
+          "context": "..., רְאֵה אָנֹכִי נֹתֵן לִפְנֵיכֶם הַיּוֹם - What is one of the biggest brachos that ברכות הקדוש ברוך הוא gives us? Today. This day that Hashem gave us is a tr..."
+        },
+        {
+          "filePath": "Files/06 - Yom Tov/13 - Shmini Atzeres/5785/Shmini Atzeres 5785.docx",
+          "context": "...or me to just go away from you.” We don’t just want this deal, to get brachos and leave; we want a relationship with Hashem, to stay with Him forever. That e..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:35.556Z"
+    },
+    "chaim's": {
+      "word": "chaim's",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 2,
+      "files": 2,
+      "examples": [
+        {
+          "filePath": "Files/02 - Shemos/09 - Ki Sisa/5785/Ki Sisa 5785.docx",
+          "context": "...ives us the opportunity to daven. There is a fascinating story in R’ Chaim’s sefer about Rebbetzin Kanievsky’s father R’ Elyashiv זצ\"ל. She relates that whe..."
+        },
+        {
+          "filePath": "Files/04 - Bamidbar/02 - Naso/5783/Naso 5783.docx",
+          "context": "...ing the korban brought by a סוטה. R’ Shlomo Zalman’s father, R’ Yosef Chaim’s grandson, asked his grandfather R’ Yosef Chaim, “Why did R. Yosef Engel specifi..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:38.200Z"
+    },
+    "chassid": {
+      "word": "chassid",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 2,
+      "files": 2,
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/08 - Vayishlach/5786/Vayishlach 5786.docx",
+          "context": "...called that the last time he had put on תפילין was with a Lubavitcher chassid somewhere on a street, which prompted me to praise R’ Menachem Mendel, the last..."
+        },
+        {
+          "filePath": "Files/06 - Yom Tov/09 - Rosh Hashana/5785/Rosh Hashana 5785.docx",
+          "context": "...d by R’ Hersh Mesharais, R’ Tzvi Hirsch HaKohen of Rimanov, who was a chassid of R’ Mendel of Rimanov, a world-classic chassidish Rebbe and צדיק. R’ Hersh M..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:39.560Z"
+    },
+    "choizek": {
+      "word": "choizek",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 2,
+      "files": 2,
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/01 - Devarim/5783/Devarim 5783.docx",
+          "context": "...סדום. Why? He knew that they would not listen to him. They would make choizek of him; they would make ליצנות with him. There’s no point in giving תוכחה if it..."
+        },
+        {
+          "filePath": "Files/05 - Devarim/06 - Ki Seitzei/5784/Ki Seitzei 5784 (1)/Ki Seitzei 5784 (1).docx",
+          "context": "...ns that the two parents do not contradict each other. They don’t make choizek of each other. They have one message that they’re transmitting to their childre..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:41.307Z"
+    },
+    "grunchi's": {
+      "word": "grunchi's",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 2,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/08 - Vayishlach/5784/Vayishlach 5784.docx",
+          "context": "...self to forgive Grunchi completely, with a full heart, believing that Grunchi’s actions stemmed from difficult life circumstances. By truly forgiving him, I re..."
+        },
+        {
+          "filePath": "Files/01 - Bereshis/08 - Vayishlach/5784/Vayishlach 5784.docx",
+          "context": "... him, I removed the שִׂנאָה from my heart, which reflexively softened Grunchi’s heart.” This teaches us the profound power of being דן לכף זכות and finding th..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:42.537Z"
+    },
+    "hara": {
+      "word": "hara",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 2,
+      "files": 2,
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/03 - Eikev/5783/Eikev 5783.docx",
+          "context": "...dden the world grinds to a halt. But this כֹּחִי וְעֹצֶם יָדִי yetzer hara is in every generation, not just now. We need constant reminders that we have t..."
+        },
+        {
+          "filePath": "Files/06 - Yom Tov/09 - Rosh Hashana/Rosh Hashana in Berditchev/Rosh Hashana in Berditchev.docx",
+          "context": "...examine its contents, it was filled with all kinds of עבירות : lashon hara, sinas chinam, kinah, ביטול זמן which should have been set aside for the study ..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:43.747Z"
+    },
+    "mikvah": {
+      "word": "mikvah",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 2,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/03 - Vayikra/10 - Emor/5784/Emor 5784.docx",
+          "context": "...Baal Shem Tov was once raising funds in a town to build a much-needed mikvah. But the response was very poor. In desperation, the Baal Shem Tov approached o..."
+        },
+        {
+          "filePath": "Files/03 - Vayikra/10 - Emor/5784/Emor 5784.docx",
+          "context": "...ack, and more. Second, life in עולם הבא benefits me personally. But a mikvah brings קדושה and טהרה to an entire city. Surely the welfare of the many is grea..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:45.618Z"
+    },
+    "posek": {
+      "word": "posek",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 2,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/03 - Vayikra/05 - Metzora/5784/Metzora 5784.docx",
+          "context": "...ht, “I see a נגע.” The first מהלך explains that even if a person is a posek and knowledgeable in הלכה, when it comes to himself, he must step back and say,..."
+        },
+        {
+          "filePath": "Files/03 - Vayikra/05 - Metzora/5784/Metzora 5784.docx",
+          "context": "...olved; I cannot pasken for myself.” He must bring the שאלה to another posek because he is נוגע בדבר and cannot be completely objective. A person should alw..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:46.463Z"
+    },
+    "rivky's": {
+      "word": "rivky's",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 2,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/04 - Re'eh/5785/Re'eh 5785.docx",
+          "context": "...woman approached her mother and handed her a small package containing Rivky’s diamond ring and her finest Shabbos dress. “How did you get these?” Rivky’s mot..."
+        },
+        {
+          "filePath": "Files/05 - Devarim/04 - Re'eh/5785/Re'eh 5785.docx",
+          "context": "...s diamond ring and her finest Shabbos dress. “How did you get these?” Rivky’s mother said in shock. The woman answered, “I was just in India, looking for a w..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:49.683Z"
+    },
+    "shachris": {
+      "word": "shachris",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 2,
+      "files": 2,
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/05 - Korach/5785/Korach 5785.docx",
+          "context": "...tte, and then came back. The next morning: “Would you like to come to shachris?” “No.” “Okay.” Again, the father went alone. At lunch, same thing - the son we..."
+        },
+        {
+          "filePath": "Files/05 - Devarim/02 - Vaeschanan/5783/Vaeschanan 5783.docx",
+          "context": "...t’s what it says in the סידור.” “Where?” The boy answered “In Shabbos shachris: יִשמַח משֶׁה בְּמַתְּנַת חֶלְקו כִּי עֶבֶד נֶאֱמָן קָרָאתָ לּו כְּלִיל תִּפְאֶ..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:50.454Z"
+    },
+    "shiva": {
+      "word": "shiva",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 2,
+      "files": 2,
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/04 - Re'eh/5785/Re'eh 5785.docx",
+          "context": "...a before she was murdered in a terrorist attack years ago. During her shiva, a young Israeli woman approached her mother and handed her a small package con..."
+        },
+        {
+          "filePath": "Files/05 - Devarim/12 - V'zos Habracha/5784/V'zos Habracha 5784.docx",
+          "context": "...ry I came across about the words וַיָּמׇת שָׁם מֹשֶׁה (34:5). At the shiva house for R’ Nosson Tzvi Finkel, the rosh yeshiva’s brother R’ Gedalia Finkel q..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:51.235Z"
+    },
+    "shloima's": {
+      "word": "shloima's",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 2,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/14 - Simchas Torah/5784/Simchas Torah 5784.docx",
+          "context": "...ould not be used. Rav Pam bent down and whispered something into Nota Shloima’s ear. All that could be heard was Nota Shloima’s soft, compliant reply, “Okay.” ..."
+        },
+        {
+          "filePath": "Files/06 - Yom Tov/14 - Simchas Torah/5784/Simchas Torah 5784.docx",
+          "context": "...d something into Nota Shloima’s ear. All that could be heard was Nota Shloima’s soft, compliant reply, “Okay.” And with that, Nota Shloima quietly went back to..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:54.906Z"
+    },
+    "shmooze": {
+      "word": "shmooze",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 2,
+      "files": 2,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/09 - Rosh Hashana/5786/Rosh Hashana 5786.docx",
+          "context": "... you. However, I cannot give it to you now in a regular, in a regular shmooze. If anyone’s interested to hear it, you have to come back tonight at 3:00 in th..."
+        },
+        {
+          "filePath": "Files/06 - Yom Tov/12 - Hoshana Raba/5786/Hoshana Raba 5786.docx",
+          "context": "...fson’s shoomzen have been translated into English. He has a beautiful shmooze which he quotes from the אמרי אמת, the Gerrer Rebbe, on הושענא רבה. הושענא רבה..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:55.861Z"
+    },
+    "taka": {
+      "word": "taka",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 2,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/07 - Misc/Rabbi Oelbaum Shabbos/Shabbos - The Gift of Olam Haba in This World.docx",
+          "context": "...e the top and the bottom, so we have six sides. And that's why we say taka six times הכל which is כנגד all of the חלקים that we have in the בריאה, which i..."
+        },
+        {
+          "filePath": "Files/07 - Misc/Rabbi Oelbaum Shabbos/Shabbos - The Gift of Olam Haba in This World.docx",
+          "context": "... the word היא with a י, the קרי is with a י, to tell us that although taka we are living in עולם הזה, so באמת עולם הזה basically is a ו because עולם הזה i..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:57.132Z"
+    },
+    "trup": {
+      "word": "trup",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 2,
+      "files": 2,
+      "examples": [
+        {
+          "filePath": "Files/02 - Shemos/06 - Mishpatim/5783/Mishpatim 5783.docx",
+          "context": "...o? Both boys had put in months of preparation, learning the words and trup of their פרשה and were eager to perform, but they couldn’t both lein. With no c..."
+        },
+        {
+          "filePath": "Files/06 - Yom Tov/19 - Purim/5784/Purim 5784.docx",
+          "context": "...n depicting the joy of the ישועה in the second half of the מגילה. The trup frequently is even exactly the same. Here are a few examples that he brings dow..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:58.152Z"
+    },
+    "vav": {
+      "word": "vav",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 2,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/09 - Pinchas/5783/Pinchas 5783.docx",
+          "context": "...of the very rare letters in the Torah which has a special aspect. The vav is called a ו קטיעא. It’s a vav with a split in it. Normally, any letter in the..."
+        },
+        {
+          "filePath": "Files/04 - Bamidbar/09 - Pinchas/5783/Pinchas 5783.docx",
+          "context": "...Torah which has a special aspect. The vav is called a ו קטיעא. It’s a vav with a split in it. Normally, any letter in the Torah with a split in it is פסו..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:59.081Z"
+    },
+    "yarmulke": {
+      "word": "yarmulke",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 2,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/09 - Rosh Hashana/5784/Rosh Hashana 5784.docx",
+          "context": "...soon as I came to his house, I was astonished to see he was wearing a yarmulke, and not a כיפה סרוגה, a big yarmulke. I thought to myself, “Maybe he put this ..."
+        },
+        {
+          "filePath": "Files/06 - Yom Tov/09 - Rosh Hashana/5784/Rosh Hashana 5784.docx",
+          "context": "...onished to see he was wearing a yarmulke, and not a כיפה סרוגה, a big yarmulke. I thought to myself, “Maybe he put this on to make me feel comfortable”. I cam..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:49:59.829Z"
+    },
+    "bergen-belsen": {
+      "word": "bergen-belsen",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 3,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/15 - Chanukah/5783/Chanukah 5783.docx",
+          "context": "... my favorite חנוכה story. In one of the last transports to arrive in Bergen-Belsen, one of the notorious concentration camps of the יִמַּח שְׁמם Nazis, toward the..."
+        },
+        {
+          "filePath": "Files/06 - Yom Tov/15 - Chanukah/5783/Chanukah 5783.docx",
+          "context": "... he said, “I hear that you had the honor of lighting חנוכה candles in Bergen-Belsen.” R' Shmelke was surprised. How had the Rebbe known? R' Yoel bent over and whis..."
+        },
+        {
+          "filePath": "Files/06 - Yom Tov/15 - Chanukah/5783/Chanukah 5783.docx",
+          "context": "...s, and the wicks in the hole near the fence where I was imprisoned in Bergen-Belsen, the year before you, before my miraculous escape.” The Rebbe smiled. “I knew t..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:50:01.404Z"
+    },
+    "blatt": {
+      "word": "blatt",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 3,
+      "files": 2,
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/10 - Matos-Maasei/5783/Matos-Maasei 5783.docx",
+          "context": "...g him a גמרא בבא מציעא. Holding it in his hand, he finished the eight blatt of בבא מציעא that night. After יום טוב, he was admitted to a hospital where th..."
+        },
+        {
+          "filePath": "Files/04 - Bamidbar/10 - Matos-Maasei/5783/Matos-Maasei 5783.docx",
+          "context": "...d not even concentrate. He never missed one day of learning his eight blatt. It serves as a model to us of what we could strive for. He once said, “After s..."
+        },
+        {
+          "filePath": "Files/06 - Yom Tov/07 - 15 Av/5785/15 Av 5785.docx",
+          "context": "... דבר תורה from the בני יששכר, who quotes the גמרא תענית ל״א ע״א a few blatt later:אָמַר רַבִּי אֶלְעָזָר: עָתִיד הַקָּדוֹשׁ בָּרוּךְ הוּא לַעֲשׂוֹת מָחוֹל ..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:50:02.174Z"
+    },
+    "chashuv": {
+      "word": "chashuv",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 3,
+      "files": 2,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/09 - Rosh Hashana/5784/Rosh Hashana 5784.docx",
+          "context": "...ed in the name of Rav Yitzchak Zilberstein, and he says as follows: a chashuv Yid told me that this is what happened to him on a recent trip to America. He ..."
+        },
+        {
+          "filePath": "Files/06 - Yom Tov/09 - Rosh Hashana/5784/Rosh Hashana 5784.docx",
+          "context": "...eone standing by my side. I turned around and I saw a tall, handsome, chashuv Yid. He smiled at me with a radiance on his face and asked, “Tell me my friend,..."
+        },
+        {
+          "filePath": "Files/07 - Misc/Rabbi Oelbaum Shabbos/Shabbos - The Gift of Olam Haba in This World.docx",
+          "context": "...י ה׳ מקדשכם\" אמר הקב\"ה למשה משה מתנה טובה יש לי בבית גנזי\" - I have a chashuv מתנה, a good מתנה, in my treasure house, ושבת שמה ואני מבקש לתנה לישראל לך והוד..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:50:05.657Z"
+    },
+    "duchaned": {
+      "word": "duchaned",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 3,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/01 - Bamidbar/5784/Bamidbar 5784.docx",
+          "context": "... you’re not particularly involved.” The man replies, “Well, my father duchaned, and his father duchaned, and my grandfather duchaned. So I’d like to duchan to..."
+        },
+        {
+          "filePath": "Files/04 - Bamidbar/01 - Bamidbar/5784/Bamidbar 5784.docx",
+          "context": "...involved.” The man replies, “Well, my father duchaned, and his father duchaned, and my grandfather duchaned. So I’d like to duchan too.” The point is clear: ..."
+        },
+        {
+          "filePath": "Files/04 - Bamidbar/01 - Bamidbar/5784/Bamidbar 5784.docx",
+          "context": "...Well, my father duchaned, and his father duchaned, and my grandfather duchaned. So I’d like to duchan too.” The point is clear: we all have to find our own w..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:50:07.068Z"
+    },
+    "elyasaf's": {
+      "word": "elyasaf's",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 3,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/03 - Vayikra/02 - Tzav/5785/Tzav 5785.docx",
+          "context": "...e was the artwork - the images painted on the walls of their shelter. Elyasaf’s phone erupted with calls and messages from frantic family members. The only clu..."
+        },
+        {
+          "filePath": "Files/03 - Vayikra/02 - Tzav/5785/Tzav 5785.docx",
+          "context": "...green dress holding a white balloon. Call after call described one of Elyasaf’s murals, but he knew exactly where each shelter was because he remembered every ..."
+        },
+        {
+          "filePath": "Files/03 - Vayikra/02 - Tzav/5785/Tzav 5785.docx",
+          "context": "...le to believe this. Really? For me, the entire world was created? But Elyasaf’s story proves it so. There was something only he could accomplish - something no..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:50:11.783Z"
+    },
+    "kanievsky's": {
+      "word": "kanievsky's",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 3,
+      "files": 2,
+      "examples": [
+        {
+          "filePath": "Files/02 - Shemos/09 - Ki Sisa/5785/Ki Sisa 5785.docx",
+          "context": "...en. There is a fascinating story in R’ Chaim’s sefer about Rebbetzin Kanievsky’s father R’ Elyashiv זצ\"ל. She relates that when she was a little girl, about ten..."
+        },
+        {
+          "filePath": "Files/02 - Shemos/09 - Ki Sisa/5785/Ki Sisa 5785.docx",
+          "context": "... this קאַפּיטל, despite not knowing why. Many years later, Rebbetzin Kanievsky’s son-in-law told her an interesting story. In the ישיבה of חברון, there was a gr..."
+        },
+        {
+          "filePath": "Files/03 - Vayikra/13 - Behar-Bechukosai/5785/Behar-Bechukosai 5785.docx",
+          "context": "Behar/Bechukosai 5785 R’ Chaim Kanievsky’s sefer on chumash by Rabbi Shai Graucher, quotes the pasuk from פרשת בהר (25:21)..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:50:13.335Z"
+    },
+    "meir'l's": {
+      "word": "meir'l's",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 3,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/13 - Shmini Atzeres/5784/Shmini Atzeres 5784.docx",
+          "context": "... brought down in חיים שיש בהם. One year, at this time of the year, R’ Meir’l’s daughter became gravely ill. When שמחת תורה came, she was actually closer to מי..."
+        },
+        {
+          "filePath": "Files/06 - Yom Tov/13 - Shmini Atzeres/5784/Shmini Atzeres 5784.docx",
+          "context": "... תורה came, she was actually closer to מיתה than to חיים. However, R’ Meir’l’s עבודה was unchanged. Exactly as he did every other year, he was שמח בשמחת תורה ..."
+        },
+        {
+          "filePath": "Files/06 - Yom Tov/13 - Shmini Atzeres/5784/Shmini Atzeres 5784.docx",
+          "context": "... be משמח on שמחת תורה, and Meir’l is having the שמחה. But you made R’ Meir’l’s daughter sick. And Meir’l has to be מקבל this situation בשמחה, as חז\"ל say (ברכ..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:50:15.384Z"
+    },
+    "paskin": {
+      "word": "paskin",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 3,
+      "files": 3,
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/06 - Chukas/5784/Chukas (2)/Chukas 5784 (2).docx",
+          "context": "...individual who is טהור can even sprinkle on many טמא individuals.” We paskin that להלכה. The question is, what does “I learned this from the אוצרות של יבנה”..."
+        },
+        {
+          "filePath": "Files/06 - Yom Tov/01 - Pesach/5783/Dvar Torah/Dvar Torah Pesach 5783.docx",
+          "context": "...ים , רבי יהודה says it’s אסור בהנאה מדאורייתא, and the חכמים (whom we paskin like) say it’s אסור בהנאה מדרבנן. Why? Because it is a קנס that the רבנן impose..."
+        },
+        {
+          "filePath": "Files/06 - Yom Tov/17 - Tu Beshvat/5785/Tu Beshvat 5785.docx",
+          "context": "...here we find the famous מחלוקת between בית שמאי and בית הלל. While we paskin like בית הלל that it falls on ט״ו בשבט, the timing is still notable. שבט comes ..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:50:16.286Z"
+    },
+    "sefarim": {
+      "word": "sefarim",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 3,
+      "files": 3,
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/07 - Vayaitzei/5784/Vayaitzei 5784.docx",
+          "context": "... When someone asked רב חיים why he gave up the rights to his father’s sefarim, he responded with his characteristic humility: “אבא lived in her house for man..."
+        },
+        {
+          "filePath": "Files/03 - Vayikra/13 - Behar-Bechukosai/5785/Behar-Bechukosai 5785.docx",
+          "context": "...llel, sat down in the בית מדרש and learned, which is exactly what the sefarim say שמיטה is all about. To feed their livestock, the farmers would plant specia..."
+        },
+        {
+          "filePath": "Files/06 - Yom Tov/08 - Elul/5785/Elul 5785.docx",
+          "context": "...iant משפחה. I cannot say enough words about R’ Gedalia Schorr and his sefarim. This sefer is only a dim reflection of his גדלות. He ties together פרשת שופטי..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:50:17.165Z"
+    },
+    "shmutz": {
+      "word": "shmutz",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 3,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/03 - Behaloscha/5783/Behaloscha 5783.docx",
+          "context": "... he stopped along the roadside and picked up some pebbles, rocks, and shmutz, and added them to one side of the basket. When he came before the Kaiser, the ..."
+        },
+        {
+          "filePath": "Files/04 - Bamidbar/03 - Behaloscha/5783/Behaloscha 5783.docx",
+          "context": "...cious!” Then רבי עקיבא told him to taste a little bit of the sand and shmutz. The Kaiser took some of the sand and shmutz and spat it out. רבי עקיבא said, “..."
+        },
+        {
+          "filePath": "Files/04 - Bamidbar/03 - Behaloscha/5783/Behaloscha 5783.docx",
+          "context": "...ttle bit of the sand and shmutz. The Kaiser took some of the sand and shmutz and spat it out. רבי עקיבא said, “You see whose achievements are greater.” To w..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:50:18.583Z"
+    },
+    "shtark": {
+      "word": "shtark",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 3,
+      "files": 3,
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/09 - Vayaishev/5784/Vayaishev 5784.docx",
+          "context": "...ּוֹ, which I’ve said to you before, and I still believe and hold very shtark, is the right answer for all of our צרות. All the efforts we make - whether for..."
+        },
+        {
+          "filePath": "Files/02 - Shemos/01 - Shemos/5785/Shemos 5785.docx",
+          "context": "...mes to prevent embarrassment. Both the חזון איש and the Steipler were shtark on this ענין. The זוהר, as quoted by R’ Chaim, explains that the letters of a ..."
+        },
+        {
+          "filePath": "Files/07 - Misc/Rabbi Oelbaum Shabbos/Shabbos - The Gift of Olam Haba in This World.docx",
+          "context": "...ִשְׂרָאֵל אֶת הַשַּׁבָּת. And באמת we have here basically we have two shtark קושיות: first of all, what are we saying that משה רבינו שְׁנֵי לוּחוֹת אֲבָנִים..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:50:19.976Z"
+    },
+    "avram's": {
+      "word": "avram's",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 4,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/03 - Lech Lecha/5786/ Lech Lecha (1)/Lech Lecha 5786 (1).docx",
+          "context": "...אֵלָיו ה׳ וַיֵּלֶךְ אִתּוֹ לוֹט בְּצֵאתוֹ מֵחָרָן - This recitation of Avram’s age breaks up the narrative of Avram’s leaving. What purpose is served by givin..."
+        },
+        {
+          "filePath": "Files/01 - Bereshis/03 - Lech Lecha/5786/ Lech Lecha (1)/Lech Lecha 5786 (1).docx",
+          "context": "...ֹ מֵחָרָן - This recitation of Avram’s age breaks up the narrative of Avram’s leaving. What purpose is served by giving us his age in the middle of this pasu..."
+        },
+        {
+          "filePath": "Files/01 - Bereshis/03 - Lech Lecha/5786/ Lech Lecha (1)/Lech Lecha 5786 (1).docx",
+          "context": "...suk reveals to us in a subtle fashion Lot’s ulterior motive. What was Avram’s motive? To do the דבר השם, as the pasuk says כַּאֲשֶׁר דִּבֶּר אֵלָיו ה׳. What wa..."
+        },
+        {
+          "filePath": "Files/01 - Bereshis/03 - Lech Lecha/5786/ Lech Lecha (1)/Lech Lecha 5786 (1).docx",
+          "context": "...rom Sarah, who is not a יורש, he is his closest living relative. He’s Avram’s יורש. Avram was a rich man. There’s all the reason in the world to stick with h..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:50:22.920Z"
+    },
+    "duchaning": {
+      "word": "duchaning",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 4,
+      "files": 3,
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/01 - Bamidbar/5784/Bamidbar 5784.docx",
+          "context": "...i says no. Finally, the rabbi asks him, “Why are you so interested in duchaning? You barely show up to shul, you never come to davening, and when you do, you’r..."
+        },
+        {
+          "filePath": "Files/04 - Bamidbar/02 - Naso/5783/Naso 5783.docx",
+          "context": "...ck home. Is he allowed to duchan with the other כהנים who are who are duchaning on יום טוב שני של גלויות? R’ Brisk answered לענית דעתי - In my humble opinion, ..."
+        },
+        {
+          "filePath": "Files/04 - Bamidbar/02 - Naso/5784/Naso 5784.docx",
+          "context": "... כהנים are speaking to כלל ישראל, the ציבור standing listening to the duchaning. And yet, every single word in the duchaning is in לשון יחיד, it says יברכך, no..."
+        },
+        {
+          "filePath": "Files/04 - Bamidbar/02 - Naso/5784/Naso 5784.docx",
+          "context": "...tanding listening to the duchaning. And yet, every single word in the duchaning is in לשון יחיד, it says יברכך, not יברככם, and וישמרך, not וישמרכם. Why is tha..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:50:24.436Z"
+    },
+    "levaya": {
+      "word": "levaya",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 4,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/03 - Vayikra/07 - Achrei Mos/5784/Achrei Mos 5784.docx",
+          "context": "...hok Elchonon Spector of Kovno. The גמרא in כתובות relates that at the levaya of רבי יהודה הנשיא, a בת קול proclaimed that all who participated in his levaya..."
+        },
+        {
+          "filePath": "Files/03 - Vayikra/07 - Achrei Mos/5784/Achrei Mos 5784.docx",
+          "context": "...רבי יהודה הנשיא, a בת קול proclaimed that all who participated in his levaya were ראוי for חיי העולם הבא. The קשיא is: Why was such a בת קול made specifical..."
+        },
+        {
+          "filePath": "Files/03 - Vayikra/07 - Achrei Mos/5784/Achrei Mos 5784.docx",
+          "context": "...tendance, because who knows if they had done תשובה or not? But at the levaya of רבי יהודה הנשיא, as a tremendous expression of הכרת הטוב and respect for his..."
+        },
+        {
+          "filePath": "Files/03 - Vayikra/07 - Achrei Mos/5784/Achrei Mos 5784.docx",
+          "context": "...יד was so great that it was able to be מזכה all those who were at the levaya of רבי יהודה הנשיא with חיי עולם הבא regardless of their תשובה status. It is a..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:50:25.303Z"
+    },
+    "moshe's": {
+      "word": "moshe's",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 4,
+      "files": 4,
+      "examples": [
+        {
+          "filePath": "Files/02 - Shemos/04 - Beshalach/5784/Beshalach 5784.docx",
+          "context": "...asking why their situation worsened after He had promised redemption. Moshe’s טַעֲנָה was against הקדוש ברוך הוא, but his כוונה was as a defense of כלל ישראל..."
+        },
+        {
+          "filePath": "Files/04 - Bamidbar/06 - Chukas/5784/Chukas (1)/Chukas 5784 (1).docx",
+          "context": "...ughout all generations, for all time, the פרה אדומה will be called in Moshe’s name. What is Rashi saying here? It’s brought down from the Torah Treasures tha..."
+        },
+        {
+          "filePath": "Files/04 - Bamidbar/07 - Balak/5784/Balak 5784.docx",
+          "context": "...e conduit, through the channel of his נשמה, as through colored glass. Moshe’s level of קדושה was on such a high מדרגה that it’s called אספקלריא המאירה. It wa..."
+        },
+        {
+          "filePath": "Files/04 - Bamidbar/10 - Matos-Maasei/5784/Matos-Maasei 5784.docx",
+          "context": "...ֶׁר צִוָּה ה׳, while the other נביאים said כה אמר ה׳ to tell you that Moshe’s level of נבואה was on a significantly higher מדרגה. But if we think about it fo..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:50:26.214Z"
+    },
+    "shidduch": {
+      "word": "shidduch",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 4,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/03 - Vayikra/11 - Behar/5784/Behar 5784.docx",
+          "context": "...ות. Parshas Behar has a lot of significance in that it represents the shidduch between הקדוש ברוך הוא and כלל ישראל. We know that one of the most important un..."
+        },
+        {
+          "filePath": "Files/03 - Vayikra/11 - Behar/5784/Behar 5784.docx",
+          "context": "...e of the most important underpinnings of any relationship, of which a shidduch is the ultimate, is אני לדודי ודודי לי - What can I do for you and what can you..."
+        },
+        {
+          "filePath": "Files/03 - Vayikra/11 - Behar/5784/Behar 5784.docx",
+          "context": "...they want. So there are a lot of aspects here which tie פרשת בהר to a shidduch, and therefore the following story from “The Weekly Vort” is relevant. A widow..."
+        },
+        {
+          "filePath": "Files/03 - Vayikra/11 - Behar/5784/Behar 5784.docx",
+          "context": "...be a discomfort was the vehicle by which Hashem sent the long-awaited shidduch for my son.” I thought that was such an adorable story, I could not resist but ..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:50:27.141Z"
+    },
+    "velt": {
+      "word": "velt",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 4,
+      "files": 3,
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/02 - Naso/5783/Naso 5783.docx",
+          "context": "... many of the פסוקים are repeated over and over again. There’s a whole velt of תורה on why the Torah chose to repeat each נשיא’s קרבן individually rather t..."
+        },
+        {
+          "filePath": "Files/05 - Devarim/04 - Re'eh/5783/Re'eh 5783.docx",
+          "context": "... in every פרשה has מזל, because every first pasuk of every פרשה has a velt of torah on it, and פרשת ראה is no exception. The first pasuk has a velt of tor..."
+        },
+        {
+          "filePath": "Files/05 - Devarim/04 - Re'eh/5783/Re'eh 5783.docx",
+          "context": "...t of torah on it, and פרשת ראה is no exception. The first pasuk has a velt of torah: רְאֵה אָנֹכִי נֹתֵן לִפְנֵיכֶם הַיּוֹם בְּרָכָה וּקְלָלָה. There’s so..."
+        },
+        {
+          "filePath": "Files/05 - Devarim/06 - Ki Seitzei/5785/Ki Seitzei 5785.docx",
+          "context": "... it’s just shows you how a Yid can have an effect on the whole goyish velt and make a tremendous impact. Many people have gotten out of traffic tickets t..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:50:28.008Z"
+    },
+    "b'ezras": {
+      "word": "b'ezras",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 5,
+      "files": 2,
+      "examples": [
+        {
+          "filePath": "Files/03 - Vayikra/13 - Behar-Bechukosai/5785/Behar-Bechukosai 5785.docx",
+          "context": "...ot allowed. The הלכות are there, it’s all in the גמרא and שולחן ערוך. B’ezras Hashem, may we have the זכות to be able to merit fulfilling these מצוות very qu..."
+        },
+        {
+          "filePath": "Files/05 - Devarim/03 - Eikev/5783/Eikev 5783.docx",
+          "context": "...o limit our vista and say “Hashem, with your help, I can do anything. B’ezras Hashem I can make a parnassa, b’ezras Hashem I can help a sick person get bette..."
+        },
+        {
+          "filePath": "Files/05 - Devarim/03 - Eikev/5783/Eikev 5783.docx",
+          "context": "...h your help, I can do anything. B’ezras Hashem I can make a parnassa, b’ezras Hashem I can help a sick person get better.” In this week’s פרשה of עקב is the..."
+        },
+        {
+          "filePath": "Files/05 - Devarim/03 - Eikev/5783/Eikev 5783.docx",
+          "context": "...you think?” The truth is if we want to get something done, it is only b’ezras Hashem. The word אֶת represents א׳ to ת׳, which means everything in the entire..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:50:29.187Z"
+    },
+    "yaakov's": {
+      "word": "yaakov's",
+      "status": "allow",
+      "correction": null,
+      "note": null,
+      "count": 6,
+      "files": 1,
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/10 - Yom Kippur/5784/Yom Kippur 5784.docx",
+          "context": "...arth guy, definitely not the someone-came-to-me-in-a-dream type. When Yaakov’s mother passed away, she left a terrible void. In her will she instructed her tw..."
+        },
+        {
+          "filePath": "Files/06 - Yom Tov/10 - Yom Kippur/5784/Yom Kippur 5784.docx",
+          "context": "... between you.” Her possessions included a number of estates. However, Yaakov’s sibling lived in one of them. The property was actually legally under Yaakov’s ..."
+        },
+        {
+          "filePath": "Files/06 - Yom Tov/10 - Yom Kippur/5784/Yom Kippur 5784.docx",
+          "context": "...sibling lived in one of them. The property was actually legally under Yaakov’s name, and therefore he felt that this particular estate was not among the posse..."
+        },
+        {
+          "filePath": "Files/06 - Yom Tov/10 - Yom Kippur/5784/Yom Kippur 5784.docx",
+          "context": "...wallow the loss. Their attention then turned to the other properties. Yaakov’s sibling asked to buy out the remaining estates for their then market value, whi..."
+        }
+      ],
+      "reviewedAt": "2026-07-23T19:50:30.079Z"
+    }
+  }
+}

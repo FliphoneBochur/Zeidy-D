@@ -2,10 +2,15 @@
   "name": "zeidy-d",
   "private": true,
   "scripts": {
+    "apply-reviewed-spelling": "node apply-reviewed-spelling.js",
     "build-typeset-proof": "node build-typeset-proof.js",
     "choose-route-titles": "node choose-route-titles.js",
+    "editorial-scan": "node editorial-scan.js",
     "fix-docx-spacing": "node fix-docx-spacing.js",
-    "generate-qr-codes": "node generate-qr-codes.js"
+    "generate-qr-codes": "node generate-qr-codes.js",
+    "review-spelling": "node review-spelling-candidates.js",
+    "replace-docx-text": "node replace-docx-text.js",
+    "scan-bidi-risks": "node scan-bidi-risks.js"
   },
   "dependencies": {
     "qrcode": "1.5.4"

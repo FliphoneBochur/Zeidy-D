@@ -38,6 +38,10 @@ npm run build-typeset-proof -- --route /bereshis/5784/ --route /noach/5786/
 npm run build-typeset-proof -- --all --output book-6x9
 npm run choose-route-titles -- --dry-run
 npm run choose-route-titles
+npm run editorial-scan
+npm run review-spelling
+npm run apply-reviewed-spelling
+npm run scan-bidi-risks
 ```
 
 Outputs are written to `typeset/`, for example:
@@ -67,6 +71,7 @@ Pandoc already supports Typst output, so the `.docx` files can stay as the sourc
 ## Known Risks
 
 - Mixed Hebrew/English line breaking needs visual review. The source PDFs can look fine even when extracted text has literal missing spaces.
+- Mixed Hebrew/English punctuation can render in surprising visual order if Hebrew runs are not isolated in the generated Typst.
 - Pandoc's Typst output preserves paragraphs well, but not all Word layout details should be trusted without proofing.
 - QR images are included from each leaf directory by basename. Missing or mismatched QR filenames will fail the build.
 - The current proof uses the first routes in `routes.json` by default, not the full book.
@@ -78,3 +83,39 @@ Pandoc already supports Typst output, so the `.docx` files can stay as the sourc
 3. Decide footer behavior and preferred trim size.
 4. Add a full-book build mode once the proof styling is acceptable.
 5. Add section/chumash dividers and table of contents after the article-level layout is stable.
+
+## Editorial Review
+
+`editorial-scan.js` creates `editorial-report.md` for human review. It does not edit Word documents.
+
+The report includes:
+
+- possible spelling errors after dictionary and Torah-term allowlist filtering
+- possible joined English words
+- known variant spellings such as `Yom Kippur` / `Yom Kipper`
+- punctuation and capitalization variants
+
+All edits remain manual until an explicit apply workflow is designed.
+
+`review-spelling-candidates.js` reads the spelling candidates from `editorial-report.md` and prompts through them one at a time. It records decisions in `spelling-review.json`:
+
+- `allow`: the word is correct and should not be fixed
+- `fix`: the word needs correction, with the approved replacement
+- `unsure`: needs later review
+
+This review script also does not edit Word documents.
+
+`apply-reviewed-spelling.js` applies only entries in `spelling-review.json` that were marked `fix` with a correction. It edits the matching `.docx` files in place.
+
+`replace-docx-text.js` is a more general exact replacement helper. It is dry-run by default and edits `.docx` files only with `--apply`, for example:
+
+```sh
+npm run replace-docx-text -- --from Kipper --to Kippur --word
+npm run replace-docx-text -- --from Kipper --to Kippur --word --apply
+```
+
+## Bidi Review
+
+`scan-bidi-risks.js` creates `bidi-risk-report.md`. It does not edit Word documents. It scans extracted document text for mixed Hebrew/English patterns that are more likely to render incorrectly in the typeset PDF, especially Hebrew near punctuation or numbers.
+
+The typesetting build wraps Hebrew phrases in Unicode RTL isolates before Typst compilation. This keeps English paragraph flow left-to-right while letting each Hebrew phrase render in its own right-to-left context. The wrapper spans whitespace/newlines inside Hebrew phrases, so a phrase like `הקדוש ברוך הוא` stays together even if Pandoc wrapped the generated Typst source between words. Hebrew acronym-style tokens with internal quotes, such as `רש"י`, `רמב"ם`, and `ש"ך`, are handled as separate protected acronym tokens so the quote mark does not split the word. Adjacent citation tokens like `ס׳ ע״ב` are protected as one sequence so their order does not reverse inside English parentheses. Extracted `, ,Hebrew phrase English` cases are normalized to `, Hebrew phrase, English`, for example `משה, אֱחוֹז בְּכִסֵּא כְבוֹדִי, symbolizes`. Punctuation remains outside the isolate so examples like `3,000 משלים. שלמה המלך understood` keep the intended visual order.
