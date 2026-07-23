@@ -1,0 +1,10 @@
+{
+  "name": "zeidy-d",
+  "private": true,
+  "scripts": {
+    "generate-qr-codes": "node generate-qr-codes.js"
+  },
+  "dependencies": {
+    "qrcode": "1.5.4"
+  }
+}
