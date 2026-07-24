@@ -421,12 +421,20 @@ function normalizeMisplacedHebrewCommas(typstContent) {
   });
 }
 
+function keepIndexMarkersAfterPunctuation(typstContent) {
+  return typstContent.replace(
+    /(#metadata\(none\)\s*<[^>\n]+>)[\s\u00A0\u202F]*([,;:.!?])([ \t\u00A0\u202F]*)/g,
+    (_match, marker, punctuation, trailingSpace) =>
+      `${punctuation}${marker}${trailingSpace}`
+  );
+}
+
 function normalizePunctuationSpacing(typstContent) {
-  return typstContent
+  return keepIndexMarkersAfterPunctuation(typstContent)
     .replace(/\u2014/g, "-")
     .replace(MALFORMED_ESCAPED_OPEN_HEBREW_CITATION_RE, "($1): ")
     .replace(MALFORMED_ESCAPED_OPEN_NUMERIC_CITATION_RE, "($1): ")
-    .replace(/\s+([,;:])/g, "$1")
+    .replace(/[\s\u00A0\u202F]+([,;:.!?])/g, "$1")
     .replace(/([,;:])\s*/g, "$1 ")
     .replace(/,\s*,\s*/g, ", ")
     .replace(/(\d+):\s+(\d+)/g, "$1:$2")
