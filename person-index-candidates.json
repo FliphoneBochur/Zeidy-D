@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-24T13:05:17.096Z",
+  "generatedAt": "2026-07-24T14:21:51.931Z",
   "documentsScanned": 221,
   "reviewFile": "person-index-review.json",
   "candidates": [
@@ -2145,7 +2145,7 @@
         {
           "filePath": "Files/06 - Yom Tov/11 - Sukkos/5785/Sukkos 5785.docx",
           "source": "capitalized",
-          "context": "...llowing vort is from the sefer חיים שיש בהם, which quotes the משך חכמה, written Meir Simcha from Dvinsk. He has fascinating insights into all the מצוות in the Torah, which we can di..."
+          "context": "...wing vort is from the sefer חיים שיש בהם, which quotes the משך חכמה, written by Meir Simcha from Dvinsk. He has fascinating insights into all the מצוות in the Torah, which we can di..."
         }
       ]
     },
@@ -9968,6 +9968,25 @@
       ]
     },
     {
+      "key": "גר\"א",
+      "value": "גר\"א",
+      "language": "hebrew",
+      "sources": [
+        "hebrew-acronym"
+      ],
+      "count": 1,
+      "files": [
+        "Files/01 - Bereshis/06 - Toldos/5786/Toldos 5786.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/06 - Toldos/5786/Toldos 5786.docx",
+          "source": "hebrew-acronym",
+          "context": "...at the same time. How do we understand what the מדרש is trying to tell us? The גר\"א in his inimitable style points out an interesting fact. The מדרש says,בזמן שהקול קול יעקב..."
+        }
+      ]
+    },
+    {
       "key": "גר״א",
       "value": "גר״א",
       "language": "hebrew",
@@ -10119,25 +10138,6 @@
           "filePath": "Files/05 - Devarim/03 - Eikev/5785/Eikev 5785.docx",
           "source": "hebrew-title",
           "context": "...nted to understand more, and to do a חשבון himself. The author of אהבת תורה was הגאון רב פנחס זאמען סגל, who lived in Poland and was born in Krakow in the year ת״ר. He gives a short biography o..."
-        }
-      ]
-    },
-    {
-      "key": "הגר״א",
-      "value": "הגר״א",
-      "language": "hebrew",
-      "sources": [
-        "hebrew-acronym"
-      ],
-      "count": 1,
-      "files": [
-        "Files/01 - Bereshis/06 - Toldos/5786/Toldos 5786.docx"
-      ],
-      "examples": [
-        {
-          "filePath": "Files/01 - Bereshis/06 - Toldos/5786/Toldos 5786.docx",
-          "source": "hebrew-acronym",
-          "context": "...at the same time. How do we understand what the מדרש is trying to tell us? The הגר״א in his inimitable style points out an interesting fact. The מדרש says,בזמן שהקול קול יעקב..."
         }
       ]
     },
@@ -10733,43 +10733,20 @@
       ]
     },
     {
-      "key": "מעינה של התורה",
-      "value": "מעינה של התורה",
-      "language": "hebrew",
-      "sources": [
-        "hebrew-sefer-title"
-      ],
-      "count": 2,
-      "files": [
-        "Files/02 - Shemos/08 - Tetzaveh/5783/Tetzaveh 5783.docx"
-      ],
-      "examples": [
-        {
-          "filePath": "Files/02 - Shemos/08 - Tetzaveh/5783/Tetzaveh 5783.docx",
-          "source": "hebrew-sefer-title",
-          "context": "... Many פשטים are offered, but one of the simplest yet most meaningful comes from ספר מעינה של התורה, quoting the הדרש והעיון. A person’s life can be divided into two phases: the first h..."
-        },
-        {
-          "filePath": "Files/02 - Shemos/08 - Tetzaveh/5783/Tetzaveh 5783.docx",
-          "source": "hebrew-sefer-title",
-          "context": "... Many פשטים are offered, but one of the simplest yet most meaningful comes from ספר מעינה של התורה, quoting the הדרש והעיון. A person’s life can be divided into two phases: the first half ..."
-        }
-      ]
-    },
-    {
       "key": "מעינה של תורה",
       "value": "מעינה של תורה",
       "language": "hebrew",
       "sources": [
         "hebrew-sefer-title"
       ],
-      "count": 16,
+      "count": 18,
       "files": [
         "Files/01 - Bereshis/02 - Noach/5786/Noach 5786.docx",
         "Files/01 - Bereshis/03 - Lech Lecha/5784/Lech Lecha 5784.docx",
         "Files/01 - Bereshis/06 - Toldos/5784/Toldos 5784.docx",
         "Files/01 - Bereshis/09 - Vayaishev/5785/Vayaishev 5785.docx",
         "Files/02 - Shemos/05 - Yisro/5784/Yisro 5784.docx",
+        "Files/02 - Shemos/08 - Tetzaveh/5783/Tetzaveh 5783.docx",
         "Files/03 - Vayikra/04 - Tazria/5784/Tazria 5784.docx",
         "Files/04 - Bamidbar/05 - Korach/5784/Korach 5784.docx",
         "Files/04 - Bamidbar/07 - Balak/5785/Balak 5785.docx",
@@ -10819,12 +10796,12 @@
         {
           "filePath": "Files/06 - Yom Tov/11 - Sukkos/5785/Sukkos 5785.docx",
           "source": "hebrew-sefer-title",
-          "context": "...is a real שמחה. The following vort is from the sefer חיים שיש בהם, which quotes the משך חכמה, written Meir Simcha from Dvinsk. He has fascinating insights into all the מצוות in t..."
+          "context": "...is a real שמחה. The following vort is from the sefer חיים שיש בהם, which quotes the משך חכמה, written by Meir Simcha from Dvinsk. He has fascinating insights into all the מצוות i..."
         },
         {
           "filePath": "Files/06 - Yom Tov/11 - Sukkos/5785/Sukkos 5785.docx",
           "source": "hebrew-sefer-title",
-          "context": "... real שמחה. The following vort is from the sefer חיים שיש בהם, which quotes the משך חכמה, written Meir Simcha from Dvinsk. He has fascinating insights into all the מצוות in the T..."
+          "context": "... real שמחה. The following vort is from the sefer חיים שיש בהם, which quotes the משך חכמה, written by Meir Simcha from Dvinsk. He has fascinating insights into all the מצוות in th..."
         }
       ]
     },
@@ -11773,13 +11750,32 @@
       ]
     },
     {
+      "key": "רש\"י",
+      "value": "רש\"י",
+      "language": "hebrew",
+      "sources": [
+        "hebrew-acronym"
+      ],
+      "count": 1,
+      "files": [
+        "Files/02 - Shemos/08 - Tetzaveh/5783/Tetzaveh 5783.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/02 - Shemos/08 - Tetzaveh/5783/Tetzaveh 5783.docx",
+          "source": "hebrew-acronym",
+          "context": "...ֵנִי תַּעֲשֶׂה בֵּין הָעַרְבָּיִם, (שמות כ״ט:ל״ט) referring to the קרבן תמיד. [רש\"י points out that תמיד does not mean it was brought continuously without interruption, but ..."
+        }
+      ]
+    },
+    {
       "key": "רש״י",
       "value": "רש״י",
       "language": "hebrew",
       "sources": [
         "hebrew-acronym"
       ],
-      "count": 85,
+      "count": 84,
       "files": [
         "Files/01 - Bereshis/01 - Bereshis/5784/Bereshis 5784.docx",
         "Files/01 - Bereshis/03 - Lech Lecha/5784/Lech Lecha 5784.docx",
@@ -11799,7 +11795,6 @@
         "Files/02 - Shemos/05 - Yisro/5784/Yisro 5784.docx",
         "Files/02 - Shemos/07 - Teruma/5784/Teruma 5784.docx",
         "Files/02 - Shemos/07 - Teruma/5785/Teruma 5785.docx",
-        "Files/02 - Shemos/08 - Tetzaveh/5783/Tetzaveh 5783.docx",
         "Files/02 - Shemos/10 - Vayakel/5784/Vayakel 5784.docx",
         "Files/02 - Shemos/10 - Vayakel/5785/Vayakel 5785.docx",
         "Files/03 - Vayikra/01 - Vayikra/5784/Vayikrah 5784.docx",

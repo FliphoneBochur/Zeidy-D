@@ -880,6 +880,10 @@
       "contentPath": "07 - Misc/Bris",
       "baseFilename": "Bris"
     },
+    "/final-sefer/": {
+      "contentPath": "07 - Misc/Final Sefer",
+      "baseFilename": "Final Sefer"
+    },
     "/rabbi-oelbaum-haskama/": {
       "contentPath": "07 - Misc/Rabbi Oelbaum Haskama",
       "baseFilename": "Rabbi Oelbaum Haskama"
@@ -1110,6 +1114,7 @@
     "07 - Misc/About The Name": "/about-the-name/",
     "07 - Misc/Bloopers": "/bloopers/",
     "07 - Misc/Bris": "/bris/",
+    "07 - Misc/Final Sefer": "/final-sefer/",
     "07 - Misc/Rabbi Oelbaum Haskama": "/rabbi-oelbaum-haskama/",
     "07 - Misc/Rabbi Oelbaum Shabbos": "/rabbi-oelbaum-shabbos/"
   }

@@ -10,7 +10,7 @@ const ROOT_DIR = __dirname;
 const FILES_DIR = path.join(ROOT_DIR, "Files");
 const ROUTES_FILE = path.join(ROOT_DIR, "routes.json");
 const PERSON_INDEX_REVIEW_FILE = path.join(ROOT_DIR, "person-index-review.json");
-const OUTPUT_DIR = path.join(ROOT_DIR, "typeset");
+const OUTPUT_DIR = path.join(ROOT_DIR, "Files/07 - Misc/Final Sefer");
 const DOMAIN = "https://zeidyd.com";
 const FRONT_MATTER_ROUTES = ["/rabbi-oelbaum-haskama/", "/about-the-name/"];
 const NO_FOOTER_ROUTES = new Set(["/about-the-name/"]);
@@ -143,8 +143,8 @@ function parseArgs(argv) {
     throw new Error("--size must be 5x8 or 6x9");
   }
 
-  if (!/^[A-Za-z0-9._-]+$/.test(options.output)) {
-    throw new Error("--output must be a simple filename without spaces");
+  if (!/^[A-Za-z0-9._ -]+$/.test(options.output)) {
+    throw new Error("--output contains invalid filename characters");
   }
 
   return options;

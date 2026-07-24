@@ -8,7 +8,7 @@ This is a review-only report. No source documents were edited.
 
 - Documents scanned: 221
 - Candidates shown: 478
-- Ignored candidates hidden: 1592
+- Ignored candidates hidden: 1594
 
 ## Candidates
 
@@ -416,13 +416,13 @@ This is a review-only report. No source documents were edited.
 - `בעל קיצור שולחן ערוך`
 - `בעל שם`
 - `בעל שם טוב`
+- `גר"א`
 - `גר״א`
 - `דברי יושר`
 - `דברי יחזקאל`
 - `דברי שיח`
 - `דעת זקנים`
 - `הגאון רב פנחס זאמען סגל`
-- `הגר״א`
 - `הרא״ש`
 - `הראב״ד`
 - `הרי״ם`
@@ -442,7 +442,6 @@ This is a review-only report. No source documents were edited.
 - `מלבי״ם`
 - `מנחת אלעזר`
 - `מנחת חן`
-- `מעינה של התורה`
 - `מעינה של תורה`
 - `משך חכמה`
 - `עיטורי תורה`
@@ -480,6 +479,7 @@ This is a review-only report. No source documents were edited.
 - `רמב״ם`
 - `רמב״ן`
 - `רמח״ל`
+- `רש"י`
 - `רש״י`
 - `רש״ש`
 - `רשב״א`
