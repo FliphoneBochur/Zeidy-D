@@ -181,6 +181,14 @@ function titleFromBaseFilename(baseFilename) {
   return baseFilename.replace(/\s+/g, " ").trim();
 }
 
+function titleFromRouteSegment(segment) {
+  return segment
+    .replace(/^\d+\s*-\s*/, "")
+    .replace(/[-_]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function normalizeIndexKey(value) {
   return value
     .replace(/[\u0591-\u05C7]/g, "")
@@ -369,12 +377,23 @@ function normalizeTitle(value) {
     .toLowerCase();
 }
 
+function titleTokens(value) {
+  return normalizeTitle(value)
+    .replace(/['’‘]/g, " ")
+    .replace(/\b5\d{3}\b/g, "")
+    .replace(/\b\d+\b/g, "")
+    .replace(/\b[ivxlcdm]+\b/g, "")
+    .split(/\s+/)
+    .filter(Boolean);
+}
+
 function isParentheticalSubtitleLine(line) {
   return /^\([^)]{1,120}\)$/.test(line.trim());
 }
 
 function isDuplicateTitleLine(line, normalizedTitles) {
   const normalizedLine = normalizeTitle(line);
+  const lineTokens = new Set(titleTokens(line));
 
   for (const title of normalizedTitles) {
     if (!title) {
@@ -386,6 +405,14 @@ function isDuplicateTitleLine(line, normalizedTitles) {
     }
 
     if (normalizedLine.startsWith(`${title} (`) && normalizedLine.endsWith(")")) {
+      return true;
+    }
+
+    const candidateTokens = titleTokens(title);
+    if (
+      candidateTokens.length > 0 &&
+      candidateTokens.every((token) => lineTokens.has(token))
+    ) {
       return true;
     }
   }
@@ -434,6 +461,8 @@ function normalizePunctuationSpacing(typstContent) {
     .replace(/\u2014/g, "-")
     .replace(MALFORMED_ESCAPED_OPEN_HEBREW_CITATION_RE, "($1): ")
     .replace(MALFORMED_ESCAPED_OPEN_NUMERIC_CITATION_RE, "($1): ")
+    .replace(new RegExp(`(${HEBREW_LETTERS})(?=[A-Za-z])`, "gu"), "$1 ")
+    .replace(new RegExp(`([A-Za-z])(?=${HEBREW_LETTERS})`, "gu"), "$1 ")
     .replace(/[\s\u00A0\u202F]+([,;:.!?])/g, "$1")
     .replace(/([,;:])\s*/g, "$1 ")
     .replace(/,\s*,\s*/g, ", ")
@@ -562,12 +591,16 @@ async function loadEntries(options) {
       ? details.title.replace(/\s+/g, " ").trim()
       : baseTitle;
     const directory = path.join(FILES_DIR, details.contentPath);
+    const routeSegmentTitles = details.contentPath
+      .split("/")
+      .map(titleFromRouteSegment)
+      .filter(Boolean);
 
     return {
       route,
       url: new URL(route, DOMAIN).href,
       title,
-      sourceTitles: [title, baseTitle],
+      sourceTitles: [title, baseTitle, ...routeSegmentTitles],
       docxPath: path.join(directory, `${details.baseFilename}.docx`),
       qrPath: path.join(directory, `${details.baseFilename}.png`),
       hasFooter: !NO_FOOTER_ROUTES.has(route),

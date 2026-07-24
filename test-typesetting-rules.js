@@ -48,6 +48,13 @@ test("keeps person index markers after adjacent punctuation", () => {
   );
 });
 
+test("adds spaces between adjacent Hebrew and English words", () => {
+  assert.equal(
+    applyTextRules("we have מצוותwhich are נגד הטבע and quoted inמעינה"),
+    `we have ${RTL_ISOLATE}מצוות${POP_DIRECTIONAL_ISOLATE} which are ${RTL_ISOLATE}נגד הטבע${POP_DIRECTIONAL_ISOLATE} and quoted in ${RTL_ISOLATE}מעינה${POP_DIRECTIONAL_ISOLATE}`
+  );
+});
+
 test("adds space after citation before Hebrew quote", () => {
   assert.equal(
     normalizePunctuationSpacing("(שמות כ״א:ל״ז):כִּי"),
@@ -114,6 +121,33 @@ test("strips duplicate source title with next-line parenthetical subtitle", () =
       ["10 Teves 5785"]
     ),
     "The אבודרהם says"
+  );
+});
+
+test("strips duplicate source title when copy marker moves before year", () => {
+  assert.equal(
+    stripDuplicateTitle(
+      "Simchas Torah (1) 5786\n\nFor שמחת תורה",
+      ["Simchas Torah 5786 (1)"]
+    ),
+    "For שמחת תורה"
+  );
+});
+
+test("strips duplicate source title with alternate b av spelling", () => {
+  assert.equal(
+    stripDuplicateTitle("Tu B'Av 5784\n\nחמישה עשר באב", ["15 Av 5784"]),
+    "חמישה עשר באב"
+  );
+});
+
+test("strips duplicate source title using route segment context", () => {
+  assert.equal(
+    stripDuplicateTitle("Krovitz Purim 5783\n\nWe said this morning", [
+      "Krovitz",
+      "Purim",
+    ]),
+    "We said this morning"
   );
 });
 

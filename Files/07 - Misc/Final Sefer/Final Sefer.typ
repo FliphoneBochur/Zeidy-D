@@ -1486,8 +1486,8 @@ the ⁧יָּדַיִם יְדֵי עֵשָׂו⁩, the pasuk does not sound lik
 what the ⁧מדרש⁩ is trying to tell us?
 
 The ⁦גר\"א⁩ in his inimitable style points out an interesting fact. The
-⁧מדרש⁩ says, ⁧בזמן שהקול קול יעקב נשמע בבתי כנסיות⁩, both of those ⁧קול⁩s are
-⁧מלא⁩. When the⁧קול קול יעקב⁩, then ⁧אין הידים ידי עשו⁩.
+⁧מדרש⁩ says, ⁧בזמן שהקול קול יעקב נשמע בבתי כנסיות⁩, both of those ⁧קול⁩ s are
+⁧מלא⁩. When the ⁧קול קול יעקב⁩, then ⁧אין הידים ידי עשו⁩.
 
 If you look in the pasuk carefully, which of course is what we should
 always do, it says ⁧וַיֹּאמֶר הַקֹּל קוֹל יַעֲקֹב⁩. The first ⁧קֹל⁩ is a ⁧חסר⁩, it's
@@ -2513,8 +2513,6 @@ families, and all of ⁧כלל ישראל⁩.
 
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/vayechi/5783/", "../../01 - Bereshis/11 - Vayechi/5783/Vayechi 5783.png"))
 = Vayechi 5783
-
-Parshas Vayechi 5783
 
 R' Yoshe Ber Soloveichik, #metadata(none) <person-index-r-yoshe-ber-163> the Rav of ⁧כלל ישראל⁩, has a wonderful essay
 titled "The First Jewish Grandfather, " inspired by this week's ⁧פרשה⁩. It
@@ -4109,13 +4107,13 @@ great ⁧זכות⁩, a tremendous obligation, and a remarkable opportunity to
 constantly keep ⁧הקודש ברוך הוא⁩ in front of us at all times.
 
 This concept is brought down in this week's ⁧פרשה⁩, ⁧פרשת תצוה⁩, through an
-interesting ⁧פסוק⁩. In fact, a⁧מדרש פליאה⁩ uses this ⁧פסוק⁩ to make a
+interesting ⁧פסוק⁩. In fact, a ⁧מדרש פליאה⁩ uses this ⁧פסוק⁩ to make a
 fascinating point. The ⁧מדרש⁩ asks: which ⁧מצוה⁩, if you had to choose just
 one of the ⁦תרי\"ג מצוות⁩, includes all the other ⁧מצוות⁩? There is a ⁧מחלוקת⁩
 quoted in the introduction of ⁧הכותב⁩, a ⁧פירוש⁩ on ⁧עין יעקב⁩.
 
 ⁧בן זומא⁩ says it's ⁧שְׁמַע יִשְׂרָאֵל ה׳ אֱלֹקֵינוּ ה׳ אֶחָד⁩ ⁦(דברים ו:ד)⁩, where we are
-⁧מקבל אחדות השם⁩ and ⁧עול מלכות שמים⁩.⁧בן ננס⁩ says it's⁧וְאָהַבְתָּ לְרֵעֲךָ כָּמוֹךָ⁩ (⁦ויקרא
+⁧מקבל אחדות השם⁩ and ⁧עול מלכות שמים⁩.⁧בן ננס⁩ says it's ⁧וְאָהַבְתָּ לְרֵעֲךָ כָּמוֹךָ⁩ (⁦ויקרא
 י״ט⁩:⁦י״ח⁩) which pertains to ⁧בין אדם לחבירו⁩, a tremendously important
 ⁧יסוד⁩. Finally, ⁧שמעון בן פזי⁩ brings down the ⁧פסוק⁩ from our ⁧פרשה⁩: ⁧אֶת הַכֶּבֶשׂ
 הָאֶחָד תַּעֲשֶׂה בַבֹּקֶר וְאֵת הַכֶּבֶשׂ הַשֵּׁנִי תַּעֲשֶׂה בֵּין הָעַרְבָּיִם⁩, \⁦(שמות כ״ט:ל״ט)⁩ referring
@@ -4130,11 +4128,11 @@ was offered. Through this ⁧קרבן⁩, we represent, signify, and declare ⁧
 In fact, this is the ultimate purpose of all ⁧מצוות⁩. Every ⁧מצוה⁩ is
 designed to remind us that Hashem is always in front of us. He creates
 everything, orchestrates all situations, and no matter what circumstance
-we find ourselves in, it comes from ⁦הקב\"ה⁩. ⁧מצוות⁩ such as⁧שבת⁩, ⁧יום טוב⁩, ⁧ממונות⁩, ⁧נזיקין⁩, and ⁧קרבנות⁩ all teach and reinforce this ⁧יסוד⁩.
+we find ourselves in, it comes from ⁦הקב\"ה⁩. ⁧מצוות⁩ such as ⁧שבת⁩, ⁧יום טוב⁩, ⁧ממונות⁩, ⁧נזיקין⁩, and ⁧קרבנות⁩ all teach and reinforce this ⁧יסוד⁩.
 
 Why do we specifically have two ⁧קרבנות⁩ each day - one in the morning and
 one at night? Many ⁧פשטים⁩ are offered, but one of the simplest yet most
-meaningful comes from ⁧ספר מעינה של תורה⁩, #metadata(none) <person-index-m-eino-shel-torah-298> quoting the⁧הדרש והעיון⁩. A
+meaningful comes from ⁧ספר מעינה של תורה⁩, #metadata(none) <person-index-m-eino-shel-torah-298> quoting the ⁧הדרש והעיון⁩. A
 person's life can be divided into two phases: the first half is a time
 of ascent, and the second half is a time of descent.
 
@@ -4149,8 +4147,6 @@ blessings that ⁧הקודש ברוך הוא⁩ gave us, to fulfill the ⁧מצ�
 
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/tetzaveh/5784/(1)/", "../../02 - Shemos/08 - Tetzaveh/5784/Tetzaveh 5784 (1)/Tetzaveh (1) 5784.png"))
 = Tetzaveh (1) 5784
-
-Tetzaveh 5784 (1)
 
 ⁧פרשת תצוה⁩ is unique, as the ⁧בעל הטורים⁩ points out, because it is one of
 the rare ⁧פרשיות⁩ after the birth of ⁧משה רבינו⁩ where his name is not
@@ -4216,8 +4212,6 @@ successful in that ⁧לדור דורות⁩.
 
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/tetzaveh/5784/(2)/", "../../02 - Shemos/08 - Tetzaveh/5784/Tetzaveh 5784 (2)/Tetzaveh (2) 5784.png"))
 = Tetzaveh (2) 5784
-
-Tetzaveh 5784 (2)
 
 In honor of the wedding of Chaim and Bracha Mandel, #metadata(none) <person-index-bracha-300> our dear
 grandchildren.
@@ -7029,8 +7023,6 @@ that we can learn. We have to get going and start doing our portion of
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/naso/5785/story/", "../../04 - Bamidbar/02 - Naso/Story 5785/Story 5785.png"))
 = Story 5785
 
-Naso - Story 5785
-
 R' Moshe Oelbaum#metadata(none) <person-index-r-moshe-oelbaum-506> wrote a very moving piece in the ⁧קול שמחת תורה⁩#metadata(none) <person-index-ridvaz-507> Gazette
 for ⁧פרשת נשא⁩, which I want to say over here. It's something worth
 sharing with as many people as possible.
@@ -9744,8 +9736,6 @@ to accomplish.
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/ki-seitzei/5784/(1)/", "../../05 - Devarim/06 - Ki Seitzei/5784/Ki Seitzei 5784 (1)/Ki Seitzei 5784 (1).png"))
 = Ki Seitzei 5784 (1)
 
-Ki Seitzei (1) 5784
-
 ⁧פרשת כי תצא⁩, the parsha in the Torah with the most ⁧מצוות⁩. An interesting
 topic in ⁧כי תצא⁩, which on the surface is not relevant to us at all, is
 the famous topic of ⁧בן סורר ומורה⁩ in the beginning of the parsha. The
@@ -9790,8 +9780,6 @@ do, and we should have ⁧אמתע ייִדישע נחת⁩ from all of our chil
 
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/ki-seitzei/5784/(2)/", "../../05 - Devarim/06 - Ki Seitzei/5784/Ki Seitzei 5784 (2)/Ki Seitzei 5784 (2).png"))
 = Ki Seitzei 5784 (2)
-
-Ki Seitzei (2) 5784
 
 ⁧פרשת כי תצא⁩. I received the sefer ⁧אוצר פלאות התורה⁩#metadata(none) <person-index-otzer-plo-os-hatorah-726> from a wonderful ⁧חבר⁩
 R' Mendel Pollack, #metadata(none) <person-index-r-mendy-pollak-727>⁧זאָל עֶר זײן געזונט און שטאַרק⁩, and I have recommended it
@@ -10569,7 +10557,7 @@ over and over again - I actually have a lot of ⁧כוונה⁩ because I have a
 lot of people in mind who need a ⁧רפואה⁩, so I'm really concentrating on
 this ⁧ברכה⁩ - and with all of that, until about ten minutes ago, when I
 saw this vort from R' Abramsky, #metadata(none) <person-index-r-abramsky-773> I did not understand the meaning of the
-words⁧כִּי תְהִלָּתֵנוּ אָתָּה⁩. ⁧רְפָאֵנוּ ה׳ וְנֵרָפֵא⁩ - Hashem, heal us and we will be
+words ⁧כִּי תְהִלָּתֵנוּ אָתָּה⁩. ⁧רְפָאֵנוּ ה׳ וְנֵרָפֵא⁩ - Hashem, heal us and we will be
 healed; ⁧הושיענו ונושעה⁩ - save us and we'll be saved; ⁧כִּי תְהִלָּתֵנוּ אָתָּה⁩ - Because you are our praise. What does that mean?
 
 R' Abramsky#metadata(none) <person-index-r-abramsky-774> says that the reason for saying this in ⁧שמונה עשרה⁩ is that
@@ -10580,7 +10568,7 @@ in Queens, they have to go to somebody in Manhattan. They need the top
 doctor because that's the only one who can save them. The truth is, the
 physician is only a ⁧שליח⁩. Hashem is the ⁧רופא חולים⁩. The doctor is only
 the messenger through whom this ⁧רפואה⁩ can occur, but the power of ⁧רפואה⁩
-is only in Hashem's hands. Therefore, we say⁧כִּי תְהִלָּתֵנוּ אָתָּה⁩ - You are our
+is only in Hashem's hands. Therefore, we say ⁧כִּי תְהִלָּתֵנוּ אָתָּה⁩ - You are our
 praise, to emphasize that Hashem is the one we're praising, to make sure
 that we know that the ⁧רפואה⁩ comes solely from Hashem.
 
@@ -11233,8 +11221,6 @@ Have a wonderful ⁧סדר⁩, and a wonderful ⁧יום טוב⁩.
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/pesach/5785/story-2/", "../../06 - Yom Tov/01 - Pesach/5785/Story 2/Story 2 Pesach 5785.png"))
 = Story 2 Pesach 5785
 
-Story Pesach 5785
-
 This was a shtickle from the Torah Anytimes Haggadah Companion#metadata(none) <person-index-torah-anytimes-821> for 5785, and I've shown it to a number of people. Each and every person I've
 shown it to has been inspired by it to such a degree that I'm willing to
 read it here to you and hopefully inspire more people, whoever has not
@@ -11757,8 +11743,6 @@ brought down the ⁧לוחות⁩. Have a meaningful and easy fast.
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/9-av/5783/", "../../06 - Yom Tov/06 - 9 Av/5783/9 Av 5783.png"))
 = 9 Av 5783
 
-Tisha B'Av 5783
-
 The following was presented by Rav Pesach Krohn#metadata(none) <person-index-rav-pesach-krohn-870> in his typical derech: very beautiful, very meaningful, and very real. A number of years ago, Rav Mordechai Gifter#metadata(none) <person-index-rav-gifter-866> ⁦זצ״ל⁩ went to Eretz Yisroel and of course visited
 the Kosel and ⁧קבר רחל⁩. Rav Yirachmiel Chasid, #metadata(none) <person-index-rav-yirachmiel-chasid-871> from the Mirrer Yeshiva, asked him, "At which place were you more moved, ⁧קבר רחל⁩ or the Kosel?\"
 Rav Gifter#metadata(none) <person-index-rav-gifter-867> thought for a moment and replied, "The Kosel." Rav Chasid was
@@ -11806,8 +11790,6 @@ about what we lost.
 
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/9-av/5784/", "../../06 - Yom Tov/06 - 9 Av/5784/9 Av 5784.png"))
 = 9 Av 5784
-
-Tisha B'Av 5784
 
 ⁧תשעה באב⁩ is a special day in that we focus all of our thoughts, ⁧תפילות⁩, and efforts in mourning over the ⁧חורבן בית⁩. However, this is not the
 only time that we do this. We remember ⁧ירושלים⁩ every single day. R'
@@ -11889,8 +11871,6 @@ your heart. And what comes from the heart will go into the heart.
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/9-av/5785/", "../../06 - Yom Tov/06 - 9 Av/5785/9 Av 5785.png"))
 = 9 Av 5785
 
-Tisha B'Av 5785
-
 Rav Yechiel Spiro#metadata(none) <person-index-rav-yechiel-spiro-881> quotes the Rebbe of Sanz that one of a number of
 reasons that we place our hands over our eyes when we say ⁧קריאת שמע⁩ is
 because we are showing that ⁧השם אלוקינו⁩, Hashem of ⁧רחמים⁩ \; ⁧השם אחד⁩ -
@@ -11944,8 +11924,6 @@ really for the good.
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/15-av/5784/", "../../06 - Yom Tov/07 - 15 Av/5784/15 Av 5784.png"))
 = 15 Av 5784
 
-Tu B'Av 5784
-
 ⁧חמישה עשר באב⁩, as the ⁧גמרא⁩ points out dramatically, is one of the
 happiest days, if not the happiest day, of the year. It's a day when
 ⁧שידוכים⁩ were prepared, where people were able to start a new ⁧משפחה⁩ and
@@ -11995,8 +11973,6 @@ prepared to encounter ⁧הקדוש ברוך הוא מלך מלכי המלכים
 
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/15-av/5785/", "../../06 - Yom Tov/07 - 15 Av/5785/15 Av 5785.png"))
 = 15 Av 5785
-
-Tu B'Av 5785
 
 The last entry in the wonderful sefer ⁧חיים שיש בהם⁩, #metadata(none) <person-index-chaim-shyesh-bahem-884> the volume about
 ⁧מועדי השנה⁩, is about ⁧חמשה עשר באב⁩. It quotes the famous ⁧משנה⁩ in ⁦(ד׳:ח׳)⁩
@@ -12815,7 +12791,7 @@ be ⁧משמח⁩. ⁧וּשְׂמַחְתֶּם לִפְנֵי ה׳ אֱלֹק�
 ⁧מוקצה⁩. The ⁧אסרוג⁩ is not ⁧מוקצה⁩. There's no ⁧שם שמים⁩ on the ⁧אסרוג⁩ as there
 is on the walls of the ⁧סוכה⁩.
 
-So we see that we have ⁧מצוות⁩which are ⁧נגד הטבע⁩, which gives us a ⁧חיזוק⁩, which gives us an opportunity to raise ourselves out, ⁧חג הסוכות תעשה לך⁩, you have to put in an effort to do that. That doesn't come by itself.
+So we see that we have ⁧מצוות⁩ which are ⁧נגד הטבע⁩, which gives us a ⁧חיזוק⁩, which gives us an opportunity to raise ourselves out, ⁧חג הסוכות תעשה לך⁩, you have to put in an effort to do that. That doesn't come by itself.
 That comes with ⁧שוויץ⁩ and with using your mind to propel yourself, to
 raise yourself to something which is ⁧כנגד הטבע⁩. In fact, the ⁧סוכה⁩ has to
 be made fresh, ⁧תעשה ולא מן העשוי⁩. But at the same time we also have the
@@ -13420,8 +13396,6 @@ very ⁦שמחה'דיק⁩ and ⁦כבוד התורה'דיק⁩ ⁧שמחת תו
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/simchas-torah/5786/(1)/", "../../06 - Yom Tov/14 - Simchas Torah/5786/Simchas Torah (1)/Simchas Torah 5786 (1).png"))
 = Simchas Torah 5786 (1)
 
-Simchas Torah (1) 5786
-
 For ⁧שמחת תורה⁩, the word ⁧שמחה⁩. A nine-year-old boy was walking home from
 shul in the town of San Diego, California on ⁧שמיני עצרת⁩ eve. His father
 noticed the troubled look in his son's eye. "Is everything okay?" he
@@ -13471,8 +13445,6 @@ newfound ⁧שמחה⁩ that carried her through the last month of her challenge
 
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/simchas-torah/5786/(2)/", "../../06 - Yom Tov/14 - Simchas Torah/5786/Simchas Torah (2)/Simchas Torah 5786 (2).png"))
 = Simchas Torah 5786 (2)
-
-Simchas Torah (2) 5786
 
 A ⁧דבר תורה⁩ for ⁧שמחת תורה⁩, a beautiful story which I'm sure you will
 appreciate. This is from Rav Kormornick's#metadata(none) <person-index-r-kormornick-996> second sefer of A Short Vort.#metadata(none) <person-index-a-short-vort-995>
@@ -13928,8 +13900,6 @@ of ⁧צער⁩. Have a very happy ⁧פורים קטן⁩!
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/purim/5783/krovitz/", "../../06 - Yom Tov/19 - Purim/5783/Krovitz/Krovitz.png"))
 = Krovitz
 
-Krovitz Purim 5783
-
 We said this morning in shul the ⁧קרובץ⁩, which is in this ⁧סידור⁩, you can
 see it, it says ⁧קרובץ לפורים⁩ and after every ⁧ברכה⁩ in ⁧שמונה עשרה⁩, except
 for one, we skip one, we say a couple of ⁧פסוקים⁩ in honor of ⁧פורים⁩ to
@@ -14217,8 +14187,6 @@ experiences as a means to spiritual growth. May we be ⁧זוכה⁩ to a real
 
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/bris/", "../Bris/Bris.png"))
 = Bris
-
-Bris 5784
 
 ⁧לכבוד⁩ the ⁧ברית⁩ coming up of our new member of our family, a ⁧הייליגא כהן⁩.
 In ⁧פרשת שמות⁩, baby ⁧משה⁩ is sent down the river Nile in a basket and
