@@ -549,49 +549,42 @@ async function showContent(relativePath, baseFilename) {
       const pdfWrap = el("div", { class: "pdf-wrap" });
 
       if (isFinalSefer) {
-        const finalSeferPdfPath = encodeURIComponent(
-          `${window.location.origin}/Files/${relativePath}/${pdfFilename}`
-        );
-        const pdfViewerUrl =
-          `https://mozilla.github.io/pdf.js/web/viewer.html` +
-          `?file=${finalSeferPdfPath}` +
-          `#page=1&zoom=page-fit&spreadMode=1`;
-
-        const pdfViewer = el("iframe", {
-          src: pdfViewerUrl,
-          class: "pdf final-sefer-pdf",
-          title: "Final Sefer PDF",
-          allowfullscreen: "",
-        });
-
         pdfWrap.classList.add("final-sefer-pdf-wrap");
-        pdfWrap.appendChild(pdfViewer);
-      } else if (isMobile) {
+      }
+
+      if (isMobile) {
         const mobilePdfPath = encodeURIComponent(
           `${window.location.origin}/Files/${relativePath}/${pdfFilename}`
         );
-        const pdfViewerUrl = `https://mozilla.github.io/pdf.js/web/viewer.html?file=${mobilePdfPath}`;
+        const pdfViewerUrl =
+          `https://mozilla.github.io/pdf.js/web/viewer.html?file=${mobilePdfPath}` +
+          (isFinalSefer ? `#page=1&zoom=page-fit&spreadMode=1` : "");
 
         // Create mobile PDF container with iframe and download option
         const mobileContainer = el("div", { class: "mobile-pdf-container" });
 
         const pdfViewer = el("iframe", {
           src: pdfViewerUrl,
-          class: "mobile-pdf-viewer",
-          title: "PDF Viewer",
+          class: isFinalSefer
+            ? "mobile-pdf-viewer final-sefer-pdf"
+            : "mobile-pdf-viewer",
+          title: isFinalSefer ? "Final Sefer PDF" : "PDF Viewer",
+          allowfullscreen: "",
         });
 
-        const downloadBtn = el(
-          "a",
-          {
-            href: `/Files/${relativePath}/${pdfFilename}`,
-            download: pdfFilename,
-            class: "pdf-download-btn",
-          },
-          "📄 Download PDF"
-        );
+        if (!isFinalSefer) {
+          const downloadBtn = el(
+            "a",
+            {
+              href: `/Files/${relativePath}/${pdfFilename}`,
+              download: pdfFilename,
+              class: "pdf-download-btn",
+            },
+            "📄 Download PDF"
+          );
 
-        mobileContainer.appendChild(downloadBtn);
+          mobileContainer.appendChild(downloadBtn);
+        }
         mobileContainer.appendChild(pdfViewer);
         pdfWrap.appendChild(mobileContainer);
       } else {
@@ -599,7 +592,7 @@ async function showContent(relativePath, baseFilename) {
         const desktopPdfPath = `/Files/${relativePath}/${pdfFilename}`;
         const pdfPathWithParams = `${desktopPdfPath}#navpanes=0&scrollbar=1&toolbar=1&view=FitH`;
         const pdfEmbed = el("embed", {
-          class: "pdf",
+          class: isFinalSefer ? "pdf final-sefer-pdf" : "pdf",
           src: pdfPathWithParams,
           type: "application/pdf",
         });
