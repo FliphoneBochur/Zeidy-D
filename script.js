@@ -350,6 +350,15 @@ function cap(s) {
   );
 }
 
+async function fileExists(path) {
+  try {
+    const response = await fetch(path, { method: "HEAD" });
+    return response.ok;
+  } catch {
+    return false;
+  }
+}
+
 async function showContent(relativePath, baseFilename) {
   const pathParts = relativePath.split("/");
   const displayName = pathParts[pathParts.length - 1];
@@ -388,40 +397,25 @@ async function showContent(relativePath, baseFilename) {
 
   console.log("Checking for files:", { pdfPath, mp3Path, actualBaseFilename });
 
-  if (!isFinalSefer) {
-    // Check PDF existence
-    fetch(pdfPath, { method: "HEAD" })
-      .then((response) => {
-        if (!response.ok) {
-          const pdfError = el("div", { class: "media-error" }, "📄 No PDF found");
-          statusContainer.appendChild(pdfError);
-        }
-      })
-      .catch(() => {
-        const pdfError = el("div", { class: "media-error" }, "📄 No PDF found");
-        statusContainer.appendChild(pdfError);
-      });
+  const [hasPdf, hasAudio] = await Promise.all([
+    fileExists(pdfPath),
+    fileExists(mp3Path),
+  ]);
 
-    // Check MP3 existence
-    fetch(mp3Path, { method: "HEAD" })
-      .then((response) => {
-        if (!response.ok) {
-          const audioError = el(
-            "div",
-            { class: "media-error" },
-            "🎵 No audio found"
-          );
-          statusContainer.appendChild(audioError);
-        }
-      })
-      .catch(() => {
-        const audioError = el(
-          "div",
-          { class: "media-error" },
-          "🎵 No audio found"
-        );
-        statusContainer.appendChild(audioError);
-      });
+  if (!isFinalSefer) {
+    if (!hasPdf) {
+      const pdfError = el("div", { class: "media-error" }, "📄 No PDF found");
+      statusContainer.appendChild(pdfError);
+    }
+
+    if (!hasAudio) {
+      const audioError = el(
+        "div",
+        { class: "media-error" },
+        "🎵 No audio found"
+      );
+      statusContainer.appendChild(audioError);
+    }
   }
 
   // Create embeds container for YouTube + Audio
@@ -464,10 +458,7 @@ async function showContent(relativePath, baseFilename) {
       }
 
       // Try to show audio player using base filename
-      if (baseFilename && baseFilename !== null) {
-        const mp3Filename = `${baseFilename}.mp3`;
-        const mp3Path = `/Files/${relativePath}/${mp3Filename}`;
-
+      if (baseFilename && baseFilename !== null && hasAudio) {
         console.log("Trying to load audio:", mp3Path);
 
         const audioWrapper = el("div", { class: "audio-wrapper" });
@@ -486,12 +477,6 @@ async function showContent(relativePath, baseFilename) {
         // Add error handling
         audio.addEventListener("error", () => {
           console.log("Audio not found:", mp3Path);
-          const audioError = el(
-            "div",
-            { class: "media-error" },
-            "🎵 No audio found"
-          );
-          statusContainer.appendChild(audioError);
           audioWrapper.style.display = "none";
         });
 
@@ -552,19 +537,12 @@ async function showContent(relativePath, baseFilename) {
   if (baseFilename && baseFilename !== null) {
     console.log("Checking for PDF:", pdfPath);
 
-    // Check if PDF exists before creating any viewer
-    fetch(pdfPath, { method: "HEAD" })
-      .then((response) => {
-        if (response.ok) {
-          console.log("PDF found, creating viewer");
-          createPdfViewer();
-        } else {
-          console.log("PDF not found, skipping viewer creation");
-        }
-      })
-      .catch(() => {
-        console.log("PDF check failed, skipping viewer creation");
-      });
+    if (hasPdf) {
+      console.log("PDF found, creating viewer");
+      createPdfViewer();
+    } else {
+      console.log("PDF not found, skipping viewer creation");
+    }
 
     function createPdfViewer() {
       const isMobile = window.innerWidth <= 768;
