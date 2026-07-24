@@ -389,7 +389,7 @@ function renderTypstDocument(entries, options) {
   hyphenate: false,
 )
 #set par(
-  first-line-indent: 1.1em,
+  first-line-indent: 0em,
   justify: true,
   leading: ${settings.leading},
 )

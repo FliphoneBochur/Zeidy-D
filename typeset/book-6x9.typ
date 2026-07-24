@@ -18,7 +18,7 @@
   hyphenate: false,
 )
 #set par(
-  first-line-indent: 1.1em,
+  first-line-indent: 0em,
   justify: true,
   leading: 0.6em,
 )
