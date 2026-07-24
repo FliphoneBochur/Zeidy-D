@@ -13658,8 +13658,6 @@ little people can\'t see it, but it's there. If we focus on the light of
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/10-teves/5785/", "../../06 - Yom Tov/16 - 10 Teves/5785/10 Teves 5785.png"))
 = 10 Teves 5785
 
-10 Teves 5785 \ (Erev Shabbos)
-
 The ⁧אבודרהם⁩, as quoted in the ⁧בית יוסף⁩#metadata(none) <person-index-bais-yosef-1009> and brought down by R' Elimelech
 Biderman#metadata(none) <person-index-r-elimelech-biderman-1011>, ⁧זאָל זיין געזונט און שטאַרק⁩, finds a source from a ⁧פסוק⁩ in ⁧יחזקאל⁩
 that teaches that if ⁧עשרה בטבת⁩ were to fall on ⁧שבת⁩, we would fast on

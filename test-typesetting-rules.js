@@ -81,6 +81,26 @@ test("strips duplicate source title when route title has copy marker", () => {
   );
 });
 
+test("strips duplicate source title with same-line parenthetical subtitle", () => {
+  assert.equal(
+    stripDuplicateTitle(
+      "10 Teves 5785 \\ (Erev Shabbos)\n\nThe אבודרהם says",
+      ["10 Teves 5785"]
+    ),
+    "The אבודרהם says"
+  );
+});
+
+test("strips duplicate source title with next-line parenthetical subtitle", () => {
+  assert.equal(
+    stripDuplicateTitle(
+      "10 Teves 5785\n(Erev Shabbos)\n\nThe אבודרהם says",
+      ["10 Teves 5785"]
+    ),
+    "The אבודרהם says"
+  );
+});
+
 test("restores missing open parenthesis on loose Hebrew citation closes", () => {
   assert.equal(
     normalizePunctuationSpacing("know ישעיהו ו׳:ג׳)) מְלֹא כׇל הָאָרֶץ"),

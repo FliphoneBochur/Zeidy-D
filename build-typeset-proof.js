@@ -369,16 +369,44 @@ function normalizeTitle(value) {
     .toLowerCase();
 }
 
+function isParentheticalSubtitleLine(line) {
+  return /^\([^)]{1,120}\)$/.test(line.trim());
+}
+
+function isDuplicateTitleLine(line, normalizedTitles) {
+  const normalizedLine = normalizeTitle(line);
+
+  for (const title of normalizedTitles) {
+    if (!title) {
+      continue;
+    }
+
+    if (normalizedLine === title) {
+      return true;
+    }
+
+    if (normalizedLine.startsWith(`${title} (`) && normalizedLine.endsWith(")")) {
+      return true;
+    }
+  }
+
+  return false;
+}
+
 function stripDuplicateTitle(typstContent, titles) {
   const lines = typstContent.replace(/\r\n/g, "\n").split("\n");
   const firstContentIndex = lines.findIndex((line) => line.trim() !== "");
-  const titleSet = new Set(titles.filter(Boolean).map(normalizeTitle));
+  const normalizedTitles = titles.filter(Boolean).map(normalizeTitle);
 
   if (
     firstContentIndex >= 0 &&
-    titleSet.has(normalizeTitle(lines[firstContentIndex]))
+    isDuplicateTitleLine(lines[firstContentIndex], normalizedTitles)
   ) {
     lines.splice(firstContentIndex, 1);
+    const subtitleIndex = lines.findIndex((line) => line.trim() !== "");
+    if (subtitleIndex >= 0 && isParentheticalSubtitleLine(lines[subtitleIndex])) {
+      lines.splice(subtitleIndex, 1);
+    }
     while (lines[0] === "") {
       lines.shift();
     }
@@ -504,7 +532,7 @@ async function loadEntries(options) {
     ...allRoutes.filter(
       (route) =>
         !FRONT_MATTER_ROUTES.includes(route) &&
-        route !== "/bloopers/" &&
+        route !== "/bloopers/" && route !== "/final-sefer/" &&
         byRoute[route]?.baseFilename
     ),
   ];
