@@ -193,7 +193,51 @@ function normalizeIndexKey(value) {
 }
 
 function sortIndexDisplayName(value) {
-  return normalizeIndexKey(value).replace(/^((r|rabbi|rav|dr)\.?\s+|r['’]\s+)/, "");
+  return normalizeIndexKey(value);
+}
+
+function wrapIndexDisplayName(value) {
+  const chars = Array.from(value);
+  if (chars.length <= 34) {
+    return [value];
+  }
+
+  const parentheticalIndex = value.indexOf(" (");
+  if (parentheticalIndex > 0) {
+    const beforeParen = value.slice(0, parentheticalIndex);
+    const parenthetical = value.slice(parentheticalIndex + 1);
+
+    if (Array.from(beforeParen).length <= 34) {
+      return [
+        beforeParen,
+        ...wrapIndexDisplayName(parenthetical),
+      ];
+    }
+  }
+
+  const words = value.split(/\s+/);
+  const lines = [];
+  let current = "";
+
+  for (const word of words) {
+    const next = current ? `${current} ${word}` : word;
+    if (current && Array.from(next).length > 34) {
+      lines.push(current);
+      current = word;
+    } else {
+      current = next;
+    }
+  }
+
+  if (current) {
+    lines.push(current);
+  }
+
+  return lines.length > 0 ? lines : [value];
+}
+
+function indexNameLikelyWraps(value) {
+  return Array.from(value).length > 32;
 }
 
 function uniqueValues(values) {
@@ -534,7 +578,7 @@ function renderPersonIndex(indexState) {
 
   const parts = [
     `#pagebreak()
-#set page(footer: page-number-footer())
+#set page(header: page-number-header(), footer: none)
 = Index
 
 #set par(first-line-indent: 0em, justify: false)
@@ -553,12 +597,18 @@ function renderPersonIndex(indexState) {
   items.join[, ]
 }
 
-#let index-row(name, labels) = block(below: 2pt)[
+#let index-name-lines(lines) = lines.map(line => [#line]).join(linebreak())
+
+#let index-row(name-lines, labels) = block(width: 100%, below: 2pt)[
+  #if name-lines.len() > 1 {
+    index-name-lines(name-lines.slice(0, name-lines.len() - 1))
+  }
+  #let last-name-line = name-lines.at(name-lines.len() - 1)
   #grid(
     columns: (auto, 1fr, 2.15in),
     gutter: 0.04in,
     align: top,
-    [#name],
+    [#last-name-line],
     text(fill: rgb("#777777"))[#repeat[.]],
     box(width: 2.15in)[#index-pages(labels)],
   )
@@ -569,7 +619,10 @@ function renderPersonIndex(indexState) {
   for (const { person, markers } of rows) {
     const labels = markers.map(typstLabel).join(", ");
     const tuple = markers.length === 1 ? `(${labels},)` : `(${labels})`;
-    parts.push(`#index-row(${typstString(person.displayName)}, ${tuple})\n`);
+    const nameLines = wrapIndexDisplayName(person.displayName)
+      .map(typstString)
+      .join(", ");
+    parts.push(`#index-row((${nameLines},), ${tuple})\n`);
   }
 
   return parts.join("\n");
@@ -605,14 +658,33 @@ function renderTypstDocument(entries, options, indexState = null) {
   leading: ${settings.leading},
 )
 
-#let article-footer(url, qr, show-number: true) = context {
-  let number = if show-number {
-    text(size: 7.2pt, fill: rgb("#444444"))[
+#let page-number-header(show-number: true) = context {
+  if show-number {
+    let number = text(size: 7.2pt, fill: rgb("#444444"))[
       #counter(page).display()
     ]
+
+    if calc.odd(here().page()) {
+      grid(
+        columns: (1fr, auto),
+        align: top,
+        [],
+        number,
+      )
+    } else {
+      grid(
+        columns: (auto, 1fr),
+        align: top,
+        number,
+        [],
+      )
+    }
   } else {
     []
   }
+}
+
+#let article-footer(url, qr) = context {
   let link-text = text(size: 7.2pt, fill: rgb("#222222"))[
     #link(url)[#url]
   ]
@@ -638,41 +710,17 @@ function renderTypstDocument(entries, options, indexState = null) {
 
   if calc.odd(here().page()) {
     grid(
-      columns: (auto, 1fr, auto),
-      align: bottom,
+      columns: (auto, 1fr),
+      align: top,
       left-link-block,
       [],
-      number,
     )
   } else {
-    grid(
-      columns: (auto, 1fr, auto),
-      align: bottom,
-      number,
-      [],
-      right-link-block,
-    )
-  }
-}
-
-#let page-number-footer() = context {
-  let number = text(size: 7.2pt, fill: rgb("#444444"))[
-    #counter(page).display()
-  ]
-
-  if calc.odd(here().page()) {
     grid(
       columns: (1fr, auto),
-      align: bottom,
+      align: top,
       [],
-      number,
-    )
-  } else {
-    grid(
-      columns: (auto, 1fr),
-      align: bottom,
-      number,
-      [],
+      right-link-block,
     )
   }
 }
@@ -705,12 +753,12 @@ function renderTypstDocument(entries, options, indexState = null) {
         parts.push("#pagebreak()\n");
       }
 
-      parts.push(`#set page(footer: none)
+      parts.push(`#set page(header: none, footer: none)
 #outline(
   title: [Contents],
   target: heading.where(level: 1),
 )
-#pagebreak()
+#pagebreak(to: "odd")
 #counter(page).update(1)
 `);
       insertedTableOfContents = true;
@@ -718,14 +766,15 @@ function renderTypstDocument(entries, options, indexState = null) {
       parts.push("#pagebreak()\n");
     }
 
+    const header = isFrontMatter ? "none" : "page-number-header()";
     const footer = entry.hasFooter
-      ? `article-footer(${typstString(entry.url)}, ${typstString(qrRelativePath)}, show-number: ${isFrontMatter ? "false" : "true"})`
+      ? `article-footer(${typstString(entry.url)}, ${typstString(qrRelativePath)})`
       : "none";
     const heading = isFrontMatter
       ? `#heading(level: 1, outlined: false)[${entry.title}]`
       : `= ${entry.title}`;
 
-    parts.push(`#set page(footer: ${footer})
+    parts.push(`#set page(header: ${header}, footer: ${footer})
 ${heading}
 
 ${body}

@@ -27,7 +27,7 @@
       "createdAt": "2026-07-24T01:38:03.936Z"
     },
     "r-abramsky": {
-      "displayName": "R’ Abramsky",
+      "displayName": "R' Yechezkel Abramsky",
       "aliases": [
         "R’ Abramsky",
         "Abramsky",
@@ -98,7 +98,7 @@
       "createdAt": "2026-07-24T01:45:21.878Z"
     },
     "alter-of-slabodka": {
-      "displayName": "Alter of Slabodka",
+      "displayName": "Alter of Slabodka (R' Nosson Tzvi Finkel)",
       "aliases": [
         "Alter of Slabodka",
         "Nosson Tzvi Finkel",
@@ -169,7 +169,7 @@
       "createdAt": "2026-07-24T01:50:33.385Z"
     },
     "gerrer-rebbe": {
-      "displayName": "Gerrer Rebbe",
+      "displayName": "Gerrer Rebbe (R' Avraham Mordechai, The Chidushi HaRim)",
       "aliases": [
         "Gerrer Rebbe",
         "Avraham Mordechai",
@@ -199,7 +199,7 @@
       "createdAt": "2026-07-24T01:51:07.100Z"
     },
     "apter-rav": {
-      "displayName": "Apter Rav",
+      "displayName": "Apter Rav (R' Avraham Yehoshua Heshel)",
       "aliases": [
         "Apter Rav",
         "Avraham Yehoshua Heshel",
@@ -260,7 +260,7 @@
       "createdAt": "2026-07-24T01:54:30.120Z"
     },
     "r-blum": {
-      "displayName": "R’ Blum",
+      "displayName": "R’ Matis Blum",
       "aliases": [
         "R’ Blum",
         "Blum",
@@ -375,8 +375,7 @@
       "displayName": "Chozeh MiLublin",
       "aliases": [
         "Chozeh MiLublin",
-        "Chozeh of Lublin",
-        "R' Yosef Yitzchak Schneersohn"
+        "Chozeh of Lublin"
       ],
       "createdAt": "2026-07-24T02:46:57.965Z"
     },
@@ -587,7 +586,7 @@
       "createdAt": "2026-07-24T03:25:24.414Z"
     },
     "r-leib-chasman": {
-      "displayName": "R’ Leib Chasman",
+      "displayName": "R’ Leib Chasman (Ohr Yahel)",
       "aliases": [
         "R’ Leib Chasman",
         "Leib Chasman",
@@ -604,18 +603,17 @@
       "createdAt": "2026-07-24T03:28:26.769Z"
     },
     "lubavitcher-rebbe": {
-      "displayName": "Lubavitcher Rebbe",
+      "displayName": "Lubavitcher Rebbe (R' Menachem Mendel Schneerson)",
       "aliases": [
         "Lubavitcher Rebbe",
         "Menachem Mendel",
         "Menachem Mendel Schneerson",
-        "R' Hershel Schachter",
         "R' Menachem Mendel Schneerson"
       ],
       "createdAt": "2026-07-24T03:29:07.387Z"
     },
     "r-zalman-sorotzkin": {
-      "displayName": "R’ Zalman Sorotzkin",
+      "displayName": "R’ Zalman Sorotzkin (Lutzker Rav, The Oznayim LaTorah)",
       "aliases": [
         "R’ Zalman Sorotzkin",
         "Lutzker Rav",
@@ -684,19 +682,13 @@
       ],
       "createdAt": "2026-07-24T03:34:50.070Z"
     },
-    "r-mendel-pollack": {
-      "displayName": "R’ Mendel Pollack",
-      "aliases": [
-        "R’ Mendel Pollack",
-        "Mendel Pollack"
-      ],
-      "createdAt": "2026-07-24T03:35:18.104Z"
-    },
     "r-mendy-pollak": {
       "displayName": "R’ Mendy Pollak",
       "aliases": [
         "R’ Mendy Pollak",
-        "Mendy Pollak"
+        "Mendy Pollak",
+        "Mendel Pollack",
+        "R' Mendel Pollack"
       ],
       "createdAt": "2026-07-24T03:35:29.158Z"
     },
@@ -1045,7 +1037,7 @@
       "createdAt": "2026-07-24T04:02:56.366Z"
     },
     "shiniver-rebbe": {
-      "displayName": "Shiniver Rebbe",
+      "displayName": "Shiniver Rebbe (R' Yechezkel Shraga)",
       "aliases": [
         "Shiniver Rebbe",
         "R' Yechezkel Shraga",
@@ -1107,10 +1099,13 @@
       "createdAt": "2026-07-24T04:03:58.774Z"
     },
     "r-yoel-sirkis": {
-      "displayName": "R' Yoel Sirkis",
+      "displayName": "R' Yoel Sirkis (Bach)",
       "aliases": [
         "R' Yoel Sirkis",
-        "בית חדש"
+        "בית חדש",
+        "Bach",
+        "ב\"ח",
+        "ב״ח"
       ],
       "createdAt": "2026-07-24T04:04:18.189Z"
     },
@@ -1545,15 +1540,6 @@
       ],
       "createdAt": "2026-07-24T04:40:47.806Z"
     },
-    "bach": {
-      "displayName": "Bach",
-      "aliases": [
-        "Bach",
-        "ב\"ח",
-        "ב״ח"
-      ],
-      "createdAt": "2026-07-24T04:41:54.286Z"
-    },
     "r-pinchas-zalman-segol": {
       "displayName": "R' Pinchas Zalman Segol",
       "aliases": [
@@ -1699,7 +1685,6 @@
       "aliases": [
         "Rashba",
         "רשב\"א",
-        "רבש״ע",
         "רשב״א"
       ],
       "createdAt": "2026-07-24T04:56:09.454Z"
@@ -1812,7 +1797,7 @@
       "createdAt": "2026-07-24T05:48:40.513Z"
     },
     "chaim-shyesh-bahem": {
-      "displayName": "Chaim Shyesh bahem",
+      "displayName": "Chaim Shyesh BaHem",
       "aliases": [
         "Chaim Shyesh bahem",
         "חיים שיש בהם"
