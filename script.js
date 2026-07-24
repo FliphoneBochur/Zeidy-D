@@ -363,26 +363,19 @@ async function showContent(relativePath, baseFilename) {
   const pathParts = relativePath.split("/");
   const displayName = pathParts[pathParts.length - 1];
   const actualBaseFilename = baseFilename || relativePath.split("/").pop();
-  const isFinalSefer =
-    displayName.toLowerCase() === "final sefer" ||
-    actualBaseFilename.toLowerCase() === "final sefer";
 
   // Create breadcrumb from path parts
   const breadcrumb = pathParts.map(cap).join(" › ");
 
-  document.body.classList.toggle("final-sefer-page", isFinalSefer);
   document.getElementById("title").textContent = cap(displayName);
   document.getElementById("crumbs").textContent = breadcrumb;
 
   const content = document.getElementById("content");
   content.innerHTML = "";
-  content.classList.toggle("final-sefer-content", isFinalSefer);
 
   // Create status container for error messages at top
   const statusContainer = el("div", { class: "status-messages" });
-  if (!isFinalSefer) {
-    content.appendChild(statusContainer);
-  }
+  content.appendChild(statusContainer);
 
   // Always check for PDF and audio files regardless of manifest value
   // Determine base filename - use manifest value or directory name
@@ -402,30 +395,27 @@ async function showContent(relativePath, baseFilename) {
     fileExists(mp3Path),
   ]);
 
-  if (!isFinalSefer) {
-    if (!hasPdf) {
-      const pdfError = el("div", { class: "media-error" }, "📄 No PDF found");
-      statusContainer.appendChild(pdfError);
-    }
+  if (!hasPdf) {
+    const pdfError = el("div", { class: "media-error" }, "📄 No PDF found");
+    statusContainer.appendChild(pdfError);
+  }
 
-    if (!hasAudio) {
-      const audioError = el(
-        "div",
-        { class: "media-error" },
-        "🎵 No audio found"
-      );
-      statusContainer.appendChild(audioError);
-    }
+  if (!hasAudio) {
+    const audioError = el(
+      "div",
+      { class: "media-error" },
+      "🎵 No audio found"
+    );
+    statusContainer.appendChild(audioError);
   }
 
   // Create embeds container for YouTube + Audio
   const embedsContainer = el("div", { class: "embeds-container" });
 
   // Meta (YouTube, optionally switchable to Google Drive)
-  if (!isFinalSefer) {
-    try {
-      const meta = await loadMeta(relativePath);
-      let hasEmbeds = false;
+  try {
+    const meta = await loadMeta(relativePath);
+    let hasEmbeds = false;
 
       const googleDriveIds = normalizeEmbedIds(meta["google-drive"]);
       const youtubeIds = normalizeEmbedIds(meta.youtube);
@@ -523,14 +513,13 @@ async function showContent(relativePath, baseFilename) {
         hasEmbeds = true;
       }
 
-      if (hasEmbeds) {
-        content.appendChild(embedsContainer);
-      }
-    } catch (e) {
-      console.error(e);
-      const warn = el("div", {}, "Could not load meta.json for this entry.");
-      content.appendChild(warn);
+    if (hasEmbeds) {
+      content.appendChild(embedsContainer);
     }
+  } catch (e) {
+    console.error(e);
+    const warn = el("div", {}, "Could not load meta.json for this entry.");
+    content.appendChild(warn);
   }
 
   // PDF - Only create viewer if PDF actually exists
@@ -548,43 +537,33 @@ async function showContent(relativePath, baseFilename) {
       const isMobile = window.innerWidth <= 768;
       const pdfWrap = el("div", { class: "pdf-wrap" });
 
-      if (isFinalSefer) {
-        pdfWrap.classList.add("final-sefer-pdf-wrap");
-      }
-
       if (isMobile) {
         const mobilePdfPath = encodeURIComponent(
           `${window.location.origin}/Files/${relativePath}/${pdfFilename}`
         );
-        const pdfViewerUrl =
-          `https://mozilla.github.io/pdf.js/web/viewer.html?file=${mobilePdfPath}` +
-          (isFinalSefer ? `#page=1&zoom=page-fit&spreadMode=1` : "");
+        const pdfViewerUrl = `https://mozilla.github.io/pdf.js/web/viewer.html?file=${mobilePdfPath}`;
 
         // Create mobile PDF container with iframe and download option
         const mobileContainer = el("div", { class: "mobile-pdf-container" });
 
         const pdfViewer = el("iframe", {
           src: pdfViewerUrl,
-          class: isFinalSefer
-            ? "mobile-pdf-viewer final-sefer-pdf"
-            : "mobile-pdf-viewer",
-          title: isFinalSefer ? "Final Sefer PDF" : "PDF Viewer",
+          class: "mobile-pdf-viewer",
+          title: "PDF Viewer",
           allowfullscreen: "",
         });
 
-        if (!isFinalSefer) {
-          const downloadBtn = el(
-            "a",
-            {
-              href: `/Files/${relativePath}/${pdfFilename}`,
-              download: pdfFilename,
-              class: "pdf-download-btn",
-            },
-            "📄 Download PDF"
-          );
+        const downloadBtn = el(
+          "a",
+          {
+            href: `/Files/${relativePath}/${pdfFilename}`,
+            download: pdfFilename,
+            class: "pdf-download-btn",
+          },
+          "📄 Download PDF"
+        );
 
-          mobileContainer.appendChild(downloadBtn);
-        }
+        mobileContainer.appendChild(downloadBtn);
         mobileContainer.appendChild(pdfViewer);
         pdfWrap.appendChild(mobileContainer);
       } else {
@@ -592,7 +571,7 @@ async function showContent(relativePath, baseFilename) {
         const desktopPdfPath = `/Files/${relativePath}/${pdfFilename}`;
         const pdfPathWithParams = `${desktopPdfPath}#navpanes=0&scrollbar=1&toolbar=1&view=FitH`;
         const pdfEmbed = el("embed", {
-          class: isFinalSefer ? "pdf final-sefer-pdf" : "pdf",
+          class: "pdf",
           src: pdfPathWithParams,
           type: "application/pdf",
         });
