@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-24T04:56:46.789Z",
+  "updatedAt": "2026-07-24T05:08:15.375Z",
   "people": {
     "a-short-vort": {
       "displayName": "A Short Vort",
@@ -84,7 +84,8 @@
       "displayName": "Dr. Allen Goldstein",
       "aliases": [
         "Dr. Allen Goldstein",
-        "Allen Goldstein"
+        "Allen Goldstein",
+        "Dr. Goldstein"
       ],
       "createdAt": "2026-07-24T01:45:09.312Z"
     },
@@ -128,9 +129,7 @@
       "displayName": "R’ Aryeh Levine",
       "aliases": [
         "R’ Aryeh Levine",
-        "Aryeh",
         "Aryeh Levine",
-        "R' Levi Yitzchok",
         "Rabbi Aryeh Levine"
       ],
       "createdAt": "2026-07-24T01:47:21.689Z"
@@ -234,7 +233,8 @@
         "Reb Levi Yitzchok of Berditchev",
         "ר׳ לוי יצחק",
         "רב לוי יצחק",
-        "רבי לוי יצחק"
+        "רבי לוי יצחק",
+        "R' Levi Yitzchok"
       ],
       "createdAt": "2026-07-24T01:53:12.279Z"
     },
@@ -397,13 +397,6 @@
         "Dovid Tribuch"
       ],
       "createdAt": "2026-07-24T02:48:25.584Z"
-    },
-    "dr-goldstein": {
-      "displayName": "Dr. Goldstein",
-      "aliases": [
-        "Dr. Goldstein"
-      ],
-      "createdAt": "2026-07-24T02:53:46.075Z"
     },
     "dubna-maggid": {
       "displayName": "Dubna Maggid",
@@ -608,8 +601,7 @@
         "Menachem Mendel",
         "Menachem Mendel Schneerson",
         "R' Hershel Schachter",
-        "R' Menachem Mendel Schneerson",
-        "R' Moshe Schwab's"
+        "R' Menachem Mendel Schneerson"
       ],
       "createdAt": "2026-07-24T03:29:07.387Z"
     },
@@ -759,8 +751,7 @@
       "displayName": "R’ Moshe Oelbaum",
       "aliases": [
         "R’ Moshe Oelbaum",
-        "Moshe Oelbaum",
-        "Oelbaum's"
+        "Moshe Oelbaum"
       ],
       "createdAt": "2026-07-24T03:39:10.043Z"
     },
@@ -768,7 +759,8 @@
       "displayName": "R’ Moshe Schwab",
       "aliases": [
         "R’ Moshe Schwab",
-        "Moshe Schwab"
+        "Moshe Schwab",
+        "R' Moshe Schwab's"
       ],
       "createdAt": "2026-07-24T03:41:33.471Z"
     },
@@ -4255,38 +4247,6 @@
         }
       ],
       "reviewedAt": "2026-07-24T01:46:36.830Z"
-    },
-    "aryeh": {
-      "candidate": "Aryeh",
-      "key": "aryeh",
-      "language": "english",
-      "status": "keep",
-      "personId": "r-aryeh-levine",
-      "sources": [
-        "capitalized"
-      ],
-      "count": 3,
-      "files": [
-        "Files/06 - Yom Tov/06 - 9 Av/5784/9 Av 5784.docx"
-      ],
-      "examples": [
-        {
-          "filePath": "Files/06 - Yom Tov/06 - 9 Av/5784/9 Av 5784.docx",
-          "source": "capitalized",
-          "context": "...intention of closing up anytime soon. It was almost time for lecht benching. R’ Aryeh understood it would be very difficult for the owner to pull himself away from all of thes..."
-        },
-        {
-          "filePath": "Files/06 - Yom Tov/06 - 9 Av/5784/9 Av 5784.docx",
-          "source": "capitalized",
-          "context": "...away from all of these customers and this business, but Shabbos was Shabbos. R’ Aryeh walked to the front of the store, sat down, and put his shtreimel on the table. The owner..."
-        },
-        {
-          "filePath": "Files/06 - Yom Tov/06 - 9 Av/5784/9 Av 5784.docx",
-          "source": "capitalized",
-          "context": "..., and put his shtreimel on the table. The owner understood why he was there, R’ Aryeh being a familiar figure from his weekly pre-Shabbos rounds. The owner looked at all the ..."
-        }
-      ],
-      "reviewedAt": "2026-07-24T01:47:21.689Z"
     },
     "aryeh levine": {
       "candidate": "Aryeh Levine",
@@ -10091,48 +10051,6 @@
         }
       ],
       "reviewedAt": "2026-07-24T02:48:38.344Z"
-    },
-    "dr. goldstein": {
-      "candidate": "Dr. Goldstein",
-      "key": "dr. goldstein",
-      "language": "english",
-      "status": "keep",
-      "personId": "dr-goldstein",
-      "sources": [
-        "english-honorific"
-      ],
-      "count": 6,
-      "files": [
-        "Files/01 - Bereshis/08 - Vayishlach/5786/Vayishlach 5786.docx"
-      ],
-      "examples": [
-        {
-          "filePath": "Files/01 - Bereshis/08 - Vayishlach/5786/Vayishlach 5786.docx",
-          "source": "english-honorific",
-          "context": "... earache, is that any different than helping somebody who has a chest problem?” Dr. Goldstein thought about it and came to the conclusion that the Rebbe was right, changed his life co..."
-        },
-        {
-          "filePath": "Files/01 - Bereshis/08 - Vayishlach/5786/Vayishlach 5786.docx",
-          "source": "english-honorific",
-          "context": "...rning, a talmid of R’ Yoshe Ber, and a colleague R’ Menachem Genack of OU fame, Dr. Goldstein was also a master storyteller. When he was sitting שבעה for his mother ע״ה, he was regali..."
-        },
-        {
-          "filePath": "Files/01 - Bereshis/08 - Vayishlach/5786/Vayishlach 5786.docx",
-          "source": "english-honorific",
-          "context": "...ng him and he should go to America to seek out Dr. Goldstein’s care and advice. Dr. Goldstein examined him and told that he could assist him by operating on him, which he arranged. Wh..."
-        },
-        {
-          "filePath": "Files/01 - Bereshis/08 - Vayishlach/5786/Vayishlach 5786.docx",
-          "source": "english-honorific",
-          "context": "... he arranged. While in surgery, the intercom in the operating room blared out, “Dr. Goldstein, Rabbi Yosef is calling from Israel.” Dr. Goldstein responded, “Tell Rabbi Yosef I’m in t..."
-        },
-        {
-          "filePath": "Files/01 - Bereshis/08 - Vayishlach/5786/Vayishlach 5786.docx",
-          "source": "english-honorific",
-          "context": "...operating room blared out, “Dr. Goldstein, Rabbi Yosef is calling from Israel.” Dr. Goldstein responded, “Tell Rabbi Yosef I’m in the middle of surgery and I’ll call him back when the..."
-        }
-      ],
-      "reviewedAt": "2026-07-24T02:53:46.075Z"
     },
     "dr. goldstein's": {
       "candidate": "Dr. Goldstein's",
@@ -24851,28 +24769,6 @@
       ],
       "reviewedAt": "2026-07-24T03:45:04.500Z"
     },
-    "oelbaum's": {
-      "candidate": "Oelbaum's",
-      "key": "oelbaum's",
-      "language": "english",
-      "status": "keep",
-      "personId": "r-moshe-oelbaum",
-      "sources": [
-        "capitalized"
-      ],
-      "count": 1,
-      "files": [
-        "Files/01 - Bereshis/11 - Vayechi/5785/Vayechi 5785.docx"
-      ],
-      "examples": [
-        {
-          "filePath": "Files/01 - Bereshis/11 - Vayechi/5785/Vayechi 5785.docx",
-          "source": "capitalized",
-          "context": "...זאב קלאגסבאלד of Antwerp, author of מנחת חן (a ספר that shares its name with R’ Oelbaum’s ספר), asks an important question as quoted in the Torah Journal קול התורה: While אפרים’s ..."
-        }
-      ],
-      "reviewedAt": "2026-07-24T03:45:44.351Z"
-    },
     "often": {
       "candidate": "Often",
       "key": "often",
@@ -29676,49 +29572,6 @@
       ],
       "reviewedAt": "2026-07-24T03:53:51.946Z"
     },
-    "r' levi yitzchok": {
-      "candidate": "R' Levi Yitzchok",
-      "key": "r' levi yitzchok",
-      "language": "english",
-      "status": "keep",
-      "personId": "r-aryeh-levine",
-      "sources": [
-        "english-honorific"
-      ],
-      "count": 5,
-      "files": [
-        "Files/06 - Yom Tov/09 - Rosh Hashana/Rosh Hashana in Berditchev/Rosh Hashana in Berditchev.docx",
-        "Files/06 - Yom Tov/10 - Yom Kippur/5785/Yom Kippur 5785.docx"
-      ],
-      "examples": [
-        {
-          "filePath": "Files/06 - Yom Tov/09 - Rosh Hashana/Rosh Hashana in Berditchev/Rosh Hashana in Berditchev.docx",
-          "source": "english-honorific",
-          "context": "...eat it over for everyone to have for posterity. The central figure of course is R’ Levi Yitzchok זכותו יגן עלינו. It was the first day of Rosh Hashana in the shul in Berditchev by the R..."
-        },
-        {
-          "filePath": "Files/06 - Yom Tov/09 - Rosh Hashana/Rosh Hashana in Berditchev/Rosh Hashana in Berditchev.docx",
-          "source": "english-honorific",
-          "context": ".... It was the first day of Rosh Hashana in the shul in Berditchev by the Rebbe, R’ Levi Yitzchok. It was crowded. The Rebbe himself was at the עמוד, leading the תפילות on this most solem..."
-        },
-        {
-          "filePath": "Files/06 - Yom Tov/09 - Rosh Hashana/Rosh Hashana in Berditchev/Rosh Hashana in Berditchev.docx",
-          "source": "english-honorific",
-          "context": "...what had caused the interruption in his תפילה and why precisely at those words. R’ Levi Yitzchok began to relate. “I felt myself lifted up to the שערי שמים. I saw the שטן carrying a hea..."
-        },
-        {
-          "filePath": "Files/06 - Yom Tov/10 - Yom Kippur/5785/Yom Kippur 5785.docx",
-          "source": "english-honorific",
-          "context": "Yom Kippur 5785 לכבוד יום כיפור. R’ Levi Yitzchok quotes the famous Gemara (פסחים נ׳ ע״א & בבא בתרא י׳ ע״ב) which we know is referring to o..."
-        },
-        {
-          "filePath": "Files/06 - Yom Tov/10 - Yom Kippur/5785/Yom Kippur 5785.docx",
-          "source": "english-honorific",
-          "context": "... hazeh vis-a-vis olam haba: עוֹלָם הָפוּךְ רָאִיתִי - The world is upside down. R’ Levi Yitzchok had a very ingenious take on this, and it’s actually an indictment which we’ll have to an..."
-        }
-      ],
-      "reviewedAt": "2026-07-24T03:54:02.755Z"
-    },
     "r' levi yitzchok of berditchev": {
       "candidate": "R' Levi Yitzchok of Berditchev",
       "key": "r' levi yitzchok of berditchev",
@@ -30405,28 +30258,6 @@
         }
       ],
       "reviewedAt": "2026-07-24T03:57:18.569Z"
-    },
-    "r' moshe schwab's": {
-      "candidate": "R' Moshe Schwab's",
-      "key": "r' moshe schwab's",
-      "language": "english",
-      "status": "keep",
-      "personId": "lubavitcher-rebbe",
-      "sources": [
-        "english-honorific"
-      ],
-      "count": 1,
-      "files": [
-        "Files/06 - Yom Tov/11 - Sukkos/5786/Sukkos 5786.docx"
-      ],
-      "examples": [
-        {
-          "filePath": "Files/06 - Yom Tov/11 - Sukkos/5786/Sukkos 5786.docx",
-          "source": "english-honorific",
-          "context": "... first night of פסח, everyone was busy with their seder only one person came to R’ Moshe Schwab’s שלום זכר. That person was this new baby’s great-grandfather. And because הכרת הטוב is suc..."
-        }
-      ],
-      "reviewedAt": "2026-07-24T03:57:28.220Z"
     },
     "r' moshe sherer": {
       "candidate": "R' Moshe Sherer",
@@ -58161,6 +57992,167 @@
         }
       ],
       "reviewedAt": "2026-07-24T04:56:46.719Z"
+    },
+    "dr. goldstein": {
+      "candidate": "Dr. Goldstein",
+      "key": "dr. goldstein",
+      "language": "english",
+      "status": "keep",
+      "personId": "dr-allen-goldstein",
+      "sources": [
+        "english-honorific"
+      ],
+      "count": 6,
+      "files": [
+        "Files/01 - Bereshis/08 - Vayishlach/5786/Vayishlach 5786.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/08 - Vayishlach/5786/Vayishlach 5786.docx",
+          "source": "english-honorific",
+          "context": "... earache, is that any different than helping somebody who has a chest problem?” Dr. Goldstein thought about it and came to the conclusion that the Rebbe was right, changed his life co..."
+        },
+        {
+          "filePath": "Files/01 - Bereshis/08 - Vayishlach/5786/Vayishlach 5786.docx",
+          "source": "english-honorific",
+          "context": "...rning, a talmid of R’ Yoshe Ber, and a colleague R’ Menachem Genack of OU fame, Dr. Goldstein was also a master storyteller. When he was sitting שבעה for his mother ע״ה, he was regali..."
+        },
+        {
+          "filePath": "Files/01 - Bereshis/08 - Vayishlach/5786/Vayishlach 5786.docx",
+          "source": "english-honorific",
+          "context": "...ng him and he should go to America to seek out Dr. Goldstein’s care and advice. Dr. Goldstein examined him and told that he could assist him by operating on him, which he arranged. Wh..."
+        },
+        {
+          "filePath": "Files/01 - Bereshis/08 - Vayishlach/5786/Vayishlach 5786.docx",
+          "source": "english-honorific",
+          "context": "... he arranged. While in surgery, the intercom in the operating room blared out, “Dr. Goldstein, Rabbi Yosef is calling from Israel.” Dr. Goldstein responded, “Tell Rabbi Yosef I’m in t..."
+        },
+        {
+          "filePath": "Files/01 - Bereshis/08 - Vayishlach/5786/Vayishlach 5786.docx",
+          "source": "english-honorific",
+          "context": "...operating room blared out, “Dr. Goldstein, Rabbi Yosef is calling from Israel.” Dr. Goldstein responded, “Tell Rabbi Yosef I’m in the middle of surgery and I’ll call him back when the..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:04:33.126Z"
+    },
+    "r' moshe schwab's": {
+      "candidate": "R' Moshe Schwab's",
+      "key": "r' moshe schwab's",
+      "language": "english",
+      "status": "keep",
+      "personId": "r-moshe-schwab",
+      "sources": [
+        "english-honorific"
+      ],
+      "count": 1,
+      "files": [
+        "Files/06 - Yom Tov/11 - Sukkos/5786/Sukkos 5786.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/11 - Sukkos/5786/Sukkos 5786.docx",
+          "source": "english-honorific",
+          "context": "... first night of פסח, everyone was busy with their seder only one person came to R’ Moshe Schwab’s שלום זכר. That person was this new baby’s great-grandfather. And because הכרת הטוב is suc..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:05:23.175Z"
+    },
+    "r' levi yitzchok": {
+      "candidate": "R' Levi Yitzchok",
+      "key": "r' levi yitzchok",
+      "language": "english",
+      "status": "keep",
+      "personId": "r-levi-yitzchok-of-berditchev",
+      "sources": [
+        "english-honorific"
+      ],
+      "count": 5,
+      "files": [
+        "Files/06 - Yom Tov/09 - Rosh Hashana/Rosh Hashana in Berditchev/Rosh Hashana in Berditchev.docx",
+        "Files/06 - Yom Tov/10 - Yom Kippur/5785/Yom Kippur 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/09 - Rosh Hashana/Rosh Hashana in Berditchev/Rosh Hashana in Berditchev.docx",
+          "source": "english-honorific",
+          "context": "...eat it over for everyone to have for posterity. The central figure of course is R’ Levi Yitzchok זכותו יגן עלינו. It was the first day of Rosh Hashana in the shul in Berditchev by the R..."
+        },
+        {
+          "filePath": "Files/06 - Yom Tov/09 - Rosh Hashana/Rosh Hashana in Berditchev/Rosh Hashana in Berditchev.docx",
+          "source": "english-honorific",
+          "context": ".... It was the first day of Rosh Hashana in the shul in Berditchev by the Rebbe, R’ Levi Yitzchok. It was crowded. The Rebbe himself was at the עמוד, leading the תפילות on this most solem..."
+        },
+        {
+          "filePath": "Files/06 - Yom Tov/09 - Rosh Hashana/Rosh Hashana in Berditchev/Rosh Hashana in Berditchev.docx",
+          "source": "english-honorific",
+          "context": "...what had caused the interruption in his תפילה and why precisely at those words. R’ Levi Yitzchok began to relate. “I felt myself lifted up to the שערי שמים. I saw the שטן carrying a hea..."
+        },
+        {
+          "filePath": "Files/06 - Yom Tov/10 - Yom Kippur/5785/Yom Kippur 5785.docx",
+          "source": "english-honorific",
+          "context": "Yom Kippur 5785 לכבוד יום כיפור. R’ Levi Yitzchok quotes the famous Gemara (פסחים נ׳ ע״א & בבא בתרא י׳ ע״ב) which we know is referring to o..."
+        },
+        {
+          "filePath": "Files/06 - Yom Tov/10 - Yom Kippur/5785/Yom Kippur 5785.docx",
+          "source": "english-honorific",
+          "context": "... hazeh vis-a-vis olam haba: עוֹלָם הָפוּךְ רָאִיתִי - The world is upside down. R’ Levi Yitzchok had a very ingenious take on this, and it’s actually an indictment which we’ll have to an..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:06:15.151Z"
+    },
+    "aryeh": {
+      "candidate": "Aryeh",
+      "key": "aryeh",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "capitalized"
+      ],
+      "count": 3,
+      "files": [
+        "Files/06 - Yom Tov/06 - 9 Av/5784/9 Av 5784.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/06 - 9 Av/5784/9 Av 5784.docx",
+          "source": "capitalized",
+          "context": "...intention of closing up anytime soon. It was almost time for lecht benching. R’ Aryeh understood it would be very difficult for the owner to pull himself away from all of thes..."
+        },
+        {
+          "filePath": "Files/06 - Yom Tov/06 - 9 Av/5784/9 Av 5784.docx",
+          "source": "capitalized",
+          "context": "...away from all of these customers and this business, but Shabbos was Shabbos. R’ Aryeh walked to the front of the store, sat down, and put his shtreimel on the table. The owner..."
+        },
+        {
+          "filePath": "Files/06 - Yom Tov/06 - 9 Av/5784/9 Av 5784.docx",
+          "source": "capitalized",
+          "context": "..., and put his shtreimel on the table. The owner understood why he was there, R’ Aryeh being a familiar figure from his weekly pre-Shabbos rounds. The owner looked at all the ..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:06:34.381Z"
+    },
+    "oelbaum's": {
+      "candidate": "Oelbaum's",
+      "key": "oelbaum's",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "capitalized"
+      ],
+      "count": 1,
+      "files": [
+        "Files/01 - Bereshis/11 - Vayechi/5785/Vayechi 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/11 - Vayechi/5785/Vayechi 5785.docx",
+          "source": "capitalized",
+          "context": "...זאב קלאגסבאלד of Antwerp, author of מנחת חן (a ספר that shares its name with R’ Oelbaum’s ספר), asks an important question as quoted in the Torah Journal קול התורה: While אפרים’s ..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:08:15.302Z"
     }
   }
 }

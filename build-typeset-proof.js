@@ -9,6 +9,7 @@ const { spawnSync } = require("node:child_process");
 const ROOT_DIR = __dirname;
 const FILES_DIR = path.join(ROOT_DIR, "Files");
 const ROUTES_FILE = path.join(ROOT_DIR, "routes.json");
+const PERSON_INDEX_REVIEW_FILE = path.join(ROOT_DIR, "person-index-review.json");
 const OUTPUT_DIR = path.join(ROOT_DIR, "typeset");
 const DOMAIN = "https://zeidyd.com";
 const FRONT_MATTER_ROUTES = ["/rabbi-oelbaum-haskama/", "/about-the-name/"];
@@ -94,6 +95,8 @@ Options:
   --route <route>   Include one route. Can be repeated.
   --size <size>     Page size: 5x8 or 6x9. Default: 6x9
   --output <name>   Output basename inside typeset/. Default: proof
+  --person-index    Append the reviewed person index.
+  --no-person-index Do not append the reviewed person index.
   --help            Show this help text.`);
 }
 
@@ -104,6 +107,7 @@ function parseArgs(argv) {
     routes: [],
     size: "6x9",
     output: "proof",
+    personIndex: null,
   };
 
   for (let i = 0; i < argv.length; i += 1) {
@@ -119,6 +123,10 @@ function parseArgs(argv) {
       options.size = argv[++i] || "";
     } else if (arg === "--output") {
       options.output = argv[++i] || "";
+    } else if (arg === "--person-index") {
+      options.personIndex = true;
+    } else if (arg === "--no-person-index") {
+      options.personIndex = false;
     } else if (arg === "--help" || arg === "-h") {
       usage();
       process.exit(0);
@@ -165,8 +173,141 @@ function typstString(value) {
   return JSON.stringify(value);
 }
 
+function typstLabel(value) {
+  return `label(${typstString(value)})`;
+}
+
 function titleFromBaseFilename(baseFilename) {
   return baseFilename.replace(/\s+/g, " ").trim();
+}
+
+function normalizeIndexKey(value) {
+  return value
+    .replace(/[\u0591-\u05C7]/g, "")
+    .replace(/[’‘]/g, "'")
+    .replace(/[“”]/g, '"')
+    .replace(/״/g, '"')
+    .replace(/\s+/g, " ")
+    .trim()
+    .toLowerCase();
+}
+
+function sortIndexDisplayName(value) {
+  return normalizeIndexKey(value).replace(/^((r|rabbi|rav|dr)\.?\s+|r['’]\s+)/, "");
+}
+
+function uniqueValues(values) {
+  const seen = new Set();
+  const unique = [];
+
+  for (const value of values) {
+    const trimmed = String(value || "").replace(/\s+/g, " ").trim();
+    const key = normalizeIndexKey(trimmed);
+
+    if (!trimmed || seen.has(key)) {
+      continue;
+    }
+
+    seen.add(key);
+    unique.push(trimmed);
+  }
+
+  return unique;
+}
+
+async function loadPersonIndex() {
+  let review;
+
+  try {
+    review = JSON.parse(await fs.readFile(PERSON_INDEX_REVIEW_FILE, "utf8"));
+  } catch (error) {
+    if (error.code === "ENOENT") {
+      return [];
+    }
+
+    throw error;
+  }
+
+  if (review.version !== 2 || !review.people || typeof review.people !== "object") {
+    return [];
+  }
+
+  return Object.entries(review.people)
+    .map(([id, person]) => ({
+      id,
+      displayName: String(person.displayName || "").trim(),
+      aliases: uniqueValues([person.displayName, ...(person.aliases || [])]),
+    }))
+    .filter((person) => person.displayName && person.aliases.length > 0)
+    .sort((a, b) => sortIndexDisplayName(a.displayName).localeCompare(sortIndexDisplayName(b.displayName)));
+}
+
+function escapeRegexChar(char) {
+  return char.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function aliasRegexSource(alias) {
+  return Array.from(alias).map((char) => {
+    if (/\s/.test(char)) {
+      return "\\s+";
+    }
+
+    if (char === "'" || char === "’" || char === "‘") {
+      return "['’‘]";
+    }
+
+    if (char === '"' || char === "״" || char === "“" || char === "”") {
+      return '["״“”]';
+    }
+
+    return escapeRegexChar(char);
+  }).join("");
+}
+
+function personAliasRegex(person) {
+  const aliasSources = person.aliases
+    .slice()
+    .sort((a, b) => b.length - a.length)
+    .map(aliasRegexSource);
+
+  if (aliasSources.length === 0) {
+    return null;
+  }
+
+  const boundaryChars = "A-Za-z0-9\\u0590-\\u05FF\\uFB1D-\\uFB4F";
+  return new RegExp(`(?<![${boundaryChars}])(?:${aliasSources.join("|")})(?![${boundaryChars}])`, "gu");
+}
+
+function createPersonIndexState(people) {
+  return {
+    people,
+    mentions: new Map(people.map((person) => [person.id, []])),
+    nextMarker: 1,
+  };
+}
+
+function tagPersonIndexMentions(typstContent, indexState) {
+  if (!indexState || indexState.people.length === 0) {
+    return typstContent;
+  }
+
+  let tagged = typstContent;
+
+  for (const person of indexState.people) {
+    const re = personAliasRegex(person);
+    if (!re) {
+      continue;
+    }
+
+    tagged = tagged.replace(re, (match) => {
+      const marker = `person-index-${person.id}-${indexState.nextMarker}`;
+      indexState.nextMarker += 1;
+      indexState.mentions.get(person.id).push(marker);
+      return `${match}#metadata(none) <${marker}>`;
+    });
+  }
+
+  return tagged;
 }
 
 function normalizeTitle(value) {
@@ -363,9 +504,11 @@ async function ensureEntryFiles(entries) {
   }
 }
 
-function convertDocxToTypst(entry) {
+function convertDocxToTypst(entry, indexState = null) {
   const typst = run("pandoc", [entry.docxPath, "-t", "typst"]);
-  return applyTextRules(stripDuplicateTitle(typst, entry.sourceTitles));
+  const body = stripDuplicateTitle(typst, entry.sourceTitles);
+  const indexedBody = indexState ? tagPersonIndexMentions(body, indexState) : body;
+  return applyTextRules(indexedBody);
 }
 
 function formatDuration(startedAt) {
@@ -373,7 +516,61 @@ function formatDuration(startedAt) {
   return `${(elapsedMs / 1000).toFixed(1)}s`;
 }
 
-function renderTypstDocument(entries, options) {
+function renderPersonIndex(indexState) {
+  if (!indexState) {
+    return "";
+  }
+
+  const rows = indexState.people
+    .map((person) => ({
+      person,
+      markers: indexState.mentions.get(person.id) || [],
+    }))
+    .filter((entry) => entry.markers.length > 0);
+
+  if (rows.length === 0) {
+    return "";
+  }
+
+  const parts = [
+    `#pagebreak()
+#set page(footer: page-number-footer())
+= Index
+
+#set par(first-line-indent: 0em, justify: false)
+
+#let index-pages(labels) = context {
+  let pages = ()
+  for marker in labels {
+    let page = counter(page).at(marker).first()
+    if not pages.contains(page) {
+      pages.push(page)
+    }
+  }
+  pages.map(str).join(", ")
+}
+
+#let index-row(name, labels) = block(below: 2pt)[
+  #grid(
+    columns: (1fr, auto),
+    gutter: 0.14in,
+    [#name],
+    [#index-pages(labels)],
+  )
+]
+`,
+  ];
+
+  for (const { person, markers } of rows) {
+    const labels = markers.map(typstLabel).join(", ");
+    const tuple = markers.length === 1 ? `(${labels},)` : `(${labels})`;
+    parts.push(`#index-row(${typstString(person.displayName)}, ${tuple})\n`);
+  }
+
+  return parts.join("\n");
+}
+
+function renderTypstDocument(entries, options, indexState = null) {
   const settings = pageSettings(options.size);
   const parts = [];
   const startedAt = Date.now();
@@ -453,6 +650,28 @@ function renderTypstDocument(entries, options) {
   }
 }
 
+#let page-number-footer() = context {
+  let number = text(size: 7.2pt, fill: rgb("#444444"))[
+    #counter(page).display()
+  ]
+
+  if calc.odd(here().page()) {
+    grid(
+      columns: (1fr, auto),
+      align: bottom,
+      [],
+      number,
+    )
+  } else {
+    grid(
+      columns: (auto, 1fr),
+      align: bottom,
+      number,
+      [],
+    )
+  }
+}
+
 #show heading.where(level: 1): it => {
   set align(center)
   set text(font: "Times New Roman", size: 11pt, weight: "regular")
@@ -470,9 +689,9 @@ function renderTypstDocument(entries, options) {
 
   entries.forEach((entry, index) => {
     console.error(`[${index + 1}/${entries.length}] ${entry.title}`);
-    const body = convertDocxToTypst(entry);
-    const qrRelativePath = path.relative(OUTPUT_DIR, entry.qrPath).split(path.sep).join("/");
     const isFrontMatter = FRONT_MATTER_ROUTES.includes(entry.route);
+    const body = convertDocxToTypst(entry, isFrontMatter ? null : indexState);
+    const qrRelativePath = path.relative(OUTPUT_DIR, entry.qrPath).split(path.sep).join("/");
     const shouldInsertTableOfContents =
       options.all && !insertedTableOfContents && !isFrontMatter;
 
@@ -508,6 +727,11 @@ ${body}
 `);
   });
 
+  const indexContent = renderPersonIndex(indexState);
+  if (indexContent) {
+    parts.push(indexContent);
+  }
+
   console.error(`Finished docx conversion in ${formatDuration(startedAt)}.`);
   return parts.join("\n");
 }
@@ -515,13 +739,18 @@ ${body}
 async function main() {
   const options = parseArgs(process.argv.slice(2));
   const entries = await loadEntries(options);
+  const shouldBuildPersonIndex = options.personIndex ?? options.all;
+  const personIndexPeople = shouldBuildPersonIndex ? await loadPersonIndex() : [];
+  const indexState = shouldBuildPersonIndex
+    ? createPersonIndexState(personIndexPeople)
+    : null;
 
   await ensureEntryFiles(entries);
   await fs.mkdir(OUTPUT_DIR, { recursive: true });
 
   const typstPath = path.join(OUTPUT_DIR, `${options.output}.typ`);
   const pdfPath = path.join(OUTPUT_DIR, `${options.output}.pdf`);
-  const typstDocument = renderTypstDocument(entries, options);
+  const typstDocument = renderTypstDocument(entries, options, indexState);
 
   await fs.writeFile(typstPath, typstDocument, "utf8");
   const compileStartedAt = Date.now();
@@ -532,6 +761,10 @@ async function main() {
   console.log(`Built ${path.relative(ROOT_DIR, typstPath)}`);
   console.log(`Built ${path.relative(ROOT_DIR, pdfPath)}`);
   console.log(`Included ${entries.length} article${entries.length === 1 ? "" : "s"} at ${options.size}.`);
+  if (shouldBuildPersonIndex) {
+    const indexedPeople = Array.from(indexState.mentions.values()).filter((markers) => markers.length > 0).length;
+    console.log(`Indexed ${indexedPeople} person${indexedPeople === 1 ? "" : "s"}.`);
+  }
 }
 
 if (require.main === module) {
@@ -546,5 +779,6 @@ module.exports = {
   isolateHebrewRuns,
   normalizeMisplacedHebrewCommas,
   normalizePunctuationSpacing,
+  tagPersonIndexMentions,
   stripDuplicateTitle,
 };

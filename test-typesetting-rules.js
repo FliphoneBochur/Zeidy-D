@@ -7,6 +7,7 @@ const {
   applyTextRules,
   normalizeMisplacedHebrewCommas,
   normalizePunctuationSpacing,
+  tagPersonIndexMentions,
   stripDuplicateTitle,
 } = require("./build-typeset-proof");
 
@@ -232,4 +233,27 @@ test("keeps Hebrew phrase together across a source newline", () => {
     applyTextRules("הקדוש ברוך\nהוא will"),
     `${RTL_ISOLATE}הקדוש ברוך\nהוא${POP_DIRECTIONAL_ISOLATE} will`
   );
+});
+
+test("tags person index aliases with straight or slanted Hebrew quotes", () => {
+  const indexState = {
+    people: [
+      {
+        id: "rashi",
+        displayName: "Rashi",
+        aliases: ['רש"י', "Rashi"],
+      },
+    ],
+    mentions: new Map([["rashi", []]]),
+    nextMarker: 1,
+  };
+
+  assert.equal(
+    tagPersonIndexMentions("Rashi says רש״י explains", indexState),
+    'Rashi#metadata(none) <person-index-rashi-1> says רש״י#metadata(none) <person-index-rashi-2> explains'
+  );
+  assert.deepEqual(indexState.mentions.get("rashi"), [
+    "person-index-rashi-1",
+    "person-index-rashi-2",
+  ]);
 });
