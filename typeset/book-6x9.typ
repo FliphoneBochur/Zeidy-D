@@ -80,7 +80,7 @@
 }
 
 #set page(footer: article-footer("https://zeidyd.com/rabbi-oelbaum-haskama/", "../Files/07 - Misc/Rabbi Oelbaum Haskama/Rabbi Oelbaum Haskama.png"))
-= Rabbi Oelbaum Haskama
+#heading(level: 1, outlined: false)[Rabbi Oelbaum Haskama]
 
 ⁧ר' יששכר בנימין⁩, I'm here with your ⁧אייניקל⁩ Ari, who is being ⁧מקיים
 כיבוד אב⁩. \[Even though there's a whole ⁧שאלה⁩ about ⁧כיבוד⁩ for a
@@ -131,7 +131,7 @@ R' Noach Isaac Oelbaum, \ Mora D'Asra of Khal Nachlas Yitzchok
 #pagebreak()
 
 #set page(footer: none)
-= About the Name
+#heading(level: 1, outlined: false)[About the Name]
 
 \(⁧וָאֹמַר מָה אֵלֶּה אֲדֹנִי וַיֹּאמֶר אֵלַי הַמַּלְאָךְ⁩ #strong[⁧הַדֹּבֵר בִּי⁩] ⁧אֲנִי אַרְאֶךָּ מָה הֵמָּה אֵלֶּה⁩
 (⁧זכריה א⁩:⁧ט⁩
@@ -169,6 +169,13 @@ family and ⁧כלל ישראל⁩.
 And finally, one last reason why this title is so fitting: the gematria
 of ⁧הַדֹּבֵר⁩ is the same as ⁧ארי⁩.
 
+#pagebreak()
+
+#set page(footer: none)
+#outline(
+  title: [Contents],
+  target: heading.where(level: 1),
+)
 #pagebreak()
 
 #set page(footer: article-footer("https://zeidyd.com/bereshis/5784/", "../Files/01 - Bereshis/01 - Bereshis/5784/Bereshis 5784.png"))
@@ -1600,7 +1607,7 @@ Bnei Brak named R' Aaron Goodman. The phrasing in the ⁧פסוק⁩ is peculiar
 הַמָּקוֹם הַזֶּה⁩, ⁧כִּי זֶה בֵּית אֱלֹקִים⁩. What is the ⁧תורה⁩ teaching us with this
 specific phrasing?
 
-The ⁧חתם סופר⁩ addresses this in ⁦שו\"ת חתם⁩ ⁧סופר⁩, ⁦יורה דעה סימן רל\"ג⁩, in
+The ⁧חתם סופר⁩ addresses this in ⁦שו\"ת חתם סופר, יורה דעה סימן רל\"ג⁩, in
 the name of his rebbi, R' Nosson Adler. He explains, based on ⁧מדרשים⁩, a
 critical ⁧הלכה⁩ relevant to us. The ⁧מדרש⁩ states that in ⁧ארץ ישראל⁩, ⁧עבודה
 זרה⁩ was so rampant that every high place - every ⁧הר גבוה⁩ or ⁧גִבְעָה נשואה⁩ - was associated with ⁧עבודה זרה⁩. The question then arises: how could ⁧הקדוש
@@ -2732,7 +2739,7 @@ The ⁧בית הלוי⁩ further points to a remarkable ⁧פסוק⁩ in ⁧פ
 ישראל⁩ left ⁧מצרים⁩, they asked the ⁧מצרים⁩ for their valuables (12:34): ⁧וּבְנֵי
 יִשְׂרָאֵל עָשׂוּ כִּדְבַר מֹשֶׁה וַיִּשְׁאֲלוּ מִמִּצְרַיִם כְּלֵי כֶסֶף וּכְלֵי זָהָב וּשְׂמָלֹת⁩. One would
 expect the ⁧מצריים⁩ to begrudgingly comply or resentfully part with their
-belongings. Yet the next ⁧פסוק⁩ reveals: ⁦וַה׳ נָתַן⁩ ⁧אֶת חֵן הָעָם בְּעֵינֵי מִצְרַיִם
+belongings. Yet the next ⁧פסוק⁩ reveals: ⁦וַה׳ נָתַן אֶת חֵן⁩ ⁧הָעָם בְּעֵינֵי מִצְרַיִם
 וַיַּשְׁאִלוּם⁩. Despite the devastation of ⁧מכת בכורות⁩, ⁧בני ישראל⁩ found favor
 with the ⁧מצריים⁩. How could this be? The answer lies in Hashem's control
 over events. Once ⁧כלל ישראל⁩ separated themselves by performing the ⁧קרבן
@@ -3472,7 +3479,7 @@ reach extraordinary spiritual levels.
 
 This theme ties into an enlightened teaching quoted by R' Matis Blum
 ⁦זצ\"ל⁩, (known for his ⁧תורה לדעת⁩ sheets), from the sefer ⁧חנוכת התורה
-החדש⁩. He references a Gemara in ⁦ע״ב שבת⁩ ⁧פח⁩: ⁧בְּשָׁעָה שֶׁעָלָה מֹשֶׁה לַמָּרוֹם⁩ - when
+החדש⁩. He references a Gemara in ⁦ע״ב שבת פח⁩: ⁧בְּשָׁעָה שֶׁעָלָה מֹשֶׁה לַמָּרוֹם⁩ - when
 ⁧משה⁩ went up to ⁧שמים⁩\; ⁧אָמְרוּ מַלְאֲכֵי הַשָּׁרֵת לִפְנֵי הַקָּדוֹשׁ בָּרוּךְ הוּא⁩ - the ⁧מלאכי
 השרת⁩, who serve before Hashem, complained. ⁧רִבּוֹנוֹ שֶׁל עוֹלָם⁩, ⁧מַה לִּילוּד אִשָּׁה
 בֵּינֵינוּ⁩ - Why is a ⁧בשר ודם⁩, a person born of flesh and blood, coming here
@@ -4662,8 +4669,8 @@ clear from this ⁧תוספות⁩ that it's better for him to do the ⁧מצו�
 the ⁧שעטנז ציצית⁩ and depend on ⁧עשה דוחה לא תעשה⁩, and do the ⁧מצוה⁩ with
 ⁧זריזות⁩. I hope we don't have that specific problem, I hope all of our
 ⁧ציצית⁩ are not ⁧שעטנז⁩. But meanwhile, that is what ⁧תוספות⁩ says. You can
-look it up. ⁧תוספות⁩ says this in ⁧שבועות⁩, ⁦דף ג ע״א⁩, ⁦ד״ה ועל⁩ ⁧הזקן שתים
-מכאן⁩. Im Yirtzeh Hashem, we should be ⁧זוכה⁩ to always fulfill the ⁧רצון
+look it up. ⁧תוספות⁩ says this in ⁧שבועות⁩, ⁦דף ג ע״א, ד״ה ועל הזקן שתים⁩
+⁧מכאן⁩. Im Yirtzeh Hashem, we should be ⁧זוכה⁩ to always fulfill the ⁧רצון
 השם⁩ in the best possible way.
 
 #pagebreak()
@@ -6691,7 +6698,7 @@ most successful in developing his own ⁧עבודת השם⁩.
 הַיָּם⁩. It is tied to the ⁧פרשה⁩ by this connection with counting.
 
 The last two ⁧פסוקים⁩ of the ⁧הפטרה⁩ are ⁧פסוקים⁩ related to putting on
-⁧תפילין⁩. They are ⁦וכו׳ וְאֵרַשְׂתִּיךְ⁩ ⁧לִי לְעוֹלָם⁩. I'd like to read you a story
+⁧תפילין⁩. They are ⁦וכו׳ וְאֵרַשְׂתִּיךְ לִי לְעוֹלָם⁩. I'd like to read you a story
 about how significant these ⁧פסוקים⁩ are, which we generally don't say
 slowly enough. The article is entitled, Tefillin in Dachau. It was
 written by Rabbi Yosef Wallace.
@@ -8322,7 +8329,7 @@ appointed. What does Hashem tell him? ⁧וַיֹּאמֶר ה׳ אֶל מֹשׁ
 What does the pasuk say? ⁧וְסָמַכְתָּ אֶת יָדְךָ עָלָיו⁩. What happens a couple of
 ⁧פסוקים⁩ later? ⁧וַיִּסְמֹךְ אֶת יָדָיו עָלָיו וַיְצַוֵּהוּ כַּאֲשֶׁר דִּבֶּר ה׳ בְּיַד מֹשֶׁה⁩. There's a
 ⁧סתירה בפסוקים⁩. Hashem said to Moshe ⁧וְסָמַכְתָּ אֶת יָדְךָ⁩, singular, and it says
-⁧וַיִּסְמֹךְ אֶת יָדָיו⁩ - Moshe used his two hands, plural. ⁦רש״י⁩ on the spot says, ⁧בְּעַיִן יָפָה⁩ - beautifully, with a generous eye; ⁧יוֹתֵר וְיוֹתֵר מִמַּה שֶּׁנִּצְטַוָּה⁩, ⁦שֶׁהַקָּבָּ\"ה אָמַר⁩ ⁧לוֹ⁩ \"⁦וְסָמַכְתָּ אֶת יָדְךָ\"⁩ - Hashem said "You should put your
+⁧וַיִּסְמֹךְ אֶת יָדָיו⁩ - Moshe used his two hands, plural. ⁦רש״י⁩ on the spot says, ⁧בְּעַיִן יָפָה⁩ - beautifully, with a generous eye; ⁧יוֹתֵר וְיוֹתֵר מִמַּה שֶּׁנִּצְטַוָּה⁩, ⁦שֶׁהַקָּבָּ\"ה אָמַר לוֹ⁩ \"⁦וְסָמַכְתָּ אֶת יָדְךָ\"⁩ - Hashem said "You should put your
 hand", and he did it with two hands; ⁧וַעֲשָׂאוֹ כִכְלִי מָלֵא וְגָדוּשׁ⁩ - The ⁧ברכה⁩ he
 gave was as if he was filling a vessel to full and overflowing. What
 does ⁦רש״י⁩ mean by ⁧מָלֵא וְגָדוּשׁ⁩?
@@ -10259,7 +10266,7 @@ because it was not meant to be translated, but leaving that aside for
 the moment; this was a tremendous ⁧נס⁩, that they all made exactly the
 same changes.
 
-The ⁧אוצר פלאות התורה⁩ brings the ⁦ש\"ך על⁩ ⁧התורה⁩ \[which is not the same
+The ⁧אוצר פלאות התורה⁩ brings the ⁦ש\"ך על התורה⁩ \[which is not the same
 ⁦ש\"ך⁩ as the ⁦ש\"ך⁩ in the ⁧שלחן ערוך⁩\] in our ⁧פרשה⁩. ⁧משה רבינו⁩ knew through
 ⁧רוח הקודש⁩ that which was going to happen to ⁧תלמי המלך⁩ and the ⁧זקנים⁩, that they would have to translate the ⁧תורה⁩ against their will and would
 need to make changes so there shouldn't be a ⁧לעז⁩, there shouldn't be a
@@ -10893,7 +10900,7 @@ I hope to discuss these three aspects over the next few minutes.
 
 First, when we were ⁧עבדים⁩ in ⁧מצרים⁩, both our ⁧גוף⁩ and ⁧נשמה⁩ were under the
 ⁧יד פרעה⁩. This was a powerful manifestation of the ⁧סיטרא אחרא⁩, the ⁧יצר
-הרע⁩ in control. What was the result? We descended to ⁦מ״ט שערי⁩ ⁧טומאה⁩. But
+הרע⁩ in control. What was the result? We descended to ⁦מ״ט שערי טומאה⁩. But
 then ⁧הקדוש ברוך הוא⁩ took us out from that ⁧טומאה⁩ and brought us to ⁧טהרה⁩, enabling us to reach a level of ⁧דעת ה׳⁩. That was the great
 accomplishment of ⁧יציאת מצרים⁩.
 
@@ -14257,7 +14264,7 @@ concerning the ⁧חיות הקודש⁩, the heavenly ⁧מלאכים⁩ that a
 שירה אחת ביום בששת ימי החול⁩, and each wing says ⁧שירה⁩ to ⁧הקדוש ברוך הוא⁩
 during the six days of the ⁧ימי החול⁩, six wings for six days.⁧כשיגיע שבת⁩
 when Shabbos arrives, ⁦אומרים החיות לפני המקום רבש\"ע⁩ ⁧אין לנו עוד כנף⁩, the ⁧מלאכים⁩ say "we don't have an extra wing for ⁧שבת⁩, so what are we
-going to do about ⁦שבת"⁩? ⁦והקב\"ה משיב⁩ ⁧להם יש לי עוד כנף אחד⁩, "there is
+going to do about ⁦שבת"⁩? ⁦והקב\"ה משיב להם יש⁩ ⁧לי עוד כנף אחד⁩, "there is
 another wing", ⁧שאומר לפני שירה שנאמר מכנף הארץ זמירות שמענו⁩. In other
 words, what we've told that regarding ⁧שבת⁩, there is something extra
 special, and that is a very special ⁧שירה⁩ that is being said on ⁧שבת⁩, and
@@ -14670,7 +14677,7 @@ amounts in fact to being in ⁧גלות⁩ 400 years, how are we to understand, 
 צדוק⁩:⁧וכן⁩ ⁦בגלות מצרים הראה לו השי\"ת⁩ ⁧איך כל שלות המצריים להאבידם היה
 לטובה⁩ - That all of the ⁧מצריים⁩ that he intended to do and to destroy the
 Yidden, that all the attempted to do ⁧למעשה⁩ it turns out it was a ⁧טובים⁩
-because ⁦שע\"י כן⁩ ⁧היו בשם כל החכמות מצרים⁩ - ⁧מצריים⁩ living ⁧בשלווה⁩, living
+because ⁦שע\"י כן היו בשם⁩ ⁧כל החכמות מצרים⁩ - ⁧מצריים⁩ living ⁧בשלווה⁩, living
 in comfort and in tranquility, that allowed ⁧מצרים⁩ to prosper and become
 a center in the world for culture and for ⁧חכמה⁩, and as a result being
 that everything located itself in ⁧מצרים⁩, we had a central point to be
@@ -14731,10 +14738,10 @@ supposed to impart the ⁧כלל ישראל⁩ that they are receiving now a gre
 ⁧מתנה⁩ a ⁧מתנה טובה⁩ called ⁧שבת⁩ - there's nothing new about ⁧שבת⁩? Says the
 ⁦מלבי\"ם⁩:⁧רצה לומר⁩ - the intent of this ⁦חז\"ל⁩ is, because I want you to
 know, says the ⁦מלבי\"ם⁩, ⁦כי תענוגי העוה\"ב⁩ - because the pleasure of ⁧עולם
-הבא⁩, ⁦א\"א שישיג⁩ ⁧האדם בחיים⁩ - on this world, we have no ⁧השגה⁩ whatsoever, we cannot understand, we cannot comprehend, we cannot relate to the idea
+הבא⁩, ⁦א\"א שישיג האדם בחיים⁩ - on this world, we have no ⁧השגה⁩ whatsoever, we cannot understand, we cannot comprehend, we cannot relate to the idea
 of the immense, immense, tremendous, tremendous pleasures of ⁧עולם הבא⁩.
 ⁧כי בעוד הנפש קשורה בחומר⁩ - because ⁧כל זמן⁩ that the ⁧נשמה⁩ is still
-connected with the material, with our ⁧גוף⁩, ⁦א\"א שתצייר⁩ ⁧לעצמה⁩ - it's
+connected with the material, with our ⁧גוף⁩, ⁦א\"א שתצייר לעצמה⁩ - it's
 impossible even to imagine, certainly we don't know, we can't be ⁧משיג⁩, but even to imagine it's not ⁧שייך⁩ even to imagine what it means ⁧תענוג
 הנפש⁩ - the pleasure that the ⁧נשמה⁩ will derive, ⁧והבלתי נקשר בחומר⁩. In
 other words, ⁧עולם הבא⁩ of course is reserved for the ⁧נשמה⁩, and ⁧כל זמן⁩ the
@@ -14779,7 +14786,7 @@ it's called the ⁧שבת הגדול⁩ and ⁧יום שכולו שבת⁩, ⁧�
 this treasure house, because ⁧עולם הבא⁩, truly speaking, is not down here.
 ⁧עולם הבא⁩ is in the upper world, it's hidden from us. ⁧הקדוש ברוך הוא⁩ took
 out a ⁧שטיקל עולם הבא⁩ from his ⁧בית גנוזה⁩, he took out a ⁧שטיקל עולם הבא⁩
-from the ⁧עולמות עליונים⁩ and brought it down here in the form of ⁧שבת⁩, because ⁦שא\"א שירגיש⁩ ⁧אותו האדם בחייו⁩ - a person can't experience ⁧עולם
+from the ⁧עולמות עליונים⁩ and brought it down here in the form of ⁧שבת⁩, because ⁦שא\"א שירגיש אותו האדם⁩ ⁧בחייו⁩ - a person can't experience ⁧עולם
 הבא⁩ when he's alive, ⁧ואני מבקש לתנו לישראל שהם⁩ ⁦יירשו השבת הגנוז הזה
 לעוה\"ב⁩ - a little bit, says the ⁧הקדוש ברוך הוא⁩, I want to give ⁧כל ישראל⁩
 a little bit of ⁧עולם הבא⁩ in this world as well, I want to give a little

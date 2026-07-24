@@ -143,6 +143,13 @@ test("keeps shorthand acronym phrase in logical order", () => {
   );
 });
 
+test("keeps acronym-led Hebrew source titles in logical order", () => {
+  assert.equal(
+    applyTextRules('addresses this in שו\\"ת חתם סופר, יורה דעה סימן רל\\"ג, in the name'),
+    `addresses this in ${LTR_ISOLATE}שו\\"ת חתם סופר, יורה דעה סימן רל\\"ג${POP_DIRECTIONAL_ISOLATE}, in the name`
+  );
+});
+
 test("keeps Hebrew name phrase ending with acronym in logical order", () => {
   assert.equal(
     applyTextRules('written by ר\\\' שלמה גנצפריד זצ\\"ל - a tremendous'),

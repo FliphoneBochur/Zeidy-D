@@ -126,3 +126,5 @@ These rules are global in `build-typeset-proof.js`; focused route proofs are onl
 English hyphenation is disabled globally in the Typst template. Paragraphs still use justified spacing, but Typst should not break English words across lines with inserted hyphens.
 
 Paragraph first-line indentation is disabled globally in the Typst template.
+
+Full-book builds insert a Typst-generated table of contents after the front matter and before the first regular article. Front matter headings are marked `outlined: false`, so the table of contents starts with the main book entries.

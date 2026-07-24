@@ -37,8 +37,13 @@ const HEBREW_LOOSE_CITATION_CLOSE_RE = new RegExp(
   `(^|\\s)((?:${HEBREW_TOKEN}\\s+)?${HEBREW_TOKEN}:${HEBREW_TOKEN})\\)\\)+(?=\\s+${HEBREW_TOKEN})`,
   "gu"
 );
+const HEBREW_ACRONYM_PHRASE = `(?:${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN}){0,3}\\s+${HEBREW_STRONG_ACRONYM}|${HEBREW_STRONG_ACRONYM}(?:\\s+${HEBREW_TOKEN}){1,3})`;
+const HEBREW_ACRONYM_COMMA_SEQUENCE_RE = new RegExp(
+  `${HEBREW_ACRONYM_PHRASE},\\s+${HEBREW_ACRONYM_PHRASE}`,
+  "gu"
+);
 const HEBREW_ACRONYM_CONTEXT_RE = new RegExp(
-  `(?:${HEBREW_TOKEN}\\s+${HEBREW_STRONG_ACRONYM}|${HEBREW_STRONG_ACRONYM}\\s+${HEBREW_TOKEN})`,
+  HEBREW_ACRONYM_PHRASE,
   "gu"
 );
 const HEBREW_TRAILING_ACRONYM_PHRASE_RE = new RegExp(
@@ -241,7 +246,11 @@ function isolateHebrewRuns(typstContent) {
     return protect(`${LTR_ISOLATE}${match}${POP_DIRECTIONAL_ISOLATE}`);
   });
 
-  const trailingAcronymPhraseSafeContent = bareReferenceSafeContent.replace(HEBREW_TRAILING_ACRONYM_PHRASE_RE, (match) => {
+  const acronymCommaSequenceSafeContent = bareReferenceSafeContent.replace(HEBREW_ACRONYM_COMMA_SEQUENCE_RE, (match) => {
+    return protect(`${LTR_ISOLATE}${match}${POP_DIRECTIONAL_ISOLATE}`);
+  });
+
+  const trailingAcronymPhraseSafeContent = acronymCommaSequenceSafeContent.replace(HEBREW_TRAILING_ACRONYM_PHRASE_RE, (match) => {
     return protect(`${LTR_ISOLATE}${match}${POP_DIRECTIONAL_ISOLATE}`);
   });
 
@@ -453,21 +462,42 @@ function renderTypstDocument(entries, options) {
 
   console.error(`Converting ${entries.length} article${entries.length === 1 ? "" : "s"} from docx...`);
 
+  let insertedTableOfContents = false;
+
   entries.forEach((entry, index) => {
     console.error(`[${index + 1}/${entries.length}] ${entry.title}`);
     const body = convertDocxToTypst(entry);
     const qrRelativePath = path.relative(OUTPUT_DIR, entry.qrPath).split(path.sep).join("/");
+    const isFrontMatter = FRONT_MATTER_ROUTES.includes(entry.route);
+    const shouldInsertTableOfContents =
+      options.all && !insertedTableOfContents && !isFrontMatter;
 
-    if (index > 0) {
+    if (shouldInsertTableOfContents) {
+      if (index > 0) {
+        parts.push("#pagebreak()\n");
+      }
+
+      parts.push(`#set page(footer: none)
+#outline(
+  title: [Contents],
+  target: heading.where(level: 1),
+)
+#pagebreak()
+`);
+      insertedTableOfContents = true;
+    } else if (index > 0) {
       parts.push("#pagebreak()\n");
     }
 
     const footer = entry.hasFooter
       ? `article-footer(${typstString(entry.url)}, ${typstString(qrRelativePath)})`
       : "none";
+    const heading = isFrontMatter
+      ? `#heading(level: 1, outlined: false)[${entry.title}]`
+      : `= ${entry.title}`;
 
     parts.push(`#set page(footer: ${footer})
-= ${entry.title}
+${heading}
 
 ${body}
 `);
