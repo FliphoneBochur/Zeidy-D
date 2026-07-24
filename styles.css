@@ -347,6 +347,35 @@ main header h1 {
   border: 1px solid var(--border);
 }
 
+body.final-sefer-page main {
+  padding: 0;
+  overflow: hidden;
+}
+
+body.final-sefer-page main > header {
+  display: none;
+}
+
+.final-sefer-content {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.final-sefer-pdf-wrap {
+  width: 100%;
+  height: 100%;
+  max-height: none;
+  aspect-ratio: auto;
+}
+
+.final-sefer-pdf {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 /* Mobile PDF container */
 .mobile-pdf-container {
   width: 100%;

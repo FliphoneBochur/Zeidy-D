@@ -353,23 +353,30 @@ function cap(s) {
 async function showContent(relativePath, baseFilename) {
   const pathParts = relativePath.split("/");
   const displayName = pathParts[pathParts.length - 1];
+  const actualBaseFilename = baseFilename || relativePath.split("/").pop();
+  const isFinalSefer =
+    displayName.toLowerCase() === "final sefer" ||
+    actualBaseFilename.toLowerCase() === "final sefer";
 
   // Create breadcrumb from path parts
   const breadcrumb = pathParts.map(cap).join(" › ");
 
+  document.body.classList.toggle("final-sefer-page", isFinalSefer);
   document.getElementById("title").textContent = cap(displayName);
   document.getElementById("crumbs").textContent = breadcrumb;
 
   const content = document.getElementById("content");
   content.innerHTML = "";
+  content.classList.toggle("final-sefer-content", isFinalSefer);
 
   // Create status container for error messages at top
   const statusContainer = el("div", { class: "status-messages" });
-  content.appendChild(statusContainer);
+  if (!isFinalSefer) {
+    content.appendChild(statusContainer);
+  }
 
   // Always check for PDF and audio files regardless of manifest value
   // Determine base filename - use manifest value or directory name
-  const actualBaseFilename = baseFilename || relativePath.split("/").pop();
 
   // Check for PDF file
   const pdfFilename = `${actualBaseFilename}.pdf`;
@@ -381,160 +388,164 @@ async function showContent(relativePath, baseFilename) {
 
   console.log("Checking for files:", { pdfPath, mp3Path, actualBaseFilename });
 
-  // Check PDF existence
-  fetch(pdfPath, { method: "HEAD" })
-    .then((response) => {
-      if (!response.ok) {
+  if (!isFinalSefer) {
+    // Check PDF existence
+    fetch(pdfPath, { method: "HEAD" })
+      .then((response) => {
+        if (!response.ok) {
+          const pdfError = el("div", { class: "media-error" }, "📄 No PDF found");
+          statusContainer.appendChild(pdfError);
+        }
+      })
+      .catch(() => {
         const pdfError = el("div", { class: "media-error" }, "📄 No PDF found");
         statusContainer.appendChild(pdfError);
-      }
-    })
-    .catch(() => {
-      const pdfError = el("div", { class: "media-error" }, "📄 No PDF found");
-      statusContainer.appendChild(pdfError);
-    });
+      });
 
-  // Check MP3 existence
-  fetch(mp3Path, { method: "HEAD" })
-    .then((response) => {
-      if (!response.ok) {
+    // Check MP3 existence
+    fetch(mp3Path, { method: "HEAD" })
+      .then((response) => {
+        if (!response.ok) {
+          const audioError = el(
+            "div",
+            { class: "media-error" },
+            "🎵 No audio found"
+          );
+          statusContainer.appendChild(audioError);
+        }
+      })
+      .catch(() => {
         const audioError = el(
           "div",
           { class: "media-error" },
           "🎵 No audio found"
         );
         statusContainer.appendChild(audioError);
-      }
-    })
-    .catch(() => {
-      const audioError = el(
-        "div",
-        { class: "media-error" },
-        "🎵 No audio found"
-      );
-      statusContainer.appendChild(audioError);
-    });
+      });
+  }
 
   // Create embeds container for YouTube + Audio
   const embedsContainer = el("div", { class: "embeds-container" });
 
   // Meta (YouTube, optionally switchable to Google Drive)
-  try {
-    const meta = await loadMeta(relativePath);
-    let hasEmbeds = false;
+  if (!isFinalSefer) {
+    try {
+      const meta = await loadMeta(relativePath);
+      let hasEmbeds = false;
 
-    const googleDriveIds = normalizeEmbedIds(meta["google-drive"]);
-    const youtubeIds = normalizeEmbedIds(meta.youtube);
+      const googleDriveIds = normalizeEmbedIds(meta["google-drive"]);
+      const youtubeIds = normalizeEmbedIds(meta.youtube);
 
-    if (youtubeIds.length > 0) {
-      const youtubeEmbeds =
-        googleDriveIds.length > 0
-          ? createSwitchableVideoEmbeds(
-              youtubeIds,
-              VIDEO_EMBED_PROVIDERS.youtube,
-              googleDriveIds,
-              VIDEO_EMBED_PROVIDERS.googleDrive
-            )
-          : createIframeEmbeds(youtubeIds, VIDEO_EMBED_PROVIDERS.youtube);
+      if (youtubeIds.length > 0) {
+        const youtubeEmbeds =
+          googleDriveIds.length > 0
+            ? createSwitchableVideoEmbeds(
+                youtubeIds,
+                VIDEO_EMBED_PROVIDERS.youtube,
+                googleDriveIds,
+                VIDEO_EMBED_PROVIDERS.googleDrive
+              )
+            : createIframeEmbeds(youtubeIds, VIDEO_EMBED_PROVIDERS.youtube);
 
-      embedsContainer.appendChild(youtubeEmbeds);
-      hasEmbeds = true;
-    } else if (googleDriveIds.length > 0) {
-      embedsContainer.appendChild(
-        createDownloadableGoogleDriveEmbeds(googleDriveIds)
-      );
-      hasEmbeds = true;
-    } else {
-      const videoError = el(
-        "div",
-        { class: "media-error" },
-        "📺 No video found"
-      );
-      statusContainer.appendChild(videoError);
-    }
-
-    // Try to show audio player using base filename
-    if (baseFilename && baseFilename !== null) {
-      const mp3Filename = `${baseFilename}.mp3`;
-      const mp3Path = `/Files/${relativePath}/${mp3Filename}`;
-
-      console.log("Trying to load audio:", mp3Path);
-
-      const audioWrapper = el("div", { class: "audio-wrapper" });
-      const audioTitle = el("h4", { class: "audio-title" }, "Audio");
-      const audio = el("audio", {
-        preload: "metadata",
-        id: `audio-${Date.now()}`,
-      });
-
-      const source = el("source", {
-        src: mp3Path,
-        type: "audio/mpeg",
-      });
-      audio.appendChild(source);
-
-      // Add error handling
-      audio.addEventListener("error", () => {
-        console.log("Audio not found:", mp3Path);
-        const audioError = el(
+        embedsContainer.appendChild(youtubeEmbeds);
+        hasEmbeds = true;
+      } else if (googleDriveIds.length > 0) {
+        embedsContainer.appendChild(
+          createDownloadableGoogleDriveEmbeds(googleDriveIds)
+        );
+        hasEmbeds = true;
+      } else {
+        const videoError = el(
           "div",
           { class: "media-error" },
-          "🎵 No audio found"
+          "📺 No video found"
         );
-        statusContainer.appendChild(audioError);
-        audioWrapper.style.display = "none";
-      });
+        statusContainer.appendChild(videoError);
+      }
 
-      audio.addEventListener("loadedmetadata", () => {
-        console.log("Audio loaded successfully:", mp3Path);
-      });
+      // Try to show audio player using base filename
+      if (baseFilename && baseFilename !== null) {
+        const mp3Filename = `${baseFilename}.mp3`;
+        const mp3Path = `/Files/${relativePath}/${mp3Filename}`;
 
-      // Player controls container
-      const controlsContainer = el("div", { class: "audio-controls" });
-      const playBtn = el("button", { class: "audio-btn play-btn" }, "▶️");
+        console.log("Trying to load audio:", mp3Path);
 
-      const progressContainer = el("div", { class: "progress-container" });
-      const progressBar = el("div", { class: "progress-bar" });
-      const progressFill = el("div", { class: "progress-fill" });
-      progressBar.appendChild(progressFill);
+        const audioWrapper = el("div", { class: "audio-wrapper" });
+        const audioTitle = el("h4", { class: "audio-title" }, "Audio");
+        const audio = el("audio", {
+          preload: "metadata",
+          id: `audio-${Date.now()}`,
+        });
 
-      const timeDisplay = el("span", { class: "time-display" }, "0:00 / 0:00");
-      progressContainer.appendChild(progressBar);
-      progressContainer.appendChild(timeDisplay);
+        const source = el("source", {
+          src: mp3Path,
+          type: "audio/mpeg",
+        });
+        audio.appendChild(source);
 
-      const speedBtn = el("button", { class: "audio-btn speed-btn" }, "1x");
-      const downloadBtn = el(
-        "a",
-        {
-          class: "audio-btn download-btn",
-          href: mp3Path,
-          download: mp3Filename,
-          title: "Download audio file",
-        },
-        "⬇️"
-      );
+        // Add error handling
+        audio.addEventListener("error", () => {
+          console.log("Audio not found:", mp3Path);
+          const audioError = el(
+            "div",
+            { class: "media-error" },
+            "🎵 No audio found"
+          );
+          statusContainer.appendChild(audioError);
+          audioWrapper.style.display = "none";
+        });
 
-      controlsContainer.appendChild(playBtn);
-      controlsContainer.appendChild(progressContainer);
-      controlsContainer.appendChild(speedBtn);
-      controlsContainer.appendChild(downloadBtn);
+        audio.addEventListener("loadedmetadata", () => {
+          console.log("Audio loaded successfully:", mp3Path);
+        });
 
-      audioWrapper.appendChild(audioTitle);
-      audioWrapper.appendChild(audio);
-      audioWrapper.appendChild(controlsContainer);
+        // Player controls container
+        const controlsContainer = el("div", { class: "audio-controls" });
+        const playBtn = el("button", { class: "audio-btn play-btn" }, "▶️");
 
-      setupAudioPlayer(audio, playBtn, progressFill, timeDisplay, speedBtn);
-      embedsContainer.appendChild(audioWrapper);
-      hasEmbeds = true;
+        const progressContainer = el("div", { class: "progress-container" });
+        const progressBar = el("div", { class: "progress-bar" });
+        const progressFill = el("div", { class: "progress-fill" });
+        progressBar.appendChild(progressFill);
+
+        const timeDisplay = el("span", { class: "time-display" }, "0:00 / 0:00");
+        progressContainer.appendChild(progressBar);
+        progressContainer.appendChild(timeDisplay);
+
+        const speedBtn = el("button", { class: "audio-btn speed-btn" }, "1x");
+        const downloadBtn = el(
+          "a",
+          {
+            class: "audio-btn download-btn",
+            href: mp3Path,
+            download: mp3Filename,
+            title: "Download audio file",
+          },
+          "⬇️"
+        );
+
+        controlsContainer.appendChild(playBtn);
+        controlsContainer.appendChild(progressContainer);
+        controlsContainer.appendChild(speedBtn);
+        controlsContainer.appendChild(downloadBtn);
+
+        audioWrapper.appendChild(audioTitle);
+        audioWrapper.appendChild(audio);
+        audioWrapper.appendChild(controlsContainer);
+
+        setupAudioPlayer(audio, playBtn, progressFill, timeDisplay, speedBtn);
+        embedsContainer.appendChild(audioWrapper);
+        hasEmbeds = true;
+      }
+
+      if (hasEmbeds) {
+        content.appendChild(embedsContainer);
+      }
+    } catch (e) {
+      console.error(e);
+      const warn = el("div", {}, "Could not load meta.json for this entry.");
+      content.appendChild(warn);
     }
-
-    if (hasEmbeds) {
-      content.appendChild(embedsContainer);
-    }
-  } catch (e) {
-    console.error(e);
-    const warn = el("div", {}, "Could not load meta.json for this entry.");
-    content.appendChild(warn);
   }
 
   // PDF - Only create viewer if PDF actually exists
@@ -559,7 +570,25 @@ async function showContent(relativePath, baseFilename) {
       const isMobile = window.innerWidth <= 768;
       const pdfWrap = el("div", { class: "pdf-wrap" });
 
-      if (isMobile) {
+      if (isFinalSefer) {
+        const finalSeferPdfPath = encodeURIComponent(
+          `${window.location.origin}/Files/${relativePath}/${pdfFilename}`
+        );
+        const pdfViewerUrl =
+          `https://mozilla.github.io/pdf.js/web/viewer.html` +
+          `?file=${finalSeferPdfPath}` +
+          `#page=1&zoom=page-fit&spreadMode=1`;
+
+        const pdfViewer = el("iframe", {
+          src: pdfViewerUrl,
+          class: "pdf final-sefer-pdf",
+          title: "Final Sefer PDF",
+          allowfullscreen: "",
+        });
+
+        pdfWrap.classList.add("final-sefer-pdf-wrap");
+        pdfWrap.appendChild(pdfViewer);
+      } else if (isMobile) {
         const mobilePdfPath = encodeURIComponent(
           `${window.location.origin}/Files/${relativePath}/${pdfFilename}`
         );
