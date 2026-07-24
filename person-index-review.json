@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-24T05:08:15.375Z",
+  "updatedAt": "2026-07-24T05:34:01.026Z",
   "people": {
     "a-short-vort": {
       "displayName": "A Short Vort",
@@ -121,7 +121,9 @@
         "The Arizal",
         "אר\"י",
         "אריז\"ל",
-        "אריז״ל"
+        "אריז״ל",
+        "אר״י",
+        "אר״י הקדוש"
       ],
       "createdAt": "2026-07-24T01:46:30.643Z"
     },
@@ -499,7 +501,8 @@
         "R’ Gedalia Schorr",
         "Gedalia Schorr",
         "The Ohr Gedalyahu",
-        "רב גדליה שור זצ"
+        "רב גדליה שור זצ",
+        "אור גדליהו"
       ],
       "createdAt": "2026-07-24T03:17:11.908Z"
     },
@@ -582,7 +585,8 @@
       "displayName": "R’ Leib Chasman",
       "aliases": [
         "R’ Leib Chasman",
-        "Leib Chasman"
+        "Leib Chasman",
+        "אור יהל"
       ],
       "createdAt": "2026-07-24T03:26:20.326Z"
     },
@@ -611,7 +615,8 @@
         "R’ Zalman Sorotzkin",
         "Lutzker Rav",
         "Rav Zalman Sorotzkin",
-        "The Lutzker Rav"
+        "The Lutzker Rav",
+        "אזנים לתורה"
       ],
       "createdAt": "2026-07-24T03:29:25.401Z"
     },
@@ -1114,7 +1119,8 @@
     "r-yoel-sirkis": {
       "displayName": "R' Yoel Sirkis",
       "aliases": [
-        "R' Yoel Sirkis"
+        "R' Yoel Sirkis",
+        "בית חדש"
       ],
       "createdAt": "2026-07-24T04:04:18.189Z"
     },
@@ -1564,7 +1570,8 @@
       "displayName": "Bach",
       "aliases": [
         "Bach",
-        "ב\"ח"
+        "ב\"ח",
+        "ב״ח"
       ],
       "createdAt": "2026-07-24T04:41:54.286Z"
     },
@@ -1723,6 +1730,54 @@
         "ש\"ך"
       ],
       "createdAt": "2026-07-24T04:56:24.664Z"
+    },
+    "ahavas-torah": {
+      "displayName": "Ahavas Torah",
+      "aliases": [
+        "Ahavas Torah",
+        "אהבת תורה"
+      ],
+      "createdAt": "2026-07-24T05:31:00.010Z"
+    },
+    "ohel-torah": {
+      "displayName": "Ohel Torah",
+      "aliases": [
+        "Ohel Torah",
+        "אהל תורה"
+      ],
+      "createdAt": "2026-07-24T05:31:11.005Z"
+    },
+    "otzer-plo-os-hatorah": {
+      "displayName": "Otzer Plo'os HaTorah",
+      "aliases": [
+        "Otzer Plo'os HaTorah",
+        "אוצר פלאות התורה"
+      ],
+      "createdAt": "2026-07-24T05:31:31.587Z"
+    },
+    "be-er-mayim-chaim": {
+      "displayName": "Be'er Mayim Chaim",
+      "aliases": [
+        "Be'er Mayim Chaim",
+        "באר מים חיים"
+      ],
+      "createdAt": "2026-07-24T05:33:02.646Z"
+    },
+    "bais-halevi": {
+      "displayName": "Bais Halevi",
+      "aliases": [
+        "Bais Halevi",
+        "בית הלוי"
+      ],
+      "createdAt": "2026-07-24T05:33:24.031Z"
+    },
+    "bais-yosef": {
+      "displayName": "Bais Yosef",
+      "aliases": [
+        "Bais Yosef",
+        "בית יוסף"
+      ],
+      "createdAt": "2026-07-24T05:33:51.037Z"
     }
   },
   "decisions": {
@@ -58153,6 +58208,2397 @@
         }
       ],
       "reviewedAt": "2026-07-24T05:08:15.302Z"
+    },
+    "about rebbetzin kanievsky's father r' elyashiv": {
+      "candidate": "about Rebbetzin Kanievsky's father R' Elyashiv",
+      "key": "about rebbetzin kanievsky's father r' elyashiv",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/02 - Shemos/09 - Ki Sisa/5785/Ki Sisa 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/02 - Shemos/09 - Ki Sisa/5785/Ki Sisa 5785.docx",
+          "source": "english-sefer-title",
+          "context": "... gives us the opportunity to daven. There is a fascinating story in R’ Chaim’s sefer about Rebbetzin Kanievsky’s father R’ Elyashiv זצ״ל. She relates that when she was a little girl, about ten years old, after R’ El..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:29:57.019Z"
+    },
+    "about the old": {
+      "candidate": "about the old",
+      "key": "about the old",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/01 - Bereshis/08 - Vayishlach/5784/Vayishlach 5784.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/08 - Vayishlach/5784/Vayishlach 5784.docx",
+          "source": "english-sefer-title",
+          "context": "...em turned out to be a book called הַפּוֺתֵחַ שער by אליהו כי טוב, a fascinating book about the old ישוב of ירושלים. A story in the ספר tells of רב נחום Shadeker. There’s even a stree..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:29:58.404Z"
+    },
+    "after him. the story involves": {
+      "candidate": "after him. The story involves",
+      "key": "after him. the story involves",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/01 - Bereshis/08 - Vayishlach/5784/Vayishlach 5784.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/08 - Vayishlach/5784/Vayishlach 5784.docx",
+          "source": "english-sefer-title",
+          "context": "... A story in the ספר tells of רב נחום Shadeker. There’s even a street in ירושלים named after him. The story involves a מוֹסֵר - a black belt troublemaker - named Grunchi Getches. He was notorious, ste..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:01.507Z"
+    },
+    "after moshe because we're always going": {
+      "candidate": "after Moshe because we're always going",
+      "key": "after moshe because we're always going",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/04 - Bamidbar/06 - Chukas/5784/Chukas (1)/Chukas 5784 (1).docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/06 - Chukas/5784/Chukas (1)/Chukas 5784 (1).docx",
+          "source": "english-sefer-title",
+          "context": "...the first פרה אדומה. That is what Rashi is saying. The פרה אדומה will always be named after Moshe because we’re always going to have to depend on his כוונות, the intentions that Moshe had when he had prepared..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:02.506Z"
+    },
+    "and look through it": {
+      "candidate": "and look through it",
+      "key": "and look through it",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/03 - Vayikra/10 - Emor/5785/Emor 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/03 - Vayikra/10 - Emor/5785/Emor 5785.docx",
+          "source": "english-sefer-title",
+          "context": "... them. If you’re a כהן, I think it’ll be worth your while to sit down with this sefer and look through it, it’s really quite enlightening.)"
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:03.258Z"
+    },
+    "another meeting with all the": {
+      "candidate": "another meeting with all the",
+      "key": "another meeting with all the",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/06 - Yom Tov/01 - Pesach/5784/Pesach 5784.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/01 - Pesach/5784/Pesach 5784.docx",
+          "source": "english-sefer-title",
+          "context": "...e to pay the first man a קנס for taking his אורח.” After they left, ר׳ לוי יצחק called another meeting with all the ראשי הקהילה. “I have reconsidered,” he announced. “I have decided to remain here a..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:03.942Z"
+    },
+    "brings another reason that the earth": {
+      "candidate": "brings another reason that the earth",
+      "key": "brings another reason that the earth",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/05 - Devarim/06 - Ki Seitzei/5784/Ki Seitzei 5784 (2)/Ki Seitzei 5784 (2).docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/06 - Ki Seitzei/5784/Ki Seitzei 5784 (2)/Ki Seitzei 5784 (2).docx",
+          "source": "english-sefer-title",
+          "context": "... the earth should accept him, and he should have his דין תורה in עולם הבא. The sefer brings another reason that the earth did not want to accept the body of this tailor who was tailoring with שעטנז, from ס..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:04.596Z"
+    },
+    "by r' moshe wolfson called festivals": {
+      "candidate": "by R' Moshe Wolfson called Festivals",
+      "key": "by r' moshe wolfson called festivals",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/06 - Yom Tov/03 - Lag Baomer/5785/Lag Baomer 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/03 - Lag Baomer/5785/Lag Baomer 5785.docx",
+          "source": "english-sefer-title",
+          "context": "Lag Baomer 5785 I have two short vorts on ל״ג בעומר. One of them is from a sefer by R’ Moshe Wolfson called Festivals of Faith. He brings down an interesting מעשה from a מדרש. There was a doctor named ..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:05.295Z"
+    },
+    "by this name for many reasons": {
+      "candidate": "by this name for many reasons",
+      "key": "by this name for many reasons",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/03 - Vayikra/02 - Tzav/5783/Tzav 5783.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/03 - Vayikra/02 - Tzav/5783/Tzav 5783.docx",
+          "source": "english-sefer-title",
+          "context": "...h is שבת הגדול, the great שבת before our wonderful יום טוב of פסח. שבת הגדול is called by this name for many reasons. One reason is that לדור דורות the דרשה on the הלכות of פסח was given on this שבת. ..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:06.385Z"
+    },
+    "called festivals of faith": {
+      "candidate": "called Festivals of Faith",
+      "key": "called festivals of faith",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/06 - Yom Tov/04 - Shavuos/5785/Shavuos 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/04 - Shavuos/5785/Shavuos 5785.docx",
+          "source": "english-sefer-title",
+          "context": "...ferring to the יום טוב of שבועות, of מתן תורה. R’ Moshe Wolfson, in a marvelous sefer called Festivals of Faith, which discusses פסח , שבועות, and the summer months, has a beautiful essay on the ..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:07.295Z"
+    },
+    "called the": {
+      "candidate": "called the",
+      "key": "called the",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/05 - Devarim/04 - Re'eh/5783/Re'eh 5783.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/04 - Re'eh/5783/Re'eh 5783.docx",
+          "source": "english-sefer-title",
+          "context": "...result in a ברכה or a קללה. However, the sefer מעינה של תורה brings down from a sefer called the נפלאות חדשות that היום means עולם הזה , which is a ברכה because we have the opportu..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:07.926Z"
+    },
+    "came out which retells stories": {
+      "candidate": "came out which retells stories",
+      "key": "came out which retells stories",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/06 - Yom Tov/10 - Yom Kippur/5784/Yom Kippur 5784.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/10 - Yom Kippur/5784/Yom Kippur 5784.docx",
+          "source": "english-sefer-title",
+          "context": "...good stead. The following story illustrates this in a very powerful way. A new sefer came out which retells stories, which you may or may not want to believe, about people who have פגישות with נשמות ..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:08.474Z"
+    },
+    "covid and all of": {
+      "candidate": "Covid and all of",
+      "key": "covid and all of",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/05 - Devarim/03 - Eikev/5783/Eikev 5783.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/03 - Eikev/5783/Eikev 5783.docx",
+          "source": "english-sefer-title",
+          "context": "... and we believe we’re in charge of everything. Hashem sends a tiny little virus called Covid and all of a sudden the world grinds to a halt. But this כֹּחִי וְעֹצֶם יָדִי yetzer hara is ..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:08.955Z"
+    },
+    "either for": {
+      "candidate": "either for",
+      "key": "either for",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/05 - Devarim/06 - Ki Seitzei/5784/Ki Seitzei 5784 (2)/Ki Seitzei 5784 (2).docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/06 - Ki Seitzei/5784/Ki Seitzei 5784 (2)/Ki Seitzei 5784 (2).docx",
+          "source": "english-sefer-title",
+          "context": "...his sefer is. So I recommend it strongly to any of you who are looking to buy a sefer either for a gift or for yourself. Now, in our פרשה of כי תצא, we have the הלכה of שעטנז. It’..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:09.543Z"
+    },
+    "fodder in the summer of the": {
+      "candidate": "fodder in the summer of the",
+      "key": "fodder in the summer of the",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/03 - Vayikra/13 - Behar-Bechukosai/5785/Behar-Bechukosai 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/03 - Vayikra/13 - Behar-Bechukosai/5785/Behar-Bechukosai 5785.docx",
+          "source": "english-sefer-title",
+          "context": "...טה is all about. To feed their livestock, the farmers would plant special crops called fodder in the summer of the sixth year, so that the majority of the growth would occur before שמיטה. That way,..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:10.103Z"
+    },
+    "for it": {
+      "candidate": "for it",
+      "key": "for it",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/01 - Bereshis/06 - Toldos/5784/Toldos 5784.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/06 - Toldos/5784/Toldos 5784.docx",
+          "source": "english-sefer-title",
+          "context": "... is not an איש תם. But יעקב אבינו could use חריפות and רמאות when the situation called for it, as we see in his dealings with עשו and לבן. This brings a crucial מוסר השכל for ..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:10.840Z"
+    },
+    "goes on to speak about": {
+      "candidate": "goes on to speak about",
+      "key": "goes on to speak about",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/06 - Yom Tov/07 - 15 Av/5785/15 Av 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/07 - 15 Av/5785/15 Av 5785.docx",
+          "source": "english-sefer-title",
+          "context": "...the נשיא; לֹא הָיוּ יָמִים טוֹבִים לְיִשְׂרָאֵל כַּחֲמִשָּׁה עָשָׂר בְּאָב. The sefer goes on to speak about אהבת ישראל. He quotes a magnificent דבר תורה from the בני יששכר, who quotes the גמר..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:11.446Z"
+    },
+    "grunchi getches. he was notorious": {
+      "candidate": "Grunchi Getches. He was notorious",
+      "key": "grunchi getches. he was notorious",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/01 - Bereshis/08 - Vayishlach/5784/Vayishlach 5784.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/08 - Vayishlach/5784/Vayishlach 5784.docx",
+          "source": "english-sefer-title",
+          "context": "...שלים named after him. The story involves a מוֹסֵר - a black belt troublemaker - named Grunchi Getches. He was notorious, stealing from peddlers and bullying people. Today we would call him a mafioso, rea..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:12.029Z"
+    },
+    "he brings the pasuk": {
+      "candidate": "he brings the pasuk",
+      "key": "he brings the pasuk",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/05 - Devarim/07 - Ki Savo/5785/Ki Savo 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/07 - Ki Savo/5785/Ki Savo 5785.docx",
+          "source": "english-sefer-title",
+          "context": "... very quiet and humble man, a very טייערער מענטש who was beloved by all. In his sefer he brings the pasuk (27:8) וְכָתַבְתָּ עַל הָאֲבָנִים אֶת כׇּל דִּבְרֵי הַתּוֹרָה הַזֹּאת בַּאֵר הֵיטֵב..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:12.474Z"
+    },
+    "him and asked him if it": {
+      "candidate": "him and asked him if it",
+      "key": "him and asked him if it",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/06 - Yom Tov/09 - Rosh Hashana/5784/Rosh Hashana 5784.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/09 - Rosh Hashana/5784/Rosh Hashana 5784.docx",
+          "source": "english-sefer-title",
+          "context": "...far away from Yiddishkeit and שמירת התורה, I wanted to get together with him. I called him and asked him if it was okay if I came to visit. He said, sure, come on down. As soon as I came to hi..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:12.907Z"
+    },
+    "him and he said": {
+      "candidate": "him and he said",
+      "key": "him and he said",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/03 - Vayikra/01 - Vayikra/5783/Vayikra 5783.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/03 - Vayikra/01 - Vayikra/5783/Vayikra 5783.docx",
+          "source": "english-sefer-title",
+          "context": "...aintain a connection with הקדוש ברוך הוא through השראת השכינה. Therefore Hashem called him and he said: חַיֶּיךָ - I swear; יֵשׁ לִי מְלָאכָה גְּדוֹלָה מִכָּל מַה שֶּׁעָשִׂיתָ - I have ..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:13.265Z"
+    },
+    "him by name. he finally answered": {
+      "candidate": "him by name. He finally answered",
+      "key": "him by name. he finally answered",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/06 - Yom Tov/09 - Rosh Hashana/5785/Rosh Hashana 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/09 - Rosh Hashana/5785/Rosh Hashana 5785.docx",
+          "source": "english-sefer-title",
+          "context": "...e serious damage which his servant had caused him and began to look for him and called him by name. He finally answered from a cozy nook near the fireplace where he was sprawled at his leisure. And from..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:13.594Z"
+    },
+    "him mendel": {
+      "candidate": "him Mendel",
+      "key": "him mendel",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/05 - Devarim/06 - Ki Seitzei/5785/Ki Seitzei 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/06 - Ki Seitzei/5785/Ki Seitzei 5785.docx",
+          "source": "english-sefer-title",
+          "context": "...ou know what we called him? What name we gave our baby, our little baby boy? We called him Mendel, after the rabbi. Can you imagine? The only Irish Mendel in the neighborhood, prob..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:13.922Z"
+    },
+    "him names and beat him up": {
+      "candidate": "him names and beat him up",
+      "key": "him names and beat him up",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/05 - Devarim/06 - Ki Seitzei/5785/Ki Seitzei 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/06 - Ki Seitzei/5785/Ki Seitzei 5785.docx",
+          "source": "english-sefer-title",
+          "context": "...son? They’re missing the point. When he comes home and says that the other kids called him names and beat him up because he has a Jewish name I’ll tell him that I want him to learn from those oth..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:14.237Z"
+    },
+    "him not only": {
+      "candidate": "him not only",
+      "key": "him not only",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/01 - Bereshis/10 - Mikeitz/5785/Mikeitz 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/10 - Mikeitz/5785/Mikeitz 5785.docx",
+          "source": "english-sefer-title",
+          "context": "...name זקן. Immediately after, they brought an elderly נשמה, a זקן ושבע ימים, and called him not only נער but even ילד and תינוק. The Rebbe asked, “How is this possible in עולם האמת? T..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:14.535Z"
+    },
+    "him over and said": {
+      "candidate": "him over and said",
+      "key": "him over and said",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/03 - Vayikra/03 - Shmini/5785/Shmini 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/03 - Vayikra/03 - Shmini/5785/Shmini 5785.docx",
+          "source": "english-sefer-title",
+          "context": "...s and nervously awaited the father’s reaction. When the boy arrived, his father called him over and said, “Your Rebbi just told me how well you’re doing, but if you try harder, you could ..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:14.832Z"
+    },
+    "him up for": {
+      "candidate": "him up for",
+      "key": "him up for",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/01 - Bereshis/09 - Vayaishev/5784/Vayaishev 5784.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/09 - Vayaishev/5784/Vayaishev 5784.docx",
+          "source": "english-sefer-title",
+          "context": "...ee the רב until after שבת. On שבת morning, the ראש הקהל was honored when the רב called him up for ששי – the sixth עלייה – a position of respect in those times. However, he quickly ..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:15.146Z"
+    },
+    "his beloved daughter close and told": {
+      "candidate": "his beloved daughter close and told",
+      "key": "his beloved daughter close and told",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/06 - Yom Tov/12 - Hoshana Raba/5785/Hoshana Raba 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/12 - Hoshana Raba/5785/Hoshana Raba 5785.docx",
+          "source": "english-sefer-title",
+          "context": "...e a revered rav in ארץ ישראל, in ירושלים, was preparing to leave this world. He called his beloved daughter close and told her he owed her a debt of gratitude. “With these words,” he told her, “You taught ..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:15.456Z"
+    },
+    "his famous sefer": {
+      "candidate": "his famous sefer",
+      "key": "his famous sefer",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/04 - Bamidbar/09 - Pinchas/5784/Pinchas 5784.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/09 - Pinchas/5784/Pinchas 5784.docx",
+          "source": "english-sefer-title",
+          "context": "...this mitzvah.” In the זכות of hearing this דבר תורה, he was so inspired that he named his famous sefer בני יששכר, which is a sefer on all the ימים טובים and the months of the year. We s..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:15.869Z"
+    },
+    "his uncle": {
+      "candidate": "his uncle",
+      "key": "his uncle",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/01 - Bereshis/04 - Vayairah/5785/Vayairah 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/04 - Vayairah/5785/Vayairah 5785.docx",
+          "source": "english-sefer-title",
+          "context": "...ולע because ר’ יושע בער סולובייצ’יק זצ״ל, whom I was privileged to hear, always called his uncle ר’ ולוולע. No one else calls him that - except R’ Hershel Schachter. To everyone e..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:16.247Z"
+    },
+    "in moshe's name. what is rashi": {
+      "candidate": "in Moshe's name. What is Rashi",
+      "key": "in moshe's name. what is rashi",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/04 - Bamidbar/06 - Chukas/5784/Chukas (1)/Chukas 5784 (1).docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/06 - Chukas/5784/Chukas (1)/Chukas 5784 (1).docx",
+          "source": "english-sefer-title",
+          "context": "... בַּמִּדְבָּר - Throughout all generations, for all time, the פרה אדומה will be called in Moshe’s name. What is Rashi saying here? It’s brought down from the Torah Treasures that the אריז״ל says that ..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:16.622Z"
+    },
+    "is called": {
+      "candidate": "is called",
+      "key": "is called",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/06 - Yom Tov/10 - Yom Kippur/5784/Yom Kippur 5784.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/10 - Yom Kippur/5784/Yom Kippur 5784.docx",
+          "source": "english-sefer-title",
+          "context": "...want to believe, about people who have פגישות with נשמות in the next world. The book is called, ‘Regards from Our Upstairs Neighbors’. Here’s the story. It was said of a certain ..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:16.990Z"
+    },
+    "is only": {
+      "candidate": "is only",
+      "key": "is only",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/06 - Yom Tov/08 - Elul/5785/Elul 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/08 - Elul/5785/Elul 5785.docx",
+          "source": "english-sefer-title",
+          "context": "... משפחה. I cannot say enough words about R’ Gedalia Schorr and his sefarim. This sefer is only a dim reflection of his גדלות. He ties together פרשת שופטים and חודש אלול. He writ..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:20.060Z"
+    },
+    "is. so": {
+      "candidate": "is. So",
+      "key": "is. so",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/05 - Devarim/06 - Ki Seitzei/5784/Ki Seitzei 5784 (2)/Ki Seitzei 5784 (2).docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/06 - Ki Seitzei/5784/Ki Seitzei 5784 (2)/Ki Seitzei 5784 (2).docx",
+          "source": "english-sefer-title",
+          "context": "...e how incredible it is. You get such הנאה, words fail to say how wonderful this sefer is. So I recommend it strongly to any of you who are looking to buy a sefer either for a g..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:20.588Z"
+    },
+    "judah wallace. he caught it thinking": {
+      "candidate": "Judah Wallace. He caught it thinking",
+      "key": "judah wallace. he caught it thinking",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/04 - Bamidbar/01 - Bamidbar/5785/Bamidbar 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/01 - Bamidbar/5785/Bamidbar 5785.docx",
+          "source": "english-sefer-title",
+          "context": "..., a Jew who was being taken to his death suddenly flung a small bag at a person named Judah Wallace. He caught it thinking it might contain a piece of bread. Upon opening it, however, he was disturbed to di..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:21.078Z"
+    },
+    "me looked and said to me": {
+      "candidate": "me looked and said to me",
+      "key": "me looked and said to me",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/01 - Bereshis/01 - Bereshis/5786/Bereshis (2)/Bereshis 5786 (2).docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/01 - Bereshis/5786/Bereshis (2)/Bereshis 5786 (2).docx",
+          "source": "english-sefer-title",
+          "context": "...ndividual family members arrived, and finally, they had a מנין. The man who had called me looked and said to me, “Sing something.” I looked to left, then to my right, and realized he was talking..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:21.643Z"
+    },
+    "mordechai whom": {
+      "candidate": "Mordechai whom",
+      "key": "mordechai whom",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/01 - Bereshis/01 - Bereshis/5786/Bereshis (2)/Bereshis 5786 (2).docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/01 - Bereshis/5786/Bereshis (2)/Bereshis 5786 (2).docx",
+          "source": "english-sefer-title",
+          "context": "...ged me. “And so I acted bravely, got up and began to sing the praises of a man named Mordechai whom I had never in my life seen before and most likely would never see again. Somehow, ..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:22.115Z"
+    },
+    "mrs. mandel and informed her of": {
+      "candidate": "Mrs. Mandel and informed her of",
+      "key": "mrs. mandel and informed her of",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/03 - Vayikra/11 - Behar/5784/Behar 5784.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/03 - Vayikra/11 - Behar/5784/Behar 5784.docx",
+          "source": "english-sefer-title",
+          "context": "...ow could he turn away this girl just because the other guest wanted privacy? He called Mrs. Mandel and informed her of the turn of events. “We both have an obligation to help this girl,” he said. “She’..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:22.791Z"
+    },
+    "of life and the book of": {
+      "candidate": "of life and the book of",
+      "key": "of life and the book of",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/06 - Yom Tov/10 - Yom Kippur/5785/Yom Kippur 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/10 - Yom Kippur/5785/Yom Kippur 5785.docx",
+          "source": "english-sefer-title",
+          "context": "...עַל כִּסֵּא דִין, וְסִפְרֵי חַיִּים וְסִפְרֵי מֵתִים פְּתוּחִין לְפָנָיו? - The book of life and the book of death is open in front of the king who’s about to make a judgment; וְיִשְׂרָאֵל אוֹמ..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:23.397Z"
+    },
+    "of r' levi yitzchok of berditchev": {
+      "candidate": "of R' Levi Yitzchok of Berditchev",
+      "key": "of r' levi yitzchok of berditchev",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/04 - Bamidbar/05 - Korach/5785/Korach 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/05 - Korach/5785/Korach 5785.docx",
+          "source": "english-sefer-title",
+          "context": "...could, חס ושלום, result in the tragic תקלה of וְהַזָּר הַקָּרֵב יוּמָת. In the sefer of R’ Levi Yitzchok of Berditchev, there’s an interesting שאלה: how can we give a gift to the Almighty? What does it ..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:23.920Z"
+    },
+    "of r' yitzchok zilberstein's torah wisdom": {
+      "candidate": "of R' Yitzchok Zilberstein's torah wisdom",
+      "key": "of r' yitzchok zilberstein's torah wisdom",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/01 - Bereshis/05 - Chayai Sara/5786/Chayai Sara 5786.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/05 - Chayai Sara/5786/Chayai Sara 5786.docx",
+          "source": "english-sefer-title",
+          "context": "...The מדרש tells us that he was going out to daven מנחה. The sefer אחת שאלתי - a sefer of R’ Yitzchok Zilberstein’s torah wisdom written by R’ Erez Chazani - discusses the importance of how we should look upon ou..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:24.385Z"
+    },
+    "of r' yonasan eibschutz called": {
+      "candidate": "of R' Yonasan Eibschutz called",
+      "key": "of r' yonasan eibschutz called",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/05 - Devarim/12 - V'zos Habracha/5784/V'zos Habracha 5784.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/12 - V'zos Habracha/5784/V'zos Habracha 5784.docx",
+          "source": "english-sefer-title",
+          "context": "...e הפקר, available to be taken by anyone who claims them. This is brought in the sefer of R’ Yonasan Eibschutz called יערות דבש. When asked how one could possibly take these character traits, R’ Gedali..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:25.085Z"
+    },
+    "of repute is the": {
+      "candidate": "of repute is the",
+      "key": "of repute is the",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/05 - Devarim/03 - Eikev/5785/Eikev 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/03 - Eikev/5785/Eikev 5785.docx",
+          "source": "english-sefer-title",
+          "context": "...l of you who are younger now have the זכות to know it earlier in life. Another sefer of repute is the ספר אפריון from R’ Shlomo Ganzfried. In our פרשה, there’s a pasuk discussing many a..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:25.593Z"
+    },
+    "on all the": {
+      "candidate": "on all the",
+      "key": "on all the",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/04 - Bamidbar/09 - Pinchas/5784/Pinchas 5784.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/09 - Pinchas/5784/Pinchas 5784.docx",
+          "source": "english-sefer-title",
+          "context": "...ר תורה, he was so inspired that he named his famous sefer בני יששכר, which is a sefer on all the ימים טובים and the months of the year. We see a living proof of how this yearning,..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:26.014Z"
+    },
+    "on chumash": {
+      "candidate": "on chumash",
+      "key": "on chumash",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/04 - Bamidbar/02 - Naso/5785/Naso 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/02 - Naso/5785/Naso 5785.docx",
+          "source": "english-sefer-title",
+          "context": "... beginning and the end? With two little וערטלאך of R’ Chaim Kanievsky from his sefer on chumash, I think we’ll find an important connection and an important lesson. The גמרא in בר..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:26.442Z"
+    },
+    "on chumash by rabbi shai graucher": {
+      "candidate": "on chumash by Rabbi Shai Graucher",
+      "key": "on chumash by rabbi shai graucher",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/03 - Vayikra/13 - Behar-Bechukosai/5785/Behar-Bechukosai 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/03 - Vayikra/13 - Behar-Bechukosai/5785/Behar-Bechukosai 5785.docx",
+          "source": "english-sefer-title",
+          "context": "Behar/Bechukosai 5785 R’ Chaim Kanievsky’s sefer on chumash by Rabbi Shai Graucher, quotes the pasuk from פרשת בהר (25:21): וְצִוִּיתִי אֶת בִּרְכָתִי לָכֶם בַּשָּׁנָ..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:26.824Z"
+    },
+    "one of my children": {
+      "candidate": "one of my children",
+      "key": "one of my children",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/01 - Bereshis/08 - Vayishlach/5784/Vayishlach 5784.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/08 - Vayishlach/5784/Vayishlach 5784.docx",
+          "source": "english-sefer-title",
+          "context": "...הרמן, the son of the famous “All for the Boss” יעקב יוסף הרמן. I told her I had named one of my children נחום דוד after her late husband. She graciously showed me his library and allowed m..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:27.211Z"
+    },
+    "out judah's number. he had no": {
+      "candidate": "out Judah's number. He had no",
+      "key": "out judah's number. he had no",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/04 - Bamidbar/01 - Bamidbar/5785/Bamidbar 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/01 - Bamidbar/5785/Bamidbar 5785.docx",
+          "source": "english-sefer-title",
+          "context": "...roll call. At the roll call, in front of thousands of silent Jews, the officer called out Judah’s number. He had no choice but to step forward. The German officer waved the תפילין in the air and scr..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:27.589Z"
+    },
+    "out to his master": {
+      "candidate": "out to his master",
+      "key": "out to his master",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/06 - Yom Tov/09 - Rosh Hashana/5785/Rosh Hashana 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/09 - Rosh Hashana/5785/Rosh Hashana 5785.docx",
+          "source": "english-sefer-title",
+          "context": "...wled at his leisure. And from up there, from his place where he was resting, he called out to his master, “Listen here, I want you to increase my salary, it isn’t nearly enough!” The Gerr..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:27.975Z"
+    },
+    "people who are not up to": {
+      "candidate": "people who are not up to",
+      "key": "people who are not up to",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/04 - Bamidbar/05 - Korach/5785/Korach 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/05 - Korach/5785/Korach 5785.docx",
+          "source": "english-sefer-title",
+          "context": "...e גרים, the people in the world that want to join כלל ישראל. What we would have called people who are not up to our level. That is a great מתנה to הקדוש ברוך הוא, and that is what הקדוש ברוך הוא..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:28.387Z"
+    },
+    "put out by": {
+      "candidate": "put out by",
+      "key": "put out by",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/02 - Shemos/04 - Beshalach/5785/Beshalach 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/02 - Shemos/04 - Beshalach/5785/Beshalach 5785.docx",
+          "source": "english-sefer-title",
+          "context": "... There’s a גוואַלדיק vort on this pasuk from R’ Beryl Weisbord in the Chanukah sefer put out by ישיבת נר ישראל, titled ה׳ יִלָּחֵם לָכֶם. He raises an intriguing question: In the ..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:28.747Z"
+    },
+    "quotes the": {
+      "candidate": "quotes the",
+      "key": "quotes the",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/05 - Devarim/06 - Ki Seitzei/5784/Ki Seitzei 5784 (2)/Ki Seitzei 5784 (2).docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/06 - Ki Seitzei/5784/Ki Seitzei 5784 (2)/Ki Seitzei 5784 (2).docx",
+          "source": "english-sefer-title",
+          "context": "...נז. It’s in more than one place in the תורה, but it is also in פרשת כי תצא. The sefer quotes the מעם לועז, which brings down a fabulous מעשה which I wanted to share with you. Ther..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:29.106Z"
+    },
+    "r' aaron goodman. the phrasing in": {
+      "candidate": "R' Aaron Goodman. The phrasing in",
+      "key": "r' aaron goodman. the phrasing in",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/01 - Bereshis/07 - Vayaitzei/5785/Vayaitzei 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/07 - Vayaitzei/5785/Vayaitzei 5785.docx",
+          "source": "english-sefer-title",
+          "context": "...he מפרשים raise an interesting question, brought down from a rebbi in Bnei Brak named R’ Aaron Goodman. The phrasing in the פסוק is peculiar: אֵין זֶה כִּי אִם בֵּית אֱלֹקִים. If you or I were speaking, ..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:29.455Z"
+    },
+    "r' lieb m'lichev. he was": {
+      "candidate": "R' Lieb M'Lichev. He was",
+      "key": "r' lieb m'lichev. he was",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/06 - Yom Tov/18 - Purim Katon/5784/Purim Katon 5784.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/18 - Purim Katon/5784/Purim Katon 5784.docx",
+          "source": "english-sefer-title",
+          "context": "... פורים.] Among the people sitting at his פורים קטן סעודה was a Chassidish Rebbe named R’ Lieb M’Lichev. He was a very sharp and well-seasoned תלמיד חכם. During the סעודה, the Apter Rav turned to..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:29.847Z"
+    },
+    "r' mordechai sabato explains that since": {
+      "candidate": "R' Mordechai Sabato explains that since",
+      "key": "r' mordechai sabato explains that since",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/06 - Yom Tov/19 - Purim/5784/Purim 5784.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/19 - Purim/5784/Purim 5784.docx",
+          "source": "english-sefer-title",
+          "context": "...ם מֵעַמֵּי הָאָרֶץ מִתְיַהֲדִים כִּי נָפַל פַּחַד הַיְּהוּדִים עֲלֵיהֶם. A rav named R’ Mordechai Sabato explains that since each event in the first half of the מגילה has a corresponding mirrored event in the..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:30.215Z"
+    },
+    "r' shmelke schnitzler. he was": {
+      "candidate": "R' Shmelke Schnitzler. He was",
+      "key": "r' shmelke schnitzler. he was",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/06 - Yom Tov/15 - Chanukah/5783/Chanukah 5783.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/15 - Chanukah/5783/Chanukah 5783.docx",
+          "source": "english-sefer-title",
+          "context": "...amps of the יִמַּח שְׁמם Nazis, toward the end of World War II, there was a Jew named R' Shmelke Schnitzler. He was a חסיד and a תלמיד חכם, with warm and penetrating eyes. Most amazingly, he maintain..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:30.598Z"
+    },
+    "rabbi gesheid again": {
+      "candidate": "Rabbi Gesheid again",
+      "key": "rabbi gesheid again",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/03 - Vayikra/11 - Behar/5784/Behar 5784.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/03 - Vayikra/11 - Behar/5784/Behar 5784.docx",
+          "source": "english-sefer-title",
+          "context": "...happy with the decision but realized she had no choice. A few weeks later, she called Rabbi Gesheid again. “Mazel Tov! My son just became a חתן, thank you Rabbi Gesheid!” she said. “Mazel T..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:30.967Z"
+    },
+    "rav yosef and told him that": {
+      "candidate": "Rav Yosef and told him that",
+      "key": "rav yosef and told him that",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/01 - Bereshis/08 - Vayishlach/5786/Vayishlach 5786.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/08 - Vayishlach/5786/Vayishlach 5786.docx",
+          "source": "english-sefer-title",
+          "context": "...nd I’ll call him back when the surgery is done. When he completed his work, he called Rav Yosef and told him that the surgery was quite successful, everything was accomplished, and that his son wo..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:31.360Z"
+    },
+    "resting. hashem is recreating the world": {
+      "candidate": "resting. Hashem is recreating the world",
+      "key": "resting. hashem is recreating the world",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/01 - Bereshis/01 - Bereshis/5784/Bereshis 5784.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/01 - Bereshis/5784/Bereshis 5784.docx",
+          "source": "english-sefer-title",
+          "context": "...our mind and in our consciousness, that’s called מנוחה. That’s called שבת, it’s called resting. Hashem is recreating the world every second - that is מנוחה. ששת ימי בראשית was creating something which had neve..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:31.797Z"
+    },
+    "seeks to preserve. zeidy's": {
+      "candidate": "seeks to preserve. Zeidy's",
+      "key": "seeks to preserve. zeidy's",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/07 - Misc/About The Name/About the Name.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/07 - Misc/About The Name/About the Name.docx",
+          "source": "english-sefer-title",
+          "context": "...ns and receiving answers from their parents, is precisely the dynamic that this sefer seeks to preserve. Zeidy’s דברי תורה represent his role as a teacher, lovingly responding to the questions of ..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:32.184Z"
+    },
+    "some of our children based on": {
+      "candidate": "some of our children based on",
+      "key": "some of our children based on",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/02 - Shemos/01 - Shemos/5785/Shemos 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/02 - Shemos/01 - Shemos/5785/Shemos 5785.docx",
+          "source": "english-sefer-title",
+          "context": "... giving a child a name connected to the פרשה is an added זכות for the child. We named some of our children based on the פרשה, and others after relatives or individuals we felt were חשוב. In life, it..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:32.577Z"
+    },
+    "stated that reciting": {
+      "candidate": "stated that reciting",
+      "key": "stated that reciting",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/02 - Shemos/09 - Ki Sisa/5785/Ki Sisa 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/02 - Shemos/09 - Ki Sisa/5785/Ki Sisa 5785.docx",
+          "source": "english-sefer-title",
+          "context": "... מפאנו [this is where I first heard about it years ago from Rabbi Oelbaum]. The sefer stated that reciting פרק קכ״א at the end of שמונה עשרה is a סגולה for finding a שידוך. [This is in the ר..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:32.960Z"
+    },
+    "such an expert": {
+      "candidate": "such an expert",
+      "key": "such an expert",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/05 - Devarim/02 - Vaeschanan/5785/Vaeschanan 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/02 - Vaeschanan/5785/Vaeschanan 5785.docx",
+          "source": "english-sefer-title",
+          "context": "...octors, one of the מומחים of the דור to come in to help him. In those days they called such an expert a professor. He told them, “I don’t want you to bring me a professor.” They asked ..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:33.365Z"
+    },
+    "the fire department and they assured": {
+      "candidate": "the fire department and they assured",
+      "key": "the fire department and they assured",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/01 - Bereshis/05 - Chayai Sara/5786/Chayai Sara 5786.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/05 - Chayai Sara/5786/Chayai Sara 5786.docx",
+          "source": "english-sefer-title",
+          "context": "... a factory I own not far from here. A fire broke out in my factory yesterday. I called the fire department and they assured me that they would be there immediately. Minute after minute passed. I was going i..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:33.717Z"
+    },
+    "the present. we have the opportunity": {
+      "candidate": "the present. We have the opportunity",
+      "key": "the present. we have the opportunity",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/05 - Devarim/04 - Re'eh/5783/Re'eh 5783.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/04 - Re'eh/5783/Re'eh 5783.docx",
+          "source": "english-sefer-title",
+          "context": "...racha. The famous joke in English is that every day is a gift, that’s why it’s called the present. We have the opportunity to use each and every day to its fullest extent, and that opportunity is tremendou..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:34.167Z"
+    },
+    "the sefer": {
+      "candidate": "the sefer",
+      "key": "the sefer",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/06 - Yom Tov/01 - Pesach/5783/Dvar Torah/Dvar Torah Pesach 5783.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/01 - Pesach/5783/Dvar Torah/Dvar Torah Pesach 5783.docx",
+          "source": "english-sefer-title",
+          "context": "...h Isaac Oelbaum, the author of the מנחת חן, [interesting, his name is נח, so he called the sefer “מנחת חן”, חן is ח - נ and נח is נ - ח], asked us a startling question. I’ve asked..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:34.625Z"
+    },
+    "the short vort brings the following": {
+      "candidate": "The Short Vort brings the following",
+      "key": "the short vort brings the following",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/04 - Bamidbar/01 - Bamidbar/5784/Bamidbar 5784.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/01 - Bamidbar/5784/Bamidbar 5784.docx",
+          "source": "english-sefer-title",
+          "context": "...ct, an important factor, there’s a fascinating שאלה about יחס specifically. The sefer The Short Vort brings the following point: Everybody is born into circumstances that can shape and support the develop..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:35.063Z"
+    },
+    "the son that we're working so": {
+      "candidate": "the son that we're working so",
+      "key": "the son that we're working so",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/01 - Bereshis/02 - Noach/5786/Noach 5786.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/02 - Noach/5786/Noach 5786.docx",
+          "source": "english-sefer-title",
+          "context": "...t himself and put all his efforts in only for his children. He was worthy to be called the son that we’re working so hard to make into a עושה מצוות. He was working at everything that he could do to s..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:35.540Z"
+    },
+    "them once": {
+      "candidate": "them once",
+      "key": "them once",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/05 - Devarim/03 - Eikev/5784/Eikev 5784.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/03 - Eikev/5784/Eikev 5784.docx",
+          "source": "english-sefer-title",
+          "context": "...; תְּחוֹלֶלְכֶם - who started you off, the foundation; כִּי אֶחָד קְרָאתִיו - I called them once; וַאֲבָרְכֵהוּ וְאַרְבֵּהוּ - and I benched them and I made them multiply. The se..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:35.985Z"
+    },
+    "torah treasures brings in the name": {
+      "candidate": "Torah Treasures brings in the name",
+      "key": "torah treasures brings in the name",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/05 - Devarim/06 - Ki Seitzei/5783/Ki Seitzei 5783.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/06 - Ki Seitzei/5783/Ki Seitzei 5783.docx",
+          "source": "english-sefer-title",
+          "context": "...ן הַשְּׂנוּאָה יַכִּיר לָתֶת לוֹ פִּי שְׁנַיִם בְּכֹל אֲשֶׁר יִמָּצֵא לוֹ. The sefer Torah Treasures brings in the name of the גר״א that this הלכה is two הלכות in one. A) That the בכור receives a double ..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:36.384Z"
+    },
+    "up his parents and said": {
+      "candidate": "up his parents and said",
+      "key": "up his parents and said",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/04 - Bamidbar/05 - Korach/5785/Korach 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/05 - Korach/5785/Korach 5785.docx",
+          "source": "english-sefer-title",
+          "context": "...” That person said, “Why don’t you go home to your parents for one Shabbos?” He called up his parents and said, “I’d like to come back for one Shabbos, but only on one condition: that you don’t..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:36.777Z"
+    },
+    "was written by": {
+      "candidate": "was written by",
+      "key": "was written by",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/04 - Bamidbar/02 - Naso/5783/Naso 5783.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/02 - Naso/5783/Naso 5783.docx",
+          "source": "english-sefer-title",
+          "context": "...of mine, R’ Mendy Pollak, who should live and be well, a wonderful fellow. This sefer was written by a בעלאבוס who was a tremendous גאון. The man knew everything in ש״ס ופוסקים. Now, h..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:37.206Z"
+    },
+    "well worth reading. you will get": {
+      "candidate": "well worth reading. You will get",
+      "key": "well worth reading. you will get",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/05 - Devarim/12 - V'zos Habracha/5786/V'zos Habracha 5786.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/12 - V'zos Habracha/5786/V'zos Habracha 5786.docx",
+          "source": "english-sefer-title",
+          "context": "...nomenal bio on R’ Yosef Chaim Sonnenfeld which I recommend to everybody. It’s a sefer well worth reading. You will get tremendous benefit out of reading it. It’s so beautiful.] This inflexibility of משה..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:37.582Z"
+    },
+    "will realize how incredible it is": {
+      "candidate": "will realize how incredible it is",
+      "key": "will realize how incredible it is",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/05 - Devarim/06 - Ki Seitzei/5784/Ki Seitzei 5784 (2)/Ki Seitzei 5784 (2).docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/06 - Ki Seitzei/5784/Ki Seitzei 5784 (2)/Ki Seitzei 5784 (2).docx",
+          "source": "english-sefer-title",
+          "context": "...have recommended it many times. Anybody who has taken a two-second look at this sefer will realize how incredible it is. You get such הנאה, words fail to say how wonderful this sefer is. So I recommend it..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:37.975Z"
+    },
+    "with great thought and care": {
+      "candidate": "with great thought and care",
+      "key": "with great thought and care",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/07 - Misc/About The Name/About the Name.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/07 - Misc/About The Name/About the Name.docx",
+          "source": "english-sefer-title",
+          "context": "... will show you what these are.’” The name הַדֹּבֵר בִּי was chosen for Zeidy’s sefer with great thought and care, for it is deeply meaningful and carries layers of significance. Firstly, the word..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:38.339Z"
+    },
+    "yechezkel shraga after the shinever rov": {
+      "candidate": "Yechezkel Shraga after the Shinever Rov",
+      "key": "yechezkel shraga after the shinever rov",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/06 - Yom Tov/03 - Lag Baomer/5784/Lag Baomer 5784.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/03 - Lag Baomer/5784/Lag Baomer 5784.docx",
+          "source": "english-sefer-title",
+          "context": "..., in the sefer חיים שיש בהם. (Many of you may know that Zeidy Weiss’ father was named Yechezkel Shraga after the Shinever Rov). He quotes the pasuk from תהלים צ״ב: שְׁתוּלִים בְּבֵית ה׳ בְּחַצְרוֹת אֱלֹקֵינוּ ..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:38.739Z"
+    },
+    "your family. when you're getting something": {
+      "candidate": "your family. When you're getting something",
+      "key": "your family. when you're getting something",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/06 - Yom Tov/08 - Elul/5784/Elul 5784.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/08 - Elul/5784/Elul 5784.docx",
+          "source": "english-sefer-title",
+          "context": "...No, that’s not מַתְּנַת בָּשָׂר וָדָם. Why? Because that’s called משפחה, that’s called your family. When you’re getting something from your father, mother, and family, that’s not מַתְּנַת בָּשָׂר וָדָם. What are..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:39.154Z"
+    },
+    "zev wolf zicherman from boro park": {
+      "candidate": "Zev Wolf Zicherman from Boro Park",
+      "key": "zev wolf zicherman from boro park",
+      "language": "english",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "english-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/04 - Bamidbar/06 - Chukas/5785/Chukas 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/06 - Chukas/5785/Chukas 5785.docx",
+          "source": "english-sefer-title",
+          "context": "...ֶל to learn Torah. However, the sefer אוצר פלאות התורה, written by a חשובע Yid named Zev Wolf Zicherman from Boro Park, has a completely different take on this pasuk. As we know, there are שבעים פנים לת..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:39.655Z"
+    },
+    "א״א": {
+      "candidate": "א״א",
+      "key": "א״א",
+      "language": "hebrew",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "hebrew-acronym"
+      ],
+      "count": 2,
+      "files": [
+        "Files/07 - Misc/Rabbi Oelbaum Shabbos/Shabbos - The Gift of Olam Haba in This World.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/07 - Misc/Rabbi Oelbaum Shabbos/Shabbos - The Gift of Olam Haba in This World.docx",
+          "source": "hebrew-acronym",
+          "context": "...u to know, says the מלבי״ם,כי תענוגי העוה״ב - because the pleasure of עולם הבא, א״א שישיג האדם בחיים - on this world, we have no השגה whatsoever, we cannot understand, we ca..."
+        },
+        {
+          "filePath": "Files/07 - Misc/Rabbi Oelbaum Shabbos/Shabbos - The Gift of Olam Haba in This World.docx",
+          "source": "hebrew-acronym",
+          "context": "...ecause כל זמן that the נשמה is still connected with the material, with our גוף, א״א שתצייר לעצמה - it’s impossible even to imagine, certainly we don’t know, we can’t be משיג..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:40.825Z"
+    },
+    "א״י": {
+      "candidate": "א״י",
+      "key": "א״י",
+      "language": "hebrew",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "hebrew-acronym"
+      ],
+      "count": 1,
+      "files": [
+        "Files/07 - Misc/Rabbi Oelbaum Shabbos/Shabbos - The Gift of Olam Haba in This World.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/07 - Misc/Rabbi Oelbaum Shabbos/Shabbos - The Gift of Olam Haba in This World.docx",
+          "source": "hebrew-acronym",
+          "context": "...תוספות quotes, כתוב בתשובת הגאונים it is written in the תשובת הגאונים, שאין בני א״י אומרים קדושה אלא בשבת, that the בני ארץ ישראל do not say קדושה only on שבת, דכתיב because..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:41.735Z"
+    },
+    "אבה״ע": {
+      "candidate": "אבה״ע",
+      "key": "אבה״ע",
+      "language": "hebrew",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "hebrew-acronym"
+      ],
+      "count": 1,
+      "files": [
+        "Files/06 - Yom Tov/13 - Shmini Atzeres/5784/Shmini Atzeres 5784.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/13 - Shmini Atzeres/5784/Shmini Atzeres 5784.docx",
+          "source": "hebrew-acronym",
+          "context": "..., I have a שאלה for you. There is a הלכה פסוקה that אין מערבין שמחה בשמחה (שו״ע אבה״ע ב:ב). How can I simultaneously have a שמחה של יום טוב and a שמחה of being מקבל the situat..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:30:42.496Z"
+    },
+    "אהבת תורה": {
+      "candidate": "אהבת תורה",
+      "key": "אהבת תורה",
+      "language": "hebrew",
+      "status": "keep",
+      "personId": "ahavas-torah",
+      "sources": [
+        "hebrew-sefer-title"
+      ],
+      "count": 3,
+      "files": [
+        "Files/05 - Devarim/03 - Eikev/5785/Eikev 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/03 - Eikev/5785/Eikev 5785.docx",
+          "source": "hebrew-sefer-title",
+          "context": "...d I was able to save the שם השם from being discarded.] There is a sefer called אהבת תורה, which quotes the words of the מגלה עמוקות as brought in the sefer אוצר פלאות התורה. He w..."
+        },
+        {
+          "filePath": "Files/05 - Devarim/03 - Eikev/5785/Eikev 5785.docx",
+          "source": "hebrew-sefer-title",
+          "context": "...him that he wanted to understand more, and to do a חשבון himself. The author of אהבת תורה was הגאון רב פנחס זאמען סגל, who lived in Poland and was born in Krakow in the year ת״ר. ..."
+        },
+        {
+          "filePath": "Files/05 - Devarim/03 - Eikev/5785/Eikev 5785.docx",
+          "source": "hebrew-sefer-title",
+          "context": "...in Krakow in the year ת״ר. He gives a short biography of Rav פנחס זאמען סגל, as אהבת תורה is not a well-known sefer. He writes that he wanted to know how many times the Name הוי״ה..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:31:00.010Z"
+    },
+    "אהל תורה": {
+      "candidate": "אהל תורה",
+      "key": "אהל תורה",
+      "language": "hebrew",
+      "status": "keep",
+      "personId": "ohel-torah",
+      "sources": [
+        "hebrew-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/01 - Bereshis/03 - Lech Lecha/5784/Lech Lecha 5784.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/03 - Lech Lecha/5784/Lech Lecha 5784.docx",
+          "source": "hebrew-sefer-title",
+          "context": "...e, בעזרת השם, the war is behind us. מי כעמך ישראל - what an incredible people. The ספר אהל תורה quoted in מעינה של תורה, comments on וֶהְיֵה בְּרָכָה and the idea that בְּךָ חוֹתְמִ..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:31:11.006Z"
+    },
+    "אוצר פלאות התורה": {
+      "candidate": "אוצר פלאות התורה",
+      "key": "אוצר פלאות התורה",
+      "language": "hebrew",
+      "status": "keep",
+      "personId": "otzer-plo-os-hatorah",
+      "sources": [
+        "hebrew-sefer-title"
+      ],
+      "count": 29,
+      "files": [
+        "Files/01 - Bereshis/04 - Vayairah/5786/Vayairah (1)/Vayairah 5786 (1).docx",
+        "Files/01 - Bereshis/04 - Vayairah/5786/Vayairah (2)/Vayairah 5786 (2).docx",
+        "Files/02 - Shemos/07 - Teruma/5785/Teruma 5785.docx",
+        "Files/03 - Vayikra/10 - Emor/5785/Emor 5785.docx",
+        "Files/04 - Bamidbar/02 - Naso/5783/Naso 5783.docx",
+        "Files/04 - Bamidbar/06 - Chukas/5785/Chukas 5785.docx",
+        "Files/04 - Bamidbar/09 - Pinchas/5784/Pinchas 5784.docx",
+        "Files/05 - Devarim/02 - Vaeschanan/5784/Vaeschanan 5784.docx",
+        "Files/05 - Devarim/03 - Eikev/5785/Eikev 5785.docx",
+        "Files/05 - Devarim/04 - Re'eh/5784/Re'eh 5784.docx",
+        "Files/05 - Devarim/06 - Ki Seitzei/5784/Ki Seitzei 5784 (2)/Ki Seitzei 5784 (2).docx",
+        "Files/05 - Devarim/09 - Vayailech/5786/Vayailech 5786.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/04 - Vayairah/5786/Vayairah (1)/Vayairah 5786 (1).docx",
+          "source": "hebrew-sefer-title",
+          "context": "...זֶּה נִמּוֹל אַבְרָהָם. Then it says וַיֵּרָא אֵלָיו. Why do we use a pronoun? The ספר אוצר פלאות התורה, a wonderful ספר which I’ve quoted many times, brings down a fascinating מנהג. When a..."
+        },
+        {
+          "filePath": "Files/01 - Bereshis/04 - Vayairah/5786/Vayairah (1)/Vayairah 5786 (1).docx",
+          "source": "hebrew-sefer-title",
+          "context": "... נִמּוֹל אַבְרָהָם. Then it says וַיֵּרָא אֵלָיו. Why do we use a pronoun? The ספר אוצר פלאות התורה, a wonderful ספר which I’ve quoted many times, brings down a fascinating מנהג. When a per..."
+        },
+        {
+          "filePath": "Files/01 - Bereshis/04 - Vayairah/5786/Vayairah (2)/Vayairah 5786 (2).docx",
+          "source": "hebrew-sefer-title",
+          "context": "...as looking at the end of וַיֵּרָא for a vort on the עקדה because it’s the עקדה. The ספר אוצר פלאות התורה brings a fascinating question: Did יצחק אבינו bentch גומל after the עקדה? Did you eve..."
+        },
+        {
+          "filePath": "Files/01 - Bereshis/04 - Vayairah/5786/Vayairah (2)/Vayairah 5786 (2).docx",
+          "source": "hebrew-sefer-title",
+          "context": "... and you don’t have to bentch גומל for that. Now, listen to this. According to the אוצר פלאות התורה, who bentchs גומל when they recover from an illness? We don’t פסקן like this, but he ..."
+        },
+        {
+          "filePath": "Files/01 - Bereshis/04 - Vayairah/5786/Vayairah (2)/Vayairah 5786 (2).docx",
+          "source": "hebrew-sefer-title",
+          "context": "...ooking at the end of וַיֵּרָא for a vort on the עקדה because it’s the עקדה. The ספר אוצר פלאות התורה brings a fascinating question: Did יצחק אבינו bentch גומל after the עקדה? Did you ever th..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:31:31.587Z"
+    },
+    "אור גדליהו": {
+      "candidate": "אור גדליהו",
+      "key": "אור גדליהו",
+      "language": "hebrew",
+      "status": "keep",
+      "personId": "r-gedalia-schorr",
+      "sources": [
+        "hebrew-sefer-title"
+      ],
+      "count": 9,
+      "files": [
+        "Files/02 - Shemos/03 - Bo/5785/Bo 5785.docx",
+        "Files/04 - Bamidbar/07 - Balak/5784/Balak 5784.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/02 - Shemos/03 - Bo/5785/Bo 5785.docx",
+          "source": "hebrew-sefer-title",
+          "context": "Bo 5785 The ספר אור גדליהו, by רב גדליה שור זצ״ל, is a wonderful ספר. Every time it’s reprinted, it sells out al..."
+        },
+        {
+          "filePath": "Files/02 - Shemos/03 - Bo/5785/Bo 5785.docx",
+          "source": "hebrew-sefer-title",
+          "context": "...’s a good reason for that - it’s a truly enlightening set of ספרים. On פרשת בא, the אור גדליהו writes that every מצוה has an integral and significant component: זכר ליציאת מצרים. W..."
+        },
+        {
+          "filePath": "Files/02 - Shemos/03 - Bo/5785/Bo 5785.docx",
+          "source": "hebrew-sefer-title",
+          "context": "Bo 5785 The ספר אור גדליהו, by רב גדליה שור זצ״ל, is a wonderful ספר. Every time it’s reprinted, it sells out almost..."
+        },
+        {
+          "filePath": "Files/02 - Shemos/03 - Bo/5785/Bo 5785.docx",
+          "source": "hebrew-sefer-title",
+          "context": "... good reason for that - it’s a truly enlightening set of ספרים. On פרשת בא, the אור גדליהו writes that every מצוה has an integral and significant component: זכר ליציאת מצרים. We of..."
+        },
+        {
+          "filePath": "Files/04 - Bamidbar/07 - Balak/5784/Balak 5784.docx",
+          "source": "hebrew-sefer-title",
+          "context": "...s available), has the following vort on פרשת בלק. The מהר״ל דיסקין is quoted in the אור גדליהו, quoting a רש״י in מסכתא בבא בתרא דף י״ד עמוד ב. The גמרא says מֹשֶׁה כָּתַב סִפְרוֹ ..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:31:44.699Z"
+    },
+    "אור יהל": {
+      "candidate": "אור יהל",
+      "key": "אור יהל",
+      "language": "hebrew",
+      "status": "keep",
+      "personId": "r-leib-chasman",
+      "sources": [
+        "hebrew-sefer-title"
+      ],
+      "count": 2,
+      "files": [
+        "Files/05 - Devarim/01 - Devarim/5785/Devarim 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/01 - Devarim/5785/Devarim 5785.docx",
+          "source": "hebrew-sefer-title",
+          "context": "... in the name of R’ Leib Chasman, the משגיח in חברון ישיבה, author of the famous ספר אור יהל, and the rebbi of R’ Sholom Schwadron. R’ Leib relates that one Friday night he had t..."
+        },
+        {
+          "filePath": "Files/05 - Devarim/01 - Devarim/5785/Devarim 5785.docx",
+          "source": "hebrew-sefer-title",
+          "context": "... in the name of R’ Leib Chasman, the משגיח in חברון ישיבה, author of the famous ספר אור יהל, and the rebbi of R’ Sholom Schwadron. R’ Leib relates that one Friday night he had the ז..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:31:57.142Z"
+    },
+    "אזנים לתורה": {
+      "candidate": "אזנים לתורה",
+      "key": "אזנים לתורה",
+      "language": "hebrew",
+      "status": "keep",
+      "personId": "r-zalman-sorotzkin",
+      "sources": [
+        "hebrew-sefer-title"
+      ],
+      "count": 28,
+      "files": [
+        "Files/01 - Bereshis/02 - Noach/5784/Noach 5784 (2)/Noach 5784.docx",
+        "Files/01 - Bereshis/03 - Lech Lecha/5786/ Lech Lecha (1)/Lech Lecha 5786 (1).docx",
+        "Files/02 - Shemos/04 - Beshalach/5783/Beshalach 5783 (1)/Beshalach 5783(1).docx",
+        "Files/02 - Shemos/04 - Beshalach/5785/Beshalach 5785.docx",
+        "Files/02 - Shemos/07 - Teruma/5784/Teruma 5784.docx",
+        "Files/03 - Vayikra/01 - Vayikra/5783/Vayikra 5783.docx",
+        "Files/03 - Vayikra/02 - Tzav/5783/Tzav 5783.docx",
+        "Files/03 - Vayikra/09 -  Achrei Mos-Kedoshim/5783/Achrei Mos-Kedoshim 5783.docx",
+        "Files/04 - Bamidbar/10 - Matos-Maasei/5784/Matos-Maasei 5784.docx",
+        "Files/05 - Devarim/07 - Ki Savo/5783/Ki Savo 5783.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/02 - Noach/5784/Noach 5784 (2)/Noach 5784.docx",
+          "source": "hebrew-sefer-title",
+          "context": "...וּ עַל שְׁכֶם שְׁנֵיהֶם וַיֵּלְכוּ אֲחֹרַנִּית וַיְכַסּוּ אֵת עֶרְוַת אֲבִיהֶם. The אזנים לתורה brings a מדרש that says that שֵׁם and יֶפֶת got a שכר for doing this מצוה of כיבוד אב..."
+        },
+        {
+          "filePath": "Files/01 - Bereshis/02 - Noach/5784/Noach 5784 (2)/Noach 5784.docx",
+          "source": "hebrew-sefer-title",
+          "context": "...ַל שְׁכֶם שְׁנֵיהֶם וַיֵּלְכוּ אֲחֹרַנִּית וַיְכַסּוּ אֵת עֶרְוַת אֲבִיהֶם. The אזנים לתורה brings a מדרש that says that שֵׁם and יֶפֶת got a שכר for doing this מצוה of כיבוד אב. י..."
+        },
+        {
+          "filePath": "Files/01 - Bereshis/03 - Lech Lecha/5786/ Lech Lecha (1)/Lech Lecha 5786 (1).docx",
+          "source": "hebrew-sefer-title",
+          "context": "...mendous elucidation; it is far more complicated than it appears on the surface. The אזנים לתורה, the Lutzker Rav, R’ Zalman Sorotzkin asks a series of penetrating and pointed questi..."
+        },
+        {
+          "filePath": "Files/01 - Bereshis/03 - Lech Lecha/5786/ Lech Lecha (1)/Lech Lecha 5786 (1).docx",
+          "source": "hebrew-sefer-title",
+          "context": "...ous elucidation; it is far more complicated than it appears on the surface. The אזנים לתורה, the Lutzker Rav, R’ Zalman Sorotzkin asks a series of penetrating and pointed questions ..."
+        },
+        {
+          "filePath": "Files/02 - Shemos/04 - Beshalach/5783/Beshalach 5783 (1)/Beshalach 5783(1).docx",
+          "source": "hebrew-sefer-title",
+          "context": "...בְּמִצְרַיִם וַיִּירְאוּ הָעָם אֶת ה׳ וַיַּאֲמִינוּ בַּה׳ וּבְמֹשֶׁה עַבְדּוֹ. The אזנים לתורה brings to light a פשט in this pasuk. If we examine the events of this מעשה from our l..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:32:17.856Z"
+    },
+    "אר״י": {
+      "candidate": "אר״י",
+      "key": "אר״י",
+      "language": "hebrew",
+      "status": "keep",
+      "personId": "arizal",
+      "sources": [
+        "hebrew-acronym"
+      ],
+      "count": 1,
+      "files": [
+        "Files/06 - Yom Tov/14 - Simchas Torah/5785/Simchas Torah 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/14 - Simchas Torah/5785/Simchas Torah 5785.docx",
+          "source": "hebrew-acronym",
+          "context": "...l. R’ Elimelech Biderman quotes R Chaim Vital, who describes how his rebbi, the אר״י הקדוש, would dance with all of his might in honor of the Torah. He would go from one בית ..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:32:28.128Z"
+    },
+    "אר״י הקדוש": {
+      "candidate": "אר״י הקדוש",
+      "key": "אר״י הקדוש",
+      "language": "hebrew",
+      "status": "keep",
+      "personId": "arizal",
+      "sources": [
+        "hebrew-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/06 - Yom Tov/14 - Simchas Torah/5785/Simchas Torah 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/14 - Simchas Torah/5785/Simchas Torah 5785.docx",
+          "source": "hebrew-sefer-title",
+          "context": "... well. R’ Elimelech Biderman quotes R Chaim Vital, who describes how his rebbi, the אר״י הקדוש, would dance with all of his might in honor of the Torah. He would go from one בית מד..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:32:33.000Z"
+    },
+    "ב״ח": {
+      "candidate": "ב״ח",
+      "key": "ב״ח",
+      "language": "hebrew",
+      "status": "keep",
+      "personId": "bach",
+      "sources": [
+        "hebrew-acronym"
+      ],
+      "count": 12,
+      "files": [
+        "Files/05 - Devarim/02 - Vaeschanan/5785/Vaeschanan 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/02 - Vaeschanan/5785/Vaeschanan 5785.docx",
+          "source": "hebrew-acronym",
+          "context": "...ave heard of the words בית חדש, but if you look at the initials, בית חדש is the ב״ח. The ב״ח is one of the premier מפרשים on שולחן ערוך. One time he came to visit his son-in..."
+        },
+        {
+          "filePath": "Files/05 - Devarim/02 - Vaeschanan/5785/Vaeschanan 5785.docx",
+          "source": "hebrew-acronym",
+          "context": "... of the words בית חדש, but if you look at the initials, בית חדש is the ב״ח. The ב״ח is one of the premier מפרשים on שולחן ערוך. One time he came to visit his son-in-law, the..."
+        },
+        {
+          "filePath": "Files/05 - Devarim/02 - Vaeschanan/5785/Vaeschanan 5785.docx",
+          "source": "hebrew-acronym",
+          "context": "...isit his son-in-law, the טורי זהב. A bit more familiar name, he is the ט״ז. The ב״ח and the ט״ז have monumental מחלוקתים, father-in-law and son-in-law, but it doesn’t matter..."
+        },
+        {
+          "filePath": "Files/05 - Devarim/02 - Vaeschanan/5785/Vaeschanan 5785.docx",
+          "source": "hebrew-acronym",
+          "context": "...asked him, “Why are you not coming to give a שלום עליכם to my father-in-law the ב״ח”? The young man answered, “אליהו הנביא came to me and told me that the ב״ח is in חרם in t..."
+        },
+        {
+          "filePath": "Files/05 - Devarim/02 - Vaeschanan/5785/Vaeschanan 5785.docx",
+          "source": "hebrew-acronym",
+          "context": "... the ב״ח”? The young man answered, “אליהו הנביא came to me and told me that the ב״ח is in חרם in the בית דין של מעלה.” The ט״ז asked why? The young man replied “One time the..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:32:39.960Z"
+    },
+    "באר היטב": {
+      "candidate": "באר היטב",
+      "key": "באר היטב",
+      "language": "hebrew",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "hebrew-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/05 - Devarim/07 - Ki Savo/5785/Ki Savo 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/07 - Ki Savo/5785/Ki Savo 5785.docx",
+          "source": "hebrew-sefer-title",
+          "context": "...hey were supposed to write the whole Torah, and in fact, the last two words are בַּאֵר הֵיטֵב. Rashi and the Ramban say on the spot, בְּשִׁבְעִים לָשׁוֹן - not only did we write the w..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:32:46.086Z"
+    },
+    "באר מים חיים": {
+      "candidate": "באר מים חיים",
+      "key": "באר מים חיים",
+      "language": "hebrew",
+      "status": "keep",
+      "personId": "be-er-mayim-chaim",
+      "sources": [
+        "hebrew-sefer-title"
+      ],
+      "count": 4,
+      "files": [
+        "Files/02 - Shemos/02 - Vaeira/5785/Vaeira 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/02 - Shemos/02 - Vaeira/5785/Vaeira 5785.docx",
+          "source": "hebrew-sefer-title",
+          "context": "...he order reversal. But why the פסוק repeats itself still requires explanation. The באר מים חיים offers a tremendous insight, providing a מוסר השכל for us. The פסוק says:הוּא אַהֲרֹן..."
+        },
+        {
+          "filePath": "Files/02 - Shemos/02 - Vaeira/5785/Vaeira 5785.docx",
+          "source": "hebrew-sefer-title",
+          "context": "...ִים אֶל פַּרְעֹה מֶלֶךְ מִצְרַיִם. Finally, it ends with הוּא מֹשֶׁה וְאַהֲרֹן. The באר מים חיים explains that the first part, הוּא אַהֲרֹן וּמֹשֶׁה, highlights their lineage and the..."
+        },
+        {
+          "filePath": "Files/02 - Shemos/02 - Vaeira/5785/Vaeira 5785.docx",
+          "source": "hebrew-sefer-title",
+          "context": "...rder reversal. But why the פסוק repeats itself still requires explanation. The באר מים חיים offers a tremendous insight, providing a מוסר השכל for us. The פסוק says:הוּא אַהֲרֹן וּמ..."
+        },
+        {
+          "filePath": "Files/02 - Shemos/02 - Vaeira/5785/Vaeira 5785.docx",
+          "source": "hebrew-sefer-title",
+          "context": "...אֶל פַּרְעֹה מֶלֶךְ מִצְרַיִם. Finally, it ends with הוּא מֹשֶׁה וְאַהֲרֹן. The באר מים חיים explains that the first part, הוּא אַהֲרֹן וּמֹשֶׁה, highlights their lineage and the קדו..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:33:02.646Z"
+    },
+    "באר מרים": {
+      "candidate": "באר מרים",
+      "key": "באר מרים",
+      "language": "hebrew",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "hebrew-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/05 - Devarim/07 - Ki Savo/5785/Ki Savo 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/07 - Ki Savo/5785/Ki Savo 5785.docx",
+          "source": "hebrew-sefer-title",
+          "context": "...ck down to earth and not living a heavenly existence with מן and ענני הכבוד and באר מרים. Back into nature, this same Torah is נצחיות and will maintain you לעולם ועד."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:33:05.985Z"
+    },
+    "בב״ר": {
+      "candidate": "בב״ר",
+      "key": "בב״ר",
+      "language": "hebrew",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "hebrew-acronym"
+      ],
+      "count": 1,
+      "files": [
+        "Files/04 - Bamidbar/03 - Behaloscha/5785/Behaloscha 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/04 - Bamidbar/03 - Behaloscha/5785/Behaloscha 5785.docx",
+          "source": "hebrew-acronym",
+          "context": "...וֹתֵיהֶן בְּמִקְרָא אֶחָד כְּמִנְיַן חֲמִשָּׁה חֻמְשֵׁי תוֹרָה, וְכָךְ רָאִיתִי בִּבְ״רַ Hashem looks at us just like the חמישה חומשי תורה. What is the implication of that? R’ G..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:33:07.807Z"
+    },
+    "ביניהן דברי תורה ראויין לישרף": {
+      "candidate": "ביניהן דברי תורה ראויין לישרף",
+      "key": "ביניהן דברי תורה ראויין לישרף",
+      "language": "hebrew",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "hebrew-sefer-title"
+      ],
+      "count": 1,
+      "files": [
+        "Files/01 - Bereshis/10 - Vayigash/5785/Vayigash 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/10 - Vayigash/5785/Vayigash 5785.docx",
+          "source": "hebrew-sefer-title",
+          "context": "... בַּר בֶּרֶכְיָה: שְׁנֵי תַּלְמִידֵי חֲכָמִים שֶׁמְּהַלְּכִים בַּדֶּרֶךְ וְאֵין בֵּינֵיהֶן דִּבְרֵי תוֹרָה רְאוּיִין לִישָּׂרֵף - If two תַּלְמִידֵי חֲכָמִים are walking and don’t learn תורה, they have to be destroyed..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:33:09.577Z"
+    },
+    "בית הלוי": {
+      "candidate": "בית הלוי",
+      "key": "בית הלוי",
+      "language": "hebrew",
+      "status": "keep",
+      "personId": "bais-halevi",
+      "sources": [
+        "hebrew-sefer-title"
+      ],
+      "count": 70,
+      "files": [
+        "Files/01 - Bereshis/01 - Bereshis/5784/Bereshis 5784.docx",
+        "Files/01 - Bereshis/02 - Noach/5786/Noach 5786.docx",
+        "Files/01 - Bereshis/05 - Chayai Sara/5785/Chayai Sara 5785.docx",
+        "Files/01 - Bereshis/09 - Vayaishev/5783/Vayaishev 5783.docx",
+        "Files/01 - Bereshis/10 - Mikeitz/5783/Mikeitz 5783.docx",
+        "Files/01 - Bereshis/10 - Mikeitz/5784/Mikeitz 5784.docx",
+        "Files/01 - Bereshis/10 - Vayigash/5783/Vayigash 5783.docx",
+        "Files/02 - Shemos/01 - Shemos/5783/Shemos 5783.docx",
+        "Files/02 - Shemos/02 - Vaeira/5783/Vaeira 5783.docx",
+        "Files/02 - Shemos/04 - Beshalach/5784/Beshalach 5784.docx",
+        "Files/02 - Shemos/05 - Yisro/5783/Yisro 5783.docx",
+        "Files/02 - Shemos/05 - Yisro/5785/Yisro 5785.docx",
+        "Files/02 - Shemos/07 - Teruma/5783/Teruma 5783.docx",
+        "Files/03 - Vayikra/01 - Vayikra/5785/Vayikra 5785.docx",
+        "Files/04 - Bamidbar/04 - Shlach/5785/Shlach 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/01 - Bereshis/01 - Bereshis/5784/Bereshis 5784.docx",
+          "source": "hebrew-sefer-title",
+          "context": "...וך הוא is the ממציא and the בורא העולם and continues its constant existence. As the בית הלוי, which this is from, says, we are used to seeing things continually existing because ..."
+        },
+        {
+          "filePath": "Files/01 - Bereshis/01 - Bereshis/5784/Bereshis 5784.docx",
+          "source": "hebrew-sefer-title",
+          "context": "...as creating something which had never been there before - that’s called בריאה. The בית הלוי is explaining that רש״י is saying that when Hashem made שבת, it’s a symbol of מנוחה, ..."
+        },
+        {
+          "filePath": "Files/01 - Bereshis/01 - Bereshis/5784/Bereshis 5784.docx",
+          "source": "hebrew-sefer-title",
+          "context": "...וא is the ממציא and the בורא העולם and continues its constant existence. As the בית הלוי, which this is from, says, we are used to seeing things continually existing because in o..."
+        },
+        {
+          "filePath": "Files/01 - Bereshis/01 - Bereshis/5784/Bereshis 5784.docx",
+          "source": "hebrew-sefer-title",
+          "context": "...reating something which had never been there before - that’s called בריאה. The בית הלוי is explaining that רש״י is saying that when Hashem made שבת, it’s a symbol of מנוחה, that..."
+        },
+        {
+          "filePath": "Files/01 - Bereshis/02 - Noach/5786/Noach 5786.docx",
+          "source": "hebrew-sefer-title",
+          "context": "...immediately after the above from the Brisker Rav, R’ Yoshe Ber, (I assume it is the בית הלוי). He says: All of my life, I constantly yearned that I should never come to the phras..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:33:24.031Z"
+    },
+    "בית הלל": {
+      "candidate": "בית הלל",
+      "key": "בית הלל",
+      "language": "hebrew",
+      "status": "ignore",
+      "personId": null,
+      "sources": [
+        "hebrew-sefer-title"
+      ],
+      "count": 7,
+      "files": [
+        "Files/03 - Vayikra/07 - Achrei Mos/5784/Achrei Mos 5784.docx",
+        "Files/06 - Yom Tov/15 - Chanukah/5784/Chanukah 5784.docx",
+        "Files/06 - Yom Tov/17 - Tu Beshvat/5784/Tu Beshvat 5784.docx",
+        "Files/06 - Yom Tov/17 - Tu Beshvat/5785/Tu Beshvat 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/03 - Vayikra/07 - Achrei Mos/5784/Achrei Mos 5784.docx",
+          "source": "hebrew-sefer-title",
+          "context": "...and we’ll know what the הלכה is! This קשיא is addressed in משניות עדיות, where בית הלל and בית שמאי have a number of major מחלוקתים. The משנה points out that the greatness of ב..."
+        },
+        {
+          "filePath": "Files/03 - Vayikra/07 - Achrei Mos/5784/Achrei Mos 5784.docx",
+          "source": "hebrew-sefer-title",
+          "context": "...שמאי have a number of major מחלוקתים. The משנה points out that the greatness of בית הלל is shown in that even though they often opposed the שיטה of בית שמאי, they were willing t..."
+        },
+        {
+          "filePath": "Files/06 - Yom Tov/15 - Chanukah/5784/Chanukah 5784.docx",
+          "source": "hebrew-sefer-title",
+          "context": "...h 5784 חנוכה! The מצוה of חנוכה is מהדרין מן המהדרין. We follow the opinion of בית הלל, and each day we add another candle. On the first night, we light one candle; on the seco..."
+        },
+        {
+          "filePath": "Files/06 - Yom Tov/17 - Tu Beshvat/5784/Tu Beshvat 5784.docx",
+          "source": "hebrew-sefer-title",
+          "context": "... mentions that בית שמאי says בְּאֶחָד בִּשְׁבָט רֹאשׁ הַשָּׁנָה לָאִילָן, while בית הלל says בַּחֲמִשָּׁה עָשָׂר בּוֹ. The משנה begins in ראש השנה by discussing the ראש השנה for..."
+        },
+        {
+          "filePath": "Files/06 - Yom Tov/17 - Tu Beshvat/5784/Tu Beshvat 5784.docx",
+          "source": "hebrew-sefer-title",
+          "context": "...חמשה עשר בשבט, [or ראש חודש שבט according to בית שמאי, of course, we פסקין like בית הלל]. This specific אילן is the אתרוג. When a person davens on ט״ו בשבט for his אתרוג, he is ..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:33:26.878Z"
+    },
+    "בית חדש": {
+      "candidate": "בית חדש",
+      "key": "בית חדש",
+      "language": "hebrew",
+      "status": "keep",
+      "personId": "r-yoel-sirkis",
+      "sources": [
+        "hebrew-sefer-title"
+      ],
+      "count": 4,
+      "files": [
+        "Files/05 - Devarim/02 - Vaeschanan/5785/Vaeschanan 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/05 - Devarim/02 - Vaeschanan/5785/Vaeschanan 5785.docx",
+          "source": "hebrew-sefer-title",
+          "context": "...e answered, “I’ll tell you a story. R’ Yoel Sirkis was the מחבר of a ספר called בית חדש. Many of you may not have heard of the words בית חדש, but if you look at the initials, בי..."
+        },
+        {
+          "filePath": "Files/05 - Devarim/02 - Vaeschanan/5785/Vaeschanan 5785.docx",
+          "source": "hebrew-sefer-title",
+          "context": "...s the מחבר of a ספר called בית חדש. Many of you may not have heard of the words בית חדש, but if you look at the initials, בית חדש is the ב״ח. The ב״ח is one of the premier מפרשי..."
+        },
+        {
+          "filePath": "Files/05 - Devarim/02 - Vaeschanan/5785/Vaeschanan 5785.docx",
+          "source": "hebrew-sefer-title",
+          "context": "...f you may not have heard of the words בית חדש, but if you look at the initials, בית חדש is the ב״ח. The ב״ח is one of the premier מפרשים on שולחן ערוך. One time he came to visit..."
+        },
+        {
+          "filePath": "Files/05 - Devarim/02 - Vaeschanan/5785/Vaeschanan 5785.docx",
+          "source": "hebrew-sefer-title",
+          "context": "... מאוד. I’d like you to do me a favor. I have here a manuscript of my ספר called בית חדש. Do me a favor and look it over, tell me what you think of it.” He agreed and took the כת..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:33:38.686Z"
+    },
+    "בית יוסף": {
+      "candidate": "בית יוסף",
+      "key": "בית יוסף",
+      "language": "hebrew",
+      "status": "keep",
+      "personId": "bais-yosef",
+      "sources": [
+        "hebrew-sefer-title"
+      ],
+      "count": 2,
+      "files": [
+        "Files/06 - Yom Tov/16 - 10 Teves/5785/10 Teves 5785.docx"
+      ],
+      "examples": [
+        {
+          "filePath": "Files/06 - Yom Tov/16 - 10 Teves/5785/10 Teves 5785.docx",
+          "source": "hebrew-sefer-title",
+          "context": "10 Teves 5785 (Erev Shabbos) The אבודרהם, as quoted in the בית יוסף and brought down by R’ Elimelech Biderman,זאָל זיין געזונט און שטאַרק, finds a source..."
+        },
+        {
+          "filePath": "Files/06 - Yom Tov/16 - 10 Teves/5785/10 Teves 5785.docx",
+          "source": "hebrew-sefer-title",
+          "context": "10 Teves 5785 (Erev Shabbos) The אבודרהם, as quoted in the בית יוסף and brought down by R’ Elimelech Biderman,זאָל זיין געזונט און שטאַרק, finds a source fro..."
+        }
+      ],
+      "reviewedAt": "2026-07-24T05:33:51.037Z"
     }
   }
 }

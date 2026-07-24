@@ -7,15 +7,19 @@ This is a review-only report. No source documents were edited.
 ## Summary
 
 - Documents scanned: 221
-- Candidates shown: 1678
-- Ignored candidates hidden: 233
+- Candidates shown: 670
+- Ignored candidates hidden: 1403
 
 ## Candidates
 
 - `A Short Vort`
 - `Aaron Goodman`
+- `about Rebbetzin Kanievsky's father R' Elyashiv`
+- `about the old`
 - `Abraham Twerski`
 - `Abramsky`
+- `after him. The story involves`
+- `after Moshe because we're always going`
 - `Aharon Leib`
 - `Aharon Leib Shteinman`
 - `Aharon Mordechai Brisk`
@@ -25,9 +29,10 @@ This is a review-only report. No source documents were edited.
 - `Allen Goldstein`
 - `Alter Metzger`
 - `Alter of Slabodka`
+- `and look through it`
+- `another meeting with all the`
 - `Ari`
 - `Arizal`
-- `Aryeh`
 - `Aryeh Levine`
 - `Aryeh Strickhoff`
 - `Avi Wiesenfeld`
@@ -49,7 +54,13 @@ This is a review-only report. No source documents were edited.
 - `Boruch Ber Leibowitz`
 - `Bracha`
 - `Bracha Mandel`
+- `brings another reason that the earth`
 - `Brisker Rav`
+- `by R' Moshe Wolfson called Festivals`
+- `by this name for many reasons`
+- `called Festivals of Faith`
+- `called the`
+- `came out which retells stories`
 - `Chafetz Chaim`
 - `Chaim Alter Panet`
 - `Chaim Dahan`
@@ -60,603 +71,122 @@ This is a review-only report. No source documents were edited.
 - `Chaim Yosef Kofman`
 - `Chozeh MiLublin`
 - `Chozeh of Lublin`
+- `Covid and all of`
 - `Dovid Bennett`
 - `Dovid Meisels`
 - `Dovid Tribuch`
 - `Dr. Allen Goldstein`
 - `Dr. Ellie Bennett's`
 - `Dr. Goldstein`
-- `Dressed`
-- `Drop the`
 - `Dubna Maggid`
 - `Dubno Maggid`
-- `Duchaning`
-- `Duke of Heidelberg`
-- `During President Ronald Reagan's`
-- `During the`
-- `During the Shabbos`
-- `Dvar Torah Pesach`
-- `Dvinsk`
-- `Each`
-- `Each of`
-- `Each Yid`
-- `Egyptian`
-- `Eicha`
-- `Eichah`
-- `Eikev`
-- `Elchonon`
+- `either for`
 - `Elchonon Wasserman`
-- `Elimelech`
 - `Elimelech Biderman`
 - `Elimelech of Lizhensk`
-- `Ellie Bennett's`
-- `Elul`
-- `Elyasaf`
-- `Elyasaf Mariah`
-- `Elyasaf's`
 - `Elyashiv`
-- `Elyashiv's`
-- `Emor`
-- `Encyclopedia Britannica`
-- `England`
-- `English`
-- `Enlighten`
-- `Enter Elyasaf`
 - `Ephraim Asher Boehm`
 - `Ephraim Goldberg`
-- `Erector`
-- `Eretz Yisrael`
-- `Eretz Yisroel`
-- `Erev Shabbos`
-- `Erez Chazani`
-- `Especially`
-- `Ethics`
-- `Europe`
-- `European Jewry`
-- `Even`
-- `Eventually`
-- `Every Friday`
-- `Every Yid`
-- `Everybody`
-- `Everybody's`
-- `Everyone`
-- `Everyone's`
-- `Everything`
-- `Everything Hashem`
-- `Exactly`
-- `Excuse`
-- `Expanding`
 - `Fabian Schonfeld`
 - `Falk`
-- `Fast`
-- `Father`
-- `Fearing`
-- `Feed`
-- `Feeling`
-- `Feinstein`
 - `Festivals of Faith`
-- `FFBs`
-- `Finally`
-- `Finally Hashem`
-- `Finally the`
-- `Find`
-- `First of`
-- `Firstly`
-- `Five`
-- `Fix`
-- `Fix the`
-- `Focusing`
-- `Following`
-- `Foolish`
-- `For Jewish`
-- `For the`
-- `Forgive`
-- `Fortunately`
-- `Four`
-- `France`
-- `French`
-- `French Why`
-- `Frequently I`
-- `Friday`
-- `From`
-- `From Mama`
-- `From the`
-- `Furious`
-- `G`
+- `fodder in the summer of the`
+- `for it`
 - `Gaon`
-- `Gateshead`
-- `Gaza`
-- `Gazette`
-- `Gedalia`
 - `Gedalia Finkel`
 - `Gedalia Schorr`
-- `Gee`
-- `Gemara`
-- `Gemera`
-- `Generally`
-- `Gentile`
-- `Ger`
-- `German`
 - `Gerrer Rebbe`
-- `Get`
-- `Giants of`
-- `Give`
-- `Give Him`
-- `Giving`
-- `Go`
-- `God`
-- `God's`
-- `Goldstein`
-- `Goldstein's`
-- `Goldwasser's`
-- `Good`
-- `Good Yom Tov`
-- `Google`
-- `Grab`
-- `Greeks`
-- `Greenwald`
-- `Grunchi`
+- `goes on to speak about`
 - `Grunchi Getches`
-- `Grunchi's`
-- `Guess`
-- `Guttman`
+- `Grunchi Getches. He was notorious`
 - `Guttman of Ramat Shlomo`
-- `Ha'azinu`
-- `Habracha`
-- `Had`
-- `Had the`
-- `Hakodosh Baruch Hu`
-- `Hakodosh Baruch Hu's`
-- `Half`
-- `Halivai Veiter`
-- `Haman`
-- `Hands`
-- `Hang`
-- `Hanging`
-- `Happy`
-- `Happy Purim`
-- `Hard`
-- `Hardly`
-- `Harsh`
-- `Hashem`
-- `Hashem Himself`
-- `Hashem I`
-- `Hashem of`
-- `Hashem's`
-- `Hatzalah`
-- `Have`
-- `Having`
-- `He'll`
-- `He's`
-- `He's Avram's`
-- `He's the`
-- `Hearing`
-- `Heitman`
-- `Hellenists`
-- `Help`
-- `Her`
-- `Here`
-- `Here I`
-- `Here the Rabbi`
-- `Here's`
-- `Here's the`
+- `he brings the pasuk`
 - `Herschel Schachter`
 - `Hersh Mesharais`
 - `Hershel Schachter`
-- `Hey`
-- `Hidden`
-- `Him`
-- `Himself`
-- `Hirsch`
-- `His`
-- `History`
-- `Hoffman's Torah Tavlin`
-- `Hold`
-- `Holding`
-- `Holocaust`
-- `Hopefully`
-- `Hoshana Raba`
-- `How`
-- `How's`
-- `However the`
-- `Huddled`
-- `Hungary`
-- `I He`
-- `Ideally`
-- `IDF`
-- `IDF Central Command`
-- `If Avram`
-- `If Hashem`
-- `If I`
-- `If Rus`
-- `If the`
-- `Im Yirtzeh Hashem`
-- `Imagine`
-- `Immediately`
-- `Immediately the`
-- `Impossible`
-- `Impulsively`
-- `In Dachau`
-- `In English`
-- `In Hebrew`
-- `In Israel`
-- `In Lecha Dodi`
-- `In Shabbos`
-- `In the`
-- `Incidentally`
-- `Indeed`
-- `India`
-- `Indian`
-- `Initially`
-- `Inside Purim`
-- `Instead`
-- `Instead of`
-- `Interesting`
-- `Interestingly`
-- `Invariably`
-- `Invitations`
-- `Iran`
-- `Iranian`
-- `Irish`
-- `Irish Mendel`
-- `Iron Dome`
-- `Is`
-- `Is the`
-- `Isn't`
-- `Israel`
-- `Israeli`
-- `Israeli Air Force`
-- `Israeli Ministry of Defense`
-- `Israelis`
-- `It'll`
-- `It's`
-- `It's the`
-- `Its`
-- `IV`
-- `Izmir`
-- `Jew`
-- `Jew of`
-- `Jew's`
-- `Jewish`
-- `Jews`
-- `Jews of`
-- `John`
-- `John the`
-- `Johnny`
-- `Jokingly`
-- `José de Martín`
-- `Judah`
-- `Judah the`
+- `him and asked him if it`
+- `him and he said`
+- `him by name. He finally answered`
+- `him Mendel`
+- `him names and beat him up`
+- `him not only`
+- `him over and said`
+- `him up for`
+- `his beloved daughter close and told`
+- `his famous sefer`
+- `his uncle`
+- `in Moshe's name. What is Rashi`
+- `is called`
+- `is only`
+- `is. So`
 - `Judah Wallace`
-- `Judah Wallace's`
-- `Judah's`
-- `Judaism`
-- `Judges`
-- `July`
-- `June`
-- `Just`
-- `Kaiser`
-- `Kaminetz`
-- `Katz`
-- `Kedoshim`
-- `Keep`
-- `Keeping`
-- `Kever Rochel`
-- `Kew Gardens`
-- `Kew Gardens Hills`
-- `Ki Savo`
-- `Ki Seitzei`
-- `Ki Sisa`
-- `Kiddush Hashem`
-- `Kill`
-- `King`
+- `Judah Wallace. He caught it thinking`
 - `Klausenberger Rebbe`
-- `Knowing`
-- `Kofman`
 - `Kol HaTorah`
-- `Korach`
 - `Kormornick`
-- `Kosel`
-- `Kotska Rebbi`
-- `Krakow`
-- `Krovitz Purim`
 - `Label Lam`
-- `Lag Ba'omer`
-- `Lag Baomer`
-- `Last`
-- `Lastly`
-- `Later`
-- `Latin`
-- `Leading the`
-- `Learning`
-- `Leave`
-- `Leaving`
-- `Lech Lecha`
-- `Lecha Dodi`
-- `Lederman`
-- `Lego`
-- `Leib`
 - `Leib Chasman`
-- `Lelov`
-- `Let the`
-- `Let's`
 - `Levi Yitzchok`
 - `Levi Yitzchok of Berditchev`
-- `Liadi`
-- `Lichev`
 - `Lieb M`
-- `Life`
-- `Light`
-- `Like`
-- `Like Elyasaf`
-- `Like R`
-- `Like the`
-- `Listen`
-- `Little`
-- `Litvak`
-- `Living`
-- `London Jewish`
-- `Look`
-- `Look Hashem`
-- `Looking`
-- `Lord`
-- `Lot`
-- `Lot's`
-- `Lubavitch`
-- `Lubavitcher`
 - `Lubavitcher Rebbe`
 - `Lutzker Rav`
-- `Ma`
-- `Maasei`
-- `Maccabim`
-- `Make`
-- `Malachi`
-- `Mama`
-- `Mama Rochel`
-- `Man`
 - `Man of Faith`
-- `Man the`
-- `Man's`
-- `Manchester`
-- `Mandel`
-- `Manhattan`
-- `Many`
-- `Many Jews`
-- `Many of`
-- `Many of the`
-- `Massei`
-- `Math`
 - `Matis Blum`
-- `Matos`
-- `Maximize`
-- `May`
-- `May Hashem`
-- `Maybe`
-- `Mazel Tov`
-- `Me`
-- `Meaning`
-- `Meanwhile`
+- `me looked and said to me`
 - `Medelson`
 - `Meir Shapiro`
 - `Meir Simcha`
-- `Meir'l`
 - `Meir'l of Premishlan`
 - `Menachem Genack of OU`
 - `Menachem Mendel`
 - `Menachem Mendel Chaim Landau`
 - `Menachem Mendel Schneerson`
-- `Mendel`
 - `Mendel of Rimanov`
 - `Mendel of Riminov`
 - `Mendel Pollack`
-- `Mendelson`
 - `Mendy Pollak`
-- `Mentioning`
-- `Meron`
-- `Metzora`
-- `Mezritch`
-- `Miami`
 - `Michael Dovid Weissmandl`
-- `Middle East`
-- `Might`
-- `Mikeitz`
-- `Minute`
-- `Mir`
-- `Miriam`
-- `Mirrer Yeshiva`
-- `Mishlei`
-- `Mishna`
-- `Mishpatim`
-- `Modern`
-- `Modern World`
-- `Mom`
-- `Moments`
-- `Monday`
-- `Monday of`
-- `Mondays`
-- `Montefiore`
-- `Mora D`
-- `Mordechai`
 - `Mordechai Becher`
 - `Mordechai Sabato`
-- `Mordechai Sabato's`
-- `More`
-- `Moreover`
-- `Morning`
-- `Moses`
-- `Moshe`
+- `Mordechai whom`
 - `Moshe Donnebaum`
 - `Moshe Feinstein`
 - `Moshe Katz`
 - `Moshe Kormornick`
 - `Moshe Oelbaum`
-- `Moshe Rabbeinu`
 - `Moshe Schwab`
-- `Moshe Schwab's`
 - `Moshe Sherer`
 - `Moshe Sternbuch`
 - `Moshe Wolfson`
-- `Moshe's`
-- `Mossad`
-- `Most`
-- `Most of`
-- `Mount Eden Shul`
-- `Mr`
-- `Mr. Feinstein`
 - `Mr. Olasky`
-- `Mrs`
-- `Mrs. Mandel`
-- `Mumbai`
+- `Mrs. Mandel and informed her of`
 - `Munkatcher Rebbe`
-- `Mussaf Yom Tov`
-- `Muti`
-- `My`
 - `Naftali of Ropshitz`
-- `Name`
-- `Names`
-- `Naso`
-- `Naturally`
-- `Navi`
-- `Nazis`
-- `Never`
-- `Nevertheless`
-- `New York`
-- `New York City`
-- `Next`
-- `Nile`
 - `Nissan Kaplan`
-- `Nitzavim`
-- `No`
-- `No Jew`
-- `Noach`
 - `Noach Isaac Oelbaum`
-- `Nobel Prizes`
-- `Nobody`
-- `None of`
-- `None of the`
-- `Nonetheless`
-- `Normally`
 - `Nosson Adler`
 - `Nosson Tzvi Finkel`
-- `Not`
-- `Not the`
-- `Nota Shloima`
-- `Nota Shloima's`
-- `Nothing`
-- `Notice the`
-- `Now I`
-- `Now of`
-- `Nowhere`
-- `Number`
-- `Numerous`
-- `Obviously`
-- `October`
-- `Oelbaum`
-- `Oelbaum's`
-- `Often`
-- `Oh`
-- `Oil`
-- `Okay`
-- `Olasky`
-- `On January`
-- `On Shabbos`
-- `On Sunday`
-- `On the`
-- `On Thursday`
-- `On Yom Kippur`
-- `Once`
-- `Once the`
-- `One of`
-- `One of Hashem's`
-- `One of the`
-- `One of the Gerrer Rebbes`
-- `One Who`
-- `Only`
-- `Open`
-- `Or`
-- `Ordinarily`
-- `Orthodox`
-- `Ostroh`
-- `Other`
-- `Others`
-- `Our Upstairs Neighbors`
-- `Out of`
-- `Out of the`
-- `Ovadia`
+- `of life and the book of`
+- `of R' Levi Yitzchok of Berditchev`
+- `of R' Yitzchok Zilberstein's torah wisdom`
+- `of R' Yonasan Eibschutz called`
+- `of repute is the`
+- `on all the`
+- `on chumash`
+- `on chumash by Rabbi Shai Graucher`
+- `one of my children`
+- `out Judah's number. He had no`
+- `out to his master`
 - `Ovadia Yosef`
 - `Ovadia's`
-- `Over`
-- `Over the`
-- `Oy`
-- `P`
-- `Pam`
-- `Panic`
-- `Papa`
-- `Parenthetically`
-- `Parents`
-- `Parsha`
-- `Parshas`
-- `Parshas Behar`
-- `Parshas Ha'azinu`
-- `Parshas Matos`
-- `Parshas Mikeitz`
-- `Parshas Noach`
-- `Parshas Vaeschanan`
-- `Parshas Vayechi`
-- `Part of`
-- `Pasuk`
-- `Pause`
-- `Pay`
-- `Pekudei`
-- `People`
-- `Perhaps`
-- `Perhaps I`
-- `Perhaps the`
-- `Persians`
-- `Personally`
-- `Pesach`
-- `Pesach Eliyahu Falk`
-- `Pesach Sheini`
-- `Pesachim`
-- `Peshischa`
-- `Picture`
-- `Pinchas`
-- `Pinchov`
-- `Pincus`
-- `Pinczow`
-- `Pinsk`
-- `Pirkei Avos`
-- `Places`
-- `Planting`
-- `Please`
-- `Please You`
-- `Poland`
-- `Polish`
-- `Poughkeepsie`
-- `Power`
-- `Prague`
-- `Praised`
-- `Precious`
-- `Presenting`
-- `Pressburg`
-- `Pretty`
-- `Prime Minister`
-- `Probably the`
-- `Public Health Service`
-- `Purim`
-- `Purim Dvar Torah`
-- `Purim Katon`
-- `Purims`
-- `Put`
-- `Putting`
-- `Puzzled`
-- `Queens`
-- `Question`
-- `Quite`
-- `R`
+- `people who are not up to`
+- `put out by`
+- `quotes the`
 - `R Chaim Vital`
 - `R. Yosef Engel`
 - `R' Aaron Goodman`
+- `R' Aaron Goodman. The phrasing in`
 - `R' Abramsky`
 - `R' Aharon Leib`
 - `R' Aharon Leib Shteinman`
@@ -665,7 +195,6 @@ This is a review-only report. No source documents were edited.
 - `R' Akiva Grunblatt`
 - `R' Alexander Ziskind`
 - `R' Alter Metzger`
-- `R' Aryeh`
 - `R' Aryeh Levine`
 - `R' Aryeh Strickhoff`
 - `R' Avi Wiesenfeld`
@@ -678,13 +207,10 @@ This is a review-only report. No source documents were edited.
 - `R' Baruch Rabinowitz`
 - `R' Benet`
 - `R' Berkovits`
-- `R' Beryl`
 - `R' Beryl Weisbord`
 - `R' Biderman`
 - `R' Blum`
 - `R' Boruch Ber Leibowitz`
-- `R' Brisk`
-- `R' Chaim`
 - `R' Chaim Alter Panet`
 - `R' Chaim Dahan`
 - `R' Chaim Kanievsky`
@@ -692,63 +218,45 @@ This is a review-only report. No source documents were edited.
 - `R' Chaim Leibish Rottenberg`
 - `R' Chaim Mandel`
 - `R' Chaim Shmuelevitz of`
-- `R' Chaim the`
 - `R' Chaim Yosef Kofman`
-- `R' Chaim's`
 - `R' Dovid Meisels`
 - `R' Elchonon`
 - `R' Elchonon Wasserman`
-- `R' Elimelech`
 - `R' Elimelech Biderman`
-- `R' Elimelech Biderman of`
 - `R' Elimelech of Lizhensk`
 - `R' Elyashiv`
 - `R' Elyashiv's`
 - `R' Ephraim Goldberg`
 - `R' Erez Chazani`
 - `R' Fabian Schonfeld`
-- `R' Falk`
-- `R' Gedalia`
 - `R' Gedalia Finkel`
 - `R' Gedalia Schorr`
-- `R' Goldstein`
-- `R' Goldwasser's`
-- `R' Greenwald`
 - `R' Guttman`
-- `R' Guttman of Ramat Shlomo`
-- `R' Heitman`
 - `R' Herschel Schachter`
 - `R' Hersh Mesharais`
 - `R' Hershel Schachter`
-- `R' Hoffman's Torah Tavlin`
-- `R' Kofman`
 - `R' Kormornick`
 - `R' Label Lam`
-- `R' Leib`
 - `R' Leib Chasman`
 - `R' Levi Yitzchok`
 - `R' Levi Yitzchok of Berditchev`
-- `R' Lieb M`
+- `R' Lieb M'Lichev. He was`
 - `R' Matis Blum`
 - `R' Medelson`
 - `R' Meir Shapiro`
 - `R' Meir'l`
 - `R' Meir'l of Premishlan`
-- `R' Menachem Genack of OU`
-- `R' Menachem Mendel`
 - `R' Menachem Mendel Chaim Landau`
 - `R' Menachem Mendel Schneerson`
-- `R' Mendel`
 - `R' Mendel of Rimanov`
 - `R' Mendel of Riminov`
 - `R' Mendel Pollack`
-- `R' Mendelson`
 - `R' Mendy Pollak`
 - `R' Michael Dovid Weissmandl`
 - `R' Mordechai Becher`
 - `R' Mordechai Sabato`
+- `R' Mordechai Sabato explains that since`
 - `R' Mordechai Sabato's`
-- `R' Moshe`
 - `R' Moshe Donnebaum`
 - `R' Moshe Feinstein`
 - `R' Moshe Kormornick`
@@ -759,7 +267,6 @@ This is a review-only report. No source documents were edited.
 - `R' Moshe Sternbuch`
 - `R' Moshe Wolfson`
 - `R' Naftali of Ropshitz`
-- `R' Nissan Kaplan of`
 - `R' Noach Isaac Oelbaum`
 - `R' Nosson Adler`
 - `R' Nosson Tzvi Finkel`
@@ -774,7 +281,6 @@ This is a review-only report. No source documents were edited.
 - `R' Reuven Grozovsky`
 - `R' Rosenzweig`
 - `R' Samson Raphael Hirsch`
-- `R' Samson Raphael Hirsch de`
 - `R' Segal`
 - `R' Sheps`
 - `R' Shimshon Pincus`
@@ -782,25 +288,17 @@ This is a review-only report. No source documents were edited.
 - `R' Shiya Berlin`
 - `R' Shlomo Ganzfried`
 - `R' Shlomo Zalman Sonnenfeld`
-- `R' Shlomo Zalman's`
-- `R' Shmelke`
 - `R' Shmelke Schnitzler`
+- `R' Shmelke Schnitzler. He was`
 - `R' Sholom Schwadron`
-- `R' Simcha`
 - `R' Simcha Bunim of Peshischa`
 - `R' Simcha Sheps`
-- `R' Simcha Sheps of`
-- `R' Soloveichik`
-- `R' Stickov`
 - `R' Tzvi Elimelech of Dinov`
 - `R' Tzvi Hirsch HaKohen of Rimanov`
 - `R' Weissmandl`
-- `R' Weissmandl's`
-- `R' Yaakov`
 - `R' Yaakov Kamenetsky`
 - `R' Yaakov Mordecai Greenwald`
 - `R' Yaakov of Premishel`
-- `R' Yaakov Yitzchak`
 - `R' Yaakov Yitzchak of Peshischa`
 - `R' Yechezkel Abramsky`
 - `R' Yechezkel Levenstein`
@@ -808,9 +306,7 @@ This is a review-only report. No source documents were edited.
 - `R' Yehuda Zev Segal`
 - `R' Yekusiel Yehuda Teitelbaum`
 - `R' Yerucham Levovitz`
-- `R' Yeshaya`
 - `R' Yeshaya Bardaki`
-- `R' Yid`
 - `R' Yissocher Englard`
 - `R' Yissocher Frand`
 - `R' Yitzchak Berkovits`
@@ -818,7 +314,6 @@ This is a review-only report. No source documents were edited.
 - `R' Yitzchok Elchonon Spector of Kovno`
 - `R' Yitzchok Zilberstein`
 - `R' Yitzchok Zilberstein's`
-- `R' Yoel ben`
 - `R' Yoel Sirkis`
 - `R' Yoel Teitelbaum`
 - `R' Yoelish`
@@ -830,31 +325,20 @@ This is a review-only report. No source documents were edited.
 - `R' Yosef Shlomo Goldstein`
 - `R' Yosef Yitzchak Schneersohn`
 - `R' Yoshe Ber`
-- `R' Yoshe Ber of`
 - `R' Yoshe Ber Soloveichik`
-- `R' Yoshe Ber Soloveichik's`
-- `R' Yossele`
 - `R' Yossele of Torchin`
 - `R' Zalman Sorotzkin`
 - `R' Zev of Strickov`
 - `R' Zilberstein`
-- `R' Zundel`
 - `R' Zundel Kroizer`
-- `Rabbanim`
-- `Rabbi`
 - `Rabbi Abraham Besdin`
 - `Rabbi Aryeh Levine`
 - `Rabbi David Hollander`
-- `Rabbi Dr`
 - `Rabbi Frand`
 - `Rabbi Gesheid`
-- `Rabbi Goldberg`
-- `Rabbi Groner`
-- `Rabbi Hool`
-- `Rabbi Jacobson's`
+- `Rabbi Gesheid again`
 - `Rabbi Jeremy Golker`
 - `Rabbi Leibel Groner`
-- `Rabbi Markowitz`
 - `Rabbi Moshe Wolfson's`
 - `Rabbi Noach Isaac Oelbaum`
 - `Rabbi Oelbaum`
@@ -862,33 +346,16 @@ This is a review-only report. No source documents were edited.
 - `Rabbi Peretz Steinberg's`
 - `Rabbi Reuven Gesheid`
 - `Rabbi Shai Graucher`
-- `Rabbi Wallace`
-- `Rabbi Y`
 - `Rabbi Yona Fradkin`
-- `Rabbi Yosef`
-- `Rabbi Yosef I`
 - `Rabbi Yosef Wallace`
 - `Rabbi YY Jacobson`
-- `Rachashei Lev`
-- `Radin`
-- `Raising`
-- `Ramat Shlomo`
 - `Rambam`
 - `Ramban`
-- `Rarely`
 - `Rashi`
-- `Rather`
-- `Rattling`
-- `Rav`
-- `Rav Aharon ben Chaim`
 - `Rav Aharon Kotler`
-- `Rav Aryeh`
 - `Rav Avigdor Miller`
-- `Rav Chaim`
 - `Rav Chaim Kanievsky`
-- `Rav Chasid`
 - `Rav Gifter`
-- `Rav Guttman`
 - `Rav Irving Bunim's`
 - `Rav Itzele Peterburger`
 - `Rav Komornick's`
@@ -899,794 +366,319 @@ This is a review-only report. No source documents were edited.
 - `Rav Moshe Tendler`
 - `Rav Moshe Wolfson`
 - `Rav Oelbaum`
-- `Rav of`
-- `Rav of Cracow`
-- `Rav of the`
-- `Rav of the Young Israel of`
-- `Rav of Yerushalayim`
 - `Rav Ovadia`
 - `Rav Pam`
-- `Rav Pam ben`
-- `Rav Pam de`
 - `Rav Pesach Krohn`
 - `Rav Pinchas Doron`
-- `Rav Satka`
-- `Rav Satka's`
 - `Rav Shach`
 - `Rav Sheps`
 - `Rav Shimshon Schwab`
 - `Rav Shlomo Ganzfried`
-- `Rav Steinberg`
 - `Rav Tzvi Hersh Heller`
 - `Rav Yechiel Spiro`
 - `Rav Yeruchem Gorelick's`
 - `Rav Yirachmiel Chasid`
 - `Rav Yitzchak Zilberstein`
-- `Rav Yosef`
+- `Rav Yosef and told him that`
 - `Rav Yosef Dov Soloveichik`
 - `Rav Yoshe Ber`
 - `Rav Zalman Sorotzkin`
 - `Rav Zilberstein`
-- `Re'eh`
-- `Real`
-- `Really`
 - `Reb Levi Yitzchok`
 - `Reb Levi Yitzchok of Berditchev`
-- `Reb Levi Yitzchok's`
-- `Reb Meilech`
-- `Reb Shmelke`
 - `Reb Shmelke of Nikolsburg`
-- `Reb Yid`
-- `Rebbe`
-- `Rebbe of Sanz`
-- `Rebbe R`
-- `Rebbe's`
 - `Rebbetzin Barzam`
 - `Rebbetzin Kanievsky's`
 - `Rebbetzin Rivky Holtzberg`
-- `Rebbi`
-- `Rebbi of`
-- `Redeem`
-- `Reflect`
-- `Reflecting`
-- `Reform Jews`
-- `Regarding`
-- `Regarding the`
-- `Regardless`
-- `Regards`
-- `Remarkably`
-- `Remember`
-- `Resvizit`
-- `Returning`
+- `resting. Hashem is recreating the world`
 - `Reuven Grozovsky`
-- `Right`
-- `Rivky's`
-- `Roman`
-- `Romans`
-- `Rosenzweig`
-- `Rosh Hashana`
-- `Rosh Yeshiva`
-- `Rus`
-- `Rushing`
-- `Russia`
-- `Russians`
-- `S`
-- `Same`
-- `Samson Raphael Hirsch`
-- `San Diego`
-- `Sanhedrin`
-- `Sarah`
-- `Sassover`
 - `Satmar Rebbe`
 - `Satmar Rebbe's`
-- `Satmer Rebbe of`
-- `Say`
-- `Says`
-- `Says the`
-- `Second`
-- `Secondly`
-- `Seder`
-- `See`
-- `Seeing`
-- `Segal`
-- `Semites`
-- `Semitism`
-- `Serve Hashem`
-- `Serving`
-- `Shabbos`
-- `Shabbos Nachamu`
-- `Shabbos of`
-- `Shadeker`
-- `Sharing`
-- `Shavuos`
-- `She`
-- `She's`
-- `Sheini`
-- `Shelter`
-- `Shemos`
-- `Sheps`
+- `seeks to preserve. Zeidy's`
 - `Shimshon Pincus`
-- `Shin Bet`
 - `Shinever Rov`
 - `Shiniver Rebbe`
-- `Shiya`
 - `Shiya Berlin`
-- `Shlach`
 - `Shlomo Ganzfried`
-- `Shlomo HaMelech`
 - `Shlomo Zalman Sonnenfeld`
-- `Shlomo Zalman's`
-- `Shmelke`
-- `Shmelke Schnitzler`
-- `Shmini`
-- `Shmini Atzeres`
 - `Shmuel Marcus`
-- `Shoftim`
 - `Sholom Schwadron`
-- `Short Vort`
-- `Shortly`
-- `Should`
-- `Shouldn't`
-- `Show`
-- `Show Me Your Ways`
-- `Sick`
-- `Simcha`
 - `Simcha Bunim of Peshischa`
-- `Simcha Sheps`
-- `Simchas Torah`
-- `Similarly`
-- `Simple`
-- `Simply`
-- `Sinai`
-- `Since`
-- `Since Hashem's`
-- `Since the`
-- `Sing`
-- `Sirens`
-- `Sit`
-- `Sitting`
-- `Sixty`
-- `So Hashem`
-- `So I`
-- `So Meir'l`
-- `So Nimrod`
-- `So of`
-- `So R`
-- `So Rav Zilberstein`
-- `So the`
-- `So the Rav`
-- `Soloveichik`
-- `Some`
-- `Some of`
-- `Some of the`
-- `Somehow`
-- `Someone`
-- `Something`
-- `Sometimes`
-- `Sometimes I`
-- `Soon`
+- `some of our children based on`
 - `Sorolle Idels`
-- `Sotah`
-- `Spain`
-- `Speaking of`
-- `Specifically`
-- `Spinka`
 - `Spinka Rebbe`
-- `Stand`
-- `Standing`
-- `Start`
-- `Starting`
+- `stated that reciting`
 - `Steipler`
-- `Stern`
-- `Stickov`
-- `Still`
-- `Stopping`
-- `Story`
-- `Story Pesach`
-- `Story Purim`
-- `Strangely`
-- `Strive`
-- `Students`
-- `Stumbling`
-- `Such`
-- `Suddenly`
-- `Sukkos`
-- `Sunday`
-- `Sunday of the`
-- `Sundays`
-- `Suppose`
-- `Sure`
-- `Surely`
-- `Surely the`
-- `Surprisingly`
-- `Swarms`
-- `T`
-- `Take`
-- `Taking`
-- `Tamuz`
-- `Tanach`
-- `Tazria`
-- `Tefillin`
-- `Tehillim`
-- `Tel Aviv`
-- `Tel HaShomer`
-- `Tell`
-- `Tell Rabbi Yosef I`
-- `Tell the`
-- `Telshe`
-- `Ten`
-- `Terrorists`
-- `Teruma`
-- `Teshuva I`
-- `Tetzaveh`
-- `Teves`
-- `Thank`
-- `Thank You`
-- `That I`
-- `That the`
-- `That's`
-- `That's Grunchi Getches`
-- `That's the`
+- `such an expert`
 - `The Alter of Slabodka`
 - `The Apter Rav`
 - `The Arizal`
-- `The Ashkenazim`
 - `The Baal Shem Tov`
 - `The Belzer Rebbe`
-- `The Bounty of Dew`
-- `The Brisker`
 - `The Brisker Rav`
 - `The Chafetz Chaim`
 - `The Chazon Ish`
 - `The Dubna Maggid`
 - `The Dubno Maggid`
-- `The Egyptians`
-- `The First Jewish Grandfather`
-- `The French`
+- `the fire department and they assured`
 - `The Gaon`
-- `The Gemara`
-- `The German`
-- `The Gerrer`
 - `The Gerrer Rebbe`
-- `The Homiler`
-- `The Jewish`
-- `The Kaiser`
 - `The Klausenberger Rebbe`
-- `The Kosel`
 - `The Kotzker Rebbe`
 - `The Lutzker Rav`
-- `The Mexicans`
-- `The Mishna`
 - `The Ohr Gedalyahu`
-- `The Poritz`
-- `The Rabbeim`
-- `The Rabbi`
-- `The Rabbi's`
-- `The Rav`
-- `The Rebbe`
+- `the present. We have the opportunity`
 - `The Ruzhiner`
 - `The Ruzhiner Rebbe`
 - `The Sanzer Rav`
 - `The Satmar Rebbe`
+- `the sefer`
 - `The Shinever Rebbe`
 - `The Shinever Rov`
 - `The Short Vort`
+- `The Short Vort brings the following`
+- `the son that we're working so`
 - `The Spinka Rebbe`
-- `The Torah`
 - `The Vilna Gaon`
 - `The Weekly Vort`
-- `The Yid`
 - `The Yid Hakodosh`
-- `Their`
-- `Then Hashem`
-- `Then I`
-- `Then Moshe`
-- `Then the`
-- `Then the Brisker Rav`
-- `There'll`
-- `There's`
-- `There's the`
-- `Therefore Hashem`
-- `They'll`
-- `They're`
-- `Things`
-- `Think`
-- `Third`
-- `Thirdly`
-- `This Torah`
-- `Those`
-- `Those of`
-- `Though`
-- `Thousands of`
-- `Three`
-- `Through`
-- `Through the`
-- `Throughout`
-- `Throughout the`
-- `Thus`
-- `Time`
-- `Tisha B`
-- `Titus`
-- `To He Who`
-- `To the`
-- `Today`
-- `Together`
-- `Toldos`
-- `Tonight`
-- `Torah`
+- `them once`
 - `Torah Anytimes`
 - `Torah Anytimes Haggadah Companion`
-- `Torah Journal`
-- `Torah of`
 - `Torah Tavlin`
 - `Torah Treasures`
-- `Torah Vodaas's`
-- `Torah Vodaath`
-- `Torah's`
+- `Torah Treasures brings in the name`
 - `TorahAnytimes Tetzaveh`
-- `Towards the`
-- `Train`
-- `Treat`
-- `True`
-- `Truth`
-- `Try`
-- `Tu B`
-- `Tu Beshvat`
-- `Tulchin`
-- `Two`
-- `Two of the`
-- `Typically`
-- `Tzav`
-- `Tziyon`
 - `Tzvi Asher Bennett`
 - `Tzvi Bennett`
 - `Tzvi Elimelech of Dinov`
 - `Tzvi Hirsch HaKohen of Rimanov`
-- `Ugh`
-- `Ugly`
-- `Uh`
-- `Ukraine`
-- `Ukrainians`
-- `Ultimately`
-- `Unexpectedly`
-- `Unfortunately`
-- `United States`
-- `Unknown`
-- `Unless`
-- `Unlike`
-- `Unquestionably`
-- `Unsure of`
-- `Until`
-- `Upon`
-- `Use`
-- `Usually`
-- `Utilize`
-- `V`
-- `Vaeira`
-- `Vaeschanan`
-- `Vayailech`
-- `Vayairah`
-- `Vayaishev`
-- `Vayaitzei`
-- `Vayakel`
-- `Vayechi`
-- `Vayeilech`
-- `Vayigash`
-- `Vayikra`
-- `Vayikrah`
-- `Vayishlach`
-- `Very`
-- `Vespasian`
+- `up his parents and said`
 - `Vilna Gaon`
-- `Vizhnitz`
-- `Wait`
-- `Waiting`
-- `Was`
-- `Watch`
-- `We Jews`
-- `We of`
-- `We'll`
-- `We're`
-- `We've`
-- `Wealth`
-- `Weeks`
-- `Weissmandl`
-- `Weissmandl's`
-- `Well`
-- `Were`
-- `What R`
-- `What the`
-- `What the Chafetz Chaim`
-- `What's`
-- `What's the`
-- `Whatever`
-- `When Avram`
-- `When Grunchi`
-- `When Hashem`
-- `When I`
-- `When the`
-- `When the Steipler`
-- `When Yaakov's`
-- `Whenever`
-- `Whether`
-- `Whether the`
-- `Which`
-- `Whichever`
-- `While`
-- `While I`
-- `While the`
-- `Who`
-- `Whoever`
-- `Whoever's`
-- `Why Hashem`
-- `Wile E. Coyote`
-- `Will`
-- `With the`
-- `Without`
-- `Without the`
-- `Word`
-- `World War I. Not`
-- `World War II`
-- `Would`
-- `Wouldn't the`
-- `Wow`
-- `Y. Jacobson`
-- `Yaakov`
+- `was written by`
+- `well worth reading. You will get`
+- `will realize how incredible it is`
+- `with great thought and care`
 - `Yaakov Kamenetsky`
 - `Yaakov Mordecai Greenwald`
 - `Yaakov of Premishel`
 - `Yaakov Yitzchak`
 - `Yaakov Yitzchak of Peshischa`
-- `Yaakov's`
-- `Yeah`
-- `Years`
 - `Yechezkel Abramsky`
 - `Yechezkel Levenstein`
-- `Yechezkel Shraga`
-- `Yehoshua`
-- `Yehoshua's`
-- `Yehuda Zev Segal`
+- `Yechezkel Shraga after the Shinever Rov`
 - `Yekusiel Yehuda Teitelbaum`
 - `Yerucham Levovitz`
-- `Yerushalmi`
-- `Yerushalyim`
-- `Yes`
-- `Yeshaya`
-- `Yeshaya Bardaki`
-- `Yeshiva Torah Vodaath`
-- `Yeshivas Chafetz Chaim`
-- `Yeshivish`
-- `Yet`
-- `Yet the`
-- `Yid`
-- `Yid HaKadosh`
-- `Yid of P`
-- `Yidden`
-- `Yiddish`
-- `Yiddishe Mama`
-- `Yiddishkeit`
-- `Yisro`
-- `Yisroel`
 - `Yissocher Englard`
 - `Yissocher Frand`
 - `Yitzchak Berkovits`
-- `Yitzchok Elchonon`
-- `Yitzchok Elchonon Spector of Kovno`
-- `Yitzchok Zilberstein`
-- `Yitzchok Zilberstein's`
-- `Yoel`
-- `Yoel Sirkis`
-- `Yoel Teitelbaum`
-- `Yoelish`
-- `Yom Kippur`
-- `Yom Tov`
-- `Yoma`
-- `Yonasan Eibschutz`
-- `Yosef`
-- `Yosef Chaim`
-- `Yosef Chaim Sonnenfeld`
-- `Yosef Chaim Zonnenfeld`
-- `Yosef Chaim's`
-- `Yosef Shlomo Goldstein`
-- `Yosef Yitzchak Schneersohn`
-- `Yoshe Ber`
-- `Yoshe Ber Soloveichik`
-- `Yoshe Ber Soloveichik's`
-- `Yossele`
-- `Yossele of Torchin`
-- `You Jews`
-- `You'd`
-- `You'll`
-- `You're`
-- `You've`
-- `Young Israel of Forest Hills`
-- `Young Nota Shloima`
-- `Your`
-- `Your Rebbi`
-- `Yungerman`
-- `Zalman Sorotzkin`
-- `Zawiercie`
-- `Zeidy`
+- `your family. When you're getting something`
 - `Zeidy Bennett's`
 - `Zeidy Weiss`
-- `Zeidy's`
-- `Zeidys`
-- `Zev of Strickov`
 - `Zev Wolf Zicherman`
-- `Zilberstein`
-- `Zohar`
-- `Zundel`
+- `Zev Wolf Zicherman from Boro Park`
 - `Zundel Kroizer`
-- `א׳`
-- `א"א`
-- `א״ח`
-- `א"י`
-- `א״ת`
-- `אבה"ע`
-- `אר"י`
-- `אריז"ל`
+- `א״א`
+- `א״י`
+- `אבה״ע`
+- `אהבת תורה`
+- `אהל תורה`
+- `אוצר פלאות התורה`
+- `אור גדליהו`
+- `אור יהל`
+- `אזנים לתורה`
+- `אר״י`
+- `אר״י הקדוש`
 - `אריז״ל`
-- `ב׳`
-- `ב"ח`
-- `ב״ש`
-- `בב"ר`
-- `בה׳`
-- `בעוה"ב`
-- `ברש״י`
-- `ג׳`
-- `גנזי`
-- `גר"א`
+- `ב״ח`
+- `באר היטב`
+- `באר מים חיים`
+- `באר מרים`
+- `בב״ר`
+- `ביניהן דברי תורה ראויין לישרף`
+- `בית הלוי`
+- `בית הלל`
+- `בית חדש`
+- `בית יוסף`
+- `בית יעקב`
+- `בית ישראל`
+- `בית שלמה`
+- `בית שמאי`
+- `בעוה״ב`
+- `בעל המחבר ספר חידושי טיב גיטין`
+- `בעל קיצור שולחן ערוך`
+- `בעל שם`
+- `בעל שם טוב`
 - `גר״א`
-- `ד׳`
-- `ד״ה`
-- `דפח״ח`
-- `דרכיך״`
-- `ה׳`
+- `דברי יושר`
+- `דברי יחזקאל`
+- `דברי פי חכם חן`
+- `דברי שיח`
+- `דיק שמחת תורה`
+- `דעת זקנים`
+- `דעת תבונות`
 - `הגאון רב פנחס זאמען סגל`
-- `הגאון רבי יוסף חיים`
-- `הגר"א`
-- `הוא`
-- `הוי"ה`
-- `הוי״ה`
-- `הי״ד`
-- `העוה"ב`
-- `הק׳`
-- `הקב"ה`
-- `הרא"ש`
-- `הראב"ד`
-- `הרי"ם`
+- `הגר״א`
+- `העוה״ב`
+- `הקב״ה`
+- `הרא״ש`
+- `הראב״ד`
 - `הרי״ם`
-- `הש"ס`
-- `השי"ת`
-- `ו׳`
-- `וה׳`
-- `והקב"ה`
-- `וי"ג`
-- `וכו׳`
-- `וע"כ`
-- `ועז"נ`
-- `ושס"ה`
-- `ז׳`
-- `ז"ל`
-- `זצ"ל`
-- `זצ״ל`
-- `ח׳`
-- `חב"ד`
-- `חז"ל`
-- `חז״ל`
-- `חיד"א`
-- `חת"ם`
-- `ט׳`
-- `ט"ו`
-- `ט״ו`
-- `ט"ז`
-- `ט״ז`
-- `י׳`
-- `י״`
-- `י״א`
-- `י"ב`
-- `י״ב`
-- `י"ג`
-- `י״ג`
-- `י"ד`
-- `י״ד`
-- `י״ז`
-- `י״ח`
-- `י"ט`
-- `י״ט`
-- `ידך`
-- `יעב"ץ`
-- `כ׳`
-- `כ״א`
-- `כ״ב`
-- `כ״ג`
-- `כ״ד`
-- `כ״ה`
-- `כ״ו`
-- `כ"ז`
-- `כ״ז`
-- `כ״ח`
-- `כ"ט`
-- `כ״ט`
-- `כה׳`
-- `ל׳`
-- `ל״א`
-- `ל"ב`
-- `ל״ב`
-- `ל"ג`
-- `ל״ג`
-- `ל״גכ׳`
-- `ל״ד`
-- `ל"ה`
-- `ל״ה`
-- `ל״ז`
-- `ל"ט`
-- `ל״ט`
-- `לה׳`
-- `לעוה"ב`
-- `מ׳`
-- `מ״ב`
-- `מ"ה`
-- `מ״ה`
-- `מ״ז`
-- `מ״ט`
-- `מבי"ט`
-- `מה׳`
-- `מהר"ל`
-- `מהר"ם`
-- `מהרי"ל`
-- `מהרי"ץ`
-- `מהרש"א`
-- `מלבי"ם`
-- `מקדשכם`
-- `משה״`
-- `נ׳`
-- `נ״א`
-- `נ״ג`
-- `נ״ד`
-- `נ״ה`
-- `נ״ו`
-- `נ״ז`
-- `נ"ח`
-- `נ״ט`
-- `נ״י`
-- `ס׳`
-- `ס״א`
-- `ס״ג`
-- `ס״ד`
-- `ס״ה`
-- `סמ״ק`
-- `ע״`
-- `ע״א`
-- `ע"ב`
-- `ע״ב`
-- `ע"ד`
-- `ע"ה`
-- `ע״ה`
-- `ע"ז`
-- `ע״ש`
-- `עוה"ב`
-- `עז"נ`
-- `עכ"ד`
-- `פ׳`
-- `פ"ב`
-- `פ״ו`
-- `פ״ח`
-- `פלא׳דיגע`
-- `צ׳`
-- `צ״ב`
-- `צה"ל`
-- `ק׳`
-- `ק״ב`
-- `ק״ה`
-- `ק"ל`
-- `קט"ו`
-- `קי״א`
-- `קי״ב`
-- `קכ"א`
-- `קל״ב`
-- `קל"ט`
-- `קמ״ה`
-- `ר׳`
+- `הש״ס`
+- `השי״ת`
+- `התורה הזאת באר היטב`
+- `והקב״ה`
+- `וי״ג`
+- `ויקרא את שם המקום ההוא בית`
+- `וע״כ`
+- `ועז״נ`
+- `ושס״ה`
+- `ז״ל`
+- `חב״ד`
+- `חורבן בית`
+- `חיד״א`
+- `חידושי אגדות`
+- `חידושי הלכות`
+- `חידושי הרי״ם`
+- `חידושי תורה`
+- `חיים מאיר`
+- `חיים שיש בהם`
+- `חמישה חומשי תורה`
+- `חמשה חומשי תורה`
+- `חנוכת התורה החדש`
+- `חפץ חיים`
+- `חת״ם`
+- `חתן תורה`
+- `ייד הקדוש`
+- `ייד הקדוש מפשיסחא`
+- `יעב״ץ`
+- `כוונה שכיוונו בהם הקדמונים`
+- `כוונה שכיוונו בהם כל הקדמונים`
+- `כלי חפץ`
+- `כלי יקר`
+- `כלי שלישי`
+- `לא מצא הקדוש ברוך הוא כלי`
+- `לעוה״ב`
+- `מבי״ט`
+- `מהר״ל`
+- `מהר״ם`
+- `מהרי״ל`
+- `מהרי״ץ`
+- `מהרש״א`
+- `מורשת שמחת התורה`
+- `מלבי״ם`
+- `מלך מלכי המלכים הקדוש ברוך הוא`
+- `מנחת אלעזר`
+- `מנחת זכאי`
+- `מנחת חוטא`
+- `מנחת חן`
+- `מעינה של התורה`
+- `מעינה של תורה`
+- `משך חכמה`
+- `נ״ח`
+- `ספרי תורה`
+- `ע״ד`
+- `ע״ז`
+- `עוה״ב`
+- `עוצר פלאות התורה`
+- `עז״נ`
+- `עיטורי תורה`
+- `עכ״ד`
+- `עמוד התורה`
+- `ערוך השולחן`
+- `פ״ב`
+- `פנינים משלחן גבוה`
+- `פרי עץ חיים`
+- `צה״ל`
+- `ק״ל`
+- `קול התורה`
+- `קול יעקב`
+- `קול קול יעקב`
+- `קול רם`
+- `קול רנה וישועה באהלי צדיקים`
+- `קול שמחת תורה`
+- `קט״ו`
+- `קיצור שולחן ערוך`
+- `קכ״א`
+- `קל״ט`
 - `ר׳ אלכסנדר זושא פרידמן`
-- `ר׳ ברוך`
-- `ר׳ זאב קלאגסבאלד`
-- `ר׳ חיים`
 - `ר׳ חיים שמולביץ`
 - `ר׳ ישראל סלנטר`
 - `ר׳ לוי יצחק`
 - `ר׳ שמעון בר יוחי`
-- `רא"ש`
-- `ראב"ד`
-- `רב אבינא`
+- `רא״ש`
+- `ראב״ד`
 - `רב אהרן לייב שטיינמן`
-- `רב אחר אשר חשב עצמו כחכם`
-- `רב בונם`
-- `רב ברוך`
-- `רב גדליה`
-- `רב גדליה שור זצ`
-- `רב דוד אלעווסקי שליט`
-- `רב חיים`
-- `רב חיים בריסקר`
+- `רב גדליה שור זצ״ל`
+- `רב דוד אלעווסקי שליט״א`
 - `רב חיים קניבסקי`
-- `רב חמא בר גוריא אמר רב`
-- `רב יהודה הנשיא`
-- `רב יוחנן`
-- `רב יוחנן בן זכאי`
-- `רב יום כיפור`
-- `רב יונתן`
-- `רב יונתן אייבשיץ`
-- `רב יוסף חיים`
-- `רב יחיאל ממוגלינצה`
 - `רב לוי יצחק`
-- `רב מאיר`
-- `רב מאיר חדש`
-- `רב משה`
-- `רב נחום`
 - `רב נחום דוד הרמן`
 - `רב נחמן`
-- `רב צבי בן אלכסנדר הכהן הי״ד`
 - `רב קהתי`
-- `רב ראש השנה`
-- `רב ראש השנה סליחות`
-- `רב שבת`
 - `רב שטיינמן`
 - `רב שלמה גאנצפריד`
 - `רב שמעון בר יוחאי`
-- `רב שמעון סופר`
-- `רבי אליעזר`
-- `רבי וייס`
-- `רבי חנינא`
-- `רבי חנינא בן דוסא`
-- `רבי חנינא בן תרדיון`
-- `רבי יהודה`
-- `רבי יהודה הנשיא`
 - `רבי יהונתן אייבשיץ`
-- `רבי יהושע בן קפצאי`
-- `רבי יהושע בן קרחה`
-- `רבי יצחק זרחיה אזולאי`
-- `רבי יצחק טוביה וייס`
-- `רבי ישמעאל שלשה דברים היו קשין`
-- `רבי ישראל מרוז`
 - `רבי לוי יצחק`
-- `רבי עקיבא`
-- `רבי עקיבא אייגר`
 - `רבי שמעון בר יוחאי`
-- `רבש"ע`
-- `רזייא׳`
-- `רידב"ז`
+- `רבש״ע`
+- `רידב״ז`
 - `ריטב״א`
-- `רל"ג`
+- `רל״ג`
 - `רמ״א`
-- `רמ"ח`
-- `רמ״ע`
-- `רמב"ם`
+- `רמ״ח`
 - `רמב״ם`
-- `רמב"ן`
-- `רמח"ל`
-- `רש"י`
+- `רמב״ן`
+- `רמח״ל`
 - `רש״י`
-- `רש"ש`
-- `רשב"א`
-- `ש׳`
-- `ש"ך`
-- `ש"ס`
-- `ש״ס`
-- `שא"א`
-- `שהקב"ה`
-- `שו"ע`
-- `שו"ת`
-- `שליט"א`
-- `שע"י`
-- `שת"א`
-- `ת׳`
-- `ת"ר`
-- `ת"ת`
-- `תנ"ך`
-- `תנ״ך`
-- `תרי"ג`
-- `תרי״ג`
-- `תשב"ר`
-- `תשע"ח`
-- `תשפ״ב`
-- `תשפ"ה`
+- `רש״ש`
+- `רשב״א`
+- `ש״ך`
+- `ש״ך על התורה`
+- `שא״א`
+- `שהקב״ה`
+- `שו״ע`
+- `שו״ת`
+- `שולחן ערוך`
+- `שומרי תורה ומצוות`
+- `שלחן ערוך`
+- `שליט״א`
+- `שם הוי״ה`
+- `שם השם`
+- `שם השם שגור בפינו`
+- `שם ל״ד`
+- `שם משמואל`
+- `שם שמים`
+- `שמחת התורה`
+- `שמחת פורים`
+- `שמחת תורה`
+- `שמחת תורה הקפות`
+- `שע״י`
+- `שערי יסודות`
+- `שערי שמים`
+- `שערי תשובה`
+- `שפת אמת`
+- `שת״א`
+- `ת״ר`
+- `ת״ת`
+- `תורה בהיכל`
+- `תורה בכלל`
+- `תורה בעמקות`
+- `תורה בשלמותה`
+- `תורה בתפארתה`
+- `תורה הקדושה`
+- `תורה ודעת`
+- `תורה ויראה`
+- `תורה ויראת שמים`
+- `תורה ומצוות`
+- `תורה לדעת`
+- `תורה על רגל אחת`
+- `תורה פסול`
+- `תורה שבכתב`
+- `תורה שבעל פה`
+- `תינוקות של בית רבן`
+- `תפוחי חיים`
+- `תשב״ר`
+- `תשע״ח`
+- `תשפ״ה`

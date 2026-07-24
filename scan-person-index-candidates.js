@@ -23,6 +23,124 @@ const HEBREW_TITLE_RE = new RegExp(
   `(?:רב|רבי|ר'|ר׳|מרן|הגאון|הרה"ק|הרה״ק|החפץ חיים|הגר"א|הגר״א)\\s+${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN}){0,4}`,
   "gu"
 );
+const HEBREW_PHRASE_RE = new RegExp(
+  `${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN}){1,5}`,
+  "gu"
+);
+const HEBREW_SEFER_CONTEXT_RE = new RegExp(
+  String.raw`(?:\b(?:sefer|book|called|named|quotes?|cites?|from|in|according to|brings(?:\s+down)?)\b(?:\s+the)?|(?:The|the)\s+|ספר\s+)(${HEBREW_TOKEN}(?:\s+${HEBREW_TOKEN}){1,5})`,
+  "gu"
+);
+const ENGLISH_SEFER_CONTEXT_RE = new RegExp(
+  String.raw`\b(?:sefer|book|called|named)\s+([A-Za-z][A-Za-z'’.-]+(?:\s+[A-Za-z][A-Za-z'’.-]+){1,5})`,
+  "gu"
+);
+const HEBREW_SEFER_TITLE_STARTS = new Set([
+  "אהבת",
+  "אוצר",
+  "אור",
+  "אורות",
+  "אזנים",
+  "אוזנים",
+  "באר",
+  "בית",
+  "דעת",
+  "דברי",
+  "חיים",
+  "חידושי",
+  "כלי",
+  "משך",
+  "מנחת",
+  "מעינה",
+  "נתיבות",
+  "ספר",
+  "פלאות",
+  "פנינים",
+  "קול",
+  "שערי",
+  "שפת",
+  "שם",
+  "שמחת",
+  "תורה",
+]);
+const HEBREW_SEFER_TITLE_HINTS = new Set([
+  ...HEBREW_SEFER_TITLE_STARTS,
+  "בהם",
+  "גבוה",
+  "הבהיר",
+  "הלוי",
+  "הקדוש",
+  "התורה",
+  "זוהר",
+  "חן",
+  "לתורה",
+  "משלחן",
+  "משמואל",
+  "עינים",
+  "ערוך",
+]);
+const COMMON_HEBREW_SEFER_FALSE_POSITIVES = new Set([
+  "אהבה הקדוש ברוך הוא",
+  "אהבת ה׳",
+  "אהבת חינם",
+  "אהבת ישראל",
+  "אוצר חביב",
+  "אור אייניקלעך",
+  "אור הגנוז",
+  "אור כשדים",
+  "אור כשדים מדרש",
+  "אור לגוים",
+  "אור שהיה בעת יציאת מצרים",
+  "אלף בית",
+  "בית אביך",
+  "בית גנוזה",
+  "בית גנזיו",
+  "בית דין",
+  "בית דין של מעלה",
+  "בית החיים",
+  "בית הכנסת",
+  "בית המקדש",
+  "בית המקדש במהרה בימינו אמן",
+  "בית המקדש של מטה",
+  "בית המקדש של מעלה",
+  "בית הסהר מקום אשר אסירי המלך",
+  "בית הסורים",
+  "בית השלישי",
+  "בית מדרש",
+  "בית מדרש טוב",
+  "בית מקדש של מעלה",
+  "בית נאמן בישראל",
+  "בית ראשון",
+  "בית שמש",
+  "בית שני",
+  "בנין בית המקדש",
+  "בת קול",
+  "דברי חז״ל",
+  "דברי מוסר",
+  "דברי תורה",
+  "דברים משנה תורה",
+  "דעת ה׳",
+  "דעת יחיד",
+  "דעת רבים",
+  "הקדוש ברוך הוא",
+]);
+const ENGLISH_SEFER_STOP_WORDS = new Set([
+  "a",
+  "an",
+  "and",
+  "as",
+  "by",
+  "for",
+  "from",
+  "in",
+  "of",
+  "on",
+  "that",
+  "the",
+  "this",
+  "to",
+  "with",
+]);
 const ENGLISH_WORD = String.raw`\p{Lu}[\p{L}]+(?:['’][\p{L}]+)?`;
 const ENGLISH_INITIAL = String.raw`\p{Lu}\.?`;
 const ENGLISH_NAME_PART = `(?:${ENGLISH_WORD}|${ENGLISH_INITIAL})`;
@@ -179,6 +297,13 @@ function normalizeCandidate(value) {
     .trim();
 }
 
+function normalizeSeferCandidate(value) {
+  return normalizeCandidate(value)
+    .replace(/^(?:ספר|the sefer|sefer)\s+/i, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function candidateKey(value) {
   return normalizeCandidate(value).toLowerCase();
 }
@@ -208,7 +333,9 @@ function isWeakEnglishCandidate(value, source) {
 }
 
 function addCandidate(candidates, rawValue, source, filePath, text, index) {
-  const value = normalizeCandidate(rawValue);
+  const value = source.includes("sefer")
+    ? normalizeSeferCandidate(rawValue)
+    : normalizeCandidate(rawValue);
   if (!value || isWeakEnglishCandidate(value, source)) {
     return;
   }
@@ -244,6 +371,46 @@ function addCandidate(candidates, rawValue, source, filePath, text, index) {
   }
 }
 
+function hebrewTokens(value) {
+  return normalizeCandidate(value).split(/\s+/).filter(Boolean);
+}
+
+function isLikelyHebrewSeferTitle(value, contextDriven = false) {
+  const normalized = normalizeSeferCandidate(value);
+  if (COMMON_HEBREW_SEFER_FALSE_POSITIVES.has(normalized)) {
+    return false;
+  }
+
+  const tokens = hebrewTokens(normalized);
+  if (tokens.length < 2 || tokens.length > 6) {
+    return false;
+  }
+
+  if (tokens[0] === "ספר") {
+    tokens.shift();
+  }
+
+  if (tokens.length < 2) {
+    return false;
+  }
+
+  if (HEBREW_SEFER_TITLE_STARTS.has(tokens[0])) {
+    return true;
+  }
+
+  const hintCount = tokens.filter((token) => HEBREW_SEFER_TITLE_HINTS.has(token)).length;
+  return contextDriven ? hintCount >= 1 : hintCount >= 2;
+}
+
+function isLikelyEnglishSeferTitle(value) {
+  const words = normalizeCandidate(value).split(/\s+/);
+  if (words.length < 2) {
+    return false;
+  }
+
+  return words.some((word) => !ENGLISH_SEFER_STOP_WORDS.has(word.toLowerCase()));
+}
+
 function collectCandidatesFromText(candidates, text, filePath) {
   for (const match of text.matchAll(HONORIFIC_RE)) {
     addCandidate(candidates, match[0], "english-honorific", filePath, text, match.index);
@@ -259,6 +426,24 @@ function collectCandidatesFromText(candidates, text, filePath) {
 
   for (const match of text.matchAll(HEBREW_TITLE_RE)) {
     addCandidate(candidates, match[0], "hebrew-title", filePath, text, match.index);
+  }
+
+  for (const match of text.matchAll(HEBREW_SEFER_CONTEXT_RE)) {
+    if (isLikelyHebrewSeferTitle(match[1], true)) {
+      addCandidate(candidates, match[1], "hebrew-sefer-title", filePath, text, match.index);
+    }
+  }
+
+  for (const match of text.matchAll(HEBREW_PHRASE_RE)) {
+    if (isLikelyHebrewSeferTitle(match[0], false)) {
+      addCandidate(candidates, match[0], "hebrew-sefer-title", filePath, text, match.index);
+    }
+  }
+
+  for (const match of text.matchAll(ENGLISH_SEFER_CONTEXT_RE)) {
+    if (isLikelyEnglishSeferTitle(match[1])) {
+      addCandidate(candidates, match[1], "english-sefer-title", filePath, text, match.index);
+    }
   }
 }
 

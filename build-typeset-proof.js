@@ -541,21 +541,26 @@ function renderPersonIndex(indexState) {
 
 #let index-pages(labels) = context {
   let pages = ()
+  let items = ()
   for marker in labels {
     let page = counter(page).at(marker).first()
     if not pages.contains(page) {
       pages.push(page)
+      items.push(link(marker)[#page])
     }
   }
-  pages.map(str).join(", ")
+
+  items.join[, ]
 }
 
 #let index-row(name, labels) = block(below: 2pt)[
   #grid(
-    columns: (1fr, auto),
-    gutter: 0.14in,
+    columns: (auto, 1fr, 2.15in),
+    gutter: 0.04in,
+    align: top,
     [#name],
-    [#index-pages(labels)],
+    text(fill: rgb("#777777"))[#repeat[.]],
+    box(width: 2.15in)[#index-pages(labels)],
   )
 ]
 `,
