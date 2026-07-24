@@ -51,6 +51,10 @@ const HEBREW_TRAILING_ACRONYM_PHRASE_RE = new RegExp(
   `${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN}){1,3}\\s+${HEBREW_STRONG_ACRONYM}`,
   "gu"
 );
+const HEBREW_COMMA_PHRASE_SEQUENCE_RE = new RegExp(
+  `${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN})*(?:,\\s*${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN})*){1,8}`,
+  "gu"
+);
 const HEBREW_ACRONYM_RE = new RegExp(
   `${HEBREW_STRONG_ACRONYM}(?:\\s+${HEBREW_STRONG_ACRONYM})*`,
   "gu"
@@ -504,7 +508,11 @@ function isolateHebrewRuns(typstContent) {
     return protect(`${LTR_ISOLATE}${match}${POP_DIRECTIONAL_ISOLATE}`);
   });
 
-  const acronymContextSafeContent = trailingAcronymPhraseSafeContent.replace(HEBREW_ACRONYM_CONTEXT_RE, (match) => {
+  const hebrewCommaPhraseSafeContent = trailingAcronymPhraseSafeContent.replace(HEBREW_COMMA_PHRASE_SEQUENCE_RE, (match) => {
+    return protect(`${RTL_ISOLATE}${match}${POP_DIRECTIONAL_ISOLATE}`);
+  });
+
+  const acronymContextSafeContent = hebrewCommaPhraseSafeContent.replace(HEBREW_ACRONYM_CONTEXT_RE, (match) => {
     return protect(`${LTR_ISOLATE}${match}${POP_DIRECTIONAL_ISOLATE}`);
   });
 

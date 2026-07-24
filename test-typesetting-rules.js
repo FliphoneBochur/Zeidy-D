@@ -189,7 +189,7 @@ test("moves extracted leading comma to the end of the Hebrew phrase", () => {
 test("collapses duplicate commas between Hebrew list items", () => {
   assert.equal(
     applyTextRules("when he grows in מצות, ,מעשים טובים and תורה, he"),
-    `when he grows in ${RTL_ISOLATE}מצות${POP_DIRECTIONAL_ISOLATE}, ${RTL_ISOLATE}מעשים טובים${POP_DIRECTIONAL_ISOLATE} and ${RTL_ISOLATE}תורה${POP_DIRECTIONAL_ISOLATE}, he`
+    `when he grows in ${RTL_ISOLATE}מצות, מעשים טובים${POP_DIRECTIONAL_ISOLATE} and ${RTL_ISOLATE}תורה${POP_DIRECTIONAL_ISOLATE}, he`
   );
 });
 
@@ -211,6 +211,13 @@ test("keeps shorthand acronym phrase in logical order", () => {
   assert.equal(
     applyTextRules('part of שובבים ת\\"ת, which includes'),
     `part of ${LTR_ISOLATE}שובבים ת\\"ת${POP_DIRECTIONAL_ISOLATE}, which includes`
+  );
+});
+
+test("keeps comma-separated Hebrew bracha phrase in one reading order", () => {
+  assert.equal(
+    applyTextRules("all following בדרך השם,בנים ובני בנים עוסקים בתורה ובמצוות, להגדיל תורה ולהאדירה, עד עולם!"),
+    `all following ${RTL_ISOLATE}בדרך השם, בנים ובני בנים עוסקים בתורה ובמצוות, להגדיל תורה ולהאדירה, עד עולם${POP_DIRECTIONAL_ISOLATE}!`
   );
 });
 
