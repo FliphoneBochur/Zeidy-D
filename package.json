@@ -6,9 +6,12 @@
     "build-typeset-proof": "node build-typeset-proof.js",
     "choose-route-titles": "node choose-route-titles.js",
     "editorial-scan": "node editorial-scan.js",
+    "export-person-index-people": "node export-person-index-people.js",
     "fix-docx-spacing": "node fix-docx-spacing.js",
     "generate-qr-codes": "node generate-qr-codes.js",
     "review-spelling": "node review-spelling-candidates.js",
+    "review-person-index-candidates": "node review-person-index-candidates.js",
+    "scan-person-index-candidates": "node scan-person-index-candidates.js",
     "replace-docx-text": "node replace-docx-text.js",
     "scan-bidi-risks": "node scan-bidi-risks.js",
     "test-typesetting-rules": "node test-typesetting-rules.js"

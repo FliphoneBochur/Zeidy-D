@@ -14,11 +14,13 @@ const TEXT_NODE_RE = /<w:t\b([^>]*)>([\s\S]*?)<\/w:t>/g;
 const PARAGRAPH_RE = /<w:p\b[\s\S]*?<\/w:p>/g;
 const ADJACENT_SCRIPT_RE =
   /([A-Za-z])([\u0590-\u05FF])|([\u0590-\u05FF])([A-Za-z])/gu;
+const HEBREW_DOUBLE_QUOTE_RE = /([\u0590-\u05FF])"([\u0590-\u05FF])/gu;
 
 function usage() {
   console.log(`Usage: node fix-docx-spacing.js [--apply] [--root <dir>] [--file <docx>]
 
-Finds adjacent Hebrew/English text in .docx files, such as "forמעשים".
+Finds small text cleanup issues in .docx files, such as "forמעשים" and
+Hebrew acronyms typed with straight double quotes.
 
 Options:
   --apply       Rewrite affected .docx files. Default is dry run.
@@ -143,6 +145,16 @@ function findIssuesInParagraph(paragraph, paragraphNumber) {
   for (const match of text.matchAll(ADJACENT_SCRIPT_RE)) {
     issues.push({
       paragraphNumber,
+      type: "missing-space",
+      pair: match[0],
+      context: contextFor(text, match.index),
+    });
+  }
+
+  for (const match of text.matchAll(HEBREW_DOUBLE_QUOTE_RE)) {
+    issues.push({
+      paragraphNumber,
+      type: "hebrew-quote",
       pair: match[0],
       context: contextFor(text, match.index),
     });
@@ -152,13 +164,15 @@ function findIssuesInParagraph(paragraph, paragraphNumber) {
 }
 
 function fixInsideTextNode(value) {
-  return value.replace(ADJACENT_SCRIPT_RE, (_match, latinA, hebrewA, hebrewB, latinB) => {
-    if (latinA && hebrewA) {
-      return `${latinA} ${hebrewA}`;
-    }
+  return value
+    .replace(ADJACENT_SCRIPT_RE, (_match, latinA, hebrewA, hebrewB, latinB) => {
+      if (latinA && hebrewA) {
+        return `${latinA} ${hebrewA}`;
+      }
 
-    return `${hebrewB} ${latinB}`;
-  });
+      return `${hebrewB} ${latinB}`;
+    })
+    .replace(HEBREW_DOUBLE_QUOTE_RE, "$1״$2");
 }
 
 function isLatin(value) {
@@ -184,6 +198,37 @@ function needsBoundarySpace(left, right) {
   return (isLatin(a) && isHebrew(b)) || (isHebrew(a) && isLatin(b));
 }
 
+function replaceHebrewQuotesAcrossTextNodes(textNodes) {
+  const positions = [];
+  const chars = [];
+
+  textNodes.forEach((node, nodeIndex) => {
+    Array.from(node.text).forEach((char, charIndex) => {
+      chars.push(char);
+      positions.push({ nodeIndex, charIndex });
+    });
+  });
+
+  const replacements = new Map();
+
+  for (let i = 1; i < chars.length - 1; i += 1) {
+    if (chars[i] === '"' && isHebrew(chars[i - 1]) && isHebrew(chars[i + 1])) {
+      const position = positions[i];
+      replacements.set(`${position.nodeIndex}:${position.charIndex}`, "״");
+    }
+  }
+
+  if (replacements.size === 0) {
+    return;
+  }
+
+  textNodes.forEach((node, nodeIndex) => {
+    node.text = Array.from(node.text)
+      .map((char, charIndex) => replacements.get(`${nodeIndex}:${charIndex}`) || char)
+      .join("");
+  });
+}
+
 function fixParagraph(paragraph) {
   const textNodes = [];
 
@@ -201,6 +246,8 @@ function fixParagraph(paragraph) {
       textNodes[i].text += " ";
     }
   }
+
+  replaceHebrewQuotesAcrossTextNodes(textNodes);
 
   let nodeIndex = 0;
   return paragraph.replace(TEXT_NODE_RE, () => {
@@ -282,7 +329,7 @@ async function main() {
     console.log(`\n${path.relative(ROOT_DIR, docxPath)} (${issues.length})`);
     for (const issue of issues) {
       console.log(
-        `  paragraph ${issue.paragraphNumber}: ${issue.pair} -> ${issue.context}`
+        `  paragraph ${issue.paragraphNumber} [${issue.type}]: ${issue.pair} -> ${issue.context}`
       );
     }
 
@@ -299,7 +346,7 @@ async function main() {
   if (options.apply) {
     console.log(`Changed ${changedFiles} file${changedFiles === 1 ? "" : "s"}.`);
   } else if (totalIssues > 0) {
-    console.log("Run with --apply to insert the missing spaces.");
+    console.log("Run with --apply to make these cleanup edits.");
   }
 }
 
