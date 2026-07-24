@@ -127,4 +127,4 @@ English hyphenation is disabled globally in the Typst template. Paragraphs still
 
 Paragraph first-line indentation is disabled globally in the Typst template.
 
-Full-book builds insert a Typst-generated table of contents after the front matter and before the first regular article. Front matter headings are marked `outlined: false`, so the table of contents starts with the main book entries.
+Full-book builds insert a Typst-generated table of contents after the front matter and before the first regular article. Front matter headings are marked `outlined: false`, so the table of contents starts with the main book entries. Front matter and table-of-contents pages do not show page numbers; the page counter restarts at `1` for the first regular article. The Haskama still keeps its QR/link footer, but without a visible page number.

@@ -23,10 +23,14 @@
   leading: 0.6em,
 )
 
-#let article-footer(url, qr) = context {
-  let number = text(size: 7.2pt, fill: rgb("#444444"))[
-    #counter(page).display()
-  ]
+#let article-footer(url, qr, show-number: true) = context {
+  let number = if show-number {
+    text(size: 7.2pt, fill: rgb("#444444"))[
+      #counter(page).display()
+    ]
+  } else {
+    []
+  }
   let link-text = text(size: 7.2pt, fill: rgb("#222222"))[
     #link(url)[#url]
   ]
@@ -79,7 +83,7 @@
   it
 }
 
-#set page(footer: article-footer("https://zeidyd.com/rabbi-oelbaum-haskama/", "../Files/07 - Misc/Rabbi Oelbaum Haskama/Rabbi Oelbaum Haskama.png"))
+#set page(footer: article-footer("https://zeidyd.com/rabbi-oelbaum-haskama/", "../Files/07 - Misc/Rabbi Oelbaum Haskama/Rabbi Oelbaum Haskama.png", show-number: false))
 #heading(level: 1, outlined: false)[Rabbi Oelbaum Haskama]
 
 ⁧ר' יששכר בנימין⁩, I'm here with your ⁧אייניקל⁩ Ari, who is being ⁧מקיים
@@ -177,8 +181,9 @@ of ⁧הַדֹּבֵר⁩ is the same as ⁧ארי⁩.
   target: heading.where(level: 1),
 )
 #pagebreak()
+#counter(page).update(1)
 
-#set page(footer: article-footer("https://zeidyd.com/bereshis/5784/", "../Files/01 - Bereshis/01 - Bereshis/5784/Bereshis 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/bereshis/5784/", "../Files/01 - Bereshis/01 - Bereshis/5784/Bereshis 5784.png", show-number: true))
 = Bereshis 5784
 
 ⁧וַיְבָרֶךְ אֱלֹקִים אֶת יוֹם הַשְּׁבִיעִי וַיְקַדֵּשׁ אֹתוֹ כִּי בוֹ שָׁבַת מִכׇּל מְלַאכְתּוֹ אֲשֶׁר בָּרָא אֱלֹקִים
@@ -229,7 +234,7 @@ emphasize.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/bereshis/5785/", "../Files/01 - Bereshis/01 - Bereshis/5785/Bereshis 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/bereshis/5785/", "../Files/01 - Bereshis/01 - Bereshis/5785/Bereshis 5785.png", show-number: true))
 = Bereshis 5785
 
 ⁧פרשת בראשית⁩. Everybody's favorite ⁧פרשה⁩. We love ⁧פרשת בראשית⁩\.I had the
@@ -270,7 +275,7 @@ us.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/bereshis/5786/(1)/", "../Files/01 - Bereshis/01 - Bereshis/5786/Bereshis (1)/Bereshis 5786 (1).png"))
+#set page(footer: article-footer("https://zeidyd.com/bereshis/5786/(1)/", "../Files/01 - Bereshis/01 - Bereshis/5786/Bereshis (1)/Bereshis 5786 (1).png", show-number: true))
 = Bereshis 5786 (1)
 
 ⁧פרשת בראשית⁩, a new cycle for the year. The holy Yid of P'shischa was
@@ -352,7 +357,7 @@ task, but it's doable only because the Torah says so.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/bereshis/5786/(2)/", "../Files/01 - Bereshis/01 - Bereshis/5786/Bereshis (2)/Bereshis 5786 (2).png"))
+#set page(footer: article-footer("https://zeidyd.com/bereshis/5786/(2)/", "../Files/01 - Bereshis/01 - Bereshis/5786/Bereshis (2)/Bereshis 5786 (2).png", show-number: true))
 = Bereshis 5786 (2)
 
 In ⁧פרשת בראשית⁩, we have the pasuk (2:24) ⁧עַל כֵּן יַעֲזׇב אִישׁ אֶת אָבִיו וְאֶת אִמֹּו
@@ -450,7 +455,7 @@ prize."
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/noach/5784/(1)/", "../Files/01 - Bereshis/02 - Noach/5784/Noach 5784 (1)/Noach 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/noach/5784/(1)/", "../Files/01 - Bereshis/02 - Noach/5784/Noach 5784 (1)/Noach 5784.png", show-number: true))
 = Noach 5784
 
 Parshas Noach. All the ⁧בעלי מדרש⁩ have said numerous times that
@@ -506,7 +511,7 @@ We're not ⁧בני נח⁩, we're ⁧בני אברהם⁩, ⁧יצחק ויעק
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/noach/5784/(2)/", "../Files/01 - Bereshis/02 - Noach/5784/Noach 5784 (2)/Noach 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/noach/5784/(2)/", "../Files/01 - Bereshis/02 - Noach/5784/Noach 5784 (2)/Noach 5784.png", show-number: true))
 = Noach 5784
 
 In ⁧פרשת נח⁩, after the extraordinary ⁧מסירות נפש⁩ of serving everyone in
@@ -537,7 +542,7 @@ it. That's the way to do a ⁧מצוה⁩.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/noach/5785/", "../Files/01 - Bereshis/02 - Noach/5785/Noach 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/noach/5785/", "../Files/01 - Bereshis/02 - Noach/5785/Noach 5785.png", show-number: true))
 = Noach 5785
 
 My grandfather, ⁧עליו השלום⁩, ⁧השם ינקום דמו⁩, was a Belzer ⁧חסיד⁩. He was
@@ -598,7 +603,7 @@ does that word mean?" So, we have to work on that. And in the ⁧זכות⁩ of
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/noach/5786/", "../Files/01 - Bereshis/02 - Noach/5786/Noach 5786.png"))
+#set page(footer: article-footer("https://zeidyd.com/noach/5786/", "../Files/01 - Bereshis/02 - Noach/5786/Noach 5786.png", show-number: true))
 = Noach 5786
 
 ⁧פרשת נח⁩ starts with a fundamental and fascinating question which
@@ -644,7 +649,7 @@ ultimate purpose and achievement."
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/lech-lecha/5784/", "../Files/01 - Bereshis/03 - Lech Lecha/5784/Lech Lecha 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/lech-lecha/5784/", "../Files/01 - Bereshis/03 - Lech Lecha/5784/Lech Lecha 5784.png", show-number: true))
 = Lech Lecha 5784
 
 In the second pasuk of the ⁧פרשה⁩, it says ⁧וְאֶעֶשְׂךָ לְגוֹי גָּדוֹל וַאֲבָרֶכְךָ וַאֲגַדְּלָה
@@ -713,7 +718,7 @@ we succeed not by our own might, but by the help of Hashem's hand, with
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/lech-lecha/5785/", "../Files/01 - Bereshis/03 - Lech Lecha/5785/Lech Lecha 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/lech-lecha/5785/", "../Files/01 - Bereshis/03 - Lech Lecha/5785/Lech Lecha 5785.png", show-number: true))
 = Lech Lecha 5785
 
 This ⁧דבר תורה⁩ is dedicated in honor of our ⁧אייניקל⁩ Tzvi Asher Bennett, whose birthday is on ⁧פרשת לך לך⁩. Around the time he was born, he had a
@@ -793,7 +798,7 @@ always shown self-sacrifice. May we soon witness ⁧גאולה⁩ and the coming
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/lech-lecha/5786/(1)/", "../Files/01 - Bereshis/03 - Lech Lecha/5786/ Lech Lecha (1)/Lech Lecha 5786 (1).png"))
+#set page(footer: article-footer("https://zeidyd.com/lech-lecha/5786/(1)/", "../Files/01 - Bereshis/03 - Lech Lecha/5786/ Lech Lecha (1)/Lech Lecha 5786 (1).png", show-number: true))
 = Lech Lecha 5786 (1)
 
 ⁧פרשת לך לך⁩. Hashem instructs Avram (12:1) ⁧לֶךְ לְךָ מֵאַרְצְךָ וּמִמּוֹלַדְתְּךָ וּמִבֵּית
@@ -860,7 +865,7 @@ level of ⁧אברהם אבינו⁩ and to be better people and to serve ⁧ה�
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/lech-lecha/5786/(2)/", "../Files/01 - Bereshis/03 - Lech Lecha/5786/ Lech Lecha (2)/Lech Lecha 5786 (2).png"))
+#set page(footer: article-footer("https://zeidyd.com/lech-lecha/5786/(2)/", "../Files/01 - Bereshis/03 - Lech Lecha/5786/ Lech Lecha (2)/Lech Lecha 5786 (2).png", show-number: true))
 = Lech Lecha 5786 (2)
 
 ⁧לך לך⁩. I heard this vort from my ⁧טייערע⁩ son-in-law Dovid Tribuch, who
@@ -921,7 +926,7 @@ majesty, which is also what our focus should be.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/vayairah/5784/", "../Files/01 - Bereshis/04 - Vayairah/5784/Vayairah 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/vayairah/5784/", "../Files/01 - Bereshis/04 - Vayairah/5784/Vayairah 5784.png", show-number: true))
 = Vayairah 5784
 
 After ⁧אברהם אבינו⁩ prepares to perform the ⁧עקדה⁩, placing ⁧יצחק אבינו⁩ on
@@ -974,7 +979,7 @@ that way, they will be of the highest quality. In the ⁧זכות⁩ of those
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/vayairah/5785/", "../Files/01 - Bereshis/04 - Vayairah/5785/Vayairah 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/vayairah/5785/", "../Files/01 - Bereshis/04 - Vayairah/5785/Vayairah 5785.png", show-number: true))
 = Vayairah 5785
 
 ⁧פרשת וירא⁩ contains within it the momentous episode of the ⁧עקדה⁩. Each and
@@ -1030,7 +1035,7 @@ it.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/vayairah/5786/(1)/", "../Files/01 - Bereshis/04 - Vayairah/5786/Vayairah (1)/Vayairah 5786 (1).png"))
+#set page(footer: article-footer("https://zeidyd.com/vayairah/5786/(1)/", "../Files/01 - Bereshis/04 - Vayairah/5786/Vayairah (1)/Vayairah 5786 (1).png", show-number: true))
 = Vayairah 5786 (1)
 
 ⁧פרשת וירא⁩. If we look at the ⁧פרשה⁩ in the context of the parshiyos that
@@ -1106,7 +1111,7 @@ have a ⁧רפואה שלמה⁩. All the ⁧חולים⁩ in ⁧כלל ישרא
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/vayairah/5786/(2)/", "../Files/01 - Bereshis/04 - Vayairah/5786/Vayairah (2)/Vayairah 5786 (2).png"))
+#set page(footer: article-footer("https://zeidyd.com/vayairah/5786/(2)/", "../Files/01 - Bereshis/04 - Vayairah/5786/Vayairah (2)/Vayairah 5786 (2).png", show-number: true))
 = Vayairah 5786 (2)
 
 I was looking at the end of ⁧וַיֵּרָא⁩ for a vort on the ⁧עקדה⁩ because it's the
@@ -1144,7 +1149,7 @@ got up and he said, "I now know that there is such a concept as ⁦תחית
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/chayai-sara/5784/", "../Files/01 - Bereshis/05 - Chayai Sara/5784/Chayai Sara 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/chayai-sara/5784/", "../Files/01 - Bereshis/05 - Chayai Sara/5784/Chayai Sara 5784.png", show-number: true))
 = Chayai Sara 5784
 
 ⁧חיי שרה פרשת⁩ begins with the passing of our beloved mother, ⁧שרה אמנו⁩: ⁧וַתָּמׇת שָׂרָה בְּקִרְיַת אַרְבַּע הִוא חֶבְרוֹן בְּאֶרֶץ כְּנָעַן וַיָּבֹא אַבְרָהָם לִסְפֹּד לְשָׂרָה וְלִבְכֹּתָהּ⁩.
@@ -1211,7 +1216,7 @@ others; we all have room to improve in our mitzvos.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/chayai-sara/5785/", "../Files/01 - Bereshis/05 - Chayai Sara/5785/Chayai Sara 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/chayai-sara/5785/", "../Files/01 - Bereshis/05 - Chayai Sara/5785/Chayai Sara 5785.png", show-number: true))
 = Chayai Sara 5785
 
 The story of the ⁧שידוך⁩ of ⁧יצחק⁩ and ⁧רבקה⁩ is the first recorded ⁧שידוך⁩ in
@@ -1260,7 +1265,7 @@ descendants.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/chayai-sara/5786/", "../Files/01 - Bereshis/05 - Chayai Sara/5786/Chayai Sara 5786.png"))
+#set page(footer: article-footer("https://zeidyd.com/chayai-sara/5786/", "../Files/01 - Bereshis/05 - Chayai Sara/5786/Chayai Sara 5786.png", show-number: true))
 = Chayai Sara 5786
 
 ⁧חיי שרה⁩. The pasuk says that ⁧יצחק⁩ was coming towards ⁧רבקה⁩. Why was he
@@ -1317,7 +1322,7 @@ train themselves to do that, and take my word for it, it's worth it.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/toldos/5784/", "../Files/01 - Bereshis/06 - Toldos/5784/Toldos 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/toldos/5784/", "../Files/01 - Bereshis/06 - Toldos/5784/Toldos 5784.png", show-number: true))
 = Toldos 5784
 
 ⁧פרשת תולדות⁩ starts ⁧וְאֵלֶּה תּוֹלְדֹת יִצְחָק בֶּן אַבְרָהָם אַבְרָהָם הוֹלִיד אֶת יִצְחָק⁩ (25:19), and then we immediately go into the story of the birth of ⁧יעקב⁩ and ⁧עשו⁩.
@@ -1376,7 +1381,7 @@ true ⁧שלמות⁩.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/toldos/5785/", "../Files/01 - Bereshis/06 - Toldos/5785/Toldos 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/toldos/5785/", "../Files/01 - Bereshis/06 - Toldos/5785/Toldos 5785.png", show-number: true))
 = Toldos 5785
 
 In parshas ⁧תולדות⁩, there's a ⁧פסוק⁩ that, at first blush, presents
@@ -1445,7 +1450,7 @@ see everyone in the best light.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/toldos/5786/", "../Files/01 - Bereshis/06 - Toldos/5786/Toldos 5786.png"))
+#set page(footer: article-footer("https://zeidyd.com/toldos/5786/", "../Files/01 - Bereshis/06 - Toldos/5786/Toldos 5786.png", show-number: true))
 = Toldos 5786
 
 ⁧פרשת תולדות⁩. One of the most famous lines in all of our Torah literature
@@ -1483,7 +1488,7 @@ our efforts at all times. In that ⁧זכות⁩, we will be ⁧זוכה⁩ to h
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/vayaitzei/5783/", "../Files/01 - Bereshis/07 - Vayaitzei/5783/Vayaitzei 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/vayaitzei/5783/", "../Files/01 - Bereshis/07 - Vayaitzei/5783/Vayaitzei 5783.png", show-number: true))
 = Vayaitzei 5783
 
 In ⁧ויצא פרשת⁩, ⁧יעקב⁩ first marries ⁧לאה⁩, unknowingly because ⁧לבן⁩ deceived
@@ -1518,7 +1523,7 @@ upon us.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/vayaitzei/5784/", "../Files/01 - Bereshis/07 - Vayaitzei/5784/Vayaitzei 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/vayaitzei/5784/", "../Files/01 - Bereshis/07 - Vayaitzei/5784/Vayaitzei 5784.png", show-number: true))
 = Vayaitzei 5784
 
 In this week's ⁧פרשה⁩, ⁧פרשת ויצא⁩ it says (30:22): ⁧וַיִּזְכֹּר אֱלֹקִים אֶת רָחֵל
@@ -1589,7 +1594,7 @@ ways, to emulate them and improve ourselves.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/vayaitzei/5785/", "../Files/01 - Bereshis/07 - Vayaitzei/5785/Vayaitzei 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/vayaitzei/5785/", "../Files/01 - Bereshis/07 - Vayaitzei/5785/Vayaitzei 5785.png", show-number: true))
 = Vayaitzei 5785
 
 There is a fascinating discussion brought down in the wonderful Torah
@@ -1644,7 +1649,7 @@ ourselves and all of ⁧כלל ישראל⁩, and bezras Hashem, further the ⁧
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/vayishlach/5783/", "../Files/01 - Bereshis/08 - Vayishlach/5783/Vayishlach 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/vayishlach/5783/", "../Files/01 - Bereshis/08 - Vayishlach/5783/Vayishlach 5783.png", show-number: true))
 = Vayishlach 5783
 
 Our ⁧חכמים⁩ tell us in ⁧מסכת סוטה⁩ (5a): \[⁧תַּלְמִיד חָכָם צָרִיךְ שֶׁיְּהֵא בּוֹ אֶחָד מִשְּׁמוֹנָה
@@ -1690,7 +1695,7 @@ came before us.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/vayishlach/5784/", "../Files/01 - Bereshis/08 - Vayishlach/5784/Vayishlach 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/vayishlach/5784/", "../Files/01 - Bereshis/08 - Vayishlach/5784/Vayishlach 5784.png", show-number: true))
 = Vayishlach 5784
 
 ⁧פרשת וישלח⁩. The ⁧מלאכים⁩ that ⁧יעקב⁩ sent to find out what ⁧עשו⁩ was up to
@@ -1783,7 +1788,7 @@ May our ⁧עבודה⁩ be ⁧מקובל⁩, and in that ⁧זכות⁩, may we
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/vayishlach/5785/", "../Files/01 - Bereshis/08 - Vayishlach/5785/Vayishlach 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/vayishlach/5785/", "../Files/01 - Bereshis/08 - Vayishlach/5785/Vayishlach 5785.png", show-number: true))
 = Vayishlach 5785
 
 In a wonderful ⁧ספר⁩ that I received from my ⁧אייניקל⁩ Ari, about ⁧רב לוי
@@ -1856,7 +1861,7 @@ to rise above ⁧הרגל⁩ and transform ourselves into a ⁧ראש⁩.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/vayishlach/5786/", "../Files/01 - Bereshis/08 - Vayishlach/5786/Vayishlach 5786.png"))
+#set page(footer: article-footer("https://zeidyd.com/vayishlach/5786/", "../Files/01 - Bereshis/08 - Vayishlach/5786/Vayishlach 5786.png", show-number: true))
 = Vayishlach 5786
 
 ⁧פרשת וישלח⁩. (32:4) ⁧וַיִּשְׁלַח יַעֲקֹב מַלְאָכִים לְפָנָיו אֶל עֵשָׂו אָחִיו אַרְצָה שֵׂעִיר שְׂדֵה
@@ -1930,7 +1935,7 @@ efforts be successful.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/vayaishev/5783/", "../Files/01 - Bereshis/09 - Vayaishev/5783/Vayaishev 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/vayaishev/5783/", "../Files/01 - Bereshis/09 - Vayaishev/5783/Vayaishev 5783.png", show-number: true))
 = Vayaishev 5783
 
 We know that ⁧יוסף⁩ had two dreams. Regarding the first dream, the ⁧בית
@@ -1991,7 +1996,7 @@ always speak and think positively about them. By doing so, may we merit
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/vayaishev/5784/", "../Files/01 - Bereshis/09 - Vayaishev/5784/Vayaishev 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/vayaishev/5784/", "../Files/01 - Bereshis/09 - Vayaishev/5784/Vayaishev 5784.png", show-number: true))
 = Vayaishev 5784
 
 ⁧ר' מאיר מפרמישלאן⁩ -- some of my ancestors come from ⁧פרמישלאן⁩. As I've
@@ -2058,7 +2063,7 @@ Hashem to bring about our ultimate ⁧ישועה⁩ and ⁧גאולה שלמה�
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/vayaishev/5785/", "../Files/01 - Bereshis/09 - Vayaishev/5785/Vayaishev 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/vayaishev/5785/", "../Files/01 - Bereshis/09 - Vayaishev/5785/Vayaishev 5785.png", show-number: true))
 = Vayaishev 5785
 
 We know that the hero in ⁧פרשת וישב⁩, in the very sad story of the sale of
@@ -2102,7 +2107,7 @@ find success.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/mikeitz/5783/", "../Files/01 - Bereshis/10 - Mikeitz/5783/Mikeitz 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/mikeitz/5783/", "../Files/01 - Bereshis/10 - Mikeitz/5783/Mikeitz 5783.png", show-number: true))
 = Mikeitz 5783
 
 The ⁧בית הלוי⁩ on the ⁧פרשה⁩ quotes the ⁧מדרש רבה⁩ on ⁧פרשת מקץ⁩, which
@@ -2153,7 +2158,7 @@ happy Chanukah!
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/mikeitz/5784/", "../Files/01 - Bereshis/10 - Mikeitz/5784/Mikeitz 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/mikeitz/5784/", "../Files/01 - Bereshis/10 - Mikeitz/5784/Mikeitz 5784.png", show-number: true))
 = Mikeitz 5784
 
 In the first half of ⁧פרשת מקץ⁩, we have, in exquisite detail, the story
@@ -2217,7 +2222,7 @@ lesson and use it to become better people.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/mikeitz/5785/", "../Files/01 - Bereshis/10 - Mikeitz/5785/Mikeitz 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/mikeitz/5785/", "../Files/01 - Bereshis/10 - Mikeitz/5785/Mikeitz 5785.png", show-number: true))
 = Mikeitz 5785
 
 The ⁧ספר עיטורי תורה⁩ points out that ⁧חנוכה⁩ almost always coincides with
@@ -2278,7 +2283,7 @@ doing so, we achieve both ⁧אריכות ימים⁩ and ⁧אריכות שני
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/vayigash/5783/", "../Files/01 - Bereshis/10 - Vayigash/5783/Vayigash 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/vayigash/5783/", "../Files/01 - Bereshis/10 - Vayigash/5783/Vayigash 5783.png", show-number: true))
 = Vayigash 5783
 
 This week's ⁧פרשה⁩ has the great ⁧פגישה⁩, the great confrontation, between
@@ -2341,7 +2346,7 @@ should continue to meet by ⁧שמחות⁩.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/vayigash/5784/", "../Files/01 - Bereshis/10 - Vayigash/5784/Vayigash 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/vayigash/5784/", "../Files/01 - Bereshis/10 - Vayigash/5784/Vayigash 5784.png", show-number: true))
 = Vayigash 5784
 
 ⁧ויגש פרשת⁩ highlights the confrontation between ⁧יוסף⁩ and his brothers and
@@ -2398,7 +2403,7 @@ will bring about the ⁧ישועה⁩ that we're looking for.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/vayigash/5785/", "../Files/01 - Bereshis/10 - Vayigash/5785/Vayigash 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/vayigash/5785/", "../Files/01 - Bereshis/10 - Vayigash/5785/Vayigash 5785.png", show-number: true))
 = Vayigash 5785
 
 After the dramatic meeting between ⁧יוסף⁩ and his brothers, when ⁧יוסף⁩
@@ -2493,7 +2498,7 @@ families, and all of ⁧כלל ישראל⁩.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/vayechi/5783/", "../Files/01 - Bereshis/11 - Vayechi/5783/Vayechi 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/vayechi/5783/", "../Files/01 - Bereshis/11 - Vayechi/5783/Vayechi 5783.png", show-number: true))
 = Vayechi 5783
 
 Parshas Vayechi 5783
@@ -2578,7 +2583,7 @@ the ⁧מסורה עד ביאת גואל צדק⁩.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/vayechi/5784/", "../Files/01 - Bereshis/11 - Vayechi/5784/Vayechi 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/vayechi/5784/", "../Files/01 - Bereshis/11 - Vayechi/5784/Vayechi 5784.png", show-number: true))
 = Vayechi 5784
 
 Aside from the ⁧ברכות⁩ that ⁧יעקב⁩ gives to his children, ⁧פרשת ויחי⁩ is most
@@ -2623,7 +2628,7 @@ should be able to serve ⁧הקדוש ברוך הוא⁩, and in that ⁧זכו�
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/vayechi/5785/", "../Files/01 - Bereshis/11 - Vayechi/5785/Vayechi 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/vayechi/5785/", "../Files/01 - Bereshis/11 - Vayechi/5785/Vayechi 5785.png", show-number: true))
 = Vayechi 5785
 
 This ⁧פרשת ויחי⁩ is a very special ⁧פרשה⁩ for us because we're celebrating, Baruch Hashem, the extremely happy occasion of the ⁧בר מצוה⁩ of Ephraim
@@ -2690,7 +2695,7 @@ endeavor.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/shemos/5783/", "../Files/02 - Shemos/01 - Shemos/5783/Shemos 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/shemos/5783/", "../Files/02 - Shemos/01 - Shemos/5783/Shemos 5783.png", show-number: true))
 = Shemos 5783
 
 The ⁧בית הלוי⁩, in his introduction to ⁧ספר שמות⁩, discusses a puzzling
@@ -2752,7 +2757,7 @@ them in our family, we should have a lot of ⁧שמחות⁩, and we should see 
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/shemos/5784/", "../Files/02 - Shemos/01 - Shemos/5784/Shemos 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/shemos/5784/", "../Files/02 - Shemos/01 - Shemos/5784/Shemos 5784.png", show-number: true))
 = Shemos 5784
 
 The ⁧מפרשים⁩ point out that ⁧ספר שמות⁩ is the ⁧ספר⁩ of ⁧גאולה⁩. We start out
@@ -2823,7 +2828,7 @@ Bezras Hashem, we should all hear good news.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/shemos/5785/", "../Files/02 - Shemos/01 - Shemos/5785/Shemos 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/shemos/5785/", "../Files/02 - Shemos/01 - Shemos/5785/Shemos 5785.png", show-number: true))
 = Shemos 5785
 
 ⁧וְאֵלֶּה שְׁמוֹת בְּנֵי יִשְׂרָאֵל⁩ -- There's a chap-vort which I cannot resist
@@ -2884,7 +2889,7 @@ and be a ⁧נחת⁩ for ⁧כלל ישראל⁩ and for all those who came bef
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/vaeira/5783/", "../Files/02 - Shemos/02 - Vaeira/5783/Vaeira 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/vaeira/5783/", "../Files/02 - Shemos/02 - Vaeira/5783/Vaeira 5783.png", show-number: true))
 = Vaeira 5783
 
 They say that practice makes perfect. ⁧מסירות נפש⁩ is something that has
@@ -2944,7 +2949,7 @@ for this very fundamental ⁧קשיא⁩ of ⁧בחירה חפשית⁩.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/vaeira/5784/", "../Files/02 - Shemos/02 - Vaeira/5784/Vaeira 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/vaeira/5784/", "../Files/02 - Shemos/02 - Vaeira/5784/Vaeira 5784.png", show-number: true))
 = Vaeira 5784
 
 The ⁧פרשה⁩ begins ⁧וָאֵרָא אֶל אַבְרָהָם אֶל יִצְחָק וְאֶל יַעֲקֹב בְּאֵל שַׁקָּי וּשְׁמִי ה׳ לֹא נוֹדַעְתִּי
@@ -3011,7 +3016,7 @@ Yirtzeh Hashem to ⁧ביאת גואל צדק⁩.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/vaeira/5785/", "../Files/02 - Shemos/02 - Vaeira/5785/Vaeira 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/vaeira/5785/", "../Files/02 - Shemos/02 - Vaeira/5785/Vaeira 5785.png", show-number: true))
 = Vaeira 5785
 
 In the middle of setting the stage in this ⁧פרשה⁩ for the dramatic and
@@ -3089,7 +3094,7 @@ know what we're talking about and what we stand for, for our ⁧דור דורו�
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/bo/5783/", "../Files/02 - Shemos/03 - Bo/5783/Bo 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/bo/5783/", "../Files/02 - Shemos/03 - Bo/5783/Bo 5783.png", show-number: true))
 = Bo 5783
 
 In ⁧פרשת בא⁩, we read about the ⁧מכות⁩. Let's focus on ⁧מכה⁩ number nine, ⁧חשך⁩.
@@ -3132,7 +3137,7 @@ times.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/bo/5784/", "../Files/02 - Shemos/03 - Bo/5784/Bo 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/bo/5784/", "../Files/02 - Shemos/03 - Bo/5784/Bo 5784.png", show-number: true))
 = Bo 5784
 
 In ⁧פרשת בא⁩ it says (12:2): ⁧הַחֹדֶשׁ הַזֶּה לָכֶם רֹאשׁ חֳדָשִׁים⁩, the first ⁧מצוה⁩ given
@@ -3173,7 +3178,7 @@ succeed in ⁧עולם הזה⁩ with our ⁧עבודה⁩ of bringing ⁧אור
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/bo/5785/", "../Files/02 - Shemos/03 - Bo/5785/Bo 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/bo/5785/", "../Files/02 - Shemos/03 - Bo/5785/Bo 5785.png", show-number: true))
 = Bo 5785
 
 The ⁧ספר אור גדליהו⁩, by ⁦רב גדליה שור זצ\"ל⁩, is a wonderful ⁧ספר⁩. Every
@@ -3239,7 +3244,7 @@ the ⁧מסורה⁩, elevate ourselves in ⁧רוחניות⁩, do the ⁧רצ�
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/beshalach/5783/(1)/", "../Files/02 - Shemos/04 - Beshalach/5783/Beshalach 5783 (1)/Beshalach 5783(1).png"))
+#set page(footer: article-footer("https://zeidyd.com/beshalach/5783/(1)/", "../Files/02 - Shemos/04 - Beshalach/5783/Beshalach 5783 (1)/Beshalach 5783(1).png", show-number: true))
 = Beshalach 5783(1)
 
 ⁧פרשת בשלח⁩ commemorates the once-in-history ⁧נס⁩ of ⁧קריעת ים סוף⁩. This ⁧נס⁩
@@ -3268,7 +3273,7 @@ is the ⁧מנהיג העולם⁩ and that everything occurs ⁧בהשגחת ה
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/beshalach/5783/(2)/", "../Files/02 - Shemos/04 - Beshalach/5783/Beshalach 5783 (2)/Beshalach 5783 (2).png"))
+#set page(footer: article-footer("https://zeidyd.com/beshalach/5783/(2)/", "../Files/02 - Shemos/04 - Beshalach/5783/Beshalach 5783 (2)/Beshalach 5783 (2).png", show-number: true))
 = Beshalach 5783 (2)
 
 Right before ⁧קריעת ים סוף⁩, ⁧הקדוש ברוך הוא⁩ commanded ⁧בני ישראל⁩ to turn
@@ -3289,7 +3294,7 @@ speak thoughtfully. This corresponds to the pasuk in ⁧משלי⁩ (21:23): ⁧
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/beshalach/5784/", "../Files/02 - Shemos/04 - Beshalach/5784/Beshalach 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/beshalach/5784/", "../Files/02 - Shemos/04 - Beshalach/5784/Beshalach 5784.png", show-number: true))
 = Beshalach 5784
 
 ⁧פרשת בשלח⁩ contains many important topics, with a highlight being ⁧שירת
@@ -3341,7 +3346,7 @@ bedrock ⁧אמונה⁩ that that is the truth.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/beshalach/5785/", "../Files/02 - Shemos/04 - Beshalach/5785/Beshalach 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/beshalach/5785/", "../Files/02 - Shemos/04 - Beshalach/5785/Beshalach 5785.png", show-number: true))
 = Beshalach 5785
 
 Many years ago, during my ⁧ישיבה⁩ days, someone provided me with a large
@@ -3410,7 +3415,7 @@ that it is our efforts that caused us to be successful; rather, everything we ac
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/yisro/5783/", "../Files/02 - Shemos/05 - Yisro/5783/Yisro 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/yisro/5783/", "../Files/02 - Shemos/05 - Yisro/5783/Yisro 5783.png", show-number: true))
 = Yisro 5783
 
 The pasuk, prior to the ⁧עשרת הדברות⁩, says (19:5): ⁧וְעַתָּה אִם שָׁמוֹעַ תִּשְׁמְעוּ
@@ -3455,7 +3460,7 @@ number of ⁧מצוות⁩, but they are not ⁧עבדי ה׳⁩. In contrast, w
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/yisro/5784/", "../Files/02 - Shemos/05 - Yisro/5784/Yisro 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/yisro/5784/", "../Files/02 - Shemos/05 - Yisro/5784/Yisro 5784.png", show-number: true))
 = Yisro 5784
 
 ⁧וַיִּחַן שָׁם יִשְׂרָאֵל נֶגֶד הָהָר⁩\(19:2), possibly the most beautiful pasuk in the
@@ -3536,7 +3541,7 @@ come quickly and everyone should have ⁧ישועות ונחמות⁩.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/yisro/5785/", "../Files/02 - Shemos/05 - Yisro/5785/Yisro 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/yisro/5785/", "../Files/02 - Shemos/05 - Yisro/5785/Yisro 5785.png", show-number: true))
 = Yisro 5785
 
 ⁧פרשת יתרו⁩, which connects ⁦יתרו'⁩s arrival to join ⁧כלל ישראל⁩ with the ⁧עשרת
@@ -3584,7 +3589,7 @@ he attained by witnessing Hashem's ⁧כח⁩ is a lesson for us in ⁧יראת 
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/mishpatim/5783/", "../Files/02 - Shemos/06 - Mishpatim/5783/Mishpatim 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/mishpatim/5783/", "../Files/02 - Shemos/06 - Mishpatim/5783/Mishpatim 5783.png", show-number: true))
 = Mishpatim 5783
 
 Rabbi Oelbaum shared an insightful observation in ⁧פרשת יתרו⁩. There's a
@@ -3669,7 +3674,7 @@ before, it's a great idea to hear it one more time.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/mishpatim/5784/(1)/", "../Files/02 - Shemos/06 - Mishpatim/5784/Mishpatim 5784 (1)/Mishpatim (1)  5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/mishpatim/5784/(1)/", "../Files/02 - Shemos/06 - Mishpatim/5784/Mishpatim 5784 (1)/Mishpatim (1)  5784.png", show-number: true))
 = Mishpatim (1) 5784
 
 ⁧פרשת משפטים⁩ is a favorite among ⁧ישיבאלייט⁩ because it serves as the
@@ -3729,7 +3734,7 @@ will benefit the most from our ⁧עבודת השם⁩.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/mishpatim/5784/(2)/", "../Files/02 - Shemos/06 - Mishpatim/5784/Mishpatim 5784 (2)/Mishpatim (2)  5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/mishpatim/5784/(2)/", "../Files/02 - Shemos/06 - Mishpatim/5784/Mishpatim 5784 (2)/Mishpatim (2)  5784.png", show-number: true))
 = Mishpatim (2) 5784
 
 In ⁧פרשת שמות⁩, Hashem instructed ⁧משה⁩ to gather the ⁧זקנים⁩ and go with ⁧אהרן⁩
@@ -3770,7 +3775,7 @@ That was the ⁧גדלות⁩ of ⁧אהרן הכהן⁩.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/mishpatim/5785/", "../Files/02 - Shemos/06 - Mishpatim/5785/Mishpatim 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/mishpatim/5785/", "../Files/02 - Shemos/06 - Mishpatim/5785/Mishpatim 5785.png", show-number: true))
 = Mishpatim 5785
 
 In ⁧פרשת משפטים⁩, a parsha filled with numerous ⁧מצוות⁩, it says (21:14): ⁧וְכִי יָזִד אִישׁ עַל רֵעֵהוּ לְהׇרְגוֹ בְעׇרְמָה מֵעִם מִזְבְּחִי תִּקָּחֶנּוּ לָמוּת⁩ - If a person is a
@@ -3842,7 +3847,7 @@ did.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/teruma/5783/", "../Files/02 - Shemos/07 - Teruma/5783/Teruma 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/teruma/5783/", "../Files/02 - Shemos/07 - Teruma/5783/Teruma 5783.png", show-number: true))
 = Teruma 5783
 
 This week is ⁧פרשת תרומה⁩, which many of the ⁧חסידישע ספרים⁩ mention as part
@@ -3893,7 +3898,7 @@ with integrity to build a ⁧משכן לשם ולתפארת⁩.⁧יְהִי ר�
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/teruma/5784/", "../Files/02 - Shemos/07 - Teruma/5784/Teruma 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/teruma/5784/", "../Files/02 - Shemos/07 - Teruma/5784/Teruma 5784.png", show-number: true))
 = Teruma 5784
 
 ⁧פרשת תרומה⁩ is the famous ⁧פרשה⁩ that discusses the building of the ⁧משכן⁩.
@@ -3956,7 +3961,7 @@ This is the beautiful connection between the beginning and the end of
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/teruma/5785/", "../Files/02 - Shemos/07 - Teruma/5785/Teruma 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/teruma/5785/", "../Files/02 - Shemos/07 - Teruma/5785/Teruma 5785.png", show-number: true))
 = Teruma 5785
 
 Parshas ⁧תרומה⁩ is the initiation of the entire story of the building of
@@ -4076,7 +4081,7 @@ will be proud of us.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/tetzaveh/5783/", "../Files/02 - Shemos/08 - Tetzaveh/5783/Tetzaveh 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/tetzaveh/5783/", "../Files/02 - Shemos/08 - Tetzaveh/5783/Tetzaveh 5783.png", show-number: true))
 = Tetzaveh 5783
 
 Any time a person goes up to daven, he will see a sign in front of him
@@ -4123,7 +4128,7 @@ blessings that ⁧הקודש ברוך הוא⁩ gave us, to fulfill the ⁧מצ�
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/tetzaveh/5784/(1)/", "../Files/02 - Shemos/08 - Tetzaveh/5784/Tetzaveh 5784 (1)/Tetzaveh (1) 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/tetzaveh/5784/(1)/", "../Files/02 - Shemos/08 - Tetzaveh/5784/Tetzaveh 5784 (1)/Tetzaveh (1) 5784.png", show-number: true))
 = Tetzaveh (1) 5784
 
 Tetzaveh 5784 (1)
@@ -4190,7 +4195,7 @@ successful in that ⁧לדור דורות⁩.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/tetzaveh/5784/(2)/", "../Files/02 - Shemos/08 - Tetzaveh/5784/Tetzaveh 5784 (2)/Tetzaveh (2) 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/tetzaveh/5784/(2)/", "../Files/02 - Shemos/08 - Tetzaveh/5784/Tetzaveh 5784 (2)/Tetzaveh (2) 5784.png", show-number: true))
 = Tetzaveh (2) 5784
 
 Tetzaveh 5784 (2)
@@ -4254,7 +4259,7 @@ have a lot of ⁧ברכות⁩ from all of them. And I'm looking forward to a hu
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/tetzaveh/5785/", "../Files/02 - Shemos/08 - Tetzaveh/5785/Tetzaveh 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/tetzaveh/5785/", "../Files/02 - Shemos/08 - Tetzaveh/5785/Tetzaveh 5785.png", show-number: true))
 = Tetzaveh 5785
 
 ⁧פרשת זכור⁩ this year coincides with ⁧פרשת תצוה⁩. ⁧תצוה⁩ is a ⁧פרשה⁩ in which
@@ -4336,7 +4341,7 @@ cause ⁧כלל ישראל⁩ a ⁧תשועה גדולה⁩, in all aspects, and
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/ki-sisa/5783/", "../Files/02 - Shemos/09 - Ki Sisa/5783/Ki Sisa 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/ki-sisa/5783/", "../Files/02 - Shemos/09 - Ki Sisa/5783/Ki Sisa 5783.png", show-number: true))
 = Ki Sisa 5783
 
 Happy Purim, everybody! ⁧פרשת כי תשא⁩ begins with the ⁧מצוה⁩ of ⁧מחצית השקל⁩.
@@ -4410,7 +4415,7 @@ may we be ⁧זוכה⁩ to hear great ⁧שמחות⁩ in all of ⁧כלל יש
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/ki-sisa/5784/", "../Files/02 - Shemos/09 - Ki Sisa/5784/Ki Sisa 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/ki-sisa/5784/", "../Files/02 - Shemos/09 - Ki Sisa/5784/Ki Sisa 5784.png", show-number: true))
 = Ki Sisa 5784
 
 It is a wonderful opportunity - and an obligation - to approach the many
@@ -4471,7 +4476,7 @@ it lasts forever.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/ki-sisa/5785/", "../Files/02 - Shemos/09 - Ki Sisa/5785/Ki Sisa 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/ki-sisa/5785/", "../Files/02 - Shemos/09 - Ki Sisa/5785/Ki Sisa 5785.png", show-number: true))
 = Ki Sisa 5785
 
 ⁧פרשת כי תשא⁩ is a ⁧פרשה⁩ which has something to teach us about the ⁧כח⁩ of
@@ -4544,7 +4549,7 @@ us. In that ⁧זכות⁩, we shall see the ⁧משיח צדקנו⁩, ⁧במ�
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/vayakel/5784/", "../Files/02 - Shemos/10 - Vayakel/5784/Vayakel 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/vayakel/5784/", "../Files/02 - Shemos/10 - Vayakel/5784/Vayakel 5784.png", show-number: true))
 = Vayakel 5784
 
 In ⁧פרשת ויקהל⁩, the ⁧פסוק⁩ (35:3), states: ⁧וַיֹּאמֶר מֹשֶׁה אֶל כׇּל עֲדַת בְּנֵי יִשְׂרָאֵל
@@ -4602,7 +4607,7 @@ absence.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/vayakel/5785/", "../Files/02 - Shemos/10 - Vayakel/5785/Vayakel 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/vayakel/5785/", "../Files/02 - Shemos/10 - Vayakel/5785/Vayakel 5785.png", show-number: true))
 = Vayakel 5785
 
 In ⁧פרשת ויקהל⁩, which details the construction of the ⁧משכן⁩, we find a
@@ -4675,7 +4680,7 @@ look it up. ⁧תוספות⁩ says this in ⁧שבועות⁩, ⁦דף ג ע״�
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/pekudei/5784/", "../Files/02 - Shemos/11 - Pekudei/5784/Pekudei 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/pekudei/5784/", "../Files/02 - Shemos/11 - Pekudei/5784/Pekudei 5784.png", show-number: true))
 = Pekudei 5784
 
 ⁧פרשת פקודי⁩, \[which this year, being an ⁧עיבור יאר⁩, has the ⁧זכות⁩ of
@@ -4714,7 +4719,7 @@ this week's ⁧פרשה⁩.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/pekudei/5785/", "../Files/02 - Shemos/11 - Pekudei/5785/Pekudei 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/pekudei/5785/", "../Files/02 - Shemos/11 - Pekudei/5785/Pekudei 5785.png", show-number: true))
 = Pekudei 5785
 
 ⁧פרשת פקודי⁩ begins with the words: ⁧אֵלֶּה פְקוּדֵי הַמִּשְׁכָּן מִשְׁכַּן הָעֵדֻת אֲשֶׁר פֻּקַּד עַל
@@ -4798,7 +4803,7 @@ to ⁧שמחות⁩, ⁧נחת⁩, ⁧געזונט⁩, and the ⁧ביאת גו�
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/vayakel-pekudei/5783/", "../Files/02 - Shemos/12 - Vayakel-Pekudei/5783/Vayakel-Pekudei 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/vayakel-pekudei/5783/", "../Files/02 - Shemos/12 - Vayakel-Pekudei/5783/Vayakel-Pekudei 5783.png", show-number: true))
 = Vayakel-Pekudei 5783
 
 This week's Shabbos leining is the second longest of the year, ⁧ויקהל⁩/⁧פקודי פרשת החדש⁩. In ⁧ויקהל⁩, ⁧משה רבינו⁩ makes a definitive statement
@@ -4855,7 +4860,7 @@ everything that we do, in ⁧עבודת הבורא⁩, in ⁧רוחניות⁩ a
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/vayikra/5783/", "../Files/03 - Vayikra/01 - Vayikra/5783/Vayikra 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/vayikra/5783/", "../Files/03 - Vayikra/01 - Vayikra/5783/Vayikra 5783.png", show-number: true))
 = Vayikra 5783
 
 We're up to ⁧פרשת ויקרא⁩, having just finished ⁧חזק חזק ונתחזק⁩- ⁧ספר שמות⁩.
@@ -4909,7 +4914,7 @@ footsteps.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/vayikra/5784/", "../Files/03 - Vayikra/01 - Vayikra/5784/Vayikrah 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/vayikra/5784/", "../Files/03 - Vayikra/01 - Vayikra/5784/Vayikrah 5784.png", show-number: true))
 = Vayikrah 5784
 
 This week is ⁧פרשת ויקרא⁩, n action-packed week - ⁧פרשת זכור⁩ and ⁧פורים⁩.
@@ -4955,7 +4960,7 @@ humility, be able to admit our mistakes, and grow from them.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/vayikra/5785/", "../Files/03 - Vayikra/01 - Vayikra/5785/Vayikra 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/vayikra/5785/", "../Files/03 - Vayikra/01 - Vayikra/5785/Vayikra 5785.png", show-number: true))
 = Vayikra 5785
 
 ⁧פרשת ויקרא⁩ begins the extensive ⁧ספר⁩ of ⁧קרבנות⁩. Before we even start, I
@@ -5076,7 +5081,7 @@ truly means: one who translates his physical existence into doing the
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/tzav/5783/", "../Files/03 - Vayikra/02 - Tzav/5783/Tzav 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/tzav/5783/", "../Files/03 - Vayikra/02 - Tzav/5783/Tzav 5783.png", show-number: true))
 = Tzav 5783
 
 This week is ⁧פרשת צו⁩, which is ⁧שבת הגדול⁩, the great ⁧שבת⁩ before our
@@ -5171,7 +5176,7 @@ coming of ⁧משיח צדקנו⁩, ⁧במהרה בימינו⁩.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/tzav/5784/", "../Files/03 - Vayikra/02 - Tzav/5784/Tzav 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/tzav/5784/", "../Files/03 - Vayikra/02 - Tzav/5784/Tzav 5784.png", show-number: true))
 = Tzav 5784
 
 This week is ⁧פרשת צו⁩ and also ⁧פרשת פרה⁩. We are learning today as a ⁧זכות⁩
@@ -5232,7 +5237,7 @@ Im Yirtzeh Hashem, may our family continue to grow both in ⁧כמות⁩ and
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/tzav/5785/", "../Files/03 - Vayikra/02 - Tzav/5785/Tzav 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/tzav/5785/", "../Files/03 - Vayikra/02 - Tzav/5785/Tzav 5785.png", show-number: true))
 = Tzav 5785
 
 ⁧פרשת צו⁩ initially starts with the completion of the instructions to the
@@ -5341,7 +5346,7 @@ your unique light."
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/shmini/5783/", "../Files/03 - Vayikra/03 - Shmini/5783/Shmini 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/shmini/5783/", "../Files/03 - Vayikra/03 - Shmini/5783/Shmini 5783.png", show-number: true))
 = Shmini 5783
 
 ⁧פרשת שמיני⁩ discusses the glorious day that the ⁧משכן⁩ was dedicated and
@@ -5389,7 +5394,7 @@ and fulfill all of Hashem's ⁧ציוויים⁩.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/shmini/5784/", "../Files/03 - Vayikra/03 - Shmini/5784/Shmini 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/shmini/5784/", "../Files/03 - Vayikra/03 - Shmini/5784/Shmini 5784.png", show-number: true))
 = Shmini 5784
 
 In ⁧פרשת שמיני⁩, the ⁧ספר אפריון⁩, written by ⁧רב שלמה גאנצפריד⁩, the ⁧בעל
@@ -5433,7 +5438,7 @@ deepest ⁧רצון⁩ of ⁧וְשָׁכַנְתִּי בְּתוֹכָם⁩.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/shmini/5785/", "../Files/03 - Vayikra/03 - Shmini/5785/Shmini 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/shmini/5785/", "../Files/03 - Vayikra/03 - Shmini/5785/Shmini 5785.png", show-number: true))
 = Shmini 5785
 
 For ⁧פרשת שמיני⁩, I want to share a thought from one of my favorite
@@ -5489,7 +5494,7 @@ kids, colleagues, co-workers, spouses, or relatives.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/tazria/5784/", "../Files/03 - Vayikra/04 - Tazria/5784/Tazria 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/tazria/5784/", "../Files/03 - Vayikra/04 - Tazria/5784/Tazria 5784.png", show-number: true))
 = Tazria 5784
 
 ⁧פרשת תזריע⁩, the beginning of the two ⁧פרשיות⁩ that discuss ⁧נגעים⁩, opens
@@ -5540,7 +5545,7 @@ it. Through this, we serve Hashem and fulfill our role as an ⁧אור לגוי�
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/metzora/5784/", "../Files/03 - Vayikra/05 - Metzora/5784/Metzora 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/metzora/5784/", "../Files/03 - Vayikra/05 - Metzora/5784/Metzora 5784.png", show-number: true))
 = Metzora 5784
 
 ⁧פרשת מצורע⁩ continues the ⁧הלכות⁩ - which are many and intricate - of ⁧צרעת⁩, along with other forms of ⁧טומאה⁩, including ⁧זב⁩. These ⁧הלכות⁩ contain
@@ -5610,7 +5615,7 @@ to learn.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/tazria-metzora/5783/", "../Files/03 - Vayikra/06 - Tazria-Metzora/5783/Tazria-Metzora 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/tazria-metzora/5783/", "../Files/03 - Vayikra/06 - Tazria-Metzora/5783/Tazria-Metzora 5783.png", show-number: true))
 = Tazria-Metzora 5783
 
 This week is ⁧פרשת תזריע⁩-⁧מצורע⁩, which follows immediately after ⁧פרשת
@@ -5672,7 +5677,7 @@ world, the ⁧טומאה⁩ that follows is proportionately greater.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/tazria-metzora/5785/", "../Files/03 - Vayikra/06 - Tazria-Metzora/5785/Tazria-Metzora 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/tazria-metzora/5785/", "../Files/03 - Vayikra/06 - Tazria-Metzora/5785/Tazria-Metzora 5785.png", show-number: true))
 = Tazria-Metzora 5785
 
 ⁧פרשיות תזריע⁩ and ⁧מצורע⁩ discuss the intricate and important ⁧הלכות⁩ of
@@ -5760,7 +5765,7 @@ navigate challenges successfully and have ⁧הצלחה⁩.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/achrei-mos/5784/", "../Files/03 - Vayikra/07 - Achrei Mos/5784/Achrei Mos 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/achrei-mos/5784/", "../Files/03 - Vayikra/07 - Achrei Mos/5784/Achrei Mos 5784.png", show-number: true))
 = Achrei Mos 5784
 
 Parshas ⁧אחרי מות⁩: A fundamental ⁧קשיא⁩ is that in a number of places in
@@ -5823,7 +5828,7 @@ and every one of us.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/kedoshim/5784/", "../Files/03 - Vayikra/08 - Kedoshim/5784/Kedoshim 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/kedoshim/5784/", "../Files/03 - Vayikra/08 - Kedoshim/5784/Kedoshim 5784.png", show-number: true))
 = Kedoshim 5784
 
 Parshas ⁧קדושים⁩ begins with the pasuk: ⁧דַּבֵּר אֶל כׇּל עֲדַת בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם
@@ -5892,7 +5897,7 @@ other Yid.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/achrei-mos-kedoshim/5783/", "../Files/03 - Vayikra/09 -  Achrei Mos-Kedoshim/5783/Achrei Mos-Kedoshim 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/achrei-mos-kedoshim/5783/", "../Files/03 - Vayikra/09 -  Achrei Mos-Kedoshim/5783/Achrei Mos-Kedoshim 5783.png", show-number: true))
 = Achrei Mos-Kedoshim 5783
 
 The ⁧אזנים לתורה⁩, the Lutzker Rav, R' Zalman Sorotzkin, made an
@@ -5959,7 +5964,7 @@ with each of their children according to the level that each requires, and to in
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/achrei-mos-kedoshim/5785/", "../Files/03 - Vayikra/09 -  Achrei Mos-Kedoshim/5785/Achrei Mos-Kedoshim 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/achrei-mos-kedoshim/5785/", "../Files/03 - Vayikra/09 -  Achrei Mos-Kedoshim/5785/Achrei Mos-Kedoshim 5785.png", show-number: true))
 = Achrei Mos-Kedoshim 5785
 
 Parshas ⁧אחרי מות⁩. We'll begin with a beautiful essay written by R' Chaim
@@ -6057,7 +6062,7 @@ finally end, and may we merit to come together with ⁧משיח צדקנו⁩ to
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/emor/5783/", "../Files/03 - Vayikra/10 - Emor/5783/Emor 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/emor/5783/", "../Files/03 - Vayikra/10 - Emor/5783/Emor 5783.png", show-number: true))
 = Emor 5783
 
 Everything that the ⁧רבונו של עולם⁩ created in this world can be utilized
@@ -6144,7 +6149,7 @@ of the year.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/emor/5784/", "../Files/03 - Vayikra/10 - Emor/5784/Emor 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/emor/5784/", "../Files/03 - Vayikra/10 - Emor/5784/Emor 5784.png", show-number: true))
 = Emor 5784
 
 We began saying ⁧פרקי אבות⁩ a few weeks ago, right after ⁧פסח⁩. In the first
@@ -6209,7 +6214,7 @@ for?" Ideally, let us all serve Hashem and be successful in it.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/emor/5785/", "../Files/03 - Vayikra/10 - Emor/5785/Emor 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/emor/5785/", "../Files/03 - Vayikra/10 - Emor/5785/Emor 5785.png", show-number: true))
 = Emor 5785
 
 Parshas ⁧אמור⁩. The Gemara in Yoma 69b discusses the historical moment
@@ -6321,7 +6326,7 @@ with this sefer and look through it, it's really quite enlightening.)
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/behar/5784/", "../Files/03 - Vayikra/11 - Behar/5784/Behar 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/behar/5784/", "../Files/03 - Vayikra/11 - Behar/5784/Behar 5784.png", show-number: true))
 = Behar 5784
 
 We're right before ⁦ל\"ג בעומר⁩, which is a joyous ⁧יום טוב⁩. It has to do
@@ -6368,7 +6373,7 @@ that with you.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/bechukosai/5784/", "../Files/03 - Vayikra/12 - Bechukosai/5784/Bechukosai 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/bechukosai/5784/", "../Files/03 - Vayikra/12 - Bechukosai/5784/Bechukosai 5784.png", show-number: true))
 = Bechukosai 5784
 
 This ⁧פרשה⁩ of ⁧בחוקותי⁩ is the first of the two ⁧תוכחות⁩ in the ⁧תורה⁩, the
@@ -6450,7 +6455,7 @@ greater level your ⁧קדושה⁩. And ⁧בעזרת השם⁩ you'll be able 
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/behar-bechukosai/5783/", "../Files/03 - Vayikra/13 - Behar-Bechukosai/5783/Behar-Bechukosai 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/behar-bechukosai/5783/", "../Files/03 - Vayikra/13 - Behar-Bechukosai/5783/Behar-Bechukosai 5783.png", show-number: true))
 = Behar-Bechukosai 5783
 
 I once heard a talk from a ⁧קירוב⁩ fellow as to how to prove that Hashem
@@ -6502,7 +6507,7 @@ have to believe that whatever Hashem promises will happen
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/behar-bechukosai/5785/", "../Files/03 - Vayikra/13 - Behar-Bechukosai/5785/Behar-Bechukosai 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/behar-bechukosai/5785/", "../Files/03 - Vayikra/13 - Behar-Bechukosai/5785/Behar-Bechukosai 5785.png", show-number: true))
 = Behar-Bechukosai 5785
 
 R' Chaim Kanievsky's sefer on chumash by Rabbi Shai Graucher, quotes the
@@ -6571,7 +6576,7 @@ these ⁧מצוות⁩ very quickly when ⁧משיח⁩ will come ⁧במהרה 
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/bamidbar/5783/", "../Files/04 - Bamidbar/01 - Bamidbar/5783/Bamidbar 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/bamidbar/5783/", "../Files/04 - Bamidbar/01 - Bamidbar/5783/Bamidbar 5783.png", show-number: true))
 = Bamidbar 5783
 
 ⁧פרשת במדבר⁩ always is the ⁧שבת⁩ before the ⁧יום טוב⁩ of ⁧שבועות⁩. Just as an
@@ -6629,7 +6634,7 @@ His memory should be a ⁧ברכה⁩, and he should be a ⁧מליץ יושר�
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/bamidbar/5784/", "../Files/04 - Bamidbar/01 - Bamidbar/5784/Bamidbar 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/bamidbar/5784/", "../Files/04 - Bamidbar/01 - Bamidbar/5784/Bamidbar 5784.png", show-number: true))
 = Bamidbar 5784
 
 ⁧פרשת במדבר⁩ starts off with the story of ⁧כלל ישראל⁩ over their 40-year
@@ -6689,7 +6694,7 @@ most successful in developing his own ⁧עבודת השם⁩.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/bamidbar/5785/", "../Files/04 - Bamidbar/01 - Bamidbar/5785/Bamidbar 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/bamidbar/5785/", "../Files/04 - Bamidbar/01 - Bamidbar/5785/Bamidbar 5785.png", show-number: true))
 = Bamidbar 5785
 
 ⁧ספר במדבר⁩, is called the ⁧ספר המספרים⁩, the sefer of a census, because in
@@ -6799,7 +6804,7 @@ on our ⁧תפילין⁩.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/naso/5783/", "../Files/04 - Bamidbar/02 - Naso/5783/Naso 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/naso/5783/", "../Files/04 - Bamidbar/02 - Naso/5783/Naso 5783.png", show-number: true))
 = Naso 5783
 
 This week is ⁧פרשת נשא⁩, which is the longest ⁧פרשה⁩ of the year in terms of
@@ -6899,7 +6904,7 @@ would be entitled to do ⁧ברכת כהנים⁩, and he can even say it with a
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/naso/5784/", "../Files/04 - Bamidbar/02 - Naso/5784/Naso 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/naso/5784/", "../Files/04 - Bamidbar/02 - Naso/5784/Naso 5784.png", show-number: true))
 = Naso 5784
 
 In ⁧פרשת נשא⁩, we read the most wonderful ⁧ברכות⁩ that we have in all of the
@@ -6949,7 +6954,7 @@ our ability, and even greater.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/naso/5785/", "../Files/04 - Bamidbar/02 - Naso/5785/Naso 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/naso/5785/", "../Files/04 - Bamidbar/02 - Naso/5785/Naso 5785.png", show-number: true))
 = Naso 5785
 
 ⁧פרשת נשא⁩ has a great ⁧זכות⁩ to be the longest ⁧פרשה⁩ of the ⁧תורה⁩. All the
@@ -7002,7 +7007,7 @@ that we can learn. We have to get going and start doing our portion of
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/naso/5785/story/", "../Files/04 - Bamidbar/02 - Naso/Story 5785/Story 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/naso/5785/story/", "../Files/04 - Bamidbar/02 - Naso/Story 5785/Story 5785.png", show-number: true))
 = Story 5785
 
 Naso - Story 5785
@@ -7046,7 +7051,7 @@ hearing and worth repeating.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/behaloscha/5783/", "../Files/04 - Bamidbar/03 - Behaloscha/5783/Behaloscha 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/behaloscha/5783/", "../Files/04 - Bamidbar/03 - Behaloscha/5783/Behaloscha 5783.png", show-number: true))
 = Behaloscha 5783
 
 ⁧וַיְדַבֵּר ה׳ אֶל מֹשֶׁה בְמִדְבַּר סִינַי בַּשָּׁנָה הַשֵּׁנִית לְצֵאתָם מֵאֶרֶץ מִצְרַיִם בַּחֹדֶשׁ הָרִאשׁוֹן לֵאמֹר׃
@@ -7113,7 +7118,7 @@ opportunities are.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/behaloscha/5784/", "../Files/04 - Bamidbar/03 - Behaloscha/5784/Behaloscha 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/behaloscha/5784/", "../Files/04 - Bamidbar/03 - Behaloscha/5784/Behaloscha 5784.png", show-number: true))
 = Behaloscha 5784
 
 ⁧פרשת בהעלותך⁩ contains one of the most unusual, if not unique, parts of
@@ -7159,7 +7164,7 @@ We were hoping ⁧הלוואי⁩ that it should continue. And in ⁧זכות⁩
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/behaloscha/5785/", "../Files/04 - Bamidbar/03 - Behaloscha/5785/Behaloscha 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/behaloscha/5785/", "../Files/04 - Bamidbar/03 - Behaloscha/5785/Behaloscha 5785.png", show-number: true))
 = Behaloscha 5785
 
 R' Yosef Shlomo Goldstein, the ⁧מחבר⁩ of a sefer called ⁧דברי יושר⁩ from the
@@ -7220,7 +7225,7 @@ comes, we will see it ⁧בחוש⁩.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/shlach/5783/", "../Files/04 - Bamidbar/04 - Shlach/5783/Shlach 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/shlach/5783/", "../Files/04 - Bamidbar/04 - Shlach/5783/Shlach 5783.png", show-number: true))
 = Shlach 5783
 
 Bobbis and Zeidys in general, and this Bobbi and Zeidy in particular, are routinely accused of telling their children and grandchildren that
@@ -7294,7 +7299,7 @@ what to do?" But we can learn a fantastic lesson from this story. If the
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/shlach/5784/", "../Files/04 - Bamidbar/04 - Shlach/5784/Shlach 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/shlach/5784/", "../Files/04 - Bamidbar/04 - Shlach/5784/Shlach 5784.png", show-number: true))
 = Shlach 5784
 
 ⁧פרשת שלח⁩ is multi-factorial, multi-tasking. There are so many different
@@ -7384,7 +7389,7 @@ asking for. The good things we ask for are means to an end. In that
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/shlach/5785/", "../Files/04 - Bamidbar/04 - Shlach/5785/Shlach 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/shlach/5785/", "../Files/04 - Bamidbar/04 - Shlach/5785/Shlach 5785.png", show-number: true))
 = Shlach 5785
 
 ⁧פרשה שלח⁩ ends on a positive note with the ⁧מצוה⁩ of ⁧ציצית⁩. A number of
@@ -7439,7 +7444,7 @@ pause to think and to realize who we truly can be if we work at it.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/korach/5783/", "../Files/04 - Bamidbar/05 - Korach/5783/Korach 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/korach/5783/", "../Files/04 - Bamidbar/05 - Korach/5783/Korach 5783.png", show-number: true))
 = Korach 5783
 
 ⁧פרשת קרח⁩ is a unique ⁧פרשה⁩ in that it's hard for us to fathom how someone
@@ -7507,7 +7512,7 @@ a ⁧גוט געזונט זומער⁩, and may we hear only ⁧בשורות ט�
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/korach/5784/", "../Files/04 - Bamidbar/05 - Korach/5784/Korach 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/korach/5784/", "../Files/04 - Bamidbar/05 - Korach/5784/Korach 5784.png", show-number: true))
 = Korach 5784
 
 ⁧פרשת קרח⁩ interestingly enough, was the ⁧פרשה⁩ that Zeidy Weiss ⁦ע״ה⁩ had his
@@ -7575,7 +7580,7 @@ everyone around us. May it all be ⁧לטובה⁩, and in the ⁧זכות⁩ of
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/korach/5785/", "../Files/04 - Bamidbar/05 - Korach/5785/Korach 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/korach/5785/", "../Files/04 - Bamidbar/05 - Korach/5785/Korach 5785.png", show-number: true))
 = Korach 5785
 
 ⁧פרשת קרח⁩ includes a number of vitally important topics, two of which are
@@ -7679,7 +7684,7 @@ giving him a gift, and that is a tremendous ⁧זכות⁩.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/chukas/5784/(1)/", "../Files/04 - Bamidbar/06 - Chukas/5784/Chukas (1)/Chukas 5784 (1).png"))
+#set page(footer: article-footer("https://zeidyd.com/chukas/5784/(1)/", "../Files/04 - Bamidbar/06 - Chukas/5784/Chukas (1)/Chukas 5784 (1).png", show-number: true))
 = Chukas 5784 (1)
 
 ⁧פרשת חקת⁩. The ⁧פסוק⁩ says, ⁧אֲשֶׁר צִוָּה ה׳ לֵאמֹר דַּבֵּר אֶל בְּנֵי יִשְׂרָאֵל וְיִקְחוּ אֵלֶיךָ פָרָה
@@ -7805,7 +7810,7 @@ very soon, ⁧במהרה בימינו אמן⁩
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/chukas/5784/(2)/", "../Files/04 - Bamidbar/06 - Chukas/5784/Chukas (2)/Chukas 5784 (2).png"))
+#set page(footer: article-footer("https://zeidyd.com/chukas/5784/(2)/", "../Files/04 - Bamidbar/06 - Chukas/5784/Chukas (2)/Chukas 5784 (2).png", show-number: true))
 = Chukas 5784 (2)
 
 This is an addendum to ⁧פרשת חקת⁩. I came across this vort from Rabbi
@@ -7859,7 +7864,7 @@ can make a difference. One person can make a difference.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/chukas/5785/", "../Files/04 - Bamidbar/06 - Chukas/5785/Chukas 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/chukas/5785/", "../Files/04 - Bamidbar/06 - Chukas/5785/Chukas 5785.png", show-number: true))
 = Chukas 5785
 
 ⁧פרשת חקת⁩, Dr. Ellie Bennett's birthday parsha. We're recording this in
@@ -7961,7 +7966,7 @@ over all of us. That's the real Iron Dome - Hakodosh Baruch Hu's ⁧יד
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/balak/5784/", "../Files/04 - Bamidbar/07 - Balak/5784/Balak 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/balak/5784/", "../Files/04 - Bamidbar/07 - Balak/5784/Balak 5784.png", show-number: true))
 = Balak 5784
 
 ⁧פרשת בלק⁩ is one of the most fascinating ⁧פרשיות⁩ in the entire ⁧תורה⁩. It
@@ -8059,7 +8064,7 @@ gift and make ourselves into true ⁧עבדי השם⁩.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/balak/5785/", "../Files/04 - Bamidbar/07 - Balak/5785/Balak 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/balak/5785/", "../Files/04 - Bamidbar/07 - Balak/5785/Balak 5785.png", show-number: true))
 = Balak 5785
 
 ⁧פרשת בלק⁩ is a dramatic ⁧פרשה⁩. It captures our attention because we see
@@ -8134,7 +8139,7 @@ the ⁦גר\"א⁩ in ⁧פרשת בלק⁩.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/chukas-balak/5783/", "../Files/04 - Bamidbar/08 - Chukas-Balak/5783/Chukas-Balak 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/chukas-balak/5783/", "../Files/04 - Bamidbar/08 - Chukas-Balak/5783/Chukas-Balak 5783.png", show-number: true))
 = Chukas-Balak 5783
 
 Rabbi Oelbaum, my ⁧מָרָא דְּאַתְרָא⁩, once asked an interesting question. If
@@ -8251,7 +8256,7 @@ kind, always look to be ⁧מלמד זכות⁩ on somebody else. ⁧בעזרת 
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/pinchas/5783/", "../Files/04 - Bamidbar/09 - Pinchas/5783/Pinchas 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/pinchas/5783/", "../Files/04 - Bamidbar/09 - Pinchas/5783/Pinchas 5783.png", show-number: true))
 = Pinchas 5783
 
 ⁧פִּינְחָס בֶּן אֶלְעָזָר בֶּן אַהֲרֹן הַכֹּהֵן הֵשִׁיב אֶת חֲמָתִי מֵעַל בְּנֵי יִשְׂרָאֵל בְּקַנְאוֹ אֶת קִנְאָתִי
@@ -8315,7 +8320,7 @@ investment we can ever have.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/pinchas/5784/", "../Files/04 - Bamidbar/09 - Pinchas/5784/Pinchas 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/pinchas/5784/", "../Files/04 - Bamidbar/09 - Pinchas/5784/Pinchas 5784.png", show-number: true))
 = Pinchas 5784
 
 ⁧פרשת פנחס⁩ has a number of massive topics, some more well-known than
@@ -8390,7 +8395,7 @@ influence on all of ⁧כלל ישראל⁩.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/pinchas/5785/", "../Files/04 - Bamidbar/09 - Pinchas/5785/Pinchas 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/pinchas/5785/", "../Files/04 - Bamidbar/09 - Pinchas/5785/Pinchas 5785.png", show-number: true))
 = Pinchas 5785
 
 ⁧פרשת פנחס⁩ is notable in many ways. The first one, of course, is ⁦הקדוש
@@ -8486,7 +8491,7 @@ can be ⁧מקיים⁩ the ⁧מצוה⁩ of ⁧כיבוד אב⁩ even after 1
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/matos-maasei/5783/", "../Files/04 - Bamidbar/10 - Matos-Maasei/5783/Matos-Maasei 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/matos-maasei/5783/", "../Files/04 - Bamidbar/10 - Matos-Maasei/5783/Matos-Maasei 5783.png", show-number: true))
 = Matos-Maasei 5783
 
 The ⁧פרשיות⁩ of ⁧מטות מסעי⁩ always come out in the middle of the three
@@ -8544,7 +8549,7 @@ should strive to duplicate even one little fraction of his work.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/matos-maasei/5784/", "../Files/04 - Bamidbar/10 - Matos-Maasei/5784/Matos-Maasei 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/matos-maasei/5784/", "../Files/04 - Bamidbar/10 - Matos-Maasei/5784/Matos-Maasei 5784.png", show-number: true))
 = Matos-Maasei 5784
 
 The parsha starts off ⁧וַיְדַבֵּר מֹשֶׁה אֶל רָאשֵׁי הַמַּטּוֹת לִבְנֵי יִשְׂרָאֵל לֵאמֹר זֶה הַדָּבָר
@@ -8609,7 +8614,7 @@ of our tongue.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/matos-maasei/5785/", "../Files/04 - Bamidbar/10 - Matos-Maasei/5785/Matos Massei 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/matos-maasei/5785/", "../Files/04 - Bamidbar/10 - Matos-Maasei/5785/Matos Massei 5785.png", show-number: true))
 = Matos Massei 5785
 
 ⁧פרשיות מטות⁩ and ⁧מסעי⁩, with the greatest number of ⁧פסוקים⁩ in any one
@@ -8731,7 +8736,7 @@ realize how powerful our ⁧תפילה⁩ is.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/devarim/5783/", "../Files/05 - Devarim/01 - Devarim/5783/Devarim 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/devarim/5783/", "../Files/05 - Devarim/01 - Devarim/5783/Devarim 5783.png", show-number: true))
 = Devarim 5783
 
 ⁧פרשת דברים⁩ starts with words of ⁧תוכחה⁩, which all of the ⁧מפרשים⁩ discuss
@@ -8773,7 +8778,7 @@ Let's utilize the opportunity.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/devarim/5784/", "../Files/05 - Devarim/01 - Devarim/5784/Devarim 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/devarim/5784/", "../Files/05 - Devarim/01 - Devarim/5784/Devarim 5784.png", show-number: true))
 = Devarim 5784
 
 This week is ⁧פרשת דברים⁩ which is ⁧שבת חזון⁩. Before we start, I want to
@@ -8820,7 +8825,7 @@ elements that we need in order to ensure that we'll have, ⁧אם ירצה הש�
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/devarim/5785/", "../Files/05 - Devarim/01 - Devarim/5785/Devarim 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/devarim/5785/", "../Files/05 - Devarim/01 - Devarim/5785/Devarim 5785.png", show-number: true))
 = Devarim 5785
 
 ⁧פרשת דברים⁩, which each and every year is ⁧שבת חזון⁩ and is associated with
@@ -8891,7 +8896,7 @@ not just me - I don't have a monopoly on leadership."
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/vaeschanan/5783/", "../Files/05 - Devarim/02 - Vaeschanan/5783/Vaeschanan 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/vaeschanan/5783/", "../Files/05 - Devarim/02 - Vaeschanan/5783/Vaeschanan 5783.png", show-number: true))
 = Vaeschanan 5783
 
 Shabbos Nachamu - Parshas Vaeschanan is a beloved parsha. It has two
@@ -8943,7 +8948,7 @@ the things that the world thinks are big down here are nothing up there, as we w
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/vaeschanan/5784/", "../Files/05 - Devarim/02 - Vaeschanan/5784/Vaeschanan 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/vaeschanan/5784/", "../Files/05 - Devarim/02 - Vaeschanan/5784/Vaeschanan 5784.png", show-number: true))
 = Vaeschanan 5784
 
 Parshas Vaeschanan begins with the famous medrash that the word ⁧ואתחנן⁩
@@ -9004,7 +9009,7 @@ between every member of ⁧כלל ישראל⁩. And through this, ⁧חברים
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/vaeschanan/5785/", "../Files/05 - Devarim/02 - Vaeschanan/5785/Vaeschanan 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/vaeschanan/5785/", "../Files/05 - Devarim/02 - Vaeschanan/5785/Vaeschanan 5785.png", show-number: true))
 = Vaeschanan 5785
 
 ⁧פרשת ואתחנן⁩ starts off with the famous medrash of ⁧הקדוש ברוך הוא⁩
@@ -9133,7 +9138,7 @@ This is the lesson that we get. No matter what our role in life is, our
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/eikev/5783/", "../Files/05 - Devarim/03 - Eikev/5783/Eikev 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/eikev/5783/", "../Files/05 - Devarim/03 - Eikev/5783/Eikev 5783.png", show-number: true))
 = Eikev 5783
 
 We live in an era of science and technology where man thinks he can
@@ -9178,7 +9183,7 @@ in ⁧עבודת הבורא⁩ and fulfill our ⁧תפקיד⁩ in this world.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/eikev/5784/", "../Files/05 - Devarim/03 - Eikev/5784/Eikev 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/eikev/5784/", "../Files/05 - Devarim/03 - Eikev/5784/Eikev 5784.png", show-number: true))
 = Eikev 5784
 
 We are now in the ⁧ז' דנחמתא⁩, the seven weeks of comfort following ⁧תשעה
@@ -9237,7 +9242,7 @@ we will see the great ⁧נחמה⁩, and ⁧הלוואי משיח⁩ should com
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/eikev/5785/", "../Files/05 - Devarim/03 - Eikev/5785/Eikev 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/eikev/5785/", "../Files/05 - Devarim/03 - Eikev/5785/Eikev 5785.png", show-number: true))
 = Eikev 5785
 
 In ⁧פרשת עקב⁩ the ⁧מגלה עמוקות⁩ brings down a Zohar which quotes a pasuk
@@ -9326,7 +9331,7 @@ hear only ⁧בשרות טובות⁩, and Hashem should send ⁧ישועות ו
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/re'eh/5783/", "../Files/05 - Devarim/04 - Re'eh/5783/Re'eh 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/re'eh/5783/", "../Files/05 - Devarim/04 - Re'eh/5783/Re'eh 5783.png", show-number: true))
 = Re'eh 5783
 
 It is said that everything in life needs ⁧מזל⁩. The famous saying is that
@@ -9377,7 +9382,7 @@ more and more and get all of those ⁧ברכות⁩ and ⁧והקרן קיימת
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/re'eh/5784/", "../Files/05 - Devarim/04 - Re'eh/5784/Re'eh 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/re'eh/5784/", "../Files/05 - Devarim/04 - Re'eh/5784/Re'eh 5784.png", show-number: true))
 = Re'eh 5784
 
 In ⁧פרשת ראה⁩ the Torah emphasizes many of the ⁧מצוות⁩ which we have heard
@@ -9421,7 +9426,7 @@ require ⁧ישועות⁩ and ⁧רפואות⁩ should have them.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/re'eh/5785/", "../Files/05 - Devarim/04 - Re'eh/5785/Re'eh 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/re'eh/5785/", "../Files/05 - Devarim/04 - Re'eh/5785/Re'eh 5785.png", show-number: true))
 = Re'eh 5785
 
 ⁧פרשת ראה⁩ is a ⁧פרשה⁩ full of ⁧מצוות⁩, ⁧חסד⁩ and ⁧מידות⁩. In the ⁧פרשה⁩, the ⁧פסוק⁩
@@ -9472,7 +9477,7 @@ improve our own ⁧צדקה⁩ to the best of our abilities.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/shoftim/5783/", "../Files/05 - Devarim/05 - Shoftim/5783/Shoftim 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/shoftim/5783/", "../Files/05 - Devarim/05 - Shoftim/5783/Shoftim 5783.png", show-number: true))
 = Shoftim 5783
 
 In ⁧פרשת שופטים⁩ the pasuk says (17:11): ⁧עַל פִּי הַתּוֹרָה אֲשֶׁר יוֹרוּךָ וְעַל הַמִּשְׁפָּט
@@ -9527,7 +9532,7 @@ A ⁧מצבה⁩ means end. It's all over. ⁧מצבה⁩ is what cemeteries are
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/shoftim/5784/", "../Files/05 - Devarim/05 - Shoftim/5784/Shoftim 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/shoftim/5784/", "../Files/05 - Devarim/05 - Shoftim/5784/Shoftim 5784.png", show-number: true))
 = Shoftim 5784
 
 In this week's ⁧פרשה⁩ of ⁧שופטים⁩, we have the famous ⁧ענין⁩ of ⁧עדים זוממים⁩.
@@ -9580,7 +9585,7 @@ have a ⁧ישועה במהרה⁩.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/shoftim/5785/", "../Files/05 - Devarim/05 - Shoftim/5785/Shoftim 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/shoftim/5785/", "../Files/05 - Devarim/05 - Shoftim/5785/Shoftim 5785.png", show-number: true))
 = Shoftim 5785
 
 In ⁧פרשת שופטים⁩, the Torah instructs us that listening to our leaders is
@@ -9648,7 +9653,7 @@ Torah, if only one delves deeply enough.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/ki-seitzei/5783/", "../Files/05 - Devarim/06 - Ki Seitzei/5783/Ki Seitzei 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/ki-seitzei/5783/", "../Files/05 - Devarim/06 - Ki Seitzei/5783/Ki Seitzei 5783.png", show-number: true))
 = Ki Seitzei 5783
 
 ⁧פרשת כי תצא⁩ is the parsha with the most ⁧מצוות⁩ in it, each one of which
@@ -9719,7 +9724,7 @@ to accomplish.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/ki-seitzei/5784/(1)/", "../Files/05 - Devarim/06 - Ki Seitzei/5784/Ki Seitzei 5784 (1)/Ki Seitzei 5784 (1).png"))
+#set page(footer: article-footer("https://zeidyd.com/ki-seitzei/5784/(1)/", "../Files/05 - Devarim/06 - Ki Seitzei/5784/Ki Seitzei 5784 (1)/Ki Seitzei 5784 (1).png", show-number: true))
 = Ki Seitzei 5784 (1)
 
 Ki Seitzei (1) 5784
@@ -9766,7 +9771,7 @@ do, and we should have ⁧אמתע ייִדישע נחת⁩ from all of our chil
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/ki-seitzei/5784/(2)/", "../Files/05 - Devarim/06 - Ki Seitzei/5784/Ki Seitzei 5784 (2)/Ki Seitzei 5784 (2).png"))
+#set page(footer: article-footer("https://zeidyd.com/ki-seitzei/5784/(2)/", "../Files/05 - Devarim/06 - Ki Seitzei/5784/Ki Seitzei 5784 (2)/Ki Seitzei 5784 (2).png", show-number: true))
 = Ki Seitzei 5784 (2)
 
 Ki Seitzei (2) 5784
@@ -9858,7 +9863,7 @@ itself.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/ki-seitzei/5785/", "../Files/05 - Devarim/06 - Ki Seitzei/5785/Ki Seitzei 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/ki-seitzei/5785/", "../Files/05 - Devarim/06 - Ki Seitzei/5785/Ki Seitzei 5785.png", show-number: true))
 = Ki Seitzei 5785
 
 ⁧בָּנִים אֲשֶׁר יִוָּלְדוּ לָהֶם דּוֹר שְׁלִישִׁי יָבֹא לָהֶם בִּקְהַל ה׳⁩ (23:9). Certain ⁧אומות⁩
@@ -9942,7 +9947,7 @@ and get rid of the antisemitism which stems from us.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/ki-savo/5783/", "../Files/05 - Devarim/07 - Ki Savo/5783/Ki Savo 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/ki-savo/5783/", "../Files/05 - Devarim/07 - Ki Savo/5783/Ki Savo 5783.png", show-number: true))
 = Ki Savo 5783
 
 ⁧פרשת כי תבוא⁩. The ⁧אזנים לתורה⁩ notes that ⁧פרשת ביכורים⁩, which is the
@@ -9997,7 +10002,7 @@ battle until ⁧משיח⁩ will come ⁧במהרה בימינו אמן⁩.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/ki-savo/5784/", "../Files/05 - Devarim/07 - Ki Savo/5784/Ki Savo 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/ki-savo/5784/", "../Files/05 - Devarim/07 - Ki Savo/5784/Ki Savo 5784.png", show-number: true))
 = Ki Savo 5784
 
 ⁧פרשת כי תבוא⁩, amongst the many things that it entails, has the second
@@ -10089,7 +10094,7 @@ glad I could share it with you.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/ki-savo/5785/", "../Files/05 - Devarim/07 - Ki Savo/5785/Ki Savo 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/ki-savo/5785/", "../Files/05 - Devarim/07 - Ki Savo/5785/Ki Savo 5785.png", show-number: true))
 = Ki Savo 5785
 
 ⁧פרשת כי תבוא⁩, a ⁧פרשה⁩ rich in ⁧השקפה⁩ and messages that we have to take
@@ -10153,7 +10158,7 @@ maintain you ⁧לעולם ועד⁩.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/nitzavim/5785/", "../Files/05 - Devarim/08 -  Nitzavim/5785/Nitzavim 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/nitzavim/5785/", "../Files/05 - Devarim/08 -  Nitzavim/5785/Nitzavim 5785.png", show-number: true))
 = Nitzavim 5785
 
 ⁧פרשת נצבים⁩. ⁧אַתֶּם נִצָּבִים הַיּוֹם כֻּלְּכֶם לִפְנֵי ה׳ אֱלֹקֵיכֶם רָאשֵׁיכֶם שִׁבְטֵיכֶם זִקְנֵיכֶם
@@ -10209,7 +10214,7 @@ others around us, always assuming that we are not on their ⁧מדרגה⁩.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/vayailech/5786/", "../Files/05 - Devarim/09 - Vayailech/5786/Vayailech 5786.png"))
+#set page(footer: article-footer("https://zeidyd.com/vayailech/5786/", "../Files/05 - Devarim/09 - Vayailech/5786/Vayailech 5786.png", show-number: true))
 = Vayailech 5786
 
 ⁧פרשת וילך⁩. The last ⁧מצוה⁩ in the ⁧תורה⁩ is (31:19) ⁧וְעַתָּה כִּתְבוּ לָכֶם אֶת הַשִּׁירָה
@@ -10297,7 +10302,7 @@ our children and ⁧אייניקלעך⁩ will continue that ⁧מסורה עד 
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/nitzavim-vayailech/5783/", "../Files/05 - Devarim/10 - Nitzavim-Vayailech/5783/Nitzavim-Vayailech 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/nitzavim-vayailech/5783/", "../Files/05 - Devarim/10 - Nitzavim-Vayailech/5783/Nitzavim-Vayailech 5783.png", show-number: true))
 = Nitzavim-Vayailech 5783
 
 Nitzavim/Vayeilech 5783
@@ -10360,7 +10365,7 @@ this year.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/nitzavim-vayailech/5784/", "../Files/05 - Devarim/10 - Nitzavim-Vayailech/5784/Nitzavim-Vayailech 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/nitzavim-vayailech/5784/", "../Files/05 - Devarim/10 - Nitzavim-Vayailech/5784/Nitzavim-Vayailech 5784.png", show-number: true))
 = Nitzavim-Vayailech 5784
 
 ⁧פרשת נצבים⁩. We're now in the ⁧היליגע ימים נוראים⁩, surrounded by ⁧קדושה⁩, surrounded by opportunity, and surrounded by ⁧מצוות⁩. The pasuk tells us
@@ -10391,7 +10396,7 @@ success. It seems simple. We just have to keep on thinking of it. ⁧אם
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/ha'azinu/5784/", "../Files/05 - Devarim/11 - Ha'azinu/5784/Ha'azinu 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/ha'azinu/5784/", "../Files/05 - Devarim/11 - Ha'azinu/5784/Ha'azinu 5784.png", show-number: true))
 = Ha'azinu 5784
 
 This week's parsha ⁧פרשת האזינו⁩, the famous song of the Torah, contains
@@ -10455,7 +10460,7 @@ Encyclopedia Britannica (Today, Google).
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/ha'azinu/5785/", "../Files/05 - Devarim/11 - Ha'azinu/5785/Ha'azinu 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/ha'azinu/5785/", "../Files/05 - Devarim/11 - Ha'azinu/5785/Ha'azinu 5785.png", show-number: true))
 = Ha'azinu 5785
 
 Parshas Ha'azinu. ⁧הַאֲזִינוּ הַשָּׁמַיִם וַאֲדַבֵּרָה⁩~⁧וְתִשְׁמַע הָאָרֶץ אִמְרֵי פִי⁩. The ⁧ספר
@@ -10523,7 +10528,7 @@ should get all the good things that we ask for in a ⁧גוטן אופן⁩.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/ha'azinu/5786/", "../Files/05 - Devarim/11 - Ha'azinu/5786/Ha'azinu 5786.png"))
+#set page(footer: article-footer("https://zeidyd.com/ha'azinu/5786/", "../Files/05 - Devarim/11 - Ha'azinu/5786/Ha'azinu 5786.png", show-number: true))
 = Ha'azinu 5786
 
 ⁧פרשת האזינו⁩ contains the foundation stones of the entire history of the
@@ -10570,7 +10575,7 @@ we will have, all comes strictly and solely from ⁧הקדוש ברוך הוא�
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/v'zos-habracha/5784/", "../Files/05 - Devarim/12 - V'zos Habracha/5784/V'zos Habracha 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/v'zos-habracha/5784/", "../Files/05 - Devarim/12 - V'zos Habracha/5784/V'zos Habracha 5784.png", show-number: true))
 = V'zos Habracha 5784
 
 ⁧וזאת הברכה⁩, the final parsha of the Torah. It's only the introduction to
@@ -10604,7 +10609,7 @@ those voids.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/v'zos-habracha/5785/", "../Files/05 - Devarim/12 - V'zos Habracha/5785/V'zos Habracha 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/v'zos-habracha/5785/", "../Files/05 - Devarim/12 - V'zos Habracha/5785/V'zos Habracha 5785.png", show-number: true))
 = V'zos Habracha 5785
 
 ⁧פרשת וזאת הברכה⁩. At the very end of ⁧וילך⁩, ⁧משה רבינו⁩ is finishing giving
@@ -10657,7 +10662,7 @@ ways of ⁧משה⁩ and lead a life full of ⁧קדושה⁩, all to become a b
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/v'zos-habracha/5786/", "../Files/05 - Devarim/12 - V'zos Habracha/5786/V'zos Habracha 5786.png"))
+#set page(footer: article-footer("https://zeidyd.com/v'zos-habracha/5786/", "../Files/05 - Devarim/12 - V'zos Habracha/5786/V'zos Habracha 5786.png", show-number: true))
 = V'zos Habracha 5786
 
 The last words in the Torah are ⁧לְעֵינֵי כׇּל יִשְׂרָאֵל⁩. What is the Torah
@@ -10703,7 +10708,7 @@ continue to do everything we can to the best of our ability.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/pesach/5783/dvar-torah/", "../Files/06 - Yom Tov/01 - Pesach/5783/Dvar Torah/Dvar Torah Pesach 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/pesach/5783/dvar-torah/", "../Files/06 - Yom Tov/01 - Pesach/5783/Dvar Torah/Dvar Torah Pesach 5783.png", show-number: true))
 = Dvar Torah Pesach 5783
 
 R' Noach Isaac Oelbaum, the author of the ⁧מנחת חן⁩, \[interesting, his
@@ -10756,7 +10761,7 @@ your ⁧חמץ⁩ does not become a ⁧גר⁩. Good Yom Tov!
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/pesach/5783/mussaf/", "../Files/06 - Yom Tov/01 - Pesach/5783/Mussaf/Mussaf Yom Tov 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/pesach/5783/mussaf/", "../Files/06 - Yom Tov/01 - Pesach/5783/Mussaf/Mussaf Yom Tov 5783.png", show-number: true))
 = Mussaf Yom Tov 5783
 
 In ⁧מוסף⁩ for the ⁧שלש רגלים⁩, in the paragraph of ⁧וּמִפְּנֵי חֲטָאֵינוּ⁩ - one of the
@@ -10795,7 +10800,7 @@ ultimate degree in the ⁧בית המקדש⁩, ⁧במהרה בימינו⁩.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/pesach/5783/story/", "../Files/06 - Yom Tov/01 - Pesach/5783/Story/Story Pesach 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/pesach/5783/story/", "../Files/06 - Yom Tov/01 - Pesach/5783/Story/Story Pesach 5783.png", show-number: true))
 = Story Pesach 5783
 
 A story for ⁧פסח⁩. One day, the ⁧נודע ביהודה⁩ was walking down a street in
@@ -10858,7 +10863,7 @@ year that ⁧פסח⁩ was nine days long.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/pesach/5784/", "../Files/06 - Yom Tov/01 - Pesach/5784/Pesach 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/pesach/5784/", "../Files/06 - Yom Tov/01 - Pesach/5784/Pesach 5784.png", show-number: true))
 = Pesach 5784
 
 ⁧לכבוד ליל הסדר⁩. The ⁦גמרא עירובין דף ס״ה ע״א⁩ has a long ⁧אגדתא⁩ discussing
@@ -11068,7 +11073,7 @@ our job. The ⁧ארבע כוסות⁩ are good too.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/pesach/5785/dvar-torah/", "../Files/06 - Yom Tov/01 - Pesach/5785/Dvar Torah/Dvar Torah Pesach 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/pesach/5785/dvar-torah/", "../Files/06 - Yom Tov/01 - Pesach/5785/Dvar Torah/Dvar Torah Pesach 5785.png", show-number: true))
 = Dvar Torah Pesach 5785
 
 In honor of the ⁧יום טוב⁩ of ⁧פסח⁩, we will talk a little bit about one of
@@ -11139,7 +11144,7 @@ for them, for us, and for all generations, ⁧עד ביאת גואל צדק במ
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/pesach/5785/story-1/", "../Files/06 - Yom Tov/01 - Pesach/5785/Story 1/Story Pesach 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/pesach/5785/story-1/", "../Files/06 - Yom Tov/01 - Pesach/5785/Story 1/Story Pesach 5785.png", show-number: true))
 = Story Pesach 5785
 
 ⁧לכבוד פסח⁩, I'd like to share a story that I've been telling for many
@@ -11204,7 +11209,7 @@ Have a wonderful ⁧סדר⁩, and a wonderful ⁧יום טוב⁩.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/pesach/5785/story-2/", "../Files/06 - Yom Tov/01 - Pesach/5785/Story 2/Story 2 Pesach 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/pesach/5785/story-2/", "../Files/06 - Yom Tov/01 - Pesach/5785/Story 2/Story 2 Pesach 5785.png", show-number: true))
 = Story 2 Pesach 5785
 
 Story Pesach 5785
@@ -11271,7 +11276,7 @@ continue to carry across generations."
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/pesach-sheini/5784/", "../Files/06 - Yom Tov/02 - Pesach Sheini/5784/Pesach Sheini 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/pesach-sheini/5784/", "../Files/06 - Yom Tov/02 - Pesach Sheini/5784/Pesach Sheini 5784.png", show-number: true))
 = Pesach Sheini 5784
 
 Sheini 5784
@@ -11302,7 +11307,7 @@ should be ⁧זוכה⁩, as we just said, to celebrate ⁧פסח שני⁩ prop
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/pesach-sheini/5785/", "../Files/06 - Yom Tov/02 - Pesach Sheini/5785/Pesach Sheini 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/pesach-sheini/5785/", "../Files/06 - Yom Tov/02 - Pesach Sheini/5785/Pesach Sheini 5785.png", show-number: true))
 = Pesach Sheini 5785
 
 ⁧פסח שני⁩ is a special day in our calendar. It represents ⁦כלל ישראל'⁩s
@@ -11342,7 +11347,7 @@ Bezras Hashem, in the ⁧זכות⁩ of that genuine effort, we will be answered
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/lag-baomer/5784/", "../Files/06 - Yom Tov/03 - Lag Baomer/5784/Lag Baomer 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/lag-baomer/5784/", "../Files/06 - Yom Tov/03 - Lag Baomer/5784/Lag Baomer 5784.png", show-number: true))
 = Lag Baomer 5784
 
 Lag Ba'omer 5784
@@ -11405,7 +11410,7 @@ Let's learn this from ⁦ל״ג בעומר⁩. Let's learn it from the ⁧תלמ
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/lag-baomer/5785/", "../Files/06 - Yom Tov/03 - Lag Baomer/5785/Lag Baomer 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/lag-baomer/5785/", "../Files/06 - Yom Tov/03 - Lag Baomer/5785/Lag Baomer 5785.png", show-number: true))
 = Lag Baomer 5785
 
 I have two short vorts on ⁦ל״ג בעומר⁩. One of them is from a sefer by R'
@@ -11463,7 +11468,7 @@ In that ⁧זכות⁩, may we receive the ⁧תורה⁩ anew and may ⁧משי
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/shavuos/5783/", "../Files/06 - Yom Tov/04 - Shavuos/5783/Shavuos 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/shavuos/5783/", "../Files/06 - Yom Tov/04 - Shavuos/5783/Shavuos 5783.png", show-number: true))
 = Shavuos 5783
 
 There's a beautiful ⁧מדרש⁩ in ⁧מסכת שבת דף פח עמוד ב⁩ which discusses the
@@ -11543,7 +11548,7 @@ well and ⁧געזונט⁩ - are what gave us the ability to get the ⁧תור�
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/shavuos/5784/", "../Files/06 - Yom Tov/04 - Shavuos/5784/Shavuos 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/shavuos/5784/", "../Files/06 - Yom Tov/04 - Shavuos/5784/Shavuos 5784.png", show-number: true))
 = Shavuos 5784
 
 ⁧הקדוש ברוך הוא⁩ calls us ⁧עם הנבחר⁩, Hashem chose us. But how is it that we
@@ -11598,7 +11603,7 @@ the entire world.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/shavuos/5785/", "../Files/06 - Yom Tov/04 - Shavuos/5785/Shavuos 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/shavuos/5785/", "../Files/06 - Yom Tov/04 - Shavuos/5785/Shavuos 5785.png", show-number: true))
 = Shavuos 5785
 
 The Mishna in ⁧תענית⁩ (4:8) says, ⁧בְּיוֹם חֲתֻנָּתוֹ⁩, ⁧זֶה מַתַּן תּוֹרָה⁩ - referring to
@@ -11654,7 +11659,7 @@ been worth the time I spent relaying it to you.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/17-tamuz/5784/", "../Files/06 - Yom Tov/05 - 17 Tamuz/5784/17 Tamuz 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/17-tamuz/5784/", "../Files/06 - Yom Tov/05 - 17 Tamuz/5784/17 Tamuz 5784.png", show-number: true))
 = 17 Tamuz 5784
 
 We're now in the month of ⁧תמוז⁩, with ⁧שבעה עשר בתמוז⁩ rapidly approaching.
@@ -11681,7 +11686,7 @@ davening, ⁧וְתֶחֱזֶינָה עֵינֵינוּ בְּשׁוּבְךָ 
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/17-tamuz/5785/", "../Files/06 - Yom Tov/05 - 17 Tamuz/5785/17 Tamuz 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/17-tamuz/5785/", "../Files/06 - Yom Tov/05 - 17 Tamuz/5785/17 Tamuz 5785.png", show-number: true))
 = 17 Tamuz 5785
 
 Five ⁧פרוניות⁩, five tragedies occurred on ⁧שבעה עשר בתמוז⁩. They're all
@@ -11725,7 +11730,7 @@ brought down the ⁧לוחות⁩. Have a meaningful and easy fast.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/9-av/5783/", "../Files/06 - Yom Tov/06 - 9 Av/5783/9 Av 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/9-av/5783/", "../Files/06 - Yom Tov/06 - 9 Av/5783/9 Av 5783.png", show-number: true))
 = 9 Av 5783
 
 Tisha B'Av 5783
@@ -11775,7 +11780,7 @@ about what we lost.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/9-av/5784/", "../Files/06 - Yom Tov/06 - 9 Av/5784/9 Av 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/9-av/5784/", "../Files/06 - Yom Tov/06 - 9 Av/5784/9 Av 5784.png", show-number: true))
 = 9 Av 5784
 
 Tisha B'Av 5784
@@ -11856,7 +11861,7 @@ your heart. And what comes from the heart will go into the heart.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/9-av/5785/", "../Files/06 - Yom Tov/06 - 9 Av/5785/9 Av 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/9-av/5785/", "../Files/06 - Yom Tov/06 - 9 Av/5785/9 Av 5785.png", show-number: true))
 = 9 Av 5785
 
 Tisha B'Av 5785
@@ -11911,7 +11916,7 @@ really for the good.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/15-av/5784/", "../Files/06 - Yom Tov/07 - 15 Av/5784/15 Av 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/15-av/5784/", "../Files/06 - Yom Tov/07 - 15 Av/5784/15 Av 5784.png", show-number: true))
 = 15 Av 5784
 
 Tu B'Av 5784
@@ -11963,7 +11968,7 @@ prepared to encounter ⁧הקדוש ברוך הוא מלך מלכי המלכים
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/15-av/5785/", "../Files/06 - Yom Tov/07 - 15 Av/5785/15 Av 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/15-av/5785/", "../Files/06 - Yom Tov/07 - 15 Av/5785/15 Av 5785.png", show-number: true))
 = 15 Av 5785
 
 Tu B'Av 5785
@@ -12010,7 +12015,7 @@ true reason for ⁧ביאת גואל צדק⁩.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/elul/5784/", "../Files/06 - Yom Tov/08 - Elul/5784/Elul 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/elul/5784/", "../Files/06 - Yom Tov/08 - Elul/5784/Elul 5784.png", show-number: true))
 = Elul 5784
 
 My vort for ⁧אלול⁩, which ⁧אני הקטן⁩ thought of, and I was inspired by a
@@ -12050,7 +12055,7 @@ things we ask for, ⁧לטובה⁩, and to have a wonderful ⁧כתיבה וח�
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/elul/5785/", "../Files/06 - Yom Tov/08 - Elul/5785/Elul 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/elul/5785/", "../Files/06 - Yom Tov/08 - Elul/5785/Elul 5785.png", show-number: true))
 = Elul 5785
 
 The Ohr Gedalyahu, the ⁧טייערע⁩ R' Gedalia Schorr ⁦זצ\"ל⁩, a brilliant ⁧מגיד
@@ -12099,7 +12104,7 @@ our lives.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/rosh-hashana/5784/", "../Files/06 - Yom Tov/09 - Rosh Hashana/5784/Rosh Hashana 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/rosh-hashana/5784/", "../Files/06 - Yom Tov/09 - Rosh Hashana/5784/Rosh Hashana 5784.png", show-number: true))
 = Rosh Hashana 5784
 
 The ⁧דברי שיח⁩, which is a weekly sheet put out by the family of Rav Chaim
@@ -12181,7 +12186,7 @@ matter what ever we do, it should be successful.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/rosh-hashana/5785/", "../Files/06 - Yom Tov/09 - Rosh Hashana/5785/Rosh Hashana 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/rosh-hashana/5785/", "../Files/06 - Yom Tov/09 - Rosh Hashana/5785/Rosh Hashana 5785.png", show-number: true))
 = Rosh Hashana 5785
 
 In honor of ⁧ראש השנה⁩, I'd like to go over a number of little vignettes, little stories to give us a better handle on how we should be
@@ -12268,7 +12273,7 @@ and ⁧נחמות⁩ and ⁧רפואות⁩. And ⁧בעזרת השם⁩, we sho
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/rosh-hashana/5786/", "../Files/06 - Yom Tov/09 - Rosh Hashana/5786/Rosh Hashana 5786.png"))
+#set page(footer: article-footer("https://zeidyd.com/rosh-hashana/5786/", "../Files/06 - Yom Tov/09 - Rosh Hashana/5786/Rosh Hashana 5786.png", show-number: true))
 = Rosh Hashana 5786
 
 The following story, brought down in the sefer ⁧חיים שיש בהם⁩ for the ⁧ימים
@@ -12344,7 +12349,7 @@ together for a good year, a year of ⁧טובה⁩, of ⁧ברכה⁩, of ⁧פ�
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/rosh-hashana/how-to-do-teshuva/", "../Files/06 - Yom Tov/09 - Rosh Hashana/How to do Teshuva/How to do Teshuva.png"))
+#set page(footer: article-footer("https://zeidyd.com/rosh-hashana/how-to-do-teshuva/", "../Files/06 - Yom Tov/09 - Rosh Hashana/How to do Teshuva/How to do Teshuva.png", show-number: true))
 = How to do Teshuva
 
 I came across from Rav Satka's weekly sheet on the ⁧פרשה⁩, \[Rav Satka
@@ -12418,7 +12423,7 @@ be cleansed. ⁧בעזרת השם⁩, we should have a ⁧גיט געבענטש�
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/rosh-hashana/rosh-hashana-in-berditchev/", "../Files/06 - Yom Tov/09 - Rosh Hashana/Rosh Hashana in Berditchev/Rosh Hashana in Berditchev.png"))
+#set page(footer: article-footer("https://zeidyd.com/rosh-hashana/rosh-hashana-in-berditchev/", "../Files/06 - Yom Tov/09 - Rosh Hashana/Rosh Hashana in Berditchev/Rosh Hashana in Berditchev.png", show-number: true))
 = Rosh Hashana in Berditchev
 
 The following story, properly entitled Rosh Hashana in Berditchev, is
@@ -12511,7 +12516,7 @@ all in the ⁧ספר החיים⁩.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/yom-kippur/5784/", "../Files/06 - Yom Tov/10 - Yom Kippur/5784/Yom Kippur 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/yom-kippur/5784/", "../Files/06 - Yom Tov/10 - Yom Kippur/5784/Yom Kippur 5784.png", show-number: true))
 = Yom Kippur 5784
 
 We are constantly making sure that we do things correctly. However, to
@@ -12583,7 +12588,7 @@ We want to get through ⁧יום כיפור בשלום⁩. We want to see our ch
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/yom-kippur/5785/", "../Files/06 - Yom Tov/10 - Yom Kippur/5785/Yom Kippur 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/yom-kippur/5785/", "../Files/06 - Yom Tov/10 - Yom Kippur/5785/Yom Kippur 5785.png", show-number: true))
 = Yom Kippur 5785
 
 ⁧לכבוד יום כיפור⁩. R' Levi Yitzchok quotes the famous Gemara (⁦פסחים נ׳ ע״א⁩
@@ -12657,7 +12662,7 @@ be found ⁧זכאי בדין⁩ and have a ⁧גוט געבענטשט געזו�
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/yom-kippur/5786/", "../Files/06 - Yom Tov/10 - Yom Kippur/5786/Yom Kippur 5786.png"))
+#set page(footer: article-footer("https://zeidyd.com/yom-kippur/5786/", "../Files/06 - Yom Tov/10 - Yom Kippur/5786/Yom Kippur 5786.png", show-number: true))
 = Yom Kippur 5786
 
 A very simple chassidish story, but as with all simple chassidish
@@ -12701,7 +12706,7 @@ will notice and will react accordingly.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/sukkos/5784/", "../Files/06 - Yom Tov/11 - Sukkos/5784/Sukkos 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/sukkos/5784/", "../Files/06 - Yom Tov/11 - Sukkos/5784/Sukkos 5784.png", show-number: true))
 = Sukkos 5784
 
 The name of our ⁧יום טוב⁩ is ⁧סוכות⁩. That is ⁧לשון רבים⁩. What is the name of
@@ -12731,7 +12736,7 @@ many ⁧קרבנות⁩, that the ⁧מסכתא⁩ is in ⁧לשון רבים⁩
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/sukkos/5785/", "../Files/06 - Yom Tov/11 - Sukkos/5785/Sukkos 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/sukkos/5785/", "../Files/06 - Yom Tov/11 - Sukkos/5785/Sukkos 5785.png", show-number: true))
 = Sukkos 5785
 
 ⁧סוכות⁩ is a ⁧יום טוב⁩ which the Torah describes as ⁧זמן שמחתינו⁩. If you ask
@@ -12795,7 +12800,7 @@ will give us the true ⁧שמחה⁩ that the Torah wants us to enjoy.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/sukkos/5786/", "../Files/06 - Yom Tov/11 - Sukkos/5786/Sukkos 5786.png"))
+#set page(footer: article-footer("https://zeidyd.com/sukkos/5786/", "../Files/06 - Yom Tov/11 - Sukkos/5786/Sukkos 5786.png", show-number: true))
 = Sukkos 5786
 
 ⁧סוכות⁩, ⁧זמן שמחתנו⁩. The ⁧יום טוב⁩ which we celebrate by completely removing
@@ -12843,7 +12848,7 @@ and something we can hope to emulate.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/hoshana-raba/5784/", "../Files/06 - Yom Tov/12 - Hoshana Raba/5784/Hoshana Raba 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/hoshana-raba/5784/", "../Files/06 - Yom Tov/12 - Hoshana Raba/5784/Hoshana Raba 5784.png", show-number: true))
 = Hoshana Raba 5784
 
 On ⁧הושענא רבה⁩, the Satmar Rebbe used to give the following ⁧דבר תורה⁩ to
@@ -12887,7 +12892,7 @@ consider these as ⁧מצוות⁩\."
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/hoshana-raba/5785/", "../Files/06 - Yom Tov/12 - Hoshana Raba/5785/Hoshana Raba 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/hoshana-raba/5785/", "../Files/06 - Yom Tov/12 - Hoshana Raba/5785/Hoshana Raba 5785.png", show-number: true))
 = Hoshana Raba 5785
 
 I generally mention the ⁧מנהגים⁩ that I have to those family members who
@@ -12950,7 +12955,7 @@ a moment's thought, at least one moment.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/hoshana-raba/5786/", "../Files/06 - Yom Tov/12 - Hoshana Raba/5786/Hoshana Raba 5786.png"))
+#set page(footer: article-footer("https://zeidyd.com/hoshana-raba/5786/", "../Files/06 - Yom Tov/12 - Hoshana Raba/5786/Hoshana Raba 5786.png", show-number: true))
 = Hoshana Raba 5786
 
 Rabbi Moshe Wolfson's shoomzen have been translated into English. He has
@@ -13011,7 +13016,7 @@ abandoned. As long as we try our best, no matter how low we have sunk, we can br
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/shmini-atzeres/5784/", "../Files/06 - Yom Tov/13 - Shmini Atzeres/5784/Shmini Atzeres 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/shmini-atzeres/5784/", "../Files/06 - Yom Tov/13 - Shmini Atzeres/5784/Shmini Atzeres 5784.png", show-number: true))
 = Shmini Atzeres 5784
 
 ⁧גוט יום טוב⁩ everybody. I have two ⁧דברי תורה⁩ for ⁧שמיני עצרת⁩ and ⁧שמחת תורה⁩
@@ -13087,7 +13092,7 @@ worthy of.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/shmini-atzeres/5785/", "../Files/06 - Yom Tov/13 - Shmini Atzeres/5785/Shmini Atzeres 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/shmini-atzeres/5785/", "../Files/06 - Yom Tov/13 - Shmini Atzeres/5785/Shmini Atzeres 5785.png", show-number: true))
 = Shmini Atzeres 5785
 
 We are now approaching the ⁧יום טוב⁩ of ⁧שמיני עצרת⁩. Throughout the ⁧יום טוב⁩
@@ -13154,7 +13159,7 @@ because that is our special day. We have that special day so we can have
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/shmini-atzeres/5786/(1)/", "../Files/06 - Yom Tov/13 - Shmini Atzeres/5786/Shmini Atzeres (1)/Shmini Atzeres (1) 5786.png"))
+#set page(footer: article-footer("https://zeidyd.com/shmini-atzeres/5786/(1)/", "../Files/06 - Yom Tov/13 - Shmini Atzeres/5786/Shmini Atzeres (1)/Shmini Atzeres (1) 5786.png", show-number: true))
 = Shmini Atzeres (1) 5786
 
 The ⁧חזקוני⁩, who was a ⁧ראשון⁩, in fact, he is one of the major ⁧מפרשים⁩ on
@@ -13182,7 +13187,7 @@ Hashem has for us, and we should reciprocate and have the ⁧חיבה⁩ back.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/shmini-atzeres/5786/(2)/", "../Files/06 - Yom Tov/13 - Shmini Atzeres/5786/Shmini Atzeres (2)/Shmini Atzeres (2) 5786.png"))
+#set page(footer: article-footer("https://zeidyd.com/shmini-atzeres/5786/(2)/", "../Files/06 - Yom Tov/13 - Shmini Atzeres/5786/Shmini Atzeres (2)/Shmini Atzeres (2) 5786.png", show-number: true))
 = Shmini Atzeres (2) 5786
 
 The ⁧יום טוב⁩ of ⁧שמיני עצרת⁩ is an extraordinarily unusual ⁧יום טוב⁩. No
@@ -13252,7 +13257,7 @@ year.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/simchas-torah/5784/", "../Files/06 - Yom Tov/14 - Simchas Torah/5784/Simchas Torah 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/simchas-torah/5784/", "../Files/06 - Yom Tov/14 - Simchas Torah/5784/Simchas Torah 5784.png", show-number: true))
 = Simchas Torah 5784
 
 ⁧שישו ושמחו בשמחת תורה⁩, ⁧ותנו כבוד לתורה⁩. This is a splendid and very
@@ -13321,7 +13326,7 @@ concerned about everybody else, relatives and non-relatives alike.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/simchas-torah/5785/", "../Files/06 - Yom Tov/14 - Simchas Torah/5785/Simchas Torah 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/simchas-torah/5785/", "../Files/06 - Yom Tov/14 - Simchas Torah/5785/Simchas Torah 5785.png", show-number: true))
 = Simchas Torah 5785
 
 ⁧שמחת תורה⁩. The famous sefer ⁧יסוד ושורש העבודה⁩ writes that a person who
@@ -13381,7 +13386,7 @@ very ⁦שמחה'דיק⁩ and ⁦כבוד התורה'דיק⁩ ⁧שמחת תו
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/simchas-torah/5786/(1)/", "../Files/06 - Yom Tov/14 - Simchas Torah/5786/Simchas Torah (1)/Simchas Torah 5786 (1).png"))
+#set page(footer: article-footer("https://zeidyd.com/simchas-torah/5786/(1)/", "../Files/06 - Yom Tov/14 - Simchas Torah/5786/Simchas Torah (1)/Simchas Torah 5786 (1).png", show-number: true))
 = Simchas Torah 5786 (1)
 
 Simchas Torah (1) 5786
@@ -13433,7 +13438,7 @@ newfound ⁧שמחה⁩ that carried her through the last month of her challenge
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/simchas-torah/5786/(2)/", "../Files/06 - Yom Tov/14 - Simchas Torah/5786/Simchas Torah (2)/Simchas Torah 5786 (2).png"))
+#set page(footer: article-footer("https://zeidyd.com/simchas-torah/5786/(2)/", "../Files/06 - Yom Tov/14 - Simchas Torah/5786/Simchas Torah (2)/Simchas Torah 5786 (2).png", show-number: true))
 = Simchas Torah 5786 (2)
 
 Simchas Torah (2) 5786
@@ -13475,7 +13480,7 @@ reason to celebrate.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/chanukah/5783/", "../Files/06 - Yom Tov/15 - Chanukah/5783/Chanukah 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/chanukah/5783/", "../Files/06 - Yom Tov/15 - Chanukah/5783/Chanukah 5783.png", show-number: true))
 = Chanukah 5783
 
 ⁧א פרייליכן חנוכה⁩! This is a story from the Torah Tavlin (Parshas Mikeitz
@@ -13546,7 +13551,7 @@ it at the right time and do the right thing."
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/chanukah/5784/", "../Files/06 - Yom Tov/15 - Chanukah/5784/Chanukah 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/chanukah/5784/", "../Files/06 - Yom Tov/15 - Chanukah/5784/Chanukah 5784.png", show-number: true))
 = Chanukah 5784
 
 ⁧חנוכה⁩! The ⁧מצוה⁩ of ⁧חנוכה⁩ is ⁧מהדרין מן המהדרין⁩. We follow the opinion of
@@ -13595,7 +13600,7 @@ merited that day. If we do this properly, we can extend the spirit of
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/chanukah/5785/", "../Files/06 - Yom Tov/15 - Chanukah/5785/Chanukah 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/chanukah/5785/", "../Files/06 - Yom Tov/15 - Chanukah/5785/Chanukah 5785.png", show-number: true))
 = Chanukah 5785
 
 ⁧לכבוד חנוכה⁩, and ⁧לעילוי נשמת רב⁩ ⁦צבי בן אלכסנדר הכהן הי״ד⁩, the man who
@@ -13634,7 +13639,7 @@ little people can\'t see it, but it's there. If we focus on the light of
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/10-teves/5785/", "../Files/06 - Yom Tov/16 - 10 Teves/5785/10 Teves 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/10-teves/5785/", "../Files/06 - Yom Tov/16 - 10 Teves/5785/10 Teves 5785.png", show-number: true))
 = 10 Teves 5785
 
 10 Teves 5785 \ (Erev Shabbos)
@@ -13684,7 +13689,7 @@ meaningful fast and a good ⁧ערב שבת⁩.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/tu-beshvat/5784/", "../Files/06 - Yom Tov/17 - Tu Beshvat/5784/Tu Beshvat 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/tu-beshvat/5784/", "../Files/06 - Yom Tov/17 - Tu Beshvat/5784/Tu Beshvat 5784.png", show-number: true))
 = Tu Beshvat 5784
 
 We are now in the month of ⁧שבט⁩, which, as R' Oelbaum said stands for
@@ -13738,7 +13743,7 @@ ultimate ⁧גאולה⁩ and ⁧ישועה⁩, !⁧במהרה בימינו⁩. 
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/tu-beshvat/5785/", "../Files/06 - Yom Tov/17 - Tu Beshvat/5785/Tu Beshvat 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/tu-beshvat/5785/", "../Files/06 - Yom Tov/17 - Tu Beshvat/5785/Tu Beshvat 5785.png", show-number: true))
 = Tu Beshvat 5785
 
 In preparing this ⁧דבר תורה⁩ for ⁦ט״ו בשבט⁩, a fascinating question arose, which I did not see in the ⁧ספרים⁩, but which is answered in the ⁧ספרים⁩.
@@ -13796,7 +13801,7 @@ the ultimate ⁧גאולה⁩, ⁧במהרה בימינו⁩.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/purim-katon/5784/", "../Files/06 - Yom Tov/18 - Purim Katon/5784/Purim Katon 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/purim-katon/5784/", "../Files/06 - Yom Tov/18 - Purim Katon/5784/Purim Katon 5784.png", show-number: true))
 = Purim Katon 5784
 
 This year, as an ⁧עיבור יאר⁩, we have two Purims - ⁧פורים קטן⁩ and ⁧פורים
@@ -13891,7 +13896,7 @@ of ⁧צער⁩. Have a very happy ⁧פורים קטן⁩!
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/purim/5783/krovitz/", "../Files/06 - Yom Tov/19 - Purim/5783/Krovitz/Krovitz.png"))
+#set page(footer: article-footer("https://zeidyd.com/purim/5783/krovitz/", "../Files/06 - Yom Tov/19 - Purim/5783/Krovitz/Krovitz.png", show-number: true))
 = Krovitz
 
 Krovitz Purim 5783
@@ -13908,7 +13913,7 @@ hundred guys will not know what ⁧קרובץ⁩ stands for. ⁧קרובץ⁩ st
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/purim/5783/dvar-torah/", "../Files/06 - Yom Tov/19 - Purim/5783/Purim Dvar Torah 5783/Purim Dvar Torah 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/purim/5783/dvar-torah/", "../Files/06 - Yom Tov/19 - Purim/5783/Purim Dvar Torah 5783/Purim Dvar Torah 5783.png", show-number: true))
 = Purim Dvar Torah 5783
 
 In ⁧מגילת אסתר⁩, there are so many wonderful ⁧פשטים⁩, so many different
@@ -13963,7 +13968,7 @@ legacy will be lost forever. Have a ⁧פריילעכן פורים⁩!
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/purim/5783/story/", "../Files/06 - Yom Tov/19 - Purim/5783/Story Purim 5783/Story Purim 5783.png"))
+#set page(footer: article-footer("https://zeidyd.com/purim/5783/story/", "../Files/06 - Yom Tov/19 - Purim/5783/Story Purim 5783/Story Purim 5783.png", show-number: true))
 = Story Purim 5783
 
 R' Yaakov Mordecai Greenwald, a ⁧חשוב⁩ rav and a ⁧גאון⁩, related the
@@ -14024,7 +14029,7 @@ many copies of that story. Have a Happy Purim!
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/purim/5784/", "../Files/06 - Yom Tov/19 - Purim/5784/Purim 5784.png"))
+#set page(footer: article-footer("https://zeidyd.com/purim/5784/", "../Files/06 - Yom Tov/19 - Purim/5784/Purim 5784.png", show-number: true))
 = Purim 5784
 
 I'm going to read you a very long essay about ⁧פורים⁩, covering many
@@ -14108,7 +14113,7 @@ splendid piece of ⁧תורה⁩ that we could all learn something from. Happy
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/purim/5785/", "../Files/06 - Yom Tov/19 - Purim/5785/Purim 5785.png"))
+#set page(footer: article-footer("https://zeidyd.com/purim/5785/", "../Files/06 - Yom Tov/19 - Purim/5785/Purim 5785.png", show-number: true))
 = Purim 5785
 
 The ⁧ספר הליקח והלבוב⁩, a series of ⁧ספרים⁩ written by R' Avraham Schorr, follows very much in the ⁧דרך⁩ of his ⁧הייליקא⁩ father, R' Gedalia Schorr, in that he combines ⁧נגלה⁩ and ⁧נסתר⁩ with tremendous ⁧בקיאות⁩ and ⁧עמקות⁩ - both in learning and in ⁧אגדתא⁩, in ⁧סברא⁩ and in ⁧השקפה⁩. He presents a
@@ -14179,7 +14184,7 @@ experiences as a means to spiritual growth. May we be ⁧זוכה⁩ to a real
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/bris/", "../Files/07 - Misc/Bris/Bris.png"))
+#set page(footer: article-footer("https://zeidyd.com/bris/", "../Files/07 - Misc/Bris/Bris.png", show-number: true))
 = Bris
 
 Bris 5784
@@ -14218,7 +14223,7 @@ is a potential ⁧משה⁩.
 
 #pagebreak()
 
-#set page(footer: article-footer("https://zeidyd.com/rabbi-oelbaum-shabbos/", "../Files/07 - Misc/Rabbi Oelbaum Shabbos/Shabbos - The Gift of Olam Haba in This World.png"))
+#set page(footer: article-footer("https://zeidyd.com/rabbi-oelbaum-shabbos/", "../Files/07 - Misc/Rabbi Oelbaum Shabbos/Shabbos - The Gift of Olam Haba in This World.png", show-number: true))
 = Shabbos - The Gift of Olam Haba in This World
 
 Zeidy: This was a dvar torah that R' Oelbaum requested be printed

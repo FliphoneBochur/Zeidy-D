@@ -403,10 +403,14 @@ function renderTypstDocument(entries, options) {
   leading: ${settings.leading},
 )
 
-#let article-footer(url, qr) = context {
-  let number = text(size: 7.2pt, fill: rgb("#444444"))[
-    #counter(page).display()
-  ]
+#let article-footer(url, qr, show-number: true) = context {
+  let number = if show-number {
+    text(size: 7.2pt, fill: rgb("#444444"))[
+      #counter(page).display()
+    ]
+  } else {
+    []
+  }
   let link-text = text(size: 7.2pt, fill: rgb("#222222"))[
     #link(url)[#url]
   ]
@@ -483,6 +487,7 @@ function renderTypstDocument(entries, options) {
   target: heading.where(level: 1),
 )
 #pagebreak()
+#counter(page).update(1)
 `);
       insertedTableOfContents = true;
     } else if (index > 0) {
@@ -490,7 +495,7 @@ function renderTypstDocument(entries, options) {
     }
 
     const footer = entry.hasFooter
-      ? `article-footer(${typstString(entry.url)}, ${typstString(qrRelativePath)})`
+      ? `article-footer(${typstString(entry.url)}, ${typstString(qrRelativePath)}, show-number: ${isFrontMatter ? "false" : "true"})`
       : "none";
     const heading = isFrontMatter
       ? `#heading(level: 1, outlined: false)[${entry.title}]`
