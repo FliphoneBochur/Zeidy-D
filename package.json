@@ -14,7 +14,8 @@
     "scan-person-index-candidates": "node scan-person-index-candidates.js",
     "replace-docx-text": "node replace-docx-text.js",
     "scan-bidi-risks": "node scan-bidi-risks.js",
-    "test-typesetting-rules": "node test-typesetting-rules.js"
+    "test-typesetting-rules": "node test-typesetting-rules.js",
+    "build": "npm run fix-docx-spacing -- --apply && npm run build-typeset-proof -- --all --output 'Final Sefer'"
   },
   "dependencies": {
     "qrcode": "1.5.4"
