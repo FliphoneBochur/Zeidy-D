@@ -29,6 +29,10 @@ const HEBREW_TEXT_WITH_PAREN_REFERENCE_RE = new RegExp(
   `(${HEBREW_TOKEN}(?:(?:\\s+${HEBREW_TOKEN})|(?:\\s+\\\\?\\.\\.\\.)){0,160})\\s+(${HEBREW_PAREN_REFERENCE})(?=\\s*\\.)`,
   "gu"
 );
+const HEBREW_ELLIPSIS_PHRASE_RE = new RegExp(
+  `${HEBREW_TOKEN}(?:(?:\\s+${HEBREW_TOKEN})){0,80}\\s+\\\\?\\.\\.\\.\\s+${HEBREW_TOKEN}(?:(?:\\s+${HEBREW_TOKEN})){0,80}`,
+  "gu"
+);
 const HEBREW_PAREN_REFERENCE_RE = new RegExp(HEBREW_PAREN_REFERENCE, "gu");
 const HEBREW_BARE_REFERENCE_RE = new RegExp(
   `(?:${HEBREW_TOKEN}\\s+)?${HEBREW_REF_TOKEN}\\s*:\\s*${HEBREW_REF_TOKEN}(?=\\s*:)`,
@@ -498,7 +502,11 @@ function isolateHebrewRuns(typstContent) {
       protect(`${RTL_ISOLATE}${hebrewText} ${LTR_ISOLATE}${reference}${POP_DIRECTIONAL_ISOLATE}${POP_DIRECTIONAL_ISOLATE}`)
   );
 
-  const referenceSafeContent = textWithReferenceSafeContent.replace(HEBREW_PAREN_REFERENCE_RE, (match) => {
+  const hebrewEllipsisSafeContent = textWithReferenceSafeContent.replace(HEBREW_ELLIPSIS_PHRASE_RE, (match) => {
+    return protect(`${RTL_ISOLATE}${match}${POP_DIRECTIONAL_ISOLATE}`);
+  });
+
+  const referenceSafeContent = hebrewEllipsisSafeContent.replace(HEBREW_PAREN_REFERENCE_RE, (match) => {
     return protect(`${LTR_ISOLATE}${match}${POP_DIRECTIONAL_ISOLATE}`);
   });
 

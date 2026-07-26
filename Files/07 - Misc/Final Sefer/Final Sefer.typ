@@ -10895,8 +10895,8 @@ signify? There is an entire ⁧דרשה⁩ on this topic, discussing how vital a
 impactful the ⁧ארבע כוסות⁩ are. By studying this, I was able to appreciate
 much more what the ⁧ארבע כוסות⁩ mean to us.
 
-At the beginning of ⁧פרשת בא⁩, the ⁧תורה⁩ states: (⁧וּלְמַעַן תְּסַפֵּר בְּאׇזְנֵי בִנְךָ⁩ \...
-⁧וִידַעְתֶּם כִּי אֲנִי ה׳⁩ (⁧שמות י׳⁩:⁧ב׳⁩. Through the ⁧מצוה⁩ of ⁧סיפור יציאת מצרים⁩, we
+At the beginning of ⁧פרשת בא⁩, the ⁧תורה⁩ states: (⁧וּלְמַעַן תְּסַפֵּר בְּאׇזְנֵי בִנְךָ \...
+וִידַעְתֶּם כִּי אֲנִי ה׳⁩ (⁧שמות י׳⁩:⁧ב׳⁩. Through the ⁧מצוה⁩ of ⁧סיפור יציאת מצרים⁩, we
 are able to achieve ⁧וִידַעְתֶּם כִּי אֲנִי ה׳⁩ - to attain some level of
 understanding of Hashem and His relationship with us. To summarize, there are three levels to the ⁧סדר⁩: \1. ⁧סיפור יציאת מצרים⁩ - Through the ⁧ד׳ כוסות⁩, through the ⁧סדר⁩, and
 through all the meaningful components of the ⁧סדר⁩, we recount and relive
@@ -12041,7 +12041,7 @@ that ⁧מַתְּנַת בָּשָׂר וָדָם⁩? No, that's not ⁧מַת�
 called ⁧משפחה⁩, that's called your family. When you're getting something
 from your father, mother, and family, that's not ⁧מַתְּנַת בָּשָׂר וָדָם⁩.
 
-What are we asking Hashem? ⁧אַחַת שָׁאַלְתִּי מֵאֵת ה׳⁩ \... ⁧שִׁבְתִּי בְּבֵית ה׳ כׇּל יְמֵי חַיַּי⁩
+What are we asking Hashem? ⁧אַחַת שָׁאַלְתִּי מֵאֵת ה׳ \... שִׁבְתִּי בְּבֵית ה׳ כׇּל יְמֵי חַיַּי⁩
 \- Hashem, I want to be part of your ⁧משפחה⁩. I want to live in your
 house. I want to be close to you, as close as a father and a mother.
 When you ask ⁧הקדוש ברוך הוא שִׁבְתִּי בְּבֵית ה׳ כׇּל יְמֵי חַיַּי⁩, that I want to live

@@ -235,6 +235,13 @@ test("keeps Hebrew hyphenated divine name in one reading order", () => {
   );
 });
 
+test("keeps Hebrew phrase split by ellipsis in one reading order", () => {
+  assert.equal(
+    applyTextRules("אַחַת שָׁאַלְתִּי מֵאֵת ה׳ \\... שִׁבְתִּי בְּבֵית ה׳ כׇּל יְמֵי חַיַּי - Hashem"),
+    `${RTL_ISOLATE}אַחַת שָׁאַלְתִּי מֵאֵת ה׳ \\... שִׁבְתִּי בְּבֵית ה׳ כׇּל יְמֵי חַיַּי${POP_DIRECTIONAL_ISOLATE} - Hashem`
+  );
+});
+
 test("keeps acronym-led Hebrew source titles in logical order", () => {
   assert.equal(
     applyTextRules('addresses this in שו\\"ת חתם סופר, יורה דעה סימן רל\\"ג, in the name'),
