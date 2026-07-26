@@ -277,6 +277,20 @@ test("keeps full parenthesized Hebrew citation in reading order", () => {
   );
 });
 
+test("moves newline-wrapped parenthesized Hebrew citation after following quote", () => {
+  assert.equal(
+    applyTextRules("That's what we say (תהילים\nכ״ז:ד׳) שִׁבְתִּי"),
+    `That's what we say ${RTL_ISOLATE}שִׁבְתִּי${POP_DIRECTIONAL_ISOLATE} ${LTR_ISOLATE}(תהילים\nכ״ז:ד׳)${POP_DIRECTIONAL_ISOLATE}`
+  );
+});
+
+test("moves parenthesized Hebrew citation after following quote", () => {
+  assert.equal(
+    applyTextRules("That's what we say (תהילים כ״ז:ד׳) שִׁבְתִּי בְּבֵית ה׳ כׇּל יְמֵי חַיַּי."),
+    `That's what we say ${RTL_ISOLATE}שִׁבְתִּי בְּבֵית ה׳ כׇּל יְמֵי חַיַּי ${LTR_ISOLATE}(תהילים כ״ז:ד׳)${POP_DIRECTIONAL_ISOLATE}${POP_DIRECTIONAL_ISOLATE}.`
+  );
+});
+
 test("keeps plain-letter parenthesized Hebrew citation in reading order", () => {
   assert.equal(
     applyTextRules("as we know משלי ו:כג)) כִּי נֵר"),

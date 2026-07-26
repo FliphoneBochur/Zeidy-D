@@ -24,9 +24,13 @@ const HEBREW_TOKEN = `${HEBREW_LETTERS}+(?:${HEBREW_INTERNAL_QUOTE}${HEBREW_LETT
 const HEBREW_REF_TOKEN = `${HEBREW_BASE_LETTERS}+(?:${HEBREW_INTERNAL_QUOTE}${HEBREW_BASE_LETTERS}+)*(?:${HEBREW_INTERNAL_QUOTE})?`;
 const HEBREW_ACRONYM = `${HEBREW_LETTERS}+(?:(?:${HEBREW_INTERNAL_QUOTE}${HEBREW_LETTERS}+)+|${HEBREW_INTERNAL_QUOTE})`;
 const HEBREW_STRONG_ACRONYM = `(?:${HEBREW_LETTERS}+(?:${HEBREW_INTERNAL_QUOTE}${HEBREW_LETTERS}+)+|${HEBREW_LETTERS}{2,}${HEBREW_INTERNAL_QUOTE})`;
-const HEBREW_PAREN_REFERENCE = `\\((?=[^()\\n]{1,120}\\))(?=[^()\\n]{0,120}(?:${HEBREW_STRONG_ACRONYM}|:))(?:${HEBREW_TOKEN}|\\s|:|-){1,120}\\)`;
+const HEBREW_PAREN_REFERENCE = `\\((?=[^()]{1,120}\\))(?=[^()]{0,120}(?:${HEBREW_STRONG_ACRONYM}|:))(?:${HEBREW_TOKEN}|\\s|:|-){1,120}\\)`;
 const HEBREW_TEXT_WITH_PAREN_REFERENCE_RE = new RegExp(
   `(${HEBREW_TOKEN}(?:(?:\\s+${HEBREW_TOKEN})|(?:\\s+\\\\?\\.\\.\\.)){0,160})\\s+(${HEBREW_PAREN_REFERENCE})(?=\\s*\\.)`,
+  "gu"
+);
+const HEBREW_PAREN_REFERENCE_BEFORE_QUOTE_RE = new RegExp(
+  `(\\b(?:say|says|said|state|states|stated|stating|pasuk says)\\s+)(${HEBREW_PAREN_REFERENCE})\\s+(${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN}){0,80})(?=\\s*[.?!,;:]|\\s+[A-Za-z]|$)`,
   "gu"
 );
 const HEBREW_ELLIPSIS_PHRASE_RE = new RegExp(
@@ -460,6 +464,13 @@ function normalizeMisplacedHebrewCommas(typstContent) {
   });
 }
 
+function moveLeadingHebrewSourceAfterQuote(typstContent) {
+  return typstContent.replace(
+    HEBREW_PAREN_REFERENCE_BEFORE_QUOTE_RE,
+    (_match, prefix, reference, quote) => `${prefix}${quote} ${reference}`
+  );
+}
+
 function keepIndexMarkersAfterPunctuation(typstContent) {
   return typstContent.replace(
     /(#metadata\(none\)\s*<[^>\n]+>)[\s\u00A0\u202F]*([,;:.!?])([ \t\u00A0\u202F]*)/g,
@@ -549,7 +560,9 @@ function isolateHebrewRuns(typstContent) {
 
 function applyTextRules(typstContent) {
   return isolateHebrewRuns(
-    normalizeMisplacedHebrewCommas(normalizePunctuationSpacing(typstContent))
+    moveLeadingHebrewSourceAfterQuote(
+      normalizeMisplacedHebrewCommas(normalizePunctuationSpacing(typstContent))
+    )
   );
 }
 
