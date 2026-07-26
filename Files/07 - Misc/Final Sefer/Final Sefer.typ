@@ -12016,40 +12016,39 @@ true reason for ⁧ביאת גואל צדק⁩.
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/elul/5784/", "../../06 - Yom Tov/08 - Elul/5784/Elul 5784.png"))
 = Elul 5784
 
-My vort for ⁧אלול⁩, which ⁧אני הקטן⁩ thought of, and I was inspired by a
-number of different people, including Rabbi Oelbaum, #metadata(none) <person-index-r-noach-isaac-oelbaum-909> is as follows: We
-know that the month of ⁧אלול⁩ is unique and distinctive in that every day
-we say ⁧לְדָוִד ה׳ אוֹרִי וְיִשְׁעִי⁩. In that ⁧קאַפּיטל⁩ there's the pasuk ⁧אַחַת שָׁאַלְתִּי
-מֵאֵת ה׳⁩ - that's only one thing that I'm asking for. And then we go home
-and we wash and we have a nice fresh roll and a little scrambled egg or
-whatever. And then we bentch, and in bentching we say ⁧הקדוש ברוך הוא⁩, I
-need: ⁧לְחֵן וּלְחֶסֶד וּלְרַחֲמִים וּלְרֶוַח הַצָּלָה וְהַצְלָחָה בְּרָכָה וִישׁוּעָה, נֶחָמָה, פַּרְנָסָה וְכַלְכָּלָה, וְרַחֲמִים, וְחַיִּים וְשָׁלוֹם, וְכָל טוֹב⁩. And ⁧הקדוש ברוך הוא⁩, in case I left
-anything out, ⁧וּמִכָּל טוּב לְעוֹלָם אַל יְחַסְּרֵנוּ⁩ - If I forgot something, please
-throw in all the other good stuff that you can do.
+My vort for ⁧אלול⁩ was inspired by a number of people, including Rabbi
+Oelbaum, #metadata(none) <person-index-r-noach-isaac-oelbaum-909> is as follows: We know that the month of ⁧אלול⁩ is distinctive in
+that every day we say ⁧לְדָוִד ה׳ אוֹרִי וְיִשְׁעִי⁩. In that ⁧קאַפּיטל⁩ there's the
+pasuk ⁧אַחַת שָׁאַלְתִּי מֵאֵת ה׳⁩ - there is only one thing that I'm asking for.
+Then we go home and we wash and we have a nice fresh roll and a little
+scrambled egg or whatever, and then we bentch. In bentching we say: ⁧הקדוש ברוך הוא⁩, I need -⁧לְחֵן וּלְחֶסֶד וּלְרַחֲמִים וּלְרֶוַח הַצָּלָה וְהַצְלָחָה בְּרָכָה וִישׁוּעָה, נֶחָמָה, פַּרְנָסָה וְכַלְכָּלָה, וְרַחֲמִים, וְחַיִּים וְשָׁלוֹם, וְכָל טוֹב⁩. And ⁧הקדוש ברוך הוא⁩, in
+case I left anything out, ⁧וּמִכָּל טוּב לְעוֹלָם אַל יְחַסְּרֵנוּ⁩ - If I forgot
+something, please throw in all the other good stuff that you can do.
 
 So hang on. Ten seconds ago, you said, I'm only asking you one thing, ⁧אַחַת שָׁאַלְתִּי⁩. And now you're asking an entire list. It's an endless list.
 ⁧וּמִכָּל טוּב לְעוֹלָם אַל יְחַסְּרֵנוּ⁩ - it's an infinite list.
 
-The ⁧תירוץ⁩ is that we ask for one thing in bentching that we don't want.
-⁧לֺא לִידֵי מַתְּנַת בָּשָׂר וָדָם⁩ - I want that everything you want to give to me
-should come directly from you, not from ⁧לִידֵי מַתְּנַת בָּשָׂר וָדָם⁩. ⁧חס ושלום⁩, we
-should never have to come on to ⁧מַתְּנַת בָּשָׂר וָדָם⁩. Let me ask you a question.
-A kid comes home from school and he says, 'Ma, what's for supper?' So
-she gives him supper. Is that called ⁧מַתְּנַת בָּשָׂר וָדָם⁩? An older kid asks, 'Daddy, I'm getting ⁧בר מצוה⁩, can I have a Borsalino?' 'Okay, you can
-have a Borsalino.' Is that ⁧מַתְּנַת בָּשָׂר וָדָם⁩? An even older kid comes along
-and says, 'Dad, can I borrow the car keys?' Is that ⁧מַתְּנַת בָּשָׂר וָדָם⁩? And
-even better, 'Can I have a car?' Is that ⁧מַתְּנַת בָּשָׂר וָדָם⁩? No, that's not
-⁧מַתְּנַת בָּשָׂר וָדָם⁩. Why? Because that's called ⁧משפחה⁩, that's called your
-family. When you're getting something from your father, mother, and
-family, that's not ⁧מַתְּנַת בָּשָׂר וָדָם⁩.
+The ⁧תירוץ⁩ is there is one thing in bentching that we do not want. ⁧לֺא
+לִידֵי מַתְּנַת בָּשָׂר וָדָם⁩ - everything that I need should come directly from
+you, not from ⁧מַתְּנַת בָּשָׂר וָדָם⁩. ⁧חס ושלום⁩, we should never have to come on to
+⁧מַתְּנַת בָּשָׂר וָדָם⁩. Let me ask you a question. A kid comes home from school
+and he says, 'Ma, what's for supper?' So she gives him supper. Is that
+called ⁧מַתְּנַת בָּשָׂר וָדָם⁩? An older kid asks, 'Daddy, I'm getting ⁧בר מצוה⁩, can
+I have a Borsalino?' 'Okay, you can have a Borsalino.' Is that ⁧מַתְּנַת בָּשָׂר
+וָדָם⁩? An even older kid comes along and says, 'Dad, can I borrow the car
+keys?' Is that ⁧מַתְּנַת בָּשָׂר וָדָם⁩? And even better, 'Can I have a car?' Is
+that ⁧מַתְּנַת בָּשָׂר וָדָם⁩? No, that's not ⁧מַתְּנַת בָּשָׂר וָדָם⁩. Why? Because that's
+called ⁧משפחה⁩, that's called your family. When you're getting something
+from your father, mother, and family, that's not ⁧מַתְּנַת בָּשָׂר וָדָם⁩.
 
-What are we asking Hashem? ⁧שִׁבְתִּי בְּבֵית ה׳ כׇּל יְמֵי חַיַּי⁩ - Hashem, I want to
-be part of your ⁧משפחה⁩. I want to live in your house. I want to be close
-to you, as close as a father and a mother. When you ask ⁧הקדוש ברוך הוא
-שִׁבְתִּי בְּבֵית ה׳ כׇּל יְמֵי חַיַּי⁩, that I want to live in your house, then you can
-ask for everything. And that's why when we bentch, we can ask for
-everything. And may ⁧הקדוש ברוך הוא⁩ give us the ⁧זכות⁩ to get all the good
-things we ask for, ⁧לטובה⁩, and to have a wonderful ⁧כתיבה וחתימה טובה⁩.
+What are we asking Hashem? ⁧אַחַת שָׁאַלְתִּי מֵאֵת ה׳⁩ \... ⁧שִׁבְתִּי בְּבֵית ה׳ כׇּל יְמֵי חַיַּי⁩
+\- Hashem, I want to be part of your ⁧משפחה⁩. I want to live in your
+house. I want to be close to you, as close as a father and a mother.
+When you ask ⁧הקדוש ברוך הוא שִׁבְתִּי בְּבֵית ה׳ כׇּל יְמֵי חַיַּי⁩, that I want to live
+in your house, then you can ask for everything. That's why when we
+bentch, we can ask for everything. May we be ⁧זוכה⁩ that ⁧הקדוש ברוך הוא⁩
+give us all the good things we ask for ⁧לטובה⁩, and to have a wonderful
+⁧כתיבה וחתימה טובה⁩.
 
 #pagebreak()
 
