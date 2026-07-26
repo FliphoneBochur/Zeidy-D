@@ -12096,16 +12096,15 @@ proper use, then we can then be successful in our life's journey towards
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/rosh-hashana/5784/", "../../06 - Yom Tov/09 - Rosh Hashana/5784/Rosh Hashana 5784.png"))
 = Rosh Hashana 5784
 
-The ⁧דברי שיח⁩, #metadata(none) <person-index-divrei-si-ach-911> which is a weekly sheet put out by the family of Rav Chaim
-Kanievsky#metadata(none) <person-index-r-chaim-kanievsky-915> ⁦זצ״ל⁩, had this interesting ⁧מעשה⁩ a number of years ago, which
-is one of the most amazing and important articles I've ever read about
-⁧ראש השנה⁩. The moral of the story, which they don't bring down, is every
-little step towards ⁧תשובה⁩ is counted as a very important item up in
-⁧שמים⁩. Whatever we do, as long as we're starting on that journey, we must
-keep in mind that every little step is an important accomplishment. The
-story is quoted in the name of Rav Yitzchak Zilberstein, #metadata(none) <person-index-r-yitzchok-zilberstein-917> and he says as
-follows: a chashuv Yid told me that this is what happened to him on a
-recent trip to America.
+The ⁧דברי שיח⁩#metadata(none) <person-index-divrei-si-ach-911> is a weekly sheet by Rav Chaim Kanievsky#metadata(none) <person-index-r-chaim-kanievsky-915> ⁦זצ״ל⁩. A number of
+years ago, it had this interesting ⁧מעשה⁩. It is one of the most amazing
+and important articles I've ever read about ⁧ראש השנה⁩. The moral of the
+story, which they don't bring down, is every little step towards ⁧תשובה⁩
+we do here is counted as a very important item up in ⁧שמים⁩. Whatever we
+do, as long as we're starting on that journey, we must keep in mind that
+every little step is an important accomplishment. The story is quoted in
+the name of Rav Yitzchak Zilberstein, #metadata(none) <person-index-r-yitzchok-zilberstein-917> who says: a chashuv Yid told me
+that this is what happened to him on a recent trip to America.
 
 He said, I was going to America for business, and the majority of my
 business was going to be located in Miami. I have a cousin in Miami who
@@ -12118,7 +12117,7 @@ yarmulke, and not a ⁧כיפה סרוגה⁩, a big yarmulke. I thought to myse
 beautiful villa on the ocean shore, and I noticed a lot of interesting
 changes. There was a very beautiful ⁧מזוזה⁩ on the door, ⁧ספרים⁩ in the
 house, and I got more and more amazed when I came into his living room
-and I saw a ⁧לאכטער⁩. Shabbos candlesticks, ⁧סידורים, חומשים⁩, all of the
+and I saw a ⁧לאכטער⁩. Shabbos candlesticks, ⁧סידורים, חומשים⁩, all the
 aspects of ⁧יידישקייט⁩ that we're used to, but he was not. I could not
 control myself. I said to him, "My dear cousin, I see something has
 changed in your life. You're behaving in a different manner. I see all
@@ -12126,23 +12125,23 @@ the wonderful things that you have here. Tell me what caused this
 amazing change in your life." He told me that this is what happened.
 
 "Last ⁧ראש השנה⁩, I was sitting on my porch and I looked out to the sea
-and I see all of a sudden, I looked down and saw hordes of people
-starting to walk towards the ocean. Even though I was very far away from
-⁧יהדות⁩, and for years and years I did not go to shul, I remembered that
-we had in the minhag of ⁧תשליך⁩, where we go down to the ⁧ים⁩ and daven
-there to Hashem. My father used to take me when I was a little kid. And
-I said, "You know what? I'm going to with these people. I'm going to go
-down and join them to go to the shore. And I went. I was standing in
-this group of Yidden, everybody was holding their machzorim and
-davening. A gentleman came over to me, gave he gave me a siddur, and
-showed me what paragraph to say. I said the psukim of ⁧תשליך⁩ with intense
+and saw hordes of people starting to walk towards the ocean. Even though
+I was very far away from ⁧יהדות⁩, and for years and years I did not go to
+shul, I remembered that we had the minhag of ⁧תשליך⁩, where we go down to
+the ⁧ים⁩ and daven there to Hashem. My father used to take me when I was a
+little kid. And I said, "You know what? I'm going to with these people.
+I'm going to go down and join them to go to the shore. And I went. I was
+standing in this group of Yidden, everybody was holding their machzorim
+and davening. A gentleman came over to me, gave me a siddur, and showed
+me what paragraph to say. I said the psukim of ⁧תשליך⁩ with intense
 concentration, and then ⁧תשליך⁩ was over. I turned to go back to my house.
-Then I noticed that someone standing by my side. I turned around and I
-saw a tall, handsome, chashuv Yid. He smiled at me with a radiance on
-his face and asked, "Tell me my friend, have you heard ⁧תקיעת שופר⁩
-today?" I replied that no, I had not. He took out from his pocket a
-little small ⁧שופר⁩. He told me to listen carefully and to have ⁧כוונה⁩ to
-be ⁧יוצא⁩, and he blew for me 30 ⁧קולות⁩. When he finished, he said to me, "My name is Moshe Katz#metadata(none) <person-index-moshe-katz-912>", and he went on his way.
+Then I noticed someone standing by my side. I turned around and I saw a
+tall, handsome, chashuv Yid. He smiled at me with a radiance on his face
+and asked, "Tell me my friend, have you heard ⁧תקיעת שופר⁩ today?" I
+replied that no, I had not. He took out from his pocket a little small
+⁧שופר⁩. He told me to listen carefully and to have ⁧כוונה⁩ to be ⁧יוצא⁩, and
+he blew 30 ⁧קולות⁩ for me. When he finished, he said to me, "My name is
+Moshe Katz#metadata(none) <person-index-moshe-katz-912>", and he went on his way.
 
 I came back home and I was sort of astonished. I told my wife exactly
 what happened at ⁧תשליך⁩. I described to her the man who spoke to me. I
