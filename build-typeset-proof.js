@@ -55,6 +55,10 @@ const HEBREW_COMMA_PHRASE_SEQUENCE_RE = new RegExp(
   `${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN})*(?:,\\s*${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN})*){1,8}`,
   "gu"
 );
+const HEBREW_HYPHENATED_TOKEN_RE = new RegExp(
+  `${HEBREW_TOKEN}(?:\\s*-\\s*${HEBREW_TOKEN})+`,
+  "gu"
+);
 const HEBREW_ACRONYM_RE = new RegExp(
   `${HEBREW_STRONG_ACRONYM}(?:\\s+${HEBREW_STRONG_ACRONYM})*`,
   "gu"
@@ -468,7 +472,9 @@ function normalizePunctuationSpacing(typstContent) {
     .replace(new RegExp(`(${HEBREW_LETTERS})(?=[A-Za-z])`, "gu"), "$1 ")
     .replace(new RegExp(`([A-Za-z])(?=${HEBREW_LETTERS})`, "gu"), "$1 ")
     .replace(/[\s\u00A0\u202F]+([,;:.!?])/g, "$1")
-    .replace(/([,;:])\s*/g, "$1 ")
+    .replace(/([;:])\s*/g, "$1 ")
+    .replace(/,(?!\d)\s*/g, ", ")
+    .replace(/(\d),\s+(?=\d)/g, "$1,")
     .replace(/,\s*,\s*/g, ", ")
     .replace(/(\d+):\s+(\d+)/g, "$1:$2")
     .replace(new RegExp(`(\\(\\d+:\\d+\\))(?=${HEBREW_LETTERS})`, "gu"), "$1 ")
@@ -512,7 +518,11 @@ function isolateHebrewRuns(typstContent) {
     return protect(`${RTL_ISOLATE}${match}${POP_DIRECTIONAL_ISOLATE}`);
   });
 
-  const acronymContextSafeContent = hebrewCommaPhraseSafeContent.replace(HEBREW_ACRONYM_CONTEXT_RE, (match) => {
+  const hebrewHyphenatedSafeContent = hebrewCommaPhraseSafeContent.replace(HEBREW_HYPHENATED_TOKEN_RE, (match) => {
+    return protect(`${RTL_ISOLATE}${match.replace(/\s*-\s*/g, "-")}${POP_DIRECTIONAL_ISOLATE}`);
+  });
+
+  const acronymContextSafeContent = hebrewHyphenatedSafeContent.replace(HEBREW_ACRONYM_CONTEXT_RE, (match) => {
     return protect(`${LTR_ISOLATE}${match}${POP_DIRECTIONAL_ISOLATE}`);
   });
 
@@ -787,17 +797,17 @@ function renderTypstDocument(entries, options, indexState = null) {
 
   if calc.odd(here().page()) {
     grid(
-      columns: (auto, 1fr),
-      align: top,
-      left-link-block,
-      [],
-    )
-  } else {
-    grid(
       columns: (1fr, auto),
       align: top,
       [],
       right-link-block,
+    )
+  } else {
+    grid(
+      columns: (auto, 1fr),
+      align: top,
+      left-link-block,
+      [],
     )
   }
 }

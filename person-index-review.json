@@ -213,9 +213,19 @@
       "aliases": [
         "Baal Shem Tov",
         "The Baal Shem Tov",
-        "בעל שם טוב"
+        "בעל שם טוב",
+        "בעל שם"
       ],
       "createdAt": "2026-07-24T01:51:43.053Z"
+    },
+    "maggid-of-mezritch": {
+      "displayName": "Maggid of Mezritch",
+      "aliases": [
+        "Maggid of Mezritch",
+        "The Maggid of Mezritch",
+        "מגיד of Mezritch"
+      ],
+      "createdAt": "2026-07-24T01:51:50.594Z"
     },
     "r-baruch-rabinowitz": {
       "displayName": "R’ Baruch Rabinowitz",

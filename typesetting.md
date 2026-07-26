@@ -62,7 +62,7 @@ Pandoc already supports Typst output, so the `.docx` files can stay as the sourc
 - Final font. Current proof uses `Times New Roman` at 11pt for body text and article titles.
 - Route entries can include an optional `title`. The typesetting build uses `title` for the visible article heading when present, otherwise it falls back to `baseFilename`.
 - Use `npm run choose-route-titles` to review source-title conflicts one at a time and save chosen titles into `routes.json`.
-- Footer convention: odd page numbers on bottom right, even page numbers on bottom left. QR code and route link go on the opposite side from the page number, with the link aligned to the bottom of the QR image. On the left side the order is QR then link; on the right side the order is link then QR.
+- Footer convention: page numbers appear in the header, odd pages on the top right and even pages on the top left. QR code and route link go on the same side as the page number, with the link aligned to the bottom of the QR image. On the left side the order is QR then link; on the right side the order is link then QR.
 - `About the Name` is front matter and intentionally has no QR/footer link block.
 - Whether the footer appears on every article page or only the first page of each article.
 - Whether each article should always start on a new page, a right-hand page, or flow continuously.

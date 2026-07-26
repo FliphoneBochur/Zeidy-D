@@ -32,6 +32,13 @@ test("adds spaces after commas and removes spaces before commas", () => {
   );
 });
 
+test("keeps numeric thousands separators tight", () => {
+  assert.equal(
+    normalizePunctuationSpacing("There are 12,196 letters, which appears again as 12, 196"),
+    "There are 12,196 letters, which appears again as 12,196"
+  );
+});
+
 test("removes spaces before sentence punctuation", () => {
   assert.equal(
     normalizePunctuationSpacing("R' Moshe Sternbuch , who quoted Rav Itzele Peterburger . What"),
@@ -218,6 +225,13 @@ test("keeps comma-separated Hebrew bracha phrase in one reading order", () => {
   assert.equal(
     applyTextRules("all following בדרך השם,בנים ובני בנים עוסקים בתורה ובמצוות, להגדיל תורה ולהאדירה, עד עולם!"),
     `all following ${RTL_ISOLATE}בדרך השם, בנים ובני בנים עוסקים בתורה ובמצוות, להגדיל תורה ולהאדירה, עד עולם${POP_DIRECTIONAL_ISOLATE}!`
+  );
+});
+
+test("keeps Hebrew hyphenated divine name in one reading order", () => {
+  assert.equal(
+    applyTextRules("spell י-ה, Hashem's name"),
+    `spell ${RTL_ISOLATE}י-ה${POP_DIRECTIONAL_ISOLATE}, Hashem's name`
   );
 });
 
