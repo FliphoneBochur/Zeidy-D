@@ -9281,7 +9281,7 @@ There is a sefer called ⁧אהבת תורה⁩, #metadata(none) <person-index-a
 words of the ⁧מגלה עמוקות⁩ made such an impression on him that he wanted
 to understand more, and to do a ⁧חשבון⁩ himself. The author of ⁧אהבת תורה⁩#metadata(none) <person-index-ahavas-torah-709>
 was ⁧הגאון רב פנחס זאמען סגל⁩, #metadata(none) <person-index-r-pinchas-zalman-segol-713> who lived in Poland and was born in Krakow
-in the year ⁦ת״ר⁩. He gives a short biography of Rav ⁧פנחס זאמען סגל⁩, as
+in the year ⁦ת״ר⁩. He gives a short biography of ⁧רב פנחס זאמען סגל⁩, as
 ⁧אהבת תורה⁩#metadata(none) <person-index-ahavas-torah-710> is not a well-known sefer. He writes that he wanted to know
 how many times the Name ⁦הוי״ה⁩ / ⁧י ק ו ק⁩ appears in the Torah. So, what
 did he do? He sat down and counted every instance from ⁧בראשית⁩ to ⁧וזאת
@@ -9328,11 +9328,10 @@ showering us with his name of ⁧רחמים⁩ in these days when we're trying t
 bring ourselves back from ⁧תשעה באב⁩. ⁧ז׳ דנחמתאּ⁩, this is exactly where it
 belongs. ⁧י ק ו ק⁩, the name of ⁧רחמים⁩. Hashem is showing us, "I'm giving
 you my name, use it, hear it, say it. Utilize it to its fullest
-capacity." I He didn't have that in his sefer, I thought of that myself.
-I don't know if I'm right or wrong. That's my own little ⁦בעל הבית'ישע⁩
-take on it. But I listen to everybody's opinion including my own.
-Sometimes I'm right, sometimes I'm not. I try to do things ⁧על פי דרך
-התורה⁩.
+capacity." He didn't have that in his sefer, I thought of that myself. I
+don't know if I'm right or wrong. That's my own little ⁦בעל הבית'ישע⁩ take
+on it. But I listen to everybody's opinion including my own. Sometimes
+I'm right, sometimes I'm not. I try to do things ⁧על פי דרך התורה⁩.
 
 May Hashem continue to give us ⁧ברכה והצלחה⁩ in all that we do. We should
 hear only ⁧בשרות טובות⁩, and Hashem should send ⁧ישועות ונחמות⁩. ⁧ובעזרת השם, ביאת גואל צדק במהרה בימינו אמן⁩.
