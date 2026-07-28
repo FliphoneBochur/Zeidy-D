@@ -5433,8 +5433,7 @@ to the seventh and highest ⁧רקיע⁩.
 However, ⁧הקדוש ברוך הוא⁩ sent seven ⁧צדיקים⁩ to bring the ⁧שכינה⁩ back down
 to ⁧ארץ⁩:⁧אברהם, יצחק, יעקב, לוי, קהת, עמרם⁩, and ⁧משה⁩. When the ⁧משכן⁩ was
 completed, the ⁧שכינה⁩ finally returned to this world, fulfilling ⁦הקדוש
-ברוך הוא'⁩s original desire. This is expressed in the ⁧פסוק⁩: ⁧אִוָּהּ לְמֹושָׁב לֹו⁩
-⁦(תהילים קל״ב:י״ג)⁩ - Hashem desired to dwell here in this world. That is
+ברוך הוא'⁩s original desire. This is expressed in the ⁧פסוק⁩: ⁧אִוָּהּ לְמֹושָׁב לֹו ⁦(תהילים קל״ב:י״ג)⁩⁩ - Hashem desired to dwell here in this world. That is
 why it says: (⁧וְעָשׂוּ לִי מִקְדָּשׁ וְשָׁכַנְתִּי בְּתוֹכָם⁩ (⁦שמות כ״ה⁩:⁧ח׳⁩. This teaches us
 that the ⁧שכינה⁩ had a deep ⁧תשוקה⁩ to return to this ⁧עולם⁩. Therefore, the
 ⁧שמחה⁩ that ⁧הקדוש ברוך הוא⁩ had on the day of ⁧בריאת שמים וארץ⁩ was the same
@@ -8445,8 +8444,8 @@ called a ⁧הולך⁩, and a ⁧מלאך⁩ is called an ⁧עומד⁩. A ⁧
 ⁧מדרגה⁩, it cannot go higher or lower. He has his ⁧תפקיד⁩, he has his job
 that ⁧הקדוש ברוך הוא⁩ assigns to him, and he cannot improve that or fall
 from it. On the other hand, human beings are given a ⁧תפקיד⁩ of a ⁧הולך⁩.
-The difference between us and ⁧מתים⁩ is it says ⁦(דברים ט״ז:כ״ב)⁩ ⁧וְלֹא תָקִים
-לְךָ מַצֵּבָה⁩ - we're not allowed to have a ⁧מצבה⁩, which is how the ⁧גוים⁩
+The difference between us and ⁧מתים⁩ is it says ⁧וְלֹא תָקִים
+לְךָ מַצֵּבָה ⁦(דברים ט״ז:כ״ב)⁩⁩ - we're not allowed to have a ⁧מצבה⁩, which is how the ⁧גוים⁩
 worship ⁧עבודה זרה⁩. We build a ⁧מזבח⁩ with ⁧אבנים⁩. R' Moshe Feinstein#metadata(none) <person-index-r-moshe-feinstein-652> says
 that ⁧אבנים⁩ represents steps. Man is on a series of steps, constantly
 rising, constantly walking, and constantly improving himself, whereas a
@@ -9214,7 +9213,7 @@ The sefer ⁧צוארי חלל⁩, from the ⁧מעינה של תורה⁩, #met
 Aharon ben Chaim from Izmir, the ⁧איזמירער חסידישע רבי⁩, a fascinating
 insight from the ⁧מדרש⁩. He explains that any place in ⁦תנ״ך⁩ where it uses
 the expression ⁧אין לה⁩, it means ⁧אין לה⁩ now, but in the future she will
-have. He gives three examples: 1)⁧וַתְּהִי שָׂרַי עֲקָרָה אֵין לָהּ וָלָד⁩ ⁦(בראשית י״א:ל׳)⁩ - She had no children, but
+have. He gives three examples: 1)⁧וַתְּהִי שָׂרַי עֲקָרָה אֵין לָהּ וָלָד ⁦(בראשית י״א:ל׳)⁩⁩ - She had no children, but
 later Hashem answered her. \ 2)⁧צִיֹּון הִיא דֹּרֵשׁ אֵין לָהּ⁩ ⁦(ירמיהו ל׳:י״ז)⁩, and
 then it says ⁧וּבָא לְצִיֹּון גֹּואֵל ⁦(ישעיהו נ״ט:כ׳)⁩⁩. \ 3)⁧אֵין לָהּ מְנַחֵם⁩ ⁦(איכה
 א׳:ב׳)⁩, and then it says ⁧אָנֹכִי אָנֹכִי הוּא מְנַחֶמְכֶם⁩ ⁦(ישעיהו נ״א:י״ב)⁩ later on
@@ -11320,7 +11319,7 @@ should be ⁧זוכה⁩, as we just said, to celebrate ⁧פסח שני⁩ prop
 yearning to do ⁧מצוות⁩ even when they had a ⁧פטור⁩. As R' Elimelech Biderman#metadata(none) <person-index-r-elimelech-biderman-845>
 points out so eloquently in his sefer Around the Year With Reb Meilech, if a person cannot perform a ⁧מצוה⁩ for reasons beyond his control - if
 it's an ⁧אונס⁩ - he is ⁧פטור⁩. Yet ⁧כלל ישראל⁩ came to ⁧משה רבינו⁩ and said
-⁧אֲנַחְנוּ טְמֵאִים לְנֶפֶשׁ אָדָם לָמָּה נִגָּרַע⁩ ⁦(במדבר ט׳:ז׳)⁩? Why should we be left out?
+⁧אֲנַחְנוּ טְמֵאִים לְנֶפֶשׁ אָדָם לָמָּה נִגָּרַע ⁦(במדבר ט׳:ז׳)⁩⁩? Why should we be left out?
 Why should we not have an opportunity to participate in the wonderful
 ⁧מצוה⁩ of ⁧קרבן פסח⁩? Moshe answered them with the classic words: ⁧עִמְדוּ
 וְאֶשְׁמְעָה מַה יְצַוֶּה ה׳ לָכֶם⁩. Stand still, wait here, and Hashem will command
@@ -11956,7 +11955,7 @@ Now, from ⁦ט״ו באב⁩ until ⁧ראש השנה⁩ is 45 days. We can sta
 before ⁧ראש חודש אלול⁩ to be ⁧מקבל פני השכינה⁩, to be ⁧מקבל הקדוש ברוך הוא⁩ as
 the ⁧מלך⁩ on ⁧ראש השנה⁩. In fact, R' Elimelech brings down that there were
 those who started to say ⁧כתיבה וחתימה טובה⁩ starting from ⁧חמישה עשר באב⁩, because they thought it was appropriate for that time. The pasuk says
-⁦(דברים י׳:י״ב)⁩ ⁧וְעַתָּה יִשְׂרָאֵל מָה ה׳ אֱלֹקֶיךָ שֹׁאֵל מֵעִמָּךְ⁩ - What does ⁧הקדוש ברוך
+⁧וְעַתָּה יִשְׂרָאֵל מָה ה׳ אֱלֹקֶיךָ שֹׁאֵל מֵעִמָּךְ ⁦(דברים י׳:י״ב)⁩⁩ - What does ⁧הקדוש ברוך
 הוא⁩ ask from you? ⁧כִּי אִם לְיִרְאָה אֶת ה׳⁩. As my sister ⁧זאל זי זיין געזונט און
 שטארק⁩ said, for ⁧משה רבינו⁩, it was a ⁧מילתא זוטרתא⁩, it's a little thing to
 be ⁧כִּי אִם לְיִרְאָה אֶת ה׳⁩. For us, ⁧יראת השם⁩ is a big deal. But for ⁧משה רבינו⁩, it was ⁧מה⁩, what? ⁧נחנו מה⁩, what are we? However, you can change how you

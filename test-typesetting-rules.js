@@ -291,6 +291,13 @@ test("moves parenthesized Hebrew citation after following quote", () => {
   );
 });
 
+test("moves parenthesized Hebrew citation after quote before dash explanation", () => {
+  assert.equal(
+    applyTextRules("The pasuk says (דברים י׳:י״ב) וְעַתָּה יִשְׂרָאֵל מָה ה׳ אֱלֹקֶיךָ שֹׁאֵל מֵעִמָּךְ - What"),
+    `The pasuk says ${RTL_ISOLATE}וְעַתָּה יִשְׂרָאֵל מָה ה׳ אֱלֹקֶיךָ שֹׁאֵל מֵעִמָּךְ ${LTR_ISOLATE}(דברים י׳:י״ב)${POP_DIRECTIONAL_ISOLATE}${POP_DIRECTIONAL_ISOLATE} - What`
+  );
+});
+
 test("keeps plain-letter parenthesized Hebrew citation in reading order", () => {
   assert.equal(
     applyTextRules("as we know משלי ו:כג)) כִּי נֵר"),

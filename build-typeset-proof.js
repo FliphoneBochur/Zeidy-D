@@ -26,11 +26,11 @@ const HEBREW_ACRONYM = `${HEBREW_LETTERS}+(?:(?:${HEBREW_INTERNAL_QUOTE}${HEBREW
 const HEBREW_STRONG_ACRONYM = `(?:${HEBREW_LETTERS}+(?:${HEBREW_INTERNAL_QUOTE}${HEBREW_LETTERS}+)+|${HEBREW_LETTERS}{2,}${HEBREW_INTERNAL_QUOTE})`;
 const HEBREW_PAREN_REFERENCE = `\\((?=[^()]{1,120}\\))(?=[^()]{0,120}(?:${HEBREW_STRONG_ACRONYM}|:))(?:${HEBREW_TOKEN}|\\s|:|-){1,120}\\)`;
 const HEBREW_TEXT_WITH_PAREN_REFERENCE_RE = new RegExp(
-  `(${HEBREW_TOKEN}(?:(?:\\s+${HEBREW_TOKEN})|(?:\\s+\\\\?\\.\\.\\.)){0,160})\\s+(${HEBREW_PAREN_REFERENCE})(?=\\s*\\.)`,
+  `(${HEBREW_TOKEN}(?:(?:\\s+${HEBREW_TOKEN})|(?:\\s+\\\\?\\.\\.\\.)){0,160})\\s+(${HEBREW_PAREN_REFERENCE})(?=\\s*(?:[.?!]|-))`,
   "gu"
 );
 const HEBREW_PAREN_REFERENCE_BEFORE_QUOTE_RE = new RegExp(
-  `(\\b(?:say|says|said|state|states|stated|stating|pasuk says)\\s+)(${HEBREW_PAREN_REFERENCE})\\s+(${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN}){0,80})(?=\\s*[.?!,;:]|\\s+[A-Za-z]|$)`,
+  `(\\b(?:say|says|said|state|states|stated|stating|pasuk says)\\s+)(${HEBREW_PAREN_REFERENCE})\\s+(${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN}){0,80})(?=\\s*[.?!,;:]|\\s+-|\\s+[A-Za-z]|$)`,
   "gu"
 );
 const HEBREW_ELLIPSIS_PHRASE_RE = new RegExp(
