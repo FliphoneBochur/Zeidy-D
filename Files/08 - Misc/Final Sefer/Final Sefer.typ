@@ -3179,8 +3179,8 @@ the ⁧מסורה⁩⁦,⁩ elevate ourselves in ⁧רוחניות⁩⁦,⁩ do 
 
 #pagebreak()
 
-#set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/beshalach/5783/(1)/", "../../02 - Shemos/04 - Beshalach/5783/Beshalach 5783 (1)/Beshalach 5783(1).png"))
-= Beshalach 5783(1)
+#set page(header: page-number-header(), footer: none)
+= Beshalach 5783 (1)
 
 ⁧פרשת בשלח⁩ commemorates the once-in-history ⁧נס⁩ of ⁧קריעת ים סוף⁩. This ⁧נס⁩
 served two fundamental purposes. The first purpose was ⁧ישועת ישראל⁩ - allowing ⁧כלל ישראל⁩ to escape from the pursuing ⁧מצריים⁩. The second
@@ -3229,7 +3229,7 @@ speak thoughtfully. This corresponds to the pasuk in ⁧משלי⁩ (21:23): ⁧
 = Beshalach 5784
 
 ⁧פרשת בשלח⁩ contains many important topics, with a highlight being ⁧שירת הים⁩⁦,⁩ beginning with the familiar words we recite daily (15:1): ⁧אָז יָשִׁיר מֹשֶׁה⁩. The ⁧מפרשים⁩ are struck by the fact that ⁧משה רבינו⁩ starts the ⁧שירה⁩
-with the word ⁧אָז⁩. The ⁧מדרש רבה⁩ (\(23:3, as quoted by the ⁧בית הלוי,⁩ #metadata(none) <person-index-bais-halevi-244>
+with the word ⁧אָז⁩. The ⁧מדרש רבה⁩ (23:3), as quoted by the ⁧בית הלוי,⁩ #metadata(none) <person-index-bais-halevi-244>
 notes: ⁧אמר משה באז חטאתי שאמרתי וּמֵאָז בָּאתִי אֶל פַּרְעֹה לְדַבֵּר בִּשְׁמֶךָ הֵרַע לָעָם הַזֶּה, באז אני אומר שירה⁩. This cryptic ⁧מדרש⁩ demands elucidation. The literal
 translation is, "I, ⁧משה⁩⁦,⁩ did an ⁧עֲבֵירָה⁩ with the word ⁧אז⁩ when I said
 (5:23), ⁧וּמֵאָז בָּאתִי אֶל פַּרְעֹה לְדַבֵּר בִּשְׁמֶךָ הֵרַע לָעָם הַזֶּה⁩. Now when I say ⁧שירה⁩⁦,⁩ I

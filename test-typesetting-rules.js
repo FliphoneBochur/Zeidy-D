@@ -278,6 +278,13 @@ test("repairs escaped open parenthesis after numeric source reference", () => {
   );
 });
 
+test("repairs duplicate escaped open parenthesis before numeric source reference", () => {
+  assert.equal(
+    applyTextRules("The מדרש רבה (\\(23:3, as quoted"),
+    `The ${RTL_ISOLATE}מדרש רבה${POP_DIRECTIONAL_ISOLATE} (23:3), as quoted`
+  );
+});
+
 test("repairs escaped open parenthesis after Hebrew label before numeric source", () => {
   assert.equal(
     applyTextRules("in the פסוק (\\(45:24: וַיְשַׁלַּח"),
@@ -714,6 +721,18 @@ test("docx: Vayigash 5785 keeps comma after R' Shlomo Ganzfried", () => {
     `from ${RTL_ISOLATE}רב שלמה גאנצפריד${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} the famous author`,
     "comma after R' Shlomo Ganzfried"
   );
+});
+
+test("docx: Beshalach 5784 fixes duplicate open parenthesis before medrash source", () => {
+  const typst = convertedDocx("/beshalach/5784/");
+
+  assertContains(
+    typst,
+    `${RTL_ISOLATE}מדרש רבה${POP_DIRECTIONAL_ISOLATE} (23:3), as quoted`,
+    "single open parenthesis before 23:3 source"
+  );
+  assertNotContains(typst, "(\\(23:3", "raw escaped duplicate open parenthesis");
+  assertNotContains(typst, "((23:3", "double open parenthesis before source");
 });
 
 test("docx: Bereshis 5784 keeps comma after Bais Halevi before English", () => {

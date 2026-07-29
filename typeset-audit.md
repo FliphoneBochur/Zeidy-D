@@ -4,17 +4,11 @@ This is a review-only scan for likely visual punctuation and bidi issues in the 
 
 PDF scanned: `Files/08 - Misc/Final Sefer/Final Sefer.pdf`
 Typst scanned: `Files/08 - Misc/Final Sefer/Final Sefer.typ`
-Findings: 201 (51 high, 150 medium)
+Findings: 200 (50 high, 150 medium)
 Visual pages rendered: `typeset-audit-pages`
 
 The PDF scan uses extracted visual text, so it is useful for catching rendered punctuation surprises. The Typst scan catches raw source patterns before rendering.
 
-## HIGH - double opening parenthesis before source/reference
-
-- PDF visual text, page 110, Beshalach 5784, line 9
-  - visual: [page-0110.png](typeset-audit-pages/page-0110.png)
-  - The ⁧ ‫(( ⁩מדרש רבה‬23:3, as quoted by the ⁧ ,‫ ⁩בית הלוי‬notes: ⁧ ‫אמר משה באז חטאתי‬
-  - normalized: The  (( מדרש רבה23:3, as quoted by the  , בית הלויnotes:  אמר משה באז חטאתי
 ## HIGH - leading punctuation before Hebrew
 
 - PDF visual text, page 2, your children, your   אייניקלעך ,  and your   עיר אייניקלעך ,  all following  , בדרך השם, line 1
@@ -119,8 +113,8 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - normalized: 1) , מזוזה2) , ציצית3) תפילין של ראש, and 4) תפילין של יד, all of which surround
 - PDF visual text, page 110, Beshalach 5784, line 9
   - visual: [page-0110.png](typeset-audit-pages/page-0110.png)
-  - The ⁧ ‫(( ⁩מדרש רבה‬23:3, as quoted by the ⁧ ,‫ ⁩בית הלוי‬notes: ⁧ ‫אמר משה באז חטאתי‬
-  - normalized: The  (( מדרש רבה23:3, as quoted by the  , בית הלויnotes:  אמר משה באז חטאתי
+  - The ⁧ ‫( ⁩מדרש רבה‬23:3), as quoted by the ⁧ ,‫ ⁩בית הלוי‬notes: ⁧ ‫אמר משה באז חטאתי‬
+  - normalized: The  ( מדרש רבה23:3), as quoted by the  , בית הלויnotes:  אמר משה באז חטאתי
 - PDF visual text, page 115, Yisro 5784, line 19
   - visual: [page-0115.png](typeset-audit-pages/page-0115.png)
   - of ⁧‫ ⁩הקדוש ברוך הוא‬and the spiritual heights reached by ⁧‫ ⁩גדולים‬like ⁧,‫ רש״י‬,‫משה‬

@@ -111,6 +111,8 @@ const MALFORMED_ESCAPED_OPEN_NUMERIC_CITATION_RE = new RegExp(
   `\\((\\d+:\\d+)\\\\\\(:\\s*(?=${HEBREW_LETTERS})`,
   "gu"
 );
+const DUPLICATE_ESCAPED_OPEN_NUMERIC_CITATION_RE = /\(\\\((\d+:\d+)(?=[,):])/gu;
+const NUMERIC_CITATION_WITH_TRAILING_AS_QUOTED_RE = /\((\d+:\d+),\s+(as quoted\b)/gu;
 const MALFORMED_HEBREW_LABEL_ESCAPED_OPEN_NUMERIC_CITATION_RE = new RegExp(
   `(${HEBREW_TOKEN})\\s+\\(\\\\\\((\\d+:\\d+):\\s*(?=${HEBREW_LETTERS})`,
   "gu"
@@ -846,6 +848,8 @@ function normalizePunctuationSpacing(typstContent) {
     .replace(MALFORMED_ESCAPED_OPEN_HEBREW_CITATION_RE, "($1): ")
     .replace(MALFORMED_HEBREW_LABEL_ESCAPED_OPEN_NUMERIC_CITATION_RE, "$1 ($2): ")
     .replace(MALFORMED_ESCAPED_OPEN_NUMERIC_CITATION_RE, "($1): ")
+    .replace(DUPLICATE_ESCAPED_OPEN_NUMERIC_CITATION_RE, "($1")
+    .replace(NUMERIC_CITATION_WITH_TRAILING_AS_QUOTED_RE, "($1), $2")
     .replace(new RegExp(`(${HEBREW_LETTERS})(?=[A-Za-z])`, "gu"), "$1 ")
     .replace(new RegExp(`([A-Za-z])(?=${HEBREW_LETTERS})`, "gu"), "$1 ")
     .replace(/[\s\u00A0\u202F]+([,;:.!?)\]])/g, "$1")
