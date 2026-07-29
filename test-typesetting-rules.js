@@ -391,7 +391,7 @@ test("moves extracted leading comma to the end of the Hebrew phrase", () => {
 test("collapses duplicate commas between Hebrew list items", () => {
   assert.equal(
     applyTextRules("when he grows in מצות, ,מעשים טובים and תורה, he"),
-    `when he grows in ${RTL_ISOLATE}מצות${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}מעשים טובים${POP_DIRECTIONAL_ISOLATE} and ${LTR_ISOLATE}תורה,${POP_DIRECTIONAL_ISOLATE} he`
+    `when he grows in ${RTL_ISOLATE}מצות${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}מעשים טובים${POP_DIRECTIONAL_ISOLATE} and ${RTL_ISOLATE}תורה${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} he`
   );
 });
 
@@ -405,14 +405,28 @@ test("keeps trailing comma with Hebrew phrase in reading order", () => {
 test("keeps single Hebrew phrase with trailing comma together before English", () => {
   assert.equal(
     applyTextRules("from רב שלמה גאנצפריד, the famous author"),
-    `from ${LTR_ISOLATE}רב שלמה גאנצפריד,${POP_DIRECTIONAL_ISOLATE} the famous author`
+    `from ${RTL_ISOLATE}רב שלמה גאנצפריד${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} the famous author`
   );
 });
 
 test("keeps pure Hebrew comma list visually spaced inside RTL run", () => {
   assert.equal(
     applyTextRules("What qualities contribute to a מצוה? אהבה, זריזות, יראה, כוונה - these aspects"),
-    `What qualities contribute to a ${RTL_ISOLATE}מצוה${POP_DIRECTIONAL_ISOLATE}? ${RTL_ISOLATE}אהבה ,זריזות ,יראה ,כוונה${POP_DIRECTIONAL_ISOLATE} - these aspects`
+    `What qualities contribute to a ${RTL_ISOLATE}מצוה${POP_DIRECTIONAL_ISOLATE}? ${RTL_ISOLATE}אהבה, זריזות, יראה, כוונה${POP_DIRECTIONAL_ISOLATE} - these aspects`
+  );
+});
+
+test("keeps comma after single Hebrew phrase before English", () => {
+  assert.equal(
+    applyTextRules("As the בית הלוי, which this is from, says"),
+    `As the ${RTL_ISOLATE}בית הלוי${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} which this is from, says`
+  );
+});
+
+test("keeps internal Hebrew commas attached before spaces", () => {
+  assert.equal(
+    applyTextRules("אינו יודע רגעיו ועתיו ושעותיו, נכנס בו כחוט השערה - Since"),
+    `${RTL_ISOLATE}אינו יודע רגעיו ועתיו ושעותיו, נכנס בו כחוט השערה${POP_DIRECTIONAL_ISOLATE} - Since`
   );
 });
 
@@ -440,7 +454,7 @@ test("keeps shorthand acronym phrase in logical order", () => {
 test("keeps comma-separated Hebrew bracha phrase in one reading order", () => {
   assert.equal(
     applyTextRules("all following בדרך השם,בנים ובני בנים עוסקים בתורה ובמצוות, להגדיל תורה ולהאדירה, עד עולם!"),
-    `all following ${RTL_ISOLATE}בדרך השם ,בנים ובני בנים עוסקים בתורה ובמצוות ,להגדיל תורה ולהאדירה ,עד עולם${POP_DIRECTIONAL_ISOLATE}!`
+    `all following ${RTL_ISOLATE}בדרך השם, בנים ובני בנים עוסקים בתורה ובמצוות, להגדיל תורה ולהאדירה, עד עולם${POP_DIRECTIONAL_ISOLATE}!`
   );
 });
 
@@ -648,7 +662,7 @@ test("docx: Mikeitz 5784 keeps numbered quote block tight and literal", () => {
   );
   assertContains(
     typst,
-    `in ${LTR_ISOLATE}פרק מא פסוק טו,${POP_DIRECTIONAL_ISOLATE} it says`,
+    `in ${RTL_ISOLATE}פרק מא פסוק טו${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} it says`,
     "perek before pasuk in item 1"
   );
   assertNotContains(typst, "פסוק טו פרק מא", "raw reversed perek/pasuk order");
@@ -697,9 +711,30 @@ test("docx: Vayigash 5785 keeps comma after R' Shlomo Ganzfried", () => {
 
   assertContains(
     typst,
-    `from ${LTR_ISOLATE}רב שלמה גאנצפריד,${POP_DIRECTIONAL_ISOLATE} the famous author`,
+    `from ${RTL_ISOLATE}רב שלמה גאנצפריד${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} the famous author`,
     "comma after R' Shlomo Ganzfried"
   );
+});
+
+test("docx: Bereshis 5784 keeps comma after Bais Halevi before English", () => {
+  const typst = convertedDocx("/bereshis/5784/");
+
+  assertContains(
+    typst,
+    `As the ${RTL_ISOLATE}בית הלוי${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} which this is from, says`,
+    "comma after Bais Halevi"
+  );
+});
+
+test("docx: Bereshis 5786 keeps mid-Hebrew commas attached before spaces", () => {
+  const typst = convertedDocx("/bereshis/5786/(1)/");
+
+  assertContains(
+    typst,
+    `${RTL_ISOLATE}אֲבָל הַקָּדוֹשׁ בָּרוּךְ הוּא שֶׁהוּא יוֹדֵעַ רְגָעָיו וְעִתָּיו וּשְׁעוֹתָיו, נִכְנַס בּוֹ כְּחוּט הַשַּׂעֲרָה${POP_DIRECTIONAL_ISOLATE}`,
+    "comma-space inside Hebrew phrase"
+  );
+  assertNotContains(typst, "שְׁעוֹתָיו ,נִכְנַס", "space-before-comma inside Hebrew phrase");
 });
 
 test("docx: Vayairah 5784 keeps colon Hebrew quote break tight", () => {
@@ -717,7 +752,7 @@ test("docx: Vayairah 5784 keeps pure Hebrew comma list in PDF-friendly order", (
 
   assertContains(
     typst,
-    `qualities contribute to a ${RTL_ISOLATE}מצוה${POP_DIRECTIONAL_ISOLATE}? ${RTL_ISOLATE}אהבה ,זריזות ,יראה ,כוונה${POP_DIRECTIONAL_ISOLATE} - these`,
+    `qualities contribute to a ${RTL_ISOLATE}מצוה${POP_DIRECTIONAL_ISOLATE}? ${RTL_ISOLATE}אהבה, זריזות, יראה, כוונה${POP_DIRECTIONAL_ISOLATE} - these`,
     "pure Hebrew comma list"
   );
 });

@@ -136,3 +136,17 @@ The candidate scan also has Hebrew sefer-title heuristics for phrases like `או
 `review-person-index-candidates.js` prompts through `person-index-candidates.json` and records decisions in `person-index-review.json`. The review file is an authority list with canonical `people` records and candidate `decisions`. A kept candidate either creates a new person or becomes an alias of an existing person; ignored candidates are hidden the next time the scanner runs. Use `npm run review-person-index-candidates -- --limit 25` for a short batch, or `npm run review-person-index-candidates -- --candidate "Abraham Twerski"` to jump to one entry. When adding an alias to an existing person, the existing-person search prompt supports Tab completion over display names and aliases. If an unreviewed candidate already matches an existing display name or alias, the script automatically keeps it under that person without prompting.
 
 `build-typeset-proof.js` can append a reviewed person index from `person-index-review.json`. Full-book builds with `--all` include it automatically; focused proof builds can include it with `--person-index`, and any build can suppress it with `--no-person-index`. During conversion, each reviewed alias occurrence in regular article content gets a hidden Typst label, and the final `Index` section resolves those labels to page numbers with `counter(page).at(...)`. Front matter is not indexed because those pages intentionally do not participate in the main page numbering.
+
+## Typeset audit
+
+`audit-typeset.js` is a review-only QA pass for the built output:
+
+```bash
+npm run audit-typeset
+npm run audit-typeset -- --render-pages
+npm run audit-typeset -- --pdf "Files/08 - Misc/Final Sefer/Final Sefer.pdf" --typ "Files/08 - Misc/Final Sefer/Final Sefer.typ"
+```
+
+`npm run build` also runs this audit after rebuilding the full sefer, with `--render-pages` enabled. It writes `typeset-audit.md`, and when rendering is enabled it also writes page screenshots to `typeset-audit-pages/` for every PDF page with an audit finding. The report links each PDF finding to its rendered page image, so fixes should be checked against the actual page before stopping.
+
+The PDF scan uses `pdftotext -layout` so it sees extracted visual text order, which is useful for catching rendered bidi/punctuation surprises. The Typst scan catches raw-source problems before rendering. Current checks include double parentheses, punctuation before Hebrew, spaces before punctuation, broken thousands separators, glued Hebrew/English text, and hyphens glued to Hebrew before English. It is intentionally non-destructive; findings are meant to become either a new regression test and rule fix, or a consciously ignored false positive.

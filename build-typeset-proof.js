@@ -881,7 +881,7 @@ function isolateHebrewRuns(typstContent) {
     if (useLtrTrailingComma && value.endsWith(",")) {
       const phraseWithoutComma = normalizedValue.slice(0, -1);
       if (!phraseWithoutComma.includes(",")) {
-        return `${LTR_ISOLATE}${normalizedValue}${POP_DIRECTIONAL_ISOLATE}`;
+        return `${RTL_ISOLATE}${phraseWithoutComma}${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE}`;
       }
       return `${RTL_ISOLATE}${normalizedValue.slice(0, -1)}${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE}`;
     }
@@ -891,7 +891,7 @@ function isolateHebrewRuns(typstContent) {
   const isolateHebrewCommaPhrase = (value, useLtrCommas = false) => {
     const normalizedValue = normalizeInlineWhitespace(value);
     if (!useLtrCommas) {
-      return `${RTL_ISOLATE}${normalizedValue.replace(/\s*,\s*/g, " ,")}${POP_DIRECTIONAL_ISOLATE}`;
+      return `${RTL_ISOLATE}${normalizedValue.replace(/\s*,\s*/g, ", ")}${POP_DIRECTIONAL_ISOLATE}`;
     }
 
     const hasTrailingComma = normalizedValue.endsWith(",");

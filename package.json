@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "apply-reviewed-spelling": "node apply-reviewed-spelling.js",
+    "audit-typeset": "node audit-typeset.js",
     "build-typeset-proof": "node build-typeset-proof.js",
     "choose-route-titles": "node choose-route-titles.js",
     "editorial-scan": "node editorial-scan.js",
@@ -15,7 +16,7 @@
     "replace-docx-text": "node replace-docx-text.js",
     "scan-bidi-risks": "node scan-bidi-risks.js",
     "test": "node test-typesetting-rules.js",
-    "build": "npm run fix-docx-spacing -- --apply && npm run build-typeset-proof -- --all --output 'Final Sefer'"
+    "build": "npm run fix-docx-spacing -- --apply && npm run build-typeset-proof -- --all --output 'Final Sefer' && npm run audit-typeset -- --render-pages"
   },
   "dependencies": {
     "qrcode": "1.5.4"
