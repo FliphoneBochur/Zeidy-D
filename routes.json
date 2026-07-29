@@ -868,28 +868,32 @@
       "contentPath": "06 - Yom Tov/19 - Purim/5785",
       "baseFilename": "Purim 5785"
     },
+    "/rabbi-oelbaum/": {
+      "contentPath": "07 - Haskamos/Rabbi Oelbaum",
+      "baseFilename": "Rabbi Oelbaum"
+    },
+    "/yossi-bennett/": {
+      "contentPath": "07 - Haskamos/Yossi Bennett",
+      "baseFilename": "Yossi Bennett"
+    },
     "/about-the-name/": {
-      "contentPath": "07 - Misc/About The Name",
+      "contentPath": "08 - Misc/About The Name",
       "baseFilename": "About the Name"
     },
     "/bloopers/": {
-      "contentPath": "07 - Misc/Bloopers",
+      "contentPath": "08 - Misc/Bloopers",
       "baseFilename": null
     },
     "/bris/": {
-      "contentPath": "07 - Misc/Bris",
+      "contentPath": "08 - Misc/Bris",
       "baseFilename": "Bris"
     },
     "/final-sefer/": {
-      "contentPath": "07 - Misc/Final Sefer",
+      "contentPath": "08 - Misc/Final Sefer",
       "baseFilename": "Final Sefer"
     },
-    "/rabbi-oelbaum-haskama/": {
-      "contentPath": "07 - Misc/Rabbi Oelbaum Haskama",
-      "baseFilename": "Rabbi Oelbaum Haskama"
-    },
     "/rabbi-oelbaum-shabbos/": {
-      "contentPath": "07 - Misc/Rabbi Oelbaum Shabbos",
+      "contentPath": "08 - Misc/Rabbi Oelbaum Shabbos",
       "baseFilename": "Shabbos - The Gift of Olam Haba in This World"
     }
   },
@@ -1111,11 +1115,12 @@
     "06 - Yom Tov/19 - Purim/5783/Story Purim 5783": "/purim/5783/story/",
     "06 - Yom Tov/19 - Purim/5784": "/purim/5784/",
     "06 - Yom Tov/19 - Purim/5785": "/purim/5785/",
-    "07 - Misc/About The Name": "/about-the-name/",
-    "07 - Misc/Bloopers": "/bloopers/",
-    "07 - Misc/Bris": "/bris/",
-    "07 - Misc/Final Sefer": "/final-sefer/",
-    "07 - Misc/Rabbi Oelbaum Haskama": "/rabbi-oelbaum-haskama/",
-    "07 - Misc/Rabbi Oelbaum Shabbos": "/rabbi-oelbaum-shabbos/"
+    "07 - Haskamos/Rabbi Oelbaum": "/rabbi-oelbaum/",
+    "07 - Haskamos/Yossi Bennett": "/yossi-bennett/",
+    "08 - Misc/About The Name": "/about-the-name/",
+    "08 - Misc/Bloopers": "/bloopers/",
+    "08 - Misc/Bris": "/bris/",
+    "08 - Misc/Final Sefer": "/final-sefer/",
+    "08 - Misc/Rabbi Oelbaum Shabbos": "/rabbi-oelbaum-shabbos/"
   }
 }

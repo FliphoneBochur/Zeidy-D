@@ -412,12 +412,15 @@
       "5785": "Purim 5785"
     }
   },
-  "07 - Misc": {
+  "07 - Haskamos": {
+    "Rabbi Oelbaum": "Rabbi Oelbaum",
+    "Yossi Bennett": "Yossi Bennett"
+  },
+  "08 - Misc": {
     "About The Name": "About the Name",
     "Bloopers": null,
     "Bris": "Bris",
     "Final Sefer": "Final Sefer",
-    "Rabbi Oelbaum Haskama": "Rabbi Oelbaum Haskama",
     "Rabbi Oelbaum Shabbos": "Shabbos - The Gift of Olam Haba in This World"
   }
 }

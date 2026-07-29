@@ -10,18 +10,22 @@ const ROOT_DIR = __dirname;
 const FILES_DIR = path.join(ROOT_DIR, "Files");
 const ROUTES_FILE = path.join(ROOT_DIR, "routes.json");
 const PERSON_INDEX_REVIEW_FILE = path.join(ROOT_DIR, "person-index-review.json");
-const OUTPUT_DIR = path.join(ROOT_DIR, "Files/07 - Misc/Final Sefer");
+const OUTPUT_DIR = path.join(ROOT_DIR, "Files/08 - Misc/Final Sefer");
+const WORD_DOCUMENT = "word/document.xml";
 const DOMAIN = "https://zeidyd.com";
-const FRONT_MATTER_ROUTES = ["/rabbi-oelbaum-haskama/", "/about-the-name/"];
+const FRONT_MATTER_SPECS = ["07 - Haskamos/", "/about-the-name/"];
 const NO_FOOTER_ROUTES = new Set(["/about-the-name/"]);
+const HASKAMA_CONTENT_PREFIX = "07 - Haskamos/";
 const LTR_ISOLATE = "\u2066";
 const RTL_ISOLATE = "\u2067";
 const POP_DIRECTIONAL_ISOLATE = "\u2069";
+const RTL_REFERENCE_MARKER = "\uE010";
 const HEBREW_LETTERS = "[\\u0590-\\u05FF\\uFB1D-\\uFB4F]";
 const HEBREW_BASE_LETTERS = "[\\u05D0-\\u05EA\\uFB1D-\\uFB4F]";
 const HEBREW_INTERNAL_QUOTE = "(?:\\\\[\"']|[\"'׳״])";
 const HEBREW_TOKEN = `${HEBREW_LETTERS}+(?:${HEBREW_INTERNAL_QUOTE}${HEBREW_LETTERS}+)*(?:${HEBREW_INTERNAL_QUOTE})?`;
 const HEBREW_REF_TOKEN = `${HEBREW_BASE_LETTERS}+(?:${HEBREW_INTERNAL_QUOTE}${HEBREW_BASE_LETTERS}+)*(?:${HEBREW_INTERNAL_QUOTE})?`;
+const HEBREW_SOURCE_INNER = `(?:${HEBREW_TOKEN}\\s+)?${HEBREW_TOKEN}\\s*:\\s*${HEBREW_TOKEN}`;
 const HEBREW_ACRONYM = `${HEBREW_LETTERS}+(?:(?:${HEBREW_INTERNAL_QUOTE}${HEBREW_LETTERS}+)+|${HEBREW_INTERNAL_QUOTE})`;
 const HEBREW_STRONG_ACRONYM = `(?:${HEBREW_LETTERS}+(?:${HEBREW_INTERNAL_QUOTE}${HEBREW_LETTERS}+)+|${HEBREW_LETTERS}{2,}${HEBREW_INTERNAL_QUOTE})`;
 const HEBREW_PAREN_REFERENCE = `\\((?=[^()]{1,120}\\))(?=[^()]{0,120}(?:${HEBREW_STRONG_ACRONYM}|:))(?:${HEBREW_TOKEN}|\\s|:|-){1,120}\\)`;
@@ -32,6 +36,14 @@ const HEBREW_TEXT_WITH_PAREN_REFERENCE_RE = new RegExp(
 const HEBREW_PAREN_REFERENCE_BEFORE_QUOTE_RE = new RegExp(
   `(\\b(?:say|says|said|state|states|stated|stating|pasuk says)\\s+)(${HEBREW_PAREN_REFERENCE})\\s+(${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN}){0,80})(?=\\s*[.?!,;:]|\\s+-|\\s+[A-Za-z]|$)`,
   "gu"
+);
+const HEBREW_PARAGRAPH_LEADING_REFERENCE_RE = new RegExp(
+  `^\\s*(${HEBREW_PAREN_REFERENCE})\\s+(${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN}){0,220})([.?!]?)\\s*$`,
+  "gu"
+);
+const ESCAPED_HEBREW_PARAGRAPH_CITATION_RE = new RegExp(
+  `^\\\\\\(([\\s\\S]*?)\\s+\\((${HEBREW_SOURCE_INNER})\\s*$`,
+  "u"
 );
 const HEBREW_ELLIPSIS_PHRASE_RE = new RegExp(
   `${HEBREW_TOKEN}(?:(?:\\s+${HEBREW_TOKEN})){0,80}\\s+\\\\?\\.\\.\\.\\s+${HEBREW_TOKEN}(?:(?:\\s+${HEBREW_TOKEN})){0,80}`,
@@ -44,6 +56,10 @@ const HEBREW_BARE_REFERENCE_RE = new RegExp(
 );
 const HEBREW_LOOSE_CITATION_CLOSE_RE = new RegExp(
   `(^|\\s)((?:${HEBREW_TOKEN}\\s+)?${HEBREW_TOKEN}:${HEBREW_TOKEN})\\)\\)+(?=\\s+${HEBREW_TOKEN})`,
+  "gu"
+);
+const NAMED_NUMERIC_LOOSE_CITATION_CLOSE_RE = new RegExp(
+  `(^|\\s)(${HEBREW_TOKEN}\\s+\\d+:\\d+)\\)\\)+\\s*:`,
   "gu"
 );
 const HEBREW_ACRONYM_PHRASE = `(?:${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN}){0,3}\\s+${HEBREW_STRONG_ACRONYM}|${HEBREW_STRONG_ACRONYM}(?:\\s+${HEBREW_TOKEN}){1,3})`;
@@ -60,11 +76,11 @@ const HEBREW_TRAILING_ACRONYM_PHRASE_RE = new RegExp(
   "gu"
 );
 const HEBREW_COMMA_PHRASE_SEQUENCE_RE = new RegExp(
-  `${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN})*(?:,\\s*${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN})*){1,8}`,
+  `${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN})*(?:,\\s*${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN})*){1,8},?`,
   "gu"
 );
 const HEBREW_HYPHENATED_TOKEN_RE = new RegExp(
-  `${HEBREW_TOKEN}(?:\\s*-\\s*${HEBREW_TOKEN})+`,
+  `${HEBREW_TOKEN}(?:-${HEBREW_TOKEN})+(?:\\s+${HEBREW_TOKEN})*`,
   "gu"
 );
 const HEBREW_ACRONYM_RE = new RegExp(
@@ -72,7 +88,7 @@ const HEBREW_ACRONYM_RE = new RegExp(
   "gu"
 );
 const HEBREW_PHRASE_RE = new RegExp(
-  `${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN})*`,
+  `${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN})*,?`,
   "gu"
 );
 const MISPLACED_HEBREW_COMMA_RE = new RegExp(
@@ -95,8 +111,20 @@ const MALFORMED_ESCAPED_OPEN_NUMERIC_CITATION_RE = new RegExp(
   `\\((\\d+:\\d+)\\\\\\(:\\s*(?=${HEBREW_LETTERS})`,
   "gu"
 );
+const MALFORMED_HEBREW_LABEL_ESCAPED_OPEN_NUMERIC_CITATION_RE = new RegExp(
+  `(${HEBREW_TOKEN})\\s+\\(\\\\\\((\\d+:\\d+):\\s*(?=${HEBREW_LETTERS})`,
+  "gu"
+);
 const HEBREW_TO_ENGLISH_DASH_RE = new RegExp(
   `(${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN})*)\\s*-\\s*(?=[A-Za-z])`,
+  "gu"
+);
+const SHORT_HEBREW_PREFIX_DASH_RE = new RegExp(
+  `(^|[^\\u0590-\\u05FF\\uFB1D-\\uFB4F])(${HEBREW_LETTERS}{1,3})\\s*-\\s*(${HEBREW_TOKEN}\\s+${HEBREW_TOKEN}(?=\\s+-\\s+[A-Za-z]))`,
+  "gu"
+);
+const HEBREW_PASUK_BEFORE_PEREK_RE = new RegExp(
+  `פסוק\\s+(${HEBREW_TOKEN})\\s+פרק\\s+(${HEBREW_TOKEN})`,
   "gu"
 );
 
@@ -189,6 +217,15 @@ function typstString(value) {
   return JSON.stringify(value);
 }
 
+function decodeDocxXmlText(value) {
+  return value
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&apos;/g, "'")
+    .replace(/&amp;/g, "&");
+}
+
 function typstLabel(value) {
   return `label(${typstString(value)})`;
 }
@@ -203,6 +240,260 @@ function titleFromRouteSegment(segment) {
     .replace(/[-_]+/g, " ")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+function normalizeContentPathPrefix(value) {
+  return String(value || "")
+    .replace(/^\/+/, "")
+    .replace(/\/+$/, "");
+}
+
+function routeMatchesContentPrefix(details, prefix) {
+  if (!details?.contentPath) {
+    return false;
+  }
+
+  const normalizedPath = normalizeContentPathPrefix(details.contentPath);
+  const normalizedPrefix = normalizeContentPathPrefix(prefix);
+
+  return (
+    normalizedPath === normalizedPrefix ||
+    normalizedPath.startsWith(`${normalizedPrefix}/`)
+  );
+}
+
+function isHaskamaEntry(details) {
+  return routeMatchesContentPrefix(details, HASKAMA_CONTENT_PREFIX);
+}
+
+function docxParagraphAlignments(docxPath) {
+  const xml = run("unzip", ["-p", docxPath, WORD_DOCUMENT]);
+  const alignments = new Map();
+  const paragraphRe = /<w:p\b[\s\S]*?<\/w:p>/g;
+  let visibleParagraphIndex = 0;
+  let match;
+
+  while ((match = paragraphRe.exec(xml)) !== null) {
+    const paragraphXml = match[0];
+    const text = Array.from(paragraphXml.matchAll(/<w:t\b[^>]*>([\s\S]*?)<\/w:t>/g))
+      .map((textMatch) => decodeDocxXmlText(textMatch[1]))
+      .join("");
+
+    if (text.trim() === "") {
+      continue;
+    }
+
+    const alignmentMatch = paragraphXml.match(/<w:jc\b[^>]*\bw:val=["']([^"']+)["']/);
+    if (alignmentMatch) {
+      alignments.set(visibleParagraphIndex, {
+        align: alignmentMatch[1],
+        text,
+      });
+    }
+
+    visibleParagraphIndex += 1;
+  }
+
+  return alignments;
+}
+
+function isHebrewDominantText(value) {
+  const hebrewMatches = value.match(/[\u0590-\u05FF\uFB1D-\uFB4F]/g) || [];
+  const latinMatches = value.match(/[A-Za-z]/g) || [];
+  return hebrewMatches.length > 0 && hebrewMatches.length >= latinMatches.length;
+}
+
+function isHebrewOnlyText(value) {
+  const plain = value
+    .replace(/#(?:strong|emph)\[([^\]]*)\]/g, "$1")
+    .replace(/#\w+(?:\([^)]*\))?/g, "")
+    .replace(/[\u2066-\u2069]/g, "");
+  return /[\u0590-\u05FF\uFB1D-\uFB4F]/.test(plain) && !/[A-Za-z0-9]/.test(plain);
+}
+
+function typstAlignmentForDocxParagraph(paragraphInfo) {
+  if (!paragraphInfo) {
+    return null;
+  }
+
+  if (paragraphInfo.align === "center") {
+    return "center";
+  }
+
+  if (
+    (paragraphInfo.align === "right" || paragraphInfo.align === "end") &&
+    isHebrewDominantText(paragraphInfo.text)
+  ) {
+    return "right";
+  }
+
+  return null;
+}
+
+function normalizeHebrewParagraphSoftBreaks(typstContent) {
+  return typstContent
+    .split(/(\n{2,})/)
+    .map((part) => {
+      if (/^\n{2,}$/.test(part) || part.trim() === "") {
+        return part;
+      }
+
+      return part.replace(/([\s\S]*?)\s*\\\s+\\\s+(?=[A-Z])/g, (match, before, offset) => {
+        if (offset !== 0 || !isHebrewOnlyText(before)) {
+          return match;
+        }
+
+        return `${before.trimEnd()}\n\n`;
+      });
+    })
+    .join("");
+}
+
+function applyDocxParagraphAlignments(typstContent, paragraphAlignments) {
+  let visibleParagraphIndex = 0;
+
+  return typstContent
+    .split(/(\n{2,})/)
+    .map((part) => {
+      if (/^\n{2,}$/.test(part) || part.trim() === "") {
+        return part;
+      }
+
+      const alignment = typstAlignmentForDocxParagraph(
+        paragraphAlignments.get(visibleParagraphIndex)
+      ) || (isHebrewOnlyText(part) ? "right" : null);
+      visibleParagraphIndex += 1;
+
+      if (!alignment) {
+        return part;
+      }
+
+      return `#align(${alignment})[\n${part}\n]`;
+    })
+    .join("");
+}
+
+function shiftedParagraphAlignments(paragraphAlignments, removedParagraphCount) {
+  if (removedParagraphCount <= 0) {
+    return paragraphAlignments;
+  }
+
+  const shifted = new Map();
+  for (const [index, paragraphInfo] of paragraphAlignments.entries()) {
+    if (index >= removedParagraphCount) {
+      shifted.set(index - removedParagraphCount, paragraphInfo);
+    }
+  }
+
+  return shifted;
+}
+
+function countStrippedDuplicateTitleParagraphs(typstContent, titles) {
+  const paragraphs = typstContent
+    .replace(/\r\n/g, "\n")
+    .split(/\n{2,}/)
+    .map((paragraph) => paragraph.trim())
+    .filter(Boolean);
+  const normalizedTitles = titles.filter(Boolean).map(normalizeTitle);
+
+  if (paragraphs.length === 0 || !isDuplicateTitleLine(paragraphs[0], normalizedTitles)) {
+    return 0;
+  }
+
+  if (paragraphs[1] && isParentheticalSubtitleLine(paragraphs[1])) {
+    return 2;
+  }
+
+  return 1;
+}
+
+function isShortHaskamaSignatureLine(paragraph) {
+  const plain = paragraph
+    .replace(/#(?:strong|emph)\[([^\]]*)\]/g, "$1")
+    .replace(/[\\{}[\]#]/g, "")
+    .trim();
+  const words = plain.split(/\s+/).filter(Boolean);
+
+  return (
+    plain.length > 0 &&
+    plain.length <= 80 &&
+    words.length <= 6 &&
+    !/[.!?]$/.test(plain)
+  );
+}
+
+function tightenHaskamaSignatureBlock(typstContent) {
+  const parts = typstContent.split(/(\n{2,})/);
+  const paragraphIndexes = [];
+
+  for (let index = 0; index < parts.length; index += 2) {
+    if (parts[index].trim() !== "") {
+      paragraphIndexes.push(index);
+    }
+  }
+
+  let signatureStart = paragraphIndexes.length;
+  while (
+    signatureStart > 0 &&
+    isShortHaskamaSignatureLine(parts[paragraphIndexes[signatureStart - 1]])
+  ) {
+    signatureStart -= 1;
+  }
+
+  const signatureIndexes = paragraphIndexes.slice(signatureStart);
+  if (signatureIndexes.length < 2) {
+    return typstContent;
+  }
+
+  const firstPartIndex = signatureIndexes[0];
+  const lastPartIndex = signatureIndexes[signatureIndexes.length - 1];
+  const signatureBlock = signatureIndexes
+    .map((index) => parts[index].trim())
+    .join("\n#linebreak()\n");
+
+  parts.splice(
+    firstPartIndex,
+    lastPartIndex - firstPartIndex + 1,
+    signatureBlock
+  );
+
+  return parts.join("");
+}
+
+function resolveFrontMatterRoutes(frontMatterSpecs, allRoutes, byRoute) {
+  const seen = new Set();
+  const frontMatterRoutes = [];
+
+  for (const spec of frontMatterSpecs) {
+    if (String(spec).startsWith("/")) {
+      if (!byRoute[spec]) {
+        throw new Error(`Front matter route not found in routes.json: ${spec}`);
+      }
+
+      if (!seen.has(spec)) {
+        seen.add(spec);
+        frontMatterRoutes.push(spec);
+      }
+      continue;
+    }
+
+    const matches = allRoutes.filter((route) =>
+      routeMatchesContentPrefix(byRoute[route], spec)
+    );
+
+    if (matches.length === 0) {
+      throw new Error(`Front matter content path not found in routes.json: ${spec}`);
+    }
+
+    for (const route of matches) {
+      if (!seen.has(route)) {
+        seen.add(route);
+        frontMatterRoutes.push(route);
+      }
+    }
+  }
+
+  return frontMatterRoutes;
 }
 
 function normalizeIndexKey(value) {
@@ -464,18 +755,88 @@ function normalizeMisplacedHebrewCommas(typstContent) {
   });
 }
 
+function normalizeNumberedSoftBreaks(typstContent) {
+  return typstContent
+    .replace(/([^\n])\n{2,}(\\?)(?=\d+\.\s)/g, (_match, before, escapedNumber) => {
+      return `${before}\\\n${escapedNumber || "\\"}`;
+    })
+    .replace(/\\\s+\\?(?=\d+\.\s)/g, "\\\n\\");
+}
+
+function normalizeColonHebrewSoftBreaks(typstContent) {
+  const hebrewAtParagraphStartRe = new RegExp(`([:：])\\n{2,}(?=${HEBREW_LETTERS})`, "gu");
+  return typstContent.replace(hebrewAtParagraphStartRe, "$1\\\n");
+}
+
+function repairEscapedHebrewParagraphCitations(typstContent) {
+  return typstContent
+    .split(/(\n{2,})/)
+    .map((part) => {
+      if (/^\n{2,}$/.test(part) || part.trim() === "") {
+        return part;
+      }
+
+      return part.replace(
+        ESCAPED_HEBREW_PARAGRAPH_CITATION_RE,
+        (_match, quote, source) => `${quote} ${RTL_REFERENCE_MARKER}(${source})`
+      );
+    })
+    .join("");
+}
+
+function protectMarkedRtlReferences(typstContent, protect) {
+  let output = "";
+  let remaining = typstContent;
+  const referenceAtStartRe = new RegExp(`^\\s*(${HEBREW_PAREN_REFERENCE})`, "u");
+
+  while (remaining.includes(RTL_REFERENCE_MARKER)) {
+    const markerIndex = remaining.indexOf(RTL_REFERENCE_MARKER);
+    const afterMarker = remaining.slice(markerIndex + RTL_REFERENCE_MARKER.length);
+    const referenceMatch = afterMarker.match(referenceAtStartRe);
+
+    if (!referenceMatch) {
+      output += remaining.slice(0, markerIndex);
+      remaining = afterMarker;
+      continue;
+    }
+
+    const reference = referenceMatch[1];
+    const referenceEnd = markerIndex + RTL_REFERENCE_MARKER.length + referenceMatch[0].length;
+    const blankLineIndex = remaining.lastIndexOf("\n\n", markerIndex);
+    const blockOpenIndex = remaining.lastIndexOf("[\n", markerIndex);
+    const paragraphStart = Math.max(
+      blankLineIndex >= 0 ? blankLineIndex + 2 : 0,
+      blockOpenIndex >= 0 ? blockOpenIndex + 2 : 0
+    );
+    const beforeParagraph = remaining.slice(0, paragraphStart);
+    const paragraphBeforeReference = remaining.slice(paragraphStart, markerIndex).trimEnd();
+
+    output += beforeParagraph;
+    output += protect(`${RTL_ISOLATE}${paragraphBeforeReference} ${reference}${POP_DIRECTIONAL_ISOLATE}`);
+    remaining = remaining.slice(referenceEnd);
+  }
+
+  return output + remaining;
+}
+
 function moveLeadingHebrewSourceAfterQuote(typstContent) {
-  return typstContent.replace(
-    HEBREW_PAREN_REFERENCE_BEFORE_QUOTE_RE,
-    (_match, prefix, reference, quote) => `${prefix}${quote} ${reference}`
-  );
+  return typstContent
+    .replace(
+      HEBREW_PARAGRAPH_LEADING_REFERENCE_RE,
+      (_match, reference, quote, punctuation) =>
+        `${quote} ${RTL_REFERENCE_MARKER}${reference}${punctuation}`
+    )
+    .replace(
+      HEBREW_PAREN_REFERENCE_BEFORE_QUOTE_RE,
+      (_match, prefix, reference, quote) => `${prefix}${quote} ${reference}`
+    );
 }
 
 function keepIndexMarkersAfterPunctuation(typstContent) {
   return typstContent.replace(
-    /(#metadata\(none\)\s*<[^>\n]+>)[\s\u00A0\u202F]*([,;:.!?])([ \t\u00A0\u202F]*)/g,
+    /(#metadata\(none\)\s*<[^>\n]+>)[\s\u00A0\u202F]*([,;:.!?)\]]+(?:[\s\u00A0\u202F]*[,;:.!?])?)([ \t\u00A0\u202F]*)/g,
     (_match, marker, punctuation, trailingSpace) =>
-      `${punctuation}${marker}${trailingSpace}`
+      `${punctuation.replace(/[\s\u00A0\u202F]+/g, "")}${marker}${trailingSpace}`
   );
 }
 
@@ -483,19 +844,23 @@ function normalizePunctuationSpacing(typstContent) {
   return keepIndexMarkersAfterPunctuation(typstContent)
     .replace(/\u2014/g, "-")
     .replace(MALFORMED_ESCAPED_OPEN_HEBREW_CITATION_RE, "($1): ")
+    .replace(MALFORMED_HEBREW_LABEL_ESCAPED_OPEN_NUMERIC_CITATION_RE, "$1 ($2): ")
     .replace(MALFORMED_ESCAPED_OPEN_NUMERIC_CITATION_RE, "($1): ")
     .replace(new RegExp(`(${HEBREW_LETTERS})(?=[A-Za-z])`, "gu"), "$1 ")
     .replace(new RegExp(`([A-Za-z])(?=${HEBREW_LETTERS})`, "gu"), "$1 ")
-    .replace(/[\s\u00A0\u202F]+([,;:.!?])/g, "$1")
-    .replace(/([;:])\s*/g, "$1 ")
+    .replace(/[\s\u00A0\u202F]+([,;:.!?)\]])/g, "$1")
+    .replace(/([;:])[\t \u00A0\u202F]*(?=\S)/g, "$1 ")
     .replace(/,(?!\d)\s*/g, ", ")
     .replace(/(\d),\s+(?=\d)/g, "$1,")
     .replace(/,\s*,\s*/g, ", ")
     .replace(/(\d+):\s+(\d+)/g, "$1:$2")
     .replace(new RegExp(`(\\(\\d+:\\d+\\))(?=${HEBREW_LETTERS})`, "gu"), "$1 ")
     .replace(HEBREW_CITATION_COLON_RE, "$1$2:$3")
+    .replace(NAMED_NUMERIC_LOOSE_CITATION_CLOSE_RE, "$1($2):")
     .replace(HEBREW_LOOSE_CITATION_CLOSE_RE, "$1($2)")
     .replace(MISSING_OPEN_HEBREW_CITATION_PAREN_RE, "$1 ($2):")
+    .replace(HEBREW_PASUK_BEFORE_PEREK_RE, "פרק $2 פסוק $1")
+    .replace(SHORT_HEBREW_PREFIX_DASH_RE, "$1$2 - $3")
     .replace(HEBREW_TO_ENGLISH_DASH_RE, "$1 - ");
 }
 
@@ -506,15 +871,64 @@ function isolateHebrewRuns(typstContent) {
     protectedSequences.push(value);
     return marker;
   };
+  const normalizeInlineWhitespace = (value) =>
+    value.replace(/[ \t\u00A0\u202F]*\n[ \t\u00A0\u202F]*/g, " ");
+  const followedByEnglish = (fullText, endOffset) => {
+    return /^[ \t\u00A0\u202F]+[A-Za-z]/.test(fullText.slice(endOffset));
+  };
+  const isolateHebrewPhrase = (value, useLtrTrailingComma = false) => {
+    const normalizedValue = normalizeInlineWhitespace(value);
+    if (useLtrTrailingComma && value.endsWith(",")) {
+      const phraseWithoutComma = normalizedValue.slice(0, -1);
+      if (!phraseWithoutComma.includes(",")) {
+        return `${LTR_ISOLATE}${normalizedValue}${POP_DIRECTIONAL_ISOLATE}`;
+      }
+      return `${RTL_ISOLATE}${normalizedValue.slice(0, -1)}${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE}`;
+    }
 
-  const textWithReferenceSafeContent = typstContent.replace(
+    return `${RTL_ISOLATE}${normalizedValue}${POP_DIRECTIONAL_ISOLATE}`;
+  };
+  const isolateHebrewCommaPhrase = (value, useLtrCommas = false) => {
+    const normalizedValue = normalizeInlineWhitespace(value);
+    if (!useLtrCommas) {
+      return `${RTL_ISOLATE}${normalizedValue.replace(/\s*,\s*/g, " ,")}${POP_DIRECTIONAL_ISOLATE}`;
+    }
+
+    const hasTrailingComma = normalizedValue.endsWith(",");
+    const parts = normalizedValue
+      .replace(/,$/, "")
+      .split(/\s*,\s*/)
+      .filter(Boolean);
+
+    if (parts.length === 1 && hasTrailingComma) {
+      return `${LTR_ISOLATE}${normalizedValue}${POP_DIRECTIONAL_ISOLATE}`;
+    }
+
+    return parts
+      .map((part, index) => {
+        const needsComma = index < parts.length - 1 || hasTrailingComma;
+        return `${RTL_ISOLATE}${part}${POP_DIRECTIONAL_ISOLATE}${needsComma ? `${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE}` : ""}`;
+      })
+      .join(" ");
+  };
+
+  const rtlReferenceSafeContent = protectMarkedRtlReferences(typstContent, protect);
+
+  const textWithReferenceSafeContent = rtlReferenceSafeContent.replace(
     HEBREW_TEXT_WITH_PAREN_REFERENCE_RE,
-    (_match, hebrewText, reference) =>
-      protect(`${RTL_ISOLATE}${hebrewText} ${LTR_ISOLATE}${reference}${POP_DIRECTIONAL_ISOLATE}${POP_DIRECTIONAL_ISOLATE}`)
+    (_match, hebrewText, reference) => {
+      const isRtlReference = hebrewText.endsWith(RTL_REFERENCE_MARKER);
+      const cleanHebrewText = hebrewText.replace(RTL_REFERENCE_MARKER, "");
+      const isolatedReference = isRtlReference
+        ? reference
+        : `${LTR_ISOLATE}${reference}${POP_DIRECTIONAL_ISOLATE}`;
+
+      return protect(`${RTL_ISOLATE}${normalizeInlineWhitespace(cleanHebrewText)} ${isolatedReference}${POP_DIRECTIONAL_ISOLATE}`);
+    }
   );
 
   const hebrewEllipsisSafeContent = textWithReferenceSafeContent.replace(HEBREW_ELLIPSIS_PHRASE_RE, (match) => {
-    return protect(`${RTL_ISOLATE}${match}${POP_DIRECTIONAL_ISOLATE}`);
+    return protect(`${RTL_ISOLATE}${normalizeInlineWhitespace(match)}${POP_DIRECTIONAL_ISOLATE}`);
   });
 
   const referenceSafeContent = hebrewEllipsisSafeContent.replace(HEBREW_PAREN_REFERENCE_RE, (match) => {
@@ -533,12 +947,12 @@ function isolateHebrewRuns(typstContent) {
     return protect(`${LTR_ISOLATE}${match}${POP_DIRECTIONAL_ISOLATE}`);
   });
 
-  const hebrewCommaPhraseSafeContent = trailingAcronymPhraseSafeContent.replace(HEBREW_COMMA_PHRASE_SEQUENCE_RE, (match) => {
-    return protect(`${RTL_ISOLATE}${match}${POP_DIRECTIONAL_ISOLATE}`);
+  const hebrewCommaPhraseSafeContent = trailingAcronymPhraseSafeContent.replace(HEBREW_COMMA_PHRASE_SEQUENCE_RE, (match, offset, fullText) => {
+    return protect(isolateHebrewCommaPhrase(match, followedByEnglish(fullText, offset + match.length)));
   });
 
   const hebrewHyphenatedSafeContent = hebrewCommaPhraseSafeContent.replace(HEBREW_HYPHENATED_TOKEN_RE, (match) => {
-    return protect(`${RTL_ISOLATE}${match.replace(/\s*-\s*/g, "-")}${POP_DIRECTIONAL_ISOLATE}`);
+    return protect(`${RTL_ISOLATE}${normalizeInlineWhitespace(match)}${POP_DIRECTIONAL_ISOLATE}`);
   });
 
   const acronymContextSafeContent = hebrewHyphenatedSafeContent.replace(HEBREW_ACRONYM_CONTEXT_RE, (match) => {
@@ -549,19 +963,25 @@ function isolateHebrewRuns(typstContent) {
     return protect(`${LTR_ISOLATE}${match}${POP_DIRECTIONAL_ISOLATE}`);
   });
 
-  const isolatedContent = acronymSafeContent.replace(HEBREW_PHRASE_RE, (match) => {
-    return `${RTL_ISOLATE}${match}${POP_DIRECTIONAL_ISOLATE}`;
+  const isolatedContent = acronymSafeContent.replace(HEBREW_PHRASE_RE, (match, offset, fullText) => {
+    return isolateHebrewPhrase(match, followedByEnglish(fullText, offset + match.length));
   });
 
   return isolatedContent.replace(/\uE000(\d+)\uE001/g, (_match, index) => {
     return protectedSequences[Number(index)];
-  });
+  }).replace(new RegExp(RTL_REFERENCE_MARKER, "g"), "");
 }
 
 function applyTextRules(typstContent) {
   return isolateHebrewRuns(
     moveLeadingHebrewSourceAfterQuote(
-      normalizeMisplacedHebrewCommas(normalizePunctuationSpacing(typstContent))
+      repairEscapedHebrewParagraphCitations(
+        normalizeMisplacedHebrewCommas(
+          normalizePunctuationSpacing(
+            normalizeColonHebrewSoftBreaks(normalizeNumberedSoftBreaks(typstContent))
+          )
+        )
+      )
     )
   );
 }
@@ -603,11 +1023,17 @@ async function loadEntries(options) {
   }
 
   const allRoutes = Object.keys(byRoute);
+  const frontMatterRoutes = resolveFrontMatterRoutes(
+    FRONT_MATTER_SPECS,
+    allRoutes,
+    byRoute
+  );
+  const frontMatterRouteSet = new Set(frontMatterRoutes);
   const bookRoutes = [
-    ...FRONT_MATTER_ROUTES,
+    ...frontMatterRoutes,
     ...allRoutes.filter(
       (route) =>
-        !FRONT_MATTER_ROUTES.includes(route) &&
+        !frontMatterRouteSet.has(route) &&
         route !== "/bloopers/" && route !== "/final-sefer/" &&
         byRoute[route]?.baseFilename
     ),
@@ -634,11 +1060,14 @@ async function loadEntries(options) {
       .split("/")
       .map(titleFromRouteSegment)
       .filter(Boolean);
+    const isHaskama = isHaskamaEntry(details);
 
     return {
       route,
       url: new URL(route, DOMAIN).href,
       title,
+      isHaskama,
+      isFrontMatter: frontMatterRouteSet.has(route),
       sourceTitles: [title, baseTitle, ...routeSegmentTitles],
       docxPath: path.join(directory, `${details.baseFilename}.docx`),
       qrPath: path.join(directory, `${details.baseFilename}.png`),
@@ -651,14 +1080,40 @@ async function ensureEntryFiles(entries) {
   for (const entry of entries) {
     await fs.access(entry.docxPath);
     if (entry.hasFooter) {
-      await fs.access(entry.qrPath);
+      try {
+        await fs.access(entry.qrPath);
+      } catch (error) {
+        if (error.code !== "ENOENT") {
+          throw error;
+        }
+
+        entry.hasFooter = false;
+        console.error(`Skipping footer for ${entry.title}: missing QR image`);
+      }
     }
   }
 }
 
 function convertDocxToTypst(entry, indexState = null) {
   const typst = run("pandoc", [entry.docxPath, "-t", "typst"]);
-  const body = stripDuplicateTitle(typst, entry.sourceTitles);
+  const repairedTypst = repairEscapedHebrewParagraphCitations(typst);
+  const removedParagraphCount = entry.isHaskama
+    ? 0
+    : countStrippedDuplicateTitleParagraphs(repairedTypst, entry.sourceTitles);
+  const unalignedBody = entry.isHaskama
+    ? repairedTypst.trim()
+    : stripDuplicateTitle(repairedTypst, entry.sourceTitles);
+  const signatureAdjustedBody = entry.isHaskama
+    ? tightenHaskamaSignatureBlock(unalignedBody)
+    : unalignedBody;
+  const paragraphAdjustedBody = normalizeHebrewParagraphSoftBreaks(signatureAdjustedBody);
+  const body = applyDocxParagraphAlignments(
+    paragraphAdjustedBody,
+    shiftedParagraphAlignments(
+      docxParagraphAlignments(entry.docxPath),
+      removedParagraphCount
+    )
+  );
   const indexedBody = indexState ? tagPersonIndexMentions(body, indexState) : body;
   return applyTextRules(indexedBody);
 }
@@ -850,7 +1305,7 @@ function renderTypstDocument(entries, options, indexState = null) {
 
   entries.forEach((entry, index) => {
     console.error(`[${index + 1}/${entries.length}] ${entry.title}`);
-    const isFrontMatter = FRONT_MATTER_ROUTES.includes(entry.route);
+    const isFrontMatter = entry.isFrontMatter;
     const body = convertDocxToTypst(entry, isFrontMatter ? null : indexState);
     const qrRelativePath = path.relative(OUTPUT_DIR, entry.qrPath).split(path.sep).join("/");
     const shouldInsertTableOfContents =
@@ -878,7 +1333,9 @@ function renderTypstDocument(entries, options, indexState = null) {
     const footer = entry.hasFooter
       ? `article-footer(${typstString(entry.url)}, ${typstString(qrRelativePath)})`
       : "none";
-    const heading = isFrontMatter
+    const heading = entry.isHaskama
+      ? ""
+      : isFrontMatter
       ? `#heading(level: 1, outlined: false)[${entry.title}]`
       : `= ${entry.title}`;
 
@@ -937,10 +1394,18 @@ if (require.main === module) {
 }
 
 module.exports = {
+  applyDocxParagraphAlignments,
   applyTextRules,
+  convertDocxToTypst,
   isolateHebrewRuns,
   normalizeMisplacedHebrewCommas,
+  normalizeColonHebrewSoftBreaks,
+  normalizeHebrewParagraphSoftBreaks,
+  normalizeNumberedSoftBreaks,
   normalizePunctuationSpacing,
+  repairEscapedHebrewParagraphCitations,
+  shiftedParagraphAlignments,
   tagPersonIndexMentions,
+  tightenHaskamaSignatureBlock,
   stripDuplicateTitle,
 };
