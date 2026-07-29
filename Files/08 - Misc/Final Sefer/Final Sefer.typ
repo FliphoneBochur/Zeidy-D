@@ -3185,8 +3185,7 @@ the ⁧מסורה⁩⁦,⁩ elevate ourselves in ⁧רוחניות⁩⁦,⁩ do 
 ⁧פרשת בשלח⁩ commemorates the once-in-history ⁧נס⁩ of ⁧קריעת ים סוף⁩. This ⁧נס⁩
 served two fundamental purposes. The first purpose was ⁧ישועת ישראל⁩ - allowing ⁧כלל ישראל⁩ to escape from the pursuing ⁧מצריים⁩. The second
 purpose was to drown the ⁧מצריים⁩ and destroy them as a fighting force, preventing them from capturing ⁧בני ישראל⁩. The pasuk relates these events
-as follows (14:31): ⁧וַיַּרְא יִשְׂרָאֵל אֶת הַיָּד הַגְּדֹלָה אֲשֶׁר עָשָׂה ה׳ בְּמִצְרַיִם וַיִּירְאוּ⁩ ⁦הָעָם
-אֶת ה׳ וַיַּאֲמִינוּ בַּה׳⁩ ⁧וּבְמֹשֶׁה עַבְדּוֹ⁩.
+as follows (14:31): ⁧וַיַּרְא יִשְׂרָאֵל אֶת הַיָּד הַגְּדֹלָה אֲשֶׁר עָשָׂה ה׳ בְּמִצְרַיִם וַיִּירְאוּ הָעָם אֶת ה׳ וַיַּאֲמִינוּ בַּה׳ וּבְמֹשֶׁה עַבְדּוֹ⁩.
 
 The ⁧אזנים לתורה⁩#metadata(none) <person-index-r-zalman-sorotzkin-240> brings to light a ⁧פשט⁩ in this pasuk. If we examine the
 events of this ⁧מעשה⁩ from our limited vantage point, which ⁧נס⁩ would we

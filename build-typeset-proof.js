@@ -37,6 +37,10 @@ const HEBREW_PAREN_REFERENCE_BEFORE_QUOTE_RE = new RegExp(
   `(\\b(?:say|says|said|state|states|stated|stating|pasuk says)\\s+)(${HEBREW_PAREN_REFERENCE})\\s+(${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN}){0,80})(?=\\s*[.?!,;:]|\\s+-|\\s+[A-Za-z]|$)`,
   "gu"
 );
+const NUMERIC_SOURCE_HEBREW_QUOTE_RE = new RegExp(
+  `(\\(\\d+:\\d+\\):\\s+)(${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN}){2,220})(?=\\s*[.?!])`,
+  "gu"
+);
 const HEBREW_PARAGRAPH_LEADING_REFERENCE_RE = new RegExp(
   `^\\s*(${HEBREW_PAREN_REFERENCE})\\s+(${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN}){0,220})([.?!]?)\\s*$`,
   "gu"
@@ -943,7 +947,12 @@ function isolateHebrewRuns(typstContent) {
     return protect(`${LTR_ISOLATE}${match}${POP_DIRECTIONAL_ISOLATE}`);
   });
 
-  const acronymCommaSequenceSafeContent = bareReferenceSafeContent.replace(HEBREW_ACRONYM_COMMA_SEQUENCE_RE, (match) => {
+  const numericSourceQuoteSafeContent = bareReferenceSafeContent.replace(
+    NUMERIC_SOURCE_HEBREW_QUOTE_RE,
+    (_match, source, quote) => `${source}${protect(`${RTL_ISOLATE}${normalizeInlineWhitespace(quote)}${POP_DIRECTIONAL_ISOLATE}`)}`
+  );
+
+  const acronymCommaSequenceSafeContent = numericSourceQuoteSafeContent.replace(HEBREW_ACRONYM_COMMA_SEQUENCE_RE, (match) => {
     return protect(`${LTR_ISOLATE}${match}${POP_DIRECTIONAL_ISOLATE}`);
   });
 

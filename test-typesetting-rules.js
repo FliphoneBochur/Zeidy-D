@@ -271,6 +271,13 @@ test("adds space after numeric parenthesized source before Hebrew quote", () => 
   );
 });
 
+test("keeps Hebrew quote after numeric source in one RTL run", () => {
+  assert.equal(
+    applyTextRules("as follows (14:31): וַיַּרְא יִשְׂרָאֵל אֶת הַיָּד הַגְּדֹלָה אֲשֶׁר עָשָׂה ה׳ בְּמִצְרַיִם וַיִּירְאוּ הָעָם אֶת ה׳ וַיַּאֲמִינוּ בַּה׳ וּבְמֹשֶׁה עַבְדּוֹ."),
+    `as follows (14:31): ${RTL_ISOLATE}וַיַּרְא יִשְׂרָאֵל אֶת הַיָּד הַגְּדֹלָה אֲשֶׁר עָשָׂה ה׳ בְּמִצְרַיִם וַיִּירְאוּ הָעָם אֶת ה׳ וַיַּאֲמִינוּ בַּה׳ וּבְמֹשֶׁה עַבְדּוֹ${POP_DIRECTIONAL_ISOLATE}.`
+  );
+});
+
 test("repairs escaped open parenthesis after numeric source reference", () => {
   assert.equal(
     applyTextRules("The פסוק says (30:15\\(:הֶעָשִׁיר לֹא"),
@@ -679,6 +686,17 @@ test("docx: Mikeitz 5784 keeps numbered quote block tight and literal", () => {
     "source-wrapped Hebrew quote flattened before item 3"
   );
   assertNotContains(typst, "#linebreak()\n\\2.", "block linebreak before item 2");
+});
+
+test("docx: Beshalach 5783 keeps 14:31 pasuk in one RTL run", () => {
+  const typst = convertedDocx("/beshalach/5783/(1)/");
+
+  assertContains(
+    typst,
+    `(14:31): ${RTL_ISOLATE}וַיַּרְא יִשְׂרָאֵל אֶת הַיָּד הַגְּדֹלָה אֲשֶׁר עָשָׂה ה׳ בְּמִצְרַיִם וַיִּירְאוּ הָעָם אֶת ה׳ וַיַּאֲמִינוּ בַּה׳ וּבְמֹשֶׁה עַבְדּוֹ${POP_DIRECTIONAL_ISOLATE}.`,
+    "full 14:31 pasuk"
+  );
+  assertNotContains(typst, `${LTR_ISOLATE}הָעָם`, "middle pasuk chunk incorrectly isolated as LTR");
 });
 
 test("docx: Vayigash 5783 keeps numbered question paragraphs tight and literal", () => {
