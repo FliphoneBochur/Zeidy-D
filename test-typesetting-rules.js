@@ -87,6 +87,21 @@ function convertedDocx(route) {
   return convertDocxToTypst(docxEntry(route));
 }
 
+function convertedDocxWithIndex(route, aliases) {
+  const people = aliases.map((alias, index) => ({
+    id: alias.id || `person-${index + 1}`,
+    displayName: alias.displayName || alias.id || `Person ${index + 1}`,
+    aliases: alias.aliases,
+  }));
+  const indexState = {
+    people,
+    mentions: new Map(people.map((person) => [person.id, []])),
+    nextMarker: 1,
+  };
+
+  return convertDocxToTypst(docxEntry(route), indexState);
+}
+
 function assertContains(haystack, needle, label = needle) {
   assert.ok(
     haystack.includes(needle),
@@ -598,6 +613,13 @@ test("keeps comma after single Hebrew phrase before English", () => {
   );
 });
 
+test("keeps comma after Hebrew phrase before index marker and newline English", () => {
+  assert.equal(
+    applyTextRules("as quoted by the בית הלוי, #metadata(none) <person-index-bais-halevi-1>\nnotes"),
+    `as quoted by the ${RTL_ISOLATE}בית הלוי${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} #metadata(none) <person-index-bais-halevi-1>\nnotes`
+  );
+});
+
 test("keeps internal Hebrew commas attached before spaces", () => {
   assert.equal(
     applyTextRules("אינו יודע רגעיו ועתיו ושעותיו, נכנס בו כחוט השערה - Since"),
@@ -1014,6 +1036,19 @@ test("docx: Beshalach 5784 fixes duplicate open parenthesis before medrash sourc
   );
   assertNotContains(typst, "(\\(23:3", "raw escaped duplicate open parenthesis");
   assertNotContains(typst, "((23:3", "double open parenthesis before source");
+});
+
+test("docx: Beshalach 5784 keeps comma after Bais Halevi before indexed newline English", () => {
+  const typst = convertedDocxWithIndex("/beshalach/5784/", [
+    { id: "bais-halevi", displayName: "Bais Halevi", aliases: ["בית הלוי"] },
+  ]);
+
+  assertContains(
+    typst,
+    `as quoted by the ${RTL_ISOLATE}בית הלוי${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} #metadata(none) <person-index-bais-halevi-1>\nnotes`,
+    "comma after indexed Bais Halevi before notes"
+  );
+  assertNotContains(typst, `${RTL_ISOLATE}בית הלוי,${POP_DIRECTIONAL_ISOLATE}`, "comma inside indexed Bais Halevi isolate");
 });
 
 test("docx: Bereshis 5784 keeps comma after Bais Halevi before English", () => {

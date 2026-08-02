@@ -346,7 +346,7 @@ recreated. We say that in davening every single day, ⁧הַמְחַדֵּשׁ �
 his goodness is newly creating; ⁧תָּמִיד⁩ - continuously; ⁧מַעֲשֵׂה בְרֵאשִׁית⁩. So
 ⁧שבת⁩⁦,⁩ which we use as a symbol of resting, of stopping from work, is
 actually our ⁧עדות⁩⁦,⁩ is our testimony that ⁧הקדוש ברוך הוא⁩ is the ⁧ממציא⁩ and
-the ⁧בורא העולם⁩ and continues its constant existence. As the ⁧בית הלוי,⁩ #metadata(none) <person-index-bais-halevi-1>
+the ⁧בורא העולם⁩ and continues its constant existence. As the ⁧בית הלוי⁩⁦,⁩ #metadata(none) <person-index-bais-halevi-1>
 which this is from, says, we are used to seeing things continually
 existing because in our minds, in our eye, we see things being there on
 a constant basis. That's because we can't see it being recreated every
@@ -782,7 +782,7 @@ incredible people.
 
 The ⁧ספר אהל תורה⁩#metadata(none) <person-index-ohel-torah-45> quoted in ⁧מעינה של תורה⁩⁦,⁩ #metadata(none) <person-index-m-eino-shel-torah-44> comments on ⁧וֶהְיֵה בְּרָכָה⁩ and the
 idea that ⁧בְּךָ חוֹתְמִין וְלֹא בָהֶם⁩. The ⁧משנה⁩ teaches us (Avos 1:2): ⁧עַל שְׁלשָׁה דְבָרִים הָעוֹלָם עוֹמֵד, עַל הַתּוֹרָה וְעַל הָעֲבוֹדָה וְעַל גְּמִילוּת חֲסָדִים⁩. Each of these
-corresponding to one of the ⁧אבות⁩:⁧אברהם⁩ represents ⁧גמילות חסדים, יצחק⁩
+corresponding to one of the ⁧אבות⁩:⁧אברהם⁩ represents ⁧גמילות חסדים⁩⁦,⁩ ⁧יצחק⁩
 represents ⁧עבודה⁩⁦,⁩ since he offered himself as a ⁧קרבן⁩\; and ⁧יעקב⁩
 represents ⁧תורה⁩⁦,⁩ as the ⁧אִישׁ תָּם יֹשֵׁב אֹהָלִים⁩. In the later generations, in
 which we are now participating, preceding the coming of ⁧משיח⁩⁦,⁩ the ⁧תורה⁩
@@ -1880,7 +1880,7 @@ beings and with people, and you have prevailed."
 
 The name ⁧יעקב⁩ comes from the word ⁧עקב⁩⁦,⁩ the heel - the bottom of the ⁧רגל⁩.
 It implies a relationship with Hashem that can easily become distorted
-and unstable. However, through his struggle with the ⁧מלאך, יעקב⁩
+and unstable. However, through his struggle with the ⁧מלאך⁩⁦,⁩ ⁧יעקב⁩
 demonstrated that he could rise to the level of ⁧מוח⁩ - being guided by
 his ⁧שכל⁩⁦,⁩ the top level of ⁧קדושה⁩ - the head. This became dominant in his
 relationship with ⁧הקדוש ברוך הוא⁩⁦,⁩ and so the ⁧מלאך⁩ changed his name to
@@ -2792,7 +2792,7 @@ raises a question: even ⁧רבי יהושע בן קרחה⁩ would have to admi
 outcome is a punishment. After all, we know that ⁧אַהֲרֹן⁩ became the ⁧כהן גדול⁩ and ⁧משה⁩ remained a ⁧לוי⁩. So how could ⁧רבי יהושע בן קרחה⁩ claim that
 ⁧משה⁩ wasn't punished?
 
-R' Chaim Shmuelevitz#metadata(none) <person-index-r-chaim-shmuelevitz-207> offers a powerful insight from the ⁧מדרש⁩. When ⁧ניסוך השמן⁩ was performed during ⁦אַהֲרֹן'⁩s inauguration as ⁧כהן גדול, משה רבינו⁩
+R' Chaim Shmuelevitz#metadata(none) <person-index-r-chaim-shmuelevitz-207> offers a powerful insight from the ⁧מדרש⁩. When ⁧ניסוך השמן⁩ was performed during ⁦אַהֲרֹן'⁩s inauguration as ⁧כהן גדול⁩⁦,⁩ ⁧משה רבינו⁩
 witnessed the oil flowing over ⁦אַהֲרֹן'⁩s head, down his face, and onto his
 beard. The ⁧מדרש⁩ describes how ⁧משה⁩ was so thrilled and joyous that it was
 as if the oil was being poured on his own head. ⁦משה'⁩s joy at his
@@ -3262,7 +3262,7 @@ speak thoughtfully. This corresponds to the pasuk in ⁧משלי⁩ (21:23): ⁧
 = Beshalach 5784
 
 ⁧פרשת בשלח⁩ contains many important topics, with a highlight being ⁧שירת הים⁩⁦,⁩ beginning with the familiar words we recite daily (15:1): ⁧אָז יָשִׁיר מֹשֶׁה⁩. The ⁧מפרשים⁩ are struck by the fact that ⁧משה רבינו⁩ starts the ⁧שירה⁩
-with the word ⁧אָז⁩. The ⁧מדרש רבה⁩ (23:3), as quoted by the ⁧בית הלוי,⁩ #metadata(none) <person-index-bais-halevi-244>
+with the word ⁧אָז⁩. The ⁧מדרש רבה⁩ (23:3), as quoted by the ⁧בית הלוי⁩⁦,⁩ #metadata(none) <person-index-bais-halevi-244>
 notes: ⁧אמר משה באז חטאתי שאמרתי וּמֵאָז בָּאתִי אֶל פַּרְעֹה לְדַבֵּר בִּשְׁמֶךָ הֵרַע לָעָם הַזֶּה, באז אני אומר שירה⁩. This cryptic ⁧מדרש⁩ demands elucidation. The literal
 translation is, "I, ⁧משה⁩⁦,⁩ did an ⁧עֲבֵירָה⁩ with the word ⁧אז⁩ when I said
 (5:23), ⁧וּמֵאָז בָּאתִי אֶל פַּרְעֹה לְדַבֵּר בִּשְׁמֶךָ הֵרַע לָעָם הַזֶּה⁩. Now when I say ⁧שירה⁩⁦,⁩ I
@@ -4129,7 +4129,7 @@ One who is content with what he has brings light to the world. This is
 exactly what we find with the ⁧יונה⁩ in the story of ⁧נח⁩. The ⁧יונה⁩
 preferred ⁧מזונות מרורים כזית⁩ from ⁧הקדוש ברוך הוא⁩ rather than receiving
 sweet ⁧מתוקים כדבש⁩ from ⁧בשר ודם⁩. The ⁧ספרים הקדושים⁩ explain that the word
-⁧תצוה⁩ is not only a ⁧לשון⁩ of command but also comes from the ⁧לשון⁩ of ⁧ציווה בדיבוק⁩ - attachment, connection. This is found in the ⁧ספר תפוחי חיים,⁩ #metadata(none) <person-index-tapuchei-chaim-327>
+⁧תצוה⁩ is not only a ⁧לשון⁩ of command but also comes from the ⁧לשון⁩ of ⁧ציווה בדיבוק⁩ - attachment, connection. This is found in the ⁧ספר תפוחי חיים⁩⁦,⁩ #metadata(none) <person-index-tapuchei-chaim-327>
 written by R' Chaim Alter Panet, #metadata(none) <person-index-r-chaim-alter-panet-326> which is related to the name of Benet, the famous R' Benet, #metadata(none) <person-index-r-benet-325> \[which people ask me at least once a year if I am
 related to him, which I'm not\].
 
@@ -4176,7 +4176,7 @@ have a lot of ⁧ברכות⁩ from all of them. And I'm looking forward to a hu
 mention ⁦משה רבינו'⁩s name.
 
 However, ⁧פרשת זכור⁩ \[which is a ⁧מצוה דאורייתא⁩⁦,⁩ and in our shul, the ⁧רב⁩
-leins it\] is an intriguing ⁧מצוה⁩. R' Moshe Feinstein, #metadata(none) <person-index-r-moshe-feinstein-329> in his ⁧ספר קול רם,⁩ #metadata(none) <person-index-kol-rom-328>
+leins it\] is an intriguing ⁧מצוה⁩. R' Moshe Feinstein, #metadata(none) <person-index-r-moshe-feinstein-329> in his ⁧ספר קול רם⁩⁦,⁩ #metadata(none) <person-index-kol-rom-328>
 discusses this ⁧מצוה⁩ at length and arrives at a striking conclusion.
 First, it is an annual ⁧מצוה⁩ which we observe year after year for
 thousands of years.
@@ -7867,7 +7867,7 @@ take? What would you suggest? So all of us said ⁧סידור⁩ and 99% of us s
 ⁧חומש⁩. He said, nope. He said the ⁧סידור⁩ and a ⁧קיצור שולחן ערוך⁩.#metadata(none) <person-index-kitzur-shulchan-aruch-629> It's
 interesting that he said that, and if you think about it, it makes a
 world of sense. The author of the ⁧קיצור שולחן ערוך⁩#metadata(none) <person-index-kitzur-shulchan-aruch-630> is Rav Shlomo
-Ganzfried, #metadata(none) <person-index-r-shlomo-ganzfried-635> and he was a ⁧גאון עולם⁩. If you look at the ⁧קיצור שולחן ערוך,⁩ #metadata(none) <person-index-kitzur-shulchan-aruch-631>
+Ganzfried, #metadata(none) <person-index-r-shlomo-ganzfried-635> and he was a ⁧גאון עולם⁩. If you look at the ⁧קיצור שולחן ערוך⁩⁦,⁩ #metadata(none) <person-index-kitzur-shulchan-aruch-631>
 it's similar to ⁦רש״י⁩#metadata(none) <person-index-rashi-637> in that anybody can read it and can understand it, and it's written so perfectly and so beautifully that you really think
 that a very simple person wrote it. But it's not. It's written by a ⁧גאון עולם⁩. Rav Shlomo Ganzfried#metadata(none) <person-index-r-shlomo-ganzfried-636> wrote other ⁧ספרים⁩. And once upon a time, I
 had the opportunity at a ⁧ספרים⁩ store to see one of his other ⁧ספרים⁩
@@ -9280,7 +9280,7 @@ it says in ⁧מעשה בראשית⁩. Where did this mistaken theory come from
 the superficial resemblance between humans and apes. We both have four
 limbs, certain similarities of appearance, and even behaviors that
 resemble each other. So they assumed humans came from apes. But the ⁧מדרש⁩
-in ⁧פרשת נח⁩ says the opposite: after the ⁧דור הפלגה, הקדוש ברוך הוא⁩
+in ⁧פרשת נח⁩ says the opposite: after the ⁧דור הפלגה⁩⁦,⁩ ⁧הקדוש ברוך הוא⁩
 punished some of them by turning them into apes. So it is not that
 people came from apes, but apes came from people. Again, the Torah
 viewpoint is the true one and the theory of evolution is totally false.
@@ -10099,7 +10099,7 @@ give the son ⁧מוסר⁩ and to straighten him out but in a nice way. So what
 did he do? In order to be nice to the father and the son, he waited for
 a period of time when the father was in a good mood, or in a better
 frame of mind. He did that in order to be kind to the son, and
-particularly kind to the father. Similarly on ⁧ראש השנה, הקדוש ברוך הוא⁩
+particularly kind to the father. Similarly on ⁧ראש השנה⁩⁦,⁩ ⁧הקדוש ברוך הוא⁩
 first brings in the king, and we assume and hope, ⁧הלוואי⁩ it should be, that the king is a ⁧צדיק⁩. He's the right person to be the mentor and the
 paradigm for all of those around him. So we ⁧דן⁩ the king first to ⁧כביכול⁩
 put ⁧הקדוש ברוך הוא⁩ in a good mood, and Hashem will not be ⁧בכעס⁩⁦,⁩ and then
@@ -12312,7 +12312,7 @@ he has done for us, represented by our otherworldly existence in the
 ⁧סוכה⁩\.What's going happen when ⁧משיח⁩ comes? When ⁧משיח⁩ comes, the ⁧גוים⁩ are
 going be jealous of us. Everybody knows the ⁧מדרש⁩. The ⁧גמרא⁩ in ⁧עבודה זרה⁩
 mentions that Hashem will tell all the nations of the world, "I'm
-bringing ⁦משיח"⁩ and the ⁧גוים⁩ will say, "Hey, if we would have had a ⁧מצוה⁩⁦,⁩ we would have done it." Hashem will say, "Okay, I'll give you a ⁧מצוה,⁩"
+bringing ⁦משיח"⁩ and the ⁧גוים⁩ will say, "Hey, if we would have had a ⁧מצוה⁩⁦,⁩ we would have done it." Hashem will say, "Okay, I'll give you a ⁧מצוה⁩⁦,⁩"
 and He'll give them the ⁧מצוה⁩ of ⁧סוכה⁩⁦,⁩ which they proceed to demolish.
 They're not interested in the ⁧מצוה⁩ of ⁧סוכה⁩. The question is, how does
 ⁧סוכה⁩ have to do with the ⁧גוים⁩? Why specifically this "easy ⁦מצוה"⁩?

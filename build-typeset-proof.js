@@ -527,7 +527,7 @@ function sortIndexDisplayName(value) {
 
 function wrapIndexDisplayName(value) {
   const chars = Array.from(value);
-  if (chars.length <= 34) {
+  if (chars.length <= 48) {
     return [value];
   }
 
@@ -566,7 +566,7 @@ function wrapIndexDisplayName(value) {
 }
 
 function indexNameLikelyWraps(value) {
-  return Array.from(value).length > 32;
+  return Array.from(value).length > 48;
 }
 
 function uniqueValues(values) {
@@ -895,8 +895,8 @@ function isolateHebrewRuns(typstContent) {
   const followedByEnglish = (fullText, endOffset) => {
     const following = fullText
       .slice(endOffset)
-      .replace(/^(?:[ \t\u00A0\u202F]+|#metadata\(none\)\s*<[^>\n]+>)*["'“‘]/g, "")
-      .replace(/^(?:[ \t\u00A0\u202F]+|#metadata\(none\)\s*<[^>\n]+>)*/g, "");
+      .replace(/^(?:[ \t\u00A0\u202F]+|\n(?!\n)|#metadata\(none\)\s*<[^>\n]+>)*["'“‘]/g, "")
+      .replace(/^(?:[ \t\u00A0\u202F]+|\n(?!\n)|#metadata\(none\)\s*<[^>\n]+>)*/g, "");
     return /^(?:[A-Za-z]|\d+\))/.test(following);
   };
   const isolateHebrewPhrase = (value, useLtrTrailingComma = false) => {

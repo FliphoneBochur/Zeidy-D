@@ -4,17 +4,13 @@ This is a review-only scan for likely visual punctuation and bidi issues in the 
 
 PDF scanned: `Files/08 - Misc/Final Sefer/Final Sefer.pdf`
 Typst scanned: `Files/08 - Misc/Final Sefer/Final Sefer.typ`
-Findings: 159 (9 high, 150 medium)
+Findings: 158 (8 high, 150 medium)
 Visual pages rendered: `typeset-audit-pages`
 
 The PDF scan uses extracted visual text, so it is useful for catching rendered punctuation surprises. The Typst scan catches raw source patterns before rendering.
 
 ## HIGH - leading punctuation before Hebrew
 
-- PDF visual text, page 110, Beshalach 5784, line 9
-  - visual: [page-0110.png](typeset-audit-pages/page-0110.png)
-  - The ⁧ ‫( ⁩מדרש רבה‬23:3), as quoted by the ⁧ ,‫ ⁩בית הלוי‬notes: ⁧ ‫אמר משה באז חטאתי‬
-  - normalized: The  ( מדרש רבה23:3), as quoted by the  , בית הלויnotes:  אמר משה באז חטאתי
 - PDF visual text, page 124, Mishpatim 5785, line 14
   - visual: [page-0124.png](typeset-audit-pages/page-0124.png)
   - I thought it would be worthwhile to share it. The ⁧‫ ⁩אפיריון‬says ⁧,‫ ⁩לפי עניות דעתי‬
@@ -255,7 +251,7 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - that at all. So, ⁧אנכי עפר ואפר⁩⁦,⁩ the famous saying about ⁧עפר ואפר⁩:⁧עפר⁩ is
   - normalized: that at all. So, אנכי עפר ואפר, the famous saying about עפר ואפר:עפר is
 - Typst source, line 785
-  - corresponding to one of the ⁧אבות⁩:⁧אברהם⁩ represents ⁧גמילות חסדים, יצחק⁩
+  - corresponding to one of the ⁧אבות⁩:⁧אברהם⁩ represents ⁧גמילות חסדים⁩⁦,⁩ ⁧יצחק⁩
   - normalized: corresponding to one of the אבות:אברהם represents גמילות חסדים, יצחק
 - Typst source, line 1489
   - was also given ⁧עשו⁩. ⁧יצחק⁩ tells ⁧הקדוש ברוך הוא⁩:⁧אף אני היה לי בן חוטא⁩ -
@@ -571,10 +567,6 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - visual: [page-0108.png](typeset-audit-pages/page-0108.png)
   - drown the ⁧‫ ?⁩מצריים‬Many of us might think that ⁧‫ ⁩קריעת ים סוף‬was the greater
   - normalized: drown the  ?מצרייםMany of us might think that  קריעת ים סוףwas the greater
-- PDF visual text, page 110, Beshalach 5784, line 9
-  - visual: [page-0110.png](typeset-audit-pages/page-0110.png)
-  - The ⁧ ‫( ⁩מדרש רבה‬23:3), as quoted by the ⁧ ,‫ ⁩בית הלוי‬notes: ⁧ ‫אמר משה באז חטאתי‬
-  - normalized: The  ( מדרש רבה23:3), as quoted by the  , בית הלויnotes:  אמר משה באז חטאתי
 - PDF visual text, page 110, Beshalach 5784, line 22
   - visual: [page-0110.png](typeset-audit-pages/page-0110.png)
   - does using ⁧‫ ⁩אז‬here rectify the previous ⁧‫?⁩אז‬
@@ -603,3 +595,7 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - visual: [page-0121.png](typeset-audit-pages/page-0121.png)
   - What are we doing when we perform a ⁧‫ ?⁩מצוה‬We are serving ⁧‫!⁩הקדוש ברוך הוא‬
   - normalized: What are we doing when we perform a  ?מצוהWe are serving !הקדוש ברוך הוא
+- PDF visual text, page 123, Mishpatim (2) 5784, line 14
+  - visual: [page-0123.png](typeset-audit-pages/page-0123.png)
+  - before the ⁧‫ ⁩?מלך מלכי המלכים הקדוש ברוך הוא‬You can’t go all the way up the
+  - normalized: before the  ?מלך מלכי המלכים הקדוש ברוך הואYou can’t go all the way up the
