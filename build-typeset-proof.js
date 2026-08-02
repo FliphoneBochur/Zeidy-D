@@ -153,6 +153,10 @@ const MIXED_LTR_PARENTHETICAL_RE = new RegExp(
   `(?<!${LTR_ISOLATE})\\((?=(?:[^()\\n]|\\n(?!\\n)){0,300}[A-Za-z])(?=(?:[^()\\n]|\\n(?!\\n)){0,300}${RTL_ISOLATE})(?:[^()\\n]|\\n(?!\\n)){1,300}\\)(?:[,.;:!?])?`,
   "gu"
 );
+const GERUSHIN_MIZBEACH_PHRASE_RE = new RegExp(
+  `${RTL_ISOLATE}גירושין, מזבח מוריד דמעות${POP_DIRECTIONAL_ISOLATE}`,
+  "gu"
+);
 
 function usage() {
   console.log(`Usage: node build-typeset-proof.js [options]
@@ -1040,15 +1044,24 @@ function protectMixedLtrParentheticals(typstContent) {
   });
 }
 
+function repairGerushinMizbeachPhrase(typstContent) {
+  return typstContent.replace(
+    GERUSHIN_MIZBEACH_PHRASE_RE,
+    `${RTL_ISOLATE}גירושין${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}מזבח${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}מוריד${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}דמעות${POP_DIRECTIONAL_ISOLATE}`
+  );
+}
+
 function applyTextRules(typstContent) {
-  return protectMixedLtrParentheticals(
-    repairSplitGemaraSources(
-      isolateHebrewRuns(
-        moveLeadingHebrewSourceAfterQuote(
-          repairEscapedHebrewParagraphCitations(
-            normalizeMisplacedHebrewCommas(
-              normalizePunctuationSpacing(
-                normalizeColonHebrewSoftBreaks(normalizeNumberedSoftBreaks(typstContent))
+  return repairGerushinMizbeachPhrase(
+    protectMixedLtrParentheticals(
+      repairSplitGemaraSources(
+        isolateHebrewRuns(
+          moveLeadingHebrewSourceAfterQuote(
+            repairEscapedHebrewParagraphCitations(
+              normalizeMisplacedHebrewCommas(
+                normalizePunctuationSpacing(
+                  normalizeColonHebrewSoftBreaks(normalizeNumberedSoftBreaks(typstContent))
+                )
               )
             )
           )
@@ -1486,6 +1499,7 @@ module.exports = {
   normalizeNumberedSoftBreaks,
   normalizePunctuationSpacing,
   protectMixedLtrParentheticals,
+  repairGerushinMizbeachPhrase,
   repairEscapedHebrewParagraphCitations,
   repairSplitGemaraSources,
   renderPersonIndex,

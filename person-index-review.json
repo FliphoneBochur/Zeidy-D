@@ -1995,6 +1995,23 @@
         "ציפורן שמיר"
       ],
       "createdAt": "2026-07-24T06:05:35.839Z"
+    },
+    "yalkut-shimoni": {
+      "displayName": "Yalkut Shimoni",
+      "aliases": [
+        "Yalkut Shimoni",
+        "ילקוט שמוני",
+        "ילקוט שמעוני"
+      ],
+      "createdAt": "2026-07-24T06:05:45.839Z"
+    },
+    "pirkei-drabi-eliezer": {
+      "displayName": "Pirkei Drabi Eliezer",
+      "aliases": [
+        "Pirkei Drabi Eliezer",
+        "פירקי דרבי אליעזר"
+      ],
+      "createdAt": "2026-07-24T06:05:55.839Z"
     }
   }
 }

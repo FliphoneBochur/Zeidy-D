@@ -463,6 +463,13 @@ test("keeps semicolon between Hebrew phrases in one RTL run", () => {
   );
 });
 
+test("keeps gerushin mizbeach phrase in English sentence order", () => {
+  assert.equal(
+    applyTextRules("if חס ושלום there's a גירושין, מזבח מוריד דמעות - the מזבח cries"),
+    `if ${RTL_ISOLATE}חס ושלום${POP_DIRECTIONAL_ISOLATE} there's a ${RTL_ISOLATE}גירושין${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}מזבח${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}מוריד${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}דמעות${POP_DIRECTIONAL_ISOLATE} - the ${RTL_ISOLATE}מזבח${POP_DIRECTIONAL_ISOLATE} cries`
+  );
+});
+
 test("repairs escaped open parenthesis after numeric source reference", () => {
   assert.equal(
     applyTextRules("The פסוק says (30:15\\(:הֶעָשִׁיר לֹא"),

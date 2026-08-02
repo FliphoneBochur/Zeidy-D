@@ -242,8 +242,8 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - was also given ⁧עשו⁩. ⁧יצחק⁩ tells ⁧הקדוש ברוך הוא⁩:⁧אף אני היה לי בן חוטא⁩ -
   - normalized: was also given עשו. יצחק tells הקדוש ברוך הוא:אף אני היה לי בן חוטא -
 - Typst source, line 1755
-  - (⁦רש״י⁩#metadata(none) <person-index-rashi-126> ⁦ל״ב⁩:⁧ט׳⁩): \
-  - normalized: (רש״י#metadata(none) <person-index-rashi-126> ל״ב:ט׳): \
+  - (⁦רש״י⁩#metadata(none) <person-index-rashi-127> ⁦ל״ב⁩:⁧ט׳⁩): \
+  - normalized: (רש״י#metadata(none) <person-index-rashi-127> ל״ב:ט׳): \
 - Typst source, line 2263
   - sets up another momentous confrontation in ⁧פרשת ויגש⁩:⁧יהודה⁩ standing up
   - normalized: sets up another momentous confrontation in פרשת ויגש:יהודה standing up
@@ -287,8 +287,8 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - different - ⁧ישראל⁩ are ⁧מקדשים את הזמנים⁩. And here comes his bomb ⁧חידוש⁩:⁧קדושה⁩ that comes through our ⁧מעשה⁩ never leaves. It stays with us
   - normalized: different - ישראל are מקדשים את הזמנים. And here comes his bomb חידוש:קדושה that comes through our מעשה never leaves. It stays with us
 - Typst source, line 4450
-  - ...gathering of ⁧כלל ישראל⁩⁦?⁩ ⁦רש״י⁩#metadata(none) <person-index-rashi-347> says: ⁧ויקהל משה⁩:⁧למחרת יום הכיפורים⁩ - it was the 11th day of ⁧תשרי⁩⁦,⁩ the day after...
-  - normalized: ...ering of כלל ישראל? רש״י#metadata(none) <person-index-rashi-347> says: ויקהל משה:למחרת יום הכיפורים - it was the 11th day of תשרי, the day after יום כיפור. The
+  - ...gathering of ⁧כלל ישראל⁩⁦?⁩ ⁦רש״י⁩#metadata(none) <person-index-rashi-348> says: ⁧ויקהל משה⁩:⁧למחרת יום הכיפורים⁩ - it was the 11th day of ⁧תשרי⁩⁦,⁩ the day after...
+  - normalized: ...ering of כלל ישראל? רש״י#metadata(none) <person-index-rashi-348> says: ויקהל משה:למחרת יום הכיפורים - it was the 11th day of תשרי, the day after יום כיפור. The
 - Typst source, line 4755
   - ⁧פסוק⁩:⁧ויקרא אל משה⁩. Everybody knows about the little ⁧א⁩ in ⁧ויקרא⁩⁦,⁩ that
   - normalized: פסוק:ויקרא אל משה. Everybody knows about the little א in ויקרא, that
@@ -335,8 +335,8 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - ...⁧שֵׁשׁ כְּנָפַיִם שֵׁשׁ כְּנָפַיִם לְאֶחָד⁩ - six wings, as is brought down in ⁧ישעיהו ו׳⁩:⁧ב׳⁩. However, there is another pasuk in ⁧יחזקאל א׳⁩:⁧ו׳⁩ which says ⁧ו...
   - normalized: ...כְּנָפַיִם שֵׁשׁ כְּנָפַיִם לְאֶחָד - six wings, as is brought down in ישעיהו ו׳:ב׳. However, there is another pasuk in יחזקאל א׳:ו׳ which says וְאַרְבָּעָה פָנִי...
 - Typst source, line 10462
-  - ...hem accepted that ⁧קרבן⁩. ⁦רש״י⁩#metadata(none) <person-index-rashi-844> explains on that ⁧גמרא⁩:⁧שמפייסין אותו על דבר⁩ - we're able to calm
-  - normalized: ...ed that קרבן. רש״י#metadata(none) <person-index-rashi-844> explains on that גמרא:שמפייסין אותו על דבר - we're able to calm
+  - ...hem accepted that ⁧קרבן⁩. ⁦רש״י⁩#metadata(none) <person-index-rashi-846> explains on that ⁧גמרא⁩:⁧שמפייסין אותו על דבר⁩ - we're able to calm
+  - normalized: ...ed that קרבן. רש״י#metadata(none) <person-index-rashi-846> explains on that גמרא:שמפייסין אותו על דבר - we're able to calm
 - Typst source, line 10476
   - ...states: (⁧וּלְמַעַן תְּסַפֵּר בְּאׇזְנֵי בִנְךָ \... וִידַעְתֶּם כִּי אֲנִי ה׳⁩ (⁧שמות י׳⁩:⁧ב׳⁩. Through the ⁧מצוה⁩ of ⁧סיפור יציאת מצרים⁩⁦,⁩ we
   - normalized: ...: (וּלְמַעַן תְּסַפֵּר בְּאׇזְנֵי בִנְךָ \... וִידַעְתֶּם כִּי אֲנִי ה׳ (שמות י׳:ב׳. Through the מצוה of סיפור יציאת מצרים, we
