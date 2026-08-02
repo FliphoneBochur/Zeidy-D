@@ -94,6 +94,7 @@ const TYP_PATTERNS = [
   {
     severity: "medium",
     label: "missing space after colon before Hebrew in Typst source",
+    normalizer: "ignore-parenthesized-sources",
     re: new RegExp(`:[${HEBREW}]`, "u"),
   },
   {
@@ -213,6 +214,10 @@ function compactForScan(value) {
   return value.replace(DIRECTION_MARKS_RE, "").replace(PDF_HEBREW_MARKS_RE, "");
 }
 
+function maskParenthesizedSources(value) {
+  return value.replace(/\([^()\n]*:[^()\n]*\)/gu, (match) => " ".repeat(match.length));
+}
+
 function repairPdfExtractedTrailingPunctuationArtifacts(value) {
   return value
     .replace(
@@ -241,11 +246,36 @@ function scanTextForPattern(value, pattern, source) {
   const scanValue = source === "PDF visual text"
     ? repairPdfExtractedTrailingPunctuationArtifacts(value)
     : value;
-  return pattern.normalizer === "boundary" ? normalizedForScan(scanValue) : compactForScan(scanValue);
+  if (pattern.normalizer === "boundary") {
+    return normalizedForScan(scanValue);
+  }
+
+  const compactValue = compactForScan(scanValue);
+  if (pattern.normalizer === "ignore-parenthesized-sources") {
+    return maskParenthesizedSources(compactValue);
+  }
+
+  return compactValue;
 }
 
-function shouldSkipLineForPattern(value, pattern) {
+function shouldSkipLineForPattern(value, pattern, location = {}) {
   if (pattern.label === "space before sentence punctuation" && /(?:\s\.){3,}/.test(value)) {
+    return true;
+  }
+
+  if (
+    pattern.label === "broken thousands separator" &&
+    location.source === "PDF visual text" &&
+    location.title === "Index"
+  ) {
+    return true;
+  }
+
+  if (
+    pattern.label === "broken thousands separator in Typst source" &&
+    location.source === "Typst source" &&
+    /#index-row\(/.test(value)
+  ) {
     return true;
   }
 
@@ -289,7 +319,7 @@ function addFinding(findings, counters, pattern, location, originalLine, normali
 function scanLines({ source, lines, patterns, maxPerPattern, page, title }, findings, counters) {
   lines.forEach((originalLine, lineIndex) => {
     for (const pattern of patterns) {
-      if (shouldSkipLineForPattern(originalLine, pattern)) {
+      if (shouldSkipLineForPattern(originalLine, pattern, { source, page, title })) {
         continue;
       }
       const normalizedLine = scanTextForPattern(originalLine, pattern, source);
@@ -518,5 +548,6 @@ module.exports = {
   compactForScan,
   normalizedForScan,
   repairPdfExtractedTrailingPunctuationArtifacts,
+  shouldSkipLineForPattern,
   scanTextForPattern,
 };

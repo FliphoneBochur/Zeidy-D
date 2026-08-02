@@ -425,7 +425,7 @@ his work, and in the same pasuk it says ⁧וַיִּשְׁבֹּת⁩ - he reste
 Did Hashem work or did He rest? The answer that's always given is, and
 I'll quote it now verbatim from ⁧בראשית רבה⁩ ⁦(י׳:ט׳)⁩: ⁧בָּשָׂר וָדָם שֶׁאֵינוֹ יוֹדֵעַ לֹא עִתָּיו וְלֹא רְגָעָיו וְלֹא שְׁעוֹתָיו, הוּא מוֹסִיף מֵחֹל עַל הַקֹּדֶשׁ⁩ - Since we cannot
 determine precisely when that moment when ⁧שבת⁩ comes in, we have to
-perforce add on from ⁧חול⁩ to ⁧קודש⁩\; ⁧אֲבָל הַקָּדוֹשׁ בָּרוּךְ הוּא שֶׁהוּא יוֹדֵעַ רְגָעָיו וְעִתָּיו וּשְׁעוֹתָיו, נִכְנַס בּוֹ כְּחוּט הַשַּׂעֲרָה⁩ - ⁧הקדוש ברוך הוא⁩ knows precisely the
+perforce add on from ⁧חול⁩ to ⁧קודש⁩\;⁧אֲבָל הַקָּדוֹשׁ בָּרוּךְ הוּא שֶׁהוּא יוֹדֵעַ רְגָעָיו וְעִתָּיו וּשְׁעוֹתָיו, נִכְנַס בּוֹ כְּחוּט הַשַּׂעֲרָה⁩ - ⁧הקדוש ברוך הוא⁩ knows precisely the
 way that time is running, Hashem created time, and therefore He knows
 exactly when ⁧שבת⁩ starts and when ⁧שבת⁩ ends. This ⁧בראשית רבה⁩ appears to be
 pointing out man's deficiencies, man's limited view of the world, man's
@@ -2844,7 +2844,7 @@ become throughout his life. Because of this, ⁧רב מאיר⁩ in the ⁧גמ�
 ask for a person's name before interacting with them. He used the name
 as a way to determine how to approach the person and how to deal with
 his ⁧שאלות⁩ and issues. (The concept of ⁧רוח הקודש⁩ influencing a parent's
-choice of a name is from the ⁦אריז״ל⁩#metadata(none) <person-index-arizal-209>\; it's not ⁧סתם אזוי אַ ווערטל⁩). R'
+choice of a name is from the ⁦אריז״ל⁩\;#metadata(none) <person-index-arizal-209> it's not ⁧סתם אזוי אַ ווערטל⁩). R'
 Chaim Kanievsky#metadata(none) <person-index-r-chaim-kanievsky-212> advised that parents should give their children normal
 names to prevent embarrassment. Both the ⁧חזון איש⁩ and the Steipler#metadata(none) <person-index-steipler-213> were
 shtark on this ⁧ענין⁩.
@@ -4401,7 +4401,7 @@ interesting story. In the ⁧ישיבה⁩ of ⁧חברון⁩⁦,⁩ there was 
 ⁧בחורים⁩ who had been eligible for marriage for years but had not been
 able to find their ⁧שידוך⁩. One day, they came across an obscure sefer. It
 turned out to be from the ⁦רמ״ע מפאנו⁩ \[this is where I first heard about
-it years ago from Rabbi Oelbaum#metadata(none) <person-index-r-noach-isaac-oelbaum-342>\]. The sefer stated that reciting ⁦פרק
+it years ago from Rabbi Oelbaum\].#metadata(none) <person-index-r-noach-isaac-oelbaum-342> The sefer stated that reciting ⁦פרק
 קכ״א⁩ at the end of ⁧שמונה עשרה⁩ is a ⁧סגולה⁩ for finding a ⁧שידוך⁩. \[This is
 in the ⁧רמ״ע מפאנו⁩⁦,⁩ ⁧מאמר חקור דין⁩⁦,⁩ part 4, ⁦חלק י״ז⁩\.\] These twenty
 ⁧בחורים⁩ adopted the ⁧מנהג⁩⁦,⁩ and within two months, each one of them had
@@ -10551,7 +10551,7 @@ Two men were shouting at each other in the street. They didn't care who
 was around them. Someone asked, "What's going on?" They were screaming
 and hollering. One of the men said, "He owes me a thousand rubles." The
 other one said, "No, I owe you nothing." They were really fighting.
-Finally, an older gentleman suggested, "Let's go to ⁧ר׳ לוי יצחק⁩#metadata(none) <person-index-r-levi-yitzchok-of-berditchev-830>\." They
+Finally, an older gentleman suggested, "Let's go to ⁧ר׳ לוי יצחק⁩\.#metadata(none) <person-index-r-levi-yitzchok-of-berditchev-830>" They
 agreed and went to ⁧ר׳ לוי יצחק⁩.#metadata(none) <person-index-r-levi-yitzchok-of-berditchev-831> He listened to their arguments, thought
 about their points, and the next day he ruled that the one who claimed
 he was owed money must be paid. The second man accepted the ⁧פסק⁩ and
@@ -10937,7 +10937,7 @@ He quotes the pasuk from ⁦תהלים צ״ב⁩: ⁧שְׁתוּלִים בְּ
 \- Those who are planted in the house of Hashem, in the courtyards of
 Hashem, will blossom. If you look at the words ⁧שְׁתוּלִים בְּבֵית ה׳⁩⁦,⁩ the ⁧ראשי תיבות⁩ are ⁧ש׳ ב׳ י׳⁩⁦,⁩ the ⁧נוטריקון⁩ for ⁧שמעון בר יוחאי⁩. The Shinever Rov#metadata(none) <person-index-shiniver-rebbe-867>
 explains that we ask Hashem that the beautiful lights of ⁧קדושה⁩ which
-emanate from ⁧רבי שמעון בר יוחאי⁩#metadata(none) <person-index-r-shimon-bar-yochai-863>\; ⁧שְׁתוּלִים בְּבֵית ה׳⁩ - in the upper worlds, ⁧בְּחַצְרוֹת אֱלֹקֵינוּ⁩ - to those who are far away or outside in the courtyard, in the ⁧חצרות⁩⁦,⁩ or the ⁧חוצות⁩ outside of the house; ⁧יַפְרִיחוּ⁩ - they should
+emanate from ⁧רבי שמעון בר יוחאי⁩\;#metadata(none) <person-index-r-shimon-bar-yochai-863> ⁧שְׁתוּלִים בְּבֵית ה׳⁩ - in the upper worlds, ⁧בְּחַצְרוֹת אֱלֹקֵינוּ⁩ - to those who are far away or outside in the courtyard, in the ⁧חצרות⁩⁦,⁩ or the ⁧חוצות⁩ outside of the house; ⁧יַפְרִיחוּ⁩ - they should
 send us light, and they should give us tremendous ⁧ישועות⁩ and spread out
 amongst all of us.
 
@@ -11046,7 +11046,7 @@ that ⁧משה רבינו⁩ went up on ⁧הר סיני⁩⁦,⁩ to the higher
 Hashem: ⁧מַה לִּילוּד אִשָּׁה בֵּינֵינוּ⁩ - What is a human being doing here amongst
 us, the celestial beings, beings of perfection? (A ⁧ילוּד אִשָּׁה⁩ represents a
 person with all of his ⁧חסרונות⁩⁦,⁩ his ⁧יצר הטוב⁩ and ⁧יצר הרע⁩⁦,⁩ and all of his
-various defects). ⁧אָמַר לָהֶן⁩ - Hakodosh Baruch Hu answered the ⁧מלאכים⁩\; ⁧לְקַבֵּל תּוֹרָה בָּא⁩ - he came to receive the Torah; ⁧אָמְרוּ לְפָנָיו⁩ - they said "The
+various defects). ⁧אָמַר לָהֶן⁩ - Hakodosh Baruch Hu answered the ⁧מלאכים⁩\;⁧לְקַבֵּל תּוֹרָה בָּא⁩ - he came to receive the Torah; ⁧אָמְרוּ לְפָנָיו⁩ - they said "The
 Torah, which was established for 974 generations before ⁧בריאת העולם⁩⁦?⁩ We
 disagree; leave the Torah here. We want it to remain with us."⁧אָמַר לוֹ הַקָּדוֹשׁ בָּרוּךְ הוּא לְמֹשֶׁה⁩: ⁧הַחְזֵיר לָהֶן תְּשׁוּבָה⁩ - Hashem told Moshe "You answer
 them." ⁧משה רבינו⁩ responded with a puzzling reply: ⁧אָמַר לְפָנָיו⁩: ⁧רִבּוֹנוֹ שֶׁל עוֹלָם, מִתְיָירֵא אֲנִי שֶׁמָּא יִשְׂרְפוּנִי בַּהֶבֶל שֶׁבְּפִיהֶם⁩ - I'm afraid to answer the

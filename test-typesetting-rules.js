@@ -8,6 +8,7 @@ const {
   PDF_PATTERNS,
   repairPdfExtractedTrailingPunctuationArtifacts,
   scanTextForPattern,
+  shouldSkipLineForPattern,
   TYP_PATTERNS,
 } = require("./audit-typeset");
 
@@ -155,6 +156,34 @@ test("audit flags missing source space after colon before Hebrew isolate", () =>
   assert.equal(auditMatches("https://zeidyd.com/bo/5784/", pattern, "Typst source"), false);
 });
 
+test("audit allows colon inside parenthesized source references", () => {
+  const pattern = auditPattern(TYP_PATTERNS, "missing space after colon before Hebrew in Typst source");
+
+  assert.equal(auditMatches("as we know ⁦(משלי ו:כג)⁩ ⁧כִּי נֵר", pattern, "Typst source"), false);
+  assert.equal(auditMatches("⁦(רש״י ל״ב:ט׳)⁩: \\", pattern, "Typst source"), false);
+  assert.equal(auditMatches("the famous saying about ⁧עפר ואפר⁩:⁧עפר⁩ is", pattern, "Typst source"), true);
+  assert.equal(auditMatches("⁦(משלי ו:כג)⁩:⁧כִּי נֵר", pattern, "Typst source"), true);
+});
+
+test("audit skips broken thousands separator findings on index pages only", () => {
+  const pattern = auditPattern(PDF_PATTERNS, "broken thousands separator");
+
+  assert.equal(
+    shouldSkipLineForPattern("A Short Vort 248, 283, 303", pattern, {
+      source: "PDF visual text",
+      title: "Index",
+    }),
+    true
+  );
+  assert.equal(
+    shouldSkipLineForPattern("There are 12, 196 letters", pattern, {
+      source: "PDF visual text",
+      title: "Bo 5783",
+    }),
+    false
+  );
+});
+
 test("wraps selected typst paragraphs in docx alignment", () => {
   const alignments = new Map([
     [0, { align: "center", text: "first" }],
@@ -279,6 +308,13 @@ test("keeps person index markers after adjacent punctuation", () => {
       "R' Moshe Sternbuch#metadata(none) <person-index-1>, who quoted Rav Itzele Peterburger#metadata(none) <person-index-2>. What"
     ),
     "R' Moshe Sternbuch, #metadata(none) <person-index-1> who quoted Rav Itzele Peterburger.#metadata(none) <person-index-2> What"
+  );
+});
+
+test("keeps person index markers after escaped semicolon punctuation", () => {
+  assert.equal(
+    normalizePunctuationSpacing("אריז״ל#metadata(none) <person-index-arizal-1>\\; it's not"),
+    "אריז״ל\\;#metadata(none) <person-index-arizal-1> it's not"
   );
 });
 
@@ -930,6 +966,21 @@ test("docx: Rosh Hashana 5785 keeps closing quotes before said attribution", () 
     "closing quote before My friend attribution"
   );
   assertNotContains(typst, `daughters'\". \"My friend, \" said`, "raw quote punctuation");
+});
+
+test("docx: Shemos 5785 keeps semicolon attached before index marker", () => {
+  const typst = convertedDocx("/shemos/5785/");
+
+  assertContains(
+    typst,
+    `${LTR_ISOLATE}אריז״ל${POP_DIRECTIONAL_ISOLATE}\\; it's not`,
+    "semicolon attached to Arizal"
+  );
+  assertNotContains(
+    typst,
+    `${LTR_ISOLATE}אריז״ל${POP_DIRECTIONAL_ISOLATE} \\;`,
+    "space before Arizal semicolon"
+  );
 });
 
 test("docx: Beshalach 5784 fixes duplicate open parenthesis before medrash source", () => {

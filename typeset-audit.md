@@ -4,17 +4,13 @@ This is a review-only scan for likely visual punctuation and bidi issues in the 
 
 PDF scanned: `Files/08 - Misc/Final Sefer/Final Sefer.pdf`
 Typst scanned: `Files/08 - Misc/Final Sefer/Final Sefer.typ`
-Findings: 211 (11 high, 200 medium)
+Findings: 209 (9 high, 200 medium)
 Visual pages rendered: `typeset-audit-pages`
 
 The PDF scan uses extracted visual text, so it is useful for catching rendered punctuation surprises. The Typst scan catches raw source patterns before rendering.
 
 ## HIGH - leading punctuation before Hebrew
 
-- PDF visual text, page 96, Shemos 5785, line 26
-  - visual: [page-0096.png](typeset-audit-pages/page-0096.png)
-  - influencing a parent’s choice of a name is from the ⁦‫ ; אריז״ל‬it’s not ⁧‫סתם אזוי ַא‬
-  - normalized: influencing a parent’s choice of a name is from the  ; אריז״לit’s not סתם אזוי ַא
 - PDF visual text, page 110, Beshalach 5784, line 9
   - visual: [page-0110.png](typeset-audit-pages/page-0110.png)
   - The ⁧ ‫( ⁩מדרש רבה‬23:3), as quoted by the ⁧ ,‫ ⁩בית הלוי‬notes: ⁧ ‫אמר משה באז חטאתי‬
@@ -35,10 +31,6 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - visual: [page-0280.png](typeset-audit-pages/page-0280.png)
   - which is ⁧‫בית‬,⁩ which is the ⁧‫ ⁩גמטריא‬of four times ⁧,‫ ⁩מחנה‬412. Each one of these
   - normalized: which is בית, which is the  גמטריאof four times , מחנה412. Each one of these
-- PDF visual text, page 355, Lag Baomer 5784, line 22
-  - visual: [page-0355.png](typeset-audit-pages/page-0355.png)
-  - beautiful lights of ⁧‫ ⁩קדושה‬which emanate from ⁧‫ְׁשתּוִלים ְּבֵבית⁧ ; רבי שמעון בר יוחאי‬
-  - normalized: beautiful lights of  קדושהwhich emanate from ְׁשתּוִלים ְּבֵבית ; רבי שמעון בר יוחאי
 - PDF visual text, page 371, 9 Av 5785, line 8
   - visual: [page-0371.png](typeset-audit-pages/page-0371.png)
   - are showing that ⁧‫השם אלוקינו‬,⁩ Hashem of ⁧‫ ⁩השם אחד⁧ ; ⁩רחמים‬- ⁧‫ ⁩רחמים‬and ⁧‫ ⁩דין‬is
@@ -57,90 +49,6 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - normalized: , אגב( מנחהI did not mention this in the shiur on )שבת, and therefore when he
 ## MEDIUM - broken thousands separator
 
-- PDF visual text, page 465, Index, line 6
-  - visual: [page-0465.png](typeset-audit-pages/page-0465.png)
-  - A Short Vort ......................................... 248, 283, 303, 387, 396, 407, 412
-- PDF visual text, page 465, Index, line 9
-  - visual: [page-0465.png](typeset-audit-pages/page-0465.png)
-  - (R' Nosson Tzvi Finkel) ....................... 186, 321, 343
-- PDF visual text, page 465, Index, line 11
-  - visual: [page-0465.png](typeset-audit-pages/page-0465.png)
-  - (R' Avraham Yehoshua Heshel) ............ 97, 218, 420
-- PDF visual text, page 465, Index, line 12
-  - visual: [page-0465.png](typeset-audit-pages/page-0465.png)
-  - Ari ........................................................ 52, 332
-- PDF visual text, page 465, Index, line 13
-  - visual: [page-0465.png](typeset-audit-pages/page-0465.png)
-  - Arizal .................................................... 50, 84, 183, 232, 343, 353, 403
-- PDF visual text, page 465, Index, line 14
-  - visual: [page-0465.png](typeset-audit-pages/page-0465.png)
-  - Aruch HaShulchan ............................... 141, 175
-- PDF visual text, page 465, Index, line 15
-  - visual: [page-0465.png](typeset-audit-pages/page-0465.png)
-  - Baal Haturim ........................................ 84, 123, 139, 216
-- PDF visual text, page 465, Index, line 16
-  - visual: [page-0465.png](typeset-audit-pages/page-0465.png)
-  - Baal Shem Tov ..................................... 12, 13, 185, 232, 233, 234
-- PDF visual text, page 465, Index, line 18
-  - visual: [page-0465.png](typeset-audit-pages/page-0465.png)
-  - 87, 98, 102, 105, 114, 149, 150,
-- PDF visual text, page 465, Index, line 19
-  - visual: [page-0465.png](typeset-audit-pages/page-0465.png)
-  - 223, 224
-- PDF visual text, page 465, Index, line 23
-  - visual: [page-0465.png](typeset-audit-pages/page-0465.png)
-  - Bobbi .................................................... 218, 282, 298, 390, 413
-- PDF visual text, page 465, Index, line 24
-  - visual: [page-0465.png](typeset-audit-pages/page-0465.png)
-  - Bracha .................................................. 125, 415
-- PDF visual text, page 465, Index, line 25
-  - visual: [page-0465.png](typeset-audit-pages/page-0465.png)
-  - Brisker Rav .......................................... 14, 72, 73, 196, 197
-- PDF visual text, page 465, Index, line 26
-  - visual: [page-0465.png](typeset-audit-pages/page-0465.png)
-  - Chafetz Chaim ..................................... 167, 186, 187, 229, 264, 265, 322,
-- PDF visual text, page 465, Index, line 27
-  - visual: [page-0465.png](typeset-audit-pages/page-0465.png)
-  - 372, 373
-- PDF visual text, page 465, Index, line 29
-  - visual: [page-0465.png](typeset-audit-pages/page-0465.png)
-  - Chaim Shyesh BaHem ......................... 264, 335, 343, 363, 372, 385, 394,
-- PDF visual text, page 465, Index, line 31
-  - visual: [page-0465.png](typeset-audit-pages/page-0465.png)
-  - Chanukas HaTorah HeChadash ........... 103, 104, 347
-- PDF visual text, page 465, Index, line 33
-  - visual: [page-0465.png](typeset-audit-pages/page-0465.png)
-  - Chida .................................................... 30, 451
-- PDF visual text, page 465, Index, line 34
-  - visual: [page-0465.png](typeset-audit-pages/page-0465.png)
-  - Chidushei HaRim ................................. 92, 120, 198, 349, 350, 410
-- PDF visual text, page 465, Index, line 35
-  - visual: [page-0465.png](typeset-audit-pages/page-0465.png)
-  - Chozeh MiLublin ................................. 37, 251
-- PDF visual text, page 465, Index, line 42
-  - visual: [page-0465.png](typeset-audit-pages/page-0465.png)
-  - Dubna Maggid ..................................... 250, 351, 399, 400
-- PDF visual text, page 465, Index, line 43
-  - visual: [page-0465.png](typeset-audit-pages/page-0465.png)
-  - Festivals of Faith .................................. 345, 351
-- PDF visual text, page 465, Index, line 46
-  - visual: [page-0465.png](typeset-audit-pages/page-0465.png)
-  - Chidushi HaRim) ................................. 66, 92, 120, 198, 208, 349, 350,
-- PDF visual text, page 465, Index, line 47
-  - visual: [page-0465.png](typeset-audit-pages/page-0465.png)
-  - 359, 369, 392, 410, 449, 450
-- PDF visual text, page 465, Index, line 50
-  - visual: [page-0465.png](typeset-audit-pages/page-0465.png)
-  - Judah Wallace ....................................... 202, 203, 204
-- PDF visual text, page 465, Index, line 51
-  - visual: [page-0465.png](typeset-audit-pages/page-0465.png)
-  - Kitzur Shulchan Aruch ......................... 72, 94, 161, 245, 317
-- PDF visual text, page 465, Index, line 53
-  - visual: [page-0465.png](typeset-audit-pages/page-0465.png)
-  - Kli Yakar .............................................. 119, 278
-- PDF visual text, page 465, Index, line 54
-  - visual: [page-0465.png](typeset-audit-pages/page-0465.png)
-  - Kol HaTorah ......................................... 45, 78, 216, 289
 - PDF visual text, page 466, Kol Rom ............................................... 127, line 6
   - visual: [page-0466.png](typeset-audit-pages/page-0466.png)
   - (R' Menachem Mendel Schneerson) .... 54, 260, 298, 394
@@ -207,6 +115,91 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
 - PDF visual text, page 467, R’ Elimelech Biderman ........................ 342, 349, 361, 403, 404, 410, 413,, line 4
   - visual: [page-0467.png](typeset-audit-pages/page-0467.png)
   - R’ Elimelech Biderman ........................ 342, 349, 361, 403, 404, 410, 413,
+- PDF visual text, page 467, R’ Elimelech Biderman ........................ 342, 349, 361, 403, 404, 410, 413,, line 5
+  - visual: [page-0467.png](typeset-audit-pages/page-0467.png)
+  - 415, 421
+- PDF visual text, page 467, R’ Elimelech Biderman ........................ 342, 349, 361, 403, 404, 410, 413,, line 6
+  - visual: [page-0467.png](typeset-audit-pages/page-0467.png)
+  - R’ Elimelech of Lizhensk ..................... 187, 390
+- PDF visual text, page 467, R’ Elimelech Biderman ........................ 342, 349, 361, 403, 404, 410, 413,, line 7
+  - visual: [page-0467.png](typeset-audit-pages/page-0467.png)
+  - R’ Elyashiv ........................................... 108, 133
+- PDF visual text, page 467, R’ Elimelech Biderman ........................ 342, 349, 361, 403, 404, 410, 413,, line 12
+  - visual: [page-0467.png](typeset-audit-pages/page-0467.png)
+  - R’ Gedalia Schorr ................................. 94, 240, 241, 366, 430
+- PDF visual text, page 467, R’ Elimelech Biderman ........................ 342, 349, 361, 403, 404, 410, 413,, line 14
+  - visual: [page-0467.png](typeset-audit-pages/page-0467.png)
+  - R’ Herschel Schachter .......................... 27, 313
+- PDF visual text, page 467, R’ Elimelech Biderman ........................ 342, 349, 361, 403, 404, 410, 413,, line 15
+  - visual: [page-0467.png](typeset-audit-pages/page-0467.png)
+  - R’ Kormornick ..................................... 111, 248, 283, 387, 407, 417
+- PDF visual text, page 467, R’ Elimelech Biderman ........................ 342, 349, 361, 403, 404, 410, 413,, line 18
+  - visual: [page-0467.png](typeset-audit-pages/page-0467.png)
+  - R' Levi Yitzchok of Berditchev ............ 12, 52, 229, 231, 332, 333, 334,
+- PDF visual text, page 467, R’ Elimelech Biderman ........................ 342, 349, 361, 403, 404, 410, 413,, line 19
+  - visual: [page-0467.png](typeset-audit-pages/page-0467.png)
+  - 370, 376, 381
+- PDF visual text, page 467, R’ Elimelech Biderman ........................ 342, 349, 361, 403, 404, 410, 413,, line 21
+  - visual: [page-0467.png](typeset-audit-pages/page-0467.png)
+  - R’ Matis Blum ...................................... 103, 347
+- PDF visual text, page 467, R’ Elimelech Biderman ........................ 342, 349, 361, 403, 404, 410, 413,, line 22
+  - visual: [page-0467.png](typeset-audit-pages/page-0467.png)
+  - R’ Medelson ......................................... 196, 197
+- PDF visual text, page 467, R’ Elimelech Biderman ........................ 342, 349, 361, 403, 404, 410, 413,, line 23
+  - visual: [page-0467.png](typeset-audit-pages/page-0467.png)
+  - R’ Meir Shapiro .................................... 235, 236
+- PDF visual text, page 467, R’ Elimelech Biderman ........................ 342, 349, 361, 403, 404, 410, 413,, line 26
+  - visual: [page-0467.png](typeset-audit-pages/page-0467.png)
+  - R’ Mendel of Rimanov ......................... 208, 369
+- PDF visual text, page 467, R’ Elimelech Biderman ........................ 342, 349, 361, 403, 404, 410, 413,, line 27
+  - visual: [page-0467.png](typeset-audit-pages/page-0467.png)
+  - R’ Mendy Pollak .................................. 206, 295
+- PDF visual text, page 467, R’ Elimelech Biderman ........................ 342, 349, 361, 403, 404, 410, 413,, line 28
+  - visual: [page-0467.png](typeset-audit-pages/page-0467.png)
+  - R’ Michael Dovid Weissmandl ............ 425, 426
+- PDF visual text, page 467, R’ Elimelech Biderman ........................ 342, 349, 361, 403, 404, 410, 413,, line 30
+  - visual: [page-0467.png](typeset-audit-pages/page-0467.png)
+  - R’ Mordechai Sabato ............................ 428, 429
+- PDF visual text, page 467, R’ Elimelech Biderman ........................ 342, 349, 361, 403, 404, 410, 413,, line 32
+  - visual: [page-0467.png](typeset-audit-pages/page-0467.png)
+  - R’ Moshe Feinstein .............................. 127, 198, 225, 252, 285
+- PDF visual text, page 467, R’ Elimelech Biderman ........................ 342, 349, 361, 403, 404, 410, 413,, line 37
+  - visual: [page-0467.png](typeset-audit-pages/page-0467.png)
+  - R’ Moshe Wolfson ................................ 345, 351, 354, 392
+- PDF visual text, page 467, R’ Elimelech Biderman ........................ 342, 349, 361, 403, 404, 410, 413,, line 43
+  - visual: [page-0467.png](typeset-audit-pages/page-0467.png)
+  - 88, 107, 131, 133, 138, 154, 187,
+- PDF visual text, page 467, R’ Elimelech Biderman ........................ 342, 349, 361, 403, 404, 410, 413,, line 44
+  - visual: [page-0467.png](typeset-audit-pages/page-0467.png)
+  - 193, 194, 221, 234, 237, 245, 267,
+- PDF visual text, page 467, R’ Elimelech Biderman ........................ 342, 349, 361, 403, 404, 410, 413,, line 45
+  - visual: [page-0467.png](typeset-audit-pages/page-0467.png)
+  - 325, 348, 365, 402, 415, 433
+- PDF visual text, page 467, R’ Elimelech Biderman ........................ 342, 349, 361, 403, 404, 410, 413,, line 53
+  - visual: [page-0467.png](typeset-audit-pages/page-0467.png)
+  - R' Samson Raphael Hirsch ................... 90, 148, 150
+- PDF visual text, page 467, R’ Elimelech Biderman ........................ 342, 349, 361, 403, 404, 410, 413,, line 54
+  - visual: [page-0467.png](typeset-audit-pages/page-0467.png)
+  - R' Sheps ................................................ 88, 93, 129, 206, 305, 306
+- PDF visual text, page 467, R’ Elimelech Biderman ........................ 342, 349, 361, 403, 404, 410, 413,, line 55
+  - visual: [page-0467.png](typeset-audit-pages/page-0467.png)
+  - R' Shimon Bar Yochai .......................... 82, 343, 345
+- PDF visual text, page 467, R’ Elimelech Biderman ........................ 342, 349, 361, 403, 404, 410, 413,, line 57
+  - visual: [page-0467.png](typeset-audit-pages/page-0467.png)
+  - R’ Shiya Berlin ..................................... 403, 404
+- PDF visual text, page 467, R’ Elimelech Biderman ........................ 342, 349, 361, 403, 404, 410, 413,, line 58
+  - visual: [page-0467.png](typeset-audit-pages/page-0467.png)
+  - R' Shlomo Ganzfried ............................ 72, 94, 112, 161, 245, 278, 317
+- PDF visual text, page 468, R' Shlomo Zalman Sonnenfeld ............ 205, line 5
+  - visual: [page-0468.png](typeset-audit-pages/page-0468.png)
+  - R' Sholom Schwadron .......................... 264, 372
+- PDF visual text, page 468, R' Shlomo Zalman Sonnenfeld ............ 205, line 9
+  - visual: [page-0468.png](typeset-audit-pages/page-0468.png)
+  - (‫ )בני יששכר‬............................................ 251, 363, 369, 412, 415
+  - normalized: ( )בני יששכר............................................ 251, 363, 369, 412, 415
+- PDF visual text, page 468, R' Shlomo Zalman Sonnenfeld ............ 205, line 12
+  - visual: [page-0468.png](typeset-audit-pages/page-0468.png)
+  - R' Yaakov Kamenetsky ........................ 266, 432
 ## MEDIUM - dash glued to Hebrew before English
 
 - PDF visual text, page 5, The title of this sefer,   הדבר בי ,  drawn from the     נבואה of   זכריה הנביא ,  referring, line 3
@@ -227,12 +220,12 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - normalized: is newly creating;  ָּת ִמיד- continuously; ַמֲעֵׂשה ְבֵר אִׁשית. So שבת, which we use
 - PDF visual text, page 16, Bereshis 5786 (1), line 17
   - visual: [page-0016.png](typeset-audit-pages/page-0016.png)
-  - same pasuk it says ⁧‫ ⁩ַוִּיְׁשֹבּת‬- he rested from his work. Did Hashem work or did
-  - normalized: same pasuk it says  ַוִּיְׁשֹבּת- he rested from his work. Did Hashem work or did
+  - pasuk it says ⁧‫ ⁩ַוִּיְׁשֹבּת‬- he rested from his work. Did Hashem work or did He
+  - normalized: pasuk it says  ַוִּיְׁשֹבּת- he rested from his work. Did Hashem work or did He
 - PDF visual text, page 16, Bereshis 5786 (1), line 20
   - visual: [page-0016.png](typeset-audit-pages/page-0016.png)
-  - ‫ ⁩ֵמֹחל ַעל ַה ֹּקֶד ׁש‬- Since we cannot determine precisely when that moment when
-  - normalized: ֵמֹחל ַעל ַה ֹּקֶד ׁש- Since we cannot determine precisely when that moment when
+  - ‫ ⁩ַעל ַה ֹּקֶד ׁש‬- Since we cannot determine precisely when that moment when ⁧‫ ⁩שבת‬
+  - normalized: ַעל ַה ֹּקֶד ׁש- Since we cannot determine precisely when that moment when  שבת
 - PDF visual text, page 16, Bereshis 5786 (1), line 28
   - visual: [page-0016.png](typeset-audit-pages/page-0016.png)
   - ‫ ⁩ָּבָׂשר ָוָד ם ֶׁשֵאינֹו יֹוֵד ַע ֹלא ִעָּת יו ְוֹלא ְר ָגָעיו ְוֹלא ְׁשעֹוָת יו‬- A man does not know his
@@ -411,12 +404,6 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - normalized: ַהָּמקֹום ַהֶּזה ֵאין ֶזה ִּכי ִאם ֵּבית ֱאֹלִקים- This is the place of the  בית המקדש- not only
 ## MEDIUM - missing space after colon before Hebrew in Typst source
 
-- Typst source, line 283
-  - ...לַי הַמַּלְאָךְ #strong[הַדֹּבֵר בִּי] אֲנִי אַרְאֶךָּ מָה הֵמָּה אֵלֶּה (זכריה א:ט)⁩]
-  - normalized: ...ַי הַמַּלְאָךְ #strong[הַדֹּבֵר בִּי] אֲנִי אַרְאֶךָּ מָה הֵמָּה אֵלֶּה (זכריה א:ט)]
-- Typst source, line 426
-  - I'll quote it now verbatim from ⁧בראשית רבה⁩ ⁦(י׳:ט׳)⁩: ⁧בָּשָׂר וָדָם שֶׁאֵינוֹ יוֹדֵעַ לֹא עִתָּיו וְלֹא רְגָעָיו וְלֹא שְׁעוֹ...
-  - normalized: I'll quote it now verbatim from בראשית רבה (י׳:ט׳): בָּשָׂר וָדָם שֶׁאֵינוֹ יוֹדֵעַ לֹא עִתָּיו וְלֹא רְגָעָיו וְלֹא שְׁעוֹתָיו,...
 - Typst source, line 444
   - that at all. So, ⁧אנכי עפר ואפר⁩⁦,⁩ the famous saying about ⁧עפר ואפר⁩:⁧עפר⁩ is
   - normalized: that at all. So, אנכי עפר ואפר, the famous saying about עפר ואפר:עפר is
@@ -438,9 +425,6 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
 - Typst source, line 3120
   - ⁦מנחות כ״ט ע״א⁩:⁧תנא דבי רבי ישמעאל שלשה דברים היו קשין לו למשה⁩ - There
   - normalized: מנחות כ״ט ע״א:תנא דבי רבי ישמעאל שלשה דברים היו קשין לו למשה - There
-- Typst source, line 3127
-  - First, ⁧מנורה⁩ symbolizes ⁧תורה⁩⁦,⁩ as we know ⁦(משלי ו:כג)⁩ ⁧כִּי נֵר מִצְוָה וְתוֹרָה אוֹר⁩. Moshe found it hard to grasp how th...
-  - normalized: First, מנורה symbolizes תורה, as we know (משלי ו:כג) כִּי נֵר מִצְוָה וְתוֹרָה אוֹר. Moshe found it hard to grasp how the fundamen...
 - Typst source, line 3248
   - by the acronym ⁧פרדס⁩:⁧פשט⁩⁦,⁩ ⁧דרש⁩⁦,⁩ ⁧רמז⁩⁦,⁩ and ⁧סוד⁩. ⁧פשט⁩ is the ⁧פשוט פשט⁩⁦,⁩ and
   - normalized: by the acronym פרדס:פשט, דרש, רמז, and סוד. פשט is the פשוט פשט, and
@@ -450,18 +434,6 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
 - Typst source, line 3628
   - כ״א:ל״ז)⁩: ⁧כִּי יִגְנֹב אִישׁ שׁוֹר אוֹ שֶׂה וּטְבָחוֹ אוֹ מְכָרוֹ חֲמִשָּׁה בָקָר י...
   - normalized: כ״א:ל״ז): כִּי יִגְנֹב אִישׁ שׁוֹר אוֹ שֶׂה וּטְבָחוֹ אוֹ מְכָרוֹ חֲמִשָּׁה בָקָר יְש...
-- Typst source, line 3642
-  - This idea is emphasized in the ⁧תוכחה⁩ ⁦(דברים כ״ח:מ״ז)⁩: ⁧תַּחַת אֲשֶׁר לֹא עָבַדְתָּ אֶת ה׳ אֱלֹקֶיךָ בְּשִׂמְחָה וּבְטוּב לֵבָ...
-  - normalized: This idea is emphasized in the תוכחה (דברים כ״ח:מ״ז): תַּחַת אֲשֶׁר לֹא עָבַדְתָּ אֶת ה׳ אֱלֹקֶיךָ בְּשִׂמְחָה וּבְטוּב לֵבָב מֵר...
-- Typst source, line 3666
-  - words ⁦(במדבר ח׳:ד׳)⁩ ⁧כֵּן עָשָׂה⁩ - he lit the ⁧מנורה⁩ with the same enthusiasm
-  - normalized: words (במדבר ח׳:ד׳) כֵּן עָשָׂה - he lit the מנורה with the same enthusiasm
-- Typst source, line 3799
-  - Hashem when, as we know ⁦(ישעיהו ו׳:ג׳)⁩ ⁧מְלֹא כׇל הָאָרֶץ כְּבוֹדוֹ⁩ - Hashem's
-  - normalized: Hashem when, as we know (ישעיהו ו׳:ג׳) מְלֹא כׇל הָאָרֶץ כְּבוֹדוֹ - Hashem's
-- Typst source, line 3828
-  - ...ית הלוי⁩#metadata(none) <person-index-bais-halevi-285> brings the ⁧פסוק⁩ ⁦(ישעיהו נ״ו:א׳)⁩: ⁧שִׁמְרוּ מִשְׁפָּט וַעֲשׂוּ צְדָקָה כִּי קְרוֹבָה יְשׁוּעָתִי לָבוֹא⁩...
-  - normalized: ...ת הלוי#metadata(none) <person-index-bais-halevi-285> brings the פסוק (ישעיהו נ״ו:א׳): שִׁמְרוּ מִשְׁפָּט וַעֲשׂוּ צְדָקָה כִּי קְרוֹבָה יְשׁוּעָתִי לָבוֹא - First...
 - Typst source, line 3921
   - ⁦מסכת מנחות כ״ט ע״א⁩:⁧תנא דבי רבי ישמעאל שלשה דברים היו קשין לו למשה⁩ - There were three things that...
   - normalized: מסכת מנחות כ״ט ע״א:תנא דבי רבי ישמעאל שלשה דברים היו קשין לו למשה - There were three things that משה...
@@ -471,57 +443,18 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
 - Typst source, line 3965
   - locale know as ⁧שיטים⁩:⁧שהשתה בהם מתעורר לזנות⁩ - There was a water source
   - normalized: locale know as שיטים:שהשתה בהם מתעורר לזנות - There was a water source
-- Typst source, line 3969
-  - result was ⁧זנות⁩⁦,⁩ as the ⁧פסוק⁩ says ⁦(במדבר כ״ה:א׳)⁩: ⁧וַיֵּשֶׁב יִשְׂרָאֵל בַּשִּׁטִּים וַיָּחֶל הָעָם לִזְנוֹת אֶל בְּנו...
-  - normalized: result was זנות, as the פסוק says (במדבר כ״ה:א׳): וַיֵּשֶׁב יִשְׂרָאֵל בַּשִּׁטִּים וַיָּחֶל הָעָם לִזְנוֹת אֶל בְּנוֹת מוֹאָב...
-- Typst source, line 4019
-  - ⁧בן זומא⁩ says it's ⁧שְׁמַע יִשְׂרָאֵל ה׳ אֱלֹקֵינוּ ה׳ אֶחָד⁩ ⁦(דברים ו:ד)⁩, where we are
-  - normalized: בן זומא says it's שְׁמַע יִשְׂרָאֵל ה׳ אֱלֹקֵינוּ ה׳ אֶחָד (דברים ו:ד), where we are
-- Typst source, line 4021
-  - ⁦(ויקרא י״ט:י״ח)⁩ which pertains to ⁧בין אדם לחבירו⁩⁦,⁩ a tremendously
-  - normalized: (ויקרא י״ט:י״ח) which pertains to בין אדם לחבירו, a tremendously
 - Typst source, line 4024
   - כ״ט:ל״ט)⁩ referring to the ⁧קרבן תמיד⁩.
   - normalized: כ״ט:ל״ט) referring to the קרבן תמיד.
-- Typst source, line 4086
-  - ...סוקים⁩ in the ⁧תורה⁩? ⁧בן זומא⁩ says ⁧שְׁמַע יִשְׂרָאֵל ה׳ אֱלֹקֵינוּ ה׳ אֶחָד⁩ ⁦(דברים ו:ד)⁩
-  - normalized: ...וקים in the תורה? בן זומא says שְׁמַע יִשְׂרָאֵל ה׳ אֱלֹקֵינוּ ה׳ אֶחָד (דברים ו:ד)
-- Typst source, line 4087
-  - \; ⁧בן ננס⁩ says ⁧וְאָהַבְתָּ לְרֵעֲךָ כָּמוֹךָ⁩ ⁦(ויקרא י״ט:י״ח)⁩ \; ⁧שמעון בן פזי⁩ says from
-  - normalized: \; בן ננס says וְאָהַבְתָּ לְרֵעֲךָ כָּמוֹךָ (ויקרא י״ט:י״ח) \; שמעון בן פזי says from
-- Typst source, line 4088
-  - ...חָד תַּעֲשֶׂה בַבֹּקֶר וְאֵת הַכֶּבֶשׂ הַשֵּׁנִי תַּעֲשֶׂה בֵּין הָעַרְבָּיִם⁩ ⁦(שמות כ״ט:ל״ט)⁩ the ⁧פסוק⁩ which refers famously to
-  - normalized: ...עֲשֶׂה בַבֹּקֶר וְאֵת הַכֶּבֶשׂ הַשֵּׁנִי תַּעֲשֶׂה בֵּין הָעַרְבָּיִם (שמות כ״ט:ל״ט) the פסוק which refers famously to
 - Typst source, line 4102
   - the message of the ⁧פרשה⁩:⁦משה רבינו'⁩s name is not there, but his presence
   - normalized: the message of the פרשה:משה רבינו's name is not there, but his presence
 - Typst source, line 4119
   - The ⁧פרשה⁩ begins with ⁧וְאַתָּה תְּצַוֶּה⁩. There is a (⁧מדרש תנחומא⁩ (⁧תצוה ה׳⁩:⁧ה׳⁩ on
   - normalized: The פרשה begins with וְאַתָּה תְּצַוֶּה. There is a (מדרש תנחומא (תצוה ה׳:ה׳ on
-- Typst source, line 4120
-  - the ⁧פסוק⁩ in ⁧שיר השירים⁩ ⁦(א:ט״ו)⁩: ⁧הִנָּךְ יָפָה עֵינַיִךְ יוֹנִים⁩ - "your eyes are like
-  - normalized: the פסוק in שיר השירים (א:ט״ו): הִנָּךְ יָפָה עֵינַיִךְ יוֹנִים - "your eyes are like
-- Typst source, line 4159
-  - we've got. The last word is ⁦(אבות ד׳:א׳)⁩ ⁧אֵיזֶהוּ עָשִׁיר, הַשָּׂמֵחַ בְּחֶלְקוֹ⁩. The
-  - normalized: we've got. The last word is (אבות ד׳:א׳) אֵיזֶהוּ עָשִׁיר, הַשָּׂמֵחַ בְּחֶלְקוֹ. The
-- Typst source, line 4188
-  - Third, the ⁧תורה⁩ tells us ⁦(ויקרא י״ט:י״ח)⁩ ⁧לֹא תִקֹּם וְלֹא תִטֹּר⁩ - do not take
-  - normalized: Third, the תורה tells us (ויקרא י״ט:י״ח) לֹא תִקֹּם וְלֹא תִטֹּר - do not take
-- Typst source, line 4213
-  - illustrates this vividly with ⁧יעקב⁩ and \⁦(בראשית ל״ב:ד׳)⁩ ⁧וַיִּשְׁלַח יַעֲקֹב מַלְאָכִים⁩: ⁧עשו⁩ - ⁧יעקב⁩ sent actual ⁧מלאכים⁩ to...
-  - normalized: illustrates this vividly with יעקב and \(בראשית ל״ב:ד׳) וַיִּשְׁלַח יַעֲקֹב מַלְאָכִים: עשו - יעקב sent actual מלאכים to עשו, not hum...
-- Typst source, line 4225
-  - constantly, never to be misled. As ⁧הלל⁩ teaches in ⁧פרקי אבות⁩ ⁦(ב׳:ד׳)⁩: ⁧אַל תַּאֲמִין בְּעַצְמְךָ עַד יוֹם מוֹתְךָ⁩ - even to the last minute...
-  - normalized: constantly, never to be misled. As הלל teaches in פרקי אבות (ב׳:ד׳): אַל תַּאֲמִין בְּעַצְמְךָ עַד יוֹם מוֹתְךָ - even to the last minute of our...
-- Typst source, line 4283
-  - was known as ⁦(במדבר י״ב:ג׳)⁩ ⁧עָנָו מִכֹּל הָאָדָם⁩ - the humblest of all men. If
-  - normalized: was known as (במדבר י״ב:ג׳) עָנָו מִכֹּל הָאָדָם - the humblest of all men. If
 - Typst source, line 4289
   - ל״ד:ל״ג)⁩: ⁧וַיִּתֵּן עַל פָּנָיו מַסְוֶה⁩ - When ⁧משה רבינו⁩ spoke to the people, th...
   - normalized: ל״ד:ל״ג): וַיִּתֵּן עַל פָּנָיו מַסְוֶה - When משה רבינו spoke to the people, they
-- Typst source, line 4294
-  - all the time? The ⁧תורה⁩ then states ⁦(שם ל״ד:ל״ד)⁩: ⁧וּבְבֹא מֹשֶׁה לִפְנֵי ה׳ לְדַבֵּר אִתּוֹ יָסִיר אֶת הַמַּסְוֶה עַד צֵ...
-  - normalized: all the time? The תורה then states (שם ל״ד:ל״ד): וּבְבֹא מֹשֶׁה לִפְנֵי ה׳ לְדַבֵּר אִתּוֹ יָסִיר אֶת הַמַּסְוֶה עַד צֵאתוֹ...
 - Typst source, line 4355
   - different - ⁧ישראל⁩ are ⁧מקדשים את הזמנים⁩. And here comes his bomb ⁧חידוש⁩:⁧קדושה⁩ that comes through our ⁧מעשה⁩ never leaves. It stays with us
   - normalized: different - ישראל are מקדשים את הזמנים. And here comes his bomb חידוש:קדושה that comes through our מעשה never leaves. It stays with us
@@ -540,27 +473,87 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
 - Typst source, line 4900
   - ⁧לבוש⁩⁦,⁩ a ⁧סכַך⁩⁦,⁩ for the ⁧נשמה⁩. The ⁧פסוק⁩ in ⁧איוב י׳⁩:⁦י״א⁩ describes this: ⁧עוֹר וּבָשָׂר תַּלְבִּישֵׁנִי וּבַעֲצָמוֹת ו...
   - normalized: לבוש, a סכַך, for the נשמה. The פסוק in איוב י׳:י״א describes this: עוֹר וּבָשָׂר תַּלְבִּישֵׁנִי וּבַעֲצָמוֹת וְגִידִים תְּשֹׂכְ...
-- Typst source, line 4929
-  - ⁧פרקי אבות⁩ ⁦(ב׳:ד׳)⁩: ⁧עֲשֵׂה רְצוֹנוֹ כִרְצוֹנְךָ, כְּדֵי שֶׁיַּעֲשֶׂה רְצוֹנְךָ כִרְצוֹנוֹ⁩....
-  - normalized: פרקי אבות (ב׳:ד׳): עֲשֵׂה רְצוֹנוֹ כִרְצוֹנְךָ, כְּדֵי שֶׁיַּעֲשֶׂה רְצוֹנְךָ כִרְצוֹנוֹ. A קרב...
-- Typst source, line 5072
-  - He brings a beautiful explanation, based on a ⁧פסוק⁩ in ⁧ישעיהו⁩ ⁦(ד׳:ד׳)⁩: ⁧אִם רָחַץ ה׳ אֵת צֹאַת בְּנוֹת צִיּוֹן⁩. What does this mean? When a...
-  - normalized: He brings a beautiful explanation, based on a פסוק in ישעיהו (ד׳:ד׳): אִם רָחַץ ה׳ אֵת צֹאַת בְּנוֹת צִיּוֹן. What does this mean? When a baby soi...
 - Typst source, line 5238
   - strong ⁧לשון⁩:⁧מי שכופר בקל וחומר או דרוש אחד מן החכמים, כופר בתורת משה⁩ - Not only is it ⁧כפ...
   - normalized: strong לשון:מי שכופר בקל וחומר או דרוש אחד מן החכמים, כופר בתורת משה - Not only is it כפירה t...
 - Typst source, line 5274
   - to ⁧ארץ⁩:⁧אברהם⁩⁦,⁩ ⁧יצחק⁩⁦,⁩ ⁧יעקב⁩⁦,⁩ ⁧לוי⁩⁦,⁩ ⁧קהת⁩⁦,⁩ ⁧עמרם⁩⁦,⁩ and ⁧משה⁩. When the...
   - normalized: to ארץ:אברהם, יצחק, יעקב, לוי, קהת, עמרם, and משה. When the משכן was
-- Typst source, line 5276
-  - ...riginal desire. This is expressed in the ⁧פסוק⁩: ⁧אִוָּהּ לְמֹושָׁב לֹו ⁦(תהילים קל״ב:י״ג)⁩⁩ - Hashem desired to dwell here in this world. That is
-  - normalized: ...iginal desire. This is expressed in the פסוק: אִוָּהּ לְמֹושָׁב לֹו (תהילים קל״ב:י״ג) - Hashem desired to dwell here in this world. That is
 - Typst source, line 5277
   - why it says: (⁧וְעָשׂוּ לִי מִקְדָּשׁ וְשָׁכַנְתִּי בְּתוֹכָם⁩ (⁦שמות כ״ה⁩:⁧ח׳⁩. This teaches us
   - normalized: why it says: (וְעָשׂוּ לִי מִקְדָּשׁ וְשָׁכַנְתִּי בְּתוֹכָם (שמות כ״ה:ח׳. This teaches us
-- Typst source, line 5367
-  - states: ⁦(ישעיהו נ״ח:י״ג)⁩ ⁧וְקָרָאתָ לַשַּׁבָּת עֹנֶג⁩. Similarly, if you rearrange the
-  - normalized: states: (ישעיהו נ״ח:י״ג) וְקָרָאתָ לַשַּׁבָּת עֹנֶג. Similarly, if you rearrange the
+- Typst source, line 6110
+  - outcome of his actions. This is brought down in ⁧פרקי אבות⁩:⁧חכמים הזהרו בדבריכם⁩ - Think carefully what you do. You should not be ⁧מבזה⁩ o...
+  - normalized: outcome of his actions. This is brought down in פרקי אבות:חכמים הזהרו בדבריכם - Think carefully what you do. You should not be מבזה or make
+- Typst source, line 6831
+  - it. The ⁧פסוק⁩ says: (⁧וַיְהִי אֲנָשִׁים אֲשֶׁר הָיוּ טְמֵאִים לְנֶפֶשׁ אָדָם⁩ (⁧ט⁩:⁧ו⁩. For whatever
+  - normalized: it. The פסוק says: (וַיְהִי אֲנָשִׁים אֲשֶׁר הָיוּ טְמֵאִים לְנֶפֶשׁ אָדָם (ט:ו. For whatever
+- Typst source, line 6968
+  - three ⁧כתרים⁩:⁧כתר תורה⁩⁦,⁩ ⁧כתר כהונה⁩⁦,⁩ ⁧כתר מלכות⁩⁦,⁩ and ⁧כתר תורה עולה על כולם⁩.
+  - normalized: three כתרים:כתר תורה, כתר כהונה, כתר מלכות, and כתר תורה עולה על כולם.
+- Typst source, line 8132
+  - א׳:ג׳)⁩: ⁧וַיְצַו אֶת שְׁלֹמֹה בְנוֹ לֵאמֹר אָנֹכִי הֹלֵךְ בְּדֶרֶךְ כׇּל הָאָרֶץ⁩ -...
+  - normalized: א׳:ג׳): וַיְצַו אֶת שְׁלֹמֹה בְנוֹ לֵאמֹר אָנֹכִי הֹלֵךְ בְּדֶרֶךְ כׇּל הָאָרֶץ - I'...
+- Typst source, line 8329
+  - shouldn't daven that her son would die. It's brought down in ⁦מכות ב:ו⁩:
+  - normalized: shouldn't daven that her son would die. It's brought down in מכות ב:ו:
+- Typst source, line 8491
+  - pasuk in ⁦זכריה א׳:ט״ז⁩: ⁧שַׁבְתִּי לִירוּשָׁלַם בְּרַחֲמִים⁩. Another is what we say three
+  - normalized: pasuk in זכריה א׳:ט״ז: שַׁבְתִּי לִירוּשָׁלַם בְּרַחֲמִים. Another is what we say three
+- Typst source, line 8877
+  - א׳:ב׳)⁩, and then it says ⁧אָנֹכִי אָנֹכִי הוּא מְנַחֶמְכֶם⁩ ⁦(ישעיהו נ״א:י״ב)⁩ late...
+  - normalized: א׳:ב׳), and then it says אָנֹכִי אָנֹכִי הוּא מְנַחֶמְכֶם                  later on
+- Typst source, line 10374
+  - ...⁧שֵׁשׁ כְּנָפַיִם שֵׁשׁ כְּנָפַיִם לְאֶחָד⁩ - six wings, as is brought down in ⁧ישעיהו ו׳⁩:⁧ב׳⁩. However, there is another pasuk in ⁧יחזקאל א׳⁩:⁧ו׳⁩ which says ⁧ו...
+  - normalized: ...כְּנָפַיִם שֵׁשׁ כְּנָפַיִם לְאֶחָד - six wings, as is brought down in ישעיהו ו׳:ב׳. However, there is another pasuk in יחזקאל א׳:ו׳ which says וְאַרְבָּעָה פָנִי...
+- Typst source, line 10464
+  - ...hem accepted that ⁧קרבן⁩. ⁦רש״י⁩#metadata(none) <person-index-rashi-844> explains on that ⁧גמרא⁩:⁧שמפייסין אותו על דבר⁩ - we're able to calm
+  - normalized: ...ed that קרבן. רש״י#metadata(none) <person-index-rashi-844> explains on that גמרא:שמפייסין אותו על דבר - we're able to calm
+- Typst source, line 10478
+  - ...states: (⁧וּלְמַעַן תְּסַפֵּר בְּאׇזְנֵי בִנְךָ \... וִידַעְתֶּם כִּי אֲנִי ה׳⁩ (⁧שמות י׳⁩:⁧ב׳⁩. Through the ⁧מצוה⁩ of ⁧סיפור יציאת מצרים⁩⁦,⁩ we
+  - normalized: ...: (וּלְמַעַן תְּסַפֵּר בְּאׇזְנֵי בִנְךָ \... וִידַעְתֶּם כִּי אֲנִי ה׳ (שמות י׳:ב׳. Through the מצוה of סיפור יציאת מצרים, we
+- Typst source, line 10514
+  - say by ⁧שבועות⁩:⁧כאיש אחד בלב אחד⁩⁦,⁩ we can say the same by ⁧פסח⁩. They made a
+  - normalized: say by שבועות:כאיש אחד בלב אחד, we can say the same by פסח. They made a
+- Typst source, line 10720
+  - the essence of the story of ⁧פסח⁩:⁧הקדוש ברוך הוא⁩ is running the world -
+  - normalized: the essence of the story of פסח:הקדוש ברוך הוא is running the world -
+- Typst source, line 11102
+  - says in the pasuk, (⁧מִפִּי עוֹלְלִים וְיֹנְקִים יִסַּדְתָּ עֹז⁩ (⁧תהילים ח׳⁩:⁧ג׳⁩. It was only
+  - normalized: says in the pasuk, (מִפִּי עוֹלְלִים וְיֹנְקִים יִסַּדְתָּ עֹז (תהילים ח׳:ג׳. It was only
+- Typst source, line 11117
+  - א:נ״ו)⁩ that at ⁧הר סיני⁩⁦,⁩ ⁧כלל ישראל⁩ was sleeping. They went to sleep that
+  - normalized: א:נ״ו) that at הר סיני, כלל ישראל was sleeping. They went to sleep that
+- Typst source, line 11172
+  - (⁧מלכים א⁩ (⁧ה⁩:⁦י״ב⁩, describing the vastness of ⁦שלמה המלך'⁩s wisdom. The ⁧נביא⁩
+  - normalized: (מלכים א (ה:י״ב, describing the vastness of שלמה המלך's wisdom. The נביא
+- Typst source, line 11609
+  - כ״ז:ד׳)⁩⁩. What does ⁧דוד המלך⁩ mean by ⁧כׇּל יְמֵי חַיַּי⁩⁦?⁩
+  - normalized: כ״ז:ד׳). What does דוד המלך mean by כׇּל יְמֵי חַיַּי?
+- Typst source, line 13300
+  - due, (⁧הָאוֹמֵר דָּבָר בְּשֵׁם אוֹמְרוֹ מֵבִיא גְאֻלָּה לָעוֹלָם⁩ (⁧אבות ו⁩:⁧ו⁩. So I wanted to
+  - normalized: due, (הָאוֹמֵר דָּבָר בְּשֵׁם אוֹמְרוֹ מֵבִיא גְאֻלָּה לָעוֹלָם (אבות ו:ו. So I wanted to
+- Typst source, line 13305
+  - to ⁧פורים⁩. And it's interesting how he says it. ⁧פורים⁩:⁧פ⁩ is ⁧פסח⁩⁦,⁩ ⁧ו⁩ is
+  - normalized: to פורים. And it's interesting how he says it. פורים:פ is פסח, ו is
+- Typst source, line 13573
+  - does this connection mean? He brings a ⁧פסוק⁩ from ⁦שמות ד:י״ד⁩: ⁧וְרָאֲךָ וְשָׂמַח בְּלִבּוֹ⁩. What is ⁦אהרן'⁩s ⁧מידה⁩? We all know abou...
+  - normalized: does this connection mean? He brings a פסוק from שמות ד:י״ד: וְרָאֲךָ וְשָׂמַח בְּלִבּוֹ. What is אהרן's מידה? We all know about...
+- Typst source, line 13608
+  - ...uoting the ⁧פרקי דרבי אליעזר⁩⁦,⁩ describes how on ⁧יום כיפור⁩⁦,⁩ ⁧הקדוש ברוך הוא⁩ tells the ⁧מלאכים⁩:⁧אומה טובה יש לך בארץ⁩ - "I have a wonderful nation down ther...
+  - normalized: ...he פרקי דרבי אליעזר, describes how on יום כיפור, הקדוש ברוך הוא tells the מלאכים:אומה טובה יש לך בארץ - "I have a wonderful nation down there in עולם הזה. They do...
+- Typst source, line 13854
+  - therefore says the ⁦מהר״ל⁩:⁧מזמור שיר ליום השבת, יום שכולו שבת, לעולם הבא⁩ - Then ⁧באמת⁩⁦,⁩ we will unders...
+  - normalized: therefore says the מהר״ל:מזמור שיר ליום השבת, יום שכולו שבת, לעולם הבא - Then באמת, we will understand, an...
+- Typst source, line 14039
+  - time. Says ⁧ר' צדוק⁩:⁧ושמעתי מהרבינו הקדוש זכר צדיק וקדוש לברכה לחיי העולם הבא⁩ - This is the Rebbi...
+  - normalized: time. Says ר' צדוק:ושמעתי מהרבינו הקדוש זכר צדיק וקדוש לברכה לחיי העולם הבא - This is the Rebbi of ר...
+- Typst source, line 14055
+  - ...stand, how can we see, how can we find any good hidden in ⁧גלות מצרים⁩⁦?⁩ Says ⁧ר' צדוק⁩:⁧וכן⁩ ⁦בגלות מצרים הראה לו השי״ת⁩ ⁧איך כל שלות המצריים להאבידם היה לטובה⁩...
+  - normalized: ...and, how can we see, how can we find any good hidden in גלות מצרים? Says ר' צדוק:וכן בגלות מצרים הראה לו השי״ת איך כל שלות המצריים להאבידם היה לטובה - That all of...
+- Typst source, line 14061
+  - able to remove the sparks of ⁧קדושה⁩ says ⁧ר' צדוק⁩:⁧ובגלות הוציאו הניצוצות קדושות מהם⁩ - As you know that when the Yidden were i...
+  - normalized: able to remove the sparks of קדושה says ר' צדוק:ובגלות הוציאו הניצוצות קדושות מהם - As you know that when the Yidden were in מצרי...
 ## MEDIUM - space before sentence punctuation
 
 - PDF visual text, page 2, ר’ יששכר בנימין ,  I’m here with your      אייניקל Ari, who is being    מקיים כיבוד, line 15
@@ -695,10 +688,6 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - visual: [page-0095.png](typeset-audit-pages/page-0095.png)
   - to ⁧‫ ⁩כהן גדול‬was entirely genuine. From this ⁧,‫⁩’רבי יהושע בן קרחה⁦ ⁩מדרש‬s position
   - normalized: to  כהן גדולwas entirely genuine. From this ,’רבי יהושע בן קרחה מדרשs position
-- PDF visual text, page 96, Shemos 5785, line 26
-  - visual: [page-0096.png](typeset-audit-pages/page-0096.png)
-  - influencing a parent’s choice of a name is from the ⁦‫ ; אריז״ל‬it’s not ⁧‫סתם אזוי ַא‬
-  - normalized: influencing a parent’s choice of a name is from the  ; אריז״לit’s not סתם אזוי ַא
 - PDF visual text, page 97, provides great     נחת to the     נשמה of the deceased. He also mentioned that the, line 10
   - visual: [page-0097.png](typeset-audit-pages/page-0097.png)
   - ourselves, “What am I doing today to increase ⁧‫ ⁩?כבוד שמים‬What am I doing
@@ -763,3 +752,7 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - visual: [page-0121.png](typeset-audit-pages/page-0121.png)
   - might ask, “Isn’t it enough that we’re doing the ⁧‫ ?⁩מצוות‬Why does it matter
   - normalized: might ask, “Isn’t it enough that we’re doing the  ?מצוותWhy does it matter
+- PDF visual text, page 121, Mishpatim (1) 5784, line 33
+  - visual: [page-0121.png](typeset-audit-pages/page-0121.png)
+  - What are we doing when we perform a ⁧‫ ?⁩מצוה‬We are serving ⁧‫!⁩הקדוש ברוך הוא‬
+  - normalized: What are we doing when we perform a  ?מצוהWe are serving !הקדוש ברוך הוא

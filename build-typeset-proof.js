@@ -848,7 +848,7 @@ function moveLeadingHebrewSourceAfterQuote(typstContent) {
 
 function keepIndexMarkersAfterPunctuation(typstContent) {
   return typstContent.replace(
-    /(#metadata\(none\)\s*<[^>\n]+>)[\s\u00A0\u202F]*([,;:.!?)\]]+(?:[\s\u00A0\u202F]*[,;:.!?])?)([ \t\u00A0\u202F]*)/g,
+    /(#metadata\(none\)\s*<[^>\n]+>)[\s\u00A0\u202F]*((?:\\?[,;:.!?)\]])+(?:[\s\u00A0\u202F]*\\?[,;:.!?])?)([ \t\u00A0\u202F]*)/g,
     (_match, marker, punctuation, trailingSpace) =>
       `${punctuation.replace(/[\s\u00A0\u202F]+/g, "")}${marker}${trailingSpace}`
   );
@@ -868,7 +868,7 @@ function normalizePunctuationSpacing(typstContent) {
     .replace(new RegExp(`(${HEBREW_LETTERS})(?=[A-Za-z])`, "gu"), "$1 ")
     .replace(new RegExp(`([A-Za-z])(?=${HEBREW_LETTERS})`, "gu"), "$1 ")
     .replace(/[\s\u00A0\u202F]+([,;:.!?)\]])/g, "$1")
-    .replace(/([;:])[\t \u00A0\u202F]*(?=\S)/g, "$1 ")
+    .replace(/(?<!\\)([;:])[\t \u00A0\u202F]*(?=\S)/g, "$1 ")
     .replace(/,(?![\d"])\s*/g, ", ")
     .replace(/(\d),\s+(?=\d)/g, "$1,")
     .replace(/,\s*,\s*/g, ", ")
