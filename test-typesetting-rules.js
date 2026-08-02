@@ -587,6 +587,17 @@ test("keeps comma after Hebrew phrase before index marker and English", () => {
   );
 });
 
+test("keeps comma after Hebrew phrase before bracketed English", () => {
+  assert.equal(
+    applyTextRules("on the פרשה, [Rav Tzadka from the"),
+    `on the ${RTL_ISOLATE}פרשה${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} [Rav Tzadka from the`
+  );
+  assert.equal(
+    applyTextRules("on the פרשה, \\[Rav Tzadka from the"),
+    `on the ${RTL_ISOLATE}פרשה${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} \\[Rav Tzadka from the`
+  );
+});
+
 test("keeps comma after Hebrew phrase before numbered continuation", () => {
   assert.equal(
     applyTextRules("1) מזוזה, 2) ציצית, 3) תפילין של ראש, and 4) תפילין של יד"),
@@ -1013,6 +1024,21 @@ test("docx: Rosh Hashana 5785 keeps closing quotes before said attribution", () 
   assertNotContains(typst, `daughters'\". \"My friend, \" said`, "raw quote punctuation");
 });
 
+test("docx: How to do Teshuva keeps comma after parsha before bracketed note", () => {
+  const typst = convertedDocx("/rosh-hashana/how-to-do-teshuva/");
+
+  assertContains(
+    typst,
+    `on the ${RTL_ISOLATE}פרשה${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} \\[Rav Tzadka`,
+    "comma after parsha before bracketed English note"
+  );
+  assertNotContains(
+    typst,
+    `on the ${RTL_ISOLATE}פרשה,${POP_DIRECTIONAL_ISOLATE} [Rav Tzadka`,
+    "comma inside parsha isolate before bracketed English note"
+  );
+});
+
 test("docx: Shemos 5785 keeps semicolon attached before index marker", () => {
   const typst = convertedDocx("/shemos/5785/");
 
@@ -1164,7 +1190,7 @@ test("person index keeps wrapped names tight above the dotted row", () => {
 
   assertContains(
     typst,
-    `stack(dir: ttb, spacing: 0pt, ..rows)`,
+    `stack(dir: ttb, spacing: 0.30em, ..rows)`,
     "wrapped index name rows are stacked tightly"
   );
   assertContains(

@@ -751,7 +751,7 @@ primarily on himself while not forgetting the children.
 The ⁧מעינה של תורה⁩#metadata(none) <person-index-m-eino-shel-torah-37> presents a fascinating vort immediately after the
 above from the Brisker Rav, #metadata(none) <person-index-brisker-rav-34> R' Yoshe Ber, #metadata(none) <person-index-r-yoshe-ber-38> (I assume it is the ⁧בית הלוי⁩).#metadata(none) <person-index-bais-halevi-33>
 He says: All of my life, I constantly yearned that I should never come
-to the phrase ⁧ברא מזכה אבא,⁩ \[which is a famous saying in the ⁧גמרא⁩⁦,⁩ which means that after 120 years, the children are a ⁧זכות⁩ to their
+to the phrase ⁧ברא מזכה אבא⁩⁦,⁩ \[which is a famous saying in the ⁧גמרא⁩⁦,⁩ which means that after 120 years, the children are a ⁧זכות⁩ to their
 parents because they can continue in their ways.\] The Brisker Rav#metadata(none) <person-index-brisker-rav-35> said
 "I don't want that. I want to be ⁧מזכה⁩ myself. I want to be able to say
 when I come upstairs 'I did what I was sent to do', and that is my
@@ -3728,7 +3728,7 @@ to be safe because he's holding onto the ⁧מזבח⁩⁦,⁩ the ⁧תורה�
 away and take care of him.
 
 The ⁧אפיריון⁩⁦,⁩ from R' Shlomo Ganzfried, #metadata(none) <person-index-r-shlomo-ganzfried-282> brings out a fascinating insight
-and I thought it would be worthwhile to share it. The ⁧אפיריון⁩ says ⁧לפי עניות דעתי,⁩ \[which is such a wonderful phrase, ⁧לפי עניות דעתי⁩\], in my
+and I thought it would be worthwhile to share it. The ⁧אפיריון⁩ says ⁧לפי עניות דעתי⁩⁦,⁩ \[which is such a wonderful phrase, ⁧לפי עניות דעתי⁩\], in my
 small and humble opinion, the ⁧מדרש רבה⁩ states that the last ⁧פסוק⁩ in ⁧פרשת יתרו⁩ and the opening ⁧פסוק⁩ of ⁧משפטים⁩ are connected. The closing ⁧פסוק⁩ of
 ⁧יתרו⁩ is (20:23): ⁧וְלֹא תַעֲלֶה בְמַעֲלֹת עַל מִזְבְּחִי⁩ - You should not ascend the
 ⁧מזבח⁩ using steps. Instead, the ⁧כהנים⁩ used a ramp, the ⁧כבש⁩. The very
@@ -4080,7 +4080,7 @@ This leads to an interesting ⁧מחלוקת⁩ in the ⁧מדרש⁩ about whic
 of Mount Eden Shul in the Bronx, where we grew up. This was his ⁧דרשה⁩ on
 ⁧פרשת תצוה⁩.
 
-Which ⁧פסוק,⁩ \[in his cute way he would say is the most important ⁧פסוק⁩ in
+Which ⁧פסוק⁩⁦,⁩ \[in his cute way he would say is the most important ⁧פסוק⁩ in
 the ⁧תורה⁩⁦,⁩ of course it's not such a thing, they're all equally
 important\], but the ⁧מדרש⁩ says which ⁧פסוק⁩ is ⁧כולל⁩ all of the other
 ⁧פסוקים⁩ in the ⁧תורה⁩? ⁧בן זומא⁩ says ⁧שְׁמַע יִשְׂרָאֵל ה׳ אֱלֹקֵינוּ ה׳ אֶחָד⁩ ⁦(דברים ו:ד)⁩
@@ -4569,7 +4569,7 @@ look it up. ⁧תוספות⁩ says this in ⁧שבועות,⁩ ⁦דף ג ע״�
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/pekudei/5784/", "../../02 - Shemos/11 - Pekudei/5784/Pekudei 5784.png"))
 = Pekudei 5784
 
-⁧פרשת פקודי,⁩ \[which this year, being an ⁧עיבור יאר⁩⁦,⁩ has the ⁧זכות⁩ of
+⁧פרשת פקודי⁩⁦,⁩ \[which this year, being an ⁧עיבור יאר⁩⁦,⁩ has the ⁧זכות⁩ of
 having its very own ⁧שבת⁩\], marks the conclusion of ⁧ספר שמות⁩ and the
 completion of the ⁧בנין⁩ of the ⁧משכן⁩. The ⁧משכן⁩ is built, all of the ⁧כלים⁩
 are in place, and ⁧משה רבינו⁩ has the task of assembling everything. The
@@ -7828,7 +7828,7 @@ saying?
 
 It seems that when ⁧בלעם⁩ was ready to come to ⁧כלל ישראל⁩⁦,⁩ he wanted to use
 every utility within his power. ⁧בלעם⁩ knew the moment when ⁧הקדוש ברוך הוא⁩
-has ⁧חרון אף,⁩ \[which of course at that time Hashem did not\], but more
+has ⁧חרון אף⁩⁦,⁩ \[which of course at that time Hashem did not\], but more
 than that, he knew ⁧הלכה⁩ and he knew the Torah cold. He knew that there
 is a ⁧מדת הרחמים⁩ and he knew that there's a ⁧מדת הדין⁩. Exactly correlating
 with the ⁧מדת הרחמים⁩ and ⁧מדת הדין⁩ are the names of ⁧הקדוש ברוך הוא⁩. He
@@ -10310,7 +10310,7 @@ continue to do everything we can to the best of our ability.
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/pesach/5783/dvar-torah/", "../../06 - Yom Tov/01 - Pesach/5783/Dvar Torah/Dvar Torah Pesach 5783.png"))
 = Dvar Torah Pesach 5783
 
-R' Noach Isaac Oelbaum, #metadata(none) <person-index-r-noach-isaac-oelbaum-824> the author of the ⁧מנחת חן,⁩ #metadata(none) <person-index-minchas-chain-822> \[interesting, his
+R' Noach Isaac Oelbaum, #metadata(none) <person-index-r-noach-isaac-oelbaum-824> the author of the ⁧מנחת חן⁩⁦,⁩ #metadata(none) <person-index-minchas-chain-822> \[interesting, his
 name is ⁧נח⁩⁦,⁩ so he called the sefer "⁧מנחת חן⁩#metadata(none) <person-index-minchas-chain-823>", ⁧חן⁩ is ⁧ח⁩ - ⁧נ⁩ and ⁧נח⁩ is ⁧נ⁩ -
 ⁧ח⁩\], asked us a startling question. I've asked this question to many of
 my ⁧אייניקלעך⁩⁦,⁩ if not all of them. For those who have heard it, it's good
@@ -11863,7 +11863,7 @@ good year, a year of ⁧טובה⁩⁦,⁩ of ⁧ברכה⁩⁦,⁩ of ⁧פרנ
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/rosh-hashana/how-to-do-teshuva/", "../../06 - Yom Tov/09 - Rosh Hashana/How to do Teshuva/How to do Teshuva.png"))
 = How to do Teshuva
 
-I came across from Rav Tzadka's#metadata(none) <person-index-r-tzadka-952> weekly sheet on the ⁧פרשה,⁩ \[Rav Tzadka#metadata(none) <person-index-r-tzadka-953>
+I came across from Rav Tzadka's#metadata(none) <person-index-r-tzadka-952> weekly sheet on the ⁧פרשה⁩⁦,⁩ \[Rav Tzadka#metadata(none) <person-index-r-tzadka-953>
 from the ⁧בית מדרש טוב⁩ in Kew Garden Hills\] A handyman's guide to doing
 ⁧תשובה⁩. He says these are the easiest things to do and they are
 guaranteed to bring us a ⁧כפרה⁩. They are brought down from a ⁧ספר⁩ called
@@ -13175,7 +13175,7 @@ plural?
 
 A famous ⁧תירוץ⁩ brought by ⁧בני יששכר,⁩ #metadata(none) <person-index-r-tzvi-elimelech-of-dinov-1052> ⁧זכותו יגן עלינו⁩⁦,⁩ explains that it
 refers to a specific ⁧אילן⁩ that we should daven for and think about on
-⁧חמשה עשר בשבט,⁩ \[or ⁧ראש חודש שבט⁩ according to ⁧בית שמאי⁩⁦,⁩ of course, we
+⁧חמשה עשר בשבט⁩⁦,⁩ \[or ⁧ראש חודש שבט⁩ according to ⁧בית שמאי⁩⁦,⁩ of course, we
 ⁧פסקין⁩ like ⁧בית הלל⁩\]. This specific ⁧אילן⁩ is the ⁧אתרוג⁩. When a person
 davens on ⁦ט״ו בשבט⁩ for his ⁧אתרוג⁩⁦,⁩ he is assured of having a beautiful
 ⁧אתרוג⁩ for that year.
@@ -13303,7 +13303,7 @@ share that with you.
 It is brought down in the ⁧ספר כנפי השכינה⁩ that the letters of the word
 ⁧פורים⁩ contain all of the ⁧ימים טובים⁩⁦,⁩ showing that they are all connected
 to ⁧פורים⁩. And it's interesting how he says it. ⁧פורים⁩:⁧פ⁩ is ⁧פסח⁩⁦,⁩ ⁧ו⁩ is
-⁧וסוכות,⁩ \[a little bit ⁧שוור⁩ there\], ⁧ר⁩ is ⁧ראש השנה⁩⁦,⁩ ⁧י⁩ is ⁧יום כיפור⁩⁦,⁩ and
+⁧וסוכות⁩⁦,⁩ \[a little bit ⁧שוור⁩ there\], ⁧ר⁩ is ⁧ראש השנה⁩⁦,⁩ ⁧י⁩ is ⁧יום כיפור⁩⁦,⁩ and
 ⁧מ⁩ is ⁧מתן תורה⁩ for ⁧שבועות⁩. So what's fascinating here is that the ⁧ו⁩⁦,⁩ which stands for ⁧וסוכות⁩⁦,⁩ could also mean "and". What does that "and"
 represent? It means that both Purims, ⁧פורים קטן⁩ and ⁧פורים גדול⁩⁦,⁩ are to
 be considered ⁧ימים טובים⁩.
@@ -13312,7 +13312,7 @@ So that's one very cute little vort. But there's another one, which I
 thought was adorable, and I thought that I would share that with you.
 The rav of Apter, R' Avraham Yehoshua Heshel, #metadata(none) <person-index-apter-rav-1057> got together and made a
 ⁧סעודה⁩ for all of his ⁧תלמידים⁩ and his ⁧חסידים⁩ on ⁧פורים קטן⁩. And he was
-sitting there, according to this ⁧ספר,⁩ \[which by the way is ⁧אגרת פורים⁩⁦,⁩ which I looked for high and low and I found. I purchased this many years
+sitting there, according to this ⁧ספר⁩⁦,⁩ \[which by the way is ⁧אגרת פורים⁩⁦,⁩ which I looked for high and low and I found. I purchased this many years
 ago. It's a little golden ⁧ספר⁩ on ⁧פורים⁩⁦,⁩ which I've quoted to many people
 in the family on every ⁧פורים⁩\.\] Among the people sitting at his ⁧פורים קטן סעודה⁩ was a Chassidish Rebbe named R' Lieb M'Lichev.#metadata(none) <person-index-r-lieb-m-lichev-1062> He was a very
 sharp and well-seasoned ⁧תלמיד חכם⁩. During the ⁧סעודה⁩⁦,⁩ the Apter Rav#metadata(none) <person-index-apter-rav-1058>

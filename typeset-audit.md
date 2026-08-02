@@ -4,17 +4,13 @@ This is a review-only scan for likely visual punctuation and bidi issues in the 
 
 PDF scanned: `Files/08 - Misc/Final Sefer/Final Sefer.pdf`
 Typst scanned: `Files/08 - Misc/Final Sefer/Final Sefer.typ`
-Findings: 159 (8 high, 151 medium)
+Findings: 158 (7 high, 151 medium)
 Visual pages rendered: `typeset-audit-pages`
 
 The PDF scan uses extracted visual text, so it is useful for catching rendered punctuation surprises. The Typst scan catches raw source patterns before rendering.
 
 ## HIGH - leading punctuation before Hebrew
 
-- PDF visual text, page 124, Mishpatim 5785, line 14
-  - visual: [page-0124.png](typeset-audit-pages/page-0124.png)
-  - I thought it would be worthwhile to share it. The ⁧‫ ⁩אפיריון‬says ⁧,‫ ⁩לפי עניות דעתי‬
-  - normalized: I thought it would be worthwhile to share it. The  אפיריוןsays , לפי עניות דעתי
 - PDF visual text, page 150, opportunity - an opportunity to refine themselves, to give of themselves, to, line 27
   - visual: [page-0150.png](typeset-audit-pages/page-0150.png)
   - ‫ ⁩תוספות‬says. You can look it up. ⁧‫ ⁩תוספות‬says this in ⁧,‫ ד״ה ועל⁦ ⁩שבועות‬,‫דף ג ע״א‬

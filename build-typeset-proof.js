@@ -895,7 +895,7 @@ function isolateHebrewRuns(typstContent) {
   const followedByEnglish = (fullText, endOffset) => {
     const following = fullText
       .slice(endOffset)
-      .replace(/^(?:[ \t\u00A0\u202F]+|\n(?!\n)|#metadata\(none\)\s*<[^>\n]+>)*["'“‘]/g, "")
+      .replace(/^(?:[ \t\u00A0\u202F]+|\n(?!\n)|#metadata\(none\)\s*<[^>\n]+>)*(?:["'“‘\[]|\\\[)/g, "")
       .replace(/^(?:[ \t\u00A0\u202F]+|\n(?!\n)|#metadata\(none\)\s*<[^>\n]+>)*/g, "");
     return /^(?:[A-Za-z]|\d+\))/.test(following);
   };
