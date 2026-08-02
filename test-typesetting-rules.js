@@ -499,6 +499,13 @@ test("keeps single Hebrew phrase with trailing comma together before English", (
   );
 });
 
+test("keeps comma after Hebrew phrase before quoted English", () => {
+  assert.equal(
+    applyTextRules("Hashem said to משה, “Let there be חושך”"),
+    `Hashem said to ${RTL_ISOLATE}משה${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} “Let there be ${RTL_ISOLATE}חושך${POP_DIRECTIONAL_ISOLATE}”`
+  );
+});
+
 test("keeps comma after Hebrew phrase before index marker and English", () => {
   assert.equal(
     applyTextRules("According to the אוצר פלאות התורה, #metadata(none) <person-index-1> who bentchs"),
@@ -901,6 +908,17 @@ test("docx: Bo 5784 keeps one source space after source colon before Hebrew", ()
     "single source space after 12:2 colon"
   );
   assertNotContains(typst, `(12:2) : ${RTL_ISOLATE}הַחֹדֶשׁ`, "space before 12:2 colon");
+});
+
+test("docx: Bo 5783 keeps comma after Moshe before quoted English", () => {
+  const typst = convertedDocx("/bo/5783/");
+
+  assertContains(
+    typst,
+    `Hashem said to ${RTL_ISOLATE}משה${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} "Let`,
+    "comma after Moshe before quoted English"
+  );
+  assertNotContains(typst, `${RTL_ISOLATE}משה,${POP_DIRECTIONAL_ISOLATE} "Let`, "comma inside Moshe isolate before quote");
 });
 
 test("docx: Rosh Hashana 5785 keeps closing quotes before said attribution", () => {
