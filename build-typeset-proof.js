@@ -141,6 +141,10 @@ const HEBREW_PASUK_BEFORE_PEREK_RE = new RegExp(
   `פסוק\\s+(${HEBREW_TOKEN})\\s+פרק\\s+(${HEBREW_TOKEN})`,
   "gu"
 );
+const SPLIT_GEMARA_SOURCE_RE = new RegExp(
+  `${RTL_ISOLATE}(${HEBREW_TOKEN}),${POP_DIRECTIONAL_ISOLATE}\\s+${LTR_ISOLATE}([^${POP_DIRECTIONAL_ISOLATE}]*?דף[^${POP_DIRECTIONAL_ISOLATE}]*?ד${HEBREW_INTERNAL_QUOTE}ה[^${POP_DIRECTIONAL_ISOLATE}]*?)${POP_DIRECTIONAL_ISOLATE}\\s+${RTL_ISOLATE}(${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN})*)${POP_DIRECTIONAL_ISOLATE}`,
+  "gu"
+);
 
 function usage() {
   console.log(`Usage: node build-typeset-proof.js [options]
@@ -897,7 +901,7 @@ function isolateHebrewRuns(typstContent) {
       .slice(endOffset)
       .replace(/^(?:[ \t\u00A0\u202F]+|\n(?!\n)|#metadata\(none\)\s*<[^>\n]+>)*(?:["'“‘\[]|\\\[)/g, "")
       .replace(/^(?:[ \t\u00A0\u202F]+|\n(?!\n)|#metadata\(none\)\s*<[^>\n]+>)*/g, "");
-    return /^(?:[A-Za-z]|\d+\))/.test(following);
+    return /^(?:[A-Za-z]|\d)/.test(following);
   };
   const isolateHebrewPhrase = (value, useLtrTrailingComma = false) => {
     const normalizedValue = normalizeInlineWhitespace(value);
@@ -1005,13 +1009,23 @@ function isolateHebrewRuns(typstContent) {
   }).replace(new RegExp(RTL_REFERENCE_MARKER, "g"), "");
 }
 
+function repairSplitGemaraSources(typstContent) {
+  return typstContent.replace(
+    SPLIT_GEMARA_SOURCE_RE,
+    (_match, masechta, citation, tail) =>
+      `${RTL_ISOLATE}${masechta}, ${citation.replace(/\s+/g, " ")} ${tail}${POP_DIRECTIONAL_ISOLATE}`
+  );
+}
+
 function applyTextRules(typstContent) {
-  return isolateHebrewRuns(
-    moveLeadingHebrewSourceAfterQuote(
-      repairEscapedHebrewParagraphCitations(
-        normalizeMisplacedHebrewCommas(
-          normalizePunctuationSpacing(
-            normalizeColonHebrewSoftBreaks(normalizeNumberedSoftBreaks(typstContent))
+  return repairSplitGemaraSources(
+    isolateHebrewRuns(
+      moveLeadingHebrewSourceAfterQuote(
+        repairEscapedHebrewParagraphCitations(
+          normalizeMisplacedHebrewCommas(
+            normalizePunctuationSpacing(
+              normalizeColonHebrewSoftBreaks(normalizeNumberedSoftBreaks(typstContent))
+            )
           )
         )
       )
@@ -1447,6 +1461,7 @@ module.exports = {
   normalizeNumberedSoftBreaks,
   normalizePunctuationSpacing,
   repairEscapedHebrewParagraphCitations,
+  repairSplitGemaraSources,
   renderPersonIndex,
   shiftedParagraphAlignments,
   tagPersonIndexMentions,

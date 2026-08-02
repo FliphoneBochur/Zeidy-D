@@ -4561,8 +4561,7 @@ clear from this ⁧תוספות⁩ that it's better for him to do the ⁧מצו�
 the ⁧שעטנז ציצית⁩ and depend on ⁧עשה דוחה לא תעשה⁩⁦,⁩ and do the ⁧מצוה⁩ with
 ⁧זריזות⁩. I hope we don't have that specific problem, I hope all of our
 ⁧ציצית⁩ are not ⁧שעטנז⁩. But meanwhile, that is what ⁧תוספות⁩ says. You can
-look it up. ⁧תוספות⁩ says this in ⁧שבועות,⁩ ⁦דף ג ע״א, ד״ה ועל הזקן שתים⁩
-⁧מכאן⁩. Im Yirtzeh Hashem, we should be ⁧זוכה⁩ to always fulfill the ⁧רצון השם⁩ in the best possible way.
+look it up. ⁧תוספות⁩ says this in ⁧שבועות, דף ג ע״א, ד״ה ועל הזקן שתים מכאן⁩. Im Yirtzeh Hashem, we should be ⁧זוכה⁩ to always fulfill the ⁧רצון השם⁩ in the best possible way.
 
 #pagebreak()
 
@@ -8652,7 +8651,7 @@ name of ⁧מחנה⁩. If you do the gematria, ⁧מחנה⁩ is 103. ⁧אבר
 second ⁧כותל⁩ of the ⁧בית המקדש⁩⁦,⁩ called ⁧הר⁩. The ⁧גמטריא⁩ of ⁧הר עם הכולל⁩ is
 206, which is double 103. ⁧יצחק⁩ built the third ⁧כותל⁩⁦,⁩ he called it ⁧שדה⁩
 which is ⁧גמטריא⁩ 309, which is triple 103. ⁧יעקב אבינו⁩ built the fourth
-⁧כותל⁩⁦,⁩ which is ⁧בית⁩⁦,⁩ which is the ⁧גמטריא⁩ of four times ⁧מחנה,⁩ 412. Each
+⁧כותל⁩⁦,⁩ which is ⁧בית⁩⁦,⁩ which is the ⁧גמטריא⁩ of four times ⁧מחנה⁩⁦,⁩ 412. Each
 one of these structures that were built was according to the ⁧מספר⁩ that
 he had created for himself, that was ⁧מכוון⁩ for him. Now it makes sense
 that ⁧משה רבינו⁩ davened 515 ⁧תפילות⁩⁦,⁩ which is the next multiple of 103.

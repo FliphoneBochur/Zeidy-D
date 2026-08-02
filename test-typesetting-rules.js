@@ -22,6 +22,7 @@ const {
   normalizeNumberedSoftBreaks,
   normalizePunctuationSpacing,
   repairEscapedHebrewParagraphCitations,
+  repairSplitGemaraSources,
   renderPersonIndex,
   shiftedParagraphAlignments,
   tagPersonIndexMentions,
@@ -605,6 +606,13 @@ test("keeps comma after Hebrew phrase before numbered continuation", () => {
   );
 });
 
+test("keeps comma after Hebrew phrase before bare number", () => {
+  assert.equal(
+    applyTextRules("four times מחנה, 412. Each"),
+    `four times ${RTL_ISOLATE}מחנה${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} 412. Each`
+  );
+});
+
 test("keeps Hebrew question phrase in one RTL run", () => {
   assert.equal(
     applyTextRules("We say: מַצָּה זוֹ שֶׁאָנוּ אוֹכְלִים, עַל שׁוּם מַה? עַל שׁוּם"),
@@ -1130,6 +1138,17 @@ test("docx: Vayairah 5784 keeps pure Hebrew comma list in PDF-friendly order", (
     `qualities contribute to a ${RTL_ISOLATE}מצוה${POP_DIRECTIONAL_ISOLATE}? ${RTL_ISOLATE}אהבה, זריזות, יראה, כוונה${POP_DIRECTIONAL_ISOLATE} - these`,
     "pure Hebrew comma list"
   );
+});
+
+test("docx: Vaeschanan 5784 keeps comma after machaneh before number", () => {
+  const typst = convertedDocx("/vaeschanan/5784/");
+
+  assertContains(
+    typst,
+    `of four times ${RTL_ISOLATE}מחנה${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} 412. Each`,
+    "comma after machaneh before 412"
+  );
+  assertNotContains(typst, `${RTL_ISOLATE}מחנה,${POP_DIRECTIONAL_ISOLATE} 412`, "comma inside machaneh isolate before 412");
 });
 
 test("docx: Chukas 5784 copy title is stripped from body", () => {
