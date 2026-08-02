@@ -4,7 +4,7 @@ This is a review-only scan for likely visual punctuation and bidi issues in the 
 
 PDF scanned: `Files/08 - Misc/Final Sefer/Final Sefer.pdf`
 Typst scanned: `Files/08 - Misc/Final Sefer/Final Sefer.typ`
-Findings: 162 (12 high, 150 medium)
+Findings: 161 (11 high, 150 medium)
 Visual pages rendered: `typeset-audit-pages`
 
 The PDF scan uses extracted visual text, so it is useful for catching rendered punctuation surprises. The Typst scan catches raw source patterns before rendering.
@@ -15,10 +15,6 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - visual: [page-0096.png](typeset-audit-pages/page-0096.png)
   - influencing a parent’s choice of a name is from the ⁦‫ ; אריז״ל‬it’s not ⁧‫סתם אזוי ַא‬
   - normalized: influencing a parent’s choice of a name is from the  ; אריז״לit’s not סתם אזוי ַא
-- PDF visual text, page 106, Bo 5785, line 29
-  - visual: [page-0106.png](typeset-audit-pages/page-0106.png)
-  - 1) ⁧,‫ ⁩מזוזה‬2) ⁧,‫ ⁩ציצית‬3) ⁧‫תפילין של ראש‬,⁩ and 4) ⁧‫תפילין של יד‬,⁩ all of whic...
-  - normalized: 1) , מזוזה2) , ציצית3) תפילין של ראש, and 4) תפילין של יד, all of which surround
 - PDF visual text, page 110, Beshalach 5784, line 9
   - visual: [page-0110.png](typeset-audit-pages/page-0110.png)
   - The ⁧ ‫( ⁩מדרש רבה‬23:3), as quoted by the ⁧ ,‫ ⁩בית הלוי‬notes: ⁧ ‫אמר משה באז חטאתי‬
@@ -303,7 +299,7 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - normalized: come I didn’t think of that?”  ַוֵּיֶלְך ַאְבָר ם ַכֲּאֶׁשר ִּד ֶבּר ֵאָליו ה׳- The first question
 - PDF visual text, page 32, Lech Lecha 5786 (1), line 16
   - visual: [page-0032.png](typeset-audit-pages/page-0032.png)
-  - ‫ ?⁩ה׳‬The second question is ⁧‫ ⁩ַוֵּיֶלְך ִאּתֹו לֹוט‬- Lot went along with him. But didn’t
+  - ‫ ⁩?ה׳‬The second question is ⁧‫ ⁩ַוֵּיֶלְך ִאּתֹו לֹוט‬- Lot went along with him. But didn’t
   - normalized: ?ה׳The second question is  ַוֵּיֶלְך ִאּתֹו לֹוט- Lot went along with him. But didn’t
 - PDF visual text, page 32, Lech Lecha 5786 (1), line 20
   - visual: [page-0032.png](typeset-audit-pages/page-0032.png)
@@ -477,7 +473,7 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - normalized: coming towards  ?רבקהWhere was he going? The  מדרשtells us that he was
 - PDF visual text, page 51, Toldos 5785, line 28
   - visual: [page-0051.png](typeset-audit-pages/page-0051.png)
-  - ‫אבות‬,⁩ why is ⁧ ‫ ⁩יצחק‬the one who is ⁧ ‫ ?⁩מלמד זכות על כלל ישראל‬How are we to
+  - ‫אבות‬,⁩ why is ⁧ ‫ ⁩יצחק‬the one who is ⁧ ‫ ⁩?מלמד זכות על כלל ישראל‬How are we to
   - normalized: אבות, why is   יצחקthe one who is   ?מלמד זכות על כלל ישראלHow are we to
 - PDF visual text, page 55, Vayaitzei 5784, line 30
   - visual: [page-0055.png](typeset-audit-pages/page-0055.png)
@@ -485,7 +481,7 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - normalized: Someone asked רב חיים: How could the regular  שליח ציבורbe  ?מוותרLeading
 - PDF visual text, page 57, Vayaitzei 5785, line 23
   - visual: [page-0057.png](typeset-audit-pages/page-0057.png)
-  - had ⁧‫ ⁩עבודה זרה‬to house the ⁧‫ ?⁩בית המקדש‬Wouldn’t the ⁧‫ ⁩טומאה‬from the ⁧‫ ⁩עבודה זרה‬
+  - had ⁧‫ ⁩עבודה זרה‬to house the ⁧‫ ⁩?בית המקדש‬Wouldn’t the ⁧‫ ⁩טומאה‬from the ⁧‫ ⁩עבודה זרה‬
   - normalized: had  עבודה זרהto house the  ?בית המקדשWouldn’t the  טומאהfrom the  עבודה זרה
 - PDF visual text, page 74, Mikeitz 5783, line 20
   - visual: [page-0074.png](typeset-audit-pages/page-0074.png)
@@ -493,7 +489,7 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - normalized: Hashem. So why is  יוסףcriticized for his ?השתדלות
 - PDF visual text, page 76, Mikeitz 5784, line 23
   - visual: [page-0076.png](typeset-audit-pages/page-0076.png)
-  - ‫ ⁩פסוק יז‬use a ⁧‫ ⁩לשון‬of ⁧‫?⁩וידבר פרעה‬
+  - ‫ ⁩פסוק יז‬use a ⁧‫ ⁩לשון‬of ⁧‫?וידבר פרעה‬
   - normalized: פסוק יזuse a  לשוןof ?וידבר פרעה
 - PDF visual text, page 76, Mikeitz 5784, line 24
   - visual: [page-0076.png](typeset-audit-pages/page-0076.png)
@@ -513,11 +509,11 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - normalized: we encounter these ?ניסיונות
 - PDF visual text, page 78, Mikeitz 5785, line 35
   - visual: [page-0078.png](typeset-audit-pages/page-0078.png)
-  - do we mean by ⁧‫?⁩אריכות שנים‬
+  - do we mean by ⁧‫?אריכות שנים‬
   - normalized: do we mean by ?אריכות שנים
 - PDF visual text, page 79, One time, his father’s     נשמה went up to    שמים . In   שמים ,  they brought a young, line 7
   - visual: [page-0079.png](typeset-audit-pages/page-0079.png)
-  - Rebbe asked, “How is this possible in ⁧‫ ?⁩עולם האמת‬This is ⁧‫עולם האמת‬,⁩ and these
+  - Rebbe asked, “How is this possible in ⁧‫ ⁩?עולם האמת‬This is ⁧‫עולם האמת‬,⁩ and these
   - normalized: Rebbe asked, “How is this possible in  ?עולם האמתThis is עולם האמת, and these
 - PDF visual text, page 80, Vayigash 5783, line 29
   - visual: [page-0080.png](typeset-audit-pages/page-0080.png)
@@ -549,7 +545,7 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - normalized: why is this point included among the  חסדי ה׳in this ?פרק
 - PDF visual text, page 92, Shemos 5783, line 32
   - visual: [page-0092.png](typeset-audit-pages/page-0092.png)
-  - what benefit was there to ⁧‫?⁩כלל ישראל‬
+  - what benefit was there to ⁧‫?כלל ישראל‬
   - normalized: what benefit was there to ?כלל ישראל
 - PDF visual text, page 93, would bring animosity, they sought to blend in. Yet, they misunderstood, line 24
   - visual: [page-0093.png](typeset-audit-pages/page-0093.png)
@@ -577,11 +573,11 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - normalized: influencing a parent’s choice of a name is from the  ; אריז״לit’s not סתם אזוי ַא
 - PDF visual text, page 97, provides great     נחת to the     נשמה of the deceased. He also mentioned that the, line 10
   - visual: [page-0097.png](typeset-audit-pages/page-0097.png)
-  - ourselves, “What am I doing today to increase ⁧‫ ?⁩כבוד שמים‬What am I doing
+  - ourselves, “What am I doing today to increase ⁧‫ ⁩?כבוד שמים‬What am I doing
   - normalized: ourselves, “What am I doing today to increase  ?כבוד שמיםWhat am I doing
 - PDF visual text, page 98, Vaeira 5783, line 22
   - visual: [page-0098.png](typeset-audit-pages/page-0098.png)
-  - Where do we see an example of ⁧‫ ⁩מסירות נפש‬in ⁧‫ ?⁩פרשת וארא‬The pasuk says
+  - Where do we see an example of ⁧‫ ⁩מסירות נפש‬in ⁧‫ ⁩?פרשת וארא‬The pasuk says
   - normalized: Where do we see an example of  מסירות נפשin  ?פרשת ואראThe pasuk says
 - PDF visual text, page 100, Vaeira 5784, line 19
   - visual: [page-0100.png](typeset-audit-pages/page-0100.png)
@@ -597,19 +593,19 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - normalized: but for  חשךhe did not. Hashem said to ,“ משהLet there be ( ”חשך10:22): ַוֵּיט
 - PDF visual text, page 104, Bo 5783, line 23
   - visual: [page-0104.png](typeset-audit-pages/page-0104.png)
-  - that we experience in our lives in ⁧‫?⁩עולם הזה‬
+  - that we experience in our lives in ⁧‫?עולם הזה‬
   - normalized: that we experience in our lives in ?עולם הזה
 - PDF visual text, page 105, Bo 5784, line 29
   - visual: [page-0105.png](typeset-audit-pages/page-0105.png)
-  - which symbolizes ⁧‫ ⁩גלות‬and ⁧‫ ?⁩הסתר פנים‬How could we survive such profound
+  - which symbolizes ⁧‫ ⁩גלות‬and ⁧‫ ⁩?הסתר פנים‬How could we survive such profound
   - normalized: which symbolizes  גלותand  ?הסתר פניםHow could we survive such profound
 - PDF visual text, page 105, Bo 5784, line 34
   - visual: [page-0105.png](typeset-audit-pages/page-0105.png)
-  - and thrive in this ⁧‫ ?⁩עולם הזה‬The answer is only because of the ⁧‫ ⁩זכות‬of ⁧‫⁩תורה‬. It’s
-  - normalized: and thrive in this  ?עולם הזהThe answer is only because of the  זכותof תורה. It’s
+  - and thrive in this ⁧‫ ⁩?עולם הזה‬The answer is only because of the ⁧‫ ⁩זכות‬of ⁧‫⁩תורה‬.
+  - normalized: and thrive in this  ?עולם הזהThe answer is only because of the  זכותof תורה.
 - PDF visual text, page 106, Bo 5785, line 36
   - visual: [page-0106.png](typeset-audit-pages/page-0106.png)
-  - ...ֶשֹּלא ִהְסִּפיק ְּבֵצָקם ֶׁשל ֲאבֹוֵת ינּו ְלַהֲחִמיץ⁧ ?⁩ַמה‬- Why are we eating this ⁧‫?⁩מצה‬
+  - ...ֶשֹּלא ִהְסִּפיק ְּבֵצָקם ֶׁשל ֲאבֹוֵת ינּו ְלַהֲחִמיץ⁧ ⁩?ַמה‬- Why are we eating this ⁧‫?⁩מצה‬
   - normalized: ...ֹּלא ִהְסִּפיק ְּבֵצָקם ֶׁשל ֲאבֹוֵת ינּו ְלַהֲחִמיץ ?ַמה- Why are we eating this ?מצה
 - PDF visual text, page 107, honey, and milk - are not used because they don’t meet the criteria of   לחם, line 19
   - visual: [page-0107.png](typeset-audit-pages/page-0107.png)

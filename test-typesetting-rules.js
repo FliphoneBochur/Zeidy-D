@@ -483,6 +483,20 @@ test("keeps comma after Hebrew phrase before index marker and English", () => {
   );
 });
 
+test("keeps comma after Hebrew phrase before numbered continuation", () => {
+  assert.equal(
+    applyTextRules("1) מזוזה, 2) ציצית, 3) תפילין של ראש, and 4) תפילין של יד"),
+    `1) ${RTL_ISOLATE}מזוזה${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} 2) ${RTL_ISOLATE}ציצית${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} 3) ${RTL_ISOLATE}תפילין של ראש${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} and 4) ${RTL_ISOLATE}תפילין של יד${POP_DIRECTIONAL_ISOLATE}`
+  );
+});
+
+test("keeps Hebrew question phrase in one RTL run", () => {
+  assert.equal(
+    applyTextRules("We say: מַצָּה זוֹ שֶׁאָנוּ אוֹכְלִים, עַל שׁוּם מַה? עַל שׁוּם"),
+    `We say: ${RTL_ISOLATE}מַצָּה זוֹ שֶׁאָנוּ אוֹכְלִים, עַל שׁוּם מַה${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE}?${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}עַל שׁוּם${POP_DIRECTIONAL_ISOLATE}`
+  );
+});
+
 test("keeps pure Hebrew comma list visually spaced inside RTL run", () => {
   assert.equal(
     applyTextRules("What qualities contribute to a מצוה? אהבה, זריזות, יראה, כוונה - these aspects"),
@@ -800,7 +814,7 @@ test("docx: Vayigash 5783 keeps numbered question paragraphs tight and literal",
   );
   assertContains(
     typst,
-    `${RTL_ISOLATE}הַעוֹד אָבִי חָי${POP_DIRECTIONAL_ISOLATE}?\\\n\\3. Even if the question`,
+    `${RTL_ISOLATE}הַעוֹד אָבִי חָי${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE}?${POP_DIRECTIONAL_ISOLATE}\\\n\\3. Even if the question`,
     "hard break before literal item 3"
   );
 });
@@ -836,6 +850,23 @@ test("docx: Vayairah 5786 keeps comma after Otzer Pla'os HaTorah before who", ()
     "comma after Otzer Pla'os HaTorah"
   );
   assertNotContains(typst, `${RTL_ISOLATE}אוצר פלאות התורה,${POP_DIRECTIONAL_ISOLATE}`, "comma inside Otzer Pla'os HaTorah isolate");
+});
+
+test("docx: Bo 5785 keeps numbered Hebrew item commas and Haggadah question order", () => {
+  const typst = convertedDocx("/bo/5785/");
+
+  assertContains(
+    typst,
+    `1) ${RTL_ISOLATE}מזוזה${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} 2) ${RTL_ISOLATE}ציצית${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} 3)`,
+    "commas after mezuzah and tzitzis"
+  );
+  assertContains(
+    typst,
+    `${RTL_ISOLATE}מַצָּה זוֹ שֶׁאָנוּ אוֹכְלִים, עַל שׁוּם מַה${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE}?${POP_DIRECTIONAL_ISOLATE}`,
+    "Haggadah question in one RTL run"
+  );
+  assertNotContains(typst, `${RTL_ISOLATE}מזוזה,${POP_DIRECTIONAL_ISOLATE}`, "comma inside mezuzah isolate");
+  assertNotContains(typst, `${RTL_ISOLATE}ציצית,${POP_DIRECTIONAL_ISOLATE}`, "comma inside tzitzis isolate");
 });
 
 test("docx: Rosh Hashana 5785 keeps closing quotes before said attribution", () => {

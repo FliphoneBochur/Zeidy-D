@@ -83,6 +83,10 @@ const HEBREW_COMMA_PHRASE_SEQUENCE_RE = new RegExp(
   `${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN})*(?:,\\s*${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN})*){1,8},?`,
   "gu"
 );
+const HEBREW_QUESTION_PHRASE_RE = new RegExp(
+  `${HEBREW_TOKEN}(?:[\\s,]+${HEBREW_TOKEN}){1,80}\\?`,
+  "gu"
+);
 const HEBREW_HYPHENATED_TOKEN_RE = new RegExp(
   `${HEBREW_TOKEN}(?:-${HEBREW_TOKEN})+(?:\\s+${HEBREW_TOKEN})*`,
   "gu"
@@ -892,7 +896,7 @@ function isolateHebrewRuns(typstContent) {
     const following = fullText
       .slice(endOffset)
       .replace(/^(?:[ \t\u00A0\u202F]+|#metadata\(none\)\s*<[^>\n]+>)*/g, "");
-    return /^[A-Za-z]/.test(following);
+    return /^(?:[A-Za-z]|\d+\))/.test(following);
   };
   const isolateHebrewPhrase = (value, useLtrTrailingComma = false) => {
     const normalizedValue = normalizeInlineWhitespace(value);
@@ -949,7 +953,12 @@ function isolateHebrewRuns(typstContent) {
     return protect(`${RTL_ISOLATE}${normalizeInlineWhitespace(match)}${POP_DIRECTIONAL_ISOLATE}`);
   });
 
-  const referenceSafeContent = hebrewEllipsisSafeContent.replace(HEBREW_PAREN_REFERENCE_RE, (match) => {
+  const hebrewQuestionSafeContent = hebrewEllipsisSafeContent.replace(HEBREW_QUESTION_PHRASE_RE, (match) => {
+    const phrase = normalizeInlineWhitespace(match).replace(/\?$/, "");
+    return protect(`${RTL_ISOLATE}${phrase}${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE}?${POP_DIRECTIONAL_ISOLATE}`);
+  });
+
+  const referenceSafeContent = hebrewQuestionSafeContent.replace(HEBREW_PAREN_REFERENCE_RE, (match) => {
     return protect(`${LTR_ISOLATE}${match}${POP_DIRECTIONAL_ISOLATE}`);
   });
 
