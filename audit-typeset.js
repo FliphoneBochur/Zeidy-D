@@ -88,6 +88,16 @@ const TYP_PATTERNS = [
   },
   {
     severity: "medium",
+    label: "space on both sides of colon in Typst source",
+    re: /\S\s+:\s+\S/u,
+  },
+  {
+    severity: "medium",
+    label: "missing space after colon before Hebrew in Typst source",
+    re: new RegExp(`:[${HEBREW}]`, "u"),
+  },
+  {
+    severity: "medium",
     label: "broken thousands separator in Typst source",
     re: /\b\d{1,3},\s+\d{3}\b/u,
   },

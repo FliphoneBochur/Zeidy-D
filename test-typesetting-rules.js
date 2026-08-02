@@ -139,6 +139,22 @@ test("audit still flags real leading punctuation before Hebrew", () => {
   assert.equal(auditMatches("all following בדרך השם ,", typPattern, "Typst source"), true);
 });
 
+test("audit flags source space on both sides of colon", () => {
+  const pattern = auditPattern(TYP_PATTERNS, "space on both sides of colon in Typst source");
+
+  assert.equal(auditMatches("(12:2) : ⁧הַחֹדֶשׁ", pattern, "Typst source"), true);
+  assert.equal(auditMatches("(12:2): ⁧הַחֹדֶשׁ", pattern, "Typst source"), false);
+  assert.equal(auditMatches("(12:2):⁧הַחֹדֶשׁ", pattern, "Typst source"), false);
+});
+
+test("audit flags missing source space after colon before Hebrew isolate", () => {
+  const pattern = auditPattern(TYP_PATTERNS, "missing space after colon before Hebrew in Typst source");
+
+  assert.equal(auditMatches("(12:2):⁧הַחֹדֶשׁ", pattern, "Typst source"), true);
+  assert.equal(auditMatches("(12:2): ⁧הַחֹדֶשׁ", pattern, "Typst source"), false);
+  assert.equal(auditMatches("https://zeidyd.com/bo/5784/", pattern, "Typst source"), false);
+});
+
 test("wraps selected typst paragraphs in docx alignment", () => {
   const alignments = new Map([
     [0, { align: "center", text: "first" }],
@@ -293,6 +309,13 @@ test("adds space after citation before Hebrew quote", () => {
   assert.equal(
     normalizePunctuationSpacing("(שמות כ״א:ל״ז):כִּי"),
     "(שמות כ״א:ל״ז): כִּי"
+  );
+});
+
+test("keeps source space after colon before isolated Hebrew", () => {
+  assert.equal(
+    applyTextRules("(12:2): הַחֹדֶשׁ הַזֶּה"),
+    `(12:2): ${RTL_ISOLATE}הַחֹדֶשׁ הַזֶּה${POP_DIRECTIONAL_ISOLATE}`
   );
 });
 
@@ -867,6 +890,17 @@ test("docx: Bo 5785 keeps numbered Hebrew item commas and Haggadah question orde
   );
   assertNotContains(typst, `${RTL_ISOLATE}מזוזה,${POP_DIRECTIONAL_ISOLATE}`, "comma inside mezuzah isolate");
   assertNotContains(typst, `${RTL_ISOLATE}ציצית,${POP_DIRECTIONAL_ISOLATE}`, "comma inside tzitzis isolate");
+});
+
+test("docx: Bo 5784 keeps one source space after source colon before Hebrew", () => {
+  const typst = convertedDocx("/bo/5784/");
+
+  assertContains(
+    typst,
+    `(12:2): ${RTL_ISOLATE}הַחֹדֶשׁ הַזֶּה לָכֶם רֹאשׁ חֳדָשִׁים${POP_DIRECTIONAL_ISOLATE}`,
+    "single source space after 12:2 colon"
+  );
+  assertNotContains(typst, `(12:2) : ${RTL_ISOLATE}הַחֹדֶשׁ`, "space before 12:2 colon");
 });
 
 test("docx: Rosh Hashana 5785 keeps closing quotes before said attribution", () => {
