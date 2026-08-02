@@ -5,6 +5,13 @@
 const assert = require("node:assert/strict");
 const path = require("node:path");
 const {
+  PDF_PATTERNS,
+  repairPdfExtractedTrailingPunctuationArtifacts,
+  scanTextForPattern,
+  TYP_PATTERNS,
+} = require("./audit-typeset");
+
+const {
   applyDocxParagraphAlignments,
   applyTextRules,
   convertDocxToTypst,
@@ -93,11 +100,43 @@ function assertNotContains(haystack, needle, label = needle) {
   );
 }
 
+function auditPattern(patterns, label) {
+  const pattern = patterns.find((candidate) => candidate.label === label);
+  assert.ok(pattern, `Audit pattern not found: ${label}`);
+  return pattern;
+}
+
+function auditMatches(value, pattern, source = "PDF visual text") {
+  return pattern.re.test(scanTextForPattern(value, pattern, source));
+}
+
 test("adds spaces after commas and removes spaces before commas", () => {
   assert.equal(
     normalizePunctuationSpacing("נזיקין,בבא קמא , בבא מציעא"),
     "נזיקין, בבא קמא, בבא מציעא"
   );
+});
+
+test("audit ignores PDF-extracted leading comma that is visually trailing Hebrew punctuation", () => {
+  const pattern = auditPattern(PDF_PATTERNS, "leading punctuation before Hebrew");
+  const line = "your children, your ⁧‫אייניקלעך‬,⁩ and your ⁧‫עיר אייניקלעך‬,⁩ all following ⁧,‫בדרך השם‬";
+
+  assert.equal(auditMatches(line, pattern), false);
+});
+
+test("audit ignores PDF-extracted semicolon that is visually trailing Hebrew punctuation", () => {
+  const pattern = auditPattern(PDF_PATTERNS, "leading punctuation before Hebrew");
+  const line = "‫ ⁩שבת‬comes in, we have to perforce add on from ⁧‫ ⁩חול‬to ⁧‫ֲאָבל ַהָּקדֹוׁש ָּברּוְך⁧ ;⁩קודש‬";
+
+  assert.equal(auditMatches(line, pattern), false);
+});
+
+test("audit still flags real leading punctuation before Hebrew", () => {
+  const pdfPattern = auditPattern(PDF_PATTERNS, "leading punctuation before Hebrew");
+  const typPattern = auditPattern(TYP_PATTERNS, "space before punctuation in Typst source");
+
+  assert.equal(auditMatches("all following ,בדרך השם", pdfPattern), true);
+  assert.equal(auditMatches("all following בדרך השם ,", typPattern, "Typst source"), true);
 });
 
 test("wraps selected typst paragraphs in docx alignment", () => {
@@ -201,6 +240,20 @@ test("removes spaces before closing parenthesis", () => {
   assert.equal(
     normalizePunctuationSpacing("it is the בית הלוי ). He says"),
     "it is the בית הלוי). He says"
+  );
+});
+
+test("moves English closing quote before said attribution", () => {
+  assert.equal(
+    normalizePunctuationSpacing('"My friend, " said Reb Levi Yitzchok'),
+    '"My friend," said Reb Levi Yitzchok'
+  );
+});
+
+test("moves punctuation inside nested English close quotes", () => {
+  assert.equal(
+    normalizePunctuationSpacing("help me marry off my daughters'\". \"My friend"),
+    "help me marry off my daughters.'\" \"My friend"
   );
 });
 
@@ -584,6 +637,13 @@ test("keeps bare Hebrew source reference before quote colon in reading order", (
   );
 });
 
+test("repairs nested Hebrew source parenthesis before quote colon", () => {
+  assert.equal(
+    applyTextRules("brings a pasuk in (תהילים (ק״ה:ל״ז: וַיּוֹצִיאֵם בְּכֶסֶף"),
+    `brings a pasuk in ${LTR_ISOLATE}(תהילים ק״ה:ל״ז)${POP_DIRECTIONAL_ISOLATE}: ${RTL_ISOLATE}וַיּוֹצִיאֵם בְּכֶסֶף${POP_DIRECTIONAL_ISOLATE}`
+  );
+});
+
 test("keeps parenthesized Hebrew source reference in reading order", () => {
   assert.equal(
     applyTextRules("called אדם (ע״ש יבמות ס״א ע״א), the אומות"),
@@ -647,6 +707,25 @@ test("tags person index aliases with straight or slanted Hebrew quotes", () => {
     "person-index-rashi-1",
     "person-index-rashi-2",
   ]);
+});
+
+test("keeps English possessive before person index marker", () => {
+  const indexState = {
+    people: [
+      {
+        id: "levi-yitzchok",
+        displayName: "R' Levi Yitzchok of Berditchev",
+        aliases: ["Levi Yitzchok"],
+      },
+    ],
+    mentions: new Map([["levi-yitzchok", []]]),
+    nextMarker: 1,
+  };
+
+  assert.equal(
+    tagPersonIndexMentions("None were to Reb Levi Yitzchok's taste.", indexState),
+    "None were to Reb Levi Yitzchok's#metadata(none) <person-index-levi-yitzchok-1> taste."
+  );
 });
 
 test("docx: Mikeitz 5783 fixes named numeric double-parenthesis citations", () => {
@@ -741,6 +820,17 @@ test("docx: Vayigash 5785 keeps comma after R' Shlomo Ganzfried", () => {
   );
 });
 
+test("docx: Rosh Hashana 5785 keeps closing quotes before said attribution", () => {
+  const typst = convertedDocx("/rosh-hashana/5785/");
+
+  assertContains(
+    typst,
+    `help me marry off my daughters.'\" \"My friend,\" said Reb Levi`,
+    "closing quote before My friend attribution"
+  );
+  assertNotContains(typst, `daughters'\". \"My friend, \" said`, "raw quote punctuation");
+});
+
 test("docx: Beshalach 5784 fixes duplicate open parenthesis before medrash source", () => {
   const typst = convertedDocx("/beshalach/5784/");
 
@@ -774,6 +864,18 @@ test("docx: Bereshis 5786 keeps mid-Hebrew commas attached before spaces", () =>
   assertNotContains(typst, "שְׁעוֹתָיו ,נִכְנַס", "space-before-comma inside Hebrew phrase");
 });
 
+test("docx: Naso 5784 repairs nested Tehillim source parenthesis", () => {
+  const typst = convertedDocx("/naso/5784/");
+
+  assertContains(
+    typst,
+    `brings a pasuk in ${LTR_ISOLATE}(תהילים ק״ה:ל״ז)${POP_DIRECTIONAL_ISOLATE}: ${RTL_ISOLATE}וַיּוֹצִיאֵם בְּכֶסֶף וְזָהָב וְאֵין בִּשְׁבָטָיו כּוֹשֵׁל${POP_DIRECTIONAL_ISOLATE}.`,
+    "fixed Tehillim source"
+  );
+  assertNotContains(typst, "(⁧תהילים⁩ (", "nested Tehillim source parenthesis");
+  assertNotContains(typst, "(תהילים (", "raw nested Tehillim source parenthesis");
+});
+
 test("docx: Vayairah 5784 keeps colon Hebrew quote break tight", () => {
   const typst = convertedDocx("/vayairah/5784/");
 
@@ -805,7 +907,7 @@ test("docx: Chukas 5784 copy title is stripped from body", () => {
 });
 
 test("docx: Yossi Bennett Haskama signature uses tight line breaks", () => {
-  const typst = convertedDocx("/yossi-bennett/");
+  const typst = convertedDocx("/rabbi-yossi-bennett/");
 
   assertContains(
     typst,

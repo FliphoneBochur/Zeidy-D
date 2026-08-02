@@ -111,6 +111,10 @@ const MALFORMED_ESCAPED_OPEN_HEBREW_CITATION_RE = new RegExp(
   `\\(\\\\\\(((?:${HEBREW_TOKEN}\\s+)?${HEBREW_TOKEN}:${HEBREW_TOKEN}):\\s*(?=${HEBREW_LETTERS})`,
   "gu"
 );
+const MALFORMED_NESTED_OPEN_HEBREW_CITATION_RE = new RegExp(
+  `\\((${HEBREW_TOKEN})\\s+\\((${HEBREW_REF_TOKEN}\\s*:\\s*${HEBREW_REF_TOKEN}):\\s*(?=${HEBREW_LETTERS})`,
+  "gu"
+);
 const MALFORMED_ESCAPED_OPEN_NUMERIC_CITATION_RE = new RegExp(
   `\\((\\d+:\\d+)\\\\\\(:\\s*(?=${HEBREW_LETTERS})`,
   "gu"
@@ -640,7 +644,7 @@ function personAliasRegex(person) {
   }
 
   const boundaryChars = "A-Za-z0-9\\u0590-\\u05FF\\uFB1D-\\uFB4F";
-  return new RegExp(`(?<![${boundaryChars}])(?:${aliasSources.join("|")})(?![${boundaryChars}])`, "gu");
+  return new RegExp(`(?<![${boundaryChars}])(?:${aliasSources.join("|")})(?:['’‘]s)?(?![${boundaryChars}])`, "gu");
 }
 
 function createPersonIndexState(people) {
@@ -849,7 +853,10 @@ function keepIndexMarkersAfterPunctuation(typstContent) {
 function normalizePunctuationSpacing(typstContent) {
   return keepIndexMarkersAfterPunctuation(typstContent)
     .replace(/\u2014/g, "-")
+    .replace(/([A-Za-z])'"\./g, "$1.'\"")
+    .replace(/([,;:.!?])\s+"(?=\s+(?:said|asked|answered|responded|replied)\b)/giu, "$1\"")
     .replace(MALFORMED_ESCAPED_OPEN_HEBREW_CITATION_RE, "($1): ")
+    .replace(MALFORMED_NESTED_OPEN_HEBREW_CITATION_RE, "($1 $2): ")
     .replace(MALFORMED_HEBREW_LABEL_ESCAPED_OPEN_NUMERIC_CITATION_RE, "$1 ($2): ")
     .replace(MALFORMED_ESCAPED_OPEN_NUMERIC_CITATION_RE, "($1): ")
     .replace(DUPLICATE_ESCAPED_OPEN_NUMERIC_CITATION_RE, "($1")
@@ -858,7 +865,7 @@ function normalizePunctuationSpacing(typstContent) {
     .replace(new RegExp(`([A-Za-z])(?=${HEBREW_LETTERS})`, "gu"), "$1 ")
     .replace(/[\s\u00A0\u202F]+([,;:.!?)\]])/g, "$1")
     .replace(/([;:])[\t \u00A0\u202F]*(?=\S)/g, "$1 ")
-    .replace(/,(?!\d)\s*/g, ", ")
+    .replace(/,(?![\d"])\s*/g, ", ")
     .replace(/(\d),\s+(?=\d)/g, "$1,")
     .replace(/,\s*,\s*/g, ", ")
     .replace(/(\d+):\s+(\d+)/g, "$1:$2")

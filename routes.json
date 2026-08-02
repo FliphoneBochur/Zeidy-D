@@ -868,13 +868,17 @@
       "contentPath": "06 - Yom Tov/19 - Purim/5785",
       "baseFilename": "Purim 5785"
     },
+    "/raabi-eliyahu-safran/": {
+      "contentPath": "07 - Haskamos/Raabi Eliyahu Safran",
+      "baseFilename": "Eliyahu Safran Haskama"
+    },
     "/rabbi-oelbaum/": {
       "contentPath": "07 - Haskamos/Rabbi Oelbaum",
       "baseFilename": "Rabbi Oelbaum"
     },
-    "/yossi-bennett/": {
-      "contentPath": "07 - Haskamos/Yossi Bennett",
-      "baseFilename": "Yossi Bennett"
+    "/rabbi-yossi-bennett/": {
+      "contentPath": "07 - Haskamos/Rabbi Yossi Bennett",
+      "baseFilename": "Rabbi Yossi Bennett"
     },
     "/about-the-name/": {
       "contentPath": "08 - Misc/About The Name",
@@ -1115,8 +1119,9 @@
     "06 - Yom Tov/19 - Purim/5783/Story Purim 5783": "/purim/5783/story/",
     "06 - Yom Tov/19 - Purim/5784": "/purim/5784/",
     "06 - Yom Tov/19 - Purim/5785": "/purim/5785/",
+    "07 - Haskamos/Raabi Eliyahu Safran": "/raabi-eliyahu-safran/",
     "07 - Haskamos/Rabbi Oelbaum": "/rabbi-oelbaum/",
-    "07 - Haskamos/Yossi Bennett": "/yossi-bennett/",
+    "07 - Haskamos/Rabbi Yossi Bennett": "/rabbi-yossi-bennett/",
     "08 - Misc/About The Name": "/about-the-name/",
     "08 - Misc/Bloopers": "/bloopers/",
     "08 - Misc/Bris": "/bris/",

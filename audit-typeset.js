@@ -29,6 +29,11 @@ const PDF_PATTERNS = [
   },
   {
     severity: "high",
+    label: "malformed nested Hebrew source parenthesis",
+    re: new RegExp(`\\([${HEBREW}]+\\s+\\([${HEBREW}]+\\s*:\\s*[${HEBREW}]+\\s*:`, "u"),
+  },
+  {
+    severity: "high",
     label: "leading punctuation before Hebrew",
     re: new RegExp(`(^|[\\s(\\[])\\s*[,;:.]\\s*[${HEBREW}]`, "u"),
   },
@@ -70,6 +75,11 @@ const TYP_PATTERNS = [
     severity: "high",
     label: "double close after numeric source",
     re: /\d+:\d+\)\)/u,
+  },
+  {
+    severity: "high",
+    label: "malformed nested Hebrew source parenthesis",
+    re: new RegExp(`\\([${HEBREW}]+\\s+\\([${HEBREW}]+\\s*:\\s*[${HEBREW}]+\\s*:`, "u"),
   },
   {
     severity: "medium",
@@ -194,14 +204,27 @@ function compactForScan(value) {
 }
 
 function repairPdfExtractedTrailingPunctuationArtifacts(value) {
-  return value.replace(
-    new RegExp(
-      `([\\u2066\\u2067])([,;:.])([\\u202A-\\u202E])?([\\s\\u00A0\\u202F]*\\u2069)([${HEBREW}](?:[${HEBREW}\\s\\u00A0\\u202F]+[${HEBREW}])?)([\\u202A-\\u202E])(?=[A-Za-z])`,
-      "gu"
-    ),
-    (_match, isolate, punctuation, pdfStart = "", beforeText, hebrewText, pdfEnd) =>
-      `${isolate}${pdfStart}${beforeText}${hebrewText}${pdfEnd}${punctuation} `
-  );
+  return value
+    .replace(
+      new RegExp(
+        `([\\u2066\\u2067])([,;:.])([\\u202A-\\u202E])?([\\s\\u00A0\\u202F]*\\u2069)([${HEBREW}](?:[${HEBREW}\\s\\u00A0\\u202F]+[${HEBREW}])?)([\\u202A-\\u202E])(?=[A-Za-z])`,
+        "gu"
+      ),
+      (_match, isolate, punctuation, pdfStart = "", beforeText, hebrewText, pdfEnd) =>
+        `${isolate}${pdfStart}${beforeText}${hebrewText}${pdfEnd}${punctuation} `
+    )
+    .replace(
+      new RegExp(
+        `([\\u2066\\u2067])([,;:.])([\\u202A-\\u202E])([${HEBREW}](?:[${HEBREW}\\s\\u00A0\\u202F]+[${HEBREW}])?)([\\u202A-\\u202E])`,
+        "gu"
+      ),
+      (_match, isolate, punctuation, pdfStart, hebrewText, pdfEnd) =>
+        `${isolate}${pdfStart}${hebrewText}${pdfEnd}${punctuation}`
+    )
+    .replace(
+      new RegExp(`([,;:.])([\\u202A-\\u202E\\u2066-\\u2069]+)([${HEBREW}])`, "gu"),
+      (_match, punctuation, marks, hebrewLetter) => `${marks}${hebrewLetter}${punctuation}`
+    );
 }
 
 function scanTextForPattern(value, pattern, source) {
@@ -472,7 +495,18 @@ async function main() {
   }
 }
 
-main().catch((error) => {
-  console.error(`audit-typeset failed: ${error.message}`);
-  process.exitCode = 1;
-});
+if (require.main === module) {
+  main().catch((error) => {
+    console.error(`audit-typeset failed: ${error.message}`);
+    process.exitCode = 1;
+  });
+}
+
+module.exports = {
+  PDF_PATTERNS,
+  TYP_PATTERNS,
+  compactForScan,
+  normalizedForScan,
+  repairPdfExtractedTrailingPunctuationArtifacts,
+  scanTextForPattern,
+};
