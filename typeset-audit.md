@@ -4,28 +4,123 @@ This is a review-only scan for likely visual punctuation and bidi issues in the 
 
 PDF scanned: `Files/08 - Misc/Final Sefer/Final Sefer.pdf`
 Typst scanned: `Files/08 - Misc/Final Sefer/Final Sefer.typ`
-Findings: 155 (3 high, 152 medium)
+Findings: 179 (26 high, 153 medium)
 Visual pages rendered: `typeset-audit-pages`
 
 The PDF scan uses extracted visual text, so it is useful for catching rendered punctuation surprises. The Typst scan catches raw source patterns before rendering.
 
 ## HIGH - leading punctuation before Hebrew
 
+- PDF visual text, page 16, Bereshis 5786 (1), line 21
+  - visual: [page-0016.png](typeset-audit-pages/page-0016.png)
+  - ‫ ⁩שבת‬comes in, we have to perforce add on from ⁧‫ ⁩חול‬to ⁧‫ֲאָבל ַהָּקדֹוׁש ָּברּוְך⁧ ⁩;קודש‬
+  - normalized: שבתcomes in, we have to perforce add on from  חולto ֲאָבל ַהָּקדֹוׁש ָּברּוְך ;קודש
+- PDF visual text, page 74, Mikeitz 5783, line 8
+  - visual: [page-0074.png](typeset-audit-pages/page-0074.png)
+  - puts his ⁧ ‫ ⁩בטחון‬in Hashem, ⁧ ‫ ⁩ְוֹלא ָפָנה ֶאל ְר ָהִבים⁧ ⁩;זה יוסף‬- and he did not turn
+  - normalized: puts his   בטחוןin Hashem,   ְוֹלא ָפָנה ֶאל ְר ָהִבים ;זה יוסף- and he did not turn
+- PDF visual text, page 80, Vayigash 5783, line 33
+  - visual: [page-0080.png](typeset-audit-pages/page-0080.png)
+  - ‫⁩על אחת כמה וכמה⁧ ⁩;אֹוִכיֲחָך ְוֶאֶעְר ָכה ְלֵעיֶניָך‬. The ⁧ ‫ בית הלוי‬raises another question
+  - normalized: על אחת כמה וכמה ;אֹוִכיֲחָך ְוֶאֶעְר ָכה ְלֵעיֶניָך. The   בית הלויraises another question
+- PDF visual text, page 92, Shemos 5783, line 22
+  - visual: [page-0092.png](typeset-audit-pages/page-0092.png)
+  - ...⁩הושע‬5:7): ⁦‫ ⁩ַּבה׳ ָּבָגדּו‬- ⁧‫ ⁩כלל ישראל‬rebelled against ⁧‫ִּכי ָּבִנים ָזִר ים ָיָלדּו⁧ ⁩;ה׳‬
+  - normalized: ...שע5:7):  ַּבה׳ ָּבָגדּו-  כלל ישראלrebelled against ִּכי ָּבִנים ָזִר ים ָיָלדּו ;ה׳
+- PDF visual text, page 92, Shemos 5783, line 25
+  - visual: [page-0092.png](typeset-audit-pages/page-0092.png)
+  - ‫ ⁩מפר‬the ⁧‫ ⁩ָאְמרּו ִנְהֶיה ַּכִּמְצִר ים⁧ ⁩;ברית מילה‬- We should be like ⁧‫ִמָּכאן ַאָּת ה ָלֵמ ד⁧ ⁩;מצרים‬
+  - normalized: מפרthe  ָאְמרּו ִנְהֶיה ַּכִּמְצִר ים ;ברית מילה- We should be like ִמָּכאן ַאָּת ה ָלֵמ ד ;מצרים
+- PDF visual text, page 92, Shemos 5783, line 27
+  - visual: [page-0092.png](typeset-audit-pages/page-0092.png)
+  - again when they went out of ⁧‫ ⁩ְוֵכיָון ֶׁשָעׂשּו ֵכ ן⁧ ⁩;מצרים‬- Since they were ⁧‫ ⁩מפר‬the
+  - normalized: again when they went out of  ְוֵכיָון ֶׁשָעׂשּו ֵכ ן ;מצרים- Since they were  מפרthe
+- PDF visual text, page 92, Shemos 5783, line 28
+  - visual: [page-0092.png](typeset-audit-pages/page-0092.png)
+  - ...ֹוׁש ָּברּוְך הּוא ָהַאֲהָבה ֶׁשָהיּו ַהִּמְצִר ִּיים אֹוֲהִבין אֹוָת ן ְלִׂשְנָאה⁧ ⁩;ברית‬- ⁧‫ ⁩ה׳‬caused ⁧‫ ⁩מצרים‬
+  - normalized: ...ׁש ָּברּוְך הּוא ָהַאֲהָבה ֶׁשָהיּו ַהִּמְצִר ִּיים אֹוֲהִבין אֹוָת ן ְלִׂשְנָאה ;ברית-  ה׳caused  מצרים
+- PDF visual text, page 94, Shemos 5784, line 19
+  - visual: [page-0094.png](typeset-audit-pages/page-0094.png)
+  - ...es (4:14): ⁧‫ ⁩ַוִּיַחר ַאף ה׳ ְּב ֹמֶׁשה‬- Hashem became angry with ⁧‫ַוֹּיאֶמר ֲהֹלא⁧ ⁩;משה‬
+  - normalized: ...es (4:14):  ַוִּיַחר ַאף ה׳ ְּב ֹמֶׁשה- Hashem became angry with ַוֹּיאֶמר ֲהֹלא ;משה
+- PDF visual text, page 115, Yisro 5784, line 26
+  - visual: [page-0115.png](typeset-audit-pages/page-0115.png)
+  - up to ⁧‫ ⁩ָאְמרּו ַמְלֲאֵכי ַהָּׁשֵר ת ִלְפֵני ַהָּקדֹוׁש ָּברּוְך הּוא⁧ ⁩;שמים‬- the ⁧‫מלאכי השרת‬,⁩ who serve
+  - normalized: up to  ָאְמרּו ַמְלֲאֵכי ַהָּׁשֵר ת ִלְפֵני ַהָּקדֹוׁש ָּברּוְך הּוא ;שמים- the מלאכי השרת, who serve
+- PDF visual text, page 190, abyss. Those who are busy doing nothing, or who have wasted their lives,, line 6
+  - visual: [page-0190.png](typeset-audit-pages/page-0190.png)
+  - of ⁧‫⁩עבירה‬. That’s the next ⁧‫⁩פסוק‬: ⁧‫ ⁩ַאל ִּת ְפנּו ֶאל ָהֱאִליִלם‬- Get away from the ⁧‫ ⁩;אלילים‬
+  - normalized: of עבירה. That’s the next פסוק:  ַאל ִּת ְפנּו ֶאל ָהֱאִליִלם- Get away from the  ;אלילים
 - PDF visual text, page 197, Emor 5784, line 11
   - visual: [page-0197.png](typeset-audit-pages/page-0197.png)
   - hardly fathom.)⁩ ⁧,‫ ַאל ִּת ְהיּו ַכֲעָבִד ים ַהְמַׁשְּמִׁשין ֶאת ָהַר ב ַעל ְמָנת ְלַקֵּבל ְּפָר...
   - normalized: hardly fathom.) , ַאל ִּת ְהיּו ַכֲעָבִד ים ַהְמַׁשְּמִׁשין ֶאת ָהַר ב ַעל ְמָנת ְלַקֵּבל ְּפָר סה,...
+- PDF visual text, page 216, who happened to be the director of      ערכים at the time. When asked why, line 17
+  - visual: [page-0216.png](typeset-audit-pages/page-0216.png)
+  - ‫ ⁩כלל ישראל‬that if we behave and ⁧‫ ⁩משיח‬comes through our ⁧‫ִעם ַחַּית ַהָּׂשֶד ה⁧ ⁩;זכות‬
+  - normalized: כלל ישראלthat if we behave and  משיחcomes through our ִעם ַחַּית ַהָּׂשֶד ה ;זכות
+- PDF visual text, page 228, Behaloscha 5785, line 12
+  - visual: [page-0228.png](typeset-audit-pages/page-0228.png)
+  - ...ly in the ⁧‫ ⁩ָוֶאַּקח ֶאת ַהְלִוִּים ַּת ַחת ׇּכׇּכל ְּבכֹור ִּבְבֵני ִיְׂשָר ֵא ל⁧ ⁩;בית המקדש‬- As we
+  - normalized: ...ly in the  ָוֶאַּקח ֶאת ַהְלִוִּים ַּת ַחת ׇּכׇּכל ְּבכֹור ִּבְבֵני ִיְׂשָר ֵא ל ;בית המקדש- As we
+- PDF visual text, page 264, Pinchas 5785, line 16
+  - visual: [page-0264.png](typeset-audit-pages/page-0264.png)
+  - is to look at ⁧‫ ⁩ְוָר ִאיָת ה ֹאָת ּה⁧ ⁩;ארץ ישראל‬- and you will look at ⁧‫ְוֶנֱאַסְפָּת ⁧ ⁩;ארץ ישראל‬
+  - normalized: is to look at  ְוָר ִאיָת ה ֹאָת ּה ;ארץ ישראל- and you will look at ְוֶנֱאַסְפָּת  ;ארץ ישראל
+- PDF visual text, page 271, Matos Massei 5785, line 13
+  - visual: [page-0271.png](typeset-audit-pages/page-0271.png)
+  - ...ָיַׁשב ָּבּה ַעד ֹמות ַה ֹּכֵהן ַהָּגֹדל ֲאֶׁשר ָמַׁשח ֹאֹתו ְּבֶׁשֶמן ַה ֹּקֶד ׁש⁧ ⁩;מקלט‬- He has
+  - normalized: ...ַׁשב ָּבּה ַעד ֹמות ַה ֹּכֵהן ַהָּגֹדל ֲאֶׁשר ָמַׁשח ֹאֹתו ְּבֶׁשֶמן ַה ֹּקֶד ׁש ;מקלט- He has
+- PDF visual text, page 359, Shavuos 5783, line 14
+  - visual: [page-0359.png](typeset-audit-pages/page-0359.png)
+  - answered the ⁧‫ ⁩ְלַקֵּבל ּתֹוָר ה ָּב א⁧ ⁩;מלאכים‬- he came to receive the Torah; ⁧‫ ⁩ָאְמרּו ְלָפָניו‬
+  - normalized: answered the  ְלַקֵּבל ּתֹוָר ה ָּב א ;מלאכים- he came to receive the Torah;  ָאְמרּו ְלָפָניו
+- PDF visual text, page 371, 9 Av 5785, line 8
+  - visual: [page-0371.png](typeset-audit-pages/page-0371.png)
+  - we are showing that ⁧‫השם אלוקינו‬,⁩ Hashem of ⁧‫ ⁩השם אחד⁧ ⁩;רחמים‬- ⁧‫ ⁩רחמים‬and ⁧‫ ⁩דין‬
+  - normalized: we are showing that השם אלוקינו, Hashem of  השם אחד ;רחמים-  רחמיםand  דין
+- PDF visual text, page 375, 15 Av 5785, line 8
+  - visual: [page-0375.png](typeset-audit-pages/page-0375.png)
+  - ...k of this day. ⁧‫ ⁩ָאַמר ַר ָּבן ִׁשְמעֹון ֶּבן ַּגְמִליֵאל‬- a ⁧‫הייליגע תנא‬,⁩ the ⁧‫ֹלא⁧ ⁩;נשיא‬
+  - normalized: ...k of this day.  ָאַמר ַר ָּבן ִׁשְמעֹון ֶּבן ַּגְמִליֵאל- a הייליגע תנא, the ֹלא ;נשיא
+- PDF visual text, page 406, Shmini Atzeres 5784, line 15
+  - visual: [page-0406.png](typeset-audit-pages/page-0406.png)
+  - who fear Hashem, Hashem does their ⁧‫ ⁩ְוֶאת ַׁשְוָעָת ם ִיְׁשַמע ְויֹוִׁשיֵע ם⁧ ⁩;רצון‬- Hashem
+  - normalized: who fear Hashem, Hashem does their  ְוֶאת ַׁשְוָעָת ם ִיְׁשַמע ְויֹוִׁשיֵע ם ;רצון- Hashem
 - PDF visual text, page 445, Shabbos - The Gift of Olam Haba in This World, line 17
   - visual: [page-0445.png](typeset-audit-pages/page-0445.png)
   - The ⁧‫ ⁩גמרא‬says, ⁧,‫ אמר להם הקדוש ברוך הוא למשה‬,‫ כי אני ה׳ מקדשכם‬,‫ לדעת‬,‫תני נמי הכי‬
   - normalized: The  גמראsays, , אמר להם הקדוש ברוך הוא למשה, כי אני ה׳ מקדשכם, לדעתת,ני נמי הכי
 - PDF visual text, page 457, לטובה - the same way, also all of the     גלות and all of the     גלות in the Yidden, line 6
   - visual: [page-0457.png](typeset-audit-pages/page-0457.png)
-  - ,‫ גלות יוון‬,‫ ⁩גלות אדום; אך בהווה⁧ ⁩גלות בבל‬- but in the present time, ⁦‫לא יוכ...
-  - normalized: , גלות יוון, גלות אדום; אך בהווה גלות בבל- but in the present time, לא יוכל האדם
+  - ,‫ גלות יוון‬,‫ ⁩אך בהווה⁧ ⁩;גלות אדום⁧ ⁩גלות בבל‬- but in the present time, ⁦‫לא י...
+  - normalized: , גלות יוון, אך בהווה ;גלות אדום גלות בבל- but in the present time, לא יוכל האדם
+- PDF visual text, page 459, However, says the     מלבי״ם , when      שבת comes it is different, our      השגה has, line 6
+  - visual: [page-0459.png](typeset-audit-pages/page-0459.png)
+  - ‫ ⁩אחד מששים בעוה״ב‬- ⁧‫ ⁩שבת‬happens to be 1/60th of ⁧‫לכן נתן להם מצות⁧ ⁩;עולם הבא‬
+  - normalized: אחד מששים בעוה״ב-  שבתhappens to be 1/60th of לכן נתן להם מצות ;עולם הבא
+- PDF visual text, page 459, However, says the     מלבי״ם , when      שבת comes it is different, our      השגה has, line 8
+  - visual: [page-0459.png](typeset-audit-pages/page-0459.png)
+  - ‫ ⁩שמן עונג שבת‬- from the pleasure of ⁧‫ ⁩ישיגו טעם מעניני עוה״ב⁧ ⁩;שבת‬- ⁧‫ ⁩הקדוש ברוך הוא‬
+  - normalized: שמן עונג שבת- from the pleasure of  ישיגו טעם מעניני עוה״ב ;שבת-  הקדוש ברוך הוא
+- PDF visual text, page 459, However, says the     מלבי״ם , when      שבת comes it is different, our      השגה has, line 18
+  - visual: [page-0459.png](typeset-audit-pages/page-0459.png)
+  - ‫ ⁩הבא‬experience of ⁧‫שבת‬,⁩ that is that is being now imparted to the ⁧‫ ⁩;בני ישראל‬
+  - normalized: הבאexperience of שבת, that is that is being now imparted to the  ;בני ישראל
+- PDF visual text, page 461, of   הקדוש ברוך הוא ,  they all become answered. And when it comes to     שבת by, line 20
+  - visual: [page-0461.png](typeset-audit-pages/page-0461.png)
+  - first of all, what are we saying that ⁧‫משה⁧ ⁩;משה רבינו ְׁשֵני לּוחֹות ֲאָבִנים הֹוִר יד ְּבָידֹו‬
+  - normalized: first of all, what are we saying that משה ;משה רבינו ְׁשֵני לּוחֹות ֲאָבִנים הֹוִר יד ְּבָידֹו
+- PDF visual text, page 462, אותיות of    ְׁשִמיַר ת ַׁשָּבת . And a     ְר ָאָיה to this, says the,     אמרי אמת is because after, line 14
+  - visual: [page-0462.png](typeset-audit-pages/page-0462.png)
+  - even after the ⁧‫ ⁩ְוָכתּוב ָּבֶה ם⁧ ⁩;שבירת הלוחות‬- it’s still written ⁧‫ ⁩ְׁשִמיַר ת ַׁשָּבת‬whereas
+  - normalized: even after the  ְוָכתּוב ָּבֶה ם ;שבירת הלוחות- it’s still written  ְׁשִמיַר ת ַׁשָּבתwhereas
 ## MEDIUM - broken thousands separator
 
-- PDF visual text, page 468, R' Tzvi Hirsch HaKohen of Rimanov, line 29
+- PDF visual text, page 466, (R' Menachem Mendel Schneerson) .... 54, 260, 298, 394, line 4
+  - visual: [page-0466.png](typeset-audit-pages/page-0466.png)
+  - (R' Menachem Mendel Schneerson) .... 54, 260, 298, 394
+- PDF visual text, page 468, R' Tzvi Elimelech of Dinov, line 31
   - visual: [page-0468.png](typeset-audit-pages/page-0468.png)
   - (Lutzker Rav, The Oznayim LaTorah) . 11, 20, 96, 101, 116, 145, 151,
 ## MEDIUM - dash glued to Hebrew before English
@@ -242,8 +337,8 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - was also given ⁧עשו⁩. ⁧יצחק⁩ tells ⁧הקדוש ברוך הוא⁩:⁧אף אני היה לי בן חוטא⁩ -
   - normalized: was also given עשו. יצחק tells הקדוש ברוך הוא:אף אני היה לי בן חוטא -
 - Typst source, line 1755
-  - (⁦רש״י⁩#metadata(none) <person-index-rashi-127> ⁦ל״ב⁩:⁧ט׳⁩): \
-  - normalized: (רש״י#metadata(none) <person-index-rashi-127> ל״ב:ט׳): \
+  - (⁦רש״י⁩#metadata(none) <person-index-rashi-129> ⁦ל״ב⁩:⁧ט׳⁩): \
+  - normalized: (רש״י#metadata(none) <person-index-rashi-129> ל״ב:ט׳): \
 - Typst source, line 2263
   - sets up another momentous confrontation in ⁧פרשת ויגש⁩:⁧יהודה⁩ standing up
   - normalized: sets up another momentous confrontation in פרשת ויגש:יהודה standing up
@@ -287,8 +382,8 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - different - ⁧ישראל⁩ are ⁧מקדשים את הזמנים⁩. And here comes his bomb ⁧חידוש⁩:⁧קדושה⁩ that comes through our ⁧מעשה⁩ never leaves. It stays with us
   - normalized: different - ישראל are מקדשים את הזמנים. And here comes his bomb חידוש:קדושה that comes through our מעשה never leaves. It stays with us
 - Typst source, line 4450
-  - ...gathering of ⁧כלל ישראל⁩⁦?⁩ ⁦רש״י⁩#metadata(none) <person-index-rashi-348> says: ⁧ויקהל משה⁩:⁧למחרת יום הכיפורים⁩ - it was the 11th day of ⁧תשרי⁩⁦,⁩ the day after...
-  - normalized: ...ering of כלל ישראל? רש״י#metadata(none) <person-index-rashi-348> says: ויקהל משה:למחרת יום הכיפורים - it was the 11th day of תשרי, the day after יום כיפור. The
+  - ...gathering of ⁧כלל ישראל⁩⁦?⁩ ⁦רש״י⁩#metadata(none) <person-index-rashi-350> says: ⁧ויקהל משה⁩:⁧למחרת יום הכיפורים⁩ - it was the 11th day of ⁧תשרי⁩⁦,⁩ the day after...
+  - normalized: ...ering of כלל ישראל? רש״י#metadata(none) <person-index-rashi-350> says: ויקהל משה:למחרת יום הכיפורים - it was the 11th day of תשרי, the day after יום כיפור. The
 - Typst source, line 4755
   - ⁧פסוק⁩:⁧ויקרא אל משה⁩. Everybody knows about the little ⁧א⁩ in ⁧ויקרא⁩⁦,⁩ that
   - normalized: פסוק:ויקרא אל משה. Everybody knows about the little א in ויקרא, that
@@ -335,8 +430,8 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - ...⁧שֵׁשׁ כְּנָפַיִם שֵׁשׁ כְּנָפַיִם לְאֶחָד⁩ - six wings, as is brought down in ⁧ישעיהו ו׳⁩:⁧ב׳⁩. However, there is another pasuk in ⁧יחזקאל א׳⁩:⁧ו׳⁩ which says ⁧ו...
   - normalized: ...כְּנָפַיִם שֵׁשׁ כְּנָפַיִם לְאֶחָד - six wings, as is brought down in ישעיהו ו׳:ב׳. However, there is another pasuk in יחזקאל א׳:ו׳ which says וְאַרְבָּעָה פָנִי...
 - Typst source, line 10462
-  - ...hem accepted that ⁧קרבן⁩. ⁦רש״י⁩#metadata(none) <person-index-rashi-846> explains on that ⁧גמרא⁩:⁧שמפייסין אותו על דבר⁩ - we're able to calm
-  - normalized: ...ed that קרבן. רש״י#metadata(none) <person-index-rashi-846> explains on that גמרא:שמפייסין אותו על דבר - we're able to calm
+  - ...hem accepted that ⁧קרבן⁩. ⁦רש״י⁩#metadata(none) <person-index-rashi-850> explains on that ⁧גמרא⁩:⁧שמפייסין אותו על דבר⁩ - we're able to calm
+  - normalized: ...ed that קרבן. רש״י#metadata(none) <person-index-rashi-850> explains on that גמרא:שמפייסין אותו על דבר - we're able to calm
 - Typst source, line 10476
   - ...states: (⁧וּלְמַעַן תְּסַפֵּר בְּאׇזְנֵי בִנְךָ \... וִידַעְתֶּם כִּי אֲנִי ה׳⁩ (⁧שמות י׳⁩:⁧ב׳⁩. Through the ⁧מצוה⁩ of ⁧סיפור יציאת מצרים⁩⁦,⁩ we
   - normalized: ...: (וּלְמַעַן תְּסַפֵּר בְּאׇזְנֵי בִנְךָ \... וִידַעְתֶּם כִּי אֲנִי ה׳ (שמות י׳:ב׳. Through the מצוה of סיפור יציאת מצרים, we
@@ -368,8 +463,8 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - does this connection mean? He brings a ⁧פסוק⁩ from ⁦שמות ד:י״ד⁩: ⁧וְרָאֲךָ וְשָׂמַח בְּלִבּוֹ⁩. What is ⁦אהרן'⁩s ⁧מידה⁩? We all know abou...
   - normalized: does this connection mean? He brings a פסוק from שמות ד:י״ד: וְרָאֲךָ וְשָׂמַח בְּלִבּוֹ. What is אהרן's מידה? We all know about...
 - Typst source, line 13606
-  - ...uoting the ⁧פרקי דרבי אליעזר⁩⁦,⁩ describes how on ⁧יום כיפור⁩⁦,⁩ ⁧הקדוש ברוך הוא⁩ tells the ⁧מלאכים⁩:⁧אומה טובה יש לך בארץ⁩ - "I have a wonderful nation down ther...
-  - normalized: ...he פרקי דרבי אליעזר, describes how on יום כיפור, הקדוש ברוך הוא tells the מלאכים:אומה טובה יש לך בארץ - "I have a wonderful nation down there in עולם הזה. They do...
+  - ...index-pirkei-drabi-eliezer-1083> describes how on ⁧יום כיפור⁩⁦,⁩ ⁧הקדוש ברוך הוא⁩ tells the ⁧מלאכים⁩:⁧אומה טובה יש לך בארץ⁩ - "I have a wonderful nation down ther...
+  - normalized: ...-drabi-eliezer-1083> describes how on יום כיפור, הקדוש ברוך הוא tells the מלאכים:אומה טובה יש לך בארץ - "I have a wonderful nation down there in עולם הזה. They do...
 - Typst source, line 13852
   - therefore says the ⁦מהר״ל⁩:⁧מזמור שיר ליום השבת, יום שכולו שבת, לעולם הבא⁩ - Then ⁧באמת⁩⁦,⁩ we will unders...
   - normalized: therefore says the מהר״ל:מזמור שיר ליום השבת, יום שכולו שבת, לעולם הבא - Then באמת, we will understand, an...

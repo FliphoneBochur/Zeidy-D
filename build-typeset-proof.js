@@ -981,7 +981,12 @@ function isolateHebrewRuns(typstContent) {
   });
 
   const hebrewSemicolonSafeContent = hebrewQuestionSafeContent.replace(HEBREW_SEMICOLON_PHRASE_RE, (match) => {
-    return protect(`${RTL_ISOLATE}${normalizeInlineWhitespace(match).replace(/\s*\\;\s*/g, "; ")}${POP_DIRECTIONAL_ISOLATE}`);
+    const [beforeSemicolon, afterSemicolon] = normalizeInlineWhitespace(match)
+      .split(/\s*\\;\s*/, 2)
+      .map((part) => part.trim());
+    return protect(
+      `${RTL_ISOLATE}${beforeSemicolon}${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE};${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}${afterSemicolon}${POP_DIRECTIONAL_ISOLATE}`
+    );
   });
 
   const referenceSafeContent = hebrewSemicolonSafeContent.replace(HEBREW_PAREN_REFERENCE_RE, (match) => {

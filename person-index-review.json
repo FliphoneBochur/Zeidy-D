@@ -2009,9 +2009,17 @@
       "displayName": "Pirkei Drabi Eliezer",
       "aliases": [
         "Pirkei Drabi Eliezer",
-        "פירקי דרבי אליעזר"
+        "פרקי דרבי אליעזר"
       ],
       "createdAt": "2026-07-24T06:05:55.839Z"
+    },
+    "alshich": {
+      "displayName": "Alshich",
+      "aliases": [
+        "Alshich",
+        "אלשיך"
+      ],
+      "createdAt": "2026-07-24T06:06:05.839Z"
     }
   }
 }

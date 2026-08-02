@@ -456,10 +456,10 @@ test("keeps Hebrew quote after numeric source in one RTL run", () => {
   );
 });
 
-test("keeps semicolon between Hebrew phrases in one RTL run", () => {
+test("keeps semicolon between Hebrew phrases in English sentence order", () => {
   assert.equal(
-    applyTextRules("Hashem of השם אחד \\; רחמים - רחמים and דין is one"),
-    `Hashem of ${RTL_ISOLATE}השם אחד; רחמים${POP_DIRECTIONAL_ISOLATE} - ${RTL_ISOLATE}רחמים${POP_DIRECTIONAL_ISOLATE} and ${RTL_ISOLATE}דין${POP_DIRECTIONAL_ISOLATE} is one`
+    applyTextRules("Hashem of רחמים \\; השם אחד - רחמים and דין is one"),
+    `Hashem of ${RTL_ISOLATE}רחמים${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE};${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}השם אחד${POP_DIRECTIONAL_ISOLATE} - ${RTL_ISOLATE}רחמים${POP_DIRECTIONAL_ISOLATE} and ${RTL_ISOLATE}דין${POP_DIRECTIONAL_ISOLATE} is one`
   );
 });
 
@@ -1162,29 +1162,29 @@ test("docx: Naso 5784 repairs nested Tehillim source parenthesis", () => {
   assertNotContains(typst, "(תהילים (", "raw nested Tehillim source parenthesis");
 });
 
-test("docx: 9 Av 5785 keeps semicolon inside Hebrew phrase", () => {
+test("docx: 9 Av 5785 keeps semicolon between Hebrew phrases in English order", () => {
   const typst = convertedDocx("/9-av/5785/");
 
   assertContains(
     typst,
-    `Hashem of ${RTL_ISOLATE}רחמים; השם אחד${POP_DIRECTIONAL_ISOLATE} -\n${RTL_ISOLATE}רחמים${POP_DIRECTIONAL_ISOLATE} and ${RTL_ISOLATE}דין${POP_DIRECTIONAL_ISOLATE} is one`,
-    "semicolon inside 9 Av Hebrew phrase"
+    `Hashem of ${RTL_ISOLATE}רחמים${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE};${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}השם אחד${POP_DIRECTIONAL_ISOLATE} -\n${RTL_ISOLATE}רחמים${POP_DIRECTIONAL_ISOLATE} and ${RTL_ISOLATE}דין${POP_DIRECTIONAL_ISOLATE} is one`,
+    "semicolon between 9 Av Hebrew phrases"
   );
-  assertNotContains(typst, `${RTL_ISOLATE}רחמים${POP_DIRECTIONAL_ISOLATE} \\; ${RTL_ISOLATE}השם אחד${POP_DIRECTIONAL_ISOLATE}`, "split 9 Av semicolon phrase");
+  assertNotContains(typst, `${RTL_ISOLATE}רחמים; השם אחד${POP_DIRECTIONAL_ISOLATE}`, "single RTL 9 Av semicolon phrase");
 });
 
-test("docx: Shmini Atzeres 5784 keeps semicolon inside Hebrew phrase", () => {
+test("docx: Shmini Atzeres 5784 keeps semicolon between Hebrew phrases in English order", () => {
   const typst = convertedDocx("/shmini-atzeres/5784/");
 
   assertContains(
     typst,
-    `does their ${RTL_ISOLATE}רצון; וְאֶת שַׁוְעָתָם יִשְׁמַע וְיוֹשִׁיעֵם${POP_DIRECTIONAL_ISOLATE} - Hashem hears`,
-    "semicolon inside Shmini Atzeres Hebrew phrase"
+    `does their ${RTL_ISOLATE}רצון${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE};${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}וְאֶת שַׁוְעָתָם יִשְׁמַע וְיוֹשִׁיעֵם${POP_DIRECTIONAL_ISOLATE} - Hashem hears`,
+    "semicolon between Shmini Atzeres Hebrew phrases"
   );
   assertNotContains(
     typst,
-    `${RTL_ISOLATE}רצון${POP_DIRECTIONAL_ISOLATE} \\; ${RTL_ISOLATE}וְאֶת שַׁוְעָתָם`,
-    "split Shmini Atzeres semicolon phrase"
+    `${RTL_ISOLATE}רצון; וְאֶת שַׁוְעָתָם`,
+    "single RTL Shmini Atzeres semicolon phrase"
   );
 });
 
