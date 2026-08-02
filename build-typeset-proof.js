@@ -149,6 +149,10 @@ const SPLIT_GEMARA_SOURCE_RE = new RegExp(
   `${RTL_ISOLATE}(${HEBREW_TOKEN}),${POP_DIRECTIONAL_ISOLATE}\\s+${LTR_ISOLATE}([^${POP_DIRECTIONAL_ISOLATE}]*?דף[^${POP_DIRECTIONAL_ISOLATE}]*?ד${HEBREW_INTERNAL_QUOTE}ה[^${POP_DIRECTIONAL_ISOLATE}]*?)${POP_DIRECTIONAL_ISOLATE}\\s+${RTL_ISOLATE}(${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN})*)${POP_DIRECTIONAL_ISOLATE}`,
   "gu"
 );
+const MIXED_LTR_PARENTHETICAL_RE = new RegExp(
+  `(?<!${LTR_ISOLATE})\\((?=(?:[^()\\n]|\\n(?!\\n)){0,300}[A-Za-z])(?=(?:[^()\\n]|\\n(?!\\n)){0,300}${RTL_ISOLATE})(?:[^()\\n]|\\n(?!\\n)){1,300}\\)(?:[,.;:!?])?`,
+  "gu"
+);
 
 function usage() {
   console.log(`Usage: node build-typeset-proof.js [options]
@@ -901,8 +905,12 @@ function isolateHebrewRuns(typstContent) {
   const normalizeInlineWhitespace = (value) =>
     value.replace(/[ \t\u00A0\u202F]*\n[ \t\u00A0\u202F]*/g, " ");
   const followedByEnglish = (fullText, endOffset) => {
-    const following = fullText
-      .slice(endOffset)
+    const rawFollowing = fullText.slice(endOffset);
+    if (/^(?:[ \t\u00A0\u202F]+|\n(?!\n)|#metadata\(none\)\s*<[^>\n]+>)*\((?:[^()\n]|\n(?!\n)){0,300}[A-Za-z]/.test(rawFollowing)) {
+      return true;
+    }
+
+    const following = rawFollowing
       .replace(/^(?:[ \t\u00A0\u202F]+|\n(?!\n)|#metadata\(none\)\s*<[^>\n]+>)*(?:["'“‘\[]|\\\[)/g, "")
       .replace(/^(?:[ \t\u00A0\u202F]+|\n(?!\n)|#metadata\(none\)\s*<[^>\n]+>)*/g, "");
     return /^(?:[A-Za-z]|\d)/.test(following);
@@ -1025,14 +1033,22 @@ function repairSplitGemaraSources(typstContent) {
   );
 }
 
+function protectMixedLtrParentheticals(typstContent) {
+  return typstContent.replace(MIXED_LTR_PARENTHETICAL_RE, (match) => {
+    return `${LTR_ISOLATE}${match}${POP_DIRECTIONAL_ISOLATE}`;
+  });
+}
+
 function applyTextRules(typstContent) {
-  return repairSplitGemaraSources(
-    isolateHebrewRuns(
-      moveLeadingHebrewSourceAfterQuote(
-        repairEscapedHebrewParagraphCitations(
-          normalizeMisplacedHebrewCommas(
-            normalizePunctuationSpacing(
-              normalizeColonHebrewSoftBreaks(normalizeNumberedSoftBreaks(typstContent))
+  return protectMixedLtrParentheticals(
+    repairSplitGemaraSources(
+      isolateHebrewRuns(
+        moveLeadingHebrewSourceAfterQuote(
+          repairEscapedHebrewParagraphCitations(
+            normalizeMisplacedHebrewCommas(
+              normalizePunctuationSpacing(
+                normalizeColonHebrewSoftBreaks(normalizeNumberedSoftBreaks(typstContent))
+              )
             )
           )
         )
@@ -1468,6 +1484,7 @@ module.exports = {
   normalizeHebrewParagraphSoftBreaks,
   normalizeNumberedSoftBreaks,
   normalizePunctuationSpacing,
+  protectMixedLtrParentheticals,
   repairEscapedHebrewParagraphCitations,
   repairSplitGemaraSources,
   renderPersonIndex,

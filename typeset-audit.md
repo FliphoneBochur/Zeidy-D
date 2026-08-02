@@ -4,7 +4,7 @@ This is a review-only scan for likely visual punctuation and bidi issues in the 
 
 PDF scanned: `Files/08 - Misc/Final Sefer/Final Sefer.pdf`
 Typst scanned: `Files/08 - Misc/Final Sefer/Final Sefer.typ`
-Findings: 156 (4 high, 152 medium)
+Findings: 155 (3 high, 152 medium)
 Visual pages rendered: `typeset-audit-pages`
 
 The PDF scan uses extracted visual text, so it is useful for catching rendered punctuation surprises. The Typst scan catches raw source patterns before rendering.
@@ -13,7 +13,7 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
 
 - PDF visual text, page 197, Emor 5784, line 11
   - visual: [page-0197.png](typeset-audit-pages/page-0197.png)
-  - hardly fathom.) ⁧,‫ ַאל ִּת ְהיּו ַכֲעָבִד ים ַהְמַׁשְּמִׁשין ֶאת ָהַר ב ַעל ְמָנת ְלַקֵּבל ְּפָר ס...
+  - hardly fathom.)⁩ ⁧,‫ ַאל ִּת ְהיּו ַכֲעָבִד ים ַהְמַׁשְּמִׁשין ֶאת ָהַר ב ַעל ְמָנת ְלַקֵּבל ְּפָר...
   - normalized: hardly fathom.) , ַאל ִּת ְהיּו ַכֲעָבִד ים ַהְמַׁשְּמִׁשין ֶאת ָהַר ב ַעל ְמָנת ְלַקֵּבל ְּפָר סה,...
 - PDF visual text, page 445, Shabbos - The Gift of Olam Haba in This World, line 17
   - visual: [page-0445.png](typeset-audit-pages/page-0445.png)
@@ -23,10 +23,6 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - visual: [page-0457.png](typeset-audit-pages/page-0457.png)
   - ,‫ גלות יוון‬,‫ ⁩גלות אדום; אך בהווה⁧ ⁩גלות בבל‬- but in the present time, ⁦‫לא יוכ...
   - normalized: , גלות יוון, גלות אדום; אך בהווה גלות בבל- but in the present time, לא יוכל האדם
-- PDF visual text, page 461, of   הקדוש ברוך הוא ,  they all become answered. And when it comes to     שבת by, line 5
-  - visual: [page-0461.png](typeset-audit-pages/page-0461.png)
-  - ,‫ ⁩אגב⁧( ⁩מנחה‬I did not mention this in the shiur on ⁧‫)⁩שבת‬, and therefore when...
-  - normalized: , אגב( מנחהI did not mention this in the shiur on )שבת, and therefore when he
 ## MEDIUM - broken thousands separator
 
 - PDF visual text, page 468, R' Tzvi Hirsch HaKohen of Rimanov, line 29
@@ -96,8 +92,8 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - normalized: war is behind us.  מי כעמך ישראל- what an incredible people.
 - PDF visual text, page 28, Lech Lecha 5784, line 34
   - visual: [page-0028.png](typeset-audit-pages/page-0028.png)
-  - - in the ⁧‫ ⁩חותמה‬of ⁧,‫( ⁩גלות‬at the end of the ⁧‫ )⁩גלות‬It will only be ⁧‫ ⁩ְּבָך‬- in merit of
-  - normalized: - in the  חותמהof ,( גלותat the end of the  )גלותIt will only be  ְּבָך- in merit of
+  - - in the ⁧‫ ⁩חותמה‬of ⁧‫גלות‬,⁩ ⁦(at the end of the ⁧‫ ⁩)⁩גלות‬It will only be ⁧‫ ⁩ְּבָך‬- in merit of
+  - normalized: - in the  חותמהof גלות, (at the end of the  )גלותIt will only be  ְּבָך- in merit of
 - PDF visual text, page 29, עמודי העולם ,  they keep the world in existence. Our existence in the world is, line 9
   - visual: [page-0029.png](typeset-audit-pages/page-0029.png)
   - contains a ⁧‫ו‬,⁩ a ⁧‫ ⁩ו החיבור‬- a connecting ⁧‫ו‬,⁩ that connects the first half of the ⁧‫ ⁩פסוק‬
@@ -416,10 +412,6 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - visual: [page-0028.png](typeset-audit-pages/page-0028.png)
   - by saying ⁧,‫⁧“ ⁩ָמֵגן ַאְבָר ָהם ִיְצָחק ְוַיֲעֹקב‬,‫ ⁩”ְּבָך חֹוְת ִמין ְוֹלא ָבֶה ם⁦ ⁩ַּ...
   - normalized: by saying ,“ ָמֵגן ַאְבָר ָהם ִיְצָחק ְוַיֲעֹקב, ”ְּבָך חֹוְת ִמין ְוֹלא ָבֶה ם ַּת ְלמּוד...
-- PDF visual text, page 28, Lech Lecha 5784, line 34
-  - visual: [page-0028.png](typeset-audit-pages/page-0028.png)
-  - - in the ⁧‫ ⁩חותמה‬of ⁧,‫( ⁩גלות‬at the end of the ⁧‫ )⁩גלות‬It will only be ⁧‫ ⁩ְּבָך‬- in merit o...
-  - normalized: - in the  חותמהof ,( גלותat the end of the  )גלותIt will only be  ְּבָך- in merit of
 - PDF visual text, page 36, Vayairah 5784, line 20
   - visual: [page-0036.png](typeset-audit-pages/page-0036.png)
   - Was ⁧‫ ⁩אברהם‬offering ⁧‫ ⁩יצחק‬to the ⁧‫ ?⁩מלאך‬Certainly not. How could the ⁧‫ ⁩מלאך‬say,
@@ -476,10 +468,6 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - visual: [page-0079.png](typeset-audit-pages/page-0079.png)
   - Rebbe asked, “How is this possible in ⁧‫ ⁩?עולם האמת‬This is ⁧‫עולם האמת‬,⁩ and these
   - normalized: Rebbe asked, “How is this possible in  ?עולם האמתThis is עולם האמת, and these
-- PDF visual text, page 80, Vayigash 5783, line 29
-  - visual: [page-0080.png](typeset-audit-pages/page-0080.png)
-  - the youngest of the ⁧,‫( ⁩שבטים‬of course, except for ⁧‫ְוֹלא ָיְכלּו ֶאָחיו ַלֲענֹות ֹאתֹו⁧ ;)⁩בנימי...
-  - normalized: the youngest of the ,( שבטיםof course, except for ְוֹלא ָיְכלּו ֶאָחיו ַלֲענֹות ֹאתֹו ;)בנימין
 - PDF visual text, page 80, Vayigash 5783, line 34
   - visual: [page-0080.png](typeset-audit-pages/page-0080.png)
   - from this ⁧‫⁩מדרש‬: Where is the ⁧‫ ⁩תוכחה‬in this ⁧‫ ?⁩פסוק‬It seems like ⁧‫ ⁩יוסף‬was simply
@@ -588,6 +576,14 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - visual: [page-0123.png](typeset-audit-pages/page-0123.png)
   - before the ⁧‫ ⁩?מלך מלכי המלכים הקדוש ברוך הוא‬You can’t go all the way up the
   - normalized: before the  ?מלך מלכי המלכים הקדוש ברוך הואYou can’t go all the way up the
+- PDF visual text, page 123, Mishpatim (2) 5784, line 18
+  - visual: [page-0123.png](typeset-audit-pages/page-0123.png)
+  - about ⁧‫ ?⁩אהרן‬After all, ⁧‫ ⁩אהרן‬had stood by ⁦‫⁩’משה‬s side the entire time and did
+  - normalized: about  ?אהרןAfter all,  אהרןhad stood by ’משהs side the entire time and did
+- PDF visual text, page 125, - Don’t rush to     דן him to    מיתה . Just as ascending the     מזבח requires deliberate, line 8
+  - visual: [page-0125.png](typeset-audit-pages/page-0125.png)
+  - steps to the point of being ⁧‫ ⁩?מגלה ערוה‬There’s a famous ⁧‫ ⁩גמרא‬in ⁧‫ברכות‬,⁩ that
+  - normalized: steps to the point of being  ?מגלה ערוהThere’s a famous  גמראin ברכות, that
 ## MEDIUM - space on both sides of semicolon in Typst source
 
 - Typst source, line 4086

@@ -21,6 +21,7 @@ const {
   normalizeHebrewParagraphSoftBreaks,
   normalizeNumberedSoftBreaks,
   normalizePunctuationSpacing,
+  protectMixedLtrParentheticals,
   repairEscapedHebrewParagraphCitations,
   repairSplitGemaraSources,
   renderPersonIndex,
@@ -371,6 +372,13 @@ test("keeps person index marker after close parenthesis", () => {
       "it is the בית הלוי#metadata(none) <person-index-bais-halevi-33>). He says"
     ),
     "it is the בית הלוי).#metadata(none) <person-index-bais-halevi-33> He says"
+  );
+});
+
+test("wraps mixed Hebrew English parenthetical in LTR isolate", () => {
+  assert.equal(
+    applyTextRules("by מנחה, (אגב I did not mention this in the shiur\non שבת), and therefore"),
+    `by ${RTL_ISOLATE}מנחה${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} ${LTR_ISOLATE}(${RTL_ISOLATE}אגב${POP_DIRECTIONAL_ISOLATE} I did not mention this in the shiur\non ${RTL_ISOLATE}שבת${POP_DIRECTIONAL_ISOLATE}),${POP_DIRECTIONAL_ISOLATE} and therefore`
   );
 });
 
@@ -1159,6 +1167,21 @@ test("docx: Shmini Atzeres 5784 keeps semicolon inside Hebrew phrase", () => {
     typst,
     `${RTL_ISOLATE}רצון${POP_DIRECTIONAL_ISOLATE} \\; ${RTL_ISOLATE}וְאֶת שַׁוְעָתָם`,
     "split Shmini Atzeres semicolon phrase"
+  );
+});
+
+test("docx: Rabbi Oelbaum Shabbos protects mixed parenthetical after Mincha", () => {
+  const typst = convertedDocx("/rabbi-oelbaum-shabbos/");
+
+  assertContains(
+    typst,
+    `by ${RTL_ISOLATE}מנחה${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} ${LTR_ISOLATE}(${RTL_ISOLATE}אגב${POP_DIRECTIONAL_ISOLATE} I did not mention this in the shiur\non ${RTL_ISOLATE}שבת${POP_DIRECTIONAL_ISOLATE}),${POP_DIRECTIONAL_ISOLATE} and therefore`,
+    "LTR-protected mixed parenthetical after Mincha"
+  );
+  assertNotContains(
+    typst,
+    `by ${RTL_ISOLATE}מנחה,${POP_DIRECTIONAL_ISOLATE} (${RTL_ISOLATE}אגב${POP_DIRECTIONAL_ISOLATE}`,
+    "comma inside Mincha isolate before parenthetical"
   );
 });
 
