@@ -176,6 +176,27 @@ test("audit skips broken thousands separator findings on index pages only", () =
     true
   );
   assert.equal(
+    shouldSkipLineForPattern("R’ Elimelech Biderman ........................ 342, 349, 361, 403, 404, 410, 413,", pattern, {
+      source: "PDF visual text",
+      title: "R’ Elimelech Biderman ........................ 342, 349, 361, 403, 404, 410, 413,",
+    }),
+    true
+  );
+  assert.equal(
+    shouldSkipLineForPattern("415, 421", pattern, {
+      source: "PDF visual text",
+      title: "R’ Elimelech Biderman ........................ 342, 349, 361, 403, 404, 410, 413,",
+    }),
+    true
+  );
+  assert.equal(
+    shouldSkipLineForPattern("(Lutzker Rav, The Oznayim LaTorah) . 11, 20, 96, 101, 116, 145, 151,", pattern, {
+      source: "PDF visual text",
+      title: "R' Shlomo Zalman Sonnenfeld ............ 205",
+    }),
+    true
+  );
+  assert.equal(
     shouldSkipLineForPattern("There are 12, 196 letters", pattern, {
       source: "PDF visual text",
       title: "Bo 5783",

@@ -218,6 +218,14 @@ function maskParenthesizedSources(value) {
   return value.replace(/\([^()\n]*:[^()\n]*\)/gu, (match) => " ".repeat(match.length));
 }
 
+function isIndexPageListLine(value) {
+  const line = normalizedForScan(value).trim();
+  return (
+    /\.{5,}\s*\d{1,3}(?:,\s+\d{1,3})*/.test(line) ||
+    /^\d{1,3}(?:,\s+\d{1,3}){1,},?$/.test(line)
+  );
+}
+
 function repairPdfExtractedTrailingPunctuationArtifacts(value) {
   return value
     .replace(
@@ -266,7 +274,7 @@ function shouldSkipLineForPattern(value, pattern, location = {}) {
   if (
     pattern.label === "broken thousands separator" &&
     location.source === "PDF visual text" &&
-    location.title === "Index"
+    (location.title === "Index" || isIndexPageListLine(location.title || "") || isIndexPageListLine(value))
   ) {
     return true;
   }
