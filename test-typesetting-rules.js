@@ -350,6 +350,17 @@ test("moves punctuation inside nested English close quotes", () => {
   );
 });
 
+test("converts Hebrew trailing straight apostrophe to geresh", () => {
+  assert.equal(
+    normalizePunctuationSpacing("this is וראית את אחורי וגו' - The"),
+    "this is וראית את אחורי וגו׳ - The"
+  );
+  assert.equal(
+    normalizePunctuationSpacing("later you'll understand"),
+    "later you'll understand"
+  );
+});
+
 test("keeps person index markers after adjacent punctuation", () => {
   assert.equal(
     normalizePunctuationSpacing(
