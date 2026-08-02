@@ -19,6 +19,7 @@ const {
   normalizeMisplacedHebrewCommas,
   normalizeColonHebrewSoftBreaks,
   normalizeHebrewParagraphSoftBreaks,
+  normalizeIsolatedPunctuationSpacing,
   normalizeNumberedSoftBreaks,
   normalizePunctuationSpacing,
   protectMixedLtrParentheticals,
@@ -425,6 +426,13 @@ test("preserves space after Hebrew label colon before Hebrew quote", () => {
   assert.equal(
     normalizePunctuationSpacing("The פסוק says in פסוק ב: דַּבֵּר"),
     "The פסוק says in פסוק ב: דַּבֵּר"
+  );
+});
+
+test("adds space after colon between isolated Hebrew runs", () => {
+  assert.equal(
+    normalizeIsolatedPunctuationSpacing(`${LTR_ISOLATE}מהר״ל${POP_DIRECTIONAL_ISOLATE}:${RTL_ISOLATE}מזמור שיר${POP_DIRECTIONAL_ISOLATE}`),
+    `${LTR_ISOLATE}מהר״ל${POP_DIRECTIONAL_ISOLATE}: ${RTL_ISOLATE}מזמור שיר${POP_DIRECTIONAL_ISOLATE}`
   );
 });
 
@@ -1200,6 +1208,21 @@ test("docx: Rabbi Oelbaum Shabbos protects mixed parenthetical after Mincha", ()
     typst,
     `by ${RTL_ISOLATE}מנחה,${POP_DIRECTIONAL_ISOLATE} (${RTL_ISOLATE}אגב${POP_DIRECTIONAL_ISOLATE}`,
     "comma inside Mincha isolate before parenthetical"
+  );
+});
+
+test("docx: Rabbi Oelbaum Shabbos keeps space after Maharal colon", () => {
+  const typst = convertedDocx("/rabbi-oelbaum-shabbos/");
+
+  assertContains(
+    typst,
+    `therefore says the ${LTR_ISOLATE}מהר״ל${POP_DIRECTIONAL_ISOLATE}: ${RTL_ISOLATE}מזמור שיר ליום השבת, יום שכולו שבת, לעולם הבא${POP_DIRECTIONAL_ISOLATE} - Then`,
+    "space after Maharal colon"
+  );
+  assertNotContains(
+    typst,
+    `${LTR_ISOLATE}מהר״ל${POP_DIRECTIONAL_ISOLATE}:${RTL_ISOLATE}מזמור`,
+    "missing space after Maharal colon"
   );
 });
 

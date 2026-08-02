@@ -1056,16 +1056,25 @@ function repairGerushinMizbeachPhrase(typstContent) {
   );
 }
 
+function normalizeIsolatedPunctuationSpacing(typstContent) {
+  return typstContent.replace(
+    new RegExp(`([${LTR_ISOLATE}${RTL_ISOLATE}][^${POP_DIRECTIONAL_ISOLATE}]+${POP_DIRECTIONAL_ISOLATE}):(?=[${LTR_ISOLATE}${RTL_ISOLATE}])`, "gu"),
+    "$1: "
+  );
+}
+
 function applyTextRules(typstContent) {
-  return repairGerushinMizbeachPhrase(
-    protectMixedLtrParentheticals(
-      repairSplitGemaraSources(
-        isolateHebrewRuns(
-          moveLeadingHebrewSourceAfterQuote(
-            repairEscapedHebrewParagraphCitations(
-              normalizeMisplacedHebrewCommas(
-                normalizePunctuationSpacing(
-                  normalizeColonHebrewSoftBreaks(normalizeNumberedSoftBreaks(typstContent))
+  return normalizeIsolatedPunctuationSpacing(
+    repairGerushinMizbeachPhrase(
+      protectMixedLtrParentheticals(
+        repairSplitGemaraSources(
+          isolateHebrewRuns(
+            moveLeadingHebrewSourceAfterQuote(
+              repairEscapedHebrewParagraphCitations(
+                normalizeMisplacedHebrewCommas(
+                  normalizePunctuationSpacing(
+                    normalizeColonHebrewSoftBreaks(normalizeNumberedSoftBreaks(typstContent))
+                  )
                 )
               )
             )
@@ -1505,6 +1514,7 @@ module.exports = {
   normalizePunctuationSpacing,
   protectMixedLtrParentheticals,
   repairGerushinMizbeachPhrase,
+  normalizeIsolatedPunctuationSpacing,
   repairEscapedHebrewParagraphCitations,
   repairSplitGemaraSources,
   renderPersonIndex,

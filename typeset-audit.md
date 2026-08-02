@@ -4,7 +4,7 @@ This is a review-only scan for likely visual punctuation and bidi issues in the 
 
 PDF scanned: `Files/08 - Misc/Final Sefer/Final Sefer.pdf`
 Typst scanned: `Files/08 - Misc/Final Sefer/Final Sefer.typ`
-Findings: 179 (26 high, 153 medium)
+Findings: 139 (26 high, 113 medium)
 Visual pages rendered: `typeset-audit-pages`
 
 The PDF scan uses extracted visual text, so it is useful for catching rendered punctuation surprises. The Typst scan catches raw source patterns before rendering.
@@ -297,10 +297,10 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - visual: [page-0049.png](typeset-audit-pages/page-0049.png)
   - deceive, is a ⁧‫⁩תם‬. But ⁧‫ ⁩יעקב‬is described as an ‫ ⁩תם⁧ איש‬- an ⁧‫ ⁩איש‬who was master
   - normalized: deceive, is a תם. But  יעקבis described as an  תם איש- an  אישwho was master
-- PDF visual text, page 52, שצריך אתה לאהוב את בניך ולסלוח להם - you must love your children and forgive, line 4
+- PDF visual text, page 52, וכמה שצריך אתה לאהוב את בניך ולסלוח להם - you must love your children and, line 4
   - visual: [page-0052.png](typeset-audit-pages/page-0052.png)
-  - ‫ ⁩שצריך אתה לאהוב את בניך ולסלוח להם‬- you must love your children and forgive
-  - normalized: שצריך אתה לאהוב את בניך ולסלוח להם- you must love your children and forgive
+  - ‫ ⁩וכמה שצריך אתה לאהוב את בניך ולסלוח להם‬- you must love your children and
+  - normalized: וכמה שצריך אתה לאהוב את בניך ולסלוח להם- you must love your children and
 - PDF visual text, page 53, Toldos 5786, line 14
   - visual: [page-0053.png](typeset-audit-pages/page-0053.png)
   - ‫ ⁩בבתי כנסיות ובבתי מדרשות אין ידי עשו שולטין‬- When we hear the ⁧‫ ⁩קֹול‬of ⁧‫יעקב‬,⁩ then
@@ -327,93 +327,15 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - normalized: ַהָּמקֹום ַהֶּזה ֵאין ֶזה ִּכי ִאם ֵּבית ֱאֹלִקים- This is the place of the  בית המקדש- not only
 ## MEDIUM - missing space after colon before Hebrew in Typst source
 
-- Typst source, line 444
-  - that at all. So, ⁧אנכי עפר ואפר⁩⁦,⁩ the famous saying about ⁧עפר ואפר⁩:⁧עפר⁩ is
-  - normalized: that at all. So, אנכי עפר ואפר, the famous saying about עפר ואפר:עפר is
-- Typst source, line 785
-  - corresponding to one of the ⁧אבות⁩:⁧אברהם⁩ represents ⁧גמילות חסדים⁩⁦,⁩ ⁧יצחק⁩
-  - normalized: corresponding to one of the אבות:אברהם represents גמילות חסדים, יצחק
-- Typst source, line 1489
-  - was also given ⁧עשו⁩. ⁧יצחק⁩ tells ⁧הקדוש ברוך הוא⁩:⁧אף אני היה לי בן חוטא⁩ -
-  - normalized: was also given עשו. יצחק tells הקדוש ברוך הוא:אף אני היה לי בן חוטא -
-- Typst source, line 1755
-  - (⁦רש״י⁩#metadata(none) <person-index-rashi-129> ⁦ל״ב⁩:⁧ט׳⁩): \
-  - normalized: (רש״י#metadata(none) <person-index-rashi-129> ל״ב:ט׳): \
-- Typst source, line 2263
-  - sets up another momentous confrontation in ⁧פרשת ויגש⁩:⁧יהודה⁩ standing up
-  - normalized: sets up another momentous confrontation in פרשת ויגש:יהודה standing up
-- Typst source, line 3068
-  - ⁧ארבע מינים⁩:⁧לולב⁩⁦,⁩ ⁧אתרוג⁩⁦,⁩ ⁧הדסים⁩ and ⁧ערבות⁩. Three are kept together, the
-  - normalized: ארבע מינים:לולב, אתרוג, הדסים and ערבות. Three are kept together, the
-- Typst source, line 3119
-  - ⁦מנחות כ״ט ע״א⁩:⁧תנא דבי רבי ישמעאל שלשה דברים היו קשין לו למשה⁩ - There
-  - normalized: מנחות כ״ט ע״א:תנא דבי רבי ישמעאל שלשה דברים היו קשין לו למשה - There
-- Typst source, line 3247
-  - by the acronym ⁧פרדס⁩:⁧פשט⁩⁦,⁩ ⁧דרש⁩⁦,⁩ ⁧רמז⁩⁦,⁩ and ⁧סוד⁩. ⁧פשט⁩ is the ⁧פשוט פשט⁩⁦,⁩ and
-  - normalized: by the acronym פרדס:פשט, דרש, רמז, and סוד. פשט is the פשוט פשט, and
-- Typst source, line 3337
-  - approach to ⁧מלחמה⁩:⁧ה׳ יִלָּחֵם לָכֶם, ה׳ אִישׁ מִלְחָמָה⁩. ⁧כלל ישראל⁩ are not natural
-  - normalized: approach to מלחמה:ה׳ יִלָּחֵם לָכֶם, ה׳ אִישׁ מִלְחָמָה. כלל ישראל are not natural
 - Typst source, line 3627
   - כ״א:ל״ז)⁩: ⁧כִּי יִגְנֹב אִישׁ שׁוֹר אוֹ שֶׂה וּטְבָחוֹ אוֹ מְכָרוֹ חֲמִשָּׁה בָקָר י...
   - normalized: כ״א:ל״ז): כִּי יִגְנֹב אִישׁ שׁוֹר אוֹ שֶׂה וּטְבָחוֹ אוֹ מְכָרוֹ חֲמִשָּׁה בָקָר יְש...
-- Typst source, line 3920
-  - ⁦מסכת מנחות כ״ט ע״א⁩:⁧תנא דבי רבי ישמעאל שלשה דברים היו קשין לו למשה⁩ - There were three things that...
-  - normalized: מסכת מנחות כ״ט ע״א:תנא דבי רבי ישמעאל שלשה דברים היו קשין לו למשה - There were three things that משה...
-- Typst source, line 3950
-  - ⁧בית המקדש⁩⁦,⁩ a ⁧יסוד גדול לחינוך התינוקות⁩:⁧שאין הבנים גדלים בתורה וביראת שמים מאליהם⁩ - The kids can't grow up by the...
-  - normalized: בית המקדש, a יסוד גדול לחינוך התינוקות:שאין הבנים גדלים בתורה וביראת שמים מאליהם - The kids can't grow up by themselves....
-- Typst source, line 3964
-  - locale know as ⁧שיטים⁩:⁧שהשתה בהם מתעורר לזנות⁩ - There was a water source
-  - normalized: locale know as שיטים:שהשתה בהם מתעורר לזנות - There was a water source
 - Typst source, line 4023
   - כ״ט:ל״ט)⁩ referring to the ⁧קרבן תמיד⁩.
   - normalized: כ״ט:ל״ט) referring to the קרבן תמיד.
-- Typst source, line 4101
-  - the message of the ⁧פרשה⁩:⁦משה רבינו'⁩s name is not there, but his presence
-  - normalized: the message of the פרשה:משה רבינו's name is not there, but his presence
-- Typst source, line 4118
-  - The ⁧פרשה⁩ begins with ⁧וְאַתָּה תְּצַוֶּה⁩. There is a (⁧מדרש תנחומא⁩ (⁧תצוה ה׳⁩:⁧ה׳⁩ on
-  - normalized: The פרשה begins with וְאַתָּה תְּצַוֶּה. There is a (מדרש תנחומא (תצוה ה׳:ה׳ on
 - Typst source, line 4288
   - ל״ד:ל״ג)⁩: ⁧וַיִּתֵּן עַל פָּנָיו מַסְוֶה⁩ - When ⁧משה רבינו⁩ spoke to the people, th...
   - normalized: ל״ד:ל״ג): וַיִּתֵּן עַל פָּנָיו מַסְוֶה - When משה רבינו spoke to the people, they
-- Typst source, line 4354
-  - different - ⁧ישראל⁩ are ⁧מקדשים את הזמנים⁩. And here comes his bomb ⁧חידוש⁩:⁧קדושה⁩ that comes through our ⁧מעשה⁩ never leaves. It stays with us
-  - normalized: different - ישראל are מקדשים את הזמנים. And here comes his bomb חידוש:קדושה that comes through our מעשה never leaves. It stays with us
-- Typst source, line 4450
-  - ...gathering of ⁧כלל ישראל⁩⁦?⁩ ⁦רש״י⁩#metadata(none) <person-index-rashi-350> says: ⁧ויקהל משה⁩:⁧למחרת יום הכיפורים⁩ - it was the 11th day of ⁧תשרי⁩⁦,⁩ the day after...
-  - normalized: ...ering of כלל ישראל? רש״י#metadata(none) <person-index-rashi-350> says: ויקהל משה:למחרת יום הכיפורים - it was the 11th day of תשרי, the day after יום כיפור. The
-- Typst source, line 4755
-  - ⁧פסוק⁩:⁧ויקרא אל משה⁩. Everybody knows about the little ⁧א⁩ in ⁧ויקרא⁩⁦,⁩ that
-  - normalized: פסוק:ויקרא אל משה. Everybody knows about the little א in ויקרא, that
-- Typst source, line 4865
-  - negative ⁧מצוות⁩. What is the ⁧רמז⁩ for this? The ⁧פסוק⁩ in ⁧שמות ג׳⁩:⁦ט״ו⁩
-  - normalized: negative מצוות. What is the רמז for this? The פסוק in שמות ג׳:ט״ו
-- Typst source, line 4876
-  - ⁧הקדוש ברוך הוא⁩ Himself, as the ⁧פסוק⁩ in ⁦דברים ל״ב⁩:⁧ט׳⁩ states: ⁧כִּי חֵלֶק ה׳ עַמּוֹ⁩. That ⁧חלק⁩ - the portion of Hashem - i...
-  - normalized: הקדוש ברוך הוא Himself, as the פסוק in דברים ל״ב:ט׳ states: כִּי חֵלֶק ה׳ עַמּוֹ. That חלק - the portion of Hashem - is our נשמות....
-- Typst source, line 4898
-  - ⁧לבוש⁩⁦,⁩ a ⁧סכַך⁩⁦,⁩ for the ⁧נשמה⁩. The ⁧פסוק⁩ in ⁧איוב י׳⁩:⁦י״א⁩ describes this: ⁧עוֹר וּבָשָׂר תַּלְבִּישֵׁנִי וּבַעֲצָמוֹת ו...
-  - normalized: לבוש, a סכַך, for the נשמה. The פסוק in איוב י׳:י״א describes this: עוֹר וּבָשָׂר תַּלְבִּישֵׁנִי וּבַעֲצָמוֹת וְגִידִים תְּשֹׂכְ...
-- Typst source, line 5236
-  - strong ⁧לשון⁩:⁧מי שכופר בקל וחומר או דרוש אחד מן החכמים, כופר בתורת משה⁩ - Not only is it ⁧כפ...
-  - normalized: strong לשון:מי שכופר בקל וחומר או דרוש אחד מן החכמים, כופר בתורת משה - Not only is it כפירה t...
-- Typst source, line 5272
-  - to ⁧ארץ⁩:⁧אברהם⁩⁦,⁩ ⁧יצחק⁩⁦,⁩ ⁧יעקב⁩⁦,⁩ ⁧לוי⁩⁦,⁩ ⁧קהת⁩⁦,⁩ ⁧עמרם⁩⁦,⁩ and ⁧משה⁩. When the...
-  - normalized: to ארץ:אברהם, יצחק, יעקב, לוי, קהת, עמרם, and משה. When the משכן was
-- Typst source, line 5275
-  - why it says: (⁧וְעָשׂוּ לִי מִקְדָּשׁ וְשָׁכַנְתִּי בְּתוֹכָם⁩ (⁦שמות כ״ה⁩:⁧ח׳⁩. This teaches us
-  - normalized: why it says: (וְעָשׂוּ לִי מִקְדָּשׁ וְשָׁכַנְתִּי בְּתוֹכָם (שמות כ״ה:ח׳. This teaches us
-- Typst source, line 6108
-  - outcome of his actions. This is brought down in ⁧פרקי אבות⁩:⁧חכמים הזהרו בדבריכם⁩ - Think carefully what you do. You should not be ⁧מבזה⁩ o...
-  - normalized: outcome of his actions. This is brought down in פרקי אבות:חכמים הזהרו בדבריכם - Think carefully what you do. You should not be מבזה or make
-- Typst source, line 6829
-  - it. The ⁧פסוק⁩ says: (⁧וַיְהִי אֲנָשִׁים אֲשֶׁר הָיוּ טְמֵאִים לְנֶפֶשׁ אָדָם⁩ (⁧ט⁩:⁧ו⁩. For whatever
-  - normalized: it. The פסוק says: (וַיְהִי אֲנָשִׁים אֲשֶׁר הָיוּ טְמֵאִים לְנֶפֶשׁ אָדָם (ט:ו. For whatever
-- Typst source, line 6966
-  - three ⁧כתרים⁩:⁧כתר תורה⁩⁦,⁩ ⁧כתר כהונה⁩⁦,⁩ ⁧כתר מלכות⁩⁦,⁩ and ⁧כתר תורה עולה על כולם⁩.
-  - normalized: three כתרים:כתר תורה, כתר כהונה, כתר מלכות, and כתר תורה עולה על כולם.
 - Typst source, line 8130
   - א׳:ג׳)⁩: ⁧וַיְצַו אֶת שְׁלֹמֹה בְנוֹ לֵאמֹר אָנֹכִי הֹלֵךְ בְּדֶרֶךְ כׇּל הָאָרֶץ⁩ -...
   - normalized: א׳:ג׳): וַיְצַו אֶת שְׁלֹמֹה בְנוֹ לֵאמֹר אָנֹכִי הֹלֵךְ בְּדֶרֶךְ כׇּל הָאָרֶץ - I'...
@@ -426,57 +348,15 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
 - Typst source, line 8875
   - א׳:ב׳)⁩, and then it says ⁧אָנֹכִי אָנֹכִי הוּא מְנַחֶמְכֶם⁩ ⁦(ישעיהו נ״א:י״ב)⁩ late...
   - normalized: א׳:ב׳), and then it says אָנֹכִי אָנֹכִי הוּא מְנַחֶמְכֶם                  later on
-- Typst source, line 10372
-  - ...⁧שֵׁשׁ כְּנָפַיִם שֵׁשׁ כְּנָפַיִם לְאֶחָד⁩ - six wings, as is brought down in ⁧ישעיהו ו׳⁩:⁧ב׳⁩. However, there is another pasuk in ⁧יחזקאל א׳⁩:⁧ו׳⁩ which says ⁧ו...
-  - normalized: ...כְּנָפַיִם שֵׁשׁ כְּנָפַיִם לְאֶחָד - six wings, as is brought down in ישעיהו ו׳:ב׳. However, there is another pasuk in יחזקאל א׳:ו׳ which says וְאַרְבָּעָה פָנִי...
-- Typst source, line 10462
-  - ...hem accepted that ⁧קרבן⁩. ⁦רש״י⁩#metadata(none) <person-index-rashi-850> explains on that ⁧גמרא⁩:⁧שמפייסין אותו על דבר⁩ - we're able to calm
-  - normalized: ...ed that קרבן. רש״י#metadata(none) <person-index-rashi-850> explains on that גמרא:שמפייסין אותו על דבר - we're able to calm
-- Typst source, line 10476
-  - ...states: (⁧וּלְמַעַן תְּסַפֵּר בְּאׇזְנֵי בִנְךָ \... וִידַעְתֶּם כִּי אֲנִי ה׳⁩ (⁧שמות י׳⁩:⁧ב׳⁩. Through the ⁧מצוה⁩ of ⁧סיפור יציאת מצרים⁩⁦,⁩ we
-  - normalized: ...: (וּלְמַעַן תְּסַפֵּר בְּאׇזְנֵי בִנְךָ \... וִידַעְתֶּם כִּי אֲנִי ה׳ (שמות י׳:ב׳. Through the מצוה of סיפור יציאת מצרים, we
-- Typst source, line 10512
-  - say by ⁧שבועות⁩:⁧כאיש אחד בלב אחד⁩⁦,⁩ we can say the same by ⁧פסח⁩. They made a
-  - normalized: say by שבועות:כאיש אחד בלב אחד, we can say the same by פסח. They made a
-- Typst source, line 10718
-  - the essence of the story of ⁧פסח⁩:⁧הקדוש ברוך הוא⁩ is running the world -
-  - normalized: the essence of the story of פסח:הקדוש ברוך הוא is running the world -
-- Typst source, line 11100
-  - says in the pasuk, (⁧מִפִּי עוֹלְלִים וְיֹנְקִים יִסַּדְתָּ עֹז⁩ (⁧תהילים ח׳⁩:⁧ג׳⁩. It was only
-  - normalized: says in the pasuk, (מִפִּי עוֹלְלִים וְיֹנְקִים יִסַּדְתָּ עֹז (תהילים ח׳:ג׳. It was only
 - Typst source, line 11115
   - א:נ״ו)⁩ that at ⁧הר סיני⁩⁦,⁩ ⁧כלל ישראל⁩ was sleeping. They went to sleep that
   - normalized: א:נ״ו) that at הר סיני, כלל ישראל was sleeping. They went to sleep that
-- Typst source, line 11170
-  - (⁧מלכים א⁩ (⁧ה⁩:⁦י״ב⁩, describing the vastness of ⁦שלמה המלך'⁩s wisdom. The ⁧נביא⁩
-  - normalized: (מלכים א (ה:י״ב, describing the vastness of שלמה המלך's wisdom. The נביא
 - Typst source, line 11607
   - כ״ז:ד׳)⁩⁩. What does ⁧דוד המלך⁩ mean by ⁧כׇּל יְמֵי חַיַּי⁩⁦?⁩
   - normalized: כ״ז:ד׳). What does דוד המלך mean by כׇּל יְמֵי חַיַּי?
-- Typst source, line 13298
-  - due, (⁧הָאוֹמֵר דָּבָר בְּשֵׁם אוֹמְרוֹ מֵבִיא גְאֻלָּה לָעוֹלָם⁩ (⁧אבות ו⁩:⁧ו⁩. So I wanted to
-  - normalized: due, (הָאוֹמֵר דָּבָר בְּשֵׁם אוֹמְרוֹ מֵבִיא גְאֻלָּה לָעוֹלָם (אבות ו:ו. So I wanted to
-- Typst source, line 13303
-  - to ⁧פורים⁩. And it's interesting how he says it. ⁧פורים⁩:⁧פ⁩ is ⁧פסח⁩⁦,⁩ ⁧ו⁩ is
-  - normalized: to פורים. And it's interesting how he says it. פורים:פ is פסח, ו is
 - Typst source, line 13571
   - does this connection mean? He brings a ⁧פסוק⁩ from ⁦שמות ד:י״ד⁩: ⁧וְרָאֲךָ וְשָׂמַח בְּלִבּוֹ⁩. What is ⁦אהרן'⁩s ⁧מידה⁩? We all know abou...
   - normalized: does this connection mean? He brings a פסוק from שמות ד:י״ד: וְרָאֲךָ וְשָׂמַח בְּלִבּוֹ. What is אהרן's מידה? We all know about...
-- Typst source, line 13606
-  - ...index-pirkei-drabi-eliezer-1083> describes how on ⁧יום כיפור⁩⁦,⁩ ⁧הקדוש ברוך הוא⁩ tells the ⁧מלאכים⁩:⁧אומה טובה יש לך בארץ⁩ - "I have a wonderful nation down ther...
-  - normalized: ...-drabi-eliezer-1083> describes how on יום כיפור, הקדוש ברוך הוא tells the מלאכים:אומה טובה יש לך בארץ - "I have a wonderful nation down there in עולם הזה. They do...
-- Typst source, line 13852
-  - therefore says the ⁦מהר״ל⁩:⁧מזמור שיר ליום השבת, יום שכולו שבת, לעולם הבא⁩ - Then ⁧באמת⁩⁦,⁩ we will unders...
-  - normalized: therefore says the מהר״ל:מזמור שיר ליום השבת, יום שכולו שבת, לעולם הבא - Then באמת, we will understand, an...
-- Typst source, line 14037
-  - time. Says ⁧ר׳ צדוק⁩:⁧ושמעתי מהרבינו הקדוש זכר צדיק וקדוש לברכה לחיי העולם הבא⁩ - This is the Rebbi...
-  - normalized: time. Says ר׳ צדוק:ושמעתי מהרבינו הקדוש זכר צדיק וקדוש לברכה לחיי העולם הבא - This is the Rebbi of ר...
-- Typst source, line 14053
-  - ...stand, how can we see, how can we find any good hidden in ⁧גלות מצרים⁩⁦?⁩ Says ⁧ר׳ צדוק⁩:⁧וכן⁩ ⁦בגלות מצרים הראה לו השי״ת⁩ ⁧איך כל שלות המצריים להאבידם היה לטובה⁩...
-  - normalized: ...and, how can we see, how can we find any good hidden in גלות מצרים? Says ר׳ צדוק:וכן בגלות מצרים הראה לו השי״ת איך כל שלות המצריים להאבידם היה לטובה - That all of...
-- Typst source, line 14059
-  - able to remove the sparks of ⁧קדושה⁩ says ⁧ר׳ צדוק⁩:⁧ובגלות הוציאו הניצוצות קדושות מהם⁩ - As you know that when the Yidden were i...
-  - normalized: able to remove the sparks of קדושה says ר׳ צדוק:ובגלות הוציאו הניצוצות קדושות מהם - As you know that when the Yidden were in מצרי...
 ## MEDIUM - space before sentence punctuation
 
 - PDF visual text, page 2, ר׳ יששכר בנימין ,  I’m here with your      אייניקל Ari, who is being    מקיים כיבוד, line 15
