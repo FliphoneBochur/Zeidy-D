@@ -166,6 +166,14 @@ test("audit flags source space on both sides of colon", () => {
   assert.equal(auditMatches("(12:2):⁧הַחֹדֶשׁ", pattern, "Typst source"), false);
 });
 
+test("audit flags source space on both sides of semicolon", () => {
+  const pattern = auditPattern(TYP_PATTERNS, "space on both sides of semicolon in Typst source");
+
+  assert.equal(auditMatches("⁧השם אחד⁩ \\; ⁧רחמים⁩", pattern, "Typst source"), true);
+  assert.equal(auditMatches("⁧השם אחד; רחמים⁩", pattern, "Typst source"), false);
+  assert.equal(auditMatches("אריז״ל\\;#metadata(none) <person-index-1> it's not", pattern, "Typst source"), false);
+});
+
 test("audit flags missing source space after colon before Hebrew isolate", () => {
   const pattern = auditPattern(TYP_PATTERNS, "missing space after colon before Hebrew in Typst source");
 
@@ -426,6 +434,13 @@ test("keeps Hebrew quote after numeric source in one RTL run", () => {
   assert.equal(
     applyTextRules("as follows (14:31): וַיַּרְא יִשְׂרָאֵל אֶת הַיָּד הַגְּדֹלָה אֲשֶׁר עָשָׂה ה׳ בְּמִצְרַיִם וַיִּירְאוּ הָעָם אֶת ה׳ וַיַּאֲמִינוּ בַּה׳ וּבְמֹשֶׁה עַבְדּוֹ."),
     `as follows (14:31): ${RTL_ISOLATE}וַיַּרְא יִשְׂרָאֵל אֶת הַיָּד הַגְּדֹלָה אֲשֶׁר עָשָׂה ה׳ בְּמִצְרַיִם וַיִּירְאוּ הָעָם אֶת ה׳ וַיַּאֲמִינוּ בַּה׳ וּבְמֹשֶׁה עַבְדּוֹ${POP_DIRECTIONAL_ISOLATE}.`
+  );
+});
+
+test("keeps semicolon between Hebrew phrases in one RTL run", () => {
+  assert.equal(
+    applyTextRules("Hashem of השם אחד \\; רחמים - רחמים and דין is one"),
+    `Hashem of ${RTL_ISOLATE}השם אחד; רחמים${POP_DIRECTIONAL_ISOLATE} - ${RTL_ISOLATE}רחמים${POP_DIRECTIONAL_ISOLATE} and ${RTL_ISOLATE}דין${POP_DIRECTIONAL_ISOLATE} is one`
   );
 });
 
@@ -1102,9 +1117,10 @@ test("docx: Bereshis 5786 keeps mid-Hebrew commas attached before spaces", () =>
 
   assertContains(
     typst,
-    `${RTL_ISOLATE}אֲבָל הַקָּדוֹשׁ בָּרוּךְ הוּא שֶׁהוּא יוֹדֵעַ רְגָעָיו וְעִתָּיו וּשְׁעוֹתָיו, נִכְנַס בּוֹ כְּחוּט הַשַּׂעֲרָה${POP_DIRECTIONAL_ISOLATE}`,
+    `שְׁעוֹתָיו, נִכְנַס בּוֹ כְּחוּט הַשַּׂעֲרָה${POP_DIRECTIONAL_ISOLATE}`,
     "comma-space inside Hebrew phrase"
   );
+  assertNotContains(typst, `שְׁעוֹתָיו${POP_DIRECTIONAL_ISOLATE}, ${RTL_ISOLATE}נִכְנַס`, "comma outside split Hebrew phrase");
   assertNotContains(typst, "שְׁעוֹתָיו ,נִכְנַס", "space-before-comma inside Hebrew phrase");
 });
 
@@ -1118,6 +1134,32 @@ test("docx: Naso 5784 repairs nested Tehillim source parenthesis", () => {
   );
   assertNotContains(typst, "(⁧תהילים⁩ (", "nested Tehillim source parenthesis");
   assertNotContains(typst, "(תהילים (", "raw nested Tehillim source parenthesis");
+});
+
+test("docx: 9 Av 5785 keeps semicolon inside Hebrew phrase", () => {
+  const typst = convertedDocx("/9-av/5785/");
+
+  assertContains(
+    typst,
+    `Hashem of ${RTL_ISOLATE}רחמים; השם אחד${POP_DIRECTIONAL_ISOLATE} -\n${RTL_ISOLATE}רחמים${POP_DIRECTIONAL_ISOLATE} and ${RTL_ISOLATE}דין${POP_DIRECTIONAL_ISOLATE} is one`,
+    "semicolon inside 9 Av Hebrew phrase"
+  );
+  assertNotContains(typst, `${RTL_ISOLATE}רחמים${POP_DIRECTIONAL_ISOLATE} \\; ${RTL_ISOLATE}השם אחד${POP_DIRECTIONAL_ISOLATE}`, "split 9 Av semicolon phrase");
+});
+
+test("docx: Shmini Atzeres 5784 keeps semicolon inside Hebrew phrase", () => {
+  const typst = convertedDocx("/shmini-atzeres/5784/");
+
+  assertContains(
+    typst,
+    `does their ${RTL_ISOLATE}רצון; וְאֶת שַׁוְעָתָם יִשְׁמַע וְיוֹשִׁיעֵם${POP_DIRECTIONAL_ISOLATE} - Hashem hears`,
+    "semicolon inside Shmini Atzeres Hebrew phrase"
+  );
+  assertNotContains(
+    typst,
+    `${RTL_ISOLATE}רצון${POP_DIRECTIONAL_ISOLATE} \\; ${RTL_ISOLATE}וְאֶת שַׁוְעָתָם`,
+    "split Shmini Atzeres semicolon phrase"
+  );
 });
 
 test("docx: Vayairah 5784 keeps colon Hebrew quote break tight", () => {

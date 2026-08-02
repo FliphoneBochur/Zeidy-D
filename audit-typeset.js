@@ -93,6 +93,11 @@ const TYP_PATTERNS = [
   },
   {
     severity: "medium",
+    label: "space on both sides of semicolon in Typst source",
+    re: /\S\s+\\?;\s+\S/u,
+  },
+  {
+    severity: "medium",
     label: "missing space after colon before Hebrew in Typst source",
     normalizer: "ignore-parenthesized-sources",
     re: new RegExp(`:[${HEBREW}]`, "u"),

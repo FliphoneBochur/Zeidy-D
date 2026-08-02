@@ -87,6 +87,10 @@ const HEBREW_QUESTION_PHRASE_RE = new RegExp(
   `${HEBREW_TOKEN}(?:[\\s,]+${HEBREW_TOKEN}){1,80}\\?`,
   "gu"
 );
+const HEBREW_SEMICOLON_PHRASE_RE = new RegExp(
+  `${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN})*\\s*\\\\;\\s*${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN})*(?:,\\s*${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN})*){0,8},?`,
+  "gu"
+);
 const HEBREW_HYPHENATED_TOKEN_RE = new RegExp(
   `${HEBREW_TOKEN}(?:-${HEBREW_TOKEN})+(?:\\s+${HEBREW_TOKEN})*`,
   "gu"
@@ -963,7 +967,11 @@ function isolateHebrewRuns(typstContent) {
     return protect(`${RTL_ISOLATE}${phrase}${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE}?${POP_DIRECTIONAL_ISOLATE}`);
   });
 
-  const referenceSafeContent = hebrewQuestionSafeContent.replace(HEBREW_PAREN_REFERENCE_RE, (match) => {
+  const hebrewSemicolonSafeContent = hebrewQuestionSafeContent.replace(HEBREW_SEMICOLON_PHRASE_RE, (match) => {
+    return protect(`${RTL_ISOLATE}${normalizeInlineWhitespace(match).replace(/\s*\\;\s*/g, "; ")}${POP_DIRECTIONAL_ISOLATE}`);
+  });
+
+  const referenceSafeContent = hebrewSemicolonSafeContent.replace(HEBREW_PAREN_REFERENCE_RE, (match) => {
     return protect(`${LTR_ISOLATE}${match}${POP_DIRECTIONAL_ISOLATE}`);
   });
 
