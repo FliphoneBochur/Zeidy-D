@@ -14342,21 +14342,31 @@ in fact ⁧צדיק כתמר יפרח להגד כי ישר ה' צורי ולא �
   items.join[, ]
 }
 
-#let index-name-lines(lines) = lines.map(line => [#line]).join(linebreak())
+#let index-prefix-row(name-line) = grid(
+  columns: (auto, 1fr, 2.15in),
+  gutter: 0.04in,
+  align: top,
+  [#name-line],
+  [],
+  [],
+)
 
-#let index-row(name-lines, labels) = block(width: 100%, below: 2pt)[
-  #if name-lines.len() > 1 {
-    index-name-lines(name-lines.slice(0, name-lines.len() - 1))
-  }
-  #let last-name-line = name-lines.at(name-lines.len() - 1)
-  #grid(
+#let index-final-row(name-line, labels) = grid(
     columns: (auto, 1fr, 2.15in),
     gutter: 0.04in,
     align: top,
-    [#last-name-line],
+    [#name-line],
     text(fill: rgb("#777777"))[#repeat[.]],
     box(width: 2.15in)[#index-pages(labels)],
-  )
+)
+
+#let index-row(name-lines, labels) = block(width: 100%, below: 2pt)[
+  #let rows = ()
+  #for name-line in name-lines.slice(0, name-lines.len() - 1) {
+    rows.push(index-prefix-row(name-line))
+  }
+  #rows.push(index-final-row(name-lines.at(name-lines.len() - 1), labels))
+  #stack(dir: ttb, spacing: 0.30em, ..rows)
 ]
 
 #index-row(("A Short Vort",), (label("person-index-a-short-vort-640"), label("person-index-a-short-vort-727"), label("person-index-a-short-vort-765"), label("person-index-a-short-vort-973"), label("person-index-a-short-vort-995"), label("person-index-a-short-vort-1027"), label("person-index-a-short-vort-1039")))

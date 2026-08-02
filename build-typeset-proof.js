@@ -525,9 +525,9 @@ function sortIndexDisplayName(value) {
   return normalizeIndexKey(value);
 }
 
-function wrapIndexDisplayName(value) {
+function wrapIndexDisplayName(value, maxLineLength = 34) {
   const chars = Array.from(value);
-  if (chars.length <= 48) {
+  if (chars.length <= maxLineLength) {
     return [value];
   }
 
@@ -539,7 +539,7 @@ function wrapIndexDisplayName(value) {
     if (Array.from(beforeParen).length <= 34) {
       return [
         beforeParen,
-        ...wrapIndexDisplayName(parenthetical),
+        ...wrapIndexDisplayName(parenthetical, 34),
       ];
     }
   }
@@ -550,7 +550,7 @@ function wrapIndexDisplayName(value) {
 
   for (const word of words) {
     const next = current ? `${current} ${word}` : word;
-    if (current && Array.from(next).length > 34) {
+    if (current && Array.from(next).length > maxLineLength) {
       lines.push(current);
       current = word;
     } else {
@@ -1193,21 +1193,31 @@ function renderPersonIndex(indexState) {
   items.join[, ]
 }
 
-#let index-name-lines(lines) = lines.map(line => [#line]).join(linebreak())
+#let index-prefix-row(name-line) = grid(
+  columns: (auto, 1fr, 2.15in),
+  gutter: 0.04in,
+  align: top,
+  [#name-line],
+  [],
+  [],
+)
 
-#let index-row(name-lines, labels) = block(width: 100%, below: 2pt)[
-  #if name-lines.len() > 1 {
-    index-name-lines(name-lines.slice(0, name-lines.len() - 1))
-  }
-  #let last-name-line = name-lines.at(name-lines.len() - 1)
-  #grid(
+#let index-final-row(name-line, labels) = grid(
     columns: (auto, 1fr, 2.15in),
     gutter: 0.04in,
     align: top,
-    [#last-name-line],
+    [#name-line],
     text(fill: rgb("#777777"))[#repeat[.]],
     box(width: 2.15in)[#index-pages(labels)],
-  )
+)
+
+#let index-row(name-lines, labels) = block(width: 100%, below: 2pt)[
+  #let rows = ()
+  #for name-line in name-lines.slice(0, name-lines.len() - 1) {
+    rows.push(index-prefix-row(name-line))
+  }
+  #rows.push(index-final-row(name-lines.at(name-lines.len() - 1), labels))
+  #stack(dir: ttb, spacing: 0.30em, ..rows)
 ]
 `,
   ];
@@ -1437,8 +1447,10 @@ module.exports = {
   normalizeNumberedSoftBreaks,
   normalizePunctuationSpacing,
   repairEscapedHebrewParagraphCitations,
+  renderPersonIndex,
   shiftedParagraphAlignments,
   tagPersonIndexMentions,
   tightenHaskamaSignatureBlock,
   stripDuplicateTitle,
+  wrapIndexDisplayName,
 };

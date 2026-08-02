@@ -22,10 +22,12 @@ const {
   normalizeNumberedSoftBreaks,
   normalizePunctuationSpacing,
   repairEscapedHebrewParagraphCitations,
+  renderPersonIndex,
   shiftedParagraphAlignments,
   tagPersonIndexMentions,
   tightenHaskamaSignatureBlock,
   stripDuplicateTitle,
+  wrapIndexDisplayName,
 } = require("./build-typeset-proof");
 
 const LTR_ISOLATE = "\u2066";
@@ -1146,5 +1148,52 @@ test("docx: Shemos 5783 right-aligns full Hebrew paragraph", () => {
     typst,
     `${RTL_ISOLATE}וַיֶּפֶר אֶת עַמּוֹ מְאֹד וַיַּעֲצִמֵהוּ מִצָּרָיו׃ הָפַךְ לִבָּם לִשְׂנֹא עַמּוֹ לְהִתְנַכֵּל בַּעֲבָדָיו׃ שָׁלַח מֹשֶׁה עַבְדּוֹ אַהֲרֹן אֲשֶׁר בָּחַר בּוֹ׃${POP_DIRECTIONAL_ISOLATE}]\n\nThe entire`,
     "Hebrew quote split before following English paragraph"
+  );
+});
+
+test("person index keeps wrapped names tight above the dotted row", () => {
+  const typst = renderPersonIndex({
+    people: [
+      {
+        id: "shiniver-rebbe",
+        displayName: "Shiniver Rebbe (R' Yechezkel Shraga)",
+      },
+    ],
+    mentions: new Map([["shiniver-rebbe", ["person-index-shiniver-rebbe-1"]]]),
+  });
+
+  assertContains(
+    typst,
+    `stack(dir: ttb, spacing: 0pt, ..rows)`,
+    "wrapped index name rows are stacked tightly"
+  );
+  assertContains(
+    typst,
+    `#let index-final-row(name-line, labels) = grid(`,
+    "final wrapped index name line is the dotted row"
+  );
+  assertNotContains(
+    typst,
+    `align: bottom,\n    [#index-name-lines(name-lines)],`,
+    "wrapped index name should not bottom-align the entire name against all page numbers"
+  );
+  assertNotContains(typst, "linebreak()", "index rows should not use paragraph-style line breaks");
+});
+
+test("person index pre-wraps long parenthetical aliases before the dotted row", () => {
+  assert.deepEqual(
+    wrapIndexDisplayName("Gerrer Rebbe (R' Avraham Mordechai, The Chidushi HaRim)"),
+    [
+      "Gerrer Rebbe",
+      "(R' Avraham Mordechai, The",
+      "Chidushi HaRim)",
+    ]
+  );
+  assert.deepEqual(
+    wrapIndexDisplayName("Alter of Slabodka (R' Nosson Tzvi Finkel)"),
+    [
+      "Alter of Slabodka",
+      "(R' Nosson Tzvi Finkel)",
+    ]
   );
 });

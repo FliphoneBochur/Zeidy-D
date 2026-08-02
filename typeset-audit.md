@@ -4,7 +4,7 @@ This is a review-only scan for likely visual punctuation and bidi issues in the 
 
 PDF scanned: `Files/08 - Misc/Final Sefer/Final Sefer.pdf`
 Typst scanned: `Files/08 - Misc/Final Sefer/Final Sefer.typ`
-Findings: 158 (8 high, 150 medium)
+Findings: 159 (8 high, 151 medium)
 Visual pages rendered: `typeset-audit-pages`
 
 The PDF scan uses extracted visual text, so it is useful for catching rendered punctuation surprises. The Typst scan catches raw source patterns before rendering.
@@ -43,6 +43,11 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - visual: [page-0461.png](typeset-audit-pages/page-0461.png)
   - ,‫ ⁩אגב⁧( ⁩מנחה‬I did not mention this in the shiur on ⁧‫)⁩שבת‬, and therefore when...
   - normalized: , אגב( מנחהI did not mention this in the shiur on )שבת, and therefore when he
+## MEDIUM - broken thousands separator
+
+- PDF visual text, page 468, R' Tzvi Hirsch HaKohen of Rimanov, line 29
+  - visual: [page-0468.png](typeset-audit-pages/page-0468.png)
+  - (Lutzker Rav, The Oznayim LaTorah) . 11, 20, 96, 101, 116, 145, 151,
 ## MEDIUM - dash glued to Hebrew before English
 
 - PDF visual text, page 5, The title of this sefer,   הדבר בי ,  drawn from the     נבואה of   זכריה הנביא ,  referring, line 3
