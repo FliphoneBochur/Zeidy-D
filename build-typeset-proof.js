@@ -889,7 +889,10 @@ function isolateHebrewRuns(typstContent) {
   const normalizeInlineWhitespace = (value) =>
     value.replace(/[ \t\u00A0\u202F]*\n[ \t\u00A0\u202F]*/g, " ");
   const followedByEnglish = (fullText, endOffset) => {
-    return /^[ \t\u00A0\u202F]+[A-Za-z]/.test(fullText.slice(endOffset));
+    const following = fullText
+      .slice(endOffset)
+      .replace(/^(?:[ \t\u00A0\u202F]+|#metadata\(none\)\s*<[^>\n]+>)*/g, "");
+    return /^[A-Za-z]/.test(following);
   };
   const isolateHebrewPhrase = (value, useLtrTrailingComma = false) => {
     const normalizedValue = normalizeInlineWhitespace(value);
@@ -916,7 +919,7 @@ function isolateHebrewRuns(typstContent) {
       .filter(Boolean);
 
     if (parts.length === 1 && hasTrailingComma) {
-      return `${LTR_ISOLATE}${normalizedValue}${POP_DIRECTIONAL_ISOLATE}`;
+      return `${RTL_ISOLATE}${parts[0]}${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE}`;
     }
 
     return parts

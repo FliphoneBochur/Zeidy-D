@@ -476,6 +476,13 @@ test("keeps single Hebrew phrase with trailing comma together before English", (
   );
 });
 
+test("keeps comma after Hebrew phrase before index marker and English", () => {
+  assert.equal(
+    applyTextRules("According to the אוצר פלאות התורה, #metadata(none) <person-index-1> who bentchs"),
+    `According to the ${RTL_ISOLATE}אוצר פלאות התורה${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} #metadata(none) <person-index-1> who bentchs`
+  );
+});
+
 test("keeps pure Hebrew comma list visually spaced inside RTL run", () => {
   assert.equal(
     applyTextRules("What qualities contribute to a מצוה? אהבה, זריזות, יראה, כוונה - these aspects"),
@@ -818,6 +825,17 @@ test("docx: Vayigash 5785 keeps comma after R' Shlomo Ganzfried", () => {
     `from ${RTL_ISOLATE}רב שלמה גאנצפריד${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} the famous author`,
     "comma after R' Shlomo Ganzfried"
   );
+});
+
+test("docx: Vayairah 5786 keeps comma after Otzer Pla'os HaTorah before who", () => {
+  const typst = convertedDocx("/vayairah/5786/(2)/");
+
+  assertContains(
+    typst,
+    `According to the ${RTL_ISOLATE}אוצר פלאות התורה${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} who bentchs`,
+    "comma after Otzer Pla'os HaTorah"
+  );
+  assertNotContains(typst, `${RTL_ISOLATE}אוצר פלאות התורה,${POP_DIRECTIONAL_ISOLATE}`, "comma inside Otzer Pla'os HaTorah isolate");
 });
 
 test("docx: Rosh Hashana 5785 keeps closing quotes before said attribution", () => {

@@ -4,33 +4,13 @@ This is a review-only scan for likely visual punctuation and bidi issues in the 
 
 PDF scanned: `Files/08 - Misc/Final Sefer/Final Sefer.pdf`
 Typst scanned: `Files/08 - Misc/Final Sefer/Final Sefer.typ`
-Findings: 178 (28 high, 150 medium)
+Findings: 162 (12 high, 150 medium)
 Visual pages rendered: `typeset-audit-pages`
 
 The PDF scan uses extracted visual text, so it is useful for catching rendered punctuation surprises. The Typst scan catches raw source patterns before rendering.
 
 ## HIGH - leading punctuation before Hebrew
 
-- PDF visual text, page 42, Vayairah 5786 (2), line 18
-  - visual: [page-0042.png](typeset-audit-pages/page-0042.png)
-  - Now, listen to this. According to the ⁧ ,‫ ⁩אוצר פלאות התורה‬who bentchs ⁧ ‫ ⁩גומל‬
-  - normalized: Now, listen to this. According to the  , אוצר פלאות התורהwho bentchs   גומל
-- PDF visual text, page 68, Vayaishev 5783, line 21
-  - visual: [page-0068.png](typeset-audit-pages/page-0068.png)
-  - ,‫ ⁩הלוי‬the twelve ⁧‫ ⁩מזלות‬hinted at here represent the ⁧‫ֵסֶד ר ַהְנַהַגת ָהעֹו...
-  - normalized: , הלויthe twelve  מזלותhinted at here represent the ֵסֶד ר ַהְנַהַגת ָהעֹוָלם, the...
-- PDF visual text, page 84, Vayigash 5785, line 15
-  - visual: [page-0084.png](typeset-audit-pages/page-0084.png)
-  - ,‫ ⁩רב שלמה גאנצפריד‬the famous author of the ⁧‫ )⁩קיצור שולחן ערוך‬and one from
-  - normalized: , רב שלמה גאנצפרידthe famous author of the  )קיצור שולחן ערוךand one from
-- PDF visual text, page 88, R’ Yoshe Ber offers a beautiful      משל to illustrate this idea. “An old rebbi, line 15
-  - visual: [page-0088.png](typeset-audit-pages/page-0088.png)
-  - another figure enters - the ⁦‫⁩ש״ך‬, followed by ⁧ ,‫ רש״י‬,‫ ⁩רבינו תם‬the ⁦‫⁩רמב״ם‬, the
-  - normalized: another figure enters - the ש״ך, followed by  , רש״י, רבינו תםthe רמב״ם, the
-- PDF visual text, page 96, Shemos 5785, line 7
-  - visual: [page-0096.png](typeset-audit-pages/page-0096.png)
-  - about the word ⁧ ‫⁩שמות‬. The ⁧ ,‫ ⁩בעל הטורים‬in many editions (though not all),
-  - normalized: about the word  שמות. The  , בעל הטוריםin many editions (though not all),
 - PDF visual text, page 96, Shemos 5785, line 26
   - visual: [page-0096.png](typeset-audit-pages/page-0096.png)
   - influencing a parent’s choice of a name is from the ⁦‫ ; אריז״ל‬it’s not ⁧‫סתם אזוי ַא‬
@@ -43,74 +23,30 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - visual: [page-0110.png](typeset-audit-pages/page-0110.png)
   - The ⁧ ‫( ⁩מדרש רבה‬23:3), as quoted by the ⁧ ,‫ ⁩בית הלוי‬notes: ⁧ ‫אמר משה באז חטאתי‬
   - normalized: The  ( מדרש רבה23:3), as quoted by the  , בית הלויnotes:  אמר משה באז חטאתי
-- PDF visual text, page 115, Yisro 5784, line 19
-  - visual: [page-0115.png](typeset-audit-pages/page-0115.png)
-  - of ⁧‫ ⁩הקדוש ברוך הוא‬and the spiritual heights reached by ⁧‫ ⁩גדולים‬like ⁧,‫ רש״י‬,‫משה‬
-  - normalized: of  הקדוש ברוך הואand the spiritual heights reached by  גדוליםlike , רש״ימ,שה
 - PDF visual text, page 124, Mishpatim 5785, line 14
   - visual: [page-0124.png](typeset-audit-pages/page-0124.png)
   - I thought it would be worthwhile to share it. The ⁧‫ ⁩אפיריון‬says ⁧,‫ ⁩לפי עניות דעתי‬
   - normalized: I thought it would be worthwhile to share it. The  אפיריוןsays , לפי עניות דעתי
-- PDF visual text, page 143, Ki Sisa 5784, line 22
-  - visual: [page-0143.png](typeset-audit-pages/page-0143.png)
-  - There is an interesting discussion in ⁧‫תוספות‬,⁩ brought down by the ⁧,‫ ⁩שפת אמת‬
-  - normalized: There is an interesting discussion in תוספות, brought down by the , שפת אמת
-- PDF visual text, page 149, Vayakel 5785, line 17
-  - visual: [page-0149.png](typeset-audit-pages/page-0149.png)
-  - R’ Reuven Grozovsky, brought down in the ⁧ ,‫ ⁩ספר פנינים משלחן גבוה‬was a
-  - normalized: R’ Reuven Grozovsky, brought down in the  , ספר פנינים משלחן גבוהwas a
 - PDF visual text, page 150, opportunity - an opportunity to refine themselves, to give of themselves, to, line 27
   - visual: [page-0150.png](typeset-audit-pages/page-0150.png)
   - ‫ ⁩תוספות‬says. You can look it up. ⁧‫ ⁩תוספות‬says this in ⁧,‫ ד״ה ועל⁦ ⁩שבועות‬,‫דף ג ע״א‬
   - normalized: תוספותsays. You can look it up.  תוספותsays this in , ד״ה ועל שבועותד,ף ג ע״א
-- PDF visual text, page 157, Vayikra 5783, line 17
-  - visual: [page-0157.png](typeset-audit-pages/page-0157.png)
-  - ‫ ⁩פסוק א׳‬continues ⁧ ‫⁩ַוְיַד ֵּבר ה׳ ֵאָליו ֵמ ֹאֶהל מֹוֵעד ֵלאֹמר‬. The ⁧ ,‫ ⁩אזנים לתורה‬the ⁧ ‫ ⁩הייליגא‬
-  - normalized: פסוק א׳continues  ַוְיַד ֵּבר ה׳ ֵאָליו ֵמ ֹאֶהל מֹוֵעד ֵלאֹמר. The  , אזנים לתורהthe   הייליגא
-- PDF visual text, page 161, Now, all of the     נשמות from the beginning of time until     משיח comes - all of, line 21
-  - visual: [page-0161.png](typeset-audit-pages/page-0161.png)
-  - of ⁧‫⁩תורה‬. There is a vast amount of discussion, especially from the ⁧,‫ ⁩בית הלוי‬
-  - normalized: of תורה. There is a vast amount of discussion, especially from the , בית הלוי
 - PDF visual text, page 197, Emor 5784, line 11
   - visual: [page-0197.png](typeset-audit-pages/page-0197.png)
   - hardly fathom.) ⁧,‫ ַאל ִּת ְהיּו ַכֲעָבִד ים ַהְמַׁשְּמִׁשין ֶאת ָהַר ב ַעל ְמָנת ְלַקֵּבל ְּפָר ס...
   - normalized: hardly fathom.) , ַאל ִּת ְהיּו ַכֲעָבִד ים ַהְמַׁשְּמִׁשין ֶאת ָהַר ב ַעל ְמָנת ְלַקֵּבל ְּפָר סה,...
-- PDF visual text, page 201, should not be     מבזה or make fun of anyone, and you should certainly be very, line 15
-  - visual: [page-0201.png](typeset-audit-pages/page-0201.png)
-  - ,‫ ⁩אלעזר‬the Munkatcher Rebbe came out very strongly that ⁧‫ ⁩כהנים‬should not go
-  - normalized: , אלעזרthe Munkatcher Rebbe came out very strongly that  כהניםshould not go
-- PDF visual text, page 240, and set things in order. Another aspect is that people who come to visit him, line 5
-  - visual: [page-0240.png](typeset-audit-pages/page-0240.png)
-  - should do ⁧ ‫ ⁩תשובה‬as well. But the ⁧ ‫ספר מלא העומר‬,⁩ quoted in ⁧ ,‫ ⁩מעינה של תורה‬
-  - normalized: should do   תשובהas well. But the  ספר מלא העומר, quoted in  , מעינה של תורה
 - PDF visual text, page 280, Vaeschanan 5784, line 31
   - visual: [page-0280.png](typeset-audit-pages/page-0280.png)
   - which is ⁧‫בית‬,⁩ which is the ⁧‫ ⁩גמטריא‬of four times ⁧,‫ ⁩מחנה‬412. Each one of these
   - normalized: which is בית, which is the  גמטריאof four times , מחנה412. Each one of these
-- PDF visual text, page 289, Eikev 5785, line 30
-  - visual: [page-0289.png](typeset-audit-pages/page-0289.png)
-  - ,‫ ⁩סגל‬who lived in Poland and was born in Krakow in the year ⁦‫⁩ת״ר‬. He gives a
-  - normalized: , סגלwho lived in Poland and was born in Krakow in the year ת״ר. He gives a
-- PDF visual text, page 329, Ha’azinu 5785, line 8
-  - visual: [page-0329.png](typeset-audit-pages/page-0329.png)
-  - of the much more famous ⁧ ,‫ ⁩קיצור שולחן ערוך‬writes that the ⁧ ‫ ⁩מפרשים‬on this
-  - normalized: of the much more famous  , קיצור שולחן ערוךwrites that the   מפרשיםon this
 - PDF visual text, page 355, Lag Baomer 5784, line 22
   - visual: [page-0355.png](typeset-audit-pages/page-0355.png)
   - beautiful lights of ⁧‫ ⁩קדושה‬which emanate from ⁧‫ְׁשתּוִלים ְּבֵבית⁧ ; רבי שמעון בר יוחאי‬
   - normalized: beautiful lights of  קדושהwhich emanate from ְׁשתּוִלים ְּבֵבית ; רבי שמעון בר יוחאי
-- PDF visual text, page 359, Shavuos 5783, line 27
-  - visual: [page-0359.png](typeset-audit-pages/page-0359.png)
-  - The sefer ⁧ ,‫ ⁩חנוכת התורה החדש‬quoted by R’ Blum ⁦ ‫⁩ע״ה‬, asks: What was the
-  - normalized: The sefer  , חנוכת התורה החדשquoted by R’ Blum  ע״ה, asks: What was the
 - PDF visual text, page 371, 9 Av 5785, line 8
   - visual: [page-0371.png](typeset-audit-pages/page-0371.png)
   - are showing that ⁧‫השם אלוקינו‬,⁩ Hashem of ⁧‫ ⁩השם אחד⁧ ; ⁩רחמים‬- ⁧‫ ⁩רחמים‬and ⁧‫ ⁩דין‬is
   - normalized: are showing that השם אלוקינו, Hashem of  השם אחד ; רחמים-  רחמיםand  דיןis
-- PDF visual text, page 397, Sukkos 5785, line 17
-  - visual: [page-0397.png](typeset-audit-pages/page-0397.png)
-  - following vort is from the sefer ⁧,‫ ⁩חיים שיש בהם‬which quotes the ⁧,‫ ⁩משך חכמה‬
-  - normalized: following vort is from the sefer  חיים שיש בהם, which quotes the , משך חכמה
 - PDF visual text, page 406, Shmini Atzeres 5784, line 15
   - visual: [page-0406.png](typeset-audit-pages/page-0406.png)
   - who fear Hashem, Hashem does their ⁧‫ ⁩ְוֶאת ַׁשְוָעָת ם ִיְׁשַמע ְויֹוִׁשיֵע ם⁧ ; ⁩רצון‬- Hashem
@@ -531,10 +467,6 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - visual: [page-0042.png](typeset-audit-pages/page-0042.png)
   - ‫ ⁩גומל‬after the ⁧‫ ?⁩עקדה‬Did you ever think of that?
   - normalized: גומלafter the  ?עקדהDid you ever think of that?
-- PDF visual text, page 42, Vayairah 5786 (2), line 18
-  - visual: [page-0042.png](typeset-audit-pages/page-0042.png)
-  - Now, listen to this. According to the ⁧ ,‫ ⁩אוצר פלאות התורה‬who bentchs ⁧ ‫ ⁩גומל‬
-  - normalized: Now, listen to this. According to the  , אוצר פלאות התורהwho bentchs   גומל
 - PDF visual text, page 43, Chayai Sara 5784, line 31
   - visual: [page-0043.png](typeset-audit-pages/page-0043.png)
   - is this - sour grapes? He failed in his attempt, and now he takes it out on ⁧‫?⁩שרה‬
@@ -599,10 +531,6 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - visual: [page-0080.png](typeset-audit-pages/page-0080.png)
   - between ⁧‫ ⁩דין‬and ⁧‫?⁩תוכחה‬
   - normalized: between  דיןand ?תוכחה
-- PDF visual text, page 88, R’ Yoshe Ber offers a beautiful      משל to illustrate this idea. “An old rebbi, line 15
-  - visual: [page-0088.png](typeset-audit-pages/page-0088.png)
-  - another figure enters - the ⁦‫⁩ש״ך‬, followed by ⁧ ,‫ רש״י‬,‫ ⁩רבינו תם‬the ⁦‫⁩רמב״ם‬, the
-  - normalized: another figure enters - the ש״ך, followed by  , רש״י, רבינו תםthe רמב״ם, the
 - PDF visual text, page 89, Vayechi 5784, line 11
   - visual: [page-0089.png](typeset-audit-pages/page-0089.png)
   - ‫ ⁩אפרים‬and ⁧‫מנשה‬,⁩ and not any other ⁧‫ ?⁩שבטים‬Two aspects stand out here. First,
@@ -643,10 +571,6 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - visual: [page-0095.png](typeset-audit-pages/page-0095.png)
   - to ⁧‫ ⁩כהן גדול‬was entirely genuine. From this ⁧,‫⁩’רבי יהושע בן קרחה⁦ ⁩מדרש‬s position
   - normalized: to  כהן גדולwas entirely genuine. From this ,’רבי יהושע בן קרחה מדרשs position
-- PDF visual text, page 96, Shemos 5785, line 7
-  - visual: [page-0096.png](typeset-audit-pages/page-0096.png)
-  - about the word ⁧ ‫⁩שמות‬. The ⁧ ,‫ ⁩בעל הטורים‬in many editions (though not all),
-  - normalized: about the word  שמות. The  , בעל הטוריםin many editions (though not all),
 - PDF visual text, page 96, Shemos 5785, line 26
   - visual: [page-0096.png](typeset-audit-pages/page-0096.png)
   - influencing a parent’s choice of a name is from the ⁦‫ ; אריז״ל‬it’s not ⁧‫סתם אזוי ַא‬
@@ -679,3 +603,15 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - visual: [page-0105.png](typeset-audit-pages/page-0105.png)
   - which symbolizes ⁧‫ ⁩גלות‬and ⁧‫ ?⁩הסתר פנים‬How could we survive such profound
   - normalized: which symbolizes  גלותand  ?הסתר פניםHow could we survive such profound
+- PDF visual text, page 105, Bo 5784, line 34
+  - visual: [page-0105.png](typeset-audit-pages/page-0105.png)
+  - and thrive in this ⁧‫ ?⁩עולם הזה‬The answer is only because of the ⁧‫ ⁩זכות‬of ⁧‫⁩תורה‬. It’s
+  - normalized: and thrive in this  ?עולם הזהThe answer is only because of the  זכותof תורה. It’s
+- PDF visual text, page 106, Bo 5785, line 36
+  - visual: [page-0106.png](typeset-audit-pages/page-0106.png)
+  - ...ֶשֹּלא ִהְסִּפיק ְּבֵצָקם ֶׁשל ֲאבֹוֵת ינּו ְלַהֲחִמיץ⁧ ?⁩ַמה‬- Why are we eating this ⁧‫?⁩מצה‬
+  - normalized: ...ֹּלא ִהְסִּפיק ְּבֵצָקם ֶׁשל ֲאבֹוֵת ינּו ְלַהֲחִמיץ ?ַמה- Why are we eating this ?מצה
+- PDF visual text, page 107, honey, and milk - are not used because they don’t meet the criteria of   לחם, line 19
+  - visual: [page-0107.png](typeset-audit-pages/page-0107.png)
+  - What a gigantic ⁧‫ !⁩חידוש‬No matter how poor our ⁧‫ ⁩מצוה‬observance is, the key
+  - normalized: What a gigantic  !חידושNo matter how poor our  מצוהobservance is, the key
