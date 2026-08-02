@@ -117,11 +117,11 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - normalized: even after the  ְוָכתּוב ָּבֶה ם ;שבירת הלוחות- it’s still written  ְׁשִמיַר ת ַׁשָּבתwhereas
 ## MEDIUM - broken thousands separator
 
-- PDF visual text, page 466, (R' Menachem Mendel Schneerson) .... 54, 260, 298, 394, line 4
+- PDF visual text, page 466, Lubavitcher Rebbe, line 5
   - visual: [page-0466.png](typeset-audit-pages/page-0466.png)
   - (R' Menachem Mendel Schneerson) .... 54, 260, 298, 394
-- PDF visual text, page 468, R' Tzvi Elimelech of Dinov, line 31
-  - visual: [page-0468.png](typeset-audit-pages/page-0468.png)
+- PDF visual text, page 469, (Lutzker Rav, The Oznayim LaTorah) . 11, 20, 96, 101, 116, 145, 151,, line 4
+  - visual: [page-0469.png](typeset-audit-pages/page-0469.png)
   - (Lutzker Rav, The Oznayim LaTorah) . 11, 20, 96, 101, 116, 145, 151,
 ## MEDIUM - dash glued to Hebrew before English
 
