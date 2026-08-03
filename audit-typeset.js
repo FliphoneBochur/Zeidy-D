@@ -231,6 +231,17 @@ function isIndexPageListLine(value) {
   );
 }
 
+function isLikelyIndexPage(pageText) {
+  const lines = pageText
+    .split("\n")
+    .map((line) => normalizedForScan(line).trim())
+    .filter(Boolean);
+  const dottedLeaderLines = lines.filter((line) => /\.{5,}\s*\d{1,3}/.test(line)).length;
+  const pageListOnlyLines = lines.filter((line) => /^\d{1,3}(?:,\s+\d{1,3}){2,},?$/.test(line)).length;
+
+  return dottedLeaderLines >= 5 || (dottedLeaderLines >= 2 && pageListOnlyLines >= 1);
+}
+
 function repairPdfExtractedTrailingPunctuationArtifacts(value) {
   return value
     .replace(
@@ -279,7 +290,12 @@ function shouldSkipLineForPattern(value, pattern, location = {}) {
   if (
     pattern.label === "broken thousands separator" &&
     location.source === "PDF visual text" &&
-    (location.title === "Index" || isIndexPageListLine(location.title || "") || isIndexPageListLine(value))
+    (
+      location.isIndexPage ||
+      location.title === "Index" ||
+      isIndexPageListLine(location.title || "") ||
+      isIndexPageListLine(value)
+    )
   ) {
     return true;
   }
@@ -329,10 +345,10 @@ function addFinding(findings, counters, pattern, location, originalLine, normali
   });
 }
 
-function scanLines({ source, lines, patterns, maxPerPattern, page, title }, findings, counters) {
+function scanLines({ source, lines, patterns, maxPerPattern, page, title, isIndexPage = false }, findings, counters) {
   lines.forEach((originalLine, lineIndex) => {
     for (const pattern of patterns) {
-      if (shouldSkipLineForPattern(originalLine, pattern, { source, page, title })) {
+      if (shouldSkipLineForPattern(originalLine, pattern, { source, page, title, isIndexPage })) {
         continue;
       }
       const normalizedLine = scanTextForPattern(originalLine, pattern, source);
@@ -370,6 +386,7 @@ function scanPdfText(pdfText, options) {
     }
 
     const title = pageTitle(pageText);
+    const isIndexPage = isLikelyIndexPage(pageText);
     scanLines(
       {
         source: "PDF visual text",
@@ -378,6 +395,7 @@ function scanPdfText(pdfText, options) {
         maxPerPattern: options.maxPerPattern,
         page: index + 1,
         title,
+        isIndexPage,
       },
       findings,
       counters

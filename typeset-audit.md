@@ -4,7 +4,7 @@ This is a review-only scan for likely visual punctuation and bidi issues in the 
 
 PDF scanned: `Files/08 - Misc/Final Sefer/Final Sefer.pdf`
 Typst scanned: `Files/08 - Misc/Final Sefer/Final Sefer.typ`
-Findings: 138 (25 high, 113 medium)
+Findings: 136 (25 high, 111 medium)
 Visual pages rendered: `typeset-audit-pages`
 
 The PDF scan uses extracted visual text, so it is useful for catching rendered punctuation surprises. The Typst scan catches raw source patterns before rendering.
@@ -111,14 +111,6 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - visual: [page-0462.png](typeset-audit-pages/page-0462.png)
   - even after the ⁧‫ ⁩ְוָכתּוב ָּבֶה ם⁧ ⁩;שבירת הלוחות‬- it’s still written ⁧‫ ⁩ְׁשִמיַר ת ַׁשָּבת‬whereas
   - normalized: even after the  ְוָכתּוב ָּבֶה ם ;שבירת הלוחות- it’s still written  ְׁשִמיַר ת ַׁשָּבתwhereas
-## MEDIUM - broken thousands separator
-
-- PDF visual text, page 466, Lubavitcher Rebbe, line 5
-  - visual: [page-0466.png](typeset-audit-pages/page-0466.png)
-  - (R' Menachem Mendel Schneerson) .... 54, 260, 298, 394
-- PDF visual text, page 469, (Lutzker Rav, The Oznayim LaTorah) . 11, 20, 96, 101, 116, 145, 151,, line 4
-  - visual: [page-0469.png](typeset-audit-pages/page-0469.png)
-  - (Lutzker Rav, The Oznayim LaTorah) . 11, 20, 96, 101, 116, 145, 151,
 ## MEDIUM - dash glued to Hebrew before English
 
 - PDF visual text, page 5, The title of this sefer,   הדבר בי ,  drawn from the     נבואה of   זכריה הנביא ,  referring, line 3
