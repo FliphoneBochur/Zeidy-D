@@ -242,6 +242,13 @@ function isLikelyIndexPage(pageText) {
   return dottedLeaderLines >= 5 || (dottedLeaderLines >= 2 && pageListOnlyLines >= 1);
 }
 
+function hasVisuallySpacedDashAfterHebrew(value) {
+  return new RegExp(
+    `[${HEBREW}][\\u202A-\\u202E\\u2066-\\u2069]+-\\s`,
+    "u"
+  ).test(value);
+}
+
 function repairPdfExtractedTrailingPunctuationArtifacts(value) {
   return value
     .replace(
@@ -304,6 +311,14 @@ function shouldSkipLineForPattern(value, pattern, location = {}) {
     pattern.label === "broken thousands separator in Typst source" &&
     location.source === "Typst source" &&
     /#index-row\(/.test(value)
+  ) {
+    return true;
+  }
+
+  if (
+    pattern.label === "dash glued to Hebrew before English" &&
+    location.source === "PDF visual text" &&
+    hasVisuallySpacedDashAfterHebrew(value)
   ) {
     return true;
   }
