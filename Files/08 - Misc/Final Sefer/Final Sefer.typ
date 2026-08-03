@@ -3828,7 +3828,7 @@ To support this idea, the ⁧בית הלוי⁩#metadata(none) <person-index-bai
 can do ⁧צְדָקָה⁩⁦,⁩ and then ⁧ישועה⁩ will come. Therefore, ⁧פרשת משפטים⁩ teaches us
 to respect boundaries and be careful with the property of others. Once
 we understand these principles, we can become ⁧בעלי צדקה⁩⁦,⁩ giving ⁧נדבות⁩
-with integrity to build a ⁧משכן לשם ולתפארת⁩.⁧יְהִי רָצוֹן מִלְּפָנֶיךָ שֶׁיִּבָּנֶה בֵּית הַמִּקְדָּשׁ בִּמְהֵרָה בְיָמֵינוּ⁩
+with integrity to build a ⁧משכן לשם ולתפארת⁩. ⁧יְהִי רָצוֹן מִלְּפָנֶיךָ שֶׁיִּבָּנֶה בֵּית הַמִּקְדָּשׁ בִּמְהֵרָה בְיָמֵינוּ⁩
 
 #pagebreak()
 
@@ -3932,7 +3932,7 @@ make a ⁧מנורה⁩ today, you would take pieces and put them together, like
 Erector set, and you can make a ⁧מנורה⁩. You can make a Lego set ⁧מנורה⁩.
 But this ⁧מנורה⁩⁦,⁩ the one in the ⁧משכן⁩⁦,⁩ had to be made out of one piece.
 How can you make a ⁧מנורה⁩ out of one piece? You would have to take a
-block of gold, chisel away at it until you're left with a ⁧מנורה⁩.⁧משה רבינו⁩⁦,⁩ the ⁧מדרש⁩ says, had difficulty with that. ⁧היה צריך עזר מאלקי עליון⁩
+block of gold, chisel away at it until you're left with a ⁧מנורה⁩. ⁧משה רבינו⁩⁦,⁩ the ⁧מדרש⁩ says, had difficulty with that. ⁧היה צריך עזר מאלקי עליון⁩
 \- He needed the help from ⁧הקדוש ברוך הוא⁩ himself. This is quoted from a
 ⁧כלי יקר⁩#metadata(none) <person-index-kli-yakar-307> in ⁧פרשת תרומה⁩.
 
@@ -4016,7 +4016,7 @@ one of the ⁦תרי״ג מצוות⁩, includes all the other ⁧מצוות⁩?
 quoted in the introduction of ⁧הכותב⁩⁦,⁩ a ⁧פירוש⁩ on ⁧עין יעקב⁩.
 
 ⁧בן זומא⁩ says it's ⁧שְׁמַע יִשְׂרָאֵל ה׳ אֱלֹקֵינוּ ה׳ אֶחָד⁩ ⁦(דברים ו:ד)⁩, where we are
-⁧מקבל אחדות השם⁩ and ⁧עול מלכות שמים⁩.⁧בן ננס⁩ says it's ⁧וְאָהַבְתָּ לְרֵעֲךָ כָּמוֹךָ⁩
+⁧מקבל אחדות השם⁩ and ⁧עול מלכות שמים⁩. ⁧בן ננס⁩ says it's ⁧וְאָהַבְתָּ לְרֵעֲךָ כָּמוֹךָ⁩
 ⁦(ויקרא י״ט:י״ח)⁩ which pertains to ⁧בין אדם לחבירו⁩⁦,⁩ a tremendously
 important ⁧יסוד⁩. Finally, ⁧שמעון בן פזי⁩ brings down the ⁧פסוק⁩ from our
 ⁧פרשה⁩: ⁧אֶת הַכֶּבֶשׂ הָאֶחָד תַּעֲשֶׂה בַבֹּקֶר וְאֵת הַכֶּבֶשׂ הַשֵּׁנִי תַּעֲשֶׂה בֵּין הָעַרְבָּיִם,⁩ \⁦(שמות
@@ -13757,7 +13757,7 @@ people of the world, observe and they say, they question, ⁧מדוע דרך פ�
 is a life of ⁧הצלחה⁩⁦,⁩ is a life of success? ⁧ולמה⁩⁦,⁩ and then on the other
 hand, why is it that ⁧פלוני ופלוני שיראו צדיקים אבדו⁩⁦?⁩ We find that
 ⁧צדיקים⁩⁦,⁩ on the other hand, have, in fact, an opposite life, a life of
-⁧יסורים⁩⁦,⁩ and pain, and ⁧צער⁩.⁧זה שורש המרי⁩ - ⁦רמב״ן⁩#metadata(none) <person-index-ramban-1123> goes as far as to say
+⁧יסורים⁩⁦,⁩ and pain, and ⁧צער⁩. ⁧זה שורש המרי⁩ - ⁦רמב״ן⁩#metadata(none) <person-index-ramban-1123> goes as far as to say
 that this is the root of the rebellion, ⁧בכל המורדים מכל אומה ולשון⁩. More
 than anything, from all the peoples, from all the nations of the world, the ⁧קשה⁩⁦,⁩ the most difficult question that leads them to ⁧כפירה⁩ is because
 they cannot make peace with this question. They see what they believe to

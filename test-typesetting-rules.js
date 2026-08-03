@@ -436,6 +436,13 @@ test("adds space after colon between isolated Hebrew runs", () => {
   );
 });
 
+test("adds space after sentence punctuation between isolated Hebrew runs", () => {
+  assert.equal(
+    normalizeIsolatedPunctuationSpacing(`${RTL_ISOLATE}עול מלכות שמים${POP_DIRECTIONAL_ISOLATE}.${RTL_ISOLATE}בן ננס${POP_DIRECTIONAL_ISOLATE}`),
+    `${RTL_ISOLATE}עול מלכות שמים${POP_DIRECTIONAL_ISOLATE}. ${RTL_ISOLATE}בן ננס${POP_DIRECTIONAL_ISOLATE}`
+  );
+});
+
 test("keeps Hebrew citation colons tight", () => {
   assert.equal(
     normalizePunctuationSpacing("כ״א : ל״ז"),
@@ -1269,6 +1276,21 @@ test("docx: Vayaishev 5785 keeps bold hayom inside the Re'eh RTL phrase", () => 
     typst,
     `${RTL_ISOLATE}רְאֵה אָנֹכִי נֹתֵן לִפְנֵיכֶם${POP_DIRECTIONAL_ISOLATE}\n#strong[${RTL_ISOLATE}הַיּוֹם${POP_DIRECTIONAL_ISOLATE}]`,
     "bold hayom should not be split into its own RTL isolate"
+  );
+});
+
+test("docx: Tetzaveh 5783 keeps sentence space before Ben Nanas", () => {
+  const typst = convertedDocx("/tetzaveh/5783/");
+
+  assertContains(
+    typst,
+    `${RTL_ISOLATE}מקבל אחדות השם${POP_DIRECTIONAL_ISOLATE} and ${RTL_ISOLATE}עול מלכות שמים${POP_DIRECTIONAL_ISOLATE}. ${RTL_ISOLATE}בן ננס${POP_DIRECTIONAL_ISOLATE} says`,
+    "space after ol malchus shamayim period before Ben Nanas"
+  );
+  assertNotContains(
+    typst,
+    `${RTL_ISOLATE}עול מלכות שמים${POP_DIRECTIONAL_ISOLATE}.${RTL_ISOLATE}בן ננס${POP_DIRECTIONAL_ISOLATE}`,
+    "missing space between ol malchus shamayim and Ben Nanas"
   );
 });
 

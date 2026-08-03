@@ -1067,10 +1067,15 @@ function repairStrongHebrewContinuations(typstContent) {
 }
 
 function normalizeIsolatedPunctuationSpacing(typstContent) {
-  return typstContent.replace(
-    new RegExp(`([${LTR_ISOLATE}${RTL_ISOLATE}][^${POP_DIRECTIONAL_ISOLATE}]+${POP_DIRECTIONAL_ISOLATE}):(?=[${LTR_ISOLATE}${RTL_ISOLATE}])`, "gu"),
-    "$1: "
-  );
+  return typstContent
+    .replace(
+      new RegExp(`([${LTR_ISOLATE}${RTL_ISOLATE}][^${POP_DIRECTIONAL_ISOLATE}]+${POP_DIRECTIONAL_ISOLATE}):(?=[${LTR_ISOLATE}${RTL_ISOLATE}])`, "gu"),
+      "$1: "
+    )
+    .replace(
+      new RegExp(`(${POP_DIRECTIONAL_ISOLATE}[.?!])(?=[${LTR_ISOLATE}${RTL_ISOLATE}])`, "gu"),
+      "$1 "
+    );
 }
 
 function applyTextRules(typstContent) {
