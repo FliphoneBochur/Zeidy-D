@@ -2137,9 +2137,10 @@ find success.
 
 The ⁧בית הלוי⁩#metadata(none) <person-index-bais-halevi-158> on the ⁧פרשה⁩ quotes the ⁧מדרש רבה⁩ on ⁧פרשת מקץ⁩⁦,⁩ which
 references a ⁧פסוק⁩ in ⁧תהילים⁩ \(40:5): ⁧אַשְׁרֵי הַגֶּבֶר אֲשֶׁר שָׂם ה׳ מִבְטַחוֹ⁩ - Praised
-is the man who puts his ⁧בטחון⁩ in Hashem, ⁧זה יוסף⁩⁦;⁩ ⁧וְלֹא פָנָה אֶל רְהָבִים⁩ - and he did not turn to magicians, magic, or other sources. The ⁧מדרש⁩
-explains that because ⁧יוסף⁩ asked the ⁧שר המשקים⁩ to "remember me and
-mention me," an additional two years were added to his time in prison.
+is the man who puts his ⁧בטחון⁩ in Hashem; ⁧זה יוסף וְלֹא פָנָה אֶל רְהָבִים⁩ - and
+he did not turn to magicians, magic, or other sources. The ⁧מדרש⁩ explains
+that because ⁧יוסף⁩ asked the ⁧שר המשקים⁩ to "remember me and mention me,"
+an additional two years were added to his time in prison.
 
 This ⁧מדרש⁩ is cited in ⁦רש״י⁩.#metadata(none) <person-index-rashi-163> The ⁧בית הלוי⁩#metadata(none) <person-index-bais-halevi-159> notes that this ⁧מדרש⁩ seems
 difficult to understand. On the one hand, ⁧יוסף⁩ is praised for his ⁧בטחון⁩

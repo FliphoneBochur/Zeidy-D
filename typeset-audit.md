@@ -4,7 +4,7 @@ This is a review-only scan for likely visual punctuation and bidi issues in the 
 
 PDF scanned: `Files/08 - Misc/Final Sefer/Final Sefer.pdf`
 Typst scanned: `Files/08 - Misc/Final Sefer/Final Sefer.typ`
-Findings: 139 (26 high, 113 medium)
+Findings: 138 (25 high, 113 medium)
 Visual pages rendered: `typeset-audit-pages`
 
 The PDF scan uses extracted visual text, so it is useful for catching rendered punctuation surprises. The Typst scan catches raw source patterns before rendering.
@@ -15,10 +15,6 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - visual: [page-0016.png](typeset-audit-pages/page-0016.png)
   - ‫ ⁩שבת‬comes in, we have to perforce add on from ⁧‫ ⁩חול‬to ⁧‫ֲאָבל ַהָּקדֹוׁש ָּברּוְך⁧ ⁩;קודש‬
   - normalized: שבתcomes in, we have to perforce add on from  חולto ֲאָבל ַהָּקדֹוׁש ָּברּוְך ;קודש
-- PDF visual text, page 74, Mikeitz 5783, line 8
-  - visual: [page-0074.png](typeset-audit-pages/page-0074.png)
-  - puts his ⁧ ‫ ⁩בטחון‬in Hashem, ⁧ ‫ ⁩ְוֹלא ָפָנה ֶאל ְר ָהִבים⁧ ⁩;זה יוסף‬- and he did not turn
-  - normalized: puts his   בטחוןin Hashem,   ְוֹלא ָפָנה ֶאל ְר ָהִבים ;זה יוסף- and he did not turn
 - PDF visual text, page 80, Vayigash 5783, line 33
   - visual: [page-0080.png](typeset-audit-pages/page-0080.png)
   - ‫⁩על אחת כמה וכמה⁧ ⁩;אֹוִכיֲחָך ְוֶאֶעְר ָכה ְלֵעיֶניָך‬. The ⁧ ‫ בית הלוי‬raises another question
@@ -327,34 +323,34 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - normalized: ַהָּמקֹום ַהֶּזה ֵאין ֶזה ִּכי ִאם ֵּבית ֱאֹלִקים- This is the place of the  בית המקדש- not only
 ## MEDIUM - missing space after colon before Hebrew in Typst source
 
-- Typst source, line 3627
+- Typst source, line 3628
   - כ״א:ל״ז)⁩: ⁧כִּי יִגְנֹב אִישׁ שׁוֹר אוֹ שֶׂה וּטְבָחוֹ אוֹ מְכָרוֹ חֲמִשָּׁה בָקָר י...
   - normalized: כ״א:ל״ז): כִּי יִגְנֹב אִישׁ שׁוֹר אוֹ שֶׂה וּטְבָחוֹ אוֹ מְכָרוֹ חֲמִשָּׁה בָקָר יְש...
-- Typst source, line 4023
+- Typst source, line 4024
   - כ״ט:ל״ט)⁩ referring to the ⁧קרבן תמיד⁩.
   - normalized: כ״ט:ל״ט) referring to the קרבן תמיד.
-- Typst source, line 4288
+- Typst source, line 4289
   - ל״ד:ל״ג)⁩: ⁧וַיִּתֵּן עַל פָּנָיו מַסְוֶה⁩ - When ⁧משה רבינו⁩ spoke to the people, th...
   - normalized: ל״ד:ל״ג): וַיִּתֵּן עַל פָּנָיו מַסְוֶה - When משה רבינו spoke to the people, they
-- Typst source, line 8130
+- Typst source, line 8131
   - א׳:ג׳)⁩: ⁧וַיְצַו אֶת שְׁלֹמֹה בְנוֹ לֵאמֹר אָנֹכִי הֹלֵךְ בְּדֶרֶךְ כׇּל הָאָרֶץ⁩ -...
   - normalized: א׳:ג׳): וַיְצַו אֶת שְׁלֹמֹה בְנוֹ לֵאמֹר אָנֹכִי הֹלֵךְ בְּדֶרֶךְ כׇּל הָאָרֶץ - I'...
-- Typst source, line 8327
+- Typst source, line 8328
   - shouldn't daven that her son would die. It's brought down in ⁦מכות ב:ו⁩:
   - normalized: shouldn't daven that her son would die. It's brought down in מכות ב:ו:
-- Typst source, line 8489
+- Typst source, line 8490
   - pasuk in ⁦זכריה א׳:ט״ז⁩: ⁧שַׁבְתִּי לִירוּשָׁלַם בְּרַחֲמִים⁩. Another is what we say three
   - normalized: pasuk in זכריה א׳:ט״ז: שַׁבְתִּי לִירוּשָׁלַם בְּרַחֲמִים. Another is what we say three
-- Typst source, line 8875
+- Typst source, line 8876
   - א׳:ב׳)⁩, and then it says ⁧אָנֹכִי אָנֹכִי הוּא מְנַחֶמְכֶם⁩ ⁦(ישעיהו נ״א:י״ב)⁩ late...
   - normalized: א׳:ב׳), and then it says אָנֹכִי אָנֹכִי הוּא מְנַחֶמְכֶם                  later on
-- Typst source, line 11115
+- Typst source, line 11116
   - א:נ״ו)⁩ that at ⁧הר סיני⁩⁦,⁩ ⁧כלל ישראל⁩ was sleeping. They went to sleep that
   - normalized: א:נ״ו) that at הר סיני, כלל ישראל was sleeping. They went to sleep that
-- Typst source, line 11607
+- Typst source, line 11608
   - כ״ז:ד׳)⁩⁩. What does ⁧דוד המלך⁩ mean by ⁧כׇּל יְמֵי חַיַּי⁩⁦?⁩
   - normalized: כ״ז:ד׳). What does דוד המלך mean by כׇּל יְמֵי חַיַּי?
-- Typst source, line 13571
+- Typst source, line 13572
   - does this connection mean? He brings a ⁧פסוק⁩ from ⁦שמות ד:י״ד⁩: ⁧וְרָאֲךָ וְשָׂמַח בְּלִבּוֹ⁩. What is ⁦אהרן'⁩s ⁧מידה⁩? We all know abou...
   - normalized: does this connection mean? He brings a פסוק from שמות ד:י״ד: וְרָאֲךָ וְשָׂמַח בְּלִבּוֹ. What is אהרן's מידה? We all know about...
 ## MEDIUM - space before sentence punctuation
@@ -561,6 +557,6 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - normalized: steps to the point of being  ?מגלה ערוהThere’s a famous  גמראin ברכות, that
 ## MEDIUM - space on both sides of semicolon in Typst source
 
-- Typst source, line 4086
+- Typst source, line 4087
   - \; ⁧בן ננס⁩ says ⁧וְאָהַבְתָּ לְרֵעֲךָ כָּמוֹךָ⁩ ⁦(ויקרא י״ט:י״ח)⁩ \; ⁧שמעון בן פזי⁩ says from
   - normalized: \; בן ננס says וְאָהַבְתָּ לְרֵעֲךָ כָּמוֹךָ (ויקרא י״ט:י״ח) \; שמעון בן פזי says from
