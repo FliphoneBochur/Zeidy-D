@@ -4,7 +4,7 @@ This is a review-only scan for likely visual punctuation and bidi issues in the 
 
 PDF scanned: `Files/08 - Misc/Final Sefer/Final Sefer.pdf`
 Typst scanned: `Files/08 - Misc/Final Sefer/Final Sefer.typ`
-Findings: 64 (3 high, 61 medium)
+Findings: 21 (3 high, 18 medium)
 Visual pages rendered: `typeset-audit-pages`
 
 The PDF scan uses extracted visual text, so it is useful for catching rendered punctuation surprises. The Typst scan catches raw source patterns before rendering.
@@ -57,206 +57,34 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - normalized: does this connection mean? He brings a פסוק from שמות ד:י״ד: וְרָאֲךָ וְשָׂמַח בְּלִבּוֹ. What is אהרן's מידה? We all know about...
 ## MEDIUM - space before sentence punctuation
 
-- PDF visual text, page 2, ר׳ יששכר בנימין ,  I’m here with your      אייניקל Ari, who is being    מקיים כיבוד, line 15
-  - visual: [page-0002.png](typeset-audit-pages/page-0002.png)
-  - when a ⁧‫ ⁩רב‬sells ⁧‫ ⁩חמץ‬to a ⁧‫גוי‬,⁩ and then that ⁧‫ ⁩גוי‬becomes ⁧‫ ?⁩מתגייר‬Now, I’ve heard
-  - normalized: when a  רבsells  חמץto a גוי, and then that  גויbecomes  ?מתגיירNow, I’ve heard
-- PDF visual text, page 2, ר׳ יששכר בנימין ,  I’m here with your      אייניקל Ari, who is being    מקיים כיבוד, line 24
-  - visual: [page-0002.png](typeset-audit-pages/page-0002.png)
-  - does it mean, “to teach”? Are we all ⁧‫רבנים‬,⁩ ⁧‫ראשי ישיבה‬,⁩ or ⁧‫ ?⁩מלמדים‬Some of
-  - normalized: does it mean, “to teach”? Are we all רבנים, ראשי ישיבה, or  ?מלמדיםSome of
-- PDF visual text, page 13, Bereshis 5784, line 12
-  - visual: [page-0013.png](typeset-audit-pages/page-0013.png)
-  - called a ⁧‫ ?⁩בריאה‬We have to redefine and reunderstand what the word ⁧‫ ⁩מנוחה‬
-  - normalized: called a  ?בריאהWe have to redefine and reunderstand what the word  מנוחה
-- PDF visual text, page 15, Bereshis 5785, line 17
-  - visual: [page-0015.png](typeset-audit-pages/page-0015.png)
-  - the nature of things - he’s a little kid, he’s going to grow up. That’s a ⁧‫?⁩ברכה‬
-  - normalized: the nature of things - he’s a little kid, he’s going to grow up. That’s a ?ברכה
-- PDF visual text, page 15, Bereshis 5785, line 18
-  - visual: [page-0015.png](typeset-audit-pages/page-0015.png)
-  - What is the intention of this ⁧‫ ?⁩ברכה‬We should say he should become a ⁧‫צדיק‬,⁩
-  - normalized: What is the intention of this  ?ברכהWe should say he should become a צדיק,
-- PDF visual text, page 21, Noach 5784, line 17
-  - visual: [page-0021.png](typeset-audit-pages/page-0021.png)
-  - ‫⁩כשדים‬. Where is that in the ⁧‫ ?⁩תורה‬Ain’t nowhere in the ⁧‫⁩תורה‬. It’s in this Rashi
-  - normalized: כשדים. Where is that in the  ?תורהAin’t nowhere in the תורה. It’s in this Rashi
 - PDF visual text, page 28, Lech Lecha 5784, line 10
   - visual: [page-0028.png](typeset-audit-pages/page-0028.png)
   - by saying ⁧,‫⁧“ ⁩ָמֵגן ַאְבָר ָהם ִיְצָחק ְוַיֲעֹקב‬,‫ ⁩”ְּבָך חֹוְת ִמין ְוֹלא ָבֶה ם⁦ ⁩ַּ...
   - normalized: by saying ,“ ָמֵגן ַאְבָר ָהם ִיְצָחק ְוַיֲעֹקב, ”ְּבָך חֹוְת ִמין ְוֹלא ָבֶה ם ַּת ְלמּוד...
-- PDF visual text, page 36, Vayairah 5784, line 20
-  - visual: [page-0036.png](typeset-audit-pages/page-0036.png)
-  - Was ⁧‫ ⁩אברהם‬offering ⁧‫ ⁩יצחק‬to the ⁧‫ ?⁩מלאך‬Certainly not. How could the ⁧‫ ⁩מלאך‬say,
-  - normalized: Was  אברהםoffering  יצחקto the  ?מלאךCertainly not. How could the  מלאךsay,
-- PDF visual text, page 42, Vayairah 5786 (2), line 8
-  - visual: [page-0042.png](typeset-audit-pages/page-0042.png)
-  - ‫ ⁩גומל‬after the ⁧‫ ?⁩עקדה‬Did you ever think of that?
-  - normalized: גומלafter the  ?עקדהDid you ever think of that?
-- PDF visual text, page 43, Chayai Sara 5784, line 31
-  - visual: [page-0043.png](typeset-audit-pages/page-0043.png)
-  - is this - sour grapes? He failed in his attempt, and now he takes it out on ⁧‫?⁩שרה‬
-  - normalized: is this - sour grapes? He failed in his attempt, and now he takes it out on ?שרה
-- PDF visual text, page 47, Chayai Sara 5786, line 7
-  - visual: [page-0047.png](typeset-audit-pages/page-0047.png)
-  - coming towards ⁧‫ ?⁩רבקה‬Where was he going? The ⁧‫ ⁩מדרש‬tells us that he was
-  - normalized: coming towards  ?רבקהWhere was he going? The  מדרשtells us that he was
-- PDF visual text, page 51, Toldos 5785, line 28
-  - visual: [page-0051.png](typeset-audit-pages/page-0051.png)
-  - ‫אבות‬,⁩ why is ⁧ ‫ ⁩יצחק‬the one who is ⁧ ‫ ⁩?מלמד זכות על כלל ישראל‬How are we to
-  - normalized: אבות, why is   יצחקthe one who is   ?מלמד זכות על כלל ישראלHow are we to
-- PDF visual text, page 55, Vayaitzei 5784, line 30
-  - visual: [page-0055.png](typeset-audit-pages/page-0055.png)
-  - Someone asked ⁧‫⁩רב חיים‬: How could the regular ⁧‫ ⁩שליח ציבור‬be ⁧‫ ?⁩מוותר‬Leading
-  - normalized: Someone asked רב חיים: How could the regular  שליח ציבורbe  ?מוותרLeading
-- PDF visual text, page 57, Vayaitzei 5785, line 23
-  - visual: [page-0057.png](typeset-audit-pages/page-0057.png)
-  - had ⁧‫ ⁩עבודה זרה‬to house the ⁧‫ ⁩?בית המקדש‬Wouldn’t the ⁧‫ ⁩טומאה‬from the ⁧‫ ⁩עבודה זרה‬
-  - normalized: had  עבודה זרהto house the  ?בית המקדשWouldn’t the  טומאהfrom the  עבודה זרה
-- PDF visual text, page 74, Mikeitz 5783, line 20
-  - visual: [page-0074.png](typeset-audit-pages/page-0074.png)
-  - Hashem. So why is ⁧‫ ⁩יוסף‬criticized for his ⁧‫?⁩השתדלות‬
-  - normalized: Hashem. So why is  יוסףcriticized for his ?השתדלות
-- PDF visual text, page 76, Mikeitz 5784, line 23
-  - visual: [page-0076.png](typeset-audit-pages/page-0076.png)
-  - ‫ ⁩פסוק יז‬use a ⁧‫ ⁩לשון‬of ⁧‫?וידבר פרעה‬
-  - normalized: פסוק יזuse a  לשוןof ?וידבר פרעה
-- PDF visual text, page 76, Mikeitz 5784, line 28
-  - visual: [page-0076.png](typeset-audit-pages/page-0076.png)
-  - ‫ ⁩פרעה‬switches to ⁧ ‫⁩וידבר פרעה‬. Why does ⁧ ‫ ⁩פרעה‬change from ⁧ ‫ ⁩ויאמר‬to ⁧ ‫?⁩וידבר‬
-  - normalized: פרעהswitches to  וידבר פרעה. Why does   פרעהchange from   ויאמרto  ?וידבר
-- PDF visual text, page 76, Mikeitz 5784, line 35
-  - visual: [page-0076.png](typeset-audit-pages/page-0076.png)
-  - going out of his way to trick ⁧‫?⁩יוסף‬
-  - normalized: going out of his way to trick ?יוסף
-- PDF visual text, page 78, Mikeitz 5785, line 29
-  - visual: [page-0078.png](typeset-audit-pages/page-0078.png)
-  - we encounter these ⁧‫?⁩ניסיונות‬
-  - normalized: we encounter these ?ניסיונות
-- PDF visual text, page 78, Mikeitz 5785, line 35
-  - visual: [page-0078.png](typeset-audit-pages/page-0078.png)
-  - do we mean by ⁧‫?אריכות שנים‬
-  - normalized: do we mean by ?אריכות שנים
-- PDF visual text, page 79, One time, his father’s     נשמה went up to    שמים . In   שמים ,  they brought a young, line 7
-  - visual: [page-0079.png](typeset-audit-pages/page-0079.png)
-  - Rebbe asked, “How is this possible in ⁧‫ ⁩?עולם האמת‬This is ⁧‫עולם האמת‬,⁩ and these
-  - normalized: Rebbe asked, “How is this possible in  ?עולם האמתThis is עולם האמת, and these
-- PDF visual text, page 80, Vayigash 5783, line 34
-  - visual: [page-0080.png](typeset-audit-pages/page-0080.png)
-  - from this ⁧‫⁩מדרש‬: Where is the ⁧‫ ⁩תוכחה‬in this ⁧‫ ?⁩פסוק‬It seems like ⁧‫ ⁩יוסף‬was simply
-  - normalized: from this מדרש: Where is the  תוכחהin this  ?פסוקIt seems like  יוסףwas simply
-- PDF visual text, page 80, Vayigash 5783, line 36
-  - visual: [page-0080.png](typeset-audit-pages/page-0080.png)
-  - between ⁧‫ ⁩דין‬and ⁧‫?⁩תוכחה‬
-  - normalized: between  דיןand ?תוכחה
-- PDF visual text, page 89, Vayechi 5784, line 11
-  - visual: [page-0089.png](typeset-audit-pages/page-0089.png)
-  - ‫ ⁩אפרים‬and ⁧‫מנשה‬,⁩ and not any other ⁧‫ ?⁩שבטים‬Two aspects stand out here. First,
-  - normalized: אפריםand מנשה, and not any other  ?שבטיםTwo aspects stand out here. First,
-- PDF visual text, page 90, Vayechi 5785, line 20
-  - visual: [page-0090.png](typeset-audit-pages/page-0090.png)
-  - real place in our ⁧‫ ?⁩מסורה‬How do we judge his ⁧‫ ?⁩גדלות‬It’s not a contest, but
-  - normalized: real place in our  ?מסורהHow do we judge his  ?גדלותIt’s not a contest, but
-- PDF visual text, page 91, greatness of   בכורה ,  or the eventual greatness of     צדיקים and     גדולים emerging, line 5
-  - visual: [page-0091.png](typeset-audit-pages/page-0091.png)
-  - from ⁧‫?⁩אפרים‬
-  - normalized: from ?אפרים
-- PDF visual text, page 92, Shemos 5783, line 20
-  - visual: [page-0092.png](typeset-audit-pages/page-0092.png)
-  - why is this point included among the ⁧‫ ⁩חסדי ה׳‬in this ⁧‫?⁩פרק‬
-  - normalized: why is this point included among the  חסדי ה׳in this ?פרק
-- PDF visual text, page 92, Shemos 5783, line 32
-  - visual: [page-0092.png](typeset-audit-pages/page-0092.png)
-  - what benefit was there to ⁧‫?כלל ישראל‬
-  - normalized: what benefit was there to ?כלל ישראל
-- PDF visual text, page 93, would bring animosity, they sought to blend in. Yet, they misunderstood, line 24
-  - visual: [page-0093.png](typeset-audit-pages/page-0093.png)
-  - should see the ⁧‫!⁩גאולה שלמה במהרה בימינו אמן‬
-  - normalized: should see the !גאולה שלמה במהרה בימינו אמן
-- PDF visual text, page 94, Shemos 5784, line 31
-  - visual: [page-0094.png](typeset-audit-pages/page-0094.png)
-  - the ⁧‫ ⁩תורה‬call him ⁧‫ ?⁩הלוי‬We know that ⁧‫ ⁩ַאֲהֹרן‬was destined to be the ⁧‫⁩כהן גדול‬.
-  - normalized: the  תורהcall him  ?הלויWe know that  ַאֲהֹרןwas destined to be the כהן גדול.
 - PDF visual text, page 95, witnessed the oil flowing over    ’ַאֲהֹרן s head, down his face, and onto his beard., line 7
   - visual: [page-0095.png](typeset-audit-pages/page-0095.png)
   - to ⁧‫ ⁩כהן גדול‬was entirely genuine. From this ⁧,‫⁩’רבי יהושע בן קרחה⁦ ⁩מדרש‬s position
   - normalized: to  כהן גדולwas entirely genuine. From this ,’רבי יהושע בן קרחה מדרשs position
-- PDF visual text, page 97, provides great     נחת to the     נשמה of the deceased. He also mentioned that the, line 10
-  - visual: [page-0097.png](typeset-audit-pages/page-0097.png)
-  - ourselves, “What am I doing today to increase ⁧‫ ⁩?כבוד שמים‬What am I doing
-  - normalized: ourselves, “What am I doing today to increase  ?כבוד שמיםWhat am I doing
-- PDF visual text, page 98, Vaeira 5783, line 22
-  - visual: [page-0098.png](typeset-audit-pages/page-0098.png)
-  - Where do we see an example of ⁧‫ ⁩מסירות נפש‬in ⁧‫ ⁩?פרשת וארא‬The pasuk says
-  - normalized: Where do we see an example of  מסירות נפשin  ?פרשת ואראThe pasuk says
-- PDF visual text, page 103, their active role. They spent long periods speaking with   פרעה ,  in constant, line 33
-  - visual: [page-0103.png](typeset-audit-pages/page-0103.png)
-  - ‫סגולות‬,⁩ our ⁧‫ישועות‬,⁩ and our ⁧‫ ⁩שלשלת‬until ⁧‫!⁩ימות המשיח במהרה בימינו אמן‬
-  - normalized: סגולות, our ישועות, and our  שלשלתuntil !ימות המשיח במהרה בימינו אמן
-- PDF visual text, page 104, Bo 5783, line 23
-  - visual: [page-0104.png](typeset-audit-pages/page-0104.png)
-  - that we experience in our lives in ⁧‫?עולם הזה‬
-  - normalized: that we experience in our lives in ?עולם הזה
-- PDF visual text, page 105, Bo 5784, line 29
-  - visual: [page-0105.png](typeset-audit-pages/page-0105.png)
-  - which symbolizes ⁧‫ ⁩גלות‬and ⁧‫ ⁩?הסתר פנים‬How could we survive such profound
-  - normalized: which symbolizes  גלותand  ?הסתר פניםHow could we survive such profound
-- PDF visual text, page 105, Bo 5784, line 34
-  - visual: [page-0105.png](typeset-audit-pages/page-0105.png)
-  - and thrive in this ⁧‫ ⁩?עולם הזה‬The answer is only because of the ⁧‫ ⁩זכות‬of ⁧‫⁩תורה‬.
-  - normalized: and thrive in this  ?עולם הזהThe answer is only because of the  זכותof תורה.
-- PDF visual text, page 106, Bo 5785, line 36
-  - visual: [page-0106.png](typeset-audit-pages/page-0106.png)
-  - ...ֶשֹּלא ִהְסִּפיק ְּבֵצָקם ֶׁשל ֲאבֹוֵת ינּו ְלַהֲחִמיץ⁧ ⁩?ַמה‬- Why are we eating this ⁧‫?⁩מצה‬
-  - normalized: ...ֹּלא ִהְסִּפיק ְּבֵצָקם ֶׁשל ֲאבֹוֵת ינּו ְלַהֲחִמיץ ?ַמה- Why are we eating this ?מצה
-- PDF visual text, page 107, honey, and milk - are not used because they don’t meet the criteria of   לחם, line 19
-  - visual: [page-0107.png](typeset-audit-pages/page-0107.png)
-  - What a gigantic ⁧‫ !⁩חידוש‬No matter how poor our ⁧‫ ⁩מצוה‬observance is, the key
-  - normalized: What a gigantic  !חידושNo matter how poor our  מצוהobservance is, the key
-- PDF visual text, page 108, Beshalach 5783 (1), line 16
-  - visual: [page-0108.png](typeset-audit-pages/page-0108.png)
-  - drown the ⁧‫ ?⁩מצריים‬Many of us might think that ⁧‫ ⁩קריעת ים סוף‬was the greater
-  - normalized: drown the  ?מצרייםMany of us might think that  קריעת ים סוףwas the greater
 - PDF visual text, page 110, Beshalach 5784, line 22
   - visual: [page-0110.png](typeset-audit-pages/page-0110.png)
   - does using ⁧‫ ⁩אז‬here rectify the previous ⁧‫?⁩אז‬
   - normalized: does using  אזhere rectify the previous ?אז
-- PDF visual text, page 111, ֲעִניָת ִני - Hashem, I am praising you for my   עינוי ,  for the suffering that I had,, line 8
-  - visual: [page-0111.png](typeset-audit-pages/page-0111.png)
-  - Are we on such a ⁧‫ ?⁩מדרגה‬I don’t know about you, but I am not. It takes a
-  - normalized: Are we on such a  ?מדרגהI don’t know about you, but I am not. It takes a
-- PDF visual text, page 113, In   ַעל ַהִּנִּסים ,      חז״ל emphasized that the     הצלה was   בדרך מלחמה ,  but the fact of the, line 19
-  - visual: [page-0113.png](typeset-audit-pages/page-0113.png)
-  - ‫⁩ָעָׂשה ה׳ ְּבִמְצַר ִים‬. Which was the greater of the two ⁧‫ ?⁩נסים‬The splitting of the
-  - normalized: ָעָׂשה ה׳ ְּבִמְצַר ִים. Which was the greater of the two  ?נסיםThe splitting of the
-- PDF visual text, page 113, In   ַעל ַהִּנִּסים ,      חז״ל emphasized that the     הצלה was   בדרך מלחמה ,  but the fact of the, line 21
-  - visual: [page-0113.png](typeset-audit-pages/page-0113.png)
-  - falling back down and drowning the ⁧‫ ?⁩מצריים‬The pasuk says ⁧‫ ⁩בני ישראל‬saw
-  - normalized: falling back down and drowning the  ?מצרייםThe pasuk says  בני ישראלsaw
-- PDF visual text, page 119, Mishpatim 5783, line 9
-  - visual: [page-0119.png](typeset-audit-pages/page-0119.png)
-  - ‫ ⁩יתרו‬came after ⁧‫מתן תורה‬,⁩ why does the ⁧‫ ⁩תורה‬place this event before ⁧‫?מתן תורה‬
-  - normalized: יתרוcame after מתן תורה, why does the  תורהplace this event before ?מתן תורה
-- PDF visual text, page 121, Mishpatim (1) 5784, line 25
-  - visual: [page-0121.png](typeset-audit-pages/page-0121.png)
-  - might ask, “Isn’t it enough that we’re doing the ⁧‫ ?⁩מצוות‬Why does it matter
-  - normalized: might ask, “Isn’t it enough that we’re doing the  ?מצוותWhy does it matter
-- PDF visual text, page 121, Mishpatim (1) 5784, line 33
-  - visual: [page-0121.png](typeset-audit-pages/page-0121.png)
-  - What are we doing when we perform a ⁧‫ ?⁩מצוה‬We are serving ⁧‫!⁩הקדוש ברוך הוא‬
-  - normalized: What are we doing when we perform a  ?מצוהWe are serving !הקדוש ברוך הוא
-- PDF visual text, page 123, Mishpatim (2) 5784, line 14
-  - visual: [page-0123.png](typeset-audit-pages/page-0123.png)
-  - before the ⁧‫ ⁩?מלך מלכי המלכים הקדוש ברוך הוא‬You can’t go all the way up the
-  - normalized: before the  ?מלך מלכי המלכים הקדוש ברוך הואYou can’t go all the way up the
-- PDF visual text, page 123, Mishpatim (2) 5784, line 18
-  - visual: [page-0123.png](typeset-audit-pages/page-0123.png)
-  - about ⁧‫ ?⁩אהרן‬After all, ⁧‫ ⁩אהרן‬had stood by ⁦‫⁩’משה‬s side the entire time and did
-  - normalized: about  ?אהרןAfter all,  אהרןhad stood by ’משהs side the entire time and did
-- PDF visual text, page 125, - Don’t rush to     דן him to    מיתה . Just as ascending the     מזבח requires deliberate, line 8
-  - visual: [page-0125.png](typeset-audit-pages/page-0125.png)
-  - steps to the point of being ⁧‫ ⁩?מגלה ערוה‬There’s a famous ⁧‫ ⁩גמרא‬in ⁧‫ברכות‬,⁩ that
-  - normalized: steps to the point of being  ?מגלה ערוהThere’s a famous  גמראin ברכות, that
+- PDF visual text, page 163, Tzav 5783, line 12
+  - visual: [page-0163.png](typeset-audit-pages/page-0163.png)
+  - What was the ⁧ ‫ ?⁩נס‬The ⁧ ‫ ⁩נס‬was that the ⁧ ‫ ⁩מצריים‬didn’t react. ⁧ ‫ ⁩משה רבינו‬had
+  - normalized: What was the   ?נסThe   נסwas that the   מצרייםdidn’t react.   משה רבינוhad
+- PDF visual text, page 283, to start filling in this    בור . It’s too big. I’ll never be able to finish it. Might as, line 26
+  - visual: [page-0283.png](typeset-audit-pages/page-0283.png)
+  - are you not coming to give a ⁧‫ ⁩שלום עליכם‬to my father-in-law the ⁦‫ ?“ ב״ח‬The
+  - normalized: are you not coming to give a  שלום עליכםto my father-in-law the  ?“ ב״חThe
+- PDF visual text, page 399, Sukkos 5786, line 21
+  - visual: [page-0399.png](typeset-audit-pages/page-0399.png)
+  - this “easy ⁦‫?⁩”מצוה‬
+  - normalized: this “easy ?”מצוה
+- PDF visual text, page 440, A rav named R’ Mordechai Sabato explains that since each event in the first, line 28
+  - visual: [page-0440.png](typeset-audit-pages/page-0440.png)
+  - What are the central words of this ⁧‫ !⁩ׇמׇמ ְר ֳּד ַכי ַהְּיהּוִד י⁧ ?⁩פסוק‬Until ⁦‫⁩’מרדכי‬s name is
+  - normalized: What are the central words of this  !ׇמׇמ ְר ֳּד ַכי ַהְּיהּוִד י פסוק?Until ’מרדכיs name is
 ## MEDIUM - space on both sides of semicolon in Typst source
 
 - Typst source, line 4087

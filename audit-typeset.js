@@ -253,11 +253,11 @@ function repairPdfExtractedTrailingPunctuationArtifacts(value) {
   return value
     .replace(
       new RegExp(
-        `([\\u2066\\u2067])([!?])([\\u202A-\\u202E])?([\\s\\u00A0\\u202F]*\\u2069)?([${HEBREW}](?:[${HEBREW}\\s\\u00A0\\u202F]+[${HEBREW}])?)([\\u202A-\\u202E])`,
+        `([\\u2066\\u2067])([\\u202A-\\u202E\\s\\u00A0\\u202F]*)(\\u2069)?([!?;])([\\s\\u00A0\\u202F]*\\u2069)?([${HEBREW}](?:[${HEBREW}\\s\\u00A0\\u202F]+[${HEBREW}])?)([\\u202A-\\u202E])`,
         "gu"
       ),
-      (_match, isolate, punctuation, pdfStart = "", beforeText = "", hebrewText, pdfEnd) =>
-        `${isolate}${pdfStart}${beforeText}${hebrewText}${pdfEnd}${punctuation}`
+      (_match, isolate, pdfPrefix = "", popBefore = "", punctuation, popAfter = "", hebrewText, pdfEnd) =>
+        `${isolate}${pdfPrefix}${popBefore}${popAfter}${hebrewText}${pdfEnd}${punctuation}`
     )
     .replace(
       new RegExp(
@@ -299,6 +299,14 @@ function scanTextForPattern(value, pattern, source) {
 
 function shouldSkipLineForPattern(value, pattern, location = {}) {
   if (pattern.label === "space before sentence punctuation" && /(?:\s\.){3,}/.test(value)) {
+    return true;
+  }
+
+  if (
+    pattern.label === "space before sentence punctuation" &&
+    location.source === "PDF visual text" &&
+    location.isIndexPage
+  ) {
     return true;
   }
 
