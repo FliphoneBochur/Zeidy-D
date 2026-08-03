@@ -4015,12 +4015,11 @@ fascinating point. The ⁧מדרש⁩ asks: which ⁧מצוה⁩⁦,⁩ if you h
 one of the ⁦תרי״ג מצוות⁩, includes all the other ⁧מצוות⁩? There is a ⁧מחלוקת⁩
 quoted in the introduction of ⁧הכותב⁩⁦,⁩ a ⁧פירוש⁩ on ⁧עין יעקב⁩.
 
-⁧בן זומא⁩ says it's ⁧שְׁמַע יִשְׂרָאֵל ה׳ אֱלֹקֵינוּ ה׳ אֶחָד⁩ ⁦(דברים ו:ד)⁩, where we are
-⁧מקבל אחדות השם⁩ and ⁧עול מלכות שמים⁩. ⁧בן ננס⁩ says it's ⁧וְאָהַבְתָּ לְרֵעֲךָ כָּמוֹךָ⁩
-⁦(ויקרא י״ט:י״ח)⁩ which pertains to ⁧בין אדם לחבירו⁩⁦,⁩ a tremendously
+⁧בן זומא⁩ says it's ⁦(דברים ו:ד)⁩ ⁧שְׁמַע יִשְׂרָאֵל ה׳ אֱלֹקֵינוּ ה׳ אֶחָד⁩⁦,⁩ where we are
+⁧מקבל אחדות השם⁩ and ⁧עול מלכות שמים⁩. ⁧בן ננס⁩ says it's ⁧וְאָהַבְתָּ לְרֵעֲךָ כָּמוֹךָ ⁦(ויקרא י״ט:י״ח)⁩⁩ which pertains to ⁧בין אדם לחבירו⁩⁦,⁩ a tremendously
 important ⁧יסוד⁩. Finally, ⁧שמעון בן פזי⁩ brings down the ⁧פסוק⁩ from our
-⁧פרשה⁩: ⁧אֶת הַכֶּבֶשׂ הָאֶחָד תַּעֲשֶׂה בַבֹּקֶר וְאֵת הַכֶּבֶשׂ הַשֵּׁנִי תַּעֲשֶׂה בֵּין הָעַרְבָּיִם,⁩ \⁦(שמות
-כ״ט:ל״ט)⁩ referring to the ⁧קרבן תמיד⁩.
+⁧פרשה⁩: ⁧אֶת הַכֶּבֶשׂ הָאֶחָד תַּעֲשֶׂה בַבֹּקֶר וְאֵת הַכֶּבֶשׂ הַשֵּׁנִי תַּעֲשֶׂה בֵּין הָעַרְבָּיִם ⁦(שמות
+כ״ט:ל״ט)⁩⁩, referring to the ⁧קרבן תמיד⁩.
 
 \[⁦רש״י⁩#metadata(none) <person-index-rashi-323> points out that ⁧תמיד⁩ does not mean it was brought continuously
 without interruption, but rather that it was brought every single day
@@ -4084,7 +4083,7 @@ the ⁧תורה⁩⁦,⁩ of course it's not such a thing, they're all equally
 important\], but the ⁧מדרש⁩ says which ⁧פסוק⁩ is ⁧כולל⁩ all of the other
 ⁧פסוקים⁩ in the ⁧תורה⁩? ⁧בן זומא⁩ says ⁧שְׁמַע יִשְׂרָאֵל ה׳ אֱלֹקֵינוּ ה׳ אֶחָד⁩ ⁦(דברים ו:ד)⁩
 \; ⁧בן ננס⁩ says ⁧וְאָהַבְתָּ לְרֵעֲךָ כָּמוֹךָ⁩ ⁦(ויקרא י״ט:י״ח)⁩ \; ⁧שמעון בן פזי⁩ says from
-our ⁧פרשה⁩⁦,⁩ and also repeated in ⁧פינחס⁩: ⁧אֶת הַכֶּבֶשׂ הָאֶחָד תַּעֲשֶׂה בַבֹּקֶר וְאֵת הַכֶּבֶשׂ הַשֵּׁנִי תַּעֲשֶׂה בֵּין הָעַרְבָּיִם⁩ ⁦(שמות כ״ט:ל״ט)⁩ the ⁧פסוק⁩ which refers famously to
+our ⁧פרשה⁩⁦,⁩ and also repeated in ⁧פינחס⁩: ⁧אֶת הַכֶּבֶשׂ הָאֶחָד תַּעֲשֶׂה בַבֹּקֶר וְאֵת הַכֶּבֶשׂ הַשֵּׁנִי תַּעֲשֶׂה בֵּין הָעַרְבָּיִם ⁦(שמות כ״ט:ל״ט)⁩⁩ the ⁧פסוק⁩ which refers famously to
 the ⁧קרבן תמיד⁩. All the ⁧מצוות⁩ in the ⁧תורה⁩ are intended to create a
 continuous connection to ⁧הקדוש ברוך הוא⁩. The goal is ⁧שויתי ה׳ לנגדי תמיד⁩
 \- maintaining the awareness of ⁧ה׳⁩ before us at all times.
@@ -8870,9 +8869,9 @@ the expression ⁧אין לה⁩⁦,⁩ it means ⁧אין לה⁩ now, but in t
 have. He gives three examples:
 
 1)⁧וַתְּהִי שָׂרַי עֲקָרָה אֵין לָהּ וָלָד ⁦(בראשית י״א:ל׳)⁩⁩ - She had no children, but
-later Hashem answered her. \ 2)⁧צִיֹּון הִיא דֹּרֵשׁ אֵין לָהּ⁩ ⁦(ירמיהו ל׳:י״ז)⁩, and
-then it says ⁧וּבָא לְצִיֹּון גֹּואֵל ⁦(ישעיהו נ״ט:כ׳)⁩⁩. \ 3)⁧אֵין לָהּ מְנַחֵם⁩ ⁦(איכה
-א׳:ב׳)⁩, and then it says ⁧אָנֹכִי אָנֹכִי הוּא מְנַחֶמְכֶם⁩ ⁦(ישעיהו נ״א:י״ב)⁩ later on
+later Hashem answered her. \ 2)⁧צִיֹּון הִיא דֹּרֵשׁ אֵין לָהּ ⁦(ירמיהו ל׳:י״ז)⁩⁩, and
+then it says ⁧וּבָא לְצִיֹּון גֹּואֵל ⁦(ישעיהו נ״ט:כ׳)⁩⁩. \ 3)⁧אֵין לָהּ מְנַחֵם ⁦(איכה
+א׳:ב׳)⁩⁩, and then it says ⁧אָנֹכִי אָנֹכִי הוּא מְנַחֶמְכֶם ⁦(ישעיהו נ״א:י״ב)⁩⁩ later on
 in the ⁧הפטרה⁩.
 
 So any place in ⁦תנ״ך⁩ where we have the phrase ⁧אין לה⁩⁦,⁩ you should know it

@@ -830,6 +830,20 @@ test("moves parenthesized Hebrew citation after quote before dash explanation", 
   );
 });
 
+test("keeps Hebrew quote and source together before English continuation", () => {
+  assert.equal(
+    applyTextRules("says it’s וְאָהַבְתָּ לְרֵעֲךָ כָּמוֹךָ (ויקרא י״ט:י״ח) which pertains"),
+    `says it’s ${RTL_ISOLATE}וְאָהַבְתָּ לְרֵעֲךָ כָּמוֹךָ ${LTR_ISOLATE}(ויקרא י״ט:י״ח)${POP_DIRECTIONAL_ISOLATE}${POP_DIRECTIONAL_ISOLATE} which pertains`
+  );
+});
+
+test("keeps Hebrew quote and source together before comma continuation", () => {
+  assert.equal(
+    applyTextRules("פרשה: אֶת הַכֶּבֶשׂ הָאֶחָד תַּעֲשֶׂה בַבֹּקֶר (שמות כ״ט:ל״ט), referring"),
+    `${RTL_ISOLATE}פרשה${POP_DIRECTIONAL_ISOLATE}: ${RTL_ISOLATE}אֶת הַכֶּבֶשׂ הָאֶחָד תַּעֲשֶׂה בַבֹּקֶר ${LTR_ISOLATE}(שמות כ״ט:ל״ט)${POP_DIRECTIONAL_ISOLATE}${POP_DIRECTIONAL_ISOLATE}, referring`
+  );
+});
+
 test("keeps plain-letter parenthesized Hebrew citation in reading order", () => {
   assert.equal(
     applyTextRules("as we know משלי ו:כג)) כִּי נֵר"),
@@ -1291,6 +1305,26 @@ test("docx: Tetzaveh 5783 keeps sentence space before Ben Nanas", () => {
     typst,
     `${RTL_ISOLATE}עול מלכות שמים${POP_DIRECTIONAL_ISOLATE}.${RTL_ISOLATE}בן ננס${POP_DIRECTIONAL_ISOLATE}`,
     "missing space between ol malchus shamayim and Ben Nanas"
+  );
+});
+
+test("docx: Tetzaveh 5783 keeps quote sources after the Hebrew quotes", () => {
+  const typst = convertedDocx("/tetzaveh/5783/");
+
+  assertContains(
+    typst,
+    `${RTL_ISOLATE}וְאָהַבְתָּ לְרֵעֲךָ כָּמוֹךָ ${LTR_ISOLATE}(ויקרא י״ט:י״ח)${POP_DIRECTIONAL_ISOLATE}${POP_DIRECTIONAL_ISOLATE} which pertains`,
+    "Ben Nanas quote source remains attached after quote"
+  );
+  assertContains(
+    typst,
+    `${RTL_ISOLATE}אֶת הַכֶּבֶשׂ הָאֶחָד תַּעֲשֶׂה בַבֹּקֶר וְאֵת הַכֶּבֶשׂ הַשֵּׁנִי תַּעֲשֶׂה בֵּין הָעַרְבָּיִם ${LTR_ISOLATE}(שמות\nכ״ט:ל״ט)${POP_DIRECTIONAL_ISOLATE}${POP_DIRECTIONAL_ISOLATE}, referring`,
+    "Shimon ben Pazi quote source remains attached after quote"
+  );
+  assertNotContains(
+    typst,
+    `${RTL_ISOLATE}וְאָהַבְתָּ לְרֵעֲךָ כָּמוֹךָ${POP_DIRECTIONAL_ISOLATE}\n${LTR_ISOLATE}(ויקרא י״ט:י״ח)${POP_DIRECTIONAL_ISOLATE}`,
+    "Ben Nanas quote and source should not be separate bidi runs"
   );
 });
 

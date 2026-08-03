@@ -33,6 +33,10 @@ const HEBREW_TEXT_WITH_PAREN_REFERENCE_RE = new RegExp(
   `(${HEBREW_TOKEN}(?:(?:\\s+${HEBREW_TOKEN})|(?:\\s+\\\\?\\.\\.\\.)){0,160})\\s+(${HEBREW_PAREN_REFERENCE})(?=\\s*(?:[.?!]|-))`,
   "gu"
 );
+const HEBREW_MULTI_TEXT_WITH_PAREN_REFERENCE_RE = new RegExp(
+  `(${HEBREW_TOKEN}(?:(?:\\s+${HEBREW_TOKEN})|(?:\\s+\\\\?\\.\\.\\.)){1,160})\\s+(${HEBREW_PAREN_REFERENCE})(?=\\s*(?:,|[A-Za-z]))`,
+  "gu"
+);
 const HEBREW_PAREN_REFERENCE_BEFORE_QUOTE_RE = new RegExp(
   `(\\b(?:say|says|said|state|states|stated|stating|pasuk says)\\s+)(${HEBREW_PAREN_REFERENCE})\\s+(${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN}){0,80})(?=\\s*[.?!,;:]|\\s+-|\\s+[A-Za-z]|$)`,
   "gu"
@@ -958,9 +962,7 @@ function isolateHebrewRuns(typstContent) {
 
   const rtlReferenceSafeContent = protectMarkedRtlReferences(typstContent, protect);
 
-  const textWithReferenceSafeContent = rtlReferenceSafeContent.replace(
-    HEBREW_TEXT_WITH_PAREN_REFERENCE_RE,
-    (_match, hebrewText, reference) => {
+  const protectHebrewTextWithReference = (_match, hebrewText, reference) => {
       const isRtlReference = hebrewText.endsWith(RTL_REFERENCE_MARKER);
       const cleanHebrewText = hebrewText.replace(RTL_REFERENCE_MARKER, "");
       const isolatedReference = isRtlReference
@@ -968,8 +970,11 @@ function isolateHebrewRuns(typstContent) {
         : `${LTR_ISOLATE}${reference}${POP_DIRECTIONAL_ISOLATE}`;
 
       return protect(`${RTL_ISOLATE}${normalizeInlineWhitespace(cleanHebrewText)} ${isolatedReference}${POP_DIRECTIONAL_ISOLATE}`);
-    }
-  );
+  };
+
+  const textWithReferenceSafeContent = rtlReferenceSafeContent
+    .replace(HEBREW_TEXT_WITH_PAREN_REFERENCE_RE, protectHebrewTextWithReference)
+    .replace(HEBREW_MULTI_TEXT_WITH_PAREN_REFERENCE_RE, protectHebrewTextWithReference);
 
   const hebrewEllipsisSafeContent = textWithReferenceSafeContent.replace(HEBREW_ELLIPSIS_PHRASE_RE, (match) => {
     return protect(`${RTL_ISOLATE}${normalizeInlineWhitespace(match)}${POP_DIRECTIONAL_ISOLATE}`);
