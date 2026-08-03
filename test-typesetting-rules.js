@@ -1257,6 +1257,21 @@ test("docx: Vaeschanan 5784 keeps comma after machaneh before number", () => {
   assertNotContains(typst, `${RTL_ISOLATE}מחנה,${POP_DIRECTIONAL_ISOLATE} 412`, "comma inside machaneh isolate before 412");
 });
 
+test("docx: Vayaishev 5785 keeps bold hayom inside the Re'eh RTL phrase", () => {
+  const typst = convertedDocx("/vayaishev/5785/");
+
+  assertContains(
+    typst,
+    `saying, ${RTL_ISOLATE}רְאֵה אָנֹכִי נֹתֵן לִפְנֵיכֶם #strong[הַיּוֹם]${POP_DIRECTIONAL_ISOLATE} - Hashem gives`,
+    "bold hayom stays inside the same RTL isolate as the Re'eh phrase"
+  );
+  assertNotContains(
+    typst,
+    `${RTL_ISOLATE}רְאֵה אָנֹכִי נֹתֵן לִפְנֵיכֶם${POP_DIRECTIONAL_ISOLATE}\n#strong[${RTL_ISOLATE}הַיּוֹם${POP_DIRECTIONAL_ISOLATE}]`,
+    "bold hayom should not be split into its own RTL isolate"
+  );
+});
+
 test("docx: Chukas 5784 copy title is stripped from body", () => {
   const typst = convertedDocx("/chukas/5784/(1)/");
 

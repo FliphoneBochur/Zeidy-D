@@ -1056,6 +1056,16 @@ function repairGerushinMizbeachPhrase(typstContent) {
   );
 }
 
+function repairStrongHebrewContinuations(typstContent) {
+  return typstContent.replace(
+    new RegExp(
+      `${RTL_ISOLATE}(${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN}){1,80})${POP_DIRECTIONAL_ISOLATE}[\\t \\u00A0\\u202F]*\\n[\\t \\u00A0\\u202F]*#strong\\[${RTL_ISOLATE}(${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN}){0,20})${POP_DIRECTIONAL_ISOLATE}\\]`,
+      "gu"
+    ),
+    `${RTL_ISOLATE}$1 #strong[$2]${POP_DIRECTIONAL_ISOLATE}`
+  );
+}
+
 function normalizeIsolatedPunctuationSpacing(typstContent) {
   return typstContent.replace(
     new RegExp(`([${LTR_ISOLATE}${RTL_ISOLATE}][^${POP_DIRECTIONAL_ISOLATE}]+${POP_DIRECTIONAL_ISOLATE}):(?=[${LTR_ISOLATE}${RTL_ISOLATE}])`, "gu"),
@@ -1066,14 +1076,16 @@ function normalizeIsolatedPunctuationSpacing(typstContent) {
 function applyTextRules(typstContent) {
   return normalizeIsolatedPunctuationSpacing(
     repairGerushinMizbeachPhrase(
-      protectMixedLtrParentheticals(
-        repairSplitGemaraSources(
-          isolateHebrewRuns(
-            moveLeadingHebrewSourceAfterQuote(
-              repairEscapedHebrewParagraphCitations(
-                normalizeMisplacedHebrewCommas(
-                  normalizePunctuationSpacing(
-                    normalizeColonHebrewSoftBreaks(normalizeNumberedSoftBreaks(typstContent))
+      repairStrongHebrewContinuations(
+        protectMixedLtrParentheticals(
+          repairSplitGemaraSources(
+            isolateHebrewRuns(
+              moveLeadingHebrewSourceAfterQuote(
+                repairEscapedHebrewParagraphCitations(
+                  normalizeMisplacedHebrewCommas(
+                    normalizePunctuationSpacing(
+                      normalizeColonHebrewSoftBreaks(normalizeNumberedSoftBreaks(typstContent))
+                    )
                   )
                 )
               )

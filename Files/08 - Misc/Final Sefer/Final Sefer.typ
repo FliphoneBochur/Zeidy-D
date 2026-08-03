@@ -2124,8 +2124,7 @@ blandishments and threats of the ⁧שטן⁩⁦,⁩ and to overcome adversity b
 focusing on what we can do now.
 
 I've said this many times: One of Hashem's greatest gifts is mentioned
-at the beginning of another parsha, ⁧פרשת ראה⁩: ⁧רְאֵה אָנֹכִי נֹתֵן לִפְנֵיכֶם הַיּוֹם בְּרָכָה וּקְלָלָה⁩. I've always found myself saying, ⁧רְאֵה אָנֹכִי נֹתֵן לִפְנֵיכֶם⁩
-#strong[⁧הַיּוֹם⁩] - Hashem gives us a tremendous gift: the gift of today.
+at the beginning of another parsha, ⁧פרשת ראה⁩: ⁧רְאֵה אָנֹכִי נֹתֵן לִפְנֵיכֶם הַיּוֹם בְּרָכָה וּקְלָלָה⁩. I've always found myself saying, ⁧רְאֵה אָנֹכִי נֹתֵן לִפְנֵיכֶם #strong[הַיּוֹם]⁩ - Hashem gives us a tremendous gift: the gift of today.
 Use today and make the most of it. Maximize its potential. Utilize it to
 its fullest to fulfill your purpose. Then, with Hashem's help, you will
 find success.

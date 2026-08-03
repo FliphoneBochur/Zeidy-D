@@ -357,6 +357,106 @@ function pageTitle(pageText) {
   return withoutPageNumber[0] || "";
 }
 
+function normalizeTitleForMatch(value) {
+  return normalizedForScan(value)
+    .replace(/\s+/g, " ")
+    .trim()
+    .toLowerCase();
+}
+
+function parseTypArticles(typText) {
+  const lines = typText.split("\n");
+  const articles = [];
+
+  lines.forEach((line, index) => {
+    const match = line.match(/^= (.+?)\s*$/u);
+    if (!match) {
+      return;
+    }
+
+    if (articles.length > 0) {
+      articles[articles.length - 1].endLine = index;
+    }
+
+    articles.push({
+      title: match[1].trim(),
+      normalizedTitle: normalizeTitleForMatch(match[1]),
+      startLine: index + 1,
+      endLine: lines.length,
+    });
+  });
+
+  return articles;
+}
+
+function pdfPageInfos(pdfText) {
+  return pdfText.split("\f").map((pageText, index) => {
+    const title = pageTitle(pageText);
+    return {
+      page: index + 1,
+      title,
+      normalizedTitle: normalizeTitleForMatch(title),
+    };
+  });
+}
+
+function findArticleForLine(articles, lineNumber) {
+  return articles.find((article) => lineNumber >= article.startLine && lineNumber <= article.endLine);
+}
+
+function articleStartPage(article, pageInfos) {
+  return pageInfos.find((pageInfo) => pageInfo.normalizedTitle === article.normalizedTitle)?.page || null;
+}
+
+function nextArticleStartPage(articles, articleIndex, pageInfos) {
+  for (let index = articleIndex + 1; index < articles.length; index += 1) {
+    const page = articleStartPage(articles[index], pageInfos);
+    if (page) {
+      return page;
+    }
+  }
+
+  return null;
+}
+
+function candidatePagesAround(page, startPage, endPage) {
+  return [page - 1, page, page + 1]
+    .filter((candidate) => candidate >= startPage && candidate <= endPage);
+}
+
+function attachProbablePagesToTypFindings(findings, typText, pdfText) {
+  const articles = parseTypArticles(typText);
+  const pageInfos = pdfPageInfos(pdfText);
+  const totalPages = pageInfos.length;
+
+  findings.forEach((finding) => {
+    if (finding.source !== "Typst source" || finding.page) {
+      return;
+    }
+
+    const article = findArticleForLine(articles, finding.line);
+    if (!article) {
+      return;
+    }
+
+    const articleIndex = articles.indexOf(article);
+    const startPage = articleStartPage(article, pageInfos);
+    if (!startPage) {
+      return;
+    }
+
+    const nextStartPage = nextArticleStartPage(articles, articleIndex, pageInfos);
+    const endPage = Math.max(startPage, (nextStartPage || totalPages + 1) - 1);
+    const lineSpan = Math.max(1, article.endLine - article.startLine);
+    const relativeLine = Math.max(0, Math.min(1, (finding.line - article.startLine) / lineSpan));
+    const estimatedPage = Math.min(endPage, startPage + Math.floor(relativeLine * (endPage - startPage + 1)));
+
+    finding.title = article.title;
+    finding.page = estimatedPage;
+    finding.visualPages = candidatePagesAround(estimatedPage, startPage, endPage);
+  });
+}
+
 function addFinding(findings, counters, pattern, location, originalLine, normalizedLine, match) {
   const key = `${location.source}:${pattern.label}`;
   counters.set(key, (counters.get(key) || 0) + 1);
@@ -468,8 +568,12 @@ function renderedPageFilename(page) {
 async function renderFindingPages(pdfPath, findings, options) {
   const pages = [...new Set(
     findings
-      .filter((finding) => finding.source === "PDF visual text" && finding.page)
-      .map((finding) => finding.page)
+      .flatMap((finding) => {
+        if (finding.visualPages?.length) {
+          return finding.visualPages;
+        }
+        return finding.page ? [finding.page] : [];
+      })
   )].sort((a, b) => a - b);
 
   await prepareRenderDir(options.renderDir);
@@ -546,9 +650,17 @@ function markdownForFindings(findings, options, scanned, renderedPages) {
       ? `page ${finding.page}${finding.title ? `, ${finding.title}` : ""}, line ${finding.line}`
       : `line ${finding.line}`;
     lines.push(`- ${finding.source}, ${location}`);
-    if (renderedPageSet.has(finding.page)) {
-      const imagePath = path.join(options.renderDir, renderedPageFilename(finding.page));
-      lines.push(`  - visual: [${renderedPageFilename(finding.page)}](${path.relative(ROOT_DIR, imagePath)})`);
+    const visualPages = finding.visualPages?.length ? finding.visualPages : [finding.page];
+    const renderedVisualPages = visualPages.filter((page) => renderedPageSet.has(page));
+    if (renderedVisualPages.length === 1) {
+      const imagePath = path.join(options.renderDir, renderedPageFilename(renderedVisualPages[0]));
+      lines.push(`  - visual: [${renderedPageFilename(renderedVisualPages[0])}](${path.relative(ROOT_DIR, imagePath)})`);
+    } else if (renderedVisualPages.length > 1) {
+      const links = renderedVisualPages.map((page) => {
+        const imagePath = path.join(options.renderDir, renderedPageFilename(page));
+        return `[${renderedPageFilename(page)}](${path.relative(ROOT_DIR, imagePath)})`;
+      });
+      lines.push(`  - visual: ${links.join(", ")}`);
     }
     lines.push(`  - ${finding.context}`);
     if (finding.normalized !== finding.context) {
@@ -563,12 +675,14 @@ async function main() {
   const options = parseArgs(process.argv.slice(2));
   const findings = [];
   const scanned = { pdf: false, typ: false };
+  let pdfText = "";
+  let typText = "";
 
   if (options.scanPdf) {
     if (!await fileExists(options.pdf)) {
       throw new Error(`PDF not found: ${options.pdf}`);
     }
-    const pdfText = run("pdftotext", ["-layout", "-enc", "UTF-8", options.pdf, "-"]);
+    pdfText = run("pdftotext", ["-layout", "-enc", "UTF-8", options.pdf, "-"]);
     findings.push(...scanPdfText(pdfText, options));
     scanned.pdf = true;
   }
@@ -577,9 +691,13 @@ async function main() {
     if (!await fileExists(options.typ)) {
       throw new Error(`Typst file not found: ${options.typ}`);
     }
-    const typText = await fs.readFile(options.typ, "utf8");
+    typText = await fs.readFile(options.typ, "utf8");
     findings.push(...scanTypText(typText, options));
     scanned.typ = true;
+  }
+
+  if (scanned.pdf && scanned.typ) {
+    attachProbablePagesToTypFindings(findings, typText, pdfText);
   }
 
   const renderedPages = options.renderPages
