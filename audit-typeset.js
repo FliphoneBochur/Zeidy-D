@@ -35,7 +35,7 @@ const PDF_PATTERNS = [
   {
     severity: "high",
     label: "leading punctuation before Hebrew",
-    re: new RegExp(`(^|[\\s(\\[])\\s*[,;:.]\\s*[${HEBREW}]`, "u"),
+    re: new RegExp(`(^|[\\s(\\[])\\s*[,.:]\\s*[${HEBREW}]`, "u"),
   },
   {
     severity: "medium",
