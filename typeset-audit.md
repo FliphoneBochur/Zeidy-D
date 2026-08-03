@@ -4,23 +4,20 @@ This is a review-only scan for likely visual punctuation and bidi issues in the 
 
 PDF scanned: `Files/08 - Misc/Final Sefer/Final Sefer.pdf`
 Typst scanned: `Files/08 - Misc/Final Sefer/Final Sefer.typ`
-Findings: 21 (3 high, 18 medium)
-Visual pages rendered: `typeset-audit-pages`
+Findings: 19 (3 high, 16 medium)
+Visual pages rendered: no
 
 The PDF scan uses extracted visual text, so it is useful for catching rendered punctuation surprises. The Typst scan catches raw source patterns before rendering.
 
 ## HIGH - leading punctuation before Hebrew
 
 - PDF visual text, page 197, Emor 5784, line 11
-  - visual: [page-0197.png](typeset-audit-pages/page-0197.png)
   - hardly fathom.)⁩ ⁧,‫ ַאל ִּת ְהיּו ַכֲעָבִד ים ַהְמַׁשְּמִׁשין ֶאת ָהַר ב ַעל ְמָנת ְלַקֵּבל ְּפָר...
   - normalized: hardly fathom.) , ַאל ִּת ְהיּו ַכֲעָבִד ים ַהְמַׁשְּמִׁשין ֶאת ָהַר ב ַעל ְמָנת ְלַקֵּבל ְּפָר סה,...
 - PDF visual text, page 445, Shabbos - The Gift of Olam Haba in This World, line 17
-  - visual: [page-0445.png](typeset-audit-pages/page-0445.png)
   - The ⁧‫ ⁩גמרא‬says, ⁧,‫ אמר להם הקדוש ברוך הוא למשה‬,‫ כי אני ה׳ מקדשכם‬,‫ לדעת‬,‫תני נמי הכי‬
   - normalized: The  גמראsays, , אמר להם הקדוש ברוך הוא למשה, כי אני ה׳ מקדשכם, לדעתת,ני נמי הכי
 - PDF visual text, page 457, לטובה - the same way, also all of the     גלות and all of the     גלות in the Yidden, line 6
-  - visual: [page-0457.png](typeset-audit-pages/page-0457.png)
   - ,‫ גלות יוון‬,‫ ⁩אך בהווה⁧ ⁩;גלות אדום⁧ ⁩גלות בבל‬- but in the present time, ⁦‫לא י...
   - normalized: , גלות יוון, אך בהווה ;גלות אדום גלות בבל- but in the present time, לא יוכל האדם
 ## MEDIUM - missing space after colon before Hebrew in Typst source
@@ -58,31 +55,18 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
 ## MEDIUM - space before sentence punctuation
 
 - PDF visual text, page 28, Lech Lecha 5784, line 10
-  - visual: [page-0028.png](typeset-audit-pages/page-0028.png)
   - by saying ⁧,‫⁧“ ⁩ָמֵגן ַאְבָר ָהם ִיְצָחק ְוַיֲעֹקב‬,‫ ⁩”ְּבָך חֹוְת ִמין ְוֹלא ָבֶה ם⁦ ⁩ַּ...
   - normalized: by saying ,“ ָמֵגן ַאְבָר ָהם ִיְצָחק ְוַיֲעֹקב, ”ְּבָך חֹוְת ִמין ְוֹלא ָבֶה ם ַּת ְלמּוד...
 - PDF visual text, page 95, witnessed the oil flowing over    ’ַאֲהֹרן s head, down his face, and onto his beard., line 7
-  - visual: [page-0095.png](typeset-audit-pages/page-0095.png)
   - to ⁧‫ ⁩כהן גדול‬was entirely genuine. From this ⁧,‫⁩’רבי יהושע בן קרחה⁦ ⁩מדרש‬s position
   - normalized: to  כהן גדולwas entirely genuine. From this ,’רבי יהושע בן קרחה מדרשs position
-- PDF visual text, page 110, Beshalach 5784, line 22
-  - visual: [page-0110.png](typeset-audit-pages/page-0110.png)
-  - does using ⁧‫ ⁩אז‬here rectify the previous ⁧‫?⁩אז‬
-  - normalized: does using  אזhere rectify the previous ?אז
-- PDF visual text, page 163, Tzav 5783, line 12
-  - visual: [page-0163.png](typeset-audit-pages/page-0163.png)
-  - What was the ⁧ ‫ ?⁩נס‬The ⁧ ‫ ⁩נס‬was that the ⁧ ‫ ⁩מצריים‬didn’t react. ⁧ ‫ ⁩משה רבינו‬had
-  - normalized: What was the   ?נסThe   נסwas that the   מצרייםdidn’t react.   משה רבינוhad
 - PDF visual text, page 283, to start filling in this    בור . It’s too big. I’ll never be able to finish it. Might as, line 26
-  - visual: [page-0283.png](typeset-audit-pages/page-0283.png)
   - are you not coming to give a ⁧‫ ⁩שלום עליכם‬to my father-in-law the ⁦‫ ?“ ב״ח‬The
   - normalized: are you not coming to give a  שלום עליכםto my father-in-law the  ?“ ב״חThe
 - PDF visual text, page 399, Sukkos 5786, line 21
-  - visual: [page-0399.png](typeset-audit-pages/page-0399.png)
   - this “easy ⁦‫?⁩”מצוה‬
   - normalized: this “easy ?”מצוה
 - PDF visual text, page 440, A rav named R’ Mordechai Sabato explains that since each event in the first, line 28
-  - visual: [page-0440.png](typeset-audit-pages/page-0440.png)
   - What are the central words of this ⁧‫ !⁩ׇמׇמ ְר ֳּד ַכי ַהְּיהּוִד י⁧ ?⁩פסוק‬Until ⁦‫⁩’מרדכי‬s name is
   - normalized: What are the central words of this  !ׇמׇמ ְר ֳּד ַכי ַהְּיהּוִד י פסוק?Until ’מרדכיs name is
 ## MEDIUM - space on both sides of semicolon in Typst source

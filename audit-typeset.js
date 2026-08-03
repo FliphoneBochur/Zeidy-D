@@ -253,11 +253,11 @@ function repairPdfExtractedTrailingPunctuationArtifacts(value) {
   return value
     .replace(
       new RegExp(
-        `([\\u2066\\u2067])([\\u202A-\\u202E\\s\\u00A0\\u202F]*)(\\u2069)?([!?;])([\\s\\u00A0\\u202F]*\\u2069)?([${HEBREW}](?:[${HEBREW}\\s\\u00A0\\u202F]+[${HEBREW}])?)([\\u202A-\\u202E])`,
+        `([\\u2066\\u2067][\\u202A-\\u202E\\s\\u00A0\\u202F]*\\u2069?)([!?;])([\\s\\u00A0\\u202F]*\\u2069)?([${HEBREW}][${HEBREW}\\s\\u00A0\\u202F]*)([\\u202A-\\u202E])`,
         "gu"
       ),
-      (_match, isolate, pdfPrefix = "", popBefore = "", punctuation, popAfter = "", hebrewText, pdfEnd) =>
-        `${isolate}${pdfPrefix}${popBefore}${popAfter}${hebrewText}${pdfEnd}${punctuation}`
+      (_match, prefix, punctuation, popAfter = "", hebrewText, pdfEnd) =>
+        `${prefix}${popAfter}${hebrewText}${pdfEnd}${punctuation}`
     )
     .replace(
       new RegExp(
