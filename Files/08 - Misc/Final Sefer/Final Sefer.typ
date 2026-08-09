@@ -11574,8 +11574,8 @@ called ⁧משפחה⁩⁦,⁩ that's called your family. When you're getting so
 from your father, mother, and family, that's not ⁧מַתְּנַת בָּשָׂר וָדָם⁩.
 
 What are we asking Hashem? ⁧אַחַת שָׁאַלְתִּי מֵאֵת ה׳ \... שִׁבְתִּי בְּבֵית ה׳ כׇּל יְמֵי חַיַּי⁩
-\- Hashem, I want to be part of your ⁧משפחה⁩. I want to live in your
-house. I want to be close to you, as close as a father and a mother.
+\- Hashem, I want to live in your house. I want to be part of your
+⁧משפחה⁩. I want to be close to you, as close as a father and a mother.
 When you ask ⁧הקדוש ברוך הוא שִׁבְתִּי בְּבֵית ה׳ כׇּל יְמֵי חַיַּי⁩⁦,⁩ that I want to live
 in your house, then you can ask for everything. That's why when we
 bentch, we can ask for everything. May we be ⁧זוכה⁩ that ⁧הקדוש ברוך הוא⁩
