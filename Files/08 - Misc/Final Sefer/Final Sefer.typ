@@ -9188,13 +9188,15 @@ A ⁧מצבה⁩ means end. It's all over. ⁧מצבה⁩ is what cemeteries are
 = Shoftim 5784
 
 In this week's ⁧פרשה⁩ of ⁧שופטים⁩⁦,⁩ we have the famous ⁧ענין⁩ of ⁧עדים זוממים⁩.
-The entire world asks the question, if they were unsuccessful in what
-they were attempting to do, only then will we do ⁧וַעֲשִׂיתֶם לֹו כַּאֲשֶׁר זָמַם לַעֲשֹׂות לְאָחִיו⁩⁦,⁩ whether it's ⁧ממון⁩ or ⁧מיתה⁩. However, if it was already done, then we don't do anything to them. The ⁧צדוקים⁩⁦,⁩ of course, didn't know
-how to learn, they only know ⁧תורה שבכתב⁩. The ⁧צדוקים⁩ said, no, you do
-⁧כַּאֲשֶׁר זָמַם⁩ to them if they fulfilled their ⁧עדות שקר⁩. How did they know
-that? Because the pasuk says ⁧נפש תחת נפש⁩. The ⁧חכמים⁩ said to them, but it
-says ⁧וַעֲשִׂיתֶם לֹו כַּאֲשֶׁר זָמַם לַעֲשֹׂות לְאָחִיו⁩ and they explain ⁧עד שאחיו קיים⁩ - the
-brother still has to be here, the brother has to still be alive.
+If they were unsuccessful in what they were attempting to do, only then
+will we do ⁧וַעֲשִׂיתֶם לֹו כַּאֲשֶׁר זָמַם לַעֲשֹׂות לְאָחִיו⁩⁦,⁩ whether it's ⁧ממון⁩ or ⁧מיתה⁩.
+However, if it was already done, then we don't do anything to them. The
+⁧צדוקים⁩⁦,⁩ of course, didn't know how to learn, they only know ⁧תורה שבכתב⁩.
+The ⁧צדוקים⁩ said, no, you do ⁧כַּאֲשֶׁר זָמַם⁩ to them if they fulfilled their
+⁧עדות שקר⁩. How did they know that? Because the pasuk says ⁧נפש תחת נפש⁩.
+The ⁧חכמים⁩ said to them, but it says ⁧וַעֲשִׂיתֶם לֹו כַּאֲשֶׁר זָמַם לַעֲשֹׂות לְאָחִיו⁩ and
+they explain ⁧עד שאחיו קיים⁩ - the brother still has to be here, the
+brother has to still be alive.
 
 The ⁦ריטב״א⁩#metadata(none) <person-index-ritva-749> asks a ⁧קשיא⁩ on this ⁧משנה⁩: What do you mean ⁧אחיו⁩ is only if
 he's alive? We have plenty of places where ⁧אחיו⁩ includes when he's ⁧מת⁩.

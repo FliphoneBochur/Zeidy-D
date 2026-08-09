@@ -53,15 +53,15 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - visual: [page-0287.png](typeset-audit-pages/page-0287.png), [page-0288.png](typeset-audit-pages/page-0288.png)
   - א׳:ב׳)⁩⁩, and then it says ⁧אָנֹכִי אָנֹכִי הוּא מְנַחֶמְכֶם ⁦(ישעיהו נ״א:י״ב)⁩⁩ lat...
   - normalized: א׳:ב׳), and then it says אָנֹכִי אָנֹכִי הוּא מְנַחֶמְכֶם                  later on
-- Typst source, page 361, Shavuos 5784, line 11114
+- Typst source, page 361, Shavuos 5784, line 11116
   - visual: [page-0361.png](typeset-audit-pages/page-0361.png), [page-0362.png](typeset-audit-pages/page-0362.png)
   - א:נ״ו)⁩ that at ⁧הר סיני⁩⁦,⁩ ⁧כלל ישראל⁩ was sleeping. They went to sleep that
   - normalized: א:נ״ו) that at הר סיני, כלל ישראל was sleeping. They went to sleep that
-- Typst source, page 378, Elul 5785, line 11606
+- Typst source, page 378, Elul 5785, line 11608
   - visual: [page-0378.png](typeset-audit-pages/page-0378.png)
   - כ״ז:ד׳)⁩⁩. What does ⁧דוד המלך⁩ mean by ⁧כׇּל יְמֵי חַיַּי⁩⁦?⁩
   - normalized: כ״ז:ד׳). What does דוד המלך mean by כׇּל יְמֵי חַיַּי?
-- Typst source, page 442, Purim 5785, line 13571
+- Typst source, page 442, Purim 5785, line 13573
   - visual: [page-0442.png](typeset-audit-pages/page-0442.png), [page-0443.png](typeset-audit-pages/page-0443.png)
   - does this connection mean? He brings a ⁧פסוק⁩ from ⁦שמות ד:י״ד⁩: ⁧וְרָאֲךָ וְשָׂמַח בְּלִבּוֹ⁩. What is ⁦אהרן'⁩s ⁧מידה⁩? We all know abou...
   - normalized: does this connection mean? He brings a פסוק from שמות ד:י״ד: וְרָאֲךָ וְשָׂמַח בְּלִבּוֹ. What is אהרן's מידה? We all know about...
