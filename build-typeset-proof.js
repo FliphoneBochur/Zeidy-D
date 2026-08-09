@@ -874,12 +874,23 @@ function keepIndexMarkersAfterPunctuation(typstContent) {
   );
 }
 
+function smartenStraightDoubleQuotes(typstContent) {
+  const hebrewClass = HEBREW_LETTERS.slice(1, -1);
+  return typstContent
+    .replace(new RegExp(`(${HEBREW_LETTERS})\\\\?"(?=${HEBREW_LETTERS})`, "gu"), "$1״")
+    .replace(new RegExp(`(^|[\\s([{\\-])\\\\?"(?=(?:${HEBREW_LETTERS}|[\\u2066\\u2067]))`, "gu"), "$1“")
+    .replace(new RegExp(`(${HEBREW_LETTERS})\\\\?"(?=\\s|$|[,.;:!?)}\\]]|\\u2069)`, "gu"), "$1”")
+    .replace(new RegExp(`(^|[\\s([{\\-])\\\\?"(?=[^\\s${hebrewClass}])`, "gu"), "$1“")
+    .replace(new RegExp(`([^\\s${hebrewClass}])\\\\?"(?=\\s|$|[,.;:!?)}\\]])`, "gu"), "$1”");
+}
+
 function normalizePunctuationSpacing(typstContent) {
-  return keepIndexMarkersAfterPunctuation(typstContent)
+  return smartenStraightDoubleQuotes(keepIndexMarkersAfterPunctuation(typstContent)
     .replace(/\u2014/g, "-")
     .replace(new RegExp(`(${HEBREW_LETTERS})['’‘](?!s\\b)`, "gu"), "$1׳")
     .replace(/([A-Za-z])'"\./g, "$1.'\"")
     .replace(/([,;:.!?])\s+"(?=\s+(?:said|asked|answered|responded|replied)\b)/giu, "$1\"")
+    .replace(/((?:\\?["”])(?:[ \t\u00A0\u202F]+\S+){1,4})\n(?=(?:said|asked|answered|responded|replied)\b)/giu, "$1 ")
     .replace(MALFORMED_ESCAPED_OPEN_HEBREW_CITATION_RE, "($1): ")
     .replace(MALFORMED_NESTED_OPEN_HEBREW_CITATION_RE, "($1 $2): ")
     .replace(MALFORMED_HEBREW_LABEL_ESCAPED_OPEN_NUMERIC_CITATION_RE, "$1 ($2): ")
@@ -891,6 +902,8 @@ function normalizePunctuationSpacing(typstContent) {
     .replace(/[\s\u00A0\u202F]+([,;:.!?)\]])/g, "$1")
     .replace(/(?<!\\)([;:])[\t \u00A0\u202F]*(?=\S)/g, "$1 ")
     .replace(/,(?![\d"])\s*/g, ", ")
+    .replace(/,\s+(\\?["”])(?=(?:\s+\S+){1,4}\s+(?:said|asked|answered|responded|replied)\b)/giu, ",$1")
+    .replace(/,\s+(\\?["”])(?=\s+[a-z])/gu, ",$1")
     .replace(/(\d),\s+(?=\d)/g, "$1,")
     .replace(/,\s*,\s*/g, ", ")
     .replace(/(\d+):\s+(\d+)/g, "$1:$2")
@@ -901,7 +914,7 @@ function normalizePunctuationSpacing(typstContent) {
     .replace(MISSING_OPEN_HEBREW_CITATION_PAREN_RE, "$1 ($2):")
     .replace(HEBREW_PASUK_BEFORE_PEREK_RE, "פרק $2 פסוק $1")
     .replace(SHORT_HEBREW_PREFIX_DASH_RE, "$1$2 - $3")
-    .replace(HEBREW_TO_ENGLISH_DASH_RE, "$1 - ");
+    .replace(HEBREW_TO_ENGLISH_DASH_RE, "$1 - "));
 }
 
 function isolateHebrewRuns(typstContent) {

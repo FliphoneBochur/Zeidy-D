@@ -44,6 +44,11 @@ const PDF_PATTERNS = [
   },
   {
     severity: "medium",
+    label: "quote surrounded by spaces",
+    re: /\s["“”]\s/u,
+  },
+  {
+    severity: "medium",
     label: "broken thousands separator",
     re: /\b\d{1,3},\s+\d{3}\b/u,
   },
@@ -85,6 +90,11 @@ const TYP_PATTERNS = [
     severity: "medium",
     label: "space before punctuation in Typst source",
     re: new RegExp(`[A-Za-z0-9${HEBREW}]\\s+[,.;:!?](?!\\d)`, "u"),
+  },
+  {
+    severity: "medium",
+    label: "quote surrounded by spaces in Typst source",
+    re: /\s\\?["“”]\s/u,
   },
   {
     severity: "medium",

@@ -176,6 +176,16 @@ test("audit flags source space on both sides of semicolon", () => {
   assert.equal(auditMatches("אריז״ל\\;#metadata(none) <person-index-1> it's not", pattern, "Typst source"), false);
 });
 
+test("audit flags quotes surrounded by spaces", () => {
+  const pdfPattern = auditPattern(PDF_PATTERNS, "quote surrounded by spaces");
+  const typPattern = auditPattern(TYP_PATTERNS, "quote surrounded by spaces in Typst source");
+
+  assert.equal(auditMatches('paid up, " the sibling said', pdfPattern), true);
+  assert.equal(auditMatches('the sibling said. "Look, the money', pdfPattern), false);
+  assert.equal(auditMatches('paid up, \\" the sibling said', typPattern, "Typst source"), true);
+  assert.equal(auditMatches('the sibling said. \\"Look, the money', typPattern, "Typst source"), false);
+});
+
 test("audit flags missing source space after colon before Hebrew isolate", () => {
   const pattern = auditPattern(TYP_PATTERNS, "missing space after colon before Hebrew in Typst source");
 
@@ -340,14 +350,21 @@ test("removes spaces before closing parenthesis", () => {
 test("moves English closing quote before said attribution", () => {
   assert.equal(
     normalizePunctuationSpacing('"My friend, " said Reb Levi Yitzchok'),
-    '"My friend," said Reb Levi Yitzchok'
+    '“My friend,” said Reb Levi Yitzchok'
+  );
+});
+
+test("removes space between comma and closing quote before attribution", () => {
+  assert.equal(
+    normalizePunctuationSpacing('paid up, " the sibling said'),
+    'paid up,” the sibling said'
   );
 });
 
 test("moves punctuation inside nested English close quotes", () => {
   assert.equal(
     normalizePunctuationSpacing("help me marry off my daughters'\". \"My friend"),
-    "help me marry off my daughters.'\" \"My friend"
+    "help me marry off my daughters.'\” \“My friend"
   );
 });
 
@@ -707,21 +724,21 @@ test("keeps internal Hebrew commas attached before spaces", () => {
 test("keeps Hebrew acronym token together", () => {
   assert.equal(
     applyTextRules('רש\\"י says'),
-    `${LTR_ISOLATE}רש\\"י${POP_DIRECTIONAL_ISOLATE} says`
+    `${LTR_ISOLATE}רש״י${POP_DIRECTIONAL_ISOLATE} says`
   );
 });
 
 test("keeps short Hebrew acronym phrase in logical order", () => {
   assert.equal(
     applyTextRules('There is a יסודותדיק רמב\\"ן at the beginning'),
-    `There is a ${LTR_ISOLATE}יסודותדיק רמב\\"ן${POP_DIRECTIONAL_ISOLATE} at the beginning`
+    `There is a ${LTR_ISOLATE}יסודותדיק רמב״ן${POP_DIRECTIONAL_ISOLATE} at the beginning`
   );
 });
 
 test("keeps shorthand acronym phrase in logical order", () => {
   assert.equal(
     applyTextRules('part of שובבים ת\\"ת, which includes'),
-    `part of ${LTR_ISOLATE}שובבים ת\\"ת${POP_DIRECTIONAL_ISOLATE}, which includes`
+    `part of ${LTR_ISOLATE}שובבים ת״ת${POP_DIRECTIONAL_ISOLATE}, which includes`
   );
 });
 
@@ -756,14 +773,14 @@ test("keeps Hebrew phrase split by ellipsis in one reading order", () => {
 test("keeps acronym-led Hebrew source titles in logical order", () => {
   assert.equal(
     applyTextRules('addresses this in שו\\"ת חתם סופר, יורה דעה סימן רל\\"ג, in the name'),
-    `addresses this in ${LTR_ISOLATE}שו\\"ת חתם סופר, יורה דעה סימן רל\\"ג${POP_DIRECTIONAL_ISOLATE}, in the name`
+    `addresses this in ${LTR_ISOLATE}שו״ת חתם סופר, יורה דעה סימן רל״ג${POP_DIRECTIONAL_ISOLATE}, in the name`
   );
 });
 
 test("keeps Hebrew name phrase ending with acronym in logical order", () => {
   assert.equal(
     applyTextRules('written by ר\\\' שלמה גנצפריד זצ\\"ל - a tremendous'),
-    `written by ${LTR_ISOLATE}ר\\' שלמה גנצפריד זצ\\"ל${POP_DIRECTIONAL_ISOLATE} - a tremendous`
+    `written by ${LTR_ISOLATE}ר\\' שלמה גנצפריד זצ״ל${POP_DIRECTIONAL_ISOLATE} - a tremendous`
   );
 });
 
@@ -1085,7 +1102,7 @@ test("docx: Bo 5783 keeps comma after Moshe before quoted English", () => {
 
   assertContains(
     typst,
-    `Hashem said to ${RTL_ISOLATE}משה${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} "Let`,
+    `Hashem said to ${RTL_ISOLATE}משה${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} “Let`,
     "comma after Moshe before quoted English"
   );
   assertNotContains(typst, `${RTL_ISOLATE}משה,${POP_DIRECTIONAL_ISOLATE} "Let`, "comma inside Moshe isolate before quote");
@@ -1096,10 +1113,21 @@ test("docx: Rosh Hashana 5785 keeps closing quotes before said attribution", () 
 
   assertContains(
     typst,
-    `help me marry off my daughters.'\" \"My friend,\" said Reb Levi`,
+    `help me marry off my daughters.'” “My friend,” said Reb Levi`,
     "closing quote before My friend attribution"
   );
   assertNotContains(typst, `daughters'\". \"My friend, \" said`, "raw quote punctuation");
+});
+
+test("docx: Yom Kippur 5784 keeps comma tight before closing quote attribution", () => {
+  const typst = convertedDocx("/yom-kippur/5784/");
+
+  assertContains(
+    typst,
+    `more or less paid up,” the sibling said`,
+    "comma should be tight before closing quote"
+  );
+  assertNotContains(typst, `more or less paid up, \\" the sibling said`, "space between comma and quote");
 });
 
 test("docx: How to do Teshuva keeps comma after parsha before bracketed note", () => {
