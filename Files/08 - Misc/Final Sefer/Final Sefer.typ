@@ -11934,7 +11934,8 @@ be cleansed. ⁧בעזרת השם⁩⁦,⁩ we should have a ⁧גיט געבע�
 The following story, properly entitled Rosh#metadata(none) <person-index-rosh-966> Hashana in Berditchev, is
 one of the family's favorite stories, and I've been asked to repeat it
 over for everyone to have for posterity. The central figure of course is
-R' Levi Yitzchok#metadata(none) <person-index-r-levi-yitzchok-of-berditchev-963> ⁧זכותו יגן עלינו⁩.
+R' Levi Yitzchok#metadata(none) <person-index-r-levi-yitzchok-of-berditchev-963> ⁧זכותו יגן עלינו⁩⁦,⁩ and this story is from The Complete
+Story of Tishrei by Nissan Mindel.
 
 It was the first day of Rosh#metadata(none) <person-index-rosh-967> Hashana in the shul in Berditchev by the
 Rebbe, R' Levi Yitzchok.#metadata(none) <person-index-r-levi-yitzchok-of-berditchev-964> It was crowded. The Rebbe himself was at the

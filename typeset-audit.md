@@ -61,7 +61,7 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - visual: [page-0378.png](typeset-audit-pages/page-0378.png)
   - כ״ז:ד׳)⁩⁩. What does ⁧דוד המלך⁩ mean by ⁧כׇּל יְמֵי חַיַּי⁩⁦?⁩
   - normalized: כ״ז:ד׳). What does דוד המלך mean by כׇּל יְמֵי חַיַּי?
-- Typst source, page 442, Purim 5785, line 13570
+- Typst source, page 442, Purim 5785, line 13571
   - visual: [page-0442.png](typeset-audit-pages/page-0442.png), [page-0443.png](typeset-audit-pages/page-0443.png)
   - does this connection mean? He brings a ⁧פסוק⁩ from ⁦שמות ד:י״ד⁩: ⁧וְרָאֲךָ וְשָׂמַח בְּלִבּוֹ⁩. What is ⁦אהרן'⁩s ⁧מידה⁩? We all know abou...
   - normalized: does this connection mean? He brings a פסוק from שמות ד:י״ד: וְרָאֲךָ וְשָׂמַח בְּלִבּוֹ. What is אהרן's מידה? We all know about...
