@@ -639,18 +639,19 @@ had nothing. We know that ⁧נח⁩ was a ⁧צדיק⁩⁦,⁩ but for whateve
 happened and told his two brothers. A famous pasuk (9:23): ⁧וַיִּקַּח שֵׁם וָיֶפֶת אֶת הַשִּׂמְלָה וַיָּשִׂימוּ עַל שְׁכֶם שְׁנֵיהֶם וַיֵּלְכוּ אֲחֹרַנִּית וַיְכַסּוּ אֵת עֶרְוַת אֲבִיהֶם⁩. The ⁧אזנים לתורה⁩#metadata(none) <person-index-r-zalman-sorotzkin-14> brings a ⁧מדרש⁩ that says that ⁧שֵׁם⁩ and ⁧יֶפֶת⁩ got a ⁧שכר⁩ for doing this
 ⁧מצוה⁩ of ⁧כיבוד אב⁩.
 
-⁦יֶפֶת'⁩s ⁧שכר⁩ is after the ⁧מלחמת גוג ומגוג⁩ his offspring will be ⁧זוכה⁩ to
-⁧קבורה⁩ when they die. What will ⁧שֵׁם⁩ get? ⁧שֵׁם⁩ will get clothing with which
-one can do the ⁧מצוה⁩ of ⁧ציצית⁩. What's the difference between the two of
-them? The answer is, ⁧וַיִּקַּח שֵׁם וָיֶפֶת אֶת הַשִּׂמְלָה⁩⁦,⁩ that's a grammatically
-incorrect term. The Torah is specifically saying, "And he took," and
-it's talking about two people, so it should say ⁧ויקחו⁩. The ⁧מדרש⁩ says ⁧שֵׁם⁩
-took it with a ⁧לעבעדיקע מצוה⁩. He took it because he was trying to do
-this, and ⁧יפת⁩ tagged along, he shlepped along to do it, but he did it
-without any ⁧טעם⁩⁦,⁩ without any ⁧חיות⁩⁦,⁩ without any great enthusiasm. So one
-did a ⁧לעבעדיקע מצוה⁩⁦,⁩ and one did a ⁧טויטע מצוה⁩. So guess what, the ⁧שכר⁩ is
-equally compensatory. It's ⁧מדה כנגד מדה⁩. ⁧שֵׁם⁩ did it with a ⁧ברען⁩⁦,⁩ as a
-living ⁧מצוה⁩⁦,⁩ therefore he gets a living ⁧שכר⁩. But ⁧יֶפֶת⁩⁦,⁩ you did a ⁧טויטע מצוה⁩⁦,⁩ you get a ⁧שכר⁩ that after you die, you're going to get buried, which is also a big ⁧זכות⁩.
+⁦יֶפֶת'⁩s ⁧שכר⁩ is after the ⁧מלחמת גוג ומגוג⁩ when they die, his offspring will
+be ⁧זוכה⁩ to ⁧קבורה⁩. What will ⁧שֵׁם⁩ get? ⁧שֵׁם⁩ will get clothing with which one
+can do the ⁧מצוה⁩ of ⁧ציצית⁩. What's the difference between the two of them?
+The answer is in the pasuk: ⁧וַיִּקַּח שֵׁם וָיֶפֶת אֶת הַשִּׂמְלָה⁩. That's a
+grammatically incorrect phrase. The Torah is specifically saying, "And
+he took," and it's talking about two people, it should say ⁧ויקחו⁩. The
+⁧מדרש⁩ says ⁧שֵׁם⁩ took it as a ⁧לעבעדיקע מצוה⁩. However, ⁧יפת⁩ only tagged along, he shlepped along to do it, but he did it without any ⁧טעם⁩⁦,⁩ without any
+⁧חיות⁩⁦,⁩ without any great enthusiasm. So one did a ⁧לעבעדיקע מצוה⁩⁦,⁩ and one
+did a ⁧טויטע מצוה⁩. So guess what, the ⁧שכר⁩ is equally compensatory. It's
+⁧מדה כנגד מדה⁩. ⁧שֵׁם⁩ did it with a ⁧ברען⁩⁦,⁩ as a living ⁧מצוה⁩⁦,⁩ therefore he gets
+a living ⁧שכר⁩. But ⁧יֶפֶת⁩⁦,⁩ you did a ⁧טויטע מצוה⁩⁦,⁩ you get a ⁧שכר⁩ that after
+you die, you're going to get buried, which is also a big ⁧זכות⁩⁦,⁩ but not
+comparable to ⁦שֵׁם'⁩s ⁧שכר⁩.
 
 If you do a ⁧מצוה⁩⁦,⁩ do it with your whole heart. Do it the way that ⁧שֵׁם⁩ did
 it. That's the way to do a ⁧מצוה⁩.
