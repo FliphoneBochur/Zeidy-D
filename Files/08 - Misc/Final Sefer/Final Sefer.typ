@@ -8581,42 +8581,36 @@ Yisro and Vaeschanan is what we say every Friday night in Lecha Dodi:
 time. Nobody else can. People can talk out of both sides of their mouth, ⁧להבדיל⁩⁦,⁩ but only ⁧הקדוש ברוך הוא⁩ can say two things at the same time.
 
 That brings us to an interesting story, one of my favorites, brought
-down in Rabbi Peretz Steinberg's#metadata(none) <person-index-rabbi-peretz-steinberg-693> beautiful sefer on ⁧חומש⁩ called ⁧ספר פרי עץ חיים⁩#metadata(none) <person-index-pri-eitz-chaim-691> in the name of R' Yaakov Kamenetsky#metadata(none) <person-index-r-yaakov-kamenetsky-694> on the pasuk (5:12) ⁧שָׁמֹור אֶת יֹום הַשַּׁבָּת לְקַדְּשֹׁו⁩. Rav Steinberg says that he himself heard from R' Yaakov
-that one time, R' Yaakov went into a ⁧חדר⁩ in ⁧ירושלים⁩ where there were
-little kids, and he asked them “In Lecha Dodi is says ⁧שָׁמוֹר וְזָכוֹר בְּדִבּוּר אֶחָד⁩. But what was actually written on the ⁧לוחות⁩⁦,⁩ did it say ⁧שָׁמוֹר⁩ or
-⁧זָכוֹר⁩?” All the little ⁧קינדערלאך⁩ raised their hands. He went through the
-whole room, and they all said “It said ⁧זָכוֹר⁩ on the ⁧לוחות⁩” And he says, and that's what you see in every shul, on whatever they have as a
-depiction of the ⁧עשרת הדברות⁩.
+down in Rabbi Peretz Steinberg's#metadata(none) <person-index-rabbi-peretz-steinberg-693> beautiful sefer on ⁧חומש⁩ called ⁧ספר פרי עץ חיים⁩#metadata(none) <person-index-pri-eitz-chaim-691> in the name of R' Yaakov Kamenetsky#metadata(none) <person-index-r-yaakov-kamenetsky-694> on the pasuk (5:12) ⁧שָׁמֹור אֶת יֹום הַשַּׁבָּת לְקַדְּשֹׁו⁩. R' Yaakov once went into a ⁧חדר⁩ in ⁧ירושלים⁩ where there
+were little kids, and he asked them “In Lecha Dodi it says ⁧שָׁמוֹר וְזָכוֹר בְּדִבּוּר אֶחָד⁩. But what was actually written on the ⁧לוחות⁩⁦,⁩ did it say ⁧שָׁמוֹר⁩
+or ⁧זָכוֹר⁩?” All the little ⁧קינדערלאך⁩ raised their hands. He went through
+the whole room, and they all said “It said ⁧זָכוֹר⁩ on the ⁧לוחות⁩” which is
+what you see in every shul.
 
-One little fellow in the back said, “It said ⁧שָׁמוֹר⁩ on the ⁧לוחות⁩”. R'
-Yaakov asked him “How do you know that? The boy replied “That's what it
-says in the ⁧סידור⁩\.” “Where?” The boy answered “In Shabbos shachris:
-⁧יִשמַח משֶׁה בְּמַתְּנַת חֶלְקו כִּי עֶבֶד נֶאֱמָן קָרָאתָ לּו כְּלִיל תִּפְאֶרֶת בְּראשׁו נָתַתָּ בְּעָמְדו לְפָנֶיךָ עַל הַר סִינַי וּשְׁנֵי לֻחות אֲבָנִים הורִיד בְּיָדו #strong[וְכָתוּב בָּהֶם שְׁמִירַת שַׁבָּת]⁩
-#strong[\-] That the ⁧לוחות⁩ had written on it ⁧שמירת שבת⁩⁦,⁩ not ⁧זכירת שבת⁩.
-R' Yaakov said, “This boy is going to grow up to be a big ⁧תלמיד חכם⁩\.”
+One little fellow in the back said, “It said ⁧שָׁמוֹר⁩ on the ⁧לוחות⁩\.” R'
+Yaakov asked him “How do you know that?” The boy replied “That's what it
+says in the ⁧סידור⁩\.” “Where?” The boy answered “In Shabbos shachris: ⁧יִשמַח משֶׁה בְּמַתְּנַת חֶלְקו כִּי עֶבֶד נֶאֱמָן קָרָאתָ לּו כְּלִיל תִּפְאֶרֶת בְּראשׁו נָתַתָּ בְּעָמְדו לְפָנֶיךָ עַל הַר סִינַי וּשְׁנֵי לֻחות אֲבָנִים הורִיד בְּיָדו #strong[וְכָתוּב בָּהֶם שְׁמִירַת שַׁבָּת]⁩
+#strong[\-] That the ⁧לוחות⁩ had written on them ⁧שמירת שבת⁩⁦,⁩ not ⁧זכירת שבת⁩. R' Yaakov said, “This boy is going to grow up to be a big ⁧תלמיד חכם⁩\.”
 
-What are we saying when we say ⁧זכור⁩ and ⁧שמור⁩? What is the message? What
+What are we saying when we say ⁧שמור⁩ and ⁧זכור⁩? What is the message? What
 is the concept? What are we trying to learn from this? Anything that is
 precious to us has to be guarded. We constantly think about the things
 that are precious to us - not our possessions, not our ⁧גשמיות⁩⁦,⁩ but our
 ⁧רוחניות⁩: our family, our ⁧טייערע קינדערלאך⁩⁦,⁩ our spouses, our parents.
-These are the precious things. Our ⁧תורה⁩ and our ⁧מצוות⁩ and Shabbos, one
-of our most prized possessions of all. We have to guard it. We have to
-keep it. We have to take care of it. We have to watch and look for
-better and newer ways to be more careful with Shabbos.
+These are the precious things. Our ⁧תורה⁩ and our ⁧מצוות⁩. Shabbos is one of
+our most prized possessions of all. We have to guard it. We have to keep
+it. We have to take care of it. We have to watch and look for better and
+newer ways to be more careful with Shabbos.
 
-The more that we learn ⁧הלכות שבת⁩⁦,⁩ the more we learn what we should be
-doing. Just a tiny example: I used to love to put scallions into my
-chicken soup on Friday night. Rabbi Oelbaum#metadata(none) <person-index-r-noach-isaac-oelbaum-692> once told me that I'm not
-allowed to do that, because scallions are easily cooked - it's called
-⁧קלי בישול⁩ - and even though we normally say that there's no ⁧בישול⁩ in a
-⁧כלי שלישי⁩⁦,⁩ by things that are ⁧קלי בישול⁩⁦,⁩ like scallions, we say there
-can be ⁧בישול⁩ even in a ⁧כלי שלישי⁩. So I learned something, now I don't do
-it, and I'm being ⁧שומר שבת⁩ even more than I did before.
+The more that we learn ⁧הלכות שבת⁩⁦,⁩ the more we learn how to do it right.
+Just a tiny example: I used to love to put scallions into my chicken
+soup on Friday night. Rabbi Oelbaum#metadata(none) <person-index-r-noach-isaac-oelbaum-692> once told me that I'm not allowed to
+do that, because scallions are easily cooked - it's called ⁧קַלֵי הבישול⁩ - and even though we normally say that there's no ⁧בישול⁩ in a ⁧כלי שלישי⁩⁦,⁩ with foods that are ⁧קַלֵי הבישול⁩⁦,⁩ like scallions, we say there can be
+⁧בישול⁩ even in a ⁧כלי שלישי⁩. So I learned something; now I don't do it, and I'm being ⁧שומר שבת⁩ even more than I did before.
 
 No matter what it is, every single little thing that we do adds up. The
 things we think are little down here are very big up there. And some of
-the things that the world thinks are big down here are nothing up there, as we well know. Let us all strive to do all of our ⁧שמירת המצוות⁩ better, and we will indeed be ⁧מקיים זכור ושמור בדיבור אחד⁩.
+the things that the world thinks are big down here are nothing up there, as we well know. Let us all strive to do all of our ⁧שמירת המצוות⁩ better, and we will indeed be ⁧מקיים שמור וזכור בדיבור אחד⁩.
 
 #pagebreak()
 
