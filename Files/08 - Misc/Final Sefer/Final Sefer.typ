@@ -14677,7 +14677,7 @@ in fact ⁧צדיק כתמר יפרח להגד כי ישר ה׳ צורי ולא 
 
 #index-row(("R' Tzadka",), (label("person-index-r-tzadka-960"), label("person-index-r-tzadka-961")))
 
-#index-row(("R' Tzvi Elimelech of Dinov", "(בני יששכר)",), (label("person-index-r-tzvi-elimelech-of-dinov-653"), label("person-index-r-tzvi-elimelech-of-dinov-654"), label("person-index-r-tzvi-elimelech-of-dinov-655"), label("person-index-r-tzvi-elimelech-of-dinov-656"), label("person-index-r-tzvi-elimelech-of-dinov-924"), label("person-index-r-tzvi-elimelech-of-dinov-925"), label("person-index-r-tzvi-elimelech-of-dinov-943"), label("person-index-r-tzvi-elimelech-of-dinov-944"), label("person-index-r-tzvi-elimelech-of-dinov-1049"), label("person-index-r-tzvi-elimelech-of-dinov-1060")))
+#index-row(("R' Tzvi Elimelech of Dinov", "(Bnei Yissaschar)",), (label("person-index-r-tzvi-elimelech-of-dinov-653"), label("person-index-r-tzvi-elimelech-of-dinov-654"), label("person-index-r-tzvi-elimelech-of-dinov-655"), label("person-index-r-tzvi-elimelech-of-dinov-656"), label("person-index-r-tzvi-elimelech-of-dinov-924"), label("person-index-r-tzvi-elimelech-of-dinov-925"), label("person-index-r-tzvi-elimelech-of-dinov-943"), label("person-index-r-tzvi-elimelech-of-dinov-944"), label("person-index-r-tzvi-elimelech-of-dinov-1049"), label("person-index-r-tzvi-elimelech-of-dinov-1060")))
 
 #index-row(("R' Tzvi Hersh Heller",), (label("person-index-rav-tzvi-hersh-heller-643"),))
 
