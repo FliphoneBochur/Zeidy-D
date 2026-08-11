@@ -707,8 +707,8 @@ function personAliasRegex(person) {
     return null;
   }
 
-  const boundaryChars = "A-Za-z0-9\\u0590-\\u05FF\\uFB1D-\\uFB4F";
-  return new RegExp(`(?<![${boundaryChars}])(?:${aliasSources.join("|")})(?:['’‘]s)?(?![${boundaryChars}])`, "gu");
+  const boundaryChars = "A-Za-z0-9\\u0590-\\u05FF\\uFB1D-\\uFB4F-";
+  return new RegExp(`(?<![${boundaryChars}])(?:${aliasSources.join("|")})(?:['’‘]s)?(?![${boundaryChars}])`, "giu");
 }
 
 function createPersonIndexState(people) {
@@ -732,7 +732,10 @@ function tagPersonIndexMentions(typstContent, indexState) {
       continue;
     }
 
-    tagged = tagged.replace(re, (match) => {
+    tagged = tagged.replace(re, (match, offset, fullText) => {
+      if (fullText.slice(offset + match.length).startsWith("#metadata(none) <person-index-")) {
+        return match;
+      }
       const marker = `person-index-${person.id}-${indexState.nextMarker}`;
       indexState.nextMarker += 1;
       indexState.mentions.get(person.id).push(marker);

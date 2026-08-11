@@ -973,6 +973,37 @@ test("keeps English possessive before person index marker", () => {
   );
 });
 
+test("does not tag aliases inside generated person index markers", () => {
+  const indexState = {
+    people: [
+      {
+        id: "rav-shach",
+        displayName: "Rav Shach",
+        aliases: ["Rav Shach"],
+      },
+      {
+        id: "shach",
+        displayName: "Shach",
+        aliases: ["Shach"],
+      },
+    ],
+    mentions: new Map([
+      ["rav-shach", []],
+      ["shach", []],
+    ]),
+    nextMarker: 1,
+  };
+
+  assert.equal(
+    tagPersonIndexMentions("As Rav Shach said.", indexState),
+    "As Rav Shach#metadata(none) <person-index-rav-shach-1> said."
+  );
+  assert.deepEqual(indexState.mentions.get("rav-shach"), [
+    "person-index-rav-shach-1",
+  ]);
+  assert.deepEqual(indexState.mentions.get("shach"), []);
+});
+
 test("docx: Mikeitz 5783 fixes named numeric double-parenthesis citations", () => {
   const typst = convertedDocx("/mikeitz/5783/");
 
@@ -1311,6 +1342,22 @@ test("docx: Vaeschanan 5784 keeps comma after machaneh before number", () => {
     "comma after machaneh before 412"
   );
   assertNotContains(typst, `${RTL_ISOLATE}מחנה,${POP_DIRECTIONAL_ISOLATE} 412`, "comma inside machaneh isolate before 412");
+});
+
+test("docx: Vaeschanan 5784 indexes lowercase Belzer rebbe alias", () => {
+  const typst = convertedDocxWithIndex("/vaeschanan/5784/", [
+    {
+      id: "the-belzer-rebbe",
+      displayName: "Belzer Rebbe",
+      aliases: ["Belzer Rebbe"],
+    },
+  ]);
+
+  assertContains(
+    typst,
+    "Belzer rebbe#metadata(none) <person-index-the-belzer-rebbe-1>",
+    "lowercase Belzer rebbe index marker"
+  );
 });
 
 test("docx: Vayaishev 5785 keeps bold hayom inside the Re'eh RTL phrase", () => {

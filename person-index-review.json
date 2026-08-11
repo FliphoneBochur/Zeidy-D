@@ -178,7 +178,7 @@
       "createdAt": "2026-07-24T01:50:33.385Z"
     },
     "gerrer-rebbe": {
-      "displayName": "Gerrer Rebbe (R' Avraham Mordechai, The Chidushi HaRim)",
+      "displayName": "Gerrer Rebbe (R' Avraham Mordechai, Chidushi HaRim)",
       "aliases": [
         "Gerrer Rebbe",
         "Avraham Mordechai",
@@ -624,7 +624,7 @@
       "createdAt": "2026-07-24T03:29:07.387Z"
     },
     "r-zalman-sorotzkin": {
-      "displayName": "R’ Zalman Sorotzkin (Lutzker Rav, The Oznayim LaTorah)",
+      "displayName": "R’ Zalman Sorotzkin (Lutzker Rav, Oznayim LaTorah)",
       "aliases": [
         "R’ Zalman Sorotzkin",
         "Lutzker Rav",
@@ -1335,13 +1335,6 @@
       ],
       "createdAt": "2026-07-24T04:14:43.545Z"
     },
-    "rav-yechiel-spiro": {
-      "displayName": "R' Yechiel Spiro",
-      "aliases": [
-        "Rav Yechiel Spiro"
-      ],
-      "createdAt": "2026-07-24T04:14:46.014Z"
-    },
     "rav-yeruchem-gorelick": {
       "displayName": "R' Yeruchem Gorelick",
       "aliases": [
@@ -1416,28 +1409,29 @@
       "createdAt": "2026-07-24T04:22:59.913Z"
     },
     "the-belzer-rebbe": {
-      "displayName": "The Belzer Rebbe",
+      "displayName": "Belzer Rebbe",
       "aliases": [
-        "The Belzer Rebbe"
+        "Belzer Rebbe",
+        "Belzer rebbe"
       ],
       "createdAt": "2026-07-24T04:24:36.253Z"
     },
     "the-chazon-ish": {
-      "displayName": "The Chazon Ish",
+      "displayName": "Chazon Ish",
       "aliases": [
         "The Chazon Ish"
       ],
       "createdAt": "2026-07-24T04:25:07.502Z"
     },
     "the-kotzker-rebbe": {
-      "displayName": "The Kotzker Rebbe",
+      "displayName": "Kotzker Rebbe",
       "aliases": [
         "The Kotzker Rebbe"
       ],
       "createdAt": "2026-07-24T04:26:38.786Z"
     },
     "the-ruzhiner": {
-      "displayName": "The Ruzhiner",
+      "displayName": "Ruzhiner",
       "aliases": [
         "The Ruzhiner",
         "The Ruzhiner Rebbe"
@@ -1445,9 +1439,9 @@
       "createdAt": "2026-07-24T04:27:20.864Z"
     },
     "the-sanzer-rav": {
-      "displayName": "The Sanzer Rav",
+      "displayName": "Sanzer Rav",
       "aliases": [
-        "The Sanzer Rav"
+        "Sanzer Rav"
       ],
       "createdAt": "2026-07-24T04:27:34.965Z"
     },
@@ -1466,9 +1460,9 @@
       "createdAt": "2026-07-24T04:28:19.203Z"
     },
     "the-yid-hakodosh": {
-      "displayName": "The Yid Hakodosh",
+      "displayName": "Yid Hakodosh",
       "aliases": [
-        "The Yid Hakodosh",
+        "Yid Hakodosh",
         "ייד הקדוש",
         "ייד הקדוש מפשיסחא"
       ],
