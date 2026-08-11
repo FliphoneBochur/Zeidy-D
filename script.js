@@ -646,39 +646,26 @@ function initMobileNav() {
   // Auto-open on initial load if mobile and no content selected
   checkAutoOpen();
 
-  // Update nav position based on header height
-  function updateNavPosition() {
-    if (window.innerWidth <= 1024) {
-      const header = document.querySelector(".top-header");
-      const nav = document.getElementById("nav");
-      if (header && nav) {
-        const headerRect = header.getBoundingClientRect();
-        const headerBottom = headerRect.bottom;
-        nav.style.top = `${headerBottom}px`;
-        nav.style.height = `calc(100vh - ${headerBottom}px)`;
-        nav.style.marginTop = "0";
-      }
-    } else {
-      // Reset inline styles on desktop
-      const nav = document.getElementById("nav");
-      if (nav) {
-        nav.style.top = "";
-        nav.style.height = "";
-        nav.style.marginTop = "";
-      }
-    }
-  }
+  let wasMobileLayout = window.innerWidth <= 1024;
 
   // Update position on resize
   window.addEventListener("resize", () => {
-    updateNavPosition();
-    if (window.innerWidth > 1024) {
+    const isMobileLayout = window.innerWidth <= 1024;
+    const crossedLayoutBreakpoint = isMobileLayout !== wasMobileLayout;
+    wasMobileLayout = isMobileLayout;
+
+    if (!isMobileLayout) {
       closeNav();
     } else {
       checkAutoOpen();
     }
 
-    // Refresh PDF display if switching between mobile/desktop
+    // Refresh PDF display only when switching between mobile/desktop layouts.
+    // Mobile browser chrome changes can fire resize while scrolling.
+    if (!crossedLayoutBreakpoint) {
+      return;
+    }
+
     const activeItem = document.querySelector("nav li.active");
     if (activeItem) {
       // Small delay to ensure layout has updated
@@ -687,9 +674,6 @@ function initMobileNav() {
       }, 100);
     }
   });
-
-  // Initial position update
-  updateNavPosition();
 }
 
 // Audio player functionality
