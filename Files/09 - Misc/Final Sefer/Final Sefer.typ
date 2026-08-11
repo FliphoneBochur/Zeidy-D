@@ -378,7 +378,7 @@ had heard as a teenager. I wanted to make sure that I would remember the
 lessons Zeidy had taught me. More than that, I wanted somehow to
 preserve the passion with which he gave them over, so that one day I
 could share what I had received from him with my own children and
-grandchildren.
+grandchildren bezras Hashem.
 
 And so this project began.
 
@@ -426,6 +426,11 @@ I am deeply grateful to my wife, Rosa, for graciously allowing and
 encouraging me to spend countless hours recording, transcribing, typing, reviewing, and editing this sefer. Without her patience and support, it
 could never have become what it is.
 
+I am also deeply grateful to Bobbi D for sharing Zeidy with me, not only
+throughout all the years that we learned together, but especially for
+allowing him to devote so much time to the recordings and to working
+with me on this sefer.
+
 And finally, I am grateful to Zeidy. I am grateful for his giving me his
 time, and for putting up with all my nudging, pestering, and generally
 being a nuisance to get these Divrei Torah recorded. When I first told
@@ -439,9 +444,8 @@ to record more in advance. Even though he was already in pain and had
 plenty else to deal with, Zeidy patiently went along with me and made
 the time to record everything that needed to be done.
 
-I am also incredibly grateful for the literally hundreds of hours he
-spent sitting with me, reviewing, correcting, and editing the final
-sefer together.
+I am also incredibly grateful for the hundreds of hours he spent sitting
+with me, reviewing, correcting, and editing the final sefer together.
 
 But more than anything, I am grateful for all the years of learning, for
 the thousands of vertlach, and for the enthusiasm for Torah that came
