@@ -316,7 +316,7 @@ of ⁧הַדֹּבֵר⁩ is the same as ⁧ארי⁩.
 #pagebreak()
 
 #set page(header: none, footer: none)
-#heading(level: 1, outlined: false)[Foreword - Zeidy]
+#heading(level: 1, outlined: false)[Preface - Zeidy]
 
 #align(center)[
 ⁧ישמחו השמים ותגל הארץ⁩]
@@ -339,7 +339,7 @@ Dedicated to the grandchildren ⁧שיחיו⁩.
 #pagebreak()
 
 #set page(header: none, footer: none)
-#heading(level: 1, outlined: false)[Foreword - Ari]
+#heading(level: 1, outlined: false)[Preface - Ari]
 
 #align(center)[
 “Someday, I want to write a sefer with all of my vertlach.”]

@@ -881,12 +881,12 @@
       "baseFilename": "Rabbi Yossi Bennett"
     },
     "/ari/": {
-      "contentPath": "08 - Foreword/Ari",
-      "baseFilename": "Foreword - Ari"
+      "contentPath": "08 - Prefaces/Ari",
+      "baseFilename": "Preface - Ari"
     },
     "/zeidy/": {
-      "contentPath": "08 - Foreword/Zeidy",
-      "baseFilename": "Foreword - Zeidy"
+      "contentPath": "08 - Prefaces/Zeidy",
+      "baseFilename": "Preface - Zeidy"
     },
     "/about-the-name/": {
       "contentPath": "09 - Misc/About The Name",
@@ -1130,8 +1130,8 @@
     "07 - Haskamos/Raabi Eliyahu Safran": "/raabi-eliyahu-safran/",
     "07 - Haskamos/Rabbi Oelbaum": "/rabbi-oelbaum/",
     "07 - Haskamos/Rabbi Yossi Bennett": "/rabbi-yossi-bennett/",
-    "08 - Foreword/Ari": "/ari/",
-    "08 - Foreword/Zeidy": "/zeidy/",
+    "08 - Prefaces/Ari": "/ari/",
+    "08 - Prefaces/Zeidy": "/zeidy/",
     "09 - Misc/About The Name": "/about-the-name/",
     "09 - Misc/Bloopers": "/bloopers/",
     "09 - Misc/Bris": "/bris/",
