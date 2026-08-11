@@ -247,6 +247,26 @@ function run(command, args, options = {}) {
   return result.stdout;
 }
 
+function commandExists(command) {
+  const result = spawnSync("which", [command], { encoding: "utf8" });
+  return result.status === 0;
+}
+
+async function optimizePdfForWeb(pdfPath) {
+  if (!commandExists("qpdf")) {
+    console.error("Skipping PDF web optimization: qpdf is not installed.");
+    return false;
+  }
+
+  const optimizedPath = `${pdfPath}.optimized`;
+  const startedAt = Date.now();
+  console.error("Optimizing PDF for web streaming with qpdf...");
+  run("qpdf", ["--linearize", pdfPath, optimizedPath]);
+  await fs.rename(optimizedPath, pdfPath);
+  console.error(`Finished PDF optimization in ${formatDuration(startedAt)}.`);
+  return true;
+}
+
 function typstString(value) {
   return JSON.stringify(value);
 }
@@ -1540,6 +1560,7 @@ async function main() {
   console.error(`Compiling PDF with Typst...`);
   run("typst", ["compile", "--root", ROOT_DIR, typstPath, pdfPath]);
   console.error(`Finished Typst compile in ${formatDuration(compileStartedAt)}.`);
+  await optimizePdfForWeb(pdfPath);
 
   console.log(`Built ${path.relative(ROOT_DIR, typstPath)}`);
   console.log(`Built ${path.relative(ROOT_DIR, pdfPath)}`);
