@@ -1988,7 +1988,7 @@ says that ⁦יוסף'⁩s ⁧אלומה⁩ stood upright while theirs bowed to 
 the ⁧תורה⁩ of ⁧פרנסה⁩.
 
 In contrast, the second dream revealed that ⁧יוסף⁩ himself would rise
-above the brothers in ⁧רוחניות⁩. The dream described (37:9) ⁧הַשֶּׁמֶשׁ וְהַיָּרֵחַ וְאַחַד עָשָׂר כּוֹכָבִים מִשְׁתַּחֲוִים⁩ #strong[⁧לִי⁩] - the celestial bodies bowing to ⁧יוסף⁩
+above the brothers in ⁧רוחניות⁩. The dream described (37:9) ⁧הַשֶּׁמֶשׁ וְהַיָּרֵחַ וְאַחַד עָשָׂר כּוֹכָבִים מִשְׁתַּחֲוִים #strong[לִי]⁩ - the celestial bodies bowing to ⁧יוסף⁩
 himself. (According to the ⁧בית הלוי⁩⁦,⁩ #metadata(none) <person-index-bais-halevi-155> the twelve ⁧מזלות⁩ hinted at here
 represent the ⁧סֵדֶר הַנְהַגַת הָעוֹלָם⁩⁦,⁩ the divine order by which ⁧הקדוש ברוך הוא⁩
 governs the world. ⁧יוסף⁩ would be at the center of this order, demonstrating his elevated role in the ⁧סדר הנהגת העולם⁩⁦,⁩ as we know ⁧צַדִיק יְסוֹד עוֹלָם⁩\.)
@@ -2780,7 +2780,7 @@ However, ⁧רבי יהושע בן קרחה⁩ points out one exception: in our 
 
 But, as always, there's a ⁧מחלוקת⁩. ⁧ר׳ שמעון בר יוחי⁩#metadata(none) <person-index-r-shimon-bar-yochai-211> disagrees and
 asserts that ⁧משה רבינו⁩ was indeed punished. How do we see this? The ⁧פסוק⁩
-says ⁧הֲלֹא אַהֲרֹן אָחִיךָ⁩ #strong[⁧הַלֵּוִי⁩] ⁧יָדַעְתִּי כִּי דַבֵּר יְדַבֵּר⁩. We know ⁧אַהֲרֹן⁩ is not
+says ⁧הֲלֹא אַהֲרֹן אָחִיךָ #strong[הַלֵּוִי]⁩ ⁧יָדַעְתִּי כִּי דַבֵּר יְדַבֵּר⁩. We know ⁧אַהֲרֹן⁩ is not
 referred to as a ⁧לוי⁩\; why does the ⁧תורה⁩ call him ⁧הלוי⁩? We know that
 ⁧אַהֲרֹן⁩ was destined to be the ⁧כהן גדול⁩. With these words, the ⁧מדרש⁩
 explains that Hashem was telling ⁧משה⁩⁦,⁩ “I had intended for you to be the
@@ -5812,7 +5812,7 @@ tells us that the world stands on three things: ⁧תורה⁩⁦,⁩ ⁧עבו�
 has to integrate these three pillars into his life so that when ⁧ראש השנה⁩
 and ⁧יום כיפור⁩ come, our ⁧תפילות⁩ can be answered. That is ⁧בְּזֹאת⁩ - with
 these elements totaling 408, every Jew can come before Hashem and plead.
-Not just the ⁧כהן גדול⁩⁦,⁩ every single Yid. As ⁧דוד המלך⁩ says in ⁧תהילים⁩: ⁧אִם תָּקוּם עָלַי מִלְחָמָה⁩ #strong[⁧בְּזֹאת⁩] ⁧אֲנִי בוֹטֵחַ⁩ - This is what I'm going to depend
+Not just the ⁧כהן גדול⁩⁦,⁩ every single Yid. As ⁧דוד המלך⁩ says in ⁧תהילים⁩: ⁧אִם תָּקוּם עָלַי מִלְחָמָה #strong[בְּזֹאת]⁩ ⁧אֲנִי בוֹטֵחַ⁩ - This is what I'm going to depend
 on. After 120 years, when we come before the ⁧בית דין של מעלה⁩ and are
 asked if we are worthy of entering ⁧גן עדן⁩⁦,⁩ we will say ⁧בְּזֹאת אֲנִי בוֹטֵחַ⁩⁦,⁩ we
 have to trust in our ⁧זֹאת⁩ - in our ⁧תורה⁩⁦,⁩ ⁧עבודה⁩⁦,⁩ and ⁧גמילות חסדים⁩⁦,⁩ represented by ⁧צום⁩⁦,⁩ ⁧קול⁩⁦,⁩ and ⁧ממון⁩. With that, we can be ⁧זוכה⁩ to a good
@@ -8591,7 +8591,7 @@ depiction of the ⁧עשרת הדברות⁩.
 One little fellow in the back said, “It said ⁧שָׁמוֹר⁩ on the ⁧לוחות⁩”. R'
 Yaakov asked him “How do you know that? The boy replied “That's what it
 says in the ⁧סידור⁩\.” “Where?” The boy answered “In Shabbos shachris:
-⁧יִשמַח משֶׁה בְּמַתְּנַת חֶלְקו כִּי עֶבֶד נֶאֱמָן קָרָאתָ לּו כְּלִיל תִּפְאֶרֶת בְּראשׁו נָתַתָּ בְּעָמְדו לְפָנֶיךָ עַל הַר סִינַי וּשְׁנֵי לֻחות אֲבָנִים הורִיד בְּיָדו⁩ #strong[⁧וְכָתוּב בָּהֶם שְׁמִירַת שַׁבָּת⁩]
+⁧יִשמַח משֶׁה בְּמַתְּנַת חֶלְקו כִּי עֶבֶד נֶאֱמָן קָרָאתָ לּו כְּלִיל תִּפְאֶרֶת בְּראשׁו נָתַתָּ בְּעָמְדו לְפָנֶיךָ עַל הַר סִינַי וּשְׁנֵי לֻחות אֲבָנִים הורִיד בְּיָדו #strong[וְכָתוּב בָּהֶם שְׁמִירַת שַׁבָּת]⁩
 #strong[\-] That the ⁧לוחות⁩ had written on it ⁧שמירת שבת⁩⁦,⁩ not ⁧זכירת שבת⁩.
 R' Yaakov said, “This boy is going to grow up to be a big ⁧תלמיד חכם⁩\.”
 
@@ -14271,7 +14271,7 @@ says ⁧מִזְמוֹר שִׁיר לְיוֹם הַשַּׁבָּת⁩⁦,⁩ 
 It's ⁧כדאי⁩ just to mention one more ⁧נקודה⁩ and that is that the ⁦חיד״א⁩#metadata(none) <person-index-chida-1093>
 brings out a wonderful observation. We find regarding ⁧שְׁמִירַת שַׁבָּת⁩ in the
 various ⁧פרשיות⁩ of Shabbos we find four times we find the word ⁧היא⁩. For
-example like ⁧כי אות⁩ #strong[⁧היא⁩] ⁧ביני וביניכם לדעת כי אני ה׳ מקדשכם⁩. We
+example like ⁧כי אות #strong[היא]⁩ ⁧ביני וביניכם לדעת כי אני ה׳ מקדשכם⁩. We
 find four times the word ⁧היא⁩ in the ⁧פרשה⁩ of Shabbos, however we find
 there's a ⁧שינוי⁩ between the ⁧קרי⁩ and the ⁧כתיב⁩. The ⁧כתיב⁩ is with a ⁧ו⁩ but
 the ⁧קרי⁩ is with a ⁧חיריק⁩⁦,⁩ we read it ⁧היא⁩ but it's written with a ⁧ו⁩ which

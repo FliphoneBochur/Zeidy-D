@@ -619,6 +619,13 @@ test("replaces em dashes with hyphen-minus", () => {
   );
 });
 
+test("keeps same-line bold Hebrew continuation inside the preceding RTL isolate", () => {
+  assert.equal(
+    applyTextRules("שְׁנֵי לֻחות אֲבָנִים הורִיד בְּיָדו #strong[וְכָתוּב בָּהֶם שְׁמִירַת שַׁבָּת] - That"),
+    `${RTL_ISOLATE}שְׁנֵי לֻחות אֲבָנִים הורִיד בְּיָדו #strong[וְכָתוּב בָּהֶם שְׁמִירַת שַׁבָּת]${POP_DIRECTIONAL_ISOLATE} - That`
+  );
+});
+
 test("moves extracted leading comma to the end of the Hebrew phrase", () => {
   assert.equal(
     normalizeMisplacedHebrewCommas("to משה, ,אֱחוֹז בְּכִסֵּא כְבוֹדִי symbolizes"),
@@ -1318,6 +1325,21 @@ test("docx: Vayaishev 5785 keeps bold hayom inside the Re'eh RTL phrase", () => 
     typst,
     `${RTL_ISOLATE}רְאֵה אָנֹכִי נֹתֵן לִפְנֵיכֶם${POP_DIRECTIONAL_ISOLATE}\n#strong[${RTL_ISOLATE}הַיּוֹם${POP_DIRECTIONAL_ISOLATE}]`,
     "bold hayom should not be split into its own RTL isolate"
+  );
+});
+
+test("docx: Vaeschanan 5783 keeps bold shabbos phrase inside the yismach moshe RTL phrase", () => {
+  const typst = convertedDocx("/vaeschanan/5783/");
+
+  assertContains(
+    typst,
+    `${RTL_ISOLATE}יִשמַח משֶׁה בְּמַתְּנַת חֶלְקו כִּי עֶבֶד נֶאֱמָן קָרָאתָ לּו כְּלִיל תִּפְאֶרֶת בְּראשׁו נָתַתָּ בְּעָמְדו לְפָנֶיךָ עַל הַר סִינַי וּשְׁנֵי לֻחות אֲבָנִים הורִיד בְּיָדו #strong[וְכָתוּב בָּהֶם שְׁמִירַת שַׁבָּת]${POP_DIRECTIONAL_ISOLATE}`,
+    "bold shabbos phrase stays inside the same RTL isolate as the yismach moshe phrase"
+  );
+  assertNotContains(
+    typst,
+    `הורִיד בְּיָדו${POP_DIRECTIONAL_ISOLATE} #strong[${RTL_ISOLATE}וְכָתוּב בָּהֶם שְׁמִירַת שַׁבָּת${POP_DIRECTIONAL_ISOLATE}]`,
+    "bold shabbos phrase should not be split into its own RTL isolate"
   );
 });
 
