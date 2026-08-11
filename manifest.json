@@ -417,7 +417,11 @@
     "Rabbi Oelbaum": "Rabbi Oelbaum",
     "Rabbi Yossi Bennett": "Rabbi Yossi Bennett"
   },
-  "08 - Misc": {
+  "08 - Foreword": {
+    "Ari": "Foreword - Ari",
+    "Zeidy": "Foreword - Zeidy"
+  },
+  "09 - Misc": {
     "About The Name": "About the Name",
     "Bloopers": null,
     "Bris": "Bris",

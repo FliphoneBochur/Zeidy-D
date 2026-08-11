@@ -2,8 +2,8 @@
 
 This is a review-only scan for likely visual punctuation and bidi issues in the built typeset output. It does not edit source files.
 
-PDF scanned: `Files/08 - Misc/Final Sefer/Final Sefer.pdf`
-Typst scanned: `Files/08 - Misc/Final Sefer/Final Sefer.typ`
+PDF scanned: `Files/09 - Misc/Final Sefer/Final Sefer.pdf`
+Typst scanned: `Files/09 - Misc/Final Sefer/Final Sefer.typ`
 Findings: 49 (4 high, 45 medium)
 Visual pages rendered: `typeset-audit-pages`
 
@@ -11,62 +11,62 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
 
 ## HIGH - leading punctuation before Hebrew
 
-- PDF visual text, page 28, Lech Lecha 5784, line 10
-  - visual: [page-0028.png](typeset-audit-pages/page-0028.png)
+- PDF visual text, page 32, Lech Lecha 5784, line 10
+  - visual: [page-0032.png](typeset-audit-pages/page-0032.png)
   - by saying ⁧,‫ ְּבָך חֹוְת ִמין ְוֹלא ָבֶהם⁧“ ⁩ָמֵגן ַאְבָר ָהם ִיְצָחק ְוַיֲעֹקב‬,‫ ”⁩ַּת ְלמ...
   - normalized: by saying , ְּבָך חֹוְת ִמין ְוֹלא ָבֶהם“ ָמֵגן ַאְבָר ָהם ִיְצָחק ְוַיֲעֹקב, ”ַּת ְלמּוד לֹו...
-- PDF visual text, page 197, Emor 5784, line 11
-  - visual: [page-0197.png](typeset-audit-pages/page-0197.png)
+- PDF visual text, page 201, Emor 5784, line 11
+  - visual: [page-0201.png](typeset-audit-pages/page-0201.png)
   - hardly fathom.)⁩ ⁧,‫ ַאל ִּת ְהיּו ַכֲעָבִד ים ַהְמַׁשְּמִׁשין ֶאת ָהַר ב ַעל ְמָנת ְלַקֵּבל ְּפָר...
   - normalized: hardly fathom.) , ַאל ִּת ְהיּו ַכֲעָבִד ים ַהְמַׁשְּמִׁשין ֶאת ָהַר ב ַעל ְמָנת ְלַקֵּבל ְּפָר סה,...
-- PDF visual text, page 445, Shabbos - The Gift of Olam Haba in This World, line 17
-  - visual: [page-0445.png](typeset-audit-pages/page-0445.png)
+- PDF visual text, page 449, Shabbos - The Gift of Olam Haba in This World, line 17
+  - visual: [page-0449.png](typeset-audit-pages/page-0449.png)
   - The ⁧‫ ⁩גמרא‬says, ⁧,‫ אמר להם הקדוש ברוך הוא למשה‬,‫ כי אני ה׳ מקדשכם‬,‫ לדעת‬,‫תני נמי הכי‬
   - normalized: The  גמראsays, , אמר להם הקדוש ברוך הוא למשה, כי אני ה׳ מקדשכם, לדעתת,ני נמי הכי
-- PDF visual text, page 457, לטובה - the same way, also all of the     גלות and all of the     גלות in the Yidden, line 6
-  - visual: [page-0457.png](typeset-audit-pages/page-0457.png)
+- PDF visual text, page 461, לטובה - the same way, also all of the     גלות and all of the     גלות in the Yidden, line 6
+  - visual: [page-0461.png](typeset-audit-pages/page-0461.png)
   - ,‫ גלות יוון‬,‫ ⁩אך בהווה⁧ ⁩;גלות אדום⁧ ⁩גלות בבל‬- but in the present time, ⁦‫לא י...
   - normalized: , גלות יוון, אך בהווה ;גלות אדום גלות בבל- but in the present time, לא יוכל האדם
 ## MEDIUM - missing space after colon before Hebrew in Typst source
 
-- Typst source, page 121, Mishpatim (1) 5784, line 3626
-  - visual: [page-0121.png](typeset-audit-pages/page-0121.png), [page-0122.png](typeset-audit-pages/page-0122.png)
+- Typst source, page 125, Mishpatim (1) 5784, line 3768
+  - visual: [page-0125.png](typeset-audit-pages/page-0125.png), [page-0126.png](typeset-audit-pages/page-0126.png)
   - כ״א:ל״ז)⁩: ⁧כִּי יִגְנֹב אִישׁ שׁוֹר אוֹ שֶׂה וּטְבָחוֹ אוֹ מְכָרוֹ חֲמִשָּׁה בָקָר י...
   - normalized: כ״א:ל״ז): כִּי יִגְנֹב אִישׁ שׁוֹר אוֹ שֶׂה וּטְבָחוֹ אוֹ מְכָרוֹ חֲמִשָּׁה בָקָר יְש...
-- Typst source, page 133, Tetzaveh 5783, line 4021
-  - visual: [page-0133.png](typeset-audit-pages/page-0133.png), [page-0134.png](typeset-audit-pages/page-0134.png)
+- Typst source, page 137, Tetzaveh 5783, line 4163
+  - visual: [page-0137.png](typeset-audit-pages/page-0137.png), [page-0138.png](typeset-audit-pages/page-0138.png)
   - כ״ט:ל״ט)⁩⁩, referring to the ⁧קרבן תמיד⁩.
   - normalized: כ״ט:ל״ט), referring to the קרבן תמיד.
-- Typst source, page 142, Ki Sisa 5783, line 4286
-  - visual: [page-0141.png](typeset-audit-pages/page-0141.png), [page-0142.png](typeset-audit-pages/page-0142.png)
+- Typst source, page 146, Ki Sisa 5783, line 4428
+  - visual: [page-0145.png](typeset-audit-pages/page-0145.png), [page-0146.png](typeset-audit-pages/page-0146.png)
   - ל״ד:ל״ג)⁩: ⁧וַיִּתֵּן עַל פָּנָיו מַסְוֶה⁩ - When ⁧משה רבינו⁩ spoke to the people, th...
   - normalized: ל״ד:ל״ג): וַיִּתֵּן עַל פָּנָיו מַסְוֶה - When משה רבינו spoke to the people, they
-- Typst source, page 264, Pinchas 5785, line 8127
-  - visual: [page-0264.png](typeset-audit-pages/page-0264.png), [page-0265.png](typeset-audit-pages/page-0265.png)
+- Typst source, page 268, Pinchas 5785, line 8269
+  - visual: [page-0268.png](typeset-audit-pages/page-0268.png), [page-0269.png](typeset-audit-pages/page-0269.png)
   - א׳:ג׳)⁩: ⁧וַיְצַו אֶת שְׁלֹמֹה בְנוֹ לֵאמֹר אָנֹכִי הֹלֵךְ בְּדֶרֶךְ כׇּל הָאָרֶץ⁩ -...
   - normalized: א׳:ג׳): וַיְצַו אֶת שְׁלֹמֹה בְנוֹ לֵאמֹר אָנֹכִי הֹלֵךְ בְּדֶרֶךְ כׇּל הָאָרֶץ - I'...
-- Typst source, page 271, Matos Massei 5785, line 8324
-  - visual: [page-0271.png](typeset-audit-pages/page-0271.png), [page-0272.png](typeset-audit-pages/page-0272.png)
+- Typst source, page 275, Matos Massei 5785, line 8466
+  - visual: [page-0275.png](typeset-audit-pages/page-0275.png), [page-0276.png](typeset-audit-pages/page-0276.png)
   - shouldn't daven that her son would die. It's brought down in ⁦מכות ב:ו⁩:
   - normalized: shouldn't daven that her son would die. It's brought down in מכות ב:ו:
-- Typst source, page 275, Devarim 5784, line 8486
-  - visual: [page-0275.png](typeset-audit-pages/page-0275.png)
+- Typst source, page 279, Devarim 5784, line 8628
+  - visual: [page-0279.png](typeset-audit-pages/page-0279.png)
   - pasuk in ⁦זכריה א׳:ט״ז⁩: ⁧שַׁבְתִּי לִירוּשָׁלַם בְּרַחֲמִים⁩. Another is what we say three
   - normalized: pasuk in זכריה א׳:ט״ז: שַׁבְתִּי לִירוּשָׁלַם בְּרַחֲמִים. Another is what we say three
-- Typst source, page 287, Eikev 5784, line 8866
-  - visual: [page-0287.png](typeset-audit-pages/page-0287.png), [page-0288.png](typeset-audit-pages/page-0288.png)
+- Typst source, page 291, Eikev 5784, line 9008
+  - visual: [page-0291.png](typeset-audit-pages/page-0291.png), [page-0292.png](typeset-audit-pages/page-0292.png)
   - א׳:ב׳)⁩⁩, and then it says ⁧אָנֹכִי אָנֹכִי הוּא מְנַחֶמְכֶם ⁦(ישעיהו נ״א:י״ב)⁩⁩ lat...
   - normalized: א׳:ב׳), and then it says אָנֹכִי אָנֹכִי הוּא מְנַחֶמְכֶם                  later on
-- Typst source, page 361, Shavuos 5784, line 11105
-  - visual: [page-0361.png](typeset-audit-pages/page-0361.png), [page-0362.png](typeset-audit-pages/page-0362.png)
+- Typst source, page 365, Shavuos 5784, line 11250
+  - visual: [page-0365.png](typeset-audit-pages/page-0365.png), [page-0366.png](typeset-audit-pages/page-0366.png)
   - א:נ״ו)⁩ that at ⁧הר סיני⁩⁦,⁩ ⁧כלל ישראל⁩ was sleeping. They went to sleep that
   - normalized: א:נ״ו) that at הר סיני, כלל ישראל was sleeping. They went to sleep that
-- Typst source, page 378, Elul 5785, line 11597
-  - visual: [page-0378.png](typeset-audit-pages/page-0378.png)
+- Typst source, page 382, Elul 5785, line 11742
+  - visual: [page-0382.png](typeset-audit-pages/page-0382.png)
   - כ״ז:ד׳)⁩⁩. What does ⁧דוד המלך⁩ mean by ⁧כׇּל יְמֵי חַיַּי⁩⁦?⁩
   - normalized: כ״ז:ד׳). What does דוד המלך mean by כׇּל יְמֵי חַיַּי?
-- Typst source, page 442, Purim 5785, line 13558
-  - visual: [page-0442.png](typeset-audit-pages/page-0442.png), [page-0443.png](typeset-audit-pages/page-0443.png)
+- Typst source, page 446, Purim 5785, line 13703
+  - visual: [page-0446.png](typeset-audit-pages/page-0446.png), [page-0447.png](typeset-audit-pages/page-0447.png)
   - does this connection mean? He brings a ⁧פסוק⁩ from ⁦שמות ד:י״ד⁩: ⁧וְרָאֲךָ וְשָׂמַח בְּלִבּוֹ⁩. What is ⁦אהרן'⁩s ⁧מידה⁩? We all know abou...
   - normalized: does this connection mean? He brings a פסוק from שמות ד:י״ד: וְרָאֲךָ וְשָׂמַח בְּלִבּוֹ. What is אהרן's מידה? We all know about...
 ## MEDIUM - quote surrounded by spaces
@@ -75,140 +75,140 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - visual: [page-0006.png](typeset-audit-pages/page-0006.png)
   - Zeidy as the “⁧‫ ”⁩ַּמְלָאְך‬in this pasuk feels natural, as anyone who knows him
   - normalized: Zeidy as the “ ”ַּמְלָאְךin this pasuk feels natural, as anyone who knows him
-- PDF visual text, page 25, asked him, “Did you daven during those 40 days?” “What a question, Three, line 5
-  - visual: [page-0025.png](typeset-audit-pages/page-0025.png)
+- PDF visual text, page 29, asked him, “Did you daven during those 40 days?” “What a question, Three, line 5
+  - visual: [page-0029.png](typeset-audit-pages/page-0029.png)
   - times a day, of course!” “Did you read any ⁧‫“ ”?⁩תהלים‬Of course”, answered
   - normalized: times a day, of course!” “Did you read any “ ”?תהליםOf course”, answered
-- PDF visual text, page 28, Lech Lecha 5784, line 9
-  - visual: [page-0028.png](typeset-audit-pages/page-0028.png)
+- PDF visual text, page 32, Lech Lecha 5784, line 9
+  - visual: [page-0032.png](typeset-audit-pages/page-0032.png)
   - ‫ ⁩ְׁשֶמָך‬refers to ⁧‫⁩ֵוֱאֹלֵקי ַיֲעֹקב‬. “⁧‫ ”⁩ָיכֹול ִיְהיּו חֹוְת ִמין ְּבֻכָּלן‬- the bracha could have ended
   - normalized: ְׁשֶמָךrefers to ֵוֱאֹלֵקי ַיֲעֹקב. “ ”ָיכֹול ִיְהיּו חֹוְת ִמין ְּבֻכָּלן- the bracha could have ended
-- PDF visual text, page 40, Vayairah 5786 (1), line 26
-  - visual: [page-0040.png](typeset-audit-pages/page-0040.png)
+- PDF visual text, page 44, Vayairah 5786 (1), line 26
+  - visual: [page-0044.png](typeset-audit-pages/page-0044.png)
   - sick person said “⁧‫ ֶהֱחִייַת ִני‬,‫”⁩ַר ִבּי‬. So there are a number of things you should
   - normalized: sick person said “ ֶהֱחִייַת ִני,”ַר ִבּי. So there are a number of things you should
-- PDF visual text, page 56, רב אהרן לייב שטיינמן often emphasized that one never loses by being    מוותר ., line 22
-  - visual: [page-0056.png](typeset-audit-pages/page-0056.png)
+- PDF visual text, page 60, רב אהרן לייב שטיינמן often emphasized that one never loses by being    מוותר ., line 22
+  - visual: [page-0060.png](typeset-audit-pages/page-0060.png)
   - father’s sefarim, he responded with his characteristic humility: “⁧‫ ⁩אבא‬lived in
   - normalized: father’s sefarim, he responded with his characteristic humility: “ אבאlived in
-- PDF visual text, page 87, Vayechi 5783, line 15
-  - visual: [page-0087.png](typeset-audit-pages/page-0087.png)
+- PDF visual text, page 91, Vayechi 5783, line 15
+  - visual: [page-0091.png](typeset-audit-pages/page-0091.png)
   - The second ⁧‫ ⁩זכות‬is that ⁧‫ ⁩יעקב‬is frequently referred to as “⁧‫ ”⁩הזקן‬in both the ⁧‫ ⁩תורה‬
   - normalized: The second  זכותis that  יעקבis frequently referred to as “ ”הזקןin both the  תורה
-- PDF visual text, page 87, Vayechi 5783, line 17
-  - visual: [page-0087.png](typeset-audit-pages/page-0087.png)
+- PDF visual text, page 91, Vayechi 5783, line 17
+  - visual: [page-0091.png](typeset-audit-pages/page-0091.png)
   - than ⁧‫יעקב‬,⁩ the title “⁧‫ ”⁩זקן‬is uniquely associated with ⁧‫⁩יעקב‬. One example of
   - normalized: than יעקב, the title “ ”זקןis uniquely associated with יעקב. One example of
-- PDF visual text, page 102, Vaeira 5785, line 12
-  - visual: [page-0102.png](typeset-audit-pages/page-0102.png)
+- PDF visual text, page 106, Vaeira 5785, line 12
+  - visual: [page-0106.png](typeset-audit-pages/page-0106.png)
   - him, “⁧‫ ⁩פרעה‬will listen to you.”
   - normalized: him, “ פרעהwill listen to you.”
-- PDF visual text, page 163, Tzav 5783, line 13
-  - visual: [page-0163.png](typeset-audit-pages/page-0163.png)
+- PDF visual text, page 167, Tzav 5783, line 13
+  - visual: [page-0167.png](typeset-audit-pages/page-0167.png)
   - protested to Hashem, saying, “⁧‫ ⁩בני ישראל‬can’t do this! The ⁧‫ ⁩שה‬is ⁦‫⁩’מצרים‬s ⁧‫עבודה‬
   - normalized: protested to Hashem, saying, “ בני ישראלcan’t do this! The  שהis ’מצריםs עבודה
-- PDF visual text, page 163, Tzav 5783, line 14
-  - visual: [page-0163.png](typeset-audit-pages/page-0163.png)
+- PDF visual text, page 167, Tzav 5783, line 14
+  - visual: [page-0167.png](typeset-audit-pages/page-0167.png)
   - ‫זרה‬,⁩ and they will kill us!” Hashem responded, “⁧‫ ⁩חייך‬- I swear, they are not
   - normalized: זרה, and they will kill us!” Hashem responded, “ חייך- I swear, they are not
-- PDF visual text, page 202, Behar 5784, line 17
-  - visual: [page-0202.png](typeset-audit-pages/page-0202.png)
+- PDF visual text, page 206, Behar 5784, line 17
+  - visual: [page-0206.png](typeset-audit-pages/page-0206.png)
   - “The Weekly Vort ” is relevant.
-- PDF visual text, page 202, Behar 5784, line 34
-  - visual: [page-0202.png](typeset-audit-pages/page-0202.png)
+- PDF visual text, page 206, Behar 5784, line 34
+  - visual: [page-0206.png](typeset-audit-pages/page-0206.png)
   - just became a ⁧ ‫חתן‬,⁩ thank you Rabbi Gesheid! ” she said. “Mazel Tov!”
   - normalized: just became a  חתן, thank you Rabbi Gesheid! ” she said. “Mazel Tov!”
-- PDF visual text, page 220, Naso 5784, line 37
-  - visual: [page-0220.png](typeset-audit-pages/page-0220.png)
+- PDF visual text, page 224, Naso 5784, line 37
+  - visual: [page-0224.png](typeset-audit-pages/page-0224.png)
   - he was told this ⁦‫⁩’מלאך‬s name is the ⁧‫⁩שטן‬. The Rebbe cried out, “⁧‫ ⁩גָאט זָאל ָאּפהיטן‬
   - normalized: he was told this ’מלאךs name is the שטן. The Rebbe cried out, “ גָאט זָאל ָאּפהיטן
-- PDF visual text, page 242, son, “Would you like to get a bracha from R’ Aharon Leib? ” To his father’s, line 4
-  - visual: [page-0242.png](typeset-audit-pages/page-0242.png)
+- PDF visual text, page 246, son, “Would you like to get a bracha from R’ Aharon Leib? ” To his father’s, line 4
+  - visual: [page-0246.png](typeset-audit-pages/page-0246.png)
   - son, “Would you like to get a bracha from R’ Aharon Leib? ” To his father’s
-- PDF visual text, page 245, “What brings you here?”     רב ברוך asked. “Well,” the     אלטע Rebbe replied, “I, line 16
-  - visual: [page-0245.png](typeset-audit-pages/page-0245.png)
+- PDF visual text, page 249, “What brings you here?”     רב ברוך asked. “Well,” the     אלטע Rebbe replied, “I, line 16
+  - visual: [page-0249.png](typeset-audit-pages/page-0249.png)
   - collect ⁧‫“ ?⁩צדקה‬But why didn’t you just teach them the meaning of the word
   - normalized: collect “ ?צדקהBut why didn’t you just teach them the meaning of the word
-- PDF visual text, page 250, the     משנה in Pirkei Avos that discusses the     ֲעָׂשָר ה ִנִּסים that happened in the   בית, line 17
-  - visual: [page-0250.png](typeset-audit-pages/page-0250.png)
+- PDF visual text, page 254, the     משנה in Pirkei Avos that discusses the     ֲעָׂשָר ה ִנִּסים that happened in the   בית, line 17
+  - visual: [page-0254.png](typeset-audit-pages/page-0254.png)
   - one ever said, “⁧‫ ”⁩צר לי המקום‬- meaning Hashem, who is ⁧‫⁩המקום‬. No one ever
   - normalized: one ever said, “ ”צר לי המקום- meaning Hashem, who is המקום. No one ever
-- PDF visual text, page 267, Matos-Maasei 5783, line 36
-  - visual: [page-0267.png](typeset-audit-pages/page-0267.png)
+- PDF visual text, page 271, Matos-Maasei 5783, line 36
+  - visual: [page-0271.png](typeset-audit-pages/page-0271.png)
   - to R’ Chaim and said, “⁧‫ ⁩מחלה חולה‬- if you translate that literally, it means
   - normalized: to R’ Chaim and said, “ מחלה חולה- if you translate that literally, it means
-- PDF visual text, page 268, R’ Chaim immediately responded, “    חולה doesn’t mean sick in this context., line 4
-  - visual: [page-0268.png](typeset-audit-pages/page-0268.png)
+- PDF visual text, page 272, R’ Chaim immediately responded, “    חולה doesn’t mean sick in this context., line 4
+  - visual: [page-0272.png](typeset-audit-pages/page-0272.png)
   - R’ Chaim immediately responded, “⁧‫ ⁩חולה‬doesn’t mean sick in this context.
   - normalized: R’ Chaim immediately responded, “ חולהdoesn’t mean sick in this context.
-- PDF visual text, page 283, to start filling in this    בור . It’s too big. I’ll never be able to finish it. Might as, line 27
-  - visual: [page-0283.png](typeset-audit-pages/page-0283.png)
+- PDF visual text, page 287, to start filling in this    בור . It’s too big. I’ll never be able to finish it. Might as, line 27
+  - visual: [page-0287.png](typeset-audit-pages/page-0287.png)
   - young man answered, “⁧‫ ⁩אליהו הנביא‬came to me and told me that the ⁦‫ ב״ח‬is
   - normalized: young man answered, “ אליהו הנביאcame to me and told me that the  ב״חis
-- PDF visual text, page 344, באב . The     בית המקדש was     נחרב because of    שנאת חינם . And what are we doing, line 18
-  - visual: [page-0344.png](typeset-audit-pages/page-0344.png)
+- PDF visual text, page 348, באב . The     בית המקדש was     נחרב because of    שנאת חינם . And what are we doing, line 18
+  - visual: [page-0348.png](typeset-audit-pages/page-0348.png)
   - older gentleman suggested, “Let’s go to ⁧‫⁩ר׳ לוי יצחק‬. ” They agreed and went
   - normalized: older gentleman suggested, “Let’s go to ר׳ לוי יצחק. ” They agreed and went
-- PDF visual text, page 380, and then     תשליך was over. I turned to go back to my house. Then I noticed, line 14
-  - visual: [page-0380.png](typeset-audit-pages/page-0380.png)
+- PDF visual text, page 384, and then     תשליך was over. I turned to go back to my house. Then I noticed, line 14
+  - visual: [page-0384.png](typeset-audit-pages/page-0384.png)
   - was Moshe Katz. ” As soon as my wife heard the name, she burst into tears.
-- PDF visual text, page 434, Krovitz, line 10
-  - visual: [page-0434.png](typeset-audit-pages/page-0434.png)
+- PDF visual text, page 438, Krovitz, line 10
+  - visual: [page-0438.png](typeset-audit-pages/page-0438.png)
   - answer “⁧‫ ⁩קרובץ‬is ⁧‫קרובץ לפורים‬,⁩ it’s the thing that we say on ⁧‫⁩פורים‬.” But what...
   - normalized: answer “ קרובץis קרובץ לפורים, it’s the thing that we say on פורים.” But what is
 ## MEDIUM - space before sentence punctuation
 
-- PDF visual text, page 28, Lech Lecha 5784, line 10
-  - visual: [page-0028.png](typeset-audit-pages/page-0028.png)
+- PDF visual text, page 32, Lech Lecha 5784, line 10
+  - visual: [page-0032.png](typeset-audit-pages/page-0032.png)
   - by saying ⁧,‫ ְּבָך חֹוְת ִמין ְוֹלא ָבֶהם⁧“ ⁩ָמֵגן ַאְבָר ָהם ִיְצָחק ְוַיֲעֹקב‬,‫ ”⁩ַּת ְ...
   - normalized: by saying , ְּבָך חֹוְת ִמין ְוֹלא ָבֶהם“ ָמֵגן ַאְבָר ָהם ִיְצָחק ְוַיֲעֹקב, ”ַּת ְלמּוד ל...
-- PDF visual text, page 95, witnessed the oil flowing over    ’ַאֲהֹרן s head, down his face, and onto his beard., line 7
-  - visual: [page-0095.png](typeset-audit-pages/page-0095.png)
+- PDF visual text, page 99, witnessed the oil flowing over    ’ַאֲהֹרן s head, down his face, and onto his beard., line 7
+  - visual: [page-0099.png](typeset-audit-pages/page-0099.png)
   - to ⁧‫ ⁩כהן גדול‬was entirely genuine. From this ⁧,‫⁩’רבי יהושע בן קרחה⁦ ⁩מדרש‬s position
   - normalized: to  כהן גדולwas entirely genuine. From this ,’רבי יהושע בן קרחה מדרשs position
-- PDF visual text, page 114, Yisro 5783, line 27
-  - visual: [page-0114.png](typeset-audit-pages/page-0114.png)
+- PDF visual text, page 118, Yisro 5783, line 27
+  - visual: [page-0118.png](typeset-audit-pages/page-0118.png)
   - “I accept upon myself to become ⁦ ‫⁩’ראובן‬s ⁧ ,‫ ”⁩עבד‬he automatically assumes
   - normalized: “I accept upon myself to become  ’ראובןs  , ”עבדhe automatically assumes
-- PDF visual text, page 125, - Don’t rush to     דן him to    מיתה . Just as ascending the     מזבח requires deliberate, line 24
-  - visual: [page-0125.png](typeset-audit-pages/page-0125.png)
+- PDF visual text, page 129, - Don’t rush to     דן him to    מיתה . Just as ascending the     מזבח requires deliberate, line 24
+  - visual: [page-0129.png](typeset-audit-pages/page-0129.png)
   - is driving on ⁧,‫ ”⁩שבת‬the child exclaimed. The father calmly responded, “He’s
   - normalized: is driving on , ”שבתthe child exclaimed. The father calmly responded, “He’s
-- PDF visual text, page 132, is     מקדים the     רפואה before the  ,  ” מכה He creates the     רפואה before He creates the, line 4
-  - visual: [page-0132.png](typeset-audit-pages/page-0132.png)
+- PDF visual text, page 136, is     מקדים the     רפואה before the  ,  ” מכה He creates the     רפואה before He creates the, line 4
+  - visual: [page-0136.png](typeset-audit-pages/page-0136.png)
   - is ⁧‫ ⁩מקדים‬the ⁧‫ ⁩רפואה‬before the ⁧,‫ ”⁩מכה‬He creates the ⁧‫ ⁩רפואה‬before He creates the
   - normalized: is  מקדיםthe  רפואהbefore the , ”מכהHe creates the  רפואהbefore He creates the
-- PDF visual text, page 204, Bechukosai 5784, line 11
-  - visual: [page-0204.png](typeset-audit-pages/page-0204.png)
+- PDF visual text, page 208, Bechukosai 5784, line 11
+  - visual: [page-0208.png](typeset-audit-pages/page-0208.png)
   - keep the ⁧,‫ ”⁩תורה‬which we are about to reaccept on ⁧‫שבועות‬,⁩ “then I will give
   - normalized: keep the , ”תורהwhich we are about to reaccept on שבועות, “then I will give
-- PDF visual text, page 268, R’ Chaim immediately responded, “    חולה doesn’t mean sick in this context., line 5
-  - visual: [page-0268.png](typeset-audit-pages/page-0268.png)
+- PDF visual text, page 272, R’ Chaim immediately responded, “    חולה doesn’t mean sick in this context., line 5
+  - visual: [page-0272.png](typeset-audit-pages/page-0272.png)
   - It means dancing, as in ⁧ ,‫ ”⁩מחול‬as the ⁧ ‫ ⁩משנה‬in ⁧ ‫ ⁩תענית‬says: ⁧ ‫יוצאות במחולות‬
   - normalized: It means dancing, as in  , ”מחולas the   משנהin   תעניתsays:  יוצאות במחולות
-- PDF visual text, page 270, מותר ,  is now     אסור to me, it’s a     הזיק to his     נשמה in exactly the same way as     חזיר, line 16
-  - visual: [page-0270.png](typeset-audit-pages/page-0270.png)
+- PDF visual text, page 274, מותר ,  is now     אסור to me, it’s a     הזיק to his     נשמה in exactly the same way as     חזיר, line 16
+  - visual: [page-0274.png](typeset-audit-pages/page-0274.png)
   - “This is ⁧,‫ ”⁩תרומה‬it’s now ⁧‫⁩תרומה‬. If a ⁧‫ ⁩זר‬eats that, he’s ⁧‫⁩חייב כרת‬. So you...
   - normalized: “This is , ”תרומהit’s now תרומה. If a  זרeats that, he’s חייב כרת. So you can take
-- PDF visual text, page 283, to start filling in this    בור . It’s too big. I’ll never be able to finish it. Might as, line 26
-  - visual: [page-0283.png](typeset-audit-pages/page-0283.png)
+- PDF visual text, page 287, to start filling in this    בור . It’s too big. I’ll never be able to finish it. Might as, line 26
+  - visual: [page-0287.png](typeset-audit-pages/page-0287.png)
   - are you not coming to give a ⁧‫ ⁩שלום עליכם‬to my father-in-law the ⁦‫ ?” ב״ח‬The
   - normalized: are you not coming to give a  שלום עליכםto my father-in-law the  ?” ב״חThe
-- PDF visual text, page 399, Sukkos 5786, line 18
-  - visual: [page-0399.png](typeset-audit-pages/page-0399.png)
+- PDF visual text, page 403, Sukkos 5786, line 18
+  - visual: [page-0403.png](typeset-audit-pages/page-0403.png)
   - will say, “Okay, I’ll give you a ⁧,‫ ”⁩מצוה‬and He’ll give them the ⁧‫ ⁩מצוה‬of ⁧‫סוכה‬,⁩
   - normalized: will say, “Okay, I’ll give you a , ”מצוהand He’ll give them the  מצוהof סוכה,
-- PDF visual text, page 399, Sukkos 5786, line 21
-  - visual: [page-0399.png](typeset-audit-pages/page-0399.png)
+- PDF visual text, page 403, Sukkos 5786, line 21
+  - visual: [page-0403.png](typeset-audit-pages/page-0403.png)
   - this “easy ⁧‫?”⁩מצוה‬
   - normalized: this “easy ?”מצוה
-- PDF visual text, page 440, A rav named R’ Mordechai Sabato explains that since each event in the first, line 28
-  - visual: [page-0440.png](typeset-audit-pages/page-0440.png)
+- PDF visual text, page 444, A rav named R’ Mordechai Sabato explains that since each event in the first, line 28
+  - visual: [page-0444.png](typeset-audit-pages/page-0444.png)
   - What are the central words of this ⁧‫ !⁩ׇמׇמ ְר ֳּד ַכי ַהְּיהּוִד י⁧ ?⁩פסוק‬Until ⁦‫⁩’מרדכי‬s name is
   - normalized: What are the central words of this  !ׇמׇמ ְר ֳּד ַכי ַהְּיהּוִד י פסוק?Until ’מרדכיs name is
 ## MEDIUM - space on both sides of semicolon in Typst source
 
-- Typst source, page 136, Tetzaveh (1) 5784, line 4084
-  - visual: [page-0135.png](typeset-audit-pages/page-0135.png), [page-0136.png](typeset-audit-pages/page-0136.png)
+- Typst source, page 140, Tetzaveh (1) 5784, line 4226
+  - visual: [page-0139.png](typeset-audit-pages/page-0139.png), [page-0140.png](typeset-audit-pages/page-0140.png)
   - \; ⁧בן ננס⁩ says ⁧וְאָהַבְתָּ לְרֵעֲךָ כָּמוֹךָ⁩ ⁦(ויקרא י״ט:י״ח)⁩ \; ⁧שמעון בן פזי⁩ says from
   - normalized: \; בן ננס says וְאָהַבְתָּ לְרֵעֲךָ כָּמוֹךָ (ויקרא י״ט:י״ח) \; שמעון בן פזי says from

@@ -316,6 +316,148 @@ of ⁧הַדֹּבֵר⁩ is the same as ⁧ארי⁩.
 #pagebreak()
 
 #set page(header: none, footer: none)
+#heading(level: 1, outlined: false)[Foreword - Zeidy]
+
+#align(center)[
+⁧ישמחו השמים ותגל הארץ⁩]
+
+It is with a great sense of hakoras hatov that I present this sefer ⁧הדבר בי⁩ to my family, friends, and anyone interested in a good vort. I am
+grateful to the Ribono Shel Olam for His ⁧חסדים⁩ in allowing me a kiyum in
+⁧ללמוד וללמד לשמוע ולעשות⁩. A teacher's success is measured by looking at
+the students. Grandparents have the same rule. The joy of working with
+my grandson Ari provided me with ⁧נחת אהן א סוף⁩. His technical expertise
+brought this project to fruition.
+
+Bobbi D, my ⁧אהבת נעורים⁩ and ⁧אשת חיל⁩⁦,⁩ Devorah, stood at my side, encouraging me every step of the way.
+
+The contents of this sefer are drawn from many sources; they all have
+something to teach. Yehi ratzon my words bring simcha to the Ribono Shel
+Olam and joy to all who read them.
+
+Dedicated to the grandchildren ⁧שיחיו⁩.
+
+#pagebreak()
+
+#set page(header: none, footer: none)
+#heading(level: 1, outlined: false)[Foreword - Ari]
+
+#align(center)[
+“Someday, I want to write a sefer with all of my vertlach.”]
+
+It was a casual, almost throwaway line, but it stuck in my mind from the
+time I was a teenager.
+
+By then, Zeidy and I had already been learning together for years. It
+began when I was three years old. Every Wednesday and Thursday, Zeidy
+would come with My First Parsha Reader. Eventually, I graduated to The
+Little Medrash Says, then to Pirkei Avos, and finally to Mishnayos. We
+were zoche to finish Seder Moed for my bar mitzvah, and from there
+continued on to Seder Nezikin and Seder Taharos.
+
+Along with all those cherished hours of learning with Zeidy came
+thousands of little vertlach. Some I heard once, and many I was
+fortunate enough to hear over and over again.
+
+Through that learning, Zeidy gave me something that I did not fully
+appreciate at the time. He showed me just how rich and multifaceted
+Yiddishkeit and Torah could be. Torah was not limited to one particular
+type of learning. There was Mishnayos, there was Parsha, there was
+Midrash. There were gematrios from the Gra and Chassidishe stories, insights from seforim and lessons passed down from one generation to the
+next. There were countless styles, themes, and sources, many of which
+are represented in this sefer.
+
+What always struck me was that Zeidy was excited by all of them.
+
+It did not matter where a vort came from or what style of Torah it
+represented. If there was something to learn from it, Zeidy treasured
+it. He had an enthusiasm for Torah in all its forms, and through the way
+he learned with me, he passed some of that enthusiasm on to me as well.
+
+As the years passed, I began thinking more seriously about that line I
+had heard as a teenager. I wanted to make sure that I would remember the
+lessons Zeidy had taught me. More than that, I wanted somehow to
+preserve the passion with which he gave them over, so that one day I
+could share what I had received from him with my own children and
+grandchildren.
+
+And so this project began.
+
+At first, my goal was simple: “Let me just record Zeidy saying the
+vertlach. At least I'll have the videos.”
+
+So I began recording.
+
+Eventually, I decided that the recordings themselves were not enough. I
+started trying to type them up, but transcribing everything word for
+word quickly became overwhelming. On Sukkos 2024, Chaim Weiss told me
+about a website called Sofer.ai, which could take the audio from the
+recordings and produce bilingual transcripts, recognizing both English
+and Hebrew. That made it possible for me to begin turning the growing
+collection of recordings into something written and lasting.
+
+At first, the videos were simply shared in the family WhatsApp chat.
+Once I began editing the transcripts, I started sharing the written
+versions as well. Eventually, I realized that there should be an easy
+way to find an older vort without having to search through months of
+messages. That led to a simple website where the Divrei Torah could be
+collected and searched.
+
+What began as a few videos had become a collection. And that collection
+eventually became this sefer.
+
+Throughout the process, I have tried to preserve not only the content of
+Zeidy's vertlach, but, to the extent that words on a page can do so, something of the way he gives them over. I hope that I have accurately
+recorded his words and presented them in a way with which he would be
+satisfied.
+
+There are a number of people without whom this project would not have
+become what it is.
+
+I am grateful to Chaim Weiss for introducing me to Sofer.ai. What might
+have seemed like a simple suggestion at the time made the task of
+transcribing years of recordings possible.
+
+I am grateful to my brother Tzvi for encouraging me not to settle for
+the basic, “good enough” version of the website I had originally
+envisioned, but to strive to make it into something better and more
+worthy of the Torah it was preserving.
+
+I am deeply grateful to my wife, Rosa, for graciously allowing and
+encouraging me to spend countless hours recording, transcribing, typing, reviewing, and editing this sefer. Without her patience and support, it
+could never have become what it is.
+
+And finally, I am grateful to Zeidy. I am grateful for his giving me his
+time, and for putting up with all my nudging, pestering, and generally
+being a nuisance to get these Divrei Torah recorded. When I first told
+him that I wanted to record a vort on the parsha every week, I said that
+we would try our best not to miss a week. Over the next three years, we
+never did. At one point, Zeidy was scheduled for rotator cuff surgery
+shortly before Yom Tov, when there was already a lot to record between
+the weekly vertlach and the additional Divrei Torah for Yom Tov. Knowing
+that he would likely be out of commission afterward, I kept nudging him
+to record more in advance. Even though he was already in pain and had
+plenty else to deal with, Zeidy patiently went along with me and made
+the time to record everything that needed to be done.
+
+I am also incredibly grateful for the literally hundreds of hours he
+spent sitting with me, reviewing, correcting, and editing the final
+sefer together.
+
+But more than anything, I am grateful for all the years of learning, for
+the thousands of vertlach, and for the enthusiasm for Torah that came
+along with them. I hope this sefer makes Zeidy proud.
+
+And above all, I am grateful to HaKadosh Baruch Hu for giving me the
+extraordinary zechus of having such a Zeidy, for all the years we have
+been able to learn together, and for the opportunity to preserve some of
+the Torah he has given over to me.
+
+My hope is that these vertlach will continue to be learned, repeated, and shared, and that the enthusiasm for Torah with which Zeidy gave them
+over will continue with his children, grandchildren, great-grandchildren, and, b'ezras Hashem, for generations to come.
+
+#pagebreak()
+
+#set page(header: none, footer: none)
 #outline(
   title: [Contents],
   target: heading.where(level: 1),
@@ -9905,7 +10047,8 @@ our children and ⁧אייניקלעך⁩ will continue that ⁧מסורה עד 
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/nitzavim-vayailech/5783/", "../../05 - Devarim/10 - Nitzavim-Vayailech/5783/Nitzavim-Vayailech 5783.png"))
 = Nitzavim-Vayailech 5783
 
-Nitzavim/Vayeilech 5783
+#align(center)[
+Nitzavim/Vayeilech 5783]
 
 This week's ⁧פרשיות⁩ are ⁧ניצבים וילך⁩⁦,⁩ and include ⁧וילך⁩⁦,⁩ the shortest ⁧פרשה⁩
 in the Torah. Nevertheless, it has a powerhouse full of wonderful things
@@ -10843,7 +10986,8 @@ continue to carry across generations.”
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/pesach-sheini/5784/", "../../06 - Yom Tov/02 - Pesach Sheini/5784/Pesach Sheini 5784.png"))
 = Pesach Sheini 5784
 
-Sheini 5784
+#align(center)[
+Sheini 5784]
 
 ⁧פסח שני⁩ is coming up, and in the ⁧זכות⁩ of our ⁧תפילות⁩⁦,⁩ our ⁧תשובה⁩⁦,⁩ and all
 the ⁧חסד⁩ that we try to do, may ⁧הקדוש ברוך הוא⁩ have ⁧רחמנות⁩ on us and
@@ -10908,7 +11052,8 @@ Bezras Hashem, in the ⁧זכות⁩ of that genuine effort, we will be answered
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/lag-baomer/5784/", "../../06 - Yom Tov/03 - Lag Baomer/5784/Lag Baomer 5784.png"))
 = Lag Baomer 5784
 
-Lag Ba'omer 5784
+#align(center)[
+Lag Ba'omer 5784]
 
 To commemorate ⁦ל״ג בעומר⁩, I'm going to share a number of short vertlach, which together will add up to a substantial message I want to pass
 along. This is ⁧לעילוי נשמת⁩ all of our ⁧עלטערן⁩⁦,⁩ and a ⁧תפילה⁩ that those who

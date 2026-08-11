@@ -7,7 +7,7 @@ const path = require("node:path");
 const { spawnSync } = require("node:child_process");
 
 const ROOT_DIR = __dirname;
-const OUTPUT_DIR = path.join(ROOT_DIR, "Files/08 - Misc/Final Sefer");
+const OUTPUT_DIR = path.join(ROOT_DIR, "Files/09 - Misc/Final Sefer");
 const DEFAULT_PDF = path.join(OUTPUT_DIR, "Final Sefer.pdf");
 const DEFAULT_TYP = path.join(OUTPUT_DIR, "Final Sefer.typ");
 const DEFAULT_REPORT = path.join(ROOT_DIR, "typeset-audit.md");

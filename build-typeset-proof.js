@@ -10,11 +10,11 @@ const ROOT_DIR = __dirname;
 const FILES_DIR = path.join(ROOT_DIR, "Files");
 const ROUTES_FILE = path.join(ROOT_DIR, "routes.json");
 const PERSON_INDEX_REVIEW_FILE = path.join(ROOT_DIR, "person-index-review.json");
-const OUTPUT_DIR = path.join(ROOT_DIR, "Files/08 - Misc/Final Sefer");
+const OUTPUT_DIR = path.join(ROOT_DIR, "Files/09 - Misc/Final Sefer");
 const WORD_DOCUMENT = "word/document.xml";
 const DOMAIN = "https://zeidyd.com";
-const FRONT_MATTER_SPECS = ["07 - Haskamos/", "/about-the-name/"];
-const NO_FOOTER_ROUTES = new Set(["/about-the-name/"]);
+const FRONT_MATTER_SPECS = ["07 - Haskamos/", "/about-the-name/", "/zeidy/", "/ari/"];
+const NO_FOOTER_ROUTES = new Set(["/about-the-name/", "/zeidy/", "/ari/"]);
 const HASKAMA_CONTENT_PREFIX = "07 - Haskamos/";
 const LTR_ISOLATE = "\u2066";
 const RTL_ISOLATE = "\u2067";
@@ -302,6 +302,7 @@ function isHaskamaEntry(details) {
 
 function docxParagraphAlignments(docxPath) {
   const xml = run("unzip", ["-p", docxPath, WORD_DOCUMENT]);
+  const defaultAlignment = docxDefaultParagraphAlignment(docxPath);
   const alignments = new Map();
   const paragraphRe = /<w:p\b[\s\S]*?<\/w:p>/g;
   let visibleParagraphIndex = 0;
@@ -318,9 +319,10 @@ function docxParagraphAlignments(docxPath) {
     }
 
     const alignmentMatch = paragraphXml.match(/<w:jc\b[^>]*\bw:val=["']([^"']+)["']/);
-    if (alignmentMatch) {
+    const align = alignmentMatch ? alignmentMatch[1] : defaultAlignment;
+    if (align) {
       alignments.set(visibleParagraphIndex, {
-        align: alignmentMatch[1],
+        align,
         text,
       });
     }
@@ -329,6 +331,24 @@ function docxParagraphAlignments(docxPath) {
   }
 
   return alignments;
+}
+
+function docxDefaultParagraphAlignment(docxPath) {
+  let stylesXml = "";
+
+  try {
+    stylesXml = run("unzip", ["-p", docxPath, "word/styles.xml"]);
+  } catch (_error) {
+    return null;
+  }
+
+  const defaultsMatch = stylesXml.match(/<w:pPrDefault\b[\s\S]*?<\/w:pPrDefault>/);
+  if (!defaultsMatch) {
+    return null;
+  }
+
+  const alignmentMatch = defaultsMatch[0].match(/<w:jc\b[^>]*\bw:val=["']([^"']+)["']/);
+  return alignmentMatch ? alignmentMatch[1] : null;
 }
 
 function isHebrewDominantText(value) {

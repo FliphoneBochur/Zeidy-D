@@ -880,24 +880,32 @@
       "contentPath": "07 - Haskamos/Rabbi Yossi Bennett",
       "baseFilename": "Rabbi Yossi Bennett"
     },
+    "/ari/": {
+      "contentPath": "08 - Foreword/Ari",
+      "baseFilename": "Foreword - Ari"
+    },
+    "/zeidy/": {
+      "contentPath": "08 - Foreword/Zeidy",
+      "baseFilename": "Foreword - Zeidy"
+    },
     "/about-the-name/": {
-      "contentPath": "08 - Misc/About The Name",
+      "contentPath": "09 - Misc/About The Name",
       "baseFilename": "About the Name"
     },
     "/bloopers/": {
-      "contentPath": "08 - Misc/Bloopers",
+      "contentPath": "09 - Misc/Bloopers",
       "baseFilename": null
     },
     "/bris/": {
-      "contentPath": "08 - Misc/Bris",
+      "contentPath": "09 - Misc/Bris",
       "baseFilename": "Bris"
     },
     "/final-sefer/": {
-      "contentPath": "08 - Misc/Final Sefer",
+      "contentPath": "09 - Misc/Final Sefer",
       "baseFilename": "Final Sefer"
     },
     "/rabbi-oelbaum-shabbos/": {
-      "contentPath": "08 - Misc/Rabbi Oelbaum Shabbos",
+      "contentPath": "09 - Misc/Rabbi Oelbaum Shabbos",
       "baseFilename": "Shabbos - The Gift of Olam Haba in This World"
     }
   },
@@ -1122,10 +1130,12 @@
     "07 - Haskamos/Raabi Eliyahu Safran": "/raabi-eliyahu-safran/",
     "07 - Haskamos/Rabbi Oelbaum": "/rabbi-oelbaum/",
     "07 - Haskamos/Rabbi Yossi Bennett": "/rabbi-yossi-bennett/",
-    "08 - Misc/About The Name": "/about-the-name/",
-    "08 - Misc/Bloopers": "/bloopers/",
-    "08 - Misc/Bris": "/bris/",
-    "08 - Misc/Final Sefer": "/final-sefer/",
-    "08 - Misc/Rabbi Oelbaum Shabbos": "/rabbi-oelbaum-shabbos/"
+    "08 - Foreword/Ari": "/ari/",
+    "08 - Foreword/Zeidy": "/zeidy/",
+    "09 - Misc/About The Name": "/about-the-name/",
+    "09 - Misc/Bloopers": "/bloopers/",
+    "09 - Misc/Bris": "/bris/",
+    "09 - Misc/Final Sefer": "/final-sefer/",
+    "09 - Misc/Rabbi Oelbaum Shabbos": "/rabbi-oelbaum-shabbos/"
   }
 }
