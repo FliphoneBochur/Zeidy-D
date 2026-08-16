@@ -927,10 +927,28 @@ function smartenStraightDoubleQuotes(typstContent) {
     .replace(new RegExp(`([^\\s${hebrewClass}])\\\\?"(?=\\s|$|[,.;:!?)}\\]])`, "gu"), "$1”");
 }
 
+function preserveInitialCase(replacement) {
+  return (match) => {
+    if (match[0] === match[0].toUpperCase()) {
+      return replacement[0].toUpperCase() + replacement.slice(1);
+    }
+    return replacement;
+  };
+}
+
+function normalizeEditorialReplacements(typstContent) {
+  return typstContent
+    .replace(/\bparshah\b/giu, preserveInitialCase("parsha"))
+    .replace(/\bbezras\b/giu, preserveInitialCase("b’ezras"))
+    .replace(/\bmidrash\b/giu, preserveInitialCase("medrash"))
+    .replace(/\bArtscroll\b/g, "ArtScroll");
+}
+
 function normalizePunctuationSpacing(typstContent) {
-  return smartenStraightDoubleQuotes(keepIndexMarkersAfterPunctuation(typstContent)
+  return smartenStraightDoubleQuotes(normalizeEditorialReplacements(keepIndexMarkersAfterPunctuation(typstContent)
     .replace(/\u2014/g, "-")
     .replace(new RegExp(`(${HEBREW_LETTERS})['’‘](?!s\\b)`, "gu"), "$1׳")
+    .replace(/R'/g, "R’")
     .replace(/([A-Za-z])'"\./g, "$1.'\"")
     .replace(/([,;:.!?])\s+"(?=\s+(?:said|asked|answered|responded|replied)\b)/giu, "$1\"")
     .replace(/((?:\\?["”])(?:[ \t\u00A0\u202F]+\S+){1,4})\n(?=(?:said|asked|answered|responded|replied)\b)/giu, "$1 ")
@@ -957,7 +975,7 @@ function normalizePunctuationSpacing(typstContent) {
     .replace(MISSING_OPEN_HEBREW_CITATION_PAREN_RE, "$1 ($2):")
     .replace(HEBREW_PASUK_BEFORE_PEREK_RE, "פרק $2 פסוק $1")
     .replace(SHORT_HEBREW_PREFIX_DASH_RE, "$1$2 - $3")
-    .replace(HEBREW_TO_ENGLISH_DASH_RE, "$1 - "));
+    .replace(HEBREW_TO_ENGLISH_DASH_RE, "$1 - ")));
 }
 
 function isolateHebrewRuns(typstContent) {

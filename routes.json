@@ -310,7 +310,7 @@
     },
     "/vayikra/5784/": {
       "contentPath": "03 - Vayikra/01 - Vayikra/5784",
-      "baseFilename": "Vayikrah 5784"
+      "baseFilename": "Vayikra 5784"
     },
     "/vayikra/5785/": {
       "contentPath": "03 - Vayikra/01 - Vayikra/5785",
@@ -868,8 +868,8 @@
       "contentPath": "06 - Yom Tov/19 - Purim/5785",
       "baseFilename": "Purim 5785"
     },
-    "/raabi-eliyahu-safran/": {
-      "contentPath": "07 - Haskamos/Raabi Eliyahu Safran",
+    "/rabbi-eliyahu-safran/": {
+      "contentPath": "07 - Haskamos/Rabbi Eliyahu Safran",
       "baseFilename": "Eliyahu Safran Haskama"
     },
     "/rabbi-oelbaum/": {
@@ -1127,7 +1127,7 @@
     "06 - Yom Tov/19 - Purim/5783/Story Purim 5783": "/purim/5783/story/",
     "06 - Yom Tov/19 - Purim/5784": "/purim/5784/",
     "06 - Yom Tov/19 - Purim/5785": "/purim/5785/",
-    "07 - Haskamos/Raabi Eliyahu Safran": "/raabi-eliyahu-safran/",
+    "07 - Haskamos/Rabbi Eliyahu Safran": "/rabbi-eliyahu-safran/",
     "07 - Haskamos/Rabbi Oelbaum": "/rabbi-oelbaum/",
     "07 - Haskamos/Rabbi Yossi Bennett": "/rabbi-yossi-bennett/",
     "08 - Prefaces/Ari": "/ari/",

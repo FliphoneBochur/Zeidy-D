@@ -336,7 +336,7 @@ test("keeps numeric thousands separators tight", () => {
 test("removes spaces before sentence punctuation", () => {
   assert.equal(
     normalizePunctuationSpacing("R' Moshe Sternbuch , who quoted Rav Itzele Peterburger . What"),
-    "R' Moshe Sternbuch, who quoted Rav Itzele Peterburger. What"
+    "R’ Moshe Sternbuch, who quoted Rav Itzele Peterburger. What"
   );
 });
 
@@ -384,7 +384,7 @@ test("keeps person index markers after adjacent punctuation", () => {
     normalizePunctuationSpacing(
       "R' Moshe Sternbuch#metadata(none) <person-index-1>, who quoted Rav Itzele Peterburger#metadata(none) <person-index-2>. What"
     ),
-    "R' Moshe Sternbuch, #metadata(none) <person-index-1> who quoted Rav Itzele Peterburger.#metadata(none) <person-index-2> What"
+    "R’ Moshe Sternbuch, #metadata(none) <person-index-1> who quoted Rav Itzele Peterburger.#metadata(none) <person-index-2> What"
   );
 });
 
