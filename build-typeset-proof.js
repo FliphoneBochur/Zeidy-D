@@ -45,6 +45,10 @@ const NUMERIC_SOURCE_HEBREW_QUOTE_RE = new RegExp(
   `(\\(\\d+:\\d+\\):\\s+)(${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN}){2,220})(?=\\s*[.?!])`,
   "gu"
 );
+const HEBREW_PHRASE_NUMERIC_SOURCE_RE = new RegExp(
+  `(${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN}){1,8})\\s*\\\\?\\((\\d+:\\d+)\\),(?=\\s+${HEBREW_TOKEN})`,
+  "gu"
+);
 const HEBREW_PARAGRAPH_LEADING_REFERENCE_RE = new RegExp(
   `^\\s*(${HEBREW_PAREN_REFERENCE})\\s+(${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN}){0,220})([.?!]?)\\s*$`,
   "gu"
@@ -161,8 +165,24 @@ const HEBREW_TRAILING_PARSHAS_NAME_RE = new RegExp(
   `(^|[^\\u0590-\\u05FF\\uFB1D-\\uFB4F])(${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN}){0,3})\\s+פרשת(?=\\s*(?:[,.;:?!-]|[A-Za-z]|$))`,
   "gu"
 );
+const HEBREW_DAF_BEFORE_MASECHTA_RE = new RegExp(
+  `\\(דף\\s+(${HEBREW_TOKEN})\\)\\s+מסכת\\s+(${HEBREW_TOKEN})`,
+  "gu"
+);
+const HEBREW_MASECHTA_DAF_QUOTE_RE = new RegExp(
+  `מסכת\\s+(${HEBREW_TOKEN})\\s+\\(דף\\s+(${HEBREW_TOKEN})\\)[,:]\\s+(${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN}){1,40})\\?(?=\\s+-\\s+[A-Za-z])`,
+  "gu"
+);
 const SPLIT_GEMARA_SOURCE_RE = new RegExp(
   `${RTL_ISOLATE}(${HEBREW_TOKEN}),${POP_DIRECTIONAL_ISOLATE}\\s+${LTR_ISOLATE}([^${POP_DIRECTIONAL_ISOLATE}]*?דף[^${POP_DIRECTIONAL_ISOLATE}]*?ד${HEBREW_INTERNAL_QUOTE}ה[^${POP_DIRECTIONAL_ISOLATE}]*?)${POP_DIRECTIONAL_ISOLATE}\\s+${RTL_ISOLATE}(${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN})*)${POP_DIRECTIONAL_ISOLATE}`,
+  "gu"
+);
+const SPLIT_MASECHTA_DAF_QUESTION_RE = new RegExp(
+  `${RTL_ISOLATE}מסכת\\s+(${HEBREW_TOKEN})\\s+${LTR_ISOLATE}\\(דף\\s+(${HEBREW_TOKEN})\\)${POP_DIRECTIONAL_ISOLATE}${POP_DIRECTIONAL_ISOLATE}[,:]\\s+${RTL_ISOLATE}(${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN}){1,40})${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE}\\?${POP_DIRECTIONAL_ISOLATE}`,
+  "gu"
+);
+const SPLIT_REVERSED_MASECHTA_DAF_QUESTION_RE = new RegExp(
+  `${LTR_ISOLATE}\\((${HEBREW_TOKEN})\\s+דף\\)${POP_DIRECTIONAL_ISOLATE}\\s+${RTL_ISOLATE}(${HEBREW_TOKEN})\\s+מסכת[,:]\\s+(${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN}){1,40})${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE}\\?${POP_DIRECTIONAL_ISOLATE}`,
   "gu"
 );
 const MIXED_LTR_PARENTHETICAL_RE = new RegExp(
@@ -1040,9 +1060,14 @@ function normalizePunctuationSpacing(typstContent) {
     .replace(HEBREW_LOOSE_CITATION_CLOSE_RE, "$1($2)")
     .replace(MISSING_OPEN_HEBREW_CITATION_PAREN_RE, "$1 ($2):")
     .replace(HEBREW_TRAILING_PARSHAS_NAME_RE, "$1פרשת $2")
+    .replace(HEBREW_DAF_BEFORE_MASECHTA_RE, "מסכת $2 (דף $1)")
     .replace(HEBREW_PASUK_BEFORE_PEREK_RE, "פרק $2 פסוק $1")
     .replace(SHORT_HEBREW_PREFIX_DASH_RE, "$1$2 - $3")
     .replace(HEBREW_TO_ENGLISH_DASH_RE, "$1 - ")));
+}
+
+function normalizeInlineWhitespace(value) {
+  return value.replace(/[ \t\u00A0\u202F]*\n[ \t\u00A0\u202F]*/g, " ");
 }
 
 function isolateHebrewRuns(typstContent) {
@@ -1052,8 +1077,6 @@ function isolateHebrewRuns(typstContent) {
     protectedSequences.push(value);
     return marker;
   };
-  const normalizeInlineWhitespace = (value) =>
-    value.replace(/[ \t\u00A0\u202F]*\n[ \t\u00A0\u202F]*/g, " ");
   const followedByEnglish = (fullText, endOffset) => {
     const rawFollowing = fullText.slice(endOffset);
     if (/^(?:[ \t\u00A0\u202F]+|\n(?!\n)|#metadata\(none\)\s*<[^>\n]+>)*\((?:[^()\n]|\n(?!\n)){0,300}[A-Za-z]/.test(rawFollowing)) {
@@ -1132,7 +1155,15 @@ function isolateHebrewRuns(typstContent) {
     return /\b(?:in|of|from|by|with|for|as|to)\s*$/.test(preceding);
   };
 
-  const hebrewQuestionSafeContent = hebrewEllipsisSafeContent.replace(HEBREW_QUESTION_PHRASE_RE, (match, offset, fullText) => {
+  const masechtaDafQuoteSafeContent = hebrewEllipsisSafeContent.replace(HEBREW_MASECHTA_DAF_QUOTE_RE, (_match, masechta, daf, question) => {
+    return protect(formatMasechtaDafQuestion(masechta, daf, question));
+  });
+
+  const hebrewPhraseNumericSourceSafeContent = masechtaDafQuoteSafeContent.replace(HEBREW_PHRASE_NUMERIC_SOURCE_RE, (_match, phrase, source) => {
+    return protect(formatHebrewPhraseNumericSource(phrase, source));
+  });
+
+  const hebrewQuestionSafeContent = hebrewPhraseNumericSourceSafeContent.replace(HEBREW_QUESTION_PHRASE_RE, (match, offset, fullText) => {
     const phrase = normalizeInlineWhitespace(match).replace(/\?$/, "");
     if (phrase.includes(",") && precededByEnglishPreposition(fullText, offset)) {
       return protect(`${isolateHebrewCommaPhrase(phrase, true)}${LTR_ISOLATE}?${POP_DIRECTIONAL_ISOLATE}`);
@@ -1203,12 +1234,40 @@ function isolateHebrewRuns(typstContent) {
   }).replace(new RegExp(RTL_REFERENCE_MARKER, "g"), "");
 }
 
+function formatMasechtaDafQuestion(masechta, daf, question) {
+  const source = `${RTL_ISOLATE}מסכת${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}${normalizeInlineWhitespace(masechta)}${POP_DIRECTIONAL_ISOLATE} (דף ${normalizeInlineWhitespace(daf)}):`;
+  const questionWords = normalizeInlineWhitespace(question).match(new RegExp(HEBREW_TOKEN, "gu")) || [];
+  const isolatedQuestionWords = questionWords
+    .reverse()
+    .map((word) => `${RTL_ISOLATE}${word}${POP_DIRECTIONAL_ISOLATE}`)
+    .join(" ");
+  return `${LTR_ISOLATE}${source} ${isolatedQuestionWords}?${POP_DIRECTIONAL_ISOLATE}`;
+}
+
+function formatHebrewPhraseNumericSource(phrase, source) {
+  return `${RTL_ISOLATE}${normalizeInlineWhitespace(phrase)}${POP_DIRECTIONAL_ISOLATE} ${LTR_ISOLATE}(${source}),${POP_DIRECTIONAL_ISOLATE}`;
+}
+
 function repairSplitGemaraSources(typstContent) {
   return typstContent.replace(
     SPLIT_GEMARA_SOURCE_RE,
     (_match, masechta, citation, tail) =>
       `${RTL_ISOLATE}${masechta}, ${citation.replace(/\s+/g, " ")} ${tail}${POP_DIRECTIONAL_ISOLATE}`
   );
+}
+
+function repairSplitMasechtaDafQuestions(typstContent) {
+  return typstContent
+    .replace(
+      SPLIT_MASECHTA_DAF_QUESTION_RE,
+      (_match, masechta, daf, question) =>
+        formatMasechtaDafQuestion(masechta, daf, question)
+    )
+    .replace(
+      SPLIT_REVERSED_MASECHTA_DAF_QUESTION_RE,
+      (_match, daf, masechta, question) =>
+        formatMasechtaDafQuestion(masechta, daf, question)
+    );
 }
 
 function repairTwoPartHebrewCommaDashPhrases(typstContent) {
@@ -1354,13 +1413,15 @@ function applyTextRules(typstContent) {
         repairStyledHebrewContinuations(
           protectMixedLtrParentheticals(
             repairTwoPartHebrewCommaDashPhrases(
-              repairSplitGemaraSources(
-                isolateHebrewRuns(
-                  moveLeadingHebrewSourceAfterQuote(
-                    repairEscapedHebrewParagraphCitations(
-                      normalizeMisplacedHebrewCommas(
-                        normalizePunctuationSpacing(
-                          normalizeColonHebrewSoftBreaks(normalizeNumberedSoftBreaks(typstContent))
+              repairSplitMasechtaDafQuestions(
+                repairSplitGemaraSources(
+                  isolateHebrewRuns(
+                    moveLeadingHebrewSourceAfterQuote(
+                      repairEscapedHebrewParagraphCitations(
+                        normalizeMisplacedHebrewCommas(
+                          normalizePunctuationSpacing(
+                            normalizeColonHebrewSoftBreaks(normalizeNumberedSoftBreaks(typstContent))
+                          )
                         )
                       )
                     )

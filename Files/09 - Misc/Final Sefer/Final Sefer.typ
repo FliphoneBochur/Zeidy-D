@@ -13722,8 +13722,8 @@ letter do you land on? It will be a ⁧ס⁩. Count another 12,196 letters, and
 you'll get a ⁧ת⁩. Count another 12,196, you get a ⁧ר⁩. That's the name of
 ⁧אסתר⁩\.” R’ Greenwald was amazed. Jokingly, he asked, “And what about
 ⁧מרדכי⁩? We found ⁧אסתר⁩ - where is ⁧מרדכי⁩?” R’ Weissmandl#metadata(none) <person-index-r-michael-dovid-weissmandl-1091> smiled and said, “Check with me next year.” The following year, R’ Greenwald came to R’
-Weissmandl#metadata(none) <person-index-r-michael-dovid-weissmandl-1092> and greeted him with, “Where is ⁧מרדכי⁩?” R’ Weissmandl#metadata(none) <person-index-r-michael-dovid-weissmandl-1093> said, “I found the ⁧רמז⁩ from ⁧מרדכי⁩ as well. ⁦חז״ל⁩ say in ⁦(קל״ט דף)⁩ ⁧חולין מסכת, מרדכי מן התורה מנין⁩⁦?⁩ - Where can we find ⁧מרדכי⁩ in the ⁧תורה⁩? The ⁧פסוק⁩
-says in ⁧פרשת כי תשא⁩\(30:23), ⁧וְאַתָּה קַח לְךָ בְּשָׂמִים רֹאשׁ מׇר דְּרוֹר⁩. And the ⁧תרגום⁩
+Weissmandl#metadata(none) <person-index-r-michael-dovid-weissmandl-1092> and greeted him with, “Where is ⁧מרדכי⁩?” R’ Weissmandl#metadata(none) <person-index-r-michael-dovid-weissmandl-1093> said, “I found the ⁧רמז⁩ from ⁧מרדכי⁩ as well. ⁦חז״ל⁩ say in ⁦⁧מסכת⁩ ⁧חולין⁩ (דף קל״ט): ⁧מנין⁩ ⁧התורה⁩ ⁧מן⁩ ⁧מרדכי⁩?⁩ - Where can we find ⁧מרדכי⁩ in the ⁧תורה⁩? The ⁧פסוק⁩
+says in ⁧פרשת כי תשא⁩ ⁦(30:23),⁩ ⁧וְאַתָּה קַח לְךָ בְּשָׂמִים רֹאשׁ מׇר דְּרוֹר⁩. And the ⁧תרגום⁩
 of ⁧מׇר דְּרוֹר⁩ is ⁧מֵירָא דַכְיָא⁩⁦,⁩ which is ⁧מרדכי⁩. This is where ⁧מרדכי⁩ is hinted
 to in the ⁧תורה⁩. Now, start taking from the letter ⁧מ⁩ in ⁧מׇר דְּרוֹר⁩⁦,⁩ and
 count your 12,196 letters, and guess what you'll find. You'll find the

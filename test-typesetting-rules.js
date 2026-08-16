@@ -488,6 +488,13 @@ test("keeps Hebrew quote after numeric source in one RTL run", () => {
   );
 });
 
+test("keeps Hebrew phrase with trailing numeric source in visual reading order", () => {
+  assert.equal(
+    applyTextRules("The פסוק says in פרשת כי תשא\\(30:23), וְאַתָּה קַח לְךָ"),
+    `The ${RTL_ISOLATE}פסוק${POP_DIRECTIONAL_ISOLATE} says in ${RTL_ISOLATE}פרשת כי תשא${POP_DIRECTIONAL_ISOLATE} ${LTR_ISOLATE}(30:23),${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}וְאַתָּה קַח לְךָ${POP_DIRECTIONAL_ISOLATE}`
+  );
+});
+
 test("keeps semicolon between Hebrew phrases in English sentence order", () => {
   assert.equal(
     applyTextRules("Hashem of רחמים \\; השם אחד - רחמים and דין is one"),
@@ -901,6 +908,13 @@ test("keeps full parenthesized Hebrew citation in reading order", () => {
   assert.equal(
     applyTextRules("the תוכחה (דברים כ״ח:מ״ז): תַּחַת"),
     `the ${RTL_ISOLATE}תוכחה${POP_DIRECTIONAL_ISOLATE} ${LTR_ISOLATE}(דברים כ״ח:מ״ז)${POP_DIRECTIONAL_ISOLATE}: ${RTL_ISOLATE}תַּחַת${POP_DIRECTIONAL_ISOLATE}`
+  );
+});
+
+test("keeps masechta daf source and Hebrew question in visual reading order", () => {
+  assert.equal(
+    applyTextRules("חז״ל say in מסכת חולין (דף קל״ט), מרדכי מן התורה מנין? - Where"),
+    `${LTR_ISOLATE}חז״ל${POP_DIRECTIONAL_ISOLATE} say in ${LTR_ISOLATE}${RTL_ISOLATE}מסכת${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}חולין${POP_DIRECTIONAL_ISOLATE} (דף קל״ט): ${RTL_ISOLATE}מנין${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}התורה${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}מן${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}מרדכי${POP_DIRECTIONAL_ISOLATE}?${POP_DIRECTIONAL_ISOLATE} - Where`
   );
 });
 
