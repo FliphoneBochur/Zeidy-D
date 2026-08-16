@@ -477,30 +477,29 @@ was missing ⁧מנוחה⁩. He brings from the medrash ⁧מֶה הָיָה ה
 absence of work. So how is it called a ⁧בריאה⁩? We have to redefine and
 reunderstand what the word ⁧מנוחה⁩ means, vis-a-vis ⁧הקדוש ברוך הוא⁩. Now, we know that the ⁧ששת ימי בראשית⁩ are different from all the rest of
 history in that each and every day ⁧הקדוש ברוך הוא⁩ created something
-which had not been there before, it's a Latin term, creatio ex nihilo, the term that we're more familiar with is ⁧יש מאין⁩. During ⁧ששת ימי בראשית⁩⁦,⁩ Hashem created ⁧יש מאין⁩ all of the contents of the world which
-has never been there before.
+which had not been there before, it's a Latin term, creatio ex nihilo, the term that we're more familiar with is ⁧יש מאין⁩. During ⁧ששת ימי בראשית⁩⁦,⁩ Hashem created ⁧יש מאין⁩ all of the contents of the world that had
+never been there before.
 
-Beginning with Shabbos, ⁧הקדוש ברוך הוא⁩ is recreates everything in the
-world each and every day, ⁧יש מאין⁩. All the ⁧ספרים⁩ bring down that ⁧בכל רגע ורגע⁩⁦,⁩ ⁧הקדוש ברוך הוא⁩ is ⁧ממציא כל הנמצא⁩ - ⁧הקדוש ברוך הוא⁩ causes the
-existence of all matter in this world. The exact opposite of Aristotle
-who said matter is eternal, we say that matter is ⁦הקדוש ברוך הוא'⁩s
-creation each and every moment, and not only that, it's ⁧יש מאין⁩. Just
-because it was there before, the previous moment's existence is
-absolutely no reason for this matter, this particle of matter to be
-there the next second. Each and every moment, the world is being
-recreated. We say that in davening every single day, ⁧הַמְחַדֵּשׁ בְּטוּבוֹ בְּכָל יוֹם תָּמִיד מַעֲשֵׂה בְרֵאשִׁית⁩. What does that mean? ⁧הַמְחַדֵּשׁ בְּטוּבוֹ⁩ - ⁧הקדוש ברוך הוא⁩ in
-his goodness is newly creating; ⁧תָּמִיד⁩ - continuously; ⁧מַעֲשֵׂה בְרֵאשִׁית⁩. So
-⁧שבת⁩⁦,⁩ which we use as a symbol of resting, of stopping from work, is
-actually our ⁧עדות⁩⁦,⁩ is our testimony that ⁧הקדוש ברוך הוא⁩ is the ⁧ממציא⁩ and
-the ⁧בורא העולם⁩ and continues its constant existence. As the ⁧בית הלוי⁩⁦,⁩ #metadata(none) <person-index-bais-halevi-1>
-which this is from, says, we are used to seeing things continually
-existing because in our minds, in our eye, we see things being there on
-a constant basis. That's because we can't see it being recreated every
-second. ⁧הקדוש ברוך הוא⁩ made it that way. In our mind and in our
-consciousness, that's called ⁧מנוחה⁩. That's called ⁧שבת⁩⁦,⁩ it's called
-resting. Hashem is recreating the world every second - that is ⁧מנוחה⁩.
-⁧ששת ימי בראשית⁩ was creating something which had never been there before
-\- that's called ⁧בריאה⁩.
+Beginning with Shabbos, ⁧הקדוש ברוך הוא⁩ recreates everything in the world
+each and every day, ⁧יש מאין⁩. All the ⁧ספרים⁩ bring down that ⁧בכל רגע ורגע⁩⁦,⁩ ⁧הקדוש ברוך הוא⁩ is ⁧ממציא כל הנמצא⁩ - ⁧הקדוש ברוך הוא⁩ causes the existence
+of all matter in this world. The exact opposite of Aristotle who said
+matter is eternal, we say that matter is ⁦הקדוש ברוך הוא'⁩s creation each
+and every moment, and not only that, it's ⁧יש מאין⁩. Just because it was
+there before, the previous moment's existence is absolutely no reason
+for this matter, this particle of matter to be there the next second.
+Each and every moment, the world is being recreated. We say that in
+davening every single day, ⁧הַמְחַדֵּשׁ בְּטוּבוֹ בְּכָל יוֹם תָּמִיד מַעֲשֵׂה בְרֵאשִׁית⁩. What
+does that mean? ⁧הַמְחַדֵּשׁ בְּטוּבוֹ⁩ - ⁧הקדוש ברוך הוא⁩ in his goodness is newly
+creating; ⁧תָּמִיד⁩ - continuously; ⁧מַעֲשֵׂה בְרֵאשִׁית⁩. So ⁧שבת⁩⁦,⁩ which we use as a
+symbol of resting, of stopping from work, is actually our ⁧עדות⁩⁦,⁩ is our
+testimony that ⁧הקדוש ברוך הוא⁩ is the ⁧ממציא⁩ and the ⁧בורא העולם⁩ and
+continues its constant existence. As the ⁧בית הלוי⁩⁦,⁩ #metadata(none) <person-index-bais-halevi-1> which this is from, says, we are used to seeing things continually existing because in our
+minds, in our eye, we see things being there on a constant basis. That's
+because we can't see it being recreated every second. ⁧הקדוש ברוך הוא⁩
+made it that way. In our mind and in our consciousness, that's called
+⁧מנוחה⁩. That's called ⁧שבת⁩⁦,⁩ it's called resting. Hashem is recreating the
+world every second - that is ⁧מנוחה⁩. ⁧ששת ימי בראשית⁩ was creating
+something which had never been there before - that's called ⁧בריאה⁩.
 
 The ⁧בית הלוי⁩#metadata(none) <person-index-bais-halevi-2> is explaining that ⁦רש״י⁩#metadata(none) <person-index-rashi-4> is saying that when Hashem made
 ⁧שבת⁩⁦,⁩ it's a symbol of ⁧מנוחה⁩⁦,⁩ that Hashem is actually the ongoing ⁧מנהיג⁩
@@ -518,15 +517,15 @@ emphasize.
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/bereshis/5785/", "../../01 - Bereshis/01 - Bereshis/5785/Bereshis 5785.png"))
 = Bereshis 5785
 
-⁧פרשת בראשית⁩. Everybody's favorite ⁧פרשה⁩. We love ⁧פרשת בראשית⁩\.I had the
+⁧פרשת בראשית⁩. Everybody's favorite ⁧פרשה⁩. We love ⁧פרשת בראשית⁩. I had the
 ⁧זכות⁩ to hear the following vort from Zeidy Weiss, #metadata(none) <person-index-zeidy-weiss-7> ⁦ע״ה⁩, who was such a
 ⁧טייערער מענטש⁩. He said this so sweetly that it was unforgettable, as
 many of the things that he did, and it's good to pass it along to you.
-He heard it in the name of R’ Rosenzweig, #metadata(none) <person-index-r-rosenzweig-5> the ⁧מרא דאתרא⁩ of the ⁧קהל עדת ישורון⁩⁦,⁩ and he heard it from R’ Yoshe Ber Soloveichik#metadata(none) <person-index-r-yoshe-ber-6> - that's a pretty
+He heard it in the name of R’ Rosenzweig, #metadata(none) <person-index-r-rosenzweig-5> the ⁧מרא דאתרא⁩ of the ⁧קהל עדת ישורון⁩⁦,⁩ and he heard it from R’ Yoshe Ber#metadata(none) <person-index-r-yoshe-ber-6> Soloveitchik - that's a pretty
 impressive line of ⁧מאן דאמרין⁩.
 
 The pasuk says (1:16) ⁧וַיַּעַשׂ אֱלֹהִים אֶת שְׁנֵי הַמְּאֹרֹת הַגְּדֹלִים⁩ - ⁧הקדוש ברוך הוא⁩
-created the two great luminaries; ⁧אֶת הַמָּאוֹר הַגָּדֹל לְמֶמְשֶׁלֶת הַיּוֹם וְאֶת הַמָּאוֹר הַקָּטֹן לְמֶמְשֶׁלֶת הַלַּיְלָה וְאֵת הַכּוֹכָבִים⁩. R’ Soloveichik asked the following
+created the two great luminaries; ⁧אֶת הַמָּאוֹר הַגָּדֹל לְמֶמְשֶׁלֶת הַיּוֹם וְאֶת הַמָּאוֹר הַקָּטֹן לְמֶמְשֶׁלֶת הַלַּיְלָה וְאֵת הַכּוֹכָבִים⁩. R’ Soloveitchik asked the following
 question on this pasuk: At a bris we say ⁧זֶה הַקָּטוֹן גָדוֹל יִהְיֶה⁩. It's a
 famous ⁧ברכה⁩⁦,⁩ that we want this little one to become big. So the obvious
 ⁧קשיא⁩ is what kind of ⁧ברכה⁩ is that? It is the nature of things - he's a
@@ -543,10 +542,10 @@ up properly and to stand on our own. As children, when we have light, it's a ref
 reflecting off of the sun. That's a ⁧מָּאוֹר הַקָּטֹן⁩. In that ⁧ברכה⁩⁦,⁩ we daven
 that ⁧בעזרת השם⁩ we should get to a point in our lives when we're big
 enough that we will be able to illuminate on our own, a ⁧מָּאוֹר הַגָּדֹל⁩⁦,⁩ that
-we will take what we've what we've gotten from our previous teachers and
-⁧דורות⁩ and use that to start our own light, to instill within ourselves
-the ability to fire up our own light and to illuminate those around us
-and those who come after us. So it's a beautiful take on these words ⁧זֶה הַקָּטוֹן גָדוֹל יִהְיֶה⁩.
+we will take what we've gotten from our previous teachers and ⁧דורות⁩ and
+use that to start our own light, to instill within ourselves the ability
+to fire up our own light and to illuminate those around us and those who
+come after us. So it's a beautiful take on these words ⁧זֶה הַקָּטוֹן גָדוֹל יִהְיֶה⁩.
 
 ⁧בעזרת השם⁩⁦,⁩ we should all have the ⁧זכות⁩ to illuminate all those around
 us.
@@ -695,11 +694,11 @@ here at the request of one of the relatives. Since we are both in the
 same family situation towards this ⁧חתן⁩ and ⁧כלה⁩⁦,⁩ that already makes us
 ⁧מחותנים⁩⁦,⁩ kind of.” He smiled kindly. “In short, I want to suggest to you
 my sister's daughter,” “What makes you think of proposing your sister's
-daughter before you even know me? I asked him. “To tell you the truth, after your special speech, I feel like I know you a little. After I hear
-that you were here voluntarily, I know you even more and appreciate you.
-Thirdly, why not give it a try?” Indeed, the third claim tipped the
-scales. I gave him my parents' phone number and we went our separate
-ways.
+daughter before you even know me? I asked him. “To tell you the truth, after your special speech, I feel like I know you a little. After I
+heard that you were here voluntarily, I know you even more and
+appreciate you. Thirdly, why not give it a try?” Indeed, the third claim
+tipped the scales. I gave him my parents' phone number and we went our
+separate ways.
 
 “Everything else is already history. That evening produced a match, and
 today I am married with three children, ⁧ברוך השם⁩. And why did I remember
@@ -714,10 +713,10 @@ It might have been the best ⁧שבע ברכות⁩ speech of all time. It was a
 evening that did not contribute to the happiness of the ⁧חתן⁩ and ⁧כלה⁩⁦,⁩ and
 you saved it with your appearance and your wonderful words and your act
 of ⁧חסד⁩. I remember that very well.” We both laughed. “Wait, oy oy, hold
-on a second” he said suddenly. “What's the matter”? I asked. “I promised
-you a prize, remember? One must keep his promise.” I laughed and said to
-the kind man, “Don't worry, Hashem has kept your promise, I received my
-prize.”
+on a second,” he said suddenly. “What's the matter?” I asked. “I
+promised you a prize, remember? One must keep his promise.” I laughed
+and said to the kind man, “Don't worry, Hashem has kept your promise, I
+received my prize.”
 
 #pagebreak()
 
