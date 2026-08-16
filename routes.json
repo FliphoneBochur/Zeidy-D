@@ -76,6 +76,10 @@
       "contentPath": "01 - Bereshis/05 - Chayai Sara/5786",
       "baseFilename": "Chayai Sara 5786"
     },
+    "/chayai-sara/5787/": {
+      "contentPath": "01 - Bereshis/05 - Chayai Sara/5787",
+      "baseFilename": "Chaya Sara 5787"
+    },
     "/toldos/5784/": {
       "contentPath": "01 - Bereshis/06 - Toldos/5784",
       "baseFilename": "Toldos 5784"
@@ -600,6 +604,10 @@
       "contentPath": "05 - Devarim/07 - Ki Savo/5785",
       "baseFilename": "Ki Savo 5785"
     },
+    "/ki-savo/5786/": {
+      "contentPath": "05 - Devarim/07 - Ki Savo/5786",
+      "baseFilename": "Ki Savo 5786"
+    },
     "/nitzavim/5785/": {
       "contentPath": "05 - Devarim/08 -  Nitzavim/5785",
       "baseFilename": "Nitzavim 5785"
@@ -907,6 +915,10 @@
     "/rabbi-oelbaum-shabbos/": {
       "contentPath": "09 - Misc/Rabbi Oelbaum Shabbos",
       "baseFilename": "Shabbos - The Gift of Olam Haba in This World"
+    },
+    "/rosh-chodesh/": {
+      "contentPath": "09 - Misc/Rosh Chodesh",
+      "baseFilename": "Rosh Chodesh"
     }
   },
   "byContentPath": {
@@ -929,6 +941,7 @@
     "01 - Bereshis/05 - Chayai Sara/5784": "/chayai-sara/5784/",
     "01 - Bereshis/05 - Chayai Sara/5785": "/chayai-sara/5785/",
     "01 - Bereshis/05 - Chayai Sara/5786": "/chayai-sara/5786/",
+    "01 - Bereshis/05 - Chayai Sara/5787": "/chayai-sara/5787/",
     "01 - Bereshis/06 - Toldos/5784": "/toldos/5784/",
     "01 - Bereshis/06 - Toldos/5785": "/toldos/5785/",
     "01 - Bereshis/06 - Toldos/5786": "/toldos/5786/",
@@ -1060,6 +1073,7 @@
     "05 - Devarim/07 - Ki Savo/5783": "/ki-savo/5783/",
     "05 - Devarim/07 - Ki Savo/5784": "/ki-savo/5784/",
     "05 - Devarim/07 - Ki Savo/5785": "/ki-savo/5785/",
+    "05 - Devarim/07 - Ki Savo/5786": "/ki-savo/5786/",
     "05 - Devarim/08 -  Nitzavim/5785": "/nitzavim/5785/",
     "05 - Devarim/09 - Vayailech/5786": "/vayailech/5786/",
     "05 - Devarim/10 - Nitzavim-Vayailech/5783": "/nitzavim-vayailech/5783/",
@@ -1136,6 +1150,7 @@
     "09 - Misc/Bloopers": "/bloopers/",
     "09 - Misc/Bris": "/bris/",
     "09 - Misc/Final Sefer": "/final-sefer/",
-    "09 - Misc/Rabbi Oelbaum Shabbos": "/rabbi-oelbaum-shabbos/"
+    "09 - Misc/Rabbi Oelbaum Shabbos": "/rabbi-oelbaum-shabbos/",
+    "09 - Misc/Rosh Chodesh": "/rosh-chodesh/"
   }
 }
