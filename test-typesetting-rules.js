@@ -640,6 +640,13 @@ test("keeps italic Hebrew inline inside a surrounding Hebrew phrase", () => {
   );
 });
 
+test("keeps Hebrew quote continuations in one RTL phrase", () => {
+  assert.equal(
+    applyTextRules('on the pasuk לדעת כי אני ה׳ מקדשכם" אמר הקב״ה למשה משה מתנה טובה יש לי בבית גנזי" - I have'),
+    `on the pasuk ${RTL_ISOLATE}”לדעת כי אני ה׳ מקדשכם“ אמר הקב״ה למשה משה מתנה טובה יש לי בבית גנזי${POP_DIRECTIONAL_ISOLATE} - I have`
+  );
+});
+
 test("moves extracted leading comma to the end of the Hebrew phrase", () => {
   assert.equal(
     normalizeMisplacedHebrewCommas("to משה, ,אֱחוֹז בְּכִסֵּא כְבוֹדִי symbolizes"),
@@ -1458,6 +1465,21 @@ test("docx: Rabbi Oelbaum Shabbos keeps bold hakol inside the yotzer phrase", ()
     typst,
     `${RTL_ISOLATE}יוצר${POP_DIRECTIONAL_ISOLATE} #strong[${RTL_ISOLATE}הכל${POP_DIRECTIONAL_ISOLATE}]`,
     "bold hakol should not be split into its own RTL isolate"
+  );
+});
+
+test("docx: Rabbi Oelbaum Shabbos keeps Malbim quoted Gemara in one RTL phrase", () => {
+  const typst = convertedDocx("/rabbi-oelbaum-shabbos/");
+
+  assertContains(
+    typst,
+    `on the pasuk ${RTL_ISOLATE}”לדעת כי אני ה׳ מקדשכם“ אמר הקב״ה למשה משה מתנה טובה יש לי בבית גנזי${POP_DIRECTIONAL_ISOLATE} - I have a chashuv`,
+    "Malbim quoted Gemara stays in one RTL isolate"
+  );
+  assertNotContains(
+    typst,
+    `${RTL_ISOLATE}לדעת כי אני ה׳ מקדשכם${POP_DIRECTIONAL_ISOLATE}” ${LTR_ISOLATE}אמר הקב״ה${POP_DIRECTIONAL_ISOLATE}`,
+    "quote should not split the Malbim Hebrew sequence"
   );
 });
 

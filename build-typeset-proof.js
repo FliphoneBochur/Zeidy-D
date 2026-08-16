@@ -917,9 +917,19 @@ function keepIndexMarkersAfterPunctuation(typstContent) {
   );
 }
 
+function normalizeHebrewQuotePlacement(typstContent) {
+  return typstContent.replace(
+    new RegExp(
+      `(${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN}){2,80})\\\\?"\\s+(${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN}){2,80})\\\\?"(?=\\s+-)`,
+      "gu"
+    ),
+    "”$1“ $2"
+  );
+}
+
 function smartenStraightDoubleQuotes(typstContent) {
   const hebrewClass = HEBREW_LETTERS.slice(1, -1);
-  return typstContent
+  return normalizeHebrewQuotePlacement(typstContent)
     .replace(new RegExp(`(${HEBREW_LETTERS})\\\\?"(?=${HEBREW_LETTERS})`, "gu"), "$1״")
     .replace(new RegExp(`(^|[\\s([{\\-])\\\\?"(?=(?:${HEBREW_LETTERS}|[\\u2066\\u2067]))`, "gu"), "$1“")
     .replace(new RegExp(`(${HEBREW_LETTERS})\\\\?"(?=\\s|$|[,.;:!?)}\\]]|\\u2069)`, "gu"), "$1”")
@@ -1221,6 +1231,41 @@ function repairStyledHebrewContinuations(typstContent) {
   return repaired;
 }
 
+function repairHebrewIsolateContinuations(typstContent) {
+  const hebrewIsolate = `[${RTL_ISOLATE}${LTR_ISOLATE}]([^${POP_DIRECTIONAL_ISOLATE}\\n]*${HEBREW_LETTERS}[^${POP_DIRECTIONAL_ISOLATE}\\n]*)${POP_DIRECTIONAL_ISOLATE}`;
+  const softSeparator = `(["”]?)[\\t \\u00A0\\u202F]*(?:\\n(?!\\n)[\\t \\u00A0\\u202F]*)?`;
+
+  let repaired = typstContent;
+  let previous;
+  do {
+    previous = repaired;
+    repaired = repaired
+      .replace(
+        new RegExp(`([“”])${hebrewIsolate}`, "gu"),
+        `${RTL_ISOLATE}$1$2${POP_DIRECTIONAL_ISOLATE}`
+      )
+      .replace(
+        new RegExp(`${hebrewIsolate}([“”])(?=[\\t \\u00A0\\u202F]*(?:\\n(?!\\n)[\\t \\u00A0\\u202F]*)?[${RTL_ISOLATE}${LTR_ISOLATE}])`, "gu"),
+        `${RTL_ISOLATE}$1$2${POP_DIRECTIONAL_ISOLATE}`
+      )
+      .replace(
+        new RegExp(`${hebrewIsolate}(["”])(?=[\\t \\u00A0\\u202F]*(?:\\n(?!\\n)[\\t \\u00A0\\u202F]*)?-)`, "gu"),
+        `${RTL_ISOLATE}$1$2${POP_DIRECTIONAL_ISOLATE}`
+      )
+      .replace(
+        new RegExp(`${hebrewIsolate}${softSeparator}${hebrewIsolate}`, "gu"),
+        (match, left, quote, right) => {
+          if (!quote && !/[#"”]/.test(left) && !/[#"”]/.test(right)) {
+            return match;
+          }
+          return `${RTL_ISOLATE}${left}${quote} ${right}${POP_DIRECTIONAL_ISOLATE}`;
+        }
+      );
+  } while (repaired !== previous);
+
+  return repaired;
+}
+
 function normalizeIsolatedPunctuationSpacing(typstContent) {
   return typstContent
     .replace(/(#metadata\(none\)\s*<[^>\n]+>)(?:\\?["”])\s*:/g, "”:$1")
@@ -1251,15 +1296,17 @@ function normalizeIsolatedPunctuationSpacing(typstContent) {
 function applyTextRules(typstContent) {
   return normalizeIsolatedPunctuationSpacing(
     repairGerushinMizbeachPhrase(
-      repairStyledHebrewContinuations(
-        protectMixedLtrParentheticals(
-          repairSplitGemaraSources(
-            isolateHebrewRuns(
-              moveLeadingHebrewSourceAfterQuote(
-                repairEscapedHebrewParagraphCitations(
-                  normalizeMisplacedHebrewCommas(
-                    normalizePunctuationSpacing(
-                      normalizeColonHebrewSoftBreaks(normalizeNumberedSoftBreaks(typstContent))
+      repairHebrewIsolateContinuations(
+        repairStyledHebrewContinuations(
+          protectMixedLtrParentheticals(
+            repairSplitGemaraSources(
+              isolateHebrewRuns(
+                moveLeadingHebrewSourceAfterQuote(
+                  repairEscapedHebrewParagraphCitations(
+                    normalizeMisplacedHebrewCommas(
+                      normalizePunctuationSpacing(
+                        normalizeColonHebrewSoftBreaks(normalizeNumberedSoftBreaks(typstContent))
+                      )
                     )
                   )
                 )
