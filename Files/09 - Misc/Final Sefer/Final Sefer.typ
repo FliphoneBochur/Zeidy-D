@@ -738,9 +738,9 @@ died. Why did he die?
 
 Another question is that one of our famous stories about ⁧אברהם אבינו⁩ is
 ⁧אור כשדים⁩. Where is that in the ⁧תורה⁩? Ain't nowhere in the ⁧תורה⁩. It's in
-this Rashi#metadata(none) <person-index-rashi-10> at the end of ⁧נח⁩. ⁧אברהם אבינו⁩ would not bow down to ⁧נמרוד הרשע ימח שמו⁩. So Nimrod said “I'm throwing you into the fire.” But as he
-was going into the fire and was being saved, they asked ⁧הרן⁩⁦,⁩ “Who are
-you with? Are you with ⁧נמרוד⁩ or are you with ⁧אברם⁩?” He said “Let me see
+this Rashi#metadata(none) <person-index-rashi-10> at the end of ⁧נח⁩. ⁧אברהם אבינו⁩ would not bow down to ⁧נמרוד הרשע ימח שמו⁩. So Nimrod said, “I'm throwing you into the fire.” But as
+he was going into the fire and was being saved, they asked ⁧הרן⁩⁦,⁩ “Who are
+you with? Are you with ⁧נמרוד⁩ or are you with ⁧אברם⁩?” He said, “Let me see
 what happens.” When he saw that ⁧אברם⁩ was saved, he said, “I'm with
 ⁧אברם⁩”. They threw him into the fire and he wasn't saved as he was doing
 it ⁧שלא לשמה⁩. ⁧אברהם אבינו⁩ did it ⁧לשמה⁩. So the whole ⁧אור כשדים מדרש⁩⁦,⁩ upon
@@ -845,9 +845,9 @@ saying any word, without talking, to be certain that he would not speak
 ⁧שיחת חולין⁩. However, after the 40 days, to no one's surprise, nothing
 happened. So he decided to journey to the ⁧בעל שם⁩#metadata(none) <person-index-baal-shem-tov-19> for an explanation.
 When he told the ⁧בעל שם⁩#metadata(none) <person-index-baal-shem-tov-20> his sad story, the ⁧צדיק⁩ asked him, “Did you
-daven during those 40 days?” “What a question, Three times a day, of
-course!” “Did you read any ⁧תהלים⁩?” “Of course”, answered the man. “In
-that case”, said the ⁧בעל שם⁩⁦,⁩ #metadata(none) <person-index-baal-shem-tov-21> “considering the way that you daven and say
+daven during those 40 days?” “What a question! Three times a day, of
+course!” “Did you read any ⁧תהלים⁩?” “Of course,” answered the man. “In
+that case,” said the ⁧בעל שם⁩⁦,⁩ #metadata(none) <person-index-baal-shem-tov-21> “considering the way that you daven and say
 ⁧תהלים⁩⁦,⁩ it's clear now. That must have been your ⁧שיחת חולין⁩\.”
 
 That is a powerful message to all of us, including me. We've got to work
@@ -867,7 +867,7 @@ does that word mean?” So, we have to work on that. And in the ⁧זכות⁩ o
 
 ⁧פרשת נח⁩ starts with a fundamental and fascinating question which
 continues up until our very day. The ⁧פרשה⁩ starts (6:9), ⁧אֵלֶּה תּוֹלְדֹת נֹחַ נֹחַ אִישׁ צַדִּיק⁩. Rashi#metadata(none) <person-index-rashi-40> says on these words ⁧תּוֹלְדוֹתֵיהֶם שֶׁל צַדִּיקִים מַעֲשִׂים טוֹבִים⁩.
-What is Rashi#metadata(none) <person-index-rashi-41> intimating to and what is the ⁧חידוש⁩ in these apparently
+What is Rashi#metadata(none) <person-index-rashi-41> intimating, and what is the ⁧חידוש⁩ in these apparently
 simple words? The following answer is brought down by the ⁧אלכסנדר רבי⁩ in
 his ⁧ספר בית יעקב⁩ in the name of the ⁧ייד הקדוש מפשיסחא⁩#metadata(none) <person-index-the-yid-hakodosh-43> quoted in ⁧מעינה של תורה⁩⁦,⁩ #metadata(none) <person-index-m-eino-shel-torah-37> the wonderful set of seferim from ⁧ר׳ אלכסנדר זושא פרידמן⁩.
 
@@ -898,8 +898,7 @@ The ⁧מעינה של תורה⁩#metadata(none) <person-index-m-eino-shel-tora
 above from the Brisker Rav, #metadata(none) <person-index-brisker-rav-35> R’ Yoshe Ber, #metadata(none) <person-index-r-yoshe-ber-39> ⁦(I assume it is the ⁧בית הלוי⁩).⁩#metadata(none) <person-index-bais-halevi-34>
 He says: All of my life, I constantly yearned that I should never come
 to the phrase ⁧ברא מזכה אבא⁩⁦,⁩ \[which is a famous saying in the ⁧גמרא⁩⁦,⁩ which means that after 120 years, the children are a ⁧זכות⁩ to their
-parents because they can continue in their ways.\] The Brisker Rav#metadata(none) <person-index-brisker-rav-36> said
-“I don't want that. I want to be ⁧מזכה⁩ myself. I want to be able to say
+parents because they can continue in their ways.\] The Brisker Rav#metadata(none) <person-index-brisker-rav-36> said, “I don't want that. I want to be ⁧מזכה⁩ myself. I want to be able to say
 when I come upstairs 'I did what I was sent to do', and that is my
 ultimate purpose and achievement.”
 
@@ -1087,12 +1086,13 @@ purpose was not because of his wanting to do what Avram does. It was a
 different ⁧כוונה⁩ completely, and that was to do what was good for him.
 
 In ⁧ספר דברים⁩ we have the famous pasuk (28:9) ⁧וְהָלַכְתָּ בִּדְרָכָיו⁩ - we have to
-go in the ways of ⁧הקדוש ברוך הוא⁩. We understand that that we do
-everything that Hashem does because we cannot really understand Hashem, but we're following his ways. ⁧רחום⁩⁦,⁩ ⁧חנון⁩⁦,⁩ does ⁧חסד⁩. This pasuk started
-from the beginning of our creation of ⁧כלל ישראל⁩⁦,⁩ of ⁧אברהם אבינו⁩⁦,⁩ the
-first of the ⁧אבות⁩⁦,⁩ tells you ⁧והלכת בדרכיו⁩ means literally, ⁧אברהם⁩ went in
-Hashem's way because that's what Hashem told him to do. A literal
-translation of the words that we've always learned for these years.
+go in the ways of ⁧הקדוש ברוך הוא⁩. We understand that we do everything
+that Hashem does because we cannot really understand Hashem, but we're
+following his ways. ⁧רחום⁩⁦,⁩ ⁧חנון⁩⁦,⁩ does ⁧חסד⁩. This pasuk started from the
+beginning of our creation of ⁧כלל ישראל⁩⁦,⁩ of ⁧אברהם אבינו⁩⁦,⁩ the first of the
+⁧אבות⁩⁦,⁩ tells you ⁧והלכת בדרכיו⁩ means literally, ⁧אברהם⁩ went in Hashem's way
+because that's what Hashem told him to do. A literal translation of the
+words that we've always learned for these years.
 
 ⁧וְהָלַכְתָּ בִּדְרָכָיו⁩ means you follow in Hashem's ways because that is the ⁧רצון השם⁩. We follow everything that Hashem tells us because we want to do
 ⁧רצון השם⁩. If we can get up to that ⁧מדרגה⁩⁦,⁩ which ⁧אברהם אבינו⁩ was, and we
@@ -1152,12 +1152,12 @@ But now that they were coming to ⁧מצרים⁩⁦,⁩ where there were people
 only conception of importance was externality and superficiality, Avram
 said, “Uh oh, now we have to recognize this because it could cause an
 issue.” Rashi#metadata(none) <person-index-rashi-70> is saying that it's only because of the ⁧מעשה⁩ that he now
-recognized the greatness of her external beauty and said “We have to
+recognized the greatness of her external beauty and said, “We have to
 deal with it.” But he really knew who she was, exactly what she looked
-like. She was such a majestic person that that her external beauty
-served absolutely no purpose in their relationship and they were
-wonderful together at a tremendously high level of spirituality and
-majesty, which is also what our focus should be.
+like. She was such a majestic person that her external beauty served
+absolutely no purpose in their relationship and they were wonderful
+together at a tremendously high level of spirituality and majesty, which
+is also what our focus should be.
 
 #pagebreak()
 
@@ -1285,7 +1285,7 @@ help keep the place clean and neat, a visitor should make it his
 business to clean up the house, and that helps the ⁧חולה⁩ get better. In
 fact, there's a ⁧גמרא⁩ in ⁧נדרים דף מ עמוד א⁩ that ⁧מַעֲשֶׂה בְּתַלְמִיד אֶחָד מִתַּלְמִידֵי רַבִּי עֲקִיבָא שֶׁחָלָה⁩⁦,⁩ and people did not come to visit him. ⁧רבי עקיבא⁩ came in
 to visit him, and he helped to clean him and clean the room, and the
-sick person said “⁧רַבִּי, הֶחֱיִיתַנִי⁩”. So there are a number of things you
+sick person said, “⁧רַבִּי, הֶחֱיִיתַנִי⁩”. So there are a number of things you
 should do on a ⁧ביקור חולים⁩ visit. But one of the things you don't do is
 mention his name. And that's exactly what happens here, ⁧וַיֵּרָא אֵלָיו ה׳⁩. It
 doesn't say ⁧וַיֵּרָא אל אברהם⁩ to indicate that ⁧הקדוש ברוך הוא⁩ did not
@@ -1314,7 +1314,7 @@ our shul changed our ⁧מנהג⁩ to not say the word ⁧החולה⁩⁦,⁩ 
 label this person as a ⁧חולה⁩. The sefer ⁧דרכי חיים ושלום⁩ brings that
 Chazal say in ⁧מסכת שבת⁩ that a person should always be ⁧מבקש רחמים⁩ that he
 should not get sick, and if, ⁧חס ושלום⁩⁦,⁩ someone does get sick, we say to
-him, ⁧הוי זכות והיפטר⁩ - Find a ⁧זכות⁩. However, once we label him a ⁧חולה⁩⁦,⁩ we're being ⁧מקיים⁩ that that is his status. That's not a ⁧זכות⁩⁦,⁩ that's
+him, ⁧הוי זכות והיפטר⁩ - Find a ⁧זכות⁩. However, once we label him a ⁧חולה⁩⁦,⁩ we're being ⁧מקיים⁩ that this is his status. That's not a ⁧זכות⁩⁦,⁩ that's
 cementing him into that category of ⁧חולה⁩. Therefore, it's an excellent
 suggestion to leave out the word when you say the ⁧מי שברך⁩⁦,⁩ which we've
 done in our shul for many years. Whoever's a ⁧גבאי⁩ who hears that, you're
@@ -2064,27 +2064,31 @@ years ago. I asked him if I brought him my ⁧תפילין⁩⁦,⁩ would he pu
 week. He recalled that the last time he had put on ⁧תפילין⁩ was with a
 Lubavitcher chassid somewhere on a street, which prompted me to praise
 R’ Menachem Mendel, #metadata(none) <person-index-lubavitcher-rebbe-146> the last Lubavitcher Rebbe, #metadata(none) <person-index-lubavitcher-rebbe-147> for his genius and great
-accomplishments. I mentioned that there's no city in the world in that
-does not have a Lubavitcher outpost.
+accomplishments. I mentioned that there's no city in the world that does
+not have a Lubavitcher outpost.
 
 As I was speaking to him, I recalled a story that I knew about Dr. Allen
 Goldstein, #metadata(none) <person-index-dr-allen-goldstein-138> ⁦ז״ל⁩, a famous doctor in our neighborhood, and how he became
 one of the world's most prominent ear, nose and throat doctors. He
-actually was both the Satmar Rebbe's#metadata(none) <person-index-satmar-rebbe-157> and R’ Yoshe Ber Soloveichik's#metadata(none) <person-index-r-yoshe-ber-154> ear, nose and throat specialist. When he was a young doctor, he was deciding
-what to do as a specialty. He was mature enough, even at that young age, to realize that he would need advice as to what he should do with his
-life, and decided to go the Lubavitcher Rebbe#metadata(none) <person-index-lubavitcher-rebbe-148> to ask for guidance. He
-put on his army uniform, (he had been a lieutenant in the Public Health
-Service), and dressed up as a military officer went down to 770. He said
-the ⁧חסידים⁩ took one look at him and thought he was a general, they took
-him right in to speak to the Rebbe to discuss his plans. He told the
-Rebbe that he wanted to be a thoracic surgeon, a fulfilling and dramatic
-position, one that requires a tremendous amount of training, ability and
-skill. The Rebbe asked him an interesting question. He said to him, “You'd like to help people by operating on their chests. If somebody has
-an earache and you help them with their earache, is that any different
-than helping somebody who has a chest problem?” Dr. Goldstein#metadata(none) <person-index-dr-allen-goldstein-139> thought
-about it and came to the conclusion that the Rebbe was right, changed
-his life course, and became an outstanding ear, nose and throat doctor, known for keeping his office open till the wee hours in the morning with
-an office jammed with people.
+actually was both the Satmar Rebbe's#metadata(none) <person-index-satmar-rebbe-157> and R’ Yoshe Ber#metadata(none) <person-index-r-yoshe-ber-154> Soloveitchik's
+ear, nose and throat specialist. When he was a young doctor, he was
+deciding what to do as a specialty. He was mature enough, even at that
+young age, to realize that he would need advice as to what he should do
+with his life, and decided to go to the Lubavitcher Rebbe#metadata(none) <person-index-lubavitcher-rebbe-148> to ask for
+guidance. He put on his army uniform (he had been a lieutenant in the
+Public Health Service), and dressed up as a military officer went down
+to 770. He said the ⁧חסידים⁩ took one look at him and thought he was a
+general, they took him right in to speak to the Rebbe to discuss his
+plans. He told the Rebbe that he wanted to be a thoracic surgeon, a
+fulfilling and dramatic position, one that requires a tremendous amount
+of training, ability and skill. The Rebbe asked him an interesting
+question. He said to him, “You'd like to help people by operating on
+their chests. If somebody has an earache and you help them with their
+earache, is that any different than helping somebody who has a chest
+problem?” Dr. Goldstein#metadata(none) <person-index-dr-allen-goldstein-139> thought about it and came to the conclusion that
+the Rebbe was right, changed his life course, and became an outstanding
+ear, nose and throat doctor, known for keeping his office open till the
+wee hours in the morning with an office jammed with people.
 
 Besides being a genius in learning, a talmid of R’ Yoshe Ber, #metadata(none) <person-index-r-yoshe-ber-155> and a
 colleague R’ Menachem Genack#metadata(none) <person-index-r-menachem-genack-149> of OU fame, Dr. Goldstein#metadata(none) <person-index-dr-allen-goldstein-140> was also a master
@@ -2362,7 +2366,7 @@ described it. Why would ⁧פרעה⁩ do that? He's going out of his beanbags
 trying to get the answer, why is he going out of his way to trick ⁧יוסף⁩?
 
 The answer is that ⁧יוסף⁩ did something which was unconscionable in ⁦פרעה'⁩s
-mind and unconscionable in our world today. ⁧יוסף⁩ said “Hashem is in
+mind and unconscionable in our world today. ⁧יוסף⁩ said, “Hashem is in
 charge” Nobody wants to hear that. Not one ⁧גוי⁩ wants to hear that.
 Unfortunately, many of us don't want to hear it either. But it's the
 truth: Hashem is in charge.⁧וַיַּעַן יוֹסֵף אֶת פַּרְעֹה לֵאמֹר בִּלְעָדָי אֱלֹהִים יַעֲנֶה אֶת שְׁלוֹם פַּרְעֹה⁩ - I don't do anything, it all comes from Hashem, ⁧אין עוד מלבדו⁩. This upset ⁧פרעה⁩ so much that he switched his language to ⁧וידבר⁩⁦,⁩ a
@@ -2649,7 +2653,7 @@ families, and all of ⁧כלל ישראל⁩.
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/vayechi/5783/", "../../01 - Bereshis/11 - Vayechi/5783/Vayechi 5783.png"))
 = Vayechi 5783
 
-R’ Yoshe Ber Soloveichik, #metadata(none) <person-index-r-yoshe-ber-192> the Rav of ⁧כלל ישראל⁩⁦,⁩ has a wonderful essay
+R’ Yoshe Ber#metadata(none) <person-index-r-yoshe-ber-192> Soloveitchik, the Rav of ⁧כלל ישראל⁩⁦,⁩ has a wonderful essay
 titled “The First Jewish Grandfather,” inspired by this week's ⁧פרשה⁩. It
 may be found in the sefer “Man of Faith#metadata(none) <person-index-man-of-faith-190> in the Modern World” by Rabbi
 Abraham Besdin.#metadata(none) <person-index-rabbi-abraham-besdin-191>
@@ -2692,7 +2696,7 @@ slowly but very regularly slipping away, only lingering in memory. The
 rebbi sits down and he sees before him rows of young beaming faces, clear eyes radiating with the joy of being young. For a minute he says
 “Can I as an old man talk to these young children? Can a rebbi in his
 Indian summer, and the students enjoying the spring of their lives, have
-any connection”? With hesitation he begins his ⁧שיעור⁩⁦,⁩ uncertain as to
+any connection?” With hesitation he begins his ⁧שיעור⁩⁦,⁩ uncertain as to
 how it will proceed. Suddenly, the door opens, and his grandfather, ⁧רב חיים בריסקר⁩⁦,⁩ enters to help explain the ⁧גמרא⁩. Then, another figure
 enters - the ⁦ש״ך⁩, #metadata(none) <person-index-shach-205> followed by ⁧רבינו תם⁩⁦,⁩ ⁧רש״י⁩⁦,⁩ #metadata(none) <person-index-rashi-204> the ⁦רמב״ם⁩, #metadata(none) <person-index-rambam-199> the ⁦ראב״ד⁩, #metadata(none) <person-index-raivid-196> the
 ⁦רשב״א⁩, #metadata(none) <person-index-rashba-202> ⁧רבי עקיבא⁩⁦,⁩ and more. Giants of past generations take their seats.
@@ -4846,7 +4850,7 @@ attended AA meetings regularly, but in spite of that, I was never able
 to abstain from drinking for more than two consecutive weeks. After a
 number of such relapses, I approached one of the older gentlemen at the
 program. “What is it that I'm doing wrong?” I asked. “I keep coming back
-regularly. It doesn't seem to help. I still go out and get drunk”. The
+regularly. It doesn't seem to help. I still go out and get drunk.” The
 older man responded very calmly. “I'm glad you asked me this, young man, because I've been observing you. I'll tell you what your trouble is.
 You're trying to analyze and understand this program, and your thinking
 gets in the way. Just stop trying to understand what it is and just do
@@ -6207,8 +6211,8 @@ others' ⁧מעלות⁩⁦,⁩ even if they seem less capable or intelligent th
 Perhaps they are, in fact, far greater.
 
 There was a gadol from about 200 years ago, the author of the ⁧לבושי שרד⁩.
-The ⁧חתם סופר⁩ brigs down a ⁧מעשה⁩ that in the place where the ⁧לבושי שרד⁩ was
-a rav, there was a ⁧פרנס⁩⁦,⁩ the head of the community, who was the
+The ⁧חתם סופר⁩ brings down a ⁧מעשה⁩ that in the place where the ⁧לבושי שרד⁩
+was a rav, there was a ⁧פרנס⁩⁦,⁩ the head of the community, who was the
 wealthiest man around, but a tremendous ⁧עם הארץ⁩. That happens all the
 time. The wealthiest man is not necessarily the smartest man. As we
 know, ⁧פרנסה⁩ comes from ⁧הקדוש ברוך הוא⁩ directly, not from our wily
@@ -6232,18 +6236,18 @@ can't do it because you're a ⁧כהן⁩.
 
 Later in his life, the ⁧לבושי שרד⁩ moved to ⁧ארץ ישראל⁩ and became a rav in
 ⁧צפת⁩. Another person came in and took his place. I'll use the words that
-that the ⁧אוצר פלאות התורה⁩#metadata(none) <person-index-otzer-plo-os-hatorah-460> uses: ⁧רב אחר אשר חשב עצמו כחכם בעיניו ועז לאותו להפך⁩ - He thought he was a genius, and that his predecessor was
-not that terribly smart. Soon enough, the ⁧עשיר⁩ came to the new rav
-saying, “I want to be ⁧מגרש⁩ my wife.” The rav replied, “Okay”, and sat
-him down to write him a ⁧גט⁩. The ⁧עשיר⁩ asked him, “But how can you do
-that? It's impossible for me to be ⁧מגרש⁩ my wife because she's not ⁧טהור⁩.
-She's ⁧טמא⁩\.” This second rav, whoever he was, started to laugh and make
-⁧לצנות⁩ of the ⁧לבושי שרד⁩. He performed the ⁧גירושין⁩⁦,⁩ and then wrote a long
-letter to the ⁧לבושי שרד⁩ in ⁧ארץ ישראל⁩ to knock off - it was like a
-⁧קינדערשפיל⁩ - all of the things that the ⁧לבושי שרד⁩ had said to this ⁧עשיר⁩⁦,⁩ to this ⁧פרנס⁩⁦,⁩ and to denigrate him, probably not in a ⁧בכבודיק⁩ way. The
-⁧לבושי שרד⁩ received this letter, turned it over and wrote the following
-on the back: ⁧אל תהי שוטה, איזהו חכם הרואה את הנולד⁩ - Foolish man. Who is
-a ⁧חכם⁩? Someone who can see ahead. And he sent back that letter.
+the ⁧אוצר פלאות התורה⁩#metadata(none) <person-index-otzer-plo-os-hatorah-460> uses: ⁧רב אחר אשר חשב עצמו כחכם בעיניו ועז לאותו להפך⁩ - He thought he was a genius, and that his predecessor was not that
+terribly smart. Soon enough, the ⁧עשיר⁩ came to the new rav saying, “I
+want to be ⁧מגרש⁩ my wife.” The rav replied, “Okay”, and sat him down to
+write him a ⁧גט⁩. The ⁧עשיר⁩ asked him, “But how can you do that? It's
+impossible for me to be ⁧מגרש⁩ my wife because she's not ⁧טהור⁩. She's
+⁧טמא⁩\.” This second rav, whoever he was, started to laugh and make ⁧לצנות⁩
+of the ⁧לבושי שרד⁩. He performed the ⁧גירושין⁩⁦,⁩ and then wrote a long letter
+to the ⁧לבושי שרד⁩ in ⁧ארץ ישראל⁩ to knock off - it was like a ⁧קינדערשפיל⁩ - all of the things that the ⁧לבושי שרד⁩ had said to this ⁧עשיר⁩⁦,⁩ to this
+⁧פרנס⁩⁦,⁩ and to denigrate him, probably not in a ⁧בכבודיק⁩ way. The ⁧לבושי שרד⁩
+received this letter, turned it over and wrote the following on the
+back: ⁧אל תהי שוטה, איזהו חכם הרואה את הנולד⁩ - Foolish man. Who is a ⁧חכם⁩?
+Someone who can see ahead. And he sent back that letter.
 
 Not too many days went by, and the ⁧רוגז⁩ of the ⁧עשיר⁩ dissipated and he
 wanted to marry his wife. He came to the rav and said, “I want to
@@ -6306,7 +6310,7 @@ are we to stop her?” Mrs. Mandel was not particularly happy with the
 decision but realized she had no choice.
 
 A few weeks later, she called Rabbi Gesheid#metadata(none) <person-index-rabbi-gesheid-468> again. “Mazel Tov! My son
-just became a ⁧חתן⁩⁦,⁩ thank you Rabbi Gesheid!#metadata(none) <person-index-rabbi-gesheid-469>” she said. “Mazel Tov!” he
+just became a ⁧חתן⁩⁦,⁩ thank you Rabbi Gesheid!”#metadata(none) <person-index-rabbi-gesheid-469> she said. “Mazel Tov!” he
 cautiously replied. “But why are you thanking me?” “You were the
 shadchan!” she exclaimed. “The girl you allowed to share the Shabbos
 apartment with me was the sweetest girl I ever met. Every time I wept, she came over and comforted me. She spoke so softly with such wisdom.
@@ -7141,9 +7145,8 @@ a well-known vort.
 I'd like to say something that's not so well-known from R’ Chaim
 Kanievsky#metadata(none) <person-index-r-chaim-kanievsky-551> ⁦זצ״ל⁩. (13:16) ⁧וַיִּקְרָא מֹשֶׁה לְהוֹשֵׁעַ בִּן נוּן יְהוֹשֻׁעַ⁩. R’ Chaim has a
 unique ⁧פשט⁩ here, and it comes along with a terrific story. ⁧תרגום יונתן⁩
-says that when ⁧משה⁩ saw that that ⁧הושע⁩ was a very big ⁧עניו⁩⁦,⁩ he changed
-his name to ⁧יהושע⁩. What does his humility have to do with changing his
-name?
+says that when ⁧משה⁩ saw that ⁧הושע⁩ was a very big ⁧עניו⁩⁦,⁩ he changed his
+name to ⁧יהושע⁩. What does his humility have to do with changing his name?
 
 R’ Chaim brings down a ⁧פשט⁩ from, of all people, a chassidish Rebbe, the
 Apter Rav, #metadata(none) <person-index-apter-rav-547> also known as the ⁧אוהב ישראל⁩. His name is Avraham Yehoshua
@@ -7509,7 +7512,7 @@ came back. The next morning: “Would you like to come to shachris?” “No.”
 went out, smoked, came back. When it came time for ⁧שלש סעודות⁩⁦,⁩ the
 father asked his son, “R’ Aharon Leib Shteinman#metadata(none) <person-index-r-aharon-leib-shteinman-576> is going to be at shul
 for ⁧שלש סעודות⁩. Would you like to come?” To his surprise, the son said, “Yes.”, and they went together. After ⁧שלש סעודות⁩⁦,⁩ the father asked the
-son, “Would you like to get a bracha#metadata(none) <person-index-bracha-573> from R’ Aharon Leib?#metadata(none) <person-index-r-aharon-leib-shteinman-577>” To his
+son, “Would you like to get a bracha#metadata(none) <person-index-bracha-573> from R’ Aharon Leib?”#metadata(none) <person-index-r-aharon-leib-shteinman-577> To his
 father's astonishment, the son said yes, He approached R’ Aharon Leib#metadata(none) <person-index-r-aharon-leib-shteinman-578> for a ⁧ברכה⁩. The father explained that his
 son was about to make a very serious decision about marrying someone
 outside the faith. R’ Aharon Leib#metadata(none) <person-index-r-aharon-leib-shteinman-579> turned to the son and asked, “Would
@@ -10688,7 +10691,7 @@ Two men were shouting at each other in the street. They didn't care who
 was around them. Someone asked, “What's going on?” They were screaming
 and hollering. One of the men said, “He owes me a thousand rubles.” The
 other one said, “No, I owe you nothing.” They were really fighting.
-Finally, an older gentleman suggested, “Let's go to ⁧ר׳ לוי יצחק⁩\.#metadata(none) <person-index-r-levi-yitzchok-of-berditchev-840>” They
+Finally, an older gentleman suggested, “Let's go to ⁧ר׳ לוי יצחק⁩\.”#metadata(none) <person-index-r-levi-yitzchok-of-berditchev-840> They
 agreed and went to ⁧ר׳ לוי יצחק⁩.#metadata(none) <person-index-r-levi-yitzchok-of-berditchev-841> He listened to their arguments, thought
 about their points, and the next day he ruled that the one who claimed
 he was owed money must be paid. The second man accepted the ⁧פסק⁩ and
@@ -11817,7 +11820,7 @@ Moshe Katz#metadata(none) <person-index-moshe-katz-929>”, and he went on his w
 I came back home and I was sort of astonished. I told my wife exactly
 what happened at ⁧תשליך⁩. I described to her the man who spoke to me. I
 told her, “I don't know why the man mentioned to me before he left that
-his name was Moshe Katz.#metadata(none) <person-index-moshe-katz-930>” As soon as my wife heard the name, she burst
+his name was Moshe Katz.”#metadata(none) <person-index-moshe-katz-930> As soon as my wife heard the name, she burst
 into tears. Through her wailing and sobbing, she told me to repeat
 exactly what I saw, to describe him precisely, his face, appearance, and
 height. I did that for her, and she said that Moshe Katz#metadata(none) <person-index-moshe-katz-931> was the name of
@@ -12644,7 +12647,7 @@ this; it cannot help the ⁧ערבה⁩ that is stretched out on the ground. And
 guess what? It's only through the ⁧ערבה⁩. ⁧מְקִימִי מֵעָפָר דָּל מֵאַשְׁפֹּת יָרִים אֶבְיוֹן⁩
 which we say in ⁧הלל⁩. Hashem will not leave us in the dust and the dirt, He will lift us up through the medium of the ⁧ערבה⁩. The ⁧מנהג⁩ of the ⁧ערבה⁩
 had to be protected, and therefore the ⁧חכמים⁩ made it come out that way
-that that ⁧ערבה⁩ will never be abandoned, and the ⁧ערבה⁩ Jew will never be
+that ⁧ערבה⁩ will never be abandoned, and the ⁧ערבה⁩ Jew will never be
 abandoned. As long as we try our best, no matter how low we have sunk, we can bring ourselves back up in the ⁧זכות⁩ of ⁧דוד המלך⁩ and the ⁧ערבה⁩.
 
 #pagebreak()
@@ -13222,7 +13225,7 @@ merited that day. If we do this properly, we can extend the spirit of
 was tragically killed in Abu Dhabi, we are learning now ⁧לעילוי נשמתו⁩⁦,⁩ and also for all those who need a ⁧רפואה שלמה⁩ and a big ⁧ישועה⁩.
 
 ⁧חנוכה⁩ is a joyous ⁧יום טוב⁩⁦,⁩ one that many of us cherish from childhood.
-The following is an idea found in “A Short Vort.#metadata(none) <person-index-a-short-vort-1046>”: The ⁧בני יששכר⁩#metadata(none) <person-index-r-tzvi-elimelech-of-dinov-1048> and
+The following is an idea found in “A Short Vort.”#metadata(none) <person-index-a-short-vort-1046>: The ⁧בני יששכר⁩#metadata(none) <person-index-r-tzvi-elimelech-of-dinov-1048> and
 many other ⁧גדולי ישראל⁩ describe ⁧חנוכה⁩ as the ⁧יום טוב⁩ of ⁧תורה שבעל פה⁩.
 This leads to a very obvious and straightforward question: Why are there
 no ⁧משניות⁩ in ⁦ש״ס⁩ that discuss ⁧חנוכה⁩? We have a whole ⁧מסכת⁩ for ⁧פורים⁩⁦,⁩ a

@@ -950,6 +950,7 @@ function normalizePunctuationSpacing(typstContent) {
     .replace(new RegExp(`(${HEBREW_LETTERS})['’‘](?!s\\b)`, "gu"), "$1׳")
     .replace(/R'/g, "R’")
     .replace(/([A-Za-z])'"\./g, "$1.'\"")
+    .replace(/([,;:.!?])(#metadata\(none\)\s*<[^>\n]+>)(\\?["”])/g, "$1$3$2")
     .replace(/([,;:.!?])\s+"(?=\s+(?:said|asked|answered|responded|replied)\b)/giu, "$1\"")
     .replace(/((?:\\?["”])(?:[ \t\u00A0\u202F]+\S+){1,4})\n(?=(?:said|asked|answered|responded|replied)\b)/giu, "$1 ")
     .replace(MALFORMED_ESCAPED_OPEN_HEBREW_CITATION_RE, "($1): ")
@@ -1147,6 +1148,8 @@ function repairStrongHebrewContinuations(typstContent) {
 
 function normalizeIsolatedPunctuationSpacing(typstContent) {
   return typstContent
+    .replace(/([,;:.!?])(#metadata\(none\)\s*<[^>\n]+>)(?:\\?["”])/g, "$1”$2")
+    .replace(/([,;:.!?])(?:\\?["”])(#metadata\(none\)\s*<[^>\n]+>)/g, "$1”$2")
     .replace(
       new RegExp(`([${LTR_ISOLATE}${RTL_ISOLATE}][^${POP_DIRECTIONAL_ISOLATE}]+${POP_DIRECTIONAL_ISOLATE}):(?=[${LTR_ISOLATE}${RTL_ISOLATE}])`, "gu"),
       "$1: "
