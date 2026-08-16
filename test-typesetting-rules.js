@@ -498,7 +498,7 @@ test("keeps semicolon between Hebrew phrases in English sentence order", () => {
 test("keeps gerushin mizbeach phrase in English sentence order", () => {
   assert.equal(
     applyTextRules("if חס ושלום there's a גירושין, מזבח מוריד דמעות - the מזבח cries"),
-    `if ${RTL_ISOLATE}חס ושלום${POP_DIRECTIONAL_ISOLATE} there's a ${RTL_ISOLATE}גירושין${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}מזבח${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}מוריד${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}דמעות${POP_DIRECTIONAL_ISOLATE} - the ${RTL_ISOLATE}מזבח${POP_DIRECTIONAL_ISOLATE} cries`
+    `if ${RTL_ISOLATE}חס ושלום${POP_DIRECTIONAL_ISOLATE} there's a ${RTL_ISOLATE}גירושין${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}מזבח מוריד דמעות${POP_DIRECTIONAL_ISOLATE} - the ${RTL_ISOLATE}מזבח${POP_DIRECTIONAL_ISOLATE} cries`
   );
 });
 
@@ -567,6 +567,34 @@ test("strips duplicate source title with alternate b av spelling", () => {
   );
 });
 
+test("fails when docx title is only a route-title suffix", () => {
+  assert.throws(
+    () => stripDuplicateTitle("Sheini 5784]\n\nPesach is coming up", ["Pesach Sheini 5784"]),
+    /DOCX title "Sheini 5784\]" does not match route title/
+  );
+});
+
+test("fails when docx title uses alternate spelling not listed by route", () => {
+  assert.throws(
+    () => stripDuplicateTitle("Nitzavim/Vayeilech 5783]\n\nThis week's פרשיות", ["Nitzavim-Vayailech 5783"]),
+    /DOCX title "Nitzavim\/Vayeilech 5783\]" does not match route title/
+  );
+});
+
+test("strips duplicate source title with explicit route title", () => {
+  assert.equal(
+    stripDuplicateTitle("Nitzavim/Vayeilech 5783]\n\nThis week's פרשיות", ["Nitzavim/Vayeilech 5783"]),
+    "This week's פרשיות"
+  );
+});
+
+test("explicit route title overrides mismatched docx title", () => {
+  assert.equal(
+    stripDuplicateTitle("Vayikrah 5784\n\nThis week's parsha", ["Vayikra 5784"], { allowTitleOverride: true }),
+    "This week's parsha"
+  );
+});
+
 test("strips duplicate source title using route segment context", () => {
   assert.equal(
     stripDuplicateTitle("Krovitz Purim 5783\n\nWe said this morning", [
@@ -605,6 +633,21 @@ test("normalizes Hebrew perek before pasuk references", () => {
   );
 });
 
+test("normalizes trailing Hebrew parsha label before English", () => {
+  assert.equal(
+    applyTextRules("חיי שרה פרשת begins with"),
+    `${RTL_ISOLATE}פרשת חיי שרה${POP_DIRECTIONAL_ISOLATE} begins with`
+  );
+  assert.equal(
+    applyTextRules("פרשת בראשית begins with"),
+    `${RTL_ISOLATE}פרשת בראשית${POP_DIRECTIONAL_ISOLATE} begins with`
+  );
+  assert.equal(
+    applyTextRules("This week is פרשת תזריע-מצורע, which follows"),
+    `This week is ${RTL_ISOLATE}פרשת תזריע-מצורע${POP_DIRECTIONAL_ISOLATE}, which follows`
+  );
+});
+
 test("adds spaces around dash between Hebrew phrase and English explanation", () => {
   assert.equal(
     normalizePunctuationSpacing("כִּי קְרוֹבָה יְשׁוּעָתִי לָבוֹא- First"),
@@ -637,6 +680,13 @@ test("keeps italic Hebrew inline inside a surrounding Hebrew phrase", () => {
   assert.equal(
     applyTextRules("what is the emphasis מתנה #emph[טובה] יש לי בבית גנזי?"),
     `what is the emphasis ${RTL_ISOLATE}מתנה #emph[טובה] יש לי בבית גנזי${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE}?${POP_DIRECTIONAL_ISOLATE}`
+  );
+});
+
+test("removes spaces around styled Hebrew letters inside words", () => {
+  assert.equal(
+    applyTextRules("אָמַ #strong[רְ] תִּי אַפְ #strong[אֵ] יהֶם אַשְׁ #strong[בִּ] יתָה מֵאֱ #strong[נֹ] ושׁ"),
+    `${RTL_ISOLATE}אָמַ#strong[רְ]תִּי אַפְ#strong[אֵ]יהֶם אַשְׁ#strong[בִּ]יתָה מֵאֱ#strong[נֹ]ושׁ${POP_DIRECTIONAL_ISOLATE}`
   );
 });
 
@@ -781,6 +831,13 @@ test("keeps shorthand acronym phrase in logical order", () => {
   assert.equal(
     applyTextRules('part of שובבים ת\\"ת, which includes'),
     `part of ${LTR_ISOLATE}שובבים ת״ת${POP_DIRECTIONAL_ISOLATE}, which includes`
+  );
+});
+
+test("keeps Hebrew phrase with internal geresh token in one RTL run", () => {
+  assert.equal(
+    applyTextRules("called out מי לה׳ אלי and broke"),
+    `called out ${RTL_ISOLATE}מי לה׳ אלי${POP_DIRECTIONAL_ISOLATE} and broke`
   );
 });
 

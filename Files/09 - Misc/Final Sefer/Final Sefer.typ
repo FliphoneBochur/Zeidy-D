@@ -1368,7 +1368,7 @@ got up and he said, “I now know that there is such a concept as ⁧תחית ה
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/chayai-sara/5784/", "../../01 - Bereshis/05 - Chayai Sara/5784/Chayai Sara 5784.png"))
 = Chayai Sara 5784
 
-⁧חיי שרה פרשת⁩ begins with the passing of our beloved mother, ⁧שרה אמנו⁩:
+⁧פרשת חיי שרה⁩ begins with the passing of our beloved mother, ⁧שרה אמנו⁩:
 ⁧וַתָּמׇת שָׂרָה בְּקִרְיַת אַרְבַּע הִוא חֶבְרוֹן בְּאֶרֶץ כְּנָעַן וַיָּבֹא אַבְרָהָם לִסְפֹּד לְשָׂרָה וְלִבְכֹּתָהּ⁩.
 Those who pay attention will notice a small ⁧כ⁩ in the word ⁧וְלִבְכֹּתָהּ⁩. ⁦רש״י⁩#metadata(none) <person-index-rashi-95>
 comments on this, saying: ⁧וְנִסְמְכָה מִיתַת שָׂרָה לַעֲקֵדַת יִצְחָק לְפִי שֶׁעַל יְדֵי בְּשׂוֹרַת הָעֲקֵדָה, שֶׁנִּזְדַּמֵּן בְּנָהּ לִשְׁחִיטָה וְכִמְעַט שֶׁלֹּא נִשְׁחַט, פָּרְחָה נִשְׁמָתָהּ מִמֶּנָּה וּמֵתָה⁩. ⁧שרה אמנו⁩
@@ -1726,7 +1726,7 @@ our efforts at all times. In that ⁧זכות⁩⁦,⁩ we will be ⁧זוכה�
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/vayaitzei/5783/", "../../01 - Bereshis/07 - Vayaitzei/5783/Vayaitzei 5783.png"))
 = Vayaitzei 5783
 
-In ⁧ויצא פרשת⁩⁦,⁩ ⁧יעקב⁩ first marries ⁧לאה⁩⁦,⁩ unknowingly because ⁧לבן⁩ deceived
+In ⁧פרשת ויצא⁩⁦,⁩ ⁧יעקב⁩ first marries ⁧לאה⁩⁦,⁩ unknowingly because ⁧לבן⁩ deceived
 him. After ⁧יעקב⁩ discovers the truth, ⁧לבן⁩ tells him (29:27): ⁧מַלֵּא שְׁבֻעַ זֹאת⁩⁦,⁩ and then you can marry ⁧רחל⁩. Following this, ⁧יעקב⁩ marries ⁧רחל⁩⁦,⁩ and the
 ⁧תורה⁩ transitions into the story of the births of the ⁧שבטים⁩.
 
@@ -1740,7 +1740,7 @@ three sons. The ⁧פסוק⁩ says (29:35):
 ⁧וַתַּהַר עוֹד וַתֵּלֶד בֵּן וַתֹּאמֶר הַפַּעַם אוֹדֶה אֶת ה׳ עַל כֵּן קָרְאָה שְׁמוֹ יְהוּדָה וַתַּעֲמֹד מִלֶּדֶת⁩]
 
 The Belzer Rebbe, #metadata(none) <person-index-the-belzer-rebbe-116> as quoted by Rabbi Oelbaum, #metadata(none) <person-index-r-noach-isaac-oelbaum-117> asks a powerful ⁧קשיא⁩: What
-is the connection between ⁧לאה⁩ naming ⁧יהודה⁩ and the end of the ⁧פסוק⁩⁦,⁩ ⁧וַתַּעֲמֹד⁩ ⁧מִלֶּדֶת⁩ - that she stopped having children?
+is the connection between ⁧לאה⁩ naming ⁧יהודה⁩ and the end of the ⁧פסוק⁩⁦,⁩ ⁧וַתַּעֲמֹד מִלֶּדֶת⁩ - that she stopped having children?
 
 He answers that we must always thank ⁧הקדוש ברוך הוא⁩ for the immense ⁧חסד⁩
 He does for us. However, our gratitude should also include a heartfelt
@@ -2543,7 +2543,7 @@ should continue to meet by ⁧שמחות⁩.
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/vayigash/5784/", "../../01 - Bereshis/10 - Vayigash/5784/Vayigash 5784.png"))
 = Vayigash 5784
 
-⁧ויגש פרשת⁩ highlights the confrontation between ⁧יוסף⁩ and his brothers and
+⁧פרשת ויגש⁩ highlights the confrontation between ⁧יוסף⁩ and his brothers and
 the reunion of ⁧יוסף⁩ and ⁧יעקב⁩. All the ⁧מפרשים⁩ discuss at great length
 this confrontation and reunion. Another significant aspect of the
 Parsha, also discussed in detail, is ⁦יעקב'⁩s meeting with ⁧פרעה⁩⁦,⁩ which
@@ -3466,7 +3466,7 @@ saved them from the ⁧מצריים⁩. Their primary joy was the realization th
 through their suffering and redemption, they became the ⁧כלי חפץ⁩ by which
 Hashem's name was glorified in the world. The ⁧כבוד⁩ of ⁧הקדוש ברוך הוא⁩ was
 realized through their experiences, including the suffering of ⁧שיעבוד מצרים⁩ and the subsequent redemption. This is reflected in the ⁧שירה⁩:
-⁦אָשִׁירָה לַה׳⁩ ⁧כִּי גָאֹה גָּאָה⁩. They sang not just for the ⁧הצלה⁩⁦,⁩ but also for the
+⁧אָשִׁירָה לַה׳ כִּי גָאֹה גָּאָה⁩. They sang not just for the ⁧הצלה⁩⁦,⁩ but also for the
 ⁧שיעבוד⁩ which came before. The connection is clear: ⁧באז חטאתי⁩ - Moshe
 previously was complaining about the ⁧כובד השיעבוד⁩⁦,⁩ now he sang ⁧שירה⁩ to
 explain that when he said ⁧אז⁩ then, it was not a complaint, rather, he
@@ -3764,7 +3764,7 @@ own.”
 
 The first boy immediately stood up and said, “I am prepared to allow my
 friend to lein ⁧פרשת יתרו⁩. It is true, my father reserved this ⁧שבת⁩ first.
-I am willing to forego my rights and prepare ⁧משפטים פרשת⁩ instead”.
+I am willing to forego my rights and prepare ⁧פרשת משפטים⁩ instead”.
 Pretty impressive. Despite the work he had already invested in preparing
 ⁧יתרו⁩⁦,⁩ he allowed his friend's needs to take precedence.
 
@@ -3778,7 +3778,7 @@ Hashem to heal his mother. It so happened that R’ Elyashiv#metadata(none) <per
 admitted to the hospital for treatment during that time. His disciples
 arranged to have a world-famous specialist flown in from the United
 States to supervise his care. Since he would be remaining in the
-hospital over ⁧שבת⁩⁦,⁩ minyanim were arranged. It was ⁧משפטים פרשת⁩. The boy
+hospital over ⁧שבת⁩⁦,⁩ minyanim were arranged. It was ⁧פרשת משפטים⁩. The boy
 offered to lein as he remembered the ⁧פרשה⁩ from his ⁧בר מצוה⁩ preparations
 and would be staying with his mother that ⁧שבת⁩.
 
@@ -4973,9 +4973,6 @@ footsteps.
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/vayikra/5784/", "../../03 - Vayikra/01 - Vayikra/5784/Vayikra 5784.png"))
 = Vayikra 5784
 
-#align(center)[
-Vayikrah 5784]
-
 This week is ⁧פרשת ויקרא⁩⁦,⁩ n action-packed week - ⁧פרשת זכור⁩ and ⁧פורים⁩.
 ⁧פרשת ויקרא⁩ introduces us to the ⁧קרבנות⁩⁦,⁩ a vital part of the ⁧עבודה⁩. All
 of our davening today is to replace the ⁧קרבנות⁩. It is so essential that
@@ -5644,7 +5641,7 @@ to learn.
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/tazria-metzora/5783/", "../../03 - Vayikra/06 - Tazria-Metzora/5783/Tazria-Metzora 5783.png"))
 = Tazria-Metzora 5783
 
-This week is ⁧פרשת⁩ ⁧תזריע-מצורע⁩, which follows immediately after ⁧פרשת שמיני⁩. The second half of ⁧פרשת שמיני⁩ discusses the ⁧הלכות⁩ of ⁧כשרות⁩
+This week is ⁧פרשת תזריע-מצורע⁩, which follows immediately after ⁧פרשת שמיני⁩. The second half of ⁧פרשת שמיני⁩ discusses the ⁧הלכות⁩ of ⁧כשרות⁩
 regarding animals, birds, fish, and insects. Then, in ⁧פרשת תזריע⁩⁦,⁩ the
 ⁧תורה⁩ transitions to the ⁧הלכות⁩ that apply to human beings - the laws of
 birth, and later, the ⁧הלכות⁩ of ⁧נגעים⁩. This shift serves to instill a
@@ -6852,7 +6849,7 @@ My final vort is a tremendously interesting question brought down in the
 Mendy Pollak, #metadata(none) <person-index-r-mendy-pollak-512> who should live and be well, a wonderful fellow. This
 sefer was written by a ⁧בעלאבוס⁩ who was a tremendous ⁧גאון⁩. The man knew
 everything in ⁦ש״ס ופוסקים⁩. Now, here's his question, which was asked to
-R’ Aharon Mordechai Brisk#metadata(none) <person-index-r-aharon-mordechai-brisk-511> and it's brought down in ⁦שו״ת מהר״ם⁩ ⁧בריסק⁩:
+R’ Aharon Mordechai Brisk#metadata(none) <person-index-r-aharon-mordechai-brisk-511> and it's brought down in ⁧שו״ת מהר״ם בריסק⁩:
 Let's say a ⁧בן ארץ ישראל⁩ is in ⁧חוץ לארץ⁩ for ⁧יום טוב⁩⁦,⁩ and he happens to
 be a ⁧כהן⁩. He doesn't keep ⁧יום טוב שני של גלויות⁩⁦,⁩ because he has ⁧כוונה⁩ to
 go back home. Is he allowed to duchan with the other ⁧כהנים⁩ who are who
@@ -6930,7 +6927,7 @@ With two little ⁧וערטלאך⁩ of R’ Chaim Kanievsky#metadata(none) <per
 should stand in front of the ⁧כהנים⁩ when they give the ⁧ברכה⁩ of ⁧ברכת כהנים⁩⁦,⁩ and recite a special formula requesting from Hashem that he
 change the dream to good. If you look in every ⁧מחזור⁩⁦,⁩ every ⁧סידור⁩⁦,⁩ you'll see it. We use it. R’ Chaim related that he once saw the
 explanation as to what is the connection between nullifying a bad dream
-and ⁧ברכת כהנים⁩. Two ⁧דפים⁩ later, on ⁦דף נ״ז⁩ ⁧עמוד ב׳⁩⁦,⁩ Chazal tell us that
+and ⁧ברכת כהנים⁩. Two ⁧דפים⁩ later, on ⁧דף נ״ז עמוד ב׳⁩, Chazal tell us that
 a dream is one-sixtieth of ⁧נבואה⁩. ⁧ברכת כהנים⁩ is considered to be a real
 ⁧נבואה⁩. Why? Because Hashem gives us the ⁧ברכה⁩ that the ⁧כהנים⁩ are relating
 and they're doing a ⁧מצות עשה⁩. So ⁧ברכת כהנים⁩ is on a super high level, higher than we ever dreamed of, it's a ⁧נבואה⁩. Now, as we well know, the
@@ -8853,7 +8850,7 @@ the ⁧בית המקדש⁩ is that if there's ⁧שלום⁩ in ⁧כלל יש�
 between ⁧חברים⁩⁦,⁩ then the ⁧שכינה⁩ is ⁧שרויה⁩ in ⁧כלל ישראל⁩. That's what the
 Sassover rebbe said.
 
-Now, we know the famous ⁧גמרא⁩ in ⁧גיטין⁩⁦,⁩ if ⁧חס ושלום⁩ there's a ⁧גירושין⁩⁦,⁩ ⁧מזבח⁩ ⁧מוריד⁩ ⁧דמעות⁩ - the ⁧מזבח⁩ cries. Why? Because if a man and his wife
+Now, we know the famous ⁧גמרא⁩ in ⁧גיטין⁩⁦,⁩ if ⁧חס ושלום⁩ there's a ⁧גירושין⁩⁦,⁩ ⁧מזבח מוריד דמעות⁩ - the ⁧מזבח⁩ cries. Why? Because if a man and his wife
 are ⁧נתגרש⁩⁦,⁩ there we lose ⁧השראת השכינה⁩⁦,⁩ which is the ⁧יסוד⁩ of the ⁧מזבח⁩ and
 the ⁧בית המקדש⁩. So we see here that there's a tremendous lesson for us in
 ⁧פרשת ואתחנן⁩⁦,⁩ that we should be working on our ⁧שלום בין איש לאשתו⁩ and
@@ -10206,9 +10203,6 @@ our children and ⁧אייניקלעך⁩ will continue that ⁧מסורה עד 
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/nitzavim-vayailech/5783/", "../../05 - Devarim/10 - Nitzavim-Vayailech/5783/Nitzavim-Vayailech 5783.png"))
 = Nitzavim-Vayailech 5783
 
-#align(center)[
-Nitzavim/Vayeilech 5783]
-
 This week's ⁧פרשיות⁩ are ⁧ניצבים וילך⁩⁦,⁩ and include ⁧וילך⁩⁦,⁩ the shortest ⁧פרשה⁩
 in the Torah. Nevertheless, it has a powerhouse full of wonderful things
 to learn, one of which is what we will do now from the ⁧וילנא גאון⁩. In
@@ -10323,10 +10317,10 @@ anything.” “Very well”, the former disciple challenged, “Show me where I
 am. Show me where ⁧אבנר⁩ is in ⁧האזינו⁩\.”
 
 Hashem endowed the ⁦רמב״ן⁩#metadata(none) <person-index-ramban-823> with ⁧רוח הקודש⁩ and without hesitating he quoted
-⁧אָמַ #strong[רְ] תִּי אַפְ #strong[אֵ] יהֶם אַשְׁ #strong[בִּ] יתָה מֵאֱ #strong[נֹ] ושׁ⁩⁦,⁩ which is
-in ⁦פרק ל׳'ב פסוק כ׳'ו⁩ in ⁧האזינו⁩. If you look at the third letter of
-every word, you see the name ⁧אבנר⁩. You know what this pasuk means? It
-means that Hashem will wipe your memory off the face of the earth.”
+⁧אָמַ#strong[רְ]תִּי אַפְ#strong[אֵ]יהֶם אַשְׁ#strong[בִּ]יתָה מֵאֱ#strong[נֹ]ושׁ⁩⁦,⁩ which is
+in ⁦פרק ל״ב פסוק כ״ו⁩ in ⁧האזינו⁩. If you look at the third letter of every
+word, you see the name ⁧אבנר⁩. You know what this pasuk means? It means
+that Hashem will wipe your memory off the face of the earth.”
 
 ⁧אבנר⁩ turned a deathly white. He realized that not only did the verse
 include his name, it also prophesied his future. ⁧אבנר⁩ ran away. He left
@@ -10376,7 +10370,7 @@ would start off with something that people would understand. However, frequently
 complicated and halachic, and most of the people could not grasp what he
 was saying. Why would they do that?
 
-He answers with a fascinating ⁧משל⁩ from ⁦ח׳ ע״ב⁩ ⁧גמרא ראש השנה⁩. The ⁧גמרא⁩
+He answers with a fascinating ⁧משל⁩ from ⁧ח׳ ע״ב גמרא ראש השנה⁩. The ⁧גמרא⁩
 says, ⁧דְּאָמַר רַב חִסְדָּא מֶלֶךְ וְצִיבּוּר מֶלֶךְ נִכְנָס תְּחִילָּה לַדִּין⁩ - If there's a choice
 between the king going first or the ⁧ציבור⁩ going first for the ⁧דין⁩ before
 Hashem, the ⁧מלך⁩ goes first. There are many reasons given for why that
@@ -10573,7 +10567,7 @@ with the people around us. Always be ⁧מחמיר⁩ on yourself and ⁧מיק�
 everybody else - a very important side lesson. The people who are
 compromising want to give in a little bit and they want to say, “We want
 to save the Torah, we have to give in a little bit over here, a little
-bit over there.” Meanwhile, ⁧משה רבינו⁩ called out ⁦מי לה׳⁩ ⁧אלי⁩ and broke
+bit over there.” Meanwhile, ⁧משה רבינו⁩ called out ⁧מי לה׳ אלי⁩ and broke
 the ⁧לוחות⁩ because he said the ⁧עגל⁩ cannot coexist side-by-side with the
 ⁧לוחות⁩. The ⁧לוחות⁩ have to go because we have to preserve the purity of
 the Torah. They could not exist with this tremendous ⁧עבירה⁩. To preserve
@@ -11143,10 +11137,7 @@ continue to carry across generations.”
 #pagebreak()
 
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/pesach-sheini/5784/", "../../06 - Yom Tov/02 - Pesach Sheini/5784/Pesach Sheini 5784.png"))
-= Pesach Sheini 5784
-
-#align(center)[
-Sheini 5784]
+= Sheini 5784
 
 ⁧פסח שני⁩ is coming up, and in the ⁧זכות⁩ of our ⁧תפילות⁩⁦,⁩ our ⁧תשובה⁩⁦,⁩ and all
 the ⁧חסד⁩ that we try to do, may ⁧הקדוש ברוך הוא⁩ have ⁧רחמנות⁩ on us and
@@ -11209,10 +11200,7 @@ B’ezras Hashem, in the ⁧זכות⁩ of that genuine effort, we will be answe
 #pagebreak()
 
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/lag-baomer/5784/", "../../06 - Yom Tov/03 - Lag Baomer/5784/Lag Baomer 5784.png"))
-= Lag Baomer 5784
-
-#align(center)[
-Lag Ba'omer 5784]
+= Lag Ba'omer 5784
 
 To commemorate ⁦ל״ג בעומר⁩, I'm going to share a number of short vertlach, which together will add up to a substantial message I want to pass
 along. This is ⁧לעילוי נשמת⁩ all of our ⁧עלטערן⁩⁦,⁩ and a ⁧תפילה⁩ that those who
@@ -11370,7 +11358,7 @@ our ⁧עבירות⁩⁦,⁩ and a person can be considered as if he kept the T
 perfection. But ⁧משה רבינו⁩ said, “No, I can't do that, ⁧מִתְיָירֵא אֲנִי שֶׁמָּא יִשְׂרְפוּנִי בַּהֶבֶל שֶׁבְּפִיהֶם⁩ - I'm afraid that they're going to burn me up with
 the ⁧הבל שבפיהם,⁩” which means what? ⁧מלאכים⁩ are on a higher ⁧מדרגה⁩. They
 don't have any ⁧עבירות⁩. That is the ⁧הבל שבפיהם⁩⁦,⁩ their complete ⁧רוחניות⁩
-and spirituality is their perfection. ⁧הקדוש ברוך הוא⁩ answered him, ⁧אֱחוֹז בְּכִסֵּא כְבוֹדִי⁩⁦,⁩ as it says in ⁦פ״ו ע״א⁩ ⁧מסכת יומא⁩: ⁧גְּדוֹלָה תְּשׁוּבָה שֶׁמַּגַּעַת עַד כִּסֵּא הַכָּבוֹד⁩ - ⁧בעלי תשובה⁩ are on a higher ⁧מדרגה⁩ than those who don't have any
+and spirituality is their perfection. ⁧הקדוש ברוך הוא⁩ answered him, ⁧אֱחוֹז בְּכִסֵּא כְבוֹדִי⁩⁦,⁩ as it says in ⁧פ״ו ע״א מסכת יומא: גְּדוֹלָה תְּשׁוּבָה שֶׁמַּגַּעַת עַד כִּסֵּא הַכָּבוֹד⁩ - ⁧בעלי תשובה⁩ are on a higher ⁧מדרגה⁩ than those who don't have any
 ⁧עבירות⁩ e.g. ⁧מלאכים⁩.
 
 Rabbi Oelbaum#metadata(none) <person-index-r-noach-isaac-oelbaum-910> recently discussed this point and made an interesting
@@ -11550,7 +11538,7 @@ sefer: ⁧שבעה עשר בתמוז⁩ was the day that Boaz married Rus. The s
 ⁧משיח⁩ that had been trapped in ⁧מואב⁩ was brought into life. As we know, ⁧משיח⁩ is going to come from that wedding.
 
 What's interesting is that the ⁧שבת⁩ before ⁧שבעה עשר בתמוז⁩ is almost
-always ⁧בלק פרשת⁩⁦,⁩ which this year, ⁦תשפ״ה⁩, is true. If Rus holds the spark
+always ⁧פרשת בלק⁩⁦,⁩ which this year, ⁦תשפ״ה⁩, is true. If Rus holds the spark
 of ⁧משיח⁩⁦,⁩ Balak was a ⁧קליפה⁩ holding in that spark. What was ⁦בלק'⁩s ⁧טענה⁩ to
 ⁧בלעם⁩ why he was afraid of ⁧כלל ישראל⁩⁦?⁩ His reason was ⁧כִּי רַב הוּא⁩. Who are
 you kidding? We know we're the smallest of all the nations, we're tiny.
@@ -13158,7 +13146,7 @@ danced like I never did before, focusing only on ⁧כבוד התורה⁩. And
 tomorrow we're making a ⁧ברית⁩\.'
 
 What a nice story. I wanted to share that with you, and may you have a
-very ⁦שמחה׳דיק⁩ and ⁦כבוד התורה׳דיק⁩ ⁧שמחת תורה⁩.
+very ⁦שמחה׳דיק⁩ and ⁧כבוד התורה׳דיק שמחת תורה⁩.
 
 #pagebreak()
 
@@ -14156,7 +14144,7 @@ starts with ⁧אומר השכל⁩. It's ⁧ידוע⁩ that the ⁧ספר דע
 the various ⁧ויכוחים⁩ and debates between the ⁧שכל⁩ and the ⁧נשמה⁩. So we have
 here the ⁧שכל⁩ responding, and the ⁧שכל⁩ saying, the intellect: ⁧חלקי הבריאה הזאת⁩⁦,⁩ the ⁧חלקים⁩ of the ⁧בריאה⁩⁦,⁩ of creation. ⁧מי שמביט עליהם לפי ראות עיניו⁩
 \- Anyone who looks at the world in a superficial way, ⁧בתחלה לא יראם אלא ענינים מפוזרים ומפורדים⁩. All that he'll see at first, is ⁧עניינים⁩ that
-are scattered, and they're completely separate. ⁧פירוש⁩⁦,⁩ ⁧בלתי⁩ ⁧מתקשרים⁩ ⁧כולם⁩ ⁧אל⁩ ⁧תכלית⁩ ⁧אחת⁩ - The way he looks at the world, he does not see the items
+are scattered, and they're completely separate. ⁧פירוש⁩⁦,⁩ ⁧בלתי מתקשרים כולם אל תכלית אחת⁩ - The way he looks at the world, he does not see the items
 interconnected or interrelated, that all should be serving one purpose.
 He does not see that. ⁧אלא כל אחד ענין בפני עצמו, לתכלית מיוחד, נשלם בעצמו⁩ - In his mind, the way that he sees, and the way that he perceives
 and observes, that everything that he sees in the ⁧בריאה⁩ has its own
@@ -14180,7 +14168,7 @@ common goal to come about. ⁧וכולם מתקבצים לתכלית אחת⁩ -
 gathered together for this one purpose. ⁧שתנאיו רבים וסדרם עמוק מאד⁩ - Which there are a lot of conditions in order to make this happen and
 which involves a very deep ⁧סדר⁩⁦,⁩ Hard to understand and to see it, ⁧והם הם כל חלקי הבריאה הרבים האלה⁩ - All of the many, many ⁧חלקים⁩ in the ⁧בריאה⁩⁦,⁩ in
 fact, are not separate. They are not ⁧נפרד⁩. But rather ⁧הנה על כן יתיחסו כולם אלה לאלה בסדר⁩ - but everyone actually has a relationship, one with
-the other, for the particular ⁧סדר⁩⁦,⁩ ⁧שרצתה⁩ ⁧המחשבה⁩ ⁧העליונה⁩ - That ⁧הקדוש ברוך הוא⁩ had in mind when he planned to build this world. ⁧ומכולם⁩ - And
+the other, for the particular ⁧סדר⁩⁦,⁩ ⁧שרצתה המחשבה העליונה⁩ - That ⁧הקדוש ברוך הוא⁩ had in mind when he planned to build this world. ⁧ומכולם⁩ - And
 from all together, not individually, but from all together. ⁧יצא הפרי הטוב הראוי לצאת מן הבריאה⁩ - In order for the perfect ⁧תכלית⁩⁦,⁩ for that
 wonderful fruit to come out of the ⁧בריאה⁩⁦,⁩ that can only take place
 because we have all of the various ⁧חלקים⁩ in the ⁧בריאה⁩. ⁧ודבר זה כבר אמרתי עמוק הוא⁩ - As the ⁦רמח״ל⁩#metadata(none) <person-index-ramchal-1145> said, I already said that this is very deep to
@@ -14397,7 +14385,7 @@ supposed to impart the ⁧כלל ישראל⁩ that they are receiving now a gre
 know, says the ⁦מלבי״ם⁩, #metadata(none) <person-index-malbim-1125>⁦כי תענוגי העוה״ב⁩ - because the pleasure of ⁧עולם הבא, א״א שישיג האדם בחיים⁩ - on this world, we have no ⁧השגה⁩ whatsoever, we cannot understand, we cannot comprehend, we cannot relate to the idea
 of the immense, immense, tremendous, tremendous pleasures of ⁧עולם הבא⁩.
 ⁧כי בעוד הנפש קשורה בחומר⁩ - because ⁧כל זמן⁩ that the ⁧נשמה⁩ is still
-connected with the material, with our ⁧גוף⁩⁦,⁩ ⁧א״א⁩ ⁧שתצייר⁩ ⁧לעצמה⁩ - it's
+connected with the material, with our ⁧גוף⁩⁦,⁩ ⁧א״א שתצייר לעצמה⁩ - it's
 impossible even to imagine, certainly we don't know, we can't be ⁧משיג⁩⁦,⁩ but even to imagine it's not ⁧שייך⁩ even to imagine what it means ⁧תענוג הנפש⁩ - the pleasure that the ⁧נשמה⁩ will derive, ⁧והבלתי נקשר בחומר⁩. In
 other words, ⁧עולם הבא⁩ of course is reserved for the ⁧נשמה⁩⁦,⁩ and ⁧כל זמן⁩ the
 ⁧נשמה⁩ is connected to the ⁧חומר⁩ we have no idea how the ⁧נשמה⁩ alone can

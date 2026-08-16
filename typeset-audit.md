@@ -37,31 +37,31 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - visual: [page-0146.png](typeset-audit-pages/page-0146.png), [page-0147.png](typeset-audit-pages/page-0147.png)
   - ל״ד:ל״ג)⁩: ⁧וַיִּתֵּן עַל פָּנָיו מַסְוֶה⁩ - When ⁧משה רבינו⁩ spoke to the people, th...
   - normalized: ל״ד:ל״ג): וַיִּתֵּן עַל פָּנָיו מַסְוֶה - When משה רבינו spoke to the people, they
-- Typst source, page 269, Pinchas 5785, line 8317
+- Typst source, page 269, Pinchas 5785, line 8314
   - visual: [page-0269.png](typeset-audit-pages/page-0269.png), [page-0270.png](typeset-audit-pages/page-0270.png)
   - א׳:ג׳)⁩: ⁧וַיְצַו אֶת שְׁלֹמֹה בְנוֹ לֵאמֹר אָנֹכִי הֹלֵךְ בְּדֶרֶךְ כׇּל הָאָרֶץ⁩ -...
   - normalized: א׳:ג׳): וַיְצַו אֶת שְׁלֹמֹה בְנוֹ לֵאמֹר אָנֹכִי הֹלֵךְ בְּדֶרֶךְ כׇּל הָאָרֶץ - I'...
-- Typst source, page 276, Matos-Massei 5785, line 8514
+- Typst source, page 276, Matos-Massei 5785, line 8511
   - visual: [page-0276.png](typeset-audit-pages/page-0276.png), [page-0277.png](typeset-audit-pages/page-0277.png)
   - shouldn't daven that her son would die. It's brought down in ⁦מכות ב:ו⁩:
   - normalized: shouldn't daven that her son would die. It's brought down in מכות ב:ו:
-- Typst source, page 280, Devarim 5784, line 8676
+- Typst source, page 280, Devarim 5784, line 8673
   - visual: [page-0280.png](typeset-audit-pages/page-0280.png)
   - pasuk in ⁦זכריה א׳:ט״ז⁩: ⁧שַׁבְתִּי לִירוּשָׁלַם בְּרַחֲמִים⁩. Another is what we say three
   - normalized: pasuk in זכריה א׳:ט״ז: שַׁבְתִּי לִירוּשָׁלַם בְּרַחֲמִים. Another is what we say three
-- Typst source, page 292, Eikev 5784, line 9058
+- Typst source, page 292, Eikev 5784, line 9055
   - visual: [page-0292.png](typeset-audit-pages/page-0292.png), [page-0293.png](typeset-audit-pages/page-0293.png)
   - א׳:ב׳)⁩⁩, and then it says ⁧אָנֹכִי אָנֹכִי הוּא מְנַחֶמְכֶם ⁦(ישעיהו נ״א:י״ב)⁩⁩ lat...
   - normalized: א׳:ב׳), and then it says אָנֹכִי אָנֹכִי הוּא מְנַחֶמְכֶם                  later on
-- Typst source, page 369, Shavuos 5784, line 11409
+- Typst source, page 369, Shavuos 5784, line 11397
   - visual: [page-0369.png](typeset-audit-pages/page-0369.png), [page-0370.png](typeset-audit-pages/page-0370.png)
   - א:נ״ו)⁩ that at ⁧הר סיני⁩⁦,⁩ ⁧כלל ישראל⁩ was sleeping. They went to sleep that
   - normalized: א:נ״ו) that at הר סיני, כלל ישראל was sleeping. They went to sleep that
-- Typst source, page 386, Elul 5785, line 11901
+- Typst source, page 386, Elul 5785, line 11889
   - visual: [page-0386.png](typeset-audit-pages/page-0386.png)
   - כ״ז:ד׳)⁩⁩. What does ⁧דוד המלך⁩ mean by ⁧כׇּל יְמֵי חַיַּי⁩⁦?⁩
   - normalized: כ״ז:ד׳). What does דוד המלך mean by כׇּל יְמֵי חַיַּי?
-- Typst source, page 450, Purim 5785, line 13860
+- Typst source, page 450, Purim 5785, line 13848
   - visual: [page-0450.png](typeset-audit-pages/page-0450.png), [page-0451.png](typeset-audit-pages/page-0451.png)
   - does this connection mean? He brings a ⁧פסוק⁩ from ⁦שמות ד:י״ד⁩: ⁧וְרָאֲךָ וְשָׂמַח בְּלִבּוֹ⁩. What is ⁦אהרן'⁩s ⁧מידה⁩? We all know abou...
   - normalized: does this connection mean? He brings a פסוק from שמות ד:י״ד: וְרָאֲךָ וְשָׂמַח בְּלִבּוֹ. What is אהרן's מידה? We all know about...
@@ -79,7 +79,7 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - visual: [page-0032.png](typeset-audit-pages/page-0032.png)
   - by saying ⁧”‫ ְּבָך חֹוְת ִמין ְוֹלא ָבֶהם‬,‫ “ַּת ְלמּוד לֹוַמר ֶוְהֵיה ְּבָר ָכה‬,‫ ⁩ָמֵגן...
   - normalized: by saying ” ְּבָך חֹוְת ִמין ְוֹלא ָבֶהם, “ַּת ְלמּוד לֹוַמר ֶוְהֵיה ְּבָר ָכה, ָמֵגן ַאְבָר...
-- PDF visual text, page 164, Vayikra 5784, line 18
+- PDF visual text, page 164, Vayikra 5784, line 17
   - visual: [page-0164.png](typeset-audit-pages/page-0164.png)
   - - “If the ⁧ ‫[ ⁩נשיא‬which refers to the ⁧ ‫ ]⁩מלך‬will do an ⁧ ”‫ ⁩עבירה‬- but rather ⁧ ‫ ⁩ֲאֶׁשר‬
   - normalized: - “If the  [ נשיאwhich refers to the   ]מלךwill do an  ” עבירה- but rather   ֲאֶׁשר
