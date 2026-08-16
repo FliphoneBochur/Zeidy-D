@@ -8447,8 +8447,8 @@ of our tongue.
 
 #pagebreak()
 
-#set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/matos-maasei/5785/", "../../04 - Bamidbar/10 - Matos-Maasei/5785/Matos Massei 5785.png"))
-= Matos Massei 5785
+#set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/matos-maasei/5785/", "../../04 - Bamidbar/10 - Matos-Maasei/5785/Matos-Massei 5785.png"))
+= Matos-Massei 5785
 
 ⁧פרשיות מטות⁩ and ⁧מסעי⁩⁦,⁩ with the greatest number of ⁧פסוקים⁩ in any one
 particular ⁧שבת⁩⁦,⁩ have a number of topics. One of the last ones is the
