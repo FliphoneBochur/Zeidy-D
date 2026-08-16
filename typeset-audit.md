@@ -29,43 +29,43 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - normalized: , גלות יוון, אך בהווה ;גלות אדום גלות בבל- but in the present time, לא יוכל האדם
 ## MEDIUM - missing space after colon before Hebrew in Typst source
 
-- Typst source, page 125, Mishpatim (1) 5784, line 3772
+- Typst source, page 125, Mishpatim (1) 5784, line 3771
   - visual: [page-0125.png](typeset-audit-pages/page-0125.png), [page-0126.png](typeset-audit-pages/page-0126.png)
   - כ״א:ל״ז)⁩: ⁧כִּי יִגְנֹב אִישׁ שׁוֹר אוֹ שֶׂה וּטְבָחוֹ אוֹ מְכָרוֹ חֲמִשָּׁה בָקָר י...
   - normalized: כ״א:ל״ז): כִּי יִגְנֹב אִישׁ שׁוֹר אוֹ שֶׂה וּטְבָחוֹ אוֹ מְכָרוֹ חֲמִשָּׁה בָקָר יְש...
-- Typst source, page 137, Tetzaveh 5783, line 4167
+- Typst source, page 137, Tetzaveh 5783, line 4166
   - visual: [page-0137.png](typeset-audit-pages/page-0137.png), [page-0138.png](typeset-audit-pages/page-0138.png)
   - כ״ט:ל״ט)⁩⁩, referring to the ⁧קרבן תמיד⁩.
   - normalized: כ״ט:ל״ט), referring to the קרבן תמיד.
-- Typst source, page 146, Ki Sisa 5783, line 4432
+- Typst source, page 146, Ki Sisa 5783, line 4431
   - visual: [page-0145.png](typeset-audit-pages/page-0145.png), [page-0146.png](typeset-audit-pages/page-0146.png)
   - ל״ד:ל״ג)⁩: ⁧וַיִּתֵּן עַל פָּנָיו מַסְוֶה⁩ - When ⁧משה רבינו⁩ spoke to the people, th...
   - normalized: ל״ד:ל״ג): וַיִּתֵּן עַל פָּנָיו מַסְוֶה - When משה רבינו spoke to the people, they
-- Typst source, page 268, Pinchas 5785, line 8276
+- Typst source, page 268, Pinchas 5785, line 8275
   - visual: [page-0268.png](typeset-audit-pages/page-0268.png), [page-0269.png](typeset-audit-pages/page-0269.png)
   - א׳:ג׳)⁩: ⁧וַיְצַו אֶת שְׁלֹמֹה בְנוֹ לֵאמֹר אָנֹכִי הֹלֵךְ בְּדֶרֶךְ כׇּל הָאָרֶץ⁩ -...
   - normalized: א׳:ג׳): וַיְצַו אֶת שְׁלֹמֹה בְנוֹ לֵאמֹר אָנֹכִי הֹלֵךְ בְּדֶרֶךְ כׇּל הָאָרֶץ - I'...
-- Typst source, page 275, Matos-Massei 5785, line 8473
+- Typst source, page 275, Matos-Massei 5785, line 8472
   - visual: [page-0275.png](typeset-audit-pages/page-0275.png), [page-0276.png](typeset-audit-pages/page-0276.png)
   - shouldn't daven that her son would die. It's brought down in ⁦מכות ב:ו⁩:
   - normalized: shouldn't daven that her son would die. It's brought down in מכות ב:ו:
-- Typst source, page 279, Devarim 5784, line 8635
+- Typst source, page 279, Devarim 5784, line 8634
   - visual: [page-0279.png](typeset-audit-pages/page-0279.png)
   - pasuk in ⁦זכריה א׳:ט״ז⁩: ⁧שַׁבְתִּי לִירוּשָׁלַם בְּרַחֲמִים⁩. Another is what we say three
   - normalized: pasuk in זכריה א׳:ט״ז: שַׁבְתִּי לִירוּשָׁלַם בְּרַחֲמִים. Another is what we say three
-- Typst source, page 291, Eikev 5784, line 9015
+- Typst source, page 291, Eikev 5784, line 9014
   - visual: [page-0291.png](typeset-audit-pages/page-0291.png), [page-0292.png](typeset-audit-pages/page-0292.png)
   - א׳:ב׳)⁩⁩, and then it says ⁧אָנֹכִי אָנֹכִי הוּא מְנַחֶמְכֶם ⁦(ישעיהו נ״א:י״ב)⁩⁩ lat...
   - normalized: א׳:ב׳), and then it says אָנֹכִי אָנֹכִי הוּא מְנַחֶמְכֶם                  later on
-- Typst source, page 365, Shavuos 5784, line 11257
+- Typst source, page 365, Shavuos 5784, line 11256
   - visual: [page-0365.png](typeset-audit-pages/page-0365.png), [page-0366.png](typeset-audit-pages/page-0366.png)
   - א:נ״ו)⁩ that at ⁧הר סיני⁩⁦,⁩ ⁧כלל ישראל⁩ was sleeping. They went to sleep that
   - normalized: א:נ״ו) that at הר סיני, כלל ישראל was sleeping. They went to sleep that
-- Typst source, page 382, Elul 5785, line 11749
+- Typst source, page 382, Elul 5785, line 11748
   - visual: [page-0382.png](typeset-audit-pages/page-0382.png)
   - כ״ז:ד׳)⁩⁩. What does ⁧דוד המלך⁩ mean by ⁧כׇּל יְמֵי חַיַּי⁩⁦?⁩
   - normalized: כ״ז:ד׳). What does דוד המלך mean by כׇּל יְמֵי חַיַּי?
-- Typst source, page 446, Purim 5785, line 13710
+- Typst source, page 446, Purim 5785, line 13709
   - visual: [page-0446.png](typeset-audit-pages/page-0446.png), [page-0447.png](typeset-audit-pages/page-0447.png)
   - does this connection mean? He brings a ⁧פסוק⁩ from ⁦שמות ד:י״ד⁩: ⁧וְרָאֲךָ וְשָׂמַח בְּלִבּוֹ⁩. What is ⁦אהרן'⁩s ⁧מידה⁩? We all know abou...
   - normalized: does this connection mean? He brings a פסוק from שמות ד:י״ד: וְרָאֲךָ וְשָׂמַח בְּלִבּוֹ. What is אהרן's מידה? We all know about...
@@ -208,7 +208,7 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - normalized: What are the central words of this  !ׇמׇמ ְר ֳּד ַכי ַהְּיהּוִד י פסוק?Until ’מרדכיs name is
 ## MEDIUM - space on both sides of semicolon in Typst source
 
-- Typst source, page 140, Tetzaveh (1) 5784, line 4230
+- Typst source, page 140, Tetzaveh (1) 5784, line 4229
   - visual: [page-0139.png](typeset-audit-pages/page-0139.png), [page-0140.png](typeset-audit-pages/page-0140.png)
   - \; ⁧בן ננס⁩ says ⁧וְאָהַבְתָּ לְרֵעֲךָ כָּמוֹךָ⁩ ⁦(ויקרא י״ט:י״ח)⁩ \; ⁧שמעון בן פזי⁩ says from
   - normalized: \; בן ננס says וְאָהַבְתָּ לְרֵעֲךָ כָּמוֹךָ (ויקרא י״ט:י״ח) \; שמעון בן פזי says from
