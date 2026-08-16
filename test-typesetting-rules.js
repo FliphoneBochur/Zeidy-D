@@ -1200,12 +1200,12 @@ test("docx: Chanukah 5785 keeps indexed quote marker after quote colon", () => {
 
   assertContains(
     typst,
-    `in “A Short Vort.”:#metadata(none) <person-index-a-short-vort-1> The`,
+    `in “A Short Vort”:#metadata(none) <person-index-a-short-vort-1> The`,
     "colon stays tight after closing quote before indexed A Short Vort marker"
   );
   assertNotContains(
     typst,
-    `in “A Short Vort.”#metadata(none) <person-index-a-short-vort-1>: The`,
+    `in “A Short Vort”#metadata(none) <person-index-a-short-vort-1>: The`,
     "index marker should not separate closing quote from colon"
   );
 });

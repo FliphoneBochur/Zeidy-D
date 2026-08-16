@@ -1148,6 +1148,7 @@ function repairStrongHebrewContinuations(typstContent) {
 
 function normalizeIsolatedPunctuationSpacing(typstContent) {
   return typstContent
+    .replace(/(#metadata\(none\)\s*<[^>\n]+>)(?:\\?["”])\s*:/g, "”:$1")
     .replace(/([,;:.!?])(#metadata\(none\)\s*<[^>\n]+>)(?:\\?["”])/g, "$1”$2")
     .replace(/([,;:.!?])(?:\\?["”])(#metadata\(none\)\s*<[^>\n]+>)/g, "$1”$2")
     .replace(/(\\?["”])(#metadata\(none\)\s*<[^>\n]+>):/g, "$1:$2")
