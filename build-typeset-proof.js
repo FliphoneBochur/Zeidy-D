@@ -1150,6 +1150,7 @@ function normalizeIsolatedPunctuationSpacing(typstContent) {
   return typstContent
     .replace(/([,;:.!?])(#metadata\(none\)\s*<[^>\n]+>)(?:\\?["”])/g, "$1”$2")
     .replace(/([,;:.!?])(?:\\?["”])(#metadata\(none\)\s*<[^>\n]+>)/g, "$1”$2")
+    .replace(/(\\?["”])(#metadata\(none\)\s*<[^>\n]+>):/g, "$1:$2")
     .replace(
       new RegExp(`${RTL_ISOLATE}([^${POP_DIRECTIONAL_ISOLATE}]*${HEBREW_LETTERS}[^${POP_DIRECTIONAL_ISOLATE}]*)${POP_DIRECTIONAL_ISOLATE}:\\s*${RTL_ISOLATE}([^${POP_DIRECTIONAL_ISOLATE}]*${HEBREW_LETTERS}[^${POP_DIRECTIONAL_ISOLATE}]*)${POP_DIRECTIONAL_ISOLATE}`, "gu"),
       (match, beforeColon, afterColon) => {

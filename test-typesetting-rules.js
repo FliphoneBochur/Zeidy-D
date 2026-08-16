@@ -1189,6 +1189,27 @@ test("docx: Behar 5784 keeps indexed quote marker after closing punctuation", ()
   );
 });
 
+test("docx: Chanukah 5785 keeps indexed quote marker after quote colon", () => {
+  const typst = convertedDocxWithIndex("/chanukah/5785/", [
+    {
+      id: "a-short-vort",
+      displayName: "A Short Vort",
+      aliases: ["A Short Vort"],
+    },
+  ]);
+
+  assertContains(
+    typst,
+    `in “A Short Vort.”:#metadata(none) <person-index-a-short-vort-1> The`,
+    "colon stays tight after closing quote before indexed A Short Vort marker"
+  );
+  assertNotContains(
+    typst,
+    `in “A Short Vort.”#metadata(none) <person-index-a-short-vort-1>: The`,
+    "index marker should not separate closing quote from colon"
+  );
+});
+
 test("docx: Shavuos 5783 keeps Hebrew colon quote phrase in one RTL run", () => {
   const typst = convertedDocx("/shavuos/5783/");
 
