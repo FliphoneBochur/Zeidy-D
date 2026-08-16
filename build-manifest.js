@@ -12,6 +12,23 @@ const FALLBACK_FILE = "./404.html";
 const GENERATED_FALLBACK_MARKER = "<!-- Generated fallback page: do not edit directly. -->";
 const CONTENT_KEY = "__content";
 
+function loadExistingRoutes() {
+  if (!fs.existsSync(ROUTES_FILE)) {
+    return { byRoute: {}, byContentPath: {} };
+  }
+
+  try {
+    const routes = JSON.parse(fs.readFileSync(ROUTES_FILE, "utf8"));
+    return {
+      byRoute: routes.byRoute || {},
+      byContentPath: routes.byContentPath || {},
+    };
+  } catch (error) {
+    console.warn(`⚠️ Could not read existing ${ROUTES_FILE}: ${error.message}`);
+    return { byRoute: {}, byContentPath: {} };
+  }
+}
+
 // Helper function to prompt user for confirmation
 function promptUser(question) {
   return new Promise((resolve) => {
@@ -271,7 +288,7 @@ async function buildManifest() {
   const manifestJson = JSON.stringify(manifest, null, 2);
   fs.writeFileSync(MANIFEST_FILE, manifestJson);
 
-  const routes = buildRoutes(manifest);
+  const routes = buildRoutes(manifest, loadExistingRoutes());
   fs.writeFileSync(ROUTES_FILE, JSON.stringify(routes, null, 2));
   generateFallbackPage();
 
@@ -371,11 +388,33 @@ function routePartsForContent(pathParts) {
   return withoutSefer;
 }
 
-function buildRoutes(manifest) {
+function buildRoutes(manifest, existingRoutes = { byRoute: {}, byContentPath: {} }) {
   const routes = {
     byRoute: {},
     byContentPath: {},
   };
+
+  function existingTitleFor(route, contentPath) {
+    const routeTitle = existingRoutes.byRoute?.[route]?.title;
+    if (routeTitle) {
+      return routeTitle;
+    }
+
+    const previousRoute = existingRoutes.byContentPath?.[contentPath];
+    return previousRoute ? existingRoutes.byRoute?.[previousRoute]?.title : null;
+  }
+
+  function entryFor(route, contentPath, baseFilename) {
+    const entry = {
+      contentPath,
+      baseFilename,
+    };
+    const title = existingTitleFor(route, contentPath);
+    if (title) {
+      entry.title = title;
+    }
+    return entry;
+  }
 
   function walk(node, pathParts = []) {
     for (const [key, value] of Object.entries(node)) {
@@ -384,10 +423,7 @@ function buildRoutes(manifest) {
       if (key === CONTENT_KEY) {
         const contentPath = pathParts.join("/");
         const route = routePath(routePartsForContent(pathParts));
-        const entry = {
-          contentPath,
-          baseFilename: value,
-        };
+        const entry = entryFor(route, contentPath, value);
 
         if (routes.byRoute[route]) {
           throw new Error(
@@ -400,10 +436,7 @@ function buildRoutes(manifest) {
       } else if (typeof value === "string" || value === null) {
         const contentPath = currentPath.join("/");
         const route = routePath(routePartsForContent(currentPath));
-        const entry = {
-          contentPath,
-          baseFilename: value,
-        };
+        const entry = entryFor(route, contentPath, value);
 
         if (routes.byRoute[route]) {
           throw new Error(

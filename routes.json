@@ -314,8 +314,7 @@
     },
     "/vayikra/5784/": {
       "contentPath": "03 - Vayikra/01 - Vayikra/5784",
-      "baseFilename": "Vayikra 5784",
-      "title": "Vayikra 5784"
+      "baseFilename": "Vayikra 5784"
     },
     "/vayikra/5785/": {
       "contentPath": "03 - Vayikra/01 - Vayikra/5785",
@@ -679,8 +678,7 @@
     },
     "/pesach-sheini/5784/": {
       "contentPath": "06 - Yom Tov/02 - Pesach Sheini/5784",
-      "baseFilename": "Pesach Sheini 5784",
-      "title": "Sheini 5784"
+      "baseFilename": "Pesach Sheini 5784"
     },
     "/pesach-sheini/5785/": {
       "contentPath": "06 - Yom Tov/02 - Pesach Sheini/5785",
@@ -689,7 +687,7 @@
     "/lag-baomer/5784/": {
       "contentPath": "06 - Yom Tov/03 - Lag Baomer/5784",
       "baseFilename": "Lag Baomer 5784",
-      "title": "Lag Ba'omer 5784"
+      "title": "Lag Baomer 5784"
     },
     "/lag-baomer/5785/": {
       "contentPath": "06 - Yom Tov/03 - Lag Baomer/5785",

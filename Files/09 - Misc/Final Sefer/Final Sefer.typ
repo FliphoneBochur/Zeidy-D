@@ -4973,7 +4973,7 @@ footsteps.
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/vayikra/5784/", "../../03 - Vayikra/01 - Vayikra/5784/Vayikra 5784.png"))
 = Vayikra 5784
 
-This week is ⁧פרשת ויקרא⁩⁦,⁩ n action-packed week - ⁧פרשת זכור⁩ and ⁧פורים⁩.
+This week is ⁧פרשת ויקרא⁩⁦,⁩ an action-packed week - ⁧פרשת זכור⁩ and ⁧פורים⁩.
 ⁧פרשת ויקרא⁩ introduces us to the ⁧קרבנות⁩⁦,⁩ a vital part of the ⁧עבודה⁩. All
 of our davening today is to replace the ⁧קרבנות⁩. It is so essential that
 in the ⁧פריערדיקע דורות⁩⁦,⁩ when little ⁧קינדערלאך⁩ first started learning
@@ -11137,7 +11137,7 @@ continue to carry across generations.”
 #pagebreak()
 
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/pesach-sheini/5784/", "../../06 - Yom Tov/02 - Pesach Sheini/5784/Pesach Sheini 5784.png"))
-= Sheini 5784
+= Pesach Sheini 5784
 
 ⁧פסח שני⁩ is coming up, and in the ⁧זכות⁩ of our ⁧תפילות⁩⁦,⁩ our ⁧תשובה⁩⁦,⁩ and all
 the ⁧חסד⁩ that we try to do, may ⁧הקדוש ברוך הוא⁩ have ⁧רחמנות⁩ on us and
@@ -11200,7 +11200,7 @@ B’ezras Hashem, in the ⁧זכות⁩ of that genuine effort, we will be answe
 #pagebreak()
 
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/lag-baomer/5784/", "../../06 - Yom Tov/03 - Lag Baomer/5784/Lag Baomer 5784.png"))
-= Lag Ba'omer 5784
+= Lag Baomer 5784
 
 To commemorate ⁦ל״ג בעומר⁩, I'm going to share a number of short vertlach, which together will add up to a substantial message I want to pass
 along. This is ⁧לעילוי נשמת⁩ all of our ⁧עלטערן⁩⁦,⁩ and a ⁧תפילה⁩ that those who
