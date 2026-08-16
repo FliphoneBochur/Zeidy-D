@@ -643,10 +643,10 @@ What's more, two of his friends were married, and one of them already
 had a six-year-old child. “On one of the days of ⁧בין הזמנים⁩”, he says, “I went to ⁧בני ברק⁩ to attend the wedding of a friend. I arrived at the
 ⁧חופה⁩⁦,⁩ stayed for the food and dancing. At 10 o'clock, I left the hall
 for the nearest bus back to ⁧ירושלים⁩. I met a friend and started talking
-to him at the entrance of a building. It turns out that he was at a ⁧שבע ברכות⁩ of his relative. Suddenly, a man comes down from the building and
-says to my friend, “Why are you out here? Come upstairs. It's really
-empty and sad up there.” Then he turns to me, “Come upstairs, they're
-waiting for you there.” “Waiting for me?” I asked? “Go upstairs?”
+to him at the entrance of a building. It turns out that he was at a ⁧שבע ברכות⁩ of his relative. Suddenly, a man came down from the building and
+said to my friend, “Why are you out here? Come upstairs. It's really
+empty and sad up there.” Then he turned to me, “Come upstairs, they're
+waiting for you there.” “Waiting for me?” I asked. “Go upstairs?”
 “Waiting for what?” I tried to tell him that he's mixing me up with
 somebody else, but he interrupted me. “Look, I'm really looking for a
 man to complete our ⁧מנין⁩ for a ⁧שבע ברכות⁩. So please, come upstairs.
@@ -660,7 +660,7 @@ several babies in strollers. No one sang or even spoke. No music was
 being played. It was quite ⁧נעבעכדיק⁩⁦,⁩ to be quite honest. I thought to
 myself, “How are they going to pass the time here?” Little by little, individual family members arrived, and finally, they had a ⁧מנין⁩. The man
 who had called me looked and said to me, “Sing something.” I looked to
-left, then to my right, and realized he was talking to me. I had no
+my left, then to my right, and realized he was talking to me. I had no
 choice. I started with ⁧עוד ישמע⁩ and ⁧מהרה⁩⁦,⁩ and then lapsed into ⁧ענוי הגפן וענוי הגפן⁩ and ⁧ויזכו לבנות בית נאמן בישראל⁩. A few members of the bride's
 family, it might have been the groom's family, who knew, hummed along
 with me. This went on for a few moments. After these songs, the same man
@@ -693,7 +693,7 @@ here?” he asked. “⁧חסד,⁩” I told him. “I was asked to come and ma
 here at the request of one of the relatives. Since we are both in the
 same family situation towards this ⁧חתן⁩ and ⁧כלה⁩⁦,⁩ that already makes us
 ⁧מחותנים⁩⁦,⁩ kind of.” He smiled kindly. “In short, I want to suggest to you
-my sister's daughter,” “What makes you think of proposing your sister's
+my sister's daughter.” “What makes you think of proposing your sister's
 daughter before you even know me? I asked him. “To tell you the truth, after your special speech, I feel like I know you a little. After I
 heard that you were here voluntarily, I know you even more and
 appreciate you. Thirdly, why not give it a try?” Indeed, the third claim
@@ -4070,7 +4070,7 @@ understand what that means, but that's what the ⁧גמרא⁩ says\]; ⁦עד �
 הקב״ה⁩ ⁧באצבעו⁩ - until ⁦הקב״ה⁩ showed him with a finger. \[We don't
 understand what that means either. It's ⁧כביכול⁩⁦,⁩ of course, Hashem has no
 fingers, but it says ⁧באצבע⁩. That's what it says\], and what are they?
-The first one we know, ⁧מנורה⁩. The second one, which we also know, is ⁧ראש חודש⁩. The third one, not quite as famous, are ⁧שרצים⁩⁦,⁩ it's a ⁧בפרש הגמרא⁩⁦,⁩ as Casey said, you could look it up.
+The first one we know, ⁧מנורה⁩. The second one, which we also know, is ⁧ראש חודש⁩. The third one, not quite as famous, is ⁧שרצים⁩⁦,⁩ it's a ⁧בפרש הגמרא⁩⁦,⁩ as Casey said, you could look it up.
 
 Now, what happened with the ⁧מנורה⁩? ⁧משה רבינו⁩ threw a ⁧כיכר⁩ of gold into a
 fire, and the ⁧מנורה נעשה מאליה⁩ - The ⁧מנורה⁩ made itself, as ⁧מדרש תנחומא⁩
@@ -6419,7 +6419,7 @@ not Hashem, how could he possibly have the ⁧חוצפה⁩⁦,⁩ the audacity,
 such a promise? He wouldn't be able to back it up. And how long would it
 take to prove he was lying? Just six years. That's all it would take to
 see that it doesn't work. And yet, we've been keeping ⁧שמיטה⁩ for
-thousands of years, and we've seen it work. So, this ⁧פסוק⁩ becomes an
+thousands of years, and we've seen it work. So this ⁧פסוק⁩ becomes an
 indirect but compelling proof of the authenticity of the ⁧תורה⁩ and that
 ⁧הקדוש ברוך הוא⁩ is the creator and ⁧מנהיג העולם⁩ and wrote the ⁧תורה⁩.
 
@@ -6440,7 +6440,7 @@ food with a special bracha: #metadata(none) <person-index-bracha-480> ⁧אכל 
 need much, and you'll be full and satisfied. There are two major
 advantages to this: A) You won't have to go on a diet, and B) you won't
 have to go through the tremendous effort of gathering and storing food
-for three years. Even though a three-year-crop is a ⁧ברכה⁩⁦,⁩ it's also a
+for three years. Even though a three-year crop is a ⁧ברכה⁩⁦,⁩ it's also a
 huge burden. However, if you simply trust Hashem with ⁧אמונה פשוטה⁩ and
 keep ⁧שמיטה⁩ without asking questions, you'll get an even greater, more
 efficient ⁧ברכה⁩.
@@ -6455,7 +6455,7 @@ have to believe that whatever Hashem promises will happen
 #set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/behar-bechukosai/5785/", "../../03 - Vayikra/13 - Behar-Bechukosai/5785/Behar-Bechukosai 5785.png"))
 = Behar-Bechukosai 5785
 
-R’ Chaim Kanievsky's#metadata(none) <person-index-r-chaim-kanievsky-488> sefer on chumash by Rabbi Shai Graucher, #metadata(none) <person-index-rabbi-shai-graucher-491> quotes the
+R’ Chaim Kanievsky's#metadata(none) <person-index-r-chaim-kanievsky-488> sefer on chumash by Rabbi Shai Graucher#metadata(none) <person-index-rabbi-shai-graucher-491> quotes the
 pasuk from ⁧פרשת בהר⁩ (25:21): ⁧וְצִוִּיתִי אֶת בִּרְכָתִי לָכֶם בַּשָּׁנָה הַשִּׁשִּׁית וְעָשָׂת אֶת הַתְּבוּאָה לִשְׁלֹשׁ הַשָּׁנִים⁩. R’ Chaim quotes the ⁧חזון איש⁩ in ⁧מסכת שביעית⁩ that this
 ⁧ברכה⁩ is still in effect in our times, and some people have the zchus to
 see it. He brings down a ⁧מעשה⁩ which happened in the famous ⁧מושב⁩ of
@@ -6498,7 +6498,7 @@ sound of the insects devouring everything in their path. A dark cloud of
 ⁧ארבה⁩ was coming from the southwest, and the nearby settlement of ⁧זבדיאל⁩
 was being destroyed. However, before the astonished eyes of all the
 people of ⁧קוממיות⁩⁦,⁩ they saw a ⁧נס נגלה⁩ in our own time, just 75 years
-ago, The locusts were literally jumping around the borders of ⁧קוממיות⁩⁦,⁩ like a ⁧קריעת ים סוף⁩. Everything around the ⁧מושב⁩ was hit, but ⁧קוממיות⁩
+ago. The locusts were literally jumping around the borders of ⁧קוממיות⁩⁦,⁩ like a ⁧קריעת ים סוף⁩. Everything around the ⁧מושב⁩ was hit, but ⁧קוממיות⁩
 remained completely untouched, not a single blade of grass was eaten. R’
 Mendelson said, “The ⁦רידב״ז⁩#metadata(none) <person-index-ridvaz-494> said in 5649 that when people did not keep
 ⁧שמיטה⁩⁦,⁩ a plague of locusts came and destroyed everything as a punishment

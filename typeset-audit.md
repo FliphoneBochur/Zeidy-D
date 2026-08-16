@@ -4,7 +4,7 @@ This is a review-only scan for likely visual punctuation and bidi issues in the 
 
 PDF scanned: `Files/09 - Misc/Final Sefer/Final Sefer.pdf`
 Typst scanned: `Files/09 - Misc/Final Sefer/Final Sefer.typ`
-Findings: 45 (4 high, 41 medium)
+Findings: 46 (4 high, 42 medium)
 Visual pages rendered: `typeset-audit-pages`
 
 The PDF scan uses extracted visual text, so it is useful for catching rendered punctuation surprises. The Typst scan catches raw source patterns before rendering.
@@ -144,6 +144,10 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - normalized: answer “ קרובץis קרובץ לפורים, it’s the thing that we say on פורים.” But what is
 ## MEDIUM - space before sentence punctuation
 
+- PDF visual text, page 23, who knew, hummed along with me. This went on for a few moments. After, line 11
+  - visual: [page-0023.png](typeset-audit-pages/page-0023.png)
+  - words ⁧‫ ⁩לכבוד‬the ⁧,‫ ”⁩שמחה‬he again urged me.
+  - normalized: words  לכבודthe , ”שמחהhe again urged me.
 - PDF visual text, page 32, Lech Lecha 5784, line 10
   - visual: [page-0032.png](typeset-audit-pages/page-0032.png)
   - by saying ⁧,‫ ְּבָך חֹוְת ִמין ְוֹלא ָבֶהם⁧“ ⁩ָמֵגן ַאְבָר ָהם ִיְצָחק ְוַיֲעֹקב‬,‫ ”⁩ַּת ְ...
