@@ -45,7 +45,7 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - visual: [page-0268.png](typeset-audit-pages/page-0268.png), [page-0269.png](typeset-audit-pages/page-0269.png)
   - א׳:ג׳)⁩: ⁧וַיְצַו אֶת שְׁלֹמֹה בְנוֹ לֵאמֹר אָנֹכִי הֹלֵךְ בְּדֶרֶךְ כׇּל הָאָרֶץ⁩ -...
   - normalized: א׳:ג׳): וַיְצַו אֶת שְׁלֹמֹה בְנוֹ לֵאמֹר אָנֹכִי הֹלֵךְ בְּדֶרֶךְ כׇּל הָאָרֶץ - I'...
-- Typst source, page 275, Matos Massei 5785, line 8473
+- Typst source, page 275, Matos-Massei 5785, line 8473
   - visual: [page-0275.png](typeset-audit-pages/page-0275.png), [page-0276.png](typeset-audit-pages/page-0276.png)
   - shouldn't daven that her son would die. It's brought down in ⁦מכות ב:ו⁩:
   - normalized: shouldn't daven that her son would die. It's brought down in מכות ב:ו:
