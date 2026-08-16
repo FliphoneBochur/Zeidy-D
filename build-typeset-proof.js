@@ -1151,6 +1151,17 @@ function normalizeIsolatedPunctuationSpacing(typstContent) {
     .replace(/([,;:.!?])(#metadata\(none\)\s*<[^>\n]+>)(?:\\?["”])/g, "$1”$2")
     .replace(/([,;:.!?])(?:\\?["”])(#metadata\(none\)\s*<[^>\n]+>)/g, "$1”$2")
     .replace(
+      new RegExp(`${RTL_ISOLATE}([^${POP_DIRECTIONAL_ISOLATE}]*${HEBREW_LETTERS}[^${POP_DIRECTIONAL_ISOLATE}]*)${POP_DIRECTIONAL_ISOLATE}:\\s*${RTL_ISOLATE}([^${POP_DIRECTIONAL_ISOLATE}]*${HEBREW_LETTERS}[^${POP_DIRECTIONAL_ISOLATE}]*)${POP_DIRECTIONAL_ISOLATE}`, "gu"),
+      (match, beforeColon, afterColon) => {
+        const hebrewTokenCount = (beforeColon.match(new RegExp(HEBREW_TOKEN, "gu")) || []).length;
+        const withoutNikkud = beforeColon.replace(/[\u0591-\u05C7]/g, "");
+        if (hebrewTokenCount < 2 || !withoutNikkud.includes("אמר")) {
+          return match;
+        }
+        return `${RTL_ISOLATE}${beforeColon}: ${afterColon}${POP_DIRECTIONAL_ISOLATE}`;
+      }
+    )
+    .replace(
       new RegExp(`([${LTR_ISOLATE}${RTL_ISOLATE}][^${POP_DIRECTIONAL_ISOLATE}]+${POP_DIRECTIONAL_ISOLATE}):(?=[${LTR_ISOLATE}${RTL_ISOLATE}])`, "gu"),
       "$1: "
     )

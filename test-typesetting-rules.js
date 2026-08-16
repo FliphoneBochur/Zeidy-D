@@ -1168,6 +1168,42 @@ test("docx: Yom Kippur 5784 keeps comma tight before closing quote attribution",
   assertNotContains(typst, `more or less paid up, \\" the sibling said`, "space between comma and quote");
 });
 
+test("docx: Behar 5784 keeps indexed quote marker after closing punctuation", () => {
+  const typst = convertedDocxWithIndex("/behar/5784/", [
+    {
+      id: "rabbi-gesheid",
+      displayName: "R' Gesheid",
+      aliases: ["Rabbi Gesheid"],
+    },
+  ]);
+
+  assertContains(
+    typst,
+    `thank you Rabbi Gesheid!”#metadata(none) <person-index-rabbi-gesheid-3> she said`,
+    "closing quote stays tight before indexed Gesheid marker"
+  );
+  assertNotContains(
+    typst,
+    `thank you Rabbi Gesheid!#metadata(none) <person-index-rabbi-gesheid-3>” she said`,
+    "index marker should not separate exclamation point from closing quote"
+  );
+});
+
+test("docx: Shavuos 5783 keeps Hebrew colon quote phrase in one RTL run", () => {
+  const typst = convertedDocx("/shavuos/5783/");
+
+  assertContains(
+    typst,
+    `${RTL_ISOLATE}אָמַר לוֹ הַקָּדוֹשׁ בָּרוּךְ הוּא לְמֹשֶׁה: הַחְזֵיר לָהֶן תְּשׁוּבָה${POP_DIRECTIONAL_ISOLATE} - Hashem told Moshe`,
+    "Hakodosh Baruch Hu/Moshe reply phrase stays in reading order"
+  );
+  assertContains(
+    typst,
+    `${RTL_ISOLATE}אָמַר לְפָנָיו: רִבּוֹנוֹ שֶׁל עוֹלָם, מִתְיָירֵא אֲנִי שֶׁמָּא יִשְׂרְפוּנִי בַּהֶבֶל שֶׁבְּפִיהֶם${POP_DIRECTIONAL_ISOLATE} - I'm afraid`,
+    "Moshe's reply phrase stays in reading order"
+  );
+});
+
 test("docx: How to do Teshuva keeps comma after parsha before bracketed note", () => {
   const typst = convertedDocx("/rosh-hashana/how-to-do-teshuva/");
 
