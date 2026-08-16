@@ -613,7 +613,7 @@ is to be ⁧שולט⁩ in the world for one reason and one reason only: because
 ⁧הקדוש ברוך הוא⁩ said so. ⁧הקדוש ברוך הוא⁩ says, you rule the world, we have
 to do that job as part of our responsibility that Hashem gives us.
 
-The ⁧וילנא גאון⁩ has an amazing insight that he quotes from the sefer ⁧אמרי נועם⁩. Why do we say ⁧שֶׁעָשָׂה לִי כׇּל צׇרְכִּי⁩ in ⁧לשון עבר, שֶׁעָשָׂה לִי⁩⁦?⁩ Because this
+The ⁧וילנא גאון⁩ has an amazing insight that he quotes from the sefer ⁧אמרי נועם⁩. Why do we say ⁧שֶׁעָשָׂה לִי כׇּל צׇרְכִּי⁩ in ⁧לשון עבר⁩⁦,⁩ ⁧שֶׁעָשָׂה לִי⁩⁦?⁩ Because this
 ⁧ממשלה⁩⁦,⁩ this rulership of the world, we already got this from ⁧מעשה בראשית⁩. That's what the ⁧פרשה⁩ is telling us.
 
 ⁧בשבילי נברא העולם⁩. On the one hand, yes, ⁧אנכי עפר ואפר⁩. But Hashem also
@@ -1043,7 +1043,7 @@ protected, fulfilling the promise that ⁧כי שומר מצוה לא ידע ד�
 B’ezras Hashem, we should all be protected. May we be blessed to observe
 all ⁧מצוות⁩⁦,⁩ especially the ⁧מצוה⁩ of ⁧ברית מילה⁩⁦,⁩ for which ⁧כלל ישראל⁩ has
 always shown self-sacrifice. May we soon witness ⁧גאולה⁩ and the coming of
-⁧בימינו אמן משיח במהרה⁩!
+⁧משיח במהרה בימינו אמן⁩!
 
 #pagebreak()
 
@@ -1207,7 +1207,7 @@ our ⁧מצוות⁩ create a ⁧מלאך⁩ is not the main point - although if
 says so, we believe it. The lesson is about the quality of our ⁧מצוות⁩.
 Our ⁧מצוות⁩ should express our deep ⁧כוונה⁩⁦,⁩ our ⁧אהבת ה׳⁩ and ⁧יראת ה׳⁩⁦,⁩ and
 that way, they will be of the highest quality. In the ⁧זכות⁩ of those
-⁧מצוות⁩⁦,⁩ may ⁧הקדוש ברוך הוא⁩ grant us ⁧ישועות⁩⁦,⁩ ⁧נחמות⁩⁦,⁩ and ⁧גואל צדק במהרה בימינו אמן ביאת⁩!
+⁧מצוות⁩⁦,⁩ may ⁧הקדוש ברוך הוא⁩ grant us ⁧ישועות⁩⁦,⁩ ⁧נחמות⁩⁦,⁩ and ⁧ביאת גואל צדק במהרה בימינו אמן⁩!
 
 #pagebreak()
 
@@ -1566,16 +1566,15 @@ when one uses it. ⁦רש״י⁩#metadata(none) <person-index-rashi-106> is tell
 a ⁧תם⁩. This concept of ⁧תם⁩⁦,⁩ interestingly enough, shows up in the ⁧ארבעה בנים⁩ on ⁧פסח⁩. Often, we picture the ⁧תם⁩ as a sweet, innocent child. But in
 ⁦תנ״ך⁩ and literature, ⁧תם⁩ can mean someone who is simple in a naive sense, someone who doesn't know how to navigate complex or crafty situations.
 
-However, the ⁧תורה⁩ doesn't call ⁧יעקב⁩ a ⁧תם⁩\; it calls him an #strong[⁧איש⁩]
-⁧תם⁩. That detail is significant. ⁦רש״י⁩#metadata(none) <person-index-rashi-107> says, “⁧מִי שֶׁאֵינוֹ חָרִיף לְרַמּוֹת,⁩”
+However, the ⁧תורה⁩ doesn't call ⁧יעקב⁩ a ⁧תם⁩\; it calls him an ⁧#strong[איש] תם⁩. That detail is significant. ⁦רש״י⁩#metadata(none) <person-index-rashi-107> says, “⁧מִי שֶׁאֵינוֹ חָרִיף לְרַמּוֹת,⁩”
 someone who isn't quick to deceive, is a ⁧תם⁩. But ⁧יעקב⁩ is described as an
-#strong[⁧איש⁩] ⁧תם⁩ - an ⁧איש⁩ who was master of his ⁧תמימות⁩⁦,⁩ who knew when to
+⁧#strong[איש] תם⁩ - an ⁧איש⁩ who was master of his ⁧תמימות⁩⁦,⁩ who knew when to
 use it and when to restrain it.
 
 As the ⁧פסוק⁩ says in ⁧תהילים⁩ \(18:27): ⁧וְעִם עִקֵּשׁ תִּתְפַּתָּל⁩⁦,⁩ and as it also says
 in the ⁧מדרש⁩ (29:12 ⁦רש״י⁩#metadata(none) <person-index-rashi-108> ⁦ע״ש⁩) ⁧אֲנִי אָחִיו בְּרַמָּאוּת⁩. ⁧יעקב⁩ could be slick when
 necessary. This is what ⁦רש״י⁩#metadata(none) <person-index-rashi-109> means: someone who cannot control himself, who is always a ⁧תם⁩ and thus easily taken advantage of, is not an
-#strong[⁧איש⁩] ⁧תם⁩. But ⁧יעקב אבינו⁩ could use ⁧חריפות⁩ and ⁧רמאות⁩ when the
+⁧#strong[איש] תם⁩. But ⁧יעקב אבינו⁩ could use ⁧חריפות⁩ and ⁧רמאות⁩ when the
 situation called for it, as we see in his dealings with ⁧עשו⁩ and ⁧לבן⁩.
 
 This brings a crucial ⁧מוסר השכל⁩ for us: we must control and channel all
@@ -2229,7 +2228,7 @@ in trouble who are being attacked by someone, it can be used as a ⁧תפילה�
 that the pursuers “forget” about them and move on to a different
 focus. I personally recite both of these ⁧פסוקים⁩ (39:23 & 40:23)
 regularly - sometimes daily, sometimes weekly - along with other ⁧פסוקים⁩⁦,⁩ and Im Yirtzeh Hashem these pesukim can help us in an ⁧עת צרה⁩. The best
-thing to so in an ⁧עת צרה⁩ is to keep in mind to ⁧אֵין עוֹד מִלְבַדּו⁩#strong[⁧ֹ⁩], which I've said to you before, and I still believe and hold very shtark, is the right answer for all of our ⁧צרות⁩. All the efforts we make -
+thing to so in an ⁧עת צרה⁩ is to keep in mind to ⁧אֵין עוֹד מִלְבַדּו #strong[ֹ]⁩, which I've said to you before, and I still believe and hold very shtark, is the right answer for all of our ⁧צרות⁩. All the efforts we make -
 whether for ourselves, our communities, or ⁧ארץ ישראל⁩ - will only succeed
 if ⁧הקדוש ברוך הוא⁩ chooses to use them as His ⁧שליח⁩. Everything comes from
 Him, and our role is to focus on ⁧תשובה⁩⁦,⁩ and that, in turn should cause
@@ -2929,7 +2928,7 @@ However, ⁧רבי יהושע בן קרחה⁩ points out one exception: in our 
 
 But, as always, there's a ⁧מחלוקת⁩. ⁧ר׳ שמעון בר יוחי⁩#metadata(none) <person-index-r-shimon-bar-yochai-216> disagrees and
 asserts that ⁧משה רבינו⁩ was indeed punished. How do we see this? The ⁧פסוק⁩
-says ⁧הֲלֹא אַהֲרֹן אָחִיךָ #strong[הַלֵּוִי]⁩ ⁧יָדַעְתִּי כִּי דַבֵּר יְדַבֵּר⁩. We know ⁧אַהֲרֹן⁩ is not
+says ⁧הֲלֹא אַהֲרֹן אָחִיךָ #strong[הַלֵּוִי] יָדַעְתִּי כִּי דַבֵּר יְדַבֵּר⁩. We know ⁧אַהֲרֹן⁩ is not
 referred to as a ⁧לוי⁩\; why does the ⁧תורה⁩ call him ⁧הלוי⁩? We know that
 ⁧אַהֲרֹן⁩ was destined to be the ⁧כהן גדול⁩. With these words, the ⁧מדרש⁩
 explains that Hashem was telling ⁧משה⁩⁦,⁩ “I had intended for you to be the
@@ -5964,7 +5963,7 @@ tells us that the world stands on three things: ⁧תורה⁩⁦,⁩ ⁧עבו�
 has to integrate these three pillars into his life so that when ⁧ראש השנה⁩
 and ⁧יום כיפור⁩ come, our ⁧תפילות⁩ can be answered. That is ⁧בְּזֹאת⁩ - with
 these elements totaling 408, every Jew can come before Hashem and plead.
-Not just the ⁧כהן גדול⁩⁦,⁩ every single Yid. As ⁧דוד המלך⁩ says in ⁧תהילים⁩: ⁧אִם תָּקוּם עָלַי מִלְחָמָה #strong[בְּזֹאת]⁩ ⁧אֲנִי בוֹטֵחַ⁩ - This is what I'm going to depend
+Not just the ⁧כהן גדול⁩⁦,⁩ every single Yid. As ⁧דוד המלך⁩ says in ⁧תהילים⁩: ⁧אִם תָּקוּם עָלַי מִלְחָמָה #strong[בְּזֹאת] אֲנִי בוֹטֵחַ⁩ - This is what I'm going to depend
 on. After 120 years, when we come before the ⁧בית דין של מעלה⁩ and are
 asked if we are worthy of entering ⁧גן עדן⁩⁦,⁩ we will say ⁧בְּזֹאת אֲנִי בוֹטֵחַ⁩⁦,⁩ we
 have to trust in our ⁧זֹאת⁩ - in our ⁧תורה⁩⁦,⁩ ⁧עבודה⁩⁦,⁩ and ⁧גמילות חסדים⁩⁦,⁩ represented by ⁧צום⁩⁦,⁩ ⁧קול⁩⁦,⁩ and ⁧ממון⁩. With that, we can be ⁧זוכה⁩ to a good
@@ -10183,7 +10182,7 @@ anything.” “Very well”, the former disciple challenged, “Show me where I
 am. Show me where ⁧אבנר⁩ is in ⁧האזינו⁩\.”
 
 Hashem endowed the ⁦רמב״ן⁩#metadata(none) <person-index-ramban-815> with ⁧רוח הקודש⁩ and without hesitating he quoted
-⁧אָמַ⁩#strong[⁧רְ⁩]⁧תִּי אַפְ⁩#strong[⁧אֵ⁩]⁧יהֶם אַשְׁ⁩#strong[⁧בִּ⁩]⁧יתָה מֵאֱ⁩#strong[⁧נֹ⁩]⁧ושׁ⁩⁦,⁩ which is
+⁧אָמַ #strong[רְ]⁩⁧תִּי אַפְ #strong[אֵ]⁩⁧יהֶם אַשְׁ #strong[בִּ]⁩⁧יתָה מֵאֱ #strong[נֹ]⁩⁧ושׁ⁩⁦,⁩ which is
 in ⁦פרק ל׳'ב פסוק כ׳'ו⁩ in ⁧האזינו⁩. If you look at the third letter of
 every word, you see the name ⁧אבנר⁩. You know what this pasuk means? It
 means that Hashem will wipe your memory off the face of the earth.”
@@ -13830,7 +13829,7 @@ After all, the word ⁧מתנה⁩⁦,⁩ the whole ⁧מושג⁩ of ⁧מתנ�
 implies something that is good. ⁧מתנה⁩ means I'm giving something to
 someone, it's a gift. Whether the gift is more expensive, whether it's
 less expensive, but the ⁧עצם⁩ idea of a ⁧מתנה בעצם⁩ is something that's
-good. So what is the emphasis ⁧מתנה⁩ #strong[⁧טובה⁩] ⁧יש לי בבית גנזי⁩⁦?⁩
+good. So what is the emphasis ⁧מתנה #strong[טובה] יש לי בבית גנזי⁩⁦?⁩
 
 And second of all, what does the ⁧גמרא בכלל⁩ mean? That ⁧הקדוש ברוך הוא⁩ was
 saying to ⁧משה רבינו⁩⁦,⁩ I have a ⁧מתנה טובה⁩ hidden away, ⁧בבית גנזי⁩⁦,⁩ and I
@@ -14316,8 +14315,7 @@ the ⁦רמח״ל⁩, #metadata(none) <person-index-ramchal-1155> then we will u
 he says ⁧מה רבו מעשיך ה׳ כולם בחכמה עשית⁩ he looks at ⁦הקודש ברוך הוא'⁩s
 wonderful wonderful creation and instinctively he expresses himself with
 song, with ecstasy, he says ⁧מה רבו מעשיך ה׳⁩ - ⁦רבש״ע⁩ you created such a
-wonderful world! But his perception at that time is ⁧מה⁩ #strong[⁧רבו⁩]
-⁧מעשיך ה׳⁩⁦,⁩ what he sees is ⁧ריבוי מעשים⁩ in the ⁧בריאה⁩⁦,⁩ he sees ⁧ריבוי מעשים⁩⁦,⁩ many many different things and certainly from these different ⁧מעשים⁩ he
+wonderful world! But his perception at that time is ⁧מה #strong[רבו] מעשיך ה׳⁩⁦,⁩ what he sees is ⁧ריבוי מעשים⁩ in the ⁧בריאה⁩⁦,⁩ he sees ⁧ריבוי מעשים⁩⁦,⁩ many many different things and certainly from these different ⁧מעשים⁩ he
 receives ⁧הִתפַּלְאוּת⁩ and he says ⁧מה רבו מעשיך ה׳⁩⁦,⁩ but what he sees is many
 many ⁧חלקים⁩⁦,⁩ and according to his ⁧הֲבָנָה⁩ at that time they have no ⁧שייכות⁩
 one to the other. And based upon that ⁧השקפה⁩⁦,⁩ yes on the one hand he's
@@ -14327,13 +14325,12 @@ world as being a world of ⁧ריבוי מעשים⁩ it's still ⁧שייך⁩�
 that the ⁦רמב״ן⁩#metadata(none) <person-index-ramban-1132> mentions in the ⁧הקדמה⁩ to ⁧ספר איוב⁩. However when it comes
 to ⁧שבת⁩⁦,⁩ the ⁧השקפה⁩ of ⁧שבת⁩ is totally different because ⁧שבת⁩ is the ⁧השלמה⁩
 of the entire ⁧בריאה⁩⁦,⁩ which means that on ⁧שבת⁩ it becomes clearly revealed
-the ⁧בחינה⁩ of ⁧יוצר⁩ #strong[⁧הכל⁩]#strong[.] On ⁧שבת⁩ we come to the
+the ⁧בחינה⁩ of ⁧יוצר #strong[הכל]⁩#strong[.] On ⁧שבת⁩ we come to the
 realization there is nothing ⁧בנפרד⁩⁦,⁩ there's nothing separate, but rather
 each and every ⁧חלק⁩⁦,⁩ ⁧כל חלק וחלק⁩ of the ⁧בריאה⁩ is one ⁧השלמה⁩ of one big
 picture together, whose purpose is to bring out from each and every ⁧נברא⁩
 the ⁧כבוד⁩ of ⁧הקדוש ברוך הוא בעולמו⁩. And therefore now we can better
-understand why we emphasize on ⁧שבת⁩ when we say #strong[⁧הכל⁩] ⁧יודוך⁩
-#strong[⁧והכל⁩] ⁧ישבחוך⁩ #strong[⁧והכל⁩] ⁧יאמרו אין קדוש כהשם⁩ because that is
+understand why we emphasize on ⁧שבת⁩ when we say ⁧#strong[הכל] יודוך #strong[והכל] ישבחוך #strong[והכל] יאמרו אין קדוש כהשם⁩ because that is
 the ⁧עיקר יסוד⁩ in the ⁧שבח⁩ of ⁧שבת⁩⁦,⁩ not to look at everything ⁧בנפרד⁩. The
 ⁧עיקר שירה⁩ of ⁧שבת⁩⁦,⁩ ⁧מִזְמוֹר שִׁיר לְיוֹם הַשַּׁבָּת⁩⁦,⁩ is ⁧לְהַגִּיד כִּי יָשָׁר ה׳⁩⁦,⁩ and that is
 why? Because we understand that ⁧הכל יודוך⁩ and ⁧הכל ישבחוך⁩⁦,⁩ that the
@@ -14427,7 +14424,7 @@ says ⁧מִזְמוֹר שִׁיר לְיוֹם הַשַּׁבָּת⁩⁦,⁩ 
 It's ⁧כדאי⁩ just to mention one more ⁧נקודה⁩ and that is that the ⁦חיד״א⁩#metadata(none) <person-index-chida-1101>
 brings out a wonderful observation. We find regarding ⁧שְׁמִירַת שַׁבָּת⁩ in the
 various ⁧פרשיות⁩ of Shabbos we find four times we find the word ⁧היא⁩. For
-example like ⁧כי אות #strong[היא]⁩ ⁧ביני וביניכם לדעת כי אני ה׳ מקדשכם⁩. We
+example like ⁧כי אות #strong[היא] ביני וביניכם לדעת כי אני ה׳ מקדשכם⁩. We
 find four times the word ⁧היא⁩ in the ⁧פרשה⁩ of Shabbos, however we find
 there's a ⁧שינוי⁩ between the ⁧קרי⁩ and the ⁧כתיב⁩. The ⁧כתיב⁩ is with a ⁧ו⁩ but
 the ⁧קרי⁩ is with a ⁧חיריק⁩⁦,⁩ we read it ⁧היא⁩ but it's written with a ⁧ו⁩ which
@@ -14442,7 +14439,7 @@ world has six ⁧קצוות⁩⁦,⁩ has six sides, the four sides and then the
 the ⁧מטה⁩⁦,⁩ like we have a box, the box has four sides and then we have the
 top and the bottom, so we have six sides. And that's why we say taka six
 times ⁧הכל⁩ which is ⁧כנגד⁩ all of the ⁧חלקים⁩ that we have in the ⁧בריאה⁩⁦,⁩ which is six sides. However the ⁧נקודה הפנימית⁩ which is in the middle, that's the ⁧אות י⁩. The ⁧נקודה הפנימית⁩ is ⁧אות י⁩ which is ⁧כנגד עולם הבא⁩. And
-we know ⁦חז״ל⁩ tell us in fact himself in ⁧מנחות⁩ on the ⁧פסוק כי ב⁩#strong[⁧יה⁩] ⁧ה׳ צור עולמים⁩ that ⁧עולם הבא⁩ was ⁧נברא⁩ with a ⁧י⁩. So therefore
+we know ⁦חז״ל⁩ tell us in fact himself in ⁧מנחות⁩ on the ⁧פסוק כי ב #strong[יה] ה׳ צור עולמים⁩ that ⁧עולם הבא⁩ was ⁧נברא⁩ with a ⁧י⁩. So therefore
 when it comes to ⁧שבת⁩ we say the word ⁧היא⁩ with a ⁧י⁩⁦,⁩ the ⁧קרי⁩ is with a ⁧י⁩⁦,⁩ to tell us that although taka we are living in ⁧עולם הזה⁩⁦,⁩ so ⁧באמת עולם הזה⁩ basically is a ⁧ו⁩ because ⁧עולם הזה⁩ is represented by the ⁧אות ו⁩ as the
 ⁦מהר״ל⁩ tells us, but when ⁧שבת⁩ comes in fact the ⁧פנימיות⁩ of this ⁧אות ו⁩ is
 truly a ⁧י⁩ and a ⁧י⁩ represents ⁧עולם הבא⁩⁦,⁩ that is the ⁧אות י⁩ as the ⁧גמרא⁩ in

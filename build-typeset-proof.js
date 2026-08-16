@@ -988,6 +988,44 @@ function isolateHebrewRuns(typstContent) {
   };
   const normalizeInlineWhitespace = (value) =>
     value.replace(/[ \t\u00A0\u202F]*\n[ \t\u00A0\u202F]*/g, " ");
+  const closingBlessingWordOrder = new Map([
+    ["ביאת", 10],
+    ["גואל", 20],
+    ["צדק", 30],
+    ["משיח", 40],
+    ["צדקנו", 50],
+    ["גאולה", 60],
+    ["שלמה", 70],
+    ["ישועה", 80],
+    ["במהרה", 90],
+    ["בימינו", 100],
+    ["אמן", 110],
+  ]);
+  const normalizeHebrewClosingBlessingOrder = (value) => {
+    const words = value.split(/\s+/).filter(Boolean);
+    if (words.length < 3) {
+      return value;
+    }
+
+    const plainWords = words.map((word) => word.replace(/[\u0591-\u05C7]/g, ""));
+    if (!plainWords.every((word) => closingBlessingWordOrder.has(word))) {
+      return value;
+    }
+
+    const hasEndingWord = plainWords.some((word) => ["במהרה", "בימינו", "אמן"].includes(word));
+    const hasRedemptionWord = plainWords.some((word) =>
+      ["ביאת", "גואל", "משיח", "גאולה", "ישועה"].includes(word)
+    );
+    if (!hasEndingWord || !hasRedemptionWord) {
+      return value;
+    }
+
+    return words
+      .map((word, index) => ({ word, index, order: closingBlessingWordOrder.get(plainWords[index]) }))
+      .sort((left, right) => left.order - right.order || left.index - right.index)
+      .map(({ word }) => word)
+      .join(" ");
+  };
   const followedByEnglish = (fullText, endOffset) => {
     const rawFollowing = fullText.slice(endOffset);
     if (/^(?:[ \t\u00A0\u202F]+|\n(?!\n)|#metadata\(none\)\s*<[^>\n]+>)*\((?:[^()\n]|\n(?!\n)){0,300}[A-Za-z]/.test(rawFollowing)) {
@@ -997,10 +1035,13 @@ function isolateHebrewRuns(typstContent) {
     const following = rawFollowing
       .replace(/^(?:[ \t\u00A0\u202F]+|\n(?!\n)|#metadata\(none\)\s*<[^>\n]+>)*(?:["'“‘\[]|\\\[)/g, "")
       .replace(/^(?:[ \t\u00A0\u202F]+|\n(?!\n)|#metadata\(none\)\s*<[^>\n]+>)*/g, "");
+    if (/^[?!][ \t\u00A0\u202F]+[A-Za-z]/.test(following)) {
+      return true;
+    }
     return /^(?:[A-Za-z]|\d)/.test(following);
   };
   const isolateHebrewPhrase = (value, useLtrTrailingComma = false) => {
-    const normalizedValue = normalizeInlineWhitespace(value);
+    const normalizedValue = normalizeHebrewClosingBlessingOrder(normalizeInlineWhitespace(value));
     if (useLtrTrailingComma && value.endsWith(",")) {
       const phraseWithoutComma = normalizedValue.slice(0, -1);
       if (!phraseWithoutComma.includes(",")) {
@@ -1055,8 +1096,16 @@ function isolateHebrewRuns(typstContent) {
     return protect(`${RTL_ISOLATE}${normalizeInlineWhitespace(match)}${POP_DIRECTIONAL_ISOLATE}`);
   });
 
-  const hebrewQuestionSafeContent = hebrewEllipsisSafeContent.replace(HEBREW_QUESTION_PHRASE_RE, (match) => {
+  const precededByEnglishPreposition = (fullText, startOffset) => {
+    const preceding = fullText.slice(Math.max(0, startOffset - 80), startOffset);
+    return /\b(?:in|of|from|by|with|for|as|to)\s*$/.test(preceding);
+  };
+
+  const hebrewQuestionSafeContent = hebrewEllipsisSafeContent.replace(HEBREW_QUESTION_PHRASE_RE, (match, offset, fullText) => {
     const phrase = normalizeInlineWhitespace(match).replace(/\?$/, "");
+    if (phrase.includes(",") && precededByEnglishPreposition(fullText, offset)) {
+      return protect(`${isolateHebrewCommaPhrase(phrase, true)}${LTR_ISOLATE}?${POP_DIRECTIONAL_ISOLATE}`);
+    }
     return protect(`${RTL_ISOLATE}${phrase}${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE}?${POP_DIRECTIONAL_ISOLATE}`);
   });
 
@@ -1136,14 +1185,40 @@ function repairGerushinMizbeachPhrase(typstContent) {
   );
 }
 
-function repairStrongHebrewContinuations(typstContent) {
-  return typstContent.replace(
-    new RegExp(
-      `${RTL_ISOLATE}(${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN}){1,80})${POP_DIRECTIONAL_ISOLATE}(?:[\\t \\u00A0\\u202F]|\\n(?!\\n))+#strong\\[${RTL_ISOLATE}(${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN}){0,20})${POP_DIRECTIONAL_ISOLATE}\\]`,
-      "gu"
-    ),
-    `${RTL_ISOLATE}$1 #strong[$2]${POP_DIRECTIONAL_ISOLATE}`
+function repairStyledHebrewContinuations(typstContent) {
+  const rtlRun = `([^${POP_DIRECTIONAL_ISOLATE}\\n]*${HEBREW_LETTERS}[^${POP_DIRECTIONAL_ISOLATE}\\n]*)`;
+  const styledHebrew = `#(strong|emph)\\[([^\\]\\n]*${HEBREW_LETTERS}[^\\]\\n]*)\\]`;
+  const softSpace = `[\\t \\u00A0\\u202F]*(?:\\n(?!\\n)[\\t \\u00A0\\u202F]*)?`;
+  const requiredSoftSpace = `[\\t \\u00A0\\u202F]+|[\\t \\u00A0\\u202F]*\\n(?!\\n)[\\t \\u00A0\\u202F]*`;
+
+  let repaired = typstContent.replace(
+    new RegExp(`#(strong|emph)\\[${RTL_ISOLATE}${rtlRun}${POP_DIRECTIONAL_ISOLATE}\\]`, "gu"),
+    "#$1[$2]"
   );
+
+  let previous;
+  do {
+    previous = repaired;
+    repaired = repaired
+      .replace(
+        new RegExp(`${RTL_ISOLATE}${rtlRun}${POP_DIRECTIONAL_ISOLATE}${softSpace}${styledHebrew}`, "gu"),
+        `${RTL_ISOLATE}$1 #$2[$3]${POP_DIRECTIONAL_ISOLATE}`
+      )
+      .replace(
+        new RegExp(`${styledHebrew}${softSpace}${RTL_ISOLATE}${rtlRun}${POP_DIRECTIONAL_ISOLATE}`, "gu"),
+        `${RTL_ISOLATE}#$1[$2] $3${POP_DIRECTIONAL_ISOLATE}`
+      )
+      .replace(
+        new RegExp(`${RTL_ISOLATE}([^${POP_DIRECTIONAL_ISOLATE}\\n]*${HEBREW_LETTERS}[^${POP_DIRECTIONAL_ISOLATE}\\n]*${styledHebrew}[^${POP_DIRECTIONAL_ISOLATE}\\n]*)${POP_DIRECTIONAL_ISOLATE}(?:${requiredSoftSpace})${RTL_ISOLATE}${rtlRun}${POP_DIRECTIONAL_ISOLATE}`, "gu"),
+        `${RTL_ISOLATE}$1 $4${POP_DIRECTIONAL_ISOLATE}`
+      )
+      .replace(
+        new RegExp(`${RTL_ISOLATE}${rtlRun}${POP_DIRECTIONAL_ISOLATE}(?:${requiredSoftSpace})${RTL_ISOLATE}([^${POP_DIRECTIONAL_ISOLATE}\\n]*${styledHebrew}[^${POP_DIRECTIONAL_ISOLATE}\\n]*${HEBREW_LETTERS}[^${POP_DIRECTIONAL_ISOLATE}\\n]*)${POP_DIRECTIONAL_ISOLATE}`, "gu"),
+        `${RTL_ISOLATE}$1 $2${POP_DIRECTIONAL_ISOLATE}`
+      );
+  } while (repaired !== previous);
+
+  return repaired;
 }
 
 function normalizeIsolatedPunctuationSpacing(typstContent) {
@@ -1176,7 +1251,7 @@ function normalizeIsolatedPunctuationSpacing(typstContent) {
 function applyTextRules(typstContent) {
   return normalizeIsolatedPunctuationSpacing(
     repairGerushinMizbeachPhrase(
-      repairStrongHebrewContinuations(
+      repairStyledHebrewContinuations(
         protectMixedLtrParentheticals(
           repairSplitGemaraSources(
             isolateHebrewRuns(

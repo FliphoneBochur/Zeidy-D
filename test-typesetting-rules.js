@@ -626,6 +626,20 @@ test("keeps same-line bold Hebrew continuation inside the preceding RTL isolate"
   );
 });
 
+test("keeps bold Hebrew inline inside a surrounding Hebrew phrase", () => {
+  assert.equal(
+    applyTextRules("what is the emphasis מתנה #strong[טובה] יש לי בבית גנזי?"),
+    `what is the emphasis ${RTL_ISOLATE}מתנה #strong[טובה] יש לי בבית גנזי${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE}?${POP_DIRECTIONAL_ISOLATE}`
+  );
+});
+
+test("keeps italic Hebrew inline inside a surrounding Hebrew phrase", () => {
+  assert.equal(
+    applyTextRules("what is the emphasis מתנה #emph[טובה] יש לי בבית גנזי?"),
+    `what is the emphasis ${RTL_ISOLATE}מתנה #emph[טובה] יש לי בבית גנזי${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE}?${POP_DIRECTIONAL_ISOLATE}`
+  );
+});
+
 test("moves extracted leading comma to the end of the Hebrew phrase", () => {
   assert.equal(
     normalizeMisplacedHebrewCommas("to משה, ,אֱחוֹז בְּכִסֵּא כְבוֹדִי symbolizes"),
@@ -1414,6 +1428,36 @@ test("docx: Vaeschanan 5784 indexes lowercase Belzer rebbe alias", () => {
     typst,
     "Belzer rebbe#metadata(none) <person-index-the-belzer-rebbe-1>",
     "lowercase Belzer rebbe index marker"
+  );
+});
+
+test("docx: Rabbi Oelbaum Shabbos keeps bold tova inside the matana phrase", () => {
+  const typst = convertedDocx("/rabbi-oelbaum-shabbos/");
+
+  assertContains(
+    typst,
+    `good. So what is the emphasis ${RTL_ISOLATE}מתנה #strong[טובה] יש לי בבית גנזי${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE}?${POP_DIRECTIONAL_ISOLATE}`,
+    "bold tova stays inside the same RTL isolate as the matana phrase"
+  );
+  assertNotContains(
+    typst,
+    `${RTL_ISOLATE}מתנה${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}#strong[טובה] יש לי בבית גנזי${POP_DIRECTIONAL_ISOLATE}`,
+    "bold tova should not split the matana phrase into two RTL isolates"
+  );
+});
+
+test("docx: Rabbi Oelbaum Shabbos keeps bold hakol inside the yotzer phrase", () => {
+  const typst = convertedDocx("/rabbi-oelbaum-shabbos/");
+
+  assertContains(
+    typst,
+    `the ${RTL_ISOLATE}בחינה${POP_DIRECTIONAL_ISOLATE} of ${RTL_ISOLATE}יוצר #strong[הכל]${POP_DIRECTIONAL_ISOLATE}#strong[.]`,
+    "bold hakol stays inside the same RTL isolate as yotzer"
+  );
+  assertNotContains(
+    typst,
+    `${RTL_ISOLATE}יוצר${POP_DIRECTIONAL_ISOLATE} #strong[${RTL_ISOLATE}הכל${POP_DIRECTIONAL_ISOLATE}]`,
+    "bold hakol should not be split into its own RTL isolate"
   );
 });
 
