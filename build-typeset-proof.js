@@ -1235,7 +1235,7 @@ function isolateHebrewRuns(typstContent) {
 }
 
 function formatMasechtaDafQuestion(masechta, daf, question) {
-  const source = `${RTL_ISOLATE}מסכת${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}${normalizeInlineWhitespace(masechta)}${POP_DIRECTIONAL_ISOLATE} (דף ${normalizeInlineWhitespace(daf)}):`;
+  const source = `${RTL_ISOLATE}${normalizeInlineWhitespace(masechta)}${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}מסכת${POP_DIRECTIONAL_ISOLATE} (דף ${normalizeInlineWhitespace(daf)}):`;
   const questionWords = normalizeInlineWhitespace(question).match(new RegExp(HEBREW_TOKEN, "gu")) || [];
   const isolatedQuestionWords = questionWords
     .reverse()

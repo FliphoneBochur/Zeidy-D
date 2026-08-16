@@ -914,7 +914,7 @@ test("keeps full parenthesized Hebrew citation in reading order", () => {
 test("keeps masechta daf source and Hebrew question in visual reading order", () => {
   assert.equal(
     applyTextRules("חז״ל say in מסכת חולין (דף קל״ט), מרדכי מן התורה מנין? - Where"),
-    `${LTR_ISOLATE}חז״ל${POP_DIRECTIONAL_ISOLATE} say in ${LTR_ISOLATE}${RTL_ISOLATE}מסכת${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}חולין${POP_DIRECTIONAL_ISOLATE} (דף קל״ט): ${RTL_ISOLATE}מנין${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}התורה${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}מן${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}מרדכי${POP_DIRECTIONAL_ISOLATE}?${POP_DIRECTIONAL_ISOLATE} - Where`
+    `${LTR_ISOLATE}חז״ל${POP_DIRECTIONAL_ISOLATE} say in ${LTR_ISOLATE}${RTL_ISOLATE}חולין${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}מסכת${POP_DIRECTIONAL_ISOLATE} (דף קל״ט): ${RTL_ISOLATE}מנין${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}התורה${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}מן${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}מרדכי${POP_DIRECTIONAL_ISOLATE}?${POP_DIRECTIONAL_ISOLATE} - Where`
   );
 });
 
