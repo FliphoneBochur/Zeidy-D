@@ -157,11 +157,6 @@ const MIXED_LTR_PARENTHETICAL_RE = new RegExp(
   `(?<!${LTR_ISOLATE})\\((?=(?:[^()\\n]|\\n(?!\\n)){0,300}[A-Za-z])(?=(?:[^()\\n]|\\n(?!\\n)){0,300}${RTL_ISOLATE})(?:[^()\\n]|\\n(?!\\n)){1,300}\\)(?:[,.;:!?])?`,
   "gu"
 );
-const GERUSHIN_MIZBEACH_PHRASE_RE = new RegExp(
-  `${RTL_ISOLATE}גירושין, מזבח מוריד דמעות${POP_DIRECTIONAL_ISOLATE}`,
-  "gu"
-);
-
 function usage() {
   console.log(`Usage: node build-typeset-proof.js [options]
 
@@ -998,44 +993,6 @@ function isolateHebrewRuns(typstContent) {
   };
   const normalizeInlineWhitespace = (value) =>
     value.replace(/[ \t\u00A0\u202F]*\n[ \t\u00A0\u202F]*/g, " ");
-  const closingBlessingWordOrder = new Map([
-    ["ביאת", 10],
-    ["גואל", 20],
-    ["צדק", 30],
-    ["משיח", 40],
-    ["צדקנו", 50],
-    ["גאולה", 60],
-    ["שלמה", 70],
-    ["ישועה", 80],
-    ["במהרה", 90],
-    ["בימינו", 100],
-    ["אמן", 110],
-  ]);
-  const normalizeHebrewClosingBlessingOrder = (value) => {
-    const words = value.split(/\s+/).filter(Boolean);
-    if (words.length < 3) {
-      return value;
-    }
-
-    const plainWords = words.map((word) => word.replace(/[\u0591-\u05C7]/g, ""));
-    if (!plainWords.every((word) => closingBlessingWordOrder.has(word))) {
-      return value;
-    }
-
-    const hasEndingWord = plainWords.some((word) => ["במהרה", "בימינו", "אמן"].includes(word));
-    const hasRedemptionWord = plainWords.some((word) =>
-      ["ביאת", "גואל", "משיח", "גאולה", "ישועה"].includes(word)
-    );
-    if (!hasEndingWord || !hasRedemptionWord) {
-      return value;
-    }
-
-    return words
-      .map((word, index) => ({ word, index, order: closingBlessingWordOrder.get(plainWords[index]) }))
-      .sort((left, right) => left.order - right.order || left.index - right.index)
-      .map(({ word }) => word)
-      .join(" ");
-  };
   const followedByEnglish = (fullText, endOffset) => {
     const rawFollowing = fullText.slice(endOffset);
     if (/^(?:[ \t\u00A0\u202F]+|\n(?!\n)|#metadata\(none\)\s*<[^>\n]+>)*\((?:[^()\n]|\n(?!\n)){0,300}[A-Za-z]/.test(rawFollowing)) {
@@ -1051,7 +1008,7 @@ function isolateHebrewRuns(typstContent) {
     return /^(?:[A-Za-z]|\d)/.test(following);
   };
   const isolateHebrewPhrase = (value, useLtrTrailingComma = false) => {
-    const normalizedValue = normalizeHebrewClosingBlessingOrder(normalizeInlineWhitespace(value));
+    const normalizedValue = normalizeInlineWhitespace(value);
     if (useLtrTrailingComma && value.endsWith(",")) {
       const phraseWithoutComma = normalizedValue.slice(0, -1);
       if (!phraseWithoutComma.includes(",")) {
@@ -1182,17 +1139,27 @@ function repairSplitGemaraSources(typstContent) {
   );
 }
 
+function repairTwoPartHebrewCommaDashPhrases(typstContent) {
+  return typstContent.replace(
+    new RegExp(
+      `${RTL_ISOLATE}(${HEBREW_TOKEN}),\\s+(${HEBREW_TOKEN}(?:\\s+${HEBREW_TOKEN}){1,8})${POP_DIRECTIONAL_ISOLATE}(?=\\s+-\\s+[A-Za-z])`,
+      "gu"
+    ),
+    (_match, firstPart, secondPart) => {
+      const secondPartWords = secondPart
+        .split(/\s+/)
+        .filter(Boolean)
+        .map((word) => `${RTL_ISOLATE}${word}${POP_DIRECTIONAL_ISOLATE}`)
+        .join(" ");
+      return `${RTL_ISOLATE}${firstPart}${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} ${secondPartWords}`;
+    }
+  );
+}
+
 function protectMixedLtrParentheticals(typstContent) {
   return typstContent.replace(MIXED_LTR_PARENTHETICAL_RE, (match) => {
     return `${LTR_ISOLATE}${match}${POP_DIRECTIONAL_ISOLATE}`;
   });
-}
-
-function repairGerushinMizbeachPhrase(typstContent) {
-  return typstContent.replace(
-    GERUSHIN_MIZBEACH_PHRASE_RE,
-    `${RTL_ISOLATE}גירושין${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}מזבח${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}מוריד${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}דמעות${POP_DIRECTIONAL_ISOLATE}`
-  );
 }
 
 function repairStyledHebrewContinuations(typstContent) {
@@ -1274,10 +1241,13 @@ function normalizeIsolatedPunctuationSpacing(typstContent) {
     .replace(/(\\?["”])(#metadata\(none\)\s*<[^>\n]+>):/g, "$1:$2")
     .replace(
       new RegExp(`${RTL_ISOLATE}([^${POP_DIRECTIONAL_ISOLATE}]*${HEBREW_LETTERS}[^${POP_DIRECTIONAL_ISOLATE}]*)${POP_DIRECTIONAL_ISOLATE}:\\s*${RTL_ISOLATE}([^${POP_DIRECTIONAL_ISOLATE}]*${HEBREW_LETTERS}[^${POP_DIRECTIONAL_ISOLATE}]*)${POP_DIRECTIONAL_ISOLATE}`, "gu"),
-      (match, beforeColon, afterColon) => {
+      (match, beforeColon, afterColon, offset, fullText) => {
         const hebrewTokenCount = (beforeColon.match(new RegExp(HEBREW_TOKEN, "gu")) || []).length;
-        const withoutNikkud = beforeColon.replace(/[\u0591-\u05C7]/g, "");
-        if (hebrewTokenCount < 2 || !withoutNikkud.includes("אמר")) {
+        const afterHebrewTokenCount = (afterColon.match(new RegExp(HEBREW_TOKEN, "gu")) || []).length;
+        const followedByDashExplanation = /^[\t \u00A0\u202F]*(?:\n(?!\n)[\t \u00A0\u202F]*)?-[\t \u00A0\u202F]*[A-Za-z]/.test(
+          fullText.slice(offset + match.length)
+        );
+        if ((hebrewTokenCount < 4 && !followedByDashExplanation) || afterHebrewTokenCount < 2) {
           return match;
         }
         return `${RTL_ISOLATE}${beforeColon}: ${afterColon}${POP_DIRECTIONAL_ISOLATE}`;
@@ -1295,10 +1265,10 @@ function normalizeIsolatedPunctuationSpacing(typstContent) {
 
 function applyTextRules(typstContent) {
   return normalizeIsolatedPunctuationSpacing(
-    repairGerushinMizbeachPhrase(
-      repairHebrewIsolateContinuations(
-        repairStyledHebrewContinuations(
-          protectMixedLtrParentheticals(
+    repairHebrewIsolateContinuations(
+      repairStyledHebrewContinuations(
+        protectMixedLtrParentheticals(
+          repairTwoPartHebrewCommaDashPhrases(
             repairSplitGemaraSources(
               isolateHebrewRuns(
                 moveLeadingHebrewSourceAfterQuote(
@@ -1748,10 +1718,10 @@ module.exports = {
   normalizeNumberedSoftBreaks,
   normalizePunctuationSpacing,
   protectMixedLtrParentheticals,
-  repairGerushinMizbeachPhrase,
   normalizeIsolatedPunctuationSpacing,
   repairEscapedHebrewParagraphCitations,
   repairSplitGemaraSources,
+  repairTwoPartHebrewCommaDashPhrases,
   renderPersonIndex,
   shiftedParagraphAlignments,
   tagPersonIndexMentions,
