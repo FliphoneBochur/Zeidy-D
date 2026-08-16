@@ -661,10 +661,24 @@ test("collapses duplicate commas between Hebrew list items", () => {
   );
 });
 
+test("keeps comma-separated Hebrew list before English sentence in reading order", () => {
+  assert.equal(
+    applyTextRules("עשירות is תורה, מצוות, ומעשים טובים. That is עשירות"),
+    `${RTL_ISOLATE}עשירות${POP_DIRECTIONAL_ISOLATE} is ${RTL_ISOLATE}תורה${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}מצוות${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}ומעשים טובים${POP_DIRECTIONAL_ISOLATE}. That is ${RTL_ISOLATE}עשירות${POP_DIRECTIONAL_ISOLATE}`
+  );
+});
+
 test("keeps trailing comma with Hebrew phrase in reading order", () => {
   assert.equal(
     applyTextRules("may grant us ישועות, נחמות, and גואל צדק"),
     `may grant us ${RTL_ISOLATE}ישועות${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} ${RTL_ISOLATE}נחמות${POP_DIRECTIONAL_ISOLATE}${LTR_ISOLATE},${POP_DIRECTIONAL_ISOLATE} and ${RTL_ISOLATE}גואל צדק${POP_DIRECTIONAL_ISOLATE}`
+  );
+});
+
+test("removes spaces before escaped sentence punctuation after Hebrew", () => {
+  assert.equal(
+    applyTextRules("There are no pockets in תכריכים \\.\""),
+    `There are no pockets in ${RTL_ISOLATE}תכריכים${POP_DIRECTIONAL_ISOLATE}\\.”`
   );
 });
 

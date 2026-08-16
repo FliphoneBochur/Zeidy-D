@@ -671,7 +671,8 @@
       "displayName": "R’ Menachem Genack",
       "aliases": [
         "R’ Menachem Genack",
-        "Menachem Genack of OU"
+        "Menachem Genack of OU",
+        "Rabbi Menachem Genack"
       ],
       "createdAt": "2026-07-24T03:33:32.188Z"
     },
@@ -1594,6 +1595,14 @@
       ],
       "createdAt": "2026-07-24T04:47:07.127Z"
     },
+    "r-avraham-genachowski": {
+      "displayName": "R' Avraham Genachowski",
+      "aliases": [
+        "R' Avraham Genachowski",
+        "R' Genachowski"
+      ],
+      "createdAt": "2026-07-24T04:47:31.622Z"
+    },
     "maharsha": {
       "displayName": "Maharsha",
       "aliases": [
@@ -1611,6 +1620,13 @@
         "מלבי״ם"
       ],
       "createdAt": "2026-07-24T04:47:25.091Z"
+    },
+    "rabbi-rapps": {
+      "displayName": "R' Rapps",
+      "aliases": [
+        "Rabbi Rapps"
+      ],
+      "createdAt": "2026-07-24T04:47:40.183Z"
     },
     "r-yisroel-salanter": {
       "displayName": "R' Yisroel Salanter",

@@ -966,7 +966,7 @@ function normalizePunctuationSpacing(typstContent) {
     .replace(NUMERIC_CITATION_WITH_TRAILING_AS_QUOTED_RE, "($1), $2")
     .replace(new RegExp(`(${HEBREW_LETTERS})(?=[A-Za-z])`, "gu"), "$1 ")
     .replace(new RegExp(`([A-Za-z])(?=${HEBREW_LETTERS})`, "gu"), "$1 ")
-    .replace(/[\s\u00A0\u202F]+([,;:.!?)\]])/g, "$1")
+    .replace(/[\s\u00A0\u202F]+(\\(?!\.\.)[,;:.!?)\]]|[,;:.!?)\]])/g, "$1")
     .replace(/(?<!\\)([;:])[\t \u00A0\u202F]*(?=\S)/g, "$1 ")
     .replace(/,(?![\d"])\s*/g, ", ")
     .replace(/,\s+(\\?["”])(?=(?:\s+\S+){1,4}\s+(?:said|asked|answered|responded|replied)\b)/giu, ",$1")
@@ -1003,6 +1003,9 @@ function isolateHebrewRuns(typstContent) {
       .replace(/^(?:[ \t\u00A0\u202F]+|\n(?!\n)|#metadata\(none\)\s*<[^>\n]+>)*(?:["'“‘\[]|\\\[)/g, "")
       .replace(/^(?:[ \t\u00A0\u202F]+|\n(?!\n)|#metadata\(none\)\s*<[^>\n]+>)*/g, "");
     if (/^[?!][ \t\u00A0\u202F]+[A-Za-z]/.test(following)) {
+      return true;
+    }
+    if (/^[.][ \t\u00A0\u202F]+[A-Za-z]/.test(following)) {
       return true;
     }
     return /^(?:[A-Za-z]|\d)/.test(following);
