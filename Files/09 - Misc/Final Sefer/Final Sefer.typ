@@ -720,8 +720,8 @@ received my prize.”
 
 #pagebreak()
 
-#set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/noach/5784/(1)/", "../../01 - Bereshis/02 - Noach/5784/Noach 5784 (1)/Noach 5784.png"))
-= Noach 5784
+#set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/noach/5784/(1)/", "../../01 - Bereshis/02 - Noach/5784/Noach 5784 (1)/Noach 5784 (1).png"))
+= Noach 5784 (1)
 
 Parshas Noach. All the ⁧בעלי מדרש⁩ have said numerous times that
 everything needs to have ⁧מזל⁩⁦,⁩ even a ⁧ספר תורה בהיכל⁩ has to have ⁧מזל⁩. The
@@ -774,8 +774,8 @@ We're not ⁧בני נח⁩⁦,⁩ we're ⁧בני אברהם⁩⁦,⁩ ⁧יצ�
 
 #pagebreak()
 
-#set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/noach/5784/(2)/", "../../01 - Bereshis/02 - Noach/5784/Noach 5784 (2)/Noach 5784.png"))
-= Noach 5784
+#set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/noach/5784/(2)/", "../../01 - Bereshis/02 - Noach/5784/Noach 5784 (2)/Noach 5784 (2).png"))
+= Noach 5784 (2)
 
 In ⁧פרשת נח⁩⁦,⁩ after the extraordinary ⁧מסירות נפש⁩ of serving everyone in
 the ⁧תיבה⁩⁦,⁩ it was a devastating experience to come out to a world which
