@@ -321,20 +321,48 @@ of ⁧הַדֹּבֵר⁩ is the same as ⁧ארי⁩.
 #align(center)[
 ⁧ישמחו השמים ותגל הארץ⁩]
 
-It is with a great sense of hakoras hatov that I present this sefer ⁧הדבר בי⁩ to my family, friends, and anyone interested in a good vort. I am
-grateful to the Ribono Shel Olam for His ⁧חסדים⁩ in allowing me a kiyum in
-⁧ללמוד וללמד לשמוע ולעשות⁩. A teacher's success is measured by looking at
-the students. Grandparents have the same rule. The joy of working with
-my grandson Ari provided me with ⁧נחת אהן א סוף⁩. His technical expertise
-brought this project to fruition.
+This sefer, ⁧הדבר בי⁩⁦,⁩ is being presented with an enormous sense of
+humility and gratitude.
 
-Bobbi D, my ⁧אהבת נעורים⁩ and ⁧אשת חיל⁩⁦,⁩ Devorah, stood at my side, encouraging me every step of the way.
+For years, my dear grandson Ari ⁦נ״י⁩ recorded weekly ⁧ווערטלאך⁩ for our
+family. Many wonderful anecdotes about our parents, grandparents and
+previous generations brought these people to life for our children and
+grandchildren. I loved telling them, and they loved hearing them. It
+required lots of work, but it was a labor of love.
+
+The kids enjoyed them so much, they began spreading them to their
+friends and classmates. I found out I had a bunch of fans. This
+stimulated me to work harder and find meaningful and practical thoughts
+to be ⁧מקיים והגדת לבנך⁩ and to be ⁧עוסק לצרכי ציבור⁩.
+
+Ari provided constant vigilance and encouragement to redouble my
+efforts. It was exciting and breathtaking. The joy of working with my
+⁧אייניקל⁩ provided me with ⁧נחת אהן א סוף⁩.
+
+The thought of having a ⁧קיום⁩ in ⁧ללמוד וללמד לשמור ולעשות⁩ filled me with
+a profound sense of ⁧הכרת הטוב⁩ to the ⁧רבונו של עולם⁩ for his never-ending
+⁧חסדים⁩.
+
+It was Ari's thought, and Ari's alone, to publish these segments. I
+stand in awe of his technical experience which brought this project to
+fruition.
+
+⁦רב נח יצחק אולבאם שליט״א⁩, my ⁧מרא דאתרא⁩⁦,⁩ has been a beacon of ⁧תורה⁩⁦,⁩ ⁧חסד⁩⁦,⁩ and love of ⁧כלל ישראל⁩. His ⁧דברי תורה⁩ have inspired thousands throughout
+the world. Samples of his greatness are displayed in these pages.
+
+As a special ⁧חסד⁩⁦,⁩ Rav Oelbaum has graciously allowed us to include a
+magnificent vort on Shabbos, the gift of ⁧עולם הבא⁩ in this world. Our
+thanks to him for this precious ⁧מתנה⁩.
+
+I must take this opportunity to express my ⁧הכרת הטוב⁩ to Bobbi D, Devorah, my ⁧אהבת נעורים⁩ and ⁧אשת חיל⁩⁦,⁩ who has stood at my side supporting
+me every step of the way.
 
 The contents of this sefer are drawn from many sources; they all have
-something to teach. Yehi ratzon my words bring simcha to the Ribono Shel
-Olam and joy to all who read them.
+something to teach. ⁧יהי רצון⁩ that my words bring ⁧שמחה⁩ to the ⁧רבונו של עולם⁩ and joy to all who read them.
 
 Dedicated to the grandchildren ⁧שיחיו⁩.
+
+Followed by ⁧לעילוי נשמת⁩ with all the names.
 
 #pagebreak()
 
