@@ -330,10 +330,9 @@ previous generations brought these people to life for our children and
 grandchildren. I loved telling them, and they loved hearing them. It
 required lots of work, but it was a labor of love.
 
-The kids enjoyed them so much, they began spreading them to their
-friends and classmates. I found out I had a bunch of fans. This
-stimulated me to work harder and find meaningful and practical thoughts
-to be ⁧מקיים והגדת לבנך⁩ and to be ⁧עוסק לצרכי ציבור⁩.
+The kids enjoyed them so much they began spreading them to their friends
+and classmates. I found out I had a bunch of fans! This stimulated me to
+work harder and find meaningful and practical thoughts to be ⁧מקיים והגדת לבנך⁩ and to be ⁧עוסק לצרכי ציבור⁩.
 
 Ari provided constant vigilance and encouragement to redouble my
 efforts. It was exciting and breathtaking. The joy of working with my
@@ -343,15 +342,15 @@ The thought of having a ⁧קיום⁩ in ⁧ללמוד וללמד לשמור ו
 a profound sense of ⁧הכרת הטוב⁩ to the ⁧רבונו של עולם⁩ for his never-ending
 ⁧חסדים⁩.
 
-It was Ari's thought, and Ari's alone, to publish these segments. I
-stand in awe of his technical experience which brought this project to
+It was Ari's thought, (and Ari's alone), to publish these segments. I
+stand in awe of his technical expertise which brought this project to
 fruition.
 
 ⁦רב נח יצחק אולבאם שליט״א⁩, my ⁧מרא דאתרא⁩⁦,⁩ has been a beacon of ⁧תורה⁩⁦,⁩ ⁧חסד⁩⁦,⁩ and love of ⁧כלל ישראל⁩. His ⁧דברי תורה⁩ have inspired thousands throughout
 the world. Samples of his greatness are displayed in these pages.
 
 As a special ⁧חסד⁩⁦,⁩ Rav Oelbaum has graciously allowed us to include a
-magnificent vort on Shabbos, the gift of ⁧עולם הבא⁩ in this world. Our
+magnificent vort on Shabbos, The Gift of Olam Haba in This World. Our
 thanks to him for this precious ⁧מתנה⁩.
 
 I must take this opportunity to express my ⁧הכרת הטוב⁩ to Bobbi D, Devorah, my ⁧אהבת נעורים⁩ and ⁧אשת חיל⁩⁦,⁩ who has stood at my side supporting
@@ -360,9 +359,38 @@ me every step of the way.
 The contents of this sefer are drawn from many sources; they all have
 something to teach. ⁧יהי רצון⁩ that my words bring ⁧שמחה⁩ to the ⁧רבונו של עולם⁩ and joy to all who read them.
 
-Dedicated to the grandchildren ⁧שיחיו⁩.
+#align(center)[
+Dedicated to the grandchildren ⁧שיחיו⁩.]
 
-Followed by ⁧לעילוי נשמת⁩ with all the names.
+#align(center)[
+#underline[⁧לעילוי נשמת⁩]]
+
+#align(center)[
+⁧אבי מורי אהרן בן יששכר⁩]
+
+#align(center)[
+⁧אמי מורתי תמר רייזל בת מרדכי צבי⁩]
+
+#align(center)[
+⁧מורי חמי צבי אשר בן יחזקאל שרגא הלוי⁩]
+
+#align(center)[
+⁧מורתי חמותי רבקה בת אריה מאיר הכהן⁩]
+
+#align(center)[
+⁧סבי מורי אריה מאיר בן משה הכהן⁩]
+
+#align(center)[
+⁧סבתי מורתי הדסה בת יצחק אייזיק⁩]
+
+#align(center)[
+⁧אחי היקר אברהם יהודה בן אהרן⁩]
+
+#align(center)[
+⁧ואשתו פסל חנה בת משה⁩]
+
+#align(center)[
+⁧בן אחותי מרדכי צבי בן יצחק אלימלך⁩]
 
 #pagebreak()
 
