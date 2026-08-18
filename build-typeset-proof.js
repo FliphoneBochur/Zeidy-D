@@ -1270,6 +1270,18 @@ function repairSplitMasechtaDafQuestions(typstContent) {
     );
 }
 
+function repairQuotedHebrewRuns(typstContent) {
+  return typstContent
+    .replace(
+      new RegExp(`${RTL_ISOLATE}[“"]([^${POP_DIRECTIONAL_ISOLATE}]*${HEBREW_LETTERS}[^${POP_DIRECTIONAL_ISOLATE}]*)${POP_DIRECTIONAL_ISOLATE}”(?=\\]|\\n|$)`, "gu"),
+      `${RTL_ISOLATE}”$1“${POP_DIRECTIONAL_ISOLATE}`
+    )
+    .replace(
+      new RegExp(`${RTL_ISOLATE}[“"]([^${POP_DIRECTIONAL_ISOLATE}]*${HEBREW_LETTERS}[^${POP_DIRECTIONAL_ISOLATE}]*)${POP_DIRECTIONAL_ISOLATE}(\\\\?[.?!])”`, "gu"),
+      `“${RTL_ISOLATE}$1${POP_DIRECTIONAL_ISOLATE}$2”`
+    );
+}
+
 function repairTwoPartHebrewCommaDashPhrases(typstContent) {
   return typstContent.replace(
     new RegExp(
@@ -1407,20 +1419,24 @@ function normalizeIsolatedPunctuationSpacing(typstContent) {
 }
 
 function applyTextRules(typstContent) {
-  return normalizeIsolatedPunctuationSpacing(
-    repairIntraWordStyledHebrew(
-      repairHebrewIsolateContinuations(
-        repairStyledHebrewContinuations(
-          protectMixedLtrParentheticals(
-            repairTwoPartHebrewCommaDashPhrases(
-              repairSplitMasechtaDafQuestions(
-                repairSplitGemaraSources(
-                  isolateHebrewRuns(
-                    moveLeadingHebrewSourceAfterQuote(
-                      repairEscapedHebrewParagraphCitations(
-                        normalizeMisplacedHebrewCommas(
-                          normalizePunctuationSpacing(
-                            normalizeColonHebrewSoftBreaks(normalizeNumberedSoftBreaks(typstContent))
+  return repairQuotedHebrewRuns(
+    normalizeIsolatedPunctuationSpacing(
+      repairIntraWordStyledHebrew(
+        repairHebrewIsolateContinuations(
+          repairStyledHebrewContinuations(
+            protectMixedLtrParentheticals(
+              repairTwoPartHebrewCommaDashPhrases(
+                repairSplitMasechtaDafQuestions(
+                  repairSplitGemaraSources(
+                    repairQuotedHebrewRuns(
+                      isolateHebrewRuns(
+                        moveLeadingHebrewSourceAfterQuote(
+                          repairEscapedHebrewParagraphCitations(
+                            normalizeMisplacedHebrewCommas(
+                              normalizePunctuationSpacing(
+                                normalizeColonHebrewSoftBreaks(normalizeNumberedSoftBreaks(typstContent))
+                              )
+                            )
                           )
                         )
                       )

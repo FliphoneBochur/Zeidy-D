@@ -4,7 +4,7 @@ This is a review-only scan for likely visual punctuation and bidi issues in the 
 
 PDF scanned: `Files/09 - Misc/Final Sefer/Final Sefer.pdf`
 Typst scanned: `Files/09 - Misc/Final Sefer/Final Sefer.typ`
-Findings: 33 (2 high, 31 medium)
+Findings: 34 (2 high, 32 medium)
 Visual pages rendered: `typeset-audit-pages`
 
 The PDF scan uses extracted visual text, so it is useful for catching rendered punctuation surprises. The Typst scan catches raw source patterns before rendering.
@@ -15,8 +15,8 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - visual: [page-0204.png](typeset-audit-pages/page-0204.png)
   - hardly fathom.)⁩ ⁧,‫ ַאל ִּת ְהיּו ַכֲעָבִד ים ַהְמַׁשְּמִׁשין ֶאת ָהַר ב ַעל ְמָנת ְלַקֵּבל ְּפָר...
   - normalized: hardly fathom.) , ַאל ִּת ְהיּו ַכֲעָבִד ים ַהְמַׁשְּמִׁשין ֶאת ָהַר ב ַעל ְמָנת ְלַקֵּבל ְּפָר סה,...
-- PDF visual text, page 467, לטובה - the same way, also all of the     גלות and all of the     גלות in the Yidden, line 6
-  - visual: [page-0467.png](typeset-audit-pages/page-0467.png)
+- PDF visual text, page 469, לטובה - the same way, also all of the     גלות and all of the     גלות in the Yidden, line 6
+  - visual: [page-0469.png](typeset-audit-pages/page-0469.png)
   - ,‫ גלות יוון‬,‫ ⁩אך בהווה⁧ ⁩;גלות אדום⁧ ⁩גלות בבל‬- but in the present time, ⁦‫לא י...
   - normalized: , גלות יוון, אך בהווה ;גלות אדום גלות בבל- but in the present time, לא יוכל האדם
 ## MEDIUM - missing space after colon before Hebrew in Typst source
@@ -61,12 +61,16 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - visual: [page-0388.png](typeset-audit-pages/page-0388.png)
   - כ״ז:ד׳)⁩⁩. What does ⁧דוד המלך⁩ mean by ⁧כׇּל יְמֵי חַיַּי⁩⁦?⁩
   - normalized: כ״ז:ד׳). What does דוד המלך mean by כׇּל יְמֵי חַיַּי?
-- Typst source, page 452, Purim 5785, line 13904
+- Typst source, page 452, Purim 5785, line 13902
   - visual: [page-0452.png](typeset-audit-pages/page-0452.png), [page-0453.png](typeset-audit-pages/page-0453.png)
   - does this connection mean? He brings a ⁧פסוק⁩ from ⁦שמות ד:י״ד⁩: ⁧וְרָאֲךָ וְשָׂמַח בְּלִבּוֹ⁩. What is ⁦אהרן'⁩s ⁧מידה⁩? We all know abou...
   - normalized: does this connection mean? He brings a פסוק from שמות ד:י״ד: וְרָאֲךָ וְשָׂמַח בְּלִבּוֹ. What is אהרן's מידה? We all know about...
 ## MEDIUM - quote surrounded by spaces
 
+- PDF visual text, page 6, About the Name, line 27
+  - visual: [page-0006.png](typeset-audit-pages/page-0006.png)
+  - Zeidy as the ⁧“‫ ⁩”ַּמְלָאְך‬in this pasuk feels natural, as anyone who knows him
+  - normalized: Zeidy as the “ ”ַּמְלָאְךin this pasuk feels natural, as anyone who knows him
 - PDF visual text, page 31, asked him, “Did you daven during those 40 days?” “What a question! Three, line 5
   - visual: [page-0031.png](typeset-audit-pages/page-0031.png)
   - times a day, of course!” “Did you read any ⁧‫“ ”?⁩תהלים‬Of course,” answered

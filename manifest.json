@@ -412,7 +412,8 @@
       },
       "5784": "Purim 5784",
       "5785": "Purim 5785"
-    }
+    },
+    "20 - Rosh Chodesh": "Rosh Chodesh"
   },
   "07 - Haskamos": {
     "Rabbi Eliyahu Safran": "Eliyahu Safran Haskama",
@@ -420,7 +421,7 @@
     "Rabbi Yossi Bennett": "Rabbi Yossi Bennett"
   },
   "08 - Prefaces": {
-    "Ari": "Preface - Ari",
+    "Ari": "Foreward - Ari",
     "Zeidy": "Preface - Zeidy"
   },
   "09 - Misc": {
@@ -428,7 +429,6 @@
     "Bloopers": null,
     "Bris": "Bris",
     "Final Sefer": "Final Sefer",
-    "Rabbi Oelbaum Shabbos": "Shabbos - The Gift of Olam Haba in This World",
-    "Rosh Chodesh": "Rosh Chodesh"
+    "Rabbi Oelbaum Shabbos": "Shabbos - The Gift of Olam Haba in This World"
   }
 }

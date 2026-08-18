@@ -704,6 +704,13 @@ test("keeps Hebrew quote continuations in one RTL phrase", () => {
   );
 });
 
+test("keeps English quotes outside a quoted Hebrew phrase", () => {
+  assert.equal(
+    applyTextRules('we both said simultaneously, "סַבּוּנִי גַם סְבָבוּנִי."'),
+    `we both said simultaneously, “${RTL_ISOLATE}סַבּוּנִי גַם סְבָבוּנִי${POP_DIRECTIONAL_ISOLATE}.”`
+  );
+});
+
 test("moves extracted leading comma to the end of the Hebrew phrase", () => {
   assert.equal(
     normalizeMisplacedHebrewCommas("to משה, ,אֱחוֹז בְּכִסֵּא כְבוֹדִי symbolizes"),
@@ -1650,6 +1657,41 @@ test("docx: Yossi Bennett Haskama signature uses tight line breaks", () => {
     typst,
     `Yossi Bennett\n#linebreak()\nWoodmere, NY\n#linebreak()\n${LTR_ISOLATE}י״ג אב תשפ״ו${POP_DIRECTIONAL_ISOLATE}\n#linebreak()\nJuly 27#super[th], 2026`,
     "tight haskama signature block"
+  );
+});
+
+test("docx: Yossi Bennett Haskama keeps Hebrew display quote marks in RTL order", () => {
+  const typst = convertedDocx("/rabbi-yossi-bennett/");
+
+  assertContains(
+    typst,
+    `${RTL_ISOLATE}”אין שמחה כשמחת התורה“${POP_DIRECTIONAL_ISOLATE}`,
+    "first Hebrew display quote uses RTL quote order"
+  );
+  assertContains(
+    typst,
+    `${RTL_ISOLATE}”אשרי מי שבא לכאן ותלמודו בידו“${POP_DIRECTIONAL_ISOLATE}`,
+    "second Hebrew display quote uses RTL quote order"
+  );
+  assertNotContains(
+    typst,
+    `${RTL_ISOLATE}“אין שמחה כשמחת התורה${POP_DIRECTIONAL_ISOLATE}”`,
+    "opening English quote should not remain inside standalone Hebrew isolate"
+  );
+});
+
+test("docx: Rosh Chodesh keeps English quotes outside inline Hebrew phrase", () => {
+  const typst = convertedDocx("/rosh-chodesh/");
+
+  assertContains(
+    typst,
+    `simultaneously, “${RTL_ISOLATE}סַבּוּנִי גַם סְבָבוּנִי${POP_DIRECTIONAL_ISOLATE}\\.”`,
+    "inline Rosh Chodesh Hebrew quote keeps English quote outside isolate"
+  );
+  assertNotContains(
+    typst,
+    `simultaneously, ${RTL_ISOLATE}“סַבּוּנִי גַם סְבָבוּנִי${POP_DIRECTIONAL_ISOLATE}`,
+    "opening quote should not be inside inline Hebrew isolate"
   );
 });
 

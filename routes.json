@@ -877,6 +877,10 @@
       "contentPath": "06 - Yom Tov/19 - Purim/5785",
       "baseFilename": "Purim 5785"
     },
+    "/rosh-chodesh/": {
+      "contentPath": "06 - Yom Tov/20 - Rosh Chodesh",
+      "baseFilename": "Rosh Chodesh"
+    },
     "/rabbi-eliyahu-safran/": {
       "contentPath": "07 - Haskamos/Rabbi Eliyahu Safran",
       "baseFilename": "Eliyahu Safran Haskama"
@@ -891,7 +895,7 @@
     },
     "/ari/": {
       "contentPath": "08 - Prefaces/Ari",
-      "baseFilename": "Preface - Ari"
+      "baseFilename": "Foreward - Ari"
     },
     "/zeidy/": {
       "contentPath": "08 - Prefaces/Zeidy",
@@ -916,10 +920,6 @@
     "/rabbi-oelbaum-shabbos/": {
       "contentPath": "09 - Misc/Rabbi Oelbaum Shabbos",
       "baseFilename": "Shabbos - The Gift of Olam Haba in This World"
-    },
-    "/rosh-chodesh/": {
-      "contentPath": "09 - Misc/Rosh Chodesh",
-      "baseFilename": "Rosh Chodesh"
     }
   },
   "byContentPath": {
@@ -1142,6 +1142,7 @@
     "06 - Yom Tov/19 - Purim/5783/Story Purim 5783": "/purim/5783/story/",
     "06 - Yom Tov/19 - Purim/5784": "/purim/5784/",
     "06 - Yom Tov/19 - Purim/5785": "/purim/5785/",
+    "06 - Yom Tov/20 - Rosh Chodesh": "/rosh-chodesh/",
     "07 - Haskamos/Rabbi Eliyahu Safran": "/rabbi-eliyahu-safran/",
     "07 - Haskamos/Rabbi Oelbaum": "/rabbi-oelbaum/",
     "07 - Haskamos/Rabbi Yossi Bennett": "/rabbi-yossi-bennett/",
@@ -1151,7 +1152,6 @@
     "09 - Misc/Bloopers": "/bloopers/",
     "09 - Misc/Bris": "/bris/",
     "09 - Misc/Final Sefer": "/final-sefer/",
-    "09 - Misc/Rabbi Oelbaum Shabbos": "/rabbi-oelbaum-shabbos/",
-    "09 - Misc/Rosh Chodesh": "/rosh-chodesh/"
+    "09 - Misc/Rabbi Oelbaum Shabbos": "/rabbi-oelbaum-shabbos/"
   }
 }
