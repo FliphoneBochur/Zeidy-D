@@ -1522,6 +1522,9 @@ async function loadEntries(options) {
       ? details.title.replace(/\s+/g, " ").trim()
       : baseTitle;
     const directory = path.join(FILES_DIR, details.contentPath);
+    const pdfPagePath = details.pdfPage
+      ? path.join(directory, details.pdfPage)
+      : null;
     const routeSegmentTitles = details.contentPath
       .split("/")
       .map(titleFromRouteSegment)
@@ -1536,16 +1539,23 @@ async function loadEntries(options) {
       hasExplicitTitle,
       isHaskama,
       isFrontMatter: frontMatterRouteSet.has(route),
+      isPdfPage: Boolean(pdfPagePath),
       sourceTitles: [title, baseTitle, ...routeSegmentTitles],
       docxPath: path.join(directory, `${details.baseFilename}.docx`),
+      pdfPagePath,
       qrPath: path.join(directory, `${details.baseFilename}.png`),
-      hasFooter: !NO_FOOTER_ROUTES.has(route),
+      hasFooter: !pdfPagePath && !NO_FOOTER_ROUTES.has(route),
     };
   });
 }
 
 async function ensureEntryFiles(entries) {
   for (const entry of entries) {
+    if (entry.isPdfPage) {
+      await fs.access(entry.pdfPagePath);
+      continue;
+    }
+
     await fs.access(entry.docxPath);
     if (entry.hasFooter) {
       try {
@@ -1584,6 +1594,25 @@ function convertDocxToTypst(entry, indexState = null) {
   );
   const indexedBody = indexState ? tagPersonIndexMentions(body, indexState) : body;
   return applyTextRules(indexedBody);
+}
+
+function renderPdfPage(entry) {
+  const pdfRelativePath = path.relative(OUTPUT_DIR, entry.pdfPagePath).split(path.sep).join("/");
+
+  return `#block(width: 100%, height: 100%)[
+  #align(center + horizon)[
+    #image(${typstString(pdfRelativePath)}, width: 100%, height: 100%, fit: "contain")
+  ]
+]`;
+}
+
+function typstPageMargin(settings) {
+  return `(
+    inside: ${settings.inside},
+    outside: ${settings.outside},
+    top: ${settings.top},
+    bottom: ${settings.bottom},
+  )`;
 }
 
 function formatDuration(startedAt) {
@@ -1777,15 +1806,19 @@ function renderTypstDocument(entries, options, indexState = null) {
 }
 `);
 
-  console.error(`Converting ${entries.length} article${entries.length === 1 ? "" : "s"} from docx...`);
+  console.error(`Converting ${entries.length} article${entries.length === 1 ? "" : "s"} from source files...`);
 
   let insertedTableOfContents = false;
 
   entries.forEach((entry, index) => {
     console.error(`[${index + 1}/${entries.length}] ${entry.title}`);
     const isFrontMatter = entry.isFrontMatter;
-    const body = convertDocxToTypst(entry, isFrontMatter ? null : indexState);
-    const qrRelativePath = path.relative(OUTPUT_DIR, entry.qrPath).split(path.sep).join("/");
+    const body = entry.isPdfPage
+      ? renderPdfPage(entry)
+      : convertDocxToTypst(entry, isFrontMatter ? null : indexState);
+    const qrRelativePath = entry.hasFooter
+      ? path.relative(OUTPUT_DIR, entry.qrPath).split(path.sep).join("/")
+      : null;
     const shouldInsertTableOfContents =
       options.all && !insertedTableOfContents && !isFrontMatter;
 
@@ -1811,13 +1844,14 @@ function renderTypstDocument(entries, options, indexState = null) {
     const footer = entry.hasFooter
       ? `article-footer(${typstString(entry.url)}, ${typstString(qrRelativePath)})`
       : "none";
-    const heading = entry.isHaskama
+    const heading = entry.isPdfPage || entry.isHaskama
       ? ""
       : isFrontMatter
       ? `#heading(level: 1, outlined: false)[${entry.title}]`
       : `= ${entry.title}`;
+    const margin = entry.isPdfPage ? "0in" : typstPageMargin(settings);
 
-    parts.push(`#set page(header: ${header}, footer: ${footer})
+    parts.push(`#set page(header: ${header}, footer: ${footer}, margin: ${margin})
 ${heading}
 
 ${body}
@@ -1829,7 +1863,7 @@ ${body}
     parts.push(indexContent);
   }
 
-  console.error(`Finished docx conversion in ${formatDuration(startedAt)}.`);
+  console.error(`Finished source conversion in ${formatDuration(startedAt)}.`);
   return parts.join("\n");
 }
 

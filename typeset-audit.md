@@ -21,54 +21,54 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - normalized: , גלות יוון, אך בהווה ;גלות אדום גלות בבל- but in the present time, לא יוכל האדם
 ## MEDIUM - missing space after colon before Hebrew in Typst source
 
-- Typst source, page 55, Chaya Sara 5787, line 1606
+- Typst source, page 55, Chaya Sara 5787, line 1747
   - visual: [page-0055.png](typeset-audit-pages/page-0055.png)
   - מ״ט:י״ז)⁩: ⁧אַל תִּירָא כִּי יַעֲשִׁר אִישׁ כִּי יִרְבֶּה כְּבוֹד בֵּיתוֹ⁩ - Don't be...
   - normalized: מ״ט:י״ז): אַל תִּירָא כִּי יַעֲשִׁר אִישׁ כִּי יִרְבֶּה כְּבוֹד בֵּיתוֹ - Don't be af...
-- Typst source, page 128, Mishpatim (1) 5784, line 3864
+- Typst source, page 128, Mishpatim (1) 5784, line 4205
   - visual: [page-0128.png](typeset-audit-pages/page-0128.png), [page-0129.png](typeset-audit-pages/page-0129.png)
   - כ״א:ל״ז)⁩: ⁧כִּי יִגְנֹב אִישׁ שׁוֹר אוֹ שֶׂה וּטְבָחוֹ אוֹ מְכָרוֹ חֲמִשָּׁה בָקָר י...
   - normalized: כ״א:ל״ז): כִּי יִגְנֹב אִישׁ שׁוֹר אוֹ שֶׂה וּטְבָחוֹ אוֹ מְכָרוֹ חֲמִשָּׁה בָקָר יְש...
-- Typst source, page 140, Tetzaveh 5783, line 4259
+- Typst source, page 140, Tetzaveh 5783, line 4630
   - visual: [page-0140.png](typeset-audit-pages/page-0140.png), [page-0141.png](typeset-audit-pages/page-0141.png)
   - כ״ט:ל״ט)⁩⁩, referring to the ⁧קרבן תמיד⁩.
   - normalized: כ״ט:ל״ט), referring to the קרבן תמיד.
-- Typst source, page 149, Ki Sisa 5783, line 4523
+- Typst source, page 149, Ki Sisa 5783, line 4914
   - visual: [page-0148.png](typeset-audit-pages/page-0148.png), [page-0149.png](typeset-audit-pages/page-0149.png)
   - ל״ד:ל״ג)⁩: ⁧וַיִּתֵּן עַל פָּנָיו מַסְוֶה⁩ - When ⁧משה רבינו⁩ spoke to the people, th...
   - normalized: ל״ד:ל״ג): וַיִּתֵּן עַל פָּנָיו מַסְוֶה - When משה רבינו spoke to the people, they
-- Typst source, page 271, Pinchas 5785, line 8370
+- Typst source, page 271, Pinchas 5785, line 9041
   - visual: [page-0271.png](typeset-audit-pages/page-0271.png), [page-0272.png](typeset-audit-pages/page-0272.png)
   - א׳:ג׳)⁩: ⁧וַיְצַו אֶת שְׁלֹמֹה בְנוֹ לֵאמֹר אָנֹכִי הֹלֵךְ בְּדֶרֶךְ כׇּל הָאָרֶץ⁩ -...
   - normalized: א׳:ג׳): וַיְצַו אֶת שְׁלֹמֹה בְנוֹ לֵאמֹר אָנֹכִי הֹלֵךְ בְּדֶרֶךְ כׇּל הָאָרֶץ - I'...
-- Typst source, page 278, Matos-Massei 5785, line 8567
+- Typst source, page 278, Matos-Massei 5785, line 9253
   - visual: [page-0278.png](typeset-audit-pages/page-0278.png), [page-0279.png](typeset-audit-pages/page-0279.png)
   - shouldn't daven that her son would die. It's brought down in ⁦מכות ב:ו⁩:
   - normalized: shouldn't daven that her son would die. It's brought down in מכות ב:ו:
-- Typst source, page 282, Devarim 5784, line 8729
+- Typst source, page 282, Devarim 5784, line 9425
   - visual: [page-0282.png](typeset-audit-pages/page-0282.png)
   - pasuk in ⁦זכריה א׳:ט״ז⁩: ⁧שַׁבְתִּי לִירוּשָׁלַם בְּרַחֲמִים⁩. Another is what we say three
   - normalized: pasuk in זכריה א׳:ט״ז: שַׁבְתִּי לִירוּשָׁלַם בְּרַחֲמִים. Another is what we say three
-- Typst source, page 294, Eikev 5784, line 9111
+- Typst source, page 294, Eikev 5784, line 9837
   - visual: [page-0294.png](typeset-audit-pages/page-0294.png), [page-0295.png](typeset-audit-pages/page-0295.png)
   - א׳:ב׳)⁩⁩, and then it says ⁧אָנֹכִי אָנֹכִי הוּא מְנַחֶמְכֶם ⁦(ישעיהו נ״א:י״ב)⁩⁩ lat...
   - normalized: א׳:ב׳), and then it says אָנֹכִי אָנֹכִי הוּא מְנַחֶמְכֶם                  later on
-- Typst source, page 371, Shavuos 5784, line 11453
+- Typst source, page 371, Shavuos 5784, line 12369
   - visual: [page-0371.png](typeset-audit-pages/page-0371.png), [page-0372.png](typeset-audit-pages/page-0372.png)
   - א:נ״ו)⁩ that at ⁧הר סיני⁩⁦,⁩ ⁧כלל ישראל⁩ was sleeping. They went to sleep that
   - normalized: א:נ״ו) that at הר סיני, כלל ישראל was sleeping. They went to sleep that
-- Typst source, page 388, Elul 5785, line 11945
+- Typst source, page 388, Elul 5785, line 12911
   - visual: [page-0388.png](typeset-audit-pages/page-0388.png)
   - כ״ז:ד׳)⁩⁩. What does ⁧דוד המלך⁩ mean by ⁧כׇּל יְמֵי חַיַּי⁩⁦?⁩
   - normalized: כ״ז:ד׳). What does דוד המלך mean by כׇּל יְמֵי חַיַּי?
-- Typst source, page 452, Purim 5785, line 13900
+- Typst source, page 452, Purim 5785, line 15036
   - visual: [page-0452.png](typeset-audit-pages/page-0452.png), [page-0453.png](typeset-audit-pages/page-0453.png)
   - does this connection mean? He brings a ⁧פסוק⁩ from ⁦שמות ד:י״ד⁩: ⁧וְרָאֲךָ וְשָׂמַח בְּלִבּוֹ⁩. What is ⁦אהרן'⁩s ⁧מידה⁩? We all know abou...
   - normalized: does this connection mean? He brings a פסוק from שמות ד:י״ד: וְרָאֲךָ וְשָׂמַח בְּלִבּוֹ. What is אהרן's מידה? We all know about...
 ## MEDIUM - quote surrounded by spaces
 
-- PDF visual text, page 6, About the Name, line 27
-  - visual: [page-0006.png](typeset-audit-pages/page-0006.png)
+- PDF visual text, page 7, About the Name, line 27
+  - visual: [page-0007.png](typeset-audit-pages/page-0007.png)
   - Zeidy as the ⁧“‫ ⁩”ַּמְלָאְך‬in this pasuk feels natural, as anyone who knows him
   - normalized: Zeidy as the “ ”ַּמְלָאְךin this pasuk feels natural, as anyone who knows him
 - PDF visual text, page 31, asked him, “Did you daven during those 40 days?” “What a question! Three, line 5

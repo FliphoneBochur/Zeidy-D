@@ -394,14 +394,14 @@ function buildRoutes(manifest, existingRoutes = { byRoute: {}, byContentPath: {}
     byContentPath: {},
   };
 
-  function existingTitleFor(route, contentPath) {
-    const routeTitle = existingRoutes.byRoute?.[route]?.title;
-    if (routeTitle) {
-      return routeTitle;
+  function existingRouteFieldFor(route, contentPath, fieldName) {
+    const routeValue = existingRoutes.byRoute?.[route]?.[fieldName];
+    if (routeValue) {
+      return routeValue;
     }
 
     const previousRoute = existingRoutes.byContentPath?.[contentPath];
-    return previousRoute ? existingRoutes.byRoute?.[previousRoute]?.title : null;
+    return previousRoute ? existingRoutes.byRoute?.[previousRoute]?.[fieldName] : null;
   }
 
   function entryFor(route, contentPath, baseFilename) {
@@ -409,9 +409,13 @@ function buildRoutes(manifest, existingRoutes = { byRoute: {}, byContentPath: {}
       contentPath,
       baseFilename,
     };
-    const title = existingTitleFor(route, contentPath);
+    const title = existingRouteFieldFor(route, contentPath, "title");
     if (title) {
       entry.title = title;
+    }
+    const pdfPage = existingRouteFieldFor(route, contentPath, "pdfPage");
+    if (pdfPage) {
+      entry.pdfPage = pdfPage;
     }
     return entry;
   }
