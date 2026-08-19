@@ -139,33 +139,14 @@ Eliyahu Safran
 
 #pagebreak()
 
-#set page(header: none, footer: none, margin: (
-    inside: 0.78in,
-    outside: 0.62in,
-    top: 0.68in,
-    bottom: 0.82in,
-  ))
+#set page(header: none, footer: none, margin: 0in)
 
 
-It is a distinct honor to write these words for my dear friend, the
-esteemed physician Dr. Leslie Bennett, who has composed a
-beautiful~#emph[sefer]~which includes~#emph[divrei Torah]~on
-each~#emph[parsha]~and on the~#emph[Moadim].
-
-Dr. Bennett has been my friend since childhood - we grew up on the same
-block and were classmates throughout high school and college. Therefore, I can attest firsthand that he is not only a prominent physician, but a
-true~#emph[baal middos], who has consistently been~#emph[kovea
-ittim]~for Torah study despite his busy schedule.
-
-His~#emph[sefer]~will no doubt be very useful both to~#emph[baalei
-batim]~and~#emph[rabbanim]~for the collection of incisive~#emph[divrei
-Torah]~it contains, culled from a wide range of sources and including
-his own brilliant insights as well.
-
-I wish him much continued~#emph[hatzlachah], and may he and his family
-see much~#emph[nachas]~from all of their endeavors.
-
-Rabbi Menachem Genack
+#block(width: 100%, height: 100%)[
+  #align(center + horizon)[
+    #image("../../07 - Haskamos/Rabbi Menachem Genack/Rabbi Menachem Genack.pdf", width: 100%, height: 100%, fit: "contain")
+  ]
+]
 
 #pagebreak()
 

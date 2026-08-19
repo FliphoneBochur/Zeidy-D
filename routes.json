@@ -887,7 +887,8 @@
     },
     "/rabbi-menachem-genack/": {
       "contentPath": "07 - Haskamos/Rabbi Menachem Genack",
-      "baseFilename": "Rabbi Menachem Genack"
+      "baseFilename": "Rabbi Menachem Genack",
+      "pdfPage": "Rabbi Menachem Genack.pdf"
     },
     "/rabbi-oelbaum/": {
       "contentPath": "07 - Haskamos/Rabbi Oelbaum",
