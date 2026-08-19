@@ -885,6 +885,10 @@
       "contentPath": "07 - Haskamos/Rabbi Eliyahu Safran",
       "baseFilename": "Eliyahu Safran Haskama"
     },
+    "/rabbi-menachem-genack/": {
+      "contentPath": "07 - Haskamos/Rabbi Menachem Genack",
+      "baseFilename": "Rabbi Menachem Genack"
+    },
     "/rabbi-oelbaum/": {
       "contentPath": "07 - Haskamos/Rabbi Oelbaum",
       "baseFilename": "Rabbi Oelbaum"
@@ -1149,6 +1153,7 @@
     "06 - Yom Tov/19 - Purim/5785": "/purim/5785/",
     "06 - Yom Tov/20 - Rosh Chodesh": "/rosh-chodesh/",
     "07 - Haskamos/Rabbi Eliyahu Safran": "/rabbi-eliyahu-safran/",
+    "07 - Haskamos/Rabbi Menachem Genack": "/rabbi-menachem-genack/",
     "07 - Haskamos/Rabbi Oelbaum": "/rabbi-oelbaum/",
     "07 - Haskamos/Rabbi Pesach Krohn": "/rabbi-pesach-krohn/",
     "07 - Haskamos/Rabbi Yossi Bennett": "/rabbi-yossi-bennett/",
