@@ -3401,9 +3401,9 @@ with names.
 
 I came across an interesting insight from R’ Chaim. He used to say that
 naming a child after a deceased relative had no ⁧ייחוס⁩ or benefit, either
-for the ⁧נפטר⁩ or for the child. He explained it was simply a ⁧זיכרון⁩ of
-the ⁧נפטר⁩. However, he later revised this opinion. Like many ⁧גדולים⁩ in
-the ⁧גמרא⁩ who changed their views, R’ Chaim stated that it is indeed a
+for the ⁧נפטר⁩ or for the child. He explained it was simply a ⁧זכרון⁩ of the
+⁧נפטר⁩. However, he later revised this opinion. Like many ⁧גדולים⁩ in the
+⁧גמרא⁩ who changed their views, R’ Chaim stated that it is indeed a
 tremendous ⁧זכות⁩ for the child and provides great ⁧נחת⁩ to the ⁧נשמה⁩ of the
 deceased. He also mentioned that the ⁧חזון איש⁩ shared this opinion.
 Furthermore, giving a child a name connected to the ⁧פרשה⁩ is an added
