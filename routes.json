@@ -887,11 +887,17 @@
     },
     "/rabbi-menachem-genack/": {
       "contentPath": "07 - Haskamos/Rabbi Menachem Genack",
-      "baseFilename": "Rabbi Menachem Genack"
+      "baseFilename": "Rabbi Menachem Genack",
+      "pdfPage": "Rabbi Menachem Genack.pdf"
     },
     "/rabbi-oelbaum/": {
       "contentPath": "07 - Haskamos/Rabbi Oelbaum",
       "baseFilename": "Rabbi Oelbaum"
+    },
+    "/rabbi-peretz-steinberg/": {
+      "contentPath": "07 - Haskamos/Rabbi Peretz Steinberg",
+      "baseFilename": "Rabbi Peretz Steinberg",
+      "pdfPage": "Rabbi Peretz Steinberg.pdf"
     },
     "/rabbi-pesach-krohn/": {
       "contentPath": "07 - Haskamos/Rabbi Pesach Krohn",
@@ -1155,6 +1161,7 @@
     "07 - Haskamos/Rabbi Eliyahu Safran": "/rabbi-eliyahu-safran/",
     "07 - Haskamos/Rabbi Menachem Genack": "/rabbi-menachem-genack/",
     "07 - Haskamos/Rabbi Oelbaum": "/rabbi-oelbaum/",
+    "07 - Haskamos/Rabbi Peretz Steinberg": "/rabbi-peretz-steinberg/",
     "07 - Haskamos/Rabbi Pesach Krohn": "/rabbi-pesach-krohn/",
     "07 - Haskamos/Rabbi Yossi Bennett": "/rabbi-yossi-bennett/",
     "08 - Prefaces/Ari": "/ari/",
