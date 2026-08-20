@@ -458,7 +458,7 @@ Dedicated to the grandchildren ⁧שיחיו⁩.]
     top: 0.68in,
     bottom: 0.82in,
   ))
-#heading(level: 1, outlined: false)[Foreward - Ari]
+#heading(level: 1, outlined: false)[Foreword - Ari]
 
 #align(center)[
 “Someday, I want to write a sefer with all of my vertlach.”]
@@ -1753,13 +1753,13 @@ train themselves to do that, and take my word for it, it's worth it.
 
 #pagebreak()
 
-#set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/chayai-sara/5787/", "../../01 - Bereshis/05 - Chayai Sara/5787/Chaya Sara 5787.png"), margin: (
+#set page(header: page-number-header(), footer: article-footer("https://zeidyd.com/chayai-sara/5787/", "../../01 - Bereshis/05 - Chayai Sara/5787/Chayai Sara 5787.png"), margin: (
     inside: 0.78in,
     outside: 0.62in,
     top: 0.68in,
     bottom: 0.82in,
   ))
-= Chaya Sara 5787
+= Chayai Sara 5787
 
 ⁧לכאורה⁩⁦,⁩ to my mind, the first ⁧שבעה⁩ that was ever alluded to in the Torah
 is in ⁧פרשת חיי שרה⁩. ⁧שרה אמנו⁩ passed away, and it says (23:2) ⁧וַתָּמָת שָׂרָה⁩⁦,⁩ and the next ⁧פסוק⁩ says ⁧וַיָּקָם אַבְרָהָם מֵעַל פְּנֵי מֵתוֹ⁩. So what does it mean

@@ -21,7 +21,7 @@ The PDF scan uses extracted visual text, so it is useful for catching rendered p
   - normalized: , גלות יוון, אך בהווה ;גלות אדום גלות בבל- but in the present time, לא יוכל האדם
 ## MEDIUM - missing space after colon before Hebrew in Typst source
 
-- Typst source, page 57, Chaya Sara 5787, line 1769
+- Typst source, page 57, Chayai Sara 5787, line 1769
   - visual: [page-0057.png](typeset-audit-pages/page-0057.png)
   - מ״ט:י״ז)⁩: ⁧אַל תִּירָא כִּי יַעֲשִׁר אִישׁ כִּי יִרְבֶּה כְּבוֹד בֵּיתוֹ⁩ - Don't be...
   - normalized: מ״ט:י״ז): אַל תִּירָא כִּי יַעֲשִׁר אִישׁ כִּי יִרְבֶּה כְּבוֹד בֵּיתוֹ - Don't be af...

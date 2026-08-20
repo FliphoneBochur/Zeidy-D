@@ -78,7 +78,8 @@
     },
     "/chayai-sara/5787/": {
       "contentPath": "01 - Bereshis/05 - Chayai Sara/5787",
-      "baseFilename": "Chaya Sara 5787"
+      "baseFilename": "Chayai Sara 5787",
+      "title": "Chayai Sara 5787"
     },
     "/toldos/5784/": {
       "contentPath": "01 - Bereshis/06 - Toldos/5784",
@@ -910,7 +911,7 @@
     },
     "/ari/": {
       "contentPath": "08 - Prefaces/Ari",
-      "baseFilename": "Foreward - Ari"
+      "baseFilename": "Foreword - Ari"
     },
     "/zeidy/": {
       "contentPath": "08 - Prefaces/Zeidy",
