@@ -108,6 +108,70 @@
   ))
 
 
+Rabbi Dovid Hoffman
+
+Author of Torah Tavlin
+
+Editor-in-Chief of Monsey Mevaser
+
+L'kavod my dear friend, Dr. Leslie Bennett, Every year, on Rosh Hashanah and Yom Kippur, we daven the solemn prayer
+known as “Hineni He'ani M'maas.” The Chazan begins the Mussaf Tefillah
+by beseeching the Almighty to accept him as the selected representative
+of the congregation and permit his tearful prayers to penetrate the
+Heavens and deliver kindness and good judgment on behalf of his
+constituents. In a voice full of trepidation he intones, “Grant me
+success upon the path which I tread, to stand and beg for mercy on
+myself and upon those who have sent me.” It is this sincere plea which
+propels the entire day's tefillos into an other-worldly experience, and
+few can resist the feelings of awe and inspiration as they are recited.
+
+As I grew up in Kew Gardens Hills, I have had the privilege of knowing
+Dr. Leslie Bennett almost my entire life. He is a man whose entire
+purpose in life is to help and treat others. Dr. Bennett has practically
+become the “spokesman” for Torah Tavlin, the series I have written, displaying, distributing, and discussing it wherever he finds himself -
+not only on Shabbos but throughout the week. Sometimes I wonder if he
+thinks about it more than I do! I look forward to his witty and
+penetrating phone calls, always short and to the point, but always
+adding a bit here and there and telling me which Rabbi or Rosh Yeshivah
+he gave the Torah Tavlin sheet to. I cannot thank him enough for his
+gracious friendship and support
+
+Now that Dr. Bennett has written his own sefer - “Hadover Bi” - a
+collection of deep and penetrating thoughts and chiddushim in this
+beautiful book, I would like to offer up my own sincere prayer that
+Hashem should “grant him success” and allow his path - the path of
+Harbotzas Torah through the promulgation of his new sefer - to be the
+one that guides his life, as well as a beacon into the future for his
+entire family.
+
+Dr. Bennett is an individual who was chosen by the Almighty to fill the
+needs of our contemporary times. He radiates with incredible passion
+while giving over his many thoughts in a beautiful and pleasant way.
+Just as Hashem has blessed him until now, I would like to extend my
+humble beracha that he should continue to inspire and enlighten the
+world with his precious words, with great health and happiness.
+
+May all of Klal Yisroel merit a Ksiva V'chasima Tova, and may this Sefer
+Hadover Bi accomplish its tafkid of drawing people closer to Hashem to
+merit a Teshuva Shleima and a Piska Tova. Hashem should give Dr. Bennett
+the strength to continue helping Klal Yisroel - both medically and
+altruistically - with the public service he so capably demonstrates.
+
+“Hakadosh Boruch Hu Y'shalem S'charam \.....”
+#linebreak()
+With great admiration and affection, #linebreak()
+Dovid Yoel Hoffman
+
+#pagebreak()
+
+#set page(header: none, footer: none, margin: (
+    inside: 0.78in,
+    outside: 0.62in,
+    top: 0.68in,
+    bottom: 0.82in,
+  ))
+
+
 It is with great pride and pleasure that I share my accolades and praise
 with my long time friend Dr. Leslie Bennett, whom I have known since our
 childhood days in Forest Hills. I vividly recall his dear parents z'l
