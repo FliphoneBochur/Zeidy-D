@@ -287,6 +287,17 @@ R’ Noach Isaac Oelbaum, \ Mora D'Asra of Khal Nachlas Yitzchok
 
 #pagebreak()
 
+#set page(header: none, footer: none, margin: 0in)
+
+
+#block(width: 100%, height: 100%)[
+  #align(center + horizon)[
+    #image("../../07 - Haskamos/Rabbi Yaakov Gibber/Rabbi Yaakov Gibber.pdf", width: 100%, height: 100%, fit: "contain")
+  ]
+]
+
+#pagebreak()
+
 #set page(header: none, footer: none, margin: (
     inside: 0.78in,
     outside: 0.62in,

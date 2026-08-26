@@ -909,6 +909,11 @@
       "baseFilename": "Rabbi Pesach Krohn",
       "pdfPage": "Rabbi Pesach Krohn.pdf"
     },
+    "/rabbi-yaakov-gibber/": {
+      "contentPath": "07 - Haskamos/Rabbi Yaakov Gibber",
+      "baseFilename": "Rabbi Yaakov Gibber",
+      "pdfPage": "Rabbi Yaakov Gibber.pdf"
+    },
     "/rabbi-yossi-bennett/": {
       "contentPath": "07 - Haskamos/Rabbi Yossi Bennett",
       "baseFilename": "Rabbi Yossi Bennett"
@@ -1169,6 +1174,7 @@
     "07 - Haskamos/Rabbi Oelbaum": "/rabbi-oelbaum/",
     "07 - Haskamos/Rabbi Peretz Steinberg": "/rabbi-peretz-steinberg/",
     "07 - Haskamos/Rabbi Pesach Krohn": "/rabbi-pesach-krohn/",
+    "07 - Haskamos/Rabbi Yaakov Gibber": "/rabbi-yaakov-gibber/",
     "07 - Haskamos/Rabbi Yossi Bennett": "/rabbi-yossi-bennett/",
     "08 - Prefaces/Ari": "/ari/",
     "08 - Prefaces/Zeidy": "/zeidy/",
